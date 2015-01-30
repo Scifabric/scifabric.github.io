@@ -18,7 +18,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font: 13.34px Monaco, Helvetica, Arial, sans-serif;
+  font: 13.34px 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
   color:#fff;
@@ -67,19 +67,36 @@ a:visited { color: #fff; }
 	display:block;
 }
 
+h1 {
+	display:none;
+}
+h2 {
+	text-align:center;
+	width:80%;
+	margin:0 auto 20px auto;
+	font-weight:normal;
+}
+h3 {
+	text-align:center;
+	margin:10px auto 0 auto;
+	font-weight:normal;
+}
+
 #email {
 	position:absolute;
 	bottom:15%;
 	width:100%;
 	text-align:center;
-	margin:0 auto;
+	margin:0 auto 20px auto;
+	top:440px;
 }
-
 
 #logo {
 	width:60%;
+	height:200px;
 	max-width:300px;
 	position:absolute;
+	display:block;
 	margin-left: auto;
 	margin-right: auto;
 	left: 0;
@@ -93,13 +110,74 @@ a:visited { color: #fff; }
 	width:60%;
 	max-width:300px;
 	position:absolute;
+	display:block;
 	margin-left: auto;
 	margin-right: auto;
 	left: 0;
 	right: 0;
 	display:block;
 	margin:0 auto;
-	opacity:0;
+	opacity:.05;
+}
+
+@media all and (min-width: 421px) and (max-width: 1024px) {
+	#logo {
+		width:80%;
+		max-width:240px;
+	}
+
+	#logo2 {
+		width:80%;
+		max-width:240px;
+	}
+	#email {
+		top:340px;
+	}
+	.hb-custom {
+		line-height: 24px !important;
+		font-size: 18px !important;
+		margin: 14px 0px !important; /* Original output, margin 0 of the button */ 
+		/*margin: 33.5px 15px;*/ /* New output, margin 15px of the button,  9.5 + 15 = 24.5 */ 
+	}
+	.hb-custom ,
+	.hb-custom:before ,
+	.hb-custom:after {
+		height:24px !important;
+		width:40px !important;
+	}
+	.hb-sm-margin {
+		height:56px !important;
+	}
+}
+
+@media all and (max-width: 420px) {
+	#logo {
+		width:60%;
+		max-width:160px;
+	}
+
+	#logo2 {
+		width:60%;
+		max-width:160px;
+	}
+	#email {
+		top:220px;
+	}
+	.hb-custom {
+		line-height: 18.5px !important;
+		font-size: 18.5px !important;
+		margin: 9.5px 0px !important; /* Original output, margin 0 of the button */ 
+		/*margin: 33.5px 15px;*/ /* New output, margin 15px of the button,  9.5 + 15 = 24.5 */ 
+	}
+	.hb-custom ,
+	.hb-custom:before ,
+	.hb-custom:after {
+		height:18.5px !important;
+		width:32px !important;
+	}
+	.hb-sm-margin {
+		height:40px !important;
+	}
 }
 
 /*****************************************************************************/

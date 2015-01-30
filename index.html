@@ -1,23 +1,30 @@
 ---
 layout: default
+title: SciFabric - Tailor-made solutions for your citizen science and research projects
 ---
 
-<div class="home">
+<div id="home">	
+	
+	<div id='triangles'>
+		{% include svg_triangles.html %}
+	</div>
 
-  <h1 class="page-heading">Posts</h1>
+<div id="logo_traced">
+	
+	<div id='logo'></div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+	<div id='logo2'>
+		<img src="/css/scifabric_logo_white_vert_trans.svg" alt="SciFabric Logo" style="width: 100%; height: auto;">
+	</div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+</div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div id="email">
+	<h2>Drop us an email</h2>
+	<a href="mailto:info@scifabric.com">info@scifabric.com</a>
+	<br /><br />
+	<h2>or follow us on</h2>
+	<a href="https://twitter.com/crowdcrafting">Twitter</a> | <a href="https://www.facebook.com/crowdcrafting">Facebook</a> | <a href="https://github.com/PyBossa/crowdcrafting.org">Github</a>
+</div>
+	
 </div>

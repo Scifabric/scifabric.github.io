@@ -336,8 +336,8 @@ inv 		= Inverse Behaver of buttons
 	background: transparent !important;  /*  Custom background color  */
 	color: rgba(255,255,255,.5) !important; /* Custom font color */
 	/*font-size:20px;*/ /* Custom font size */
-	border-left:1px solid #fff !important;
-	border-right:1px solid #fff !important;
+	border-left:1px solid transparent !important;
+	border-right:1px solid transparent !important;
 	-webkit-transition: background .2s, color .2s, border .2s; /* For Safari 3.1 to 6.0 */
 	transition: all .2s;
 	transition-property: color, background, border;
@@ -353,8 +353,8 @@ inv 		= Inverse Behaver of buttons
 .hb-custom:hover:before,
 .hb-custom:hover:after {
 	background: transparent !important;  
-	border-left:1px solid #fff !important;
-	border-right:1px solid #fff !important;
+	border-left:2px solid #fff !important;
+	border-right:2px solid #fff !important;
 	color: rgba(255,255,255,1) !important; /* Custom hover font color */
 }
 /* 5.4 - Custom Button hover colors End

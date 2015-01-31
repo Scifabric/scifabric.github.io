@@ -91,7 +91,7 @@ var pathObj = {
 			"drawSequential": true,
 			"responsive": true,
 			"onComplete": wadus,
-			"delay": 0
+			"delay": 1000
 			}).lazylinepainter('paint'); 
 
 });
@@ -104,9 +104,13 @@ var wadus = function() {
 	  }, 600, function() {
 	    // Animation complete.
 	  });
-	$("#logo").animate({
-		opacity: 0
-	  }, 600, function() {
+	$("#logo").animate({ opacity: 0 }, 300 );
+	$( "#logo2" ).hover(function() {
+		$(this).animate({ opacity: 0 }, 300 );
+		$("#logo").animate({ opacity: 0.2 }, 300 );
+	}, function() {
+		$(this).animate({ opacity: 1 }, 300 );
+		$("#logo").animate({ opacity: 0 }, 300 );
 	});
  };
 

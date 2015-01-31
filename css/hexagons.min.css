@@ -305,8 +305,8 @@ inv 		= Inverse Behaver of buttons
 .hb:before,
 .hb:after {
 	background-color: #2c3e50;  /*  Default background color  */ 
-	border-left:1px solid #2c3e50;
-	border-right:1px solid #2c3e50;
+	border-left:2px solid #2c3e50;
+	border-right:2px solid #2c3e50;
 	color: #2ecc71; /* Default font color */
 }
 /* 5.1 - Default Colors End
@@ -319,8 +319,8 @@ inv 		= Inverse Behaver of buttons
 .hb:hover:before,
 .hb:hover:after {
 	background: transparent;  
-	border-left:1px solid #2ecc71;
-	border-right:1px solid #2ecc71;  
+	border-left:2px solid #2ecc71;
+	border-right:2px solid #2ecc71;  
 	color: #2ecc71; /* Default hover font color */
 }
 /* 5.2 - Default hover colors end
@@ -333,13 +333,13 @@ inv 		= Inverse Behaver of buttons
 .hb-custom,
 .hb-custom:before,
 .hb-custom:after {
-	background: #333 !important;  /*  Custom background color  */
-	color: #555 !important; /* Custom font color */
+	background: transparent !important;  /*  Custom background color  */
+	color: rgba(255,255,255,.5) !important; /* Custom font color */
 	/*font-size:20px;*/ /* Custom font size */
-	border-left:1px solid #444 !important;
-	border-right:1px solid #444 !important;
-	-webkit-transition: background .3s, color .3s, border .3s; /* For Safari 3.1 to 6.0 */
-	transition: all .3s;
+	border-left:1px solid #fff !important;
+	border-right:1px solid #fff !important;
+	-webkit-transition: background .2s, color .2s, border .2s; /* For Safari 3.1 to 6.0 */
+	transition: all .2s;
 	transition-property: color, background, border;
 }
 /* 5.3 - Custom Button colors End
@@ -352,10 +352,10 @@ inv 		= Inverse Behaver of buttons
 .hb-custom:hover,
 .hb-custom:hover:before,
 .hb-custom:hover:after {
-	background: #fff !important;  
+	background: transparent !important;  
 	border-left:1px solid #fff !important;
 	border-right:1px solid #fff !important;
-	color: #333!important; /* Custom hover font color */
+	color: rgba(255,255,255,1) !important; /* Custom hover font color */
 }
 /* 5.4 - Custom Button hover colors End
 -------------------------------------------------*/

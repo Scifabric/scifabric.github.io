@@ -13,11 +13,12 @@
 html, body { height: 100%; }
 
 body {
-  background: #333;
+  background: #333 url('../images/nasa2.jpg') no-repeat top center;
  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-attachment:fixed;
   font: 13.34px 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
@@ -62,9 +63,8 @@ a:visited { color: #fff; }
 
 #logo_traced {
 	width:100%;
-	margin-top:5%;
-	height:auto;
-	display:block;
+	padding-top:5%;
+	height:550px;
 }
 
 h1 {
@@ -73,12 +73,12 @@ h1 {
 h2 {
 	text-align:center;
 	width:80%;
-	margin:0 auto 20px auto;
+	margin:0 auto 10px auto;
 	font-weight:normal;
 }
 h3 {
 	text-align:center;
-	margin:10px auto 0 auto;
+	margin:0px auto 0 auto;
 	font-weight:normal;
 }
 
@@ -88,7 +88,7 @@ h3 {
 	width:100%;
 	text-align:center;
 	margin:0 auto 20px auto;
-	top:440px;
+	top:500px;
 }
 
 #logo {
@@ -117,7 +117,7 @@ h3 {
 	right: 0;
 	display:block;
 	margin:0 auto;
-	opacity:.05;
+	opacity:0;
 }
 
 @media all and (min-width: 421px) and (max-width: 1024px) {
@@ -130,8 +130,20 @@ h3 {
 		width:80%;
 		max-width:240px;
 	}
+	#logo_traced {
+		height:500px;
+		padding-top:8%;
+	}
+	h2 {
+		margin:0 auto 10px auto;
+	}
+	h3 {
+		text-align:center;
+		margin:10px auto 0 auto;
+		font-weight:normal;
+	}
 	#email {
-		top:340px;
+		top:380px;
 	}
 	.hb-custom {
 		line-height: 24px !important;
@@ -155,13 +167,23 @@ h3 {
 		width:60%;
 		max-width:160px;
 	}
-
+	#logo_traced {
+		height:280px;
+	}
 	#logo2 {
 		width:60%;
 		max-width:160px;
 	}
+	h2 {
+		margin:0 auto 10px auto;
+	}
+	h3 {
+		text-align:center;
+		margin:10px auto 0 auto;
+		font-weight:normal;
+	}
 	#email {
-		top:220px;
+		top:200px;
 	}
 	.hb-custom {
 		line-height: 18.5px !important;
@@ -224,11 +246,10 @@ h3 {
   color: #aaa;
 }
 
-.footer {
+#footer {
   font-size: 80%;
   color: #666;
-  margin-top: 2em;
-  overflow: hidden;
+  text-align:center;
 }
 
 .footer .contact {

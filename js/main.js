@@ -96,7 +96,7 @@ var pathObj = {
 			"drawSequential": true,
 			"responsive": true,
 			"onComplete": wadus,
-			"delay": 1000
+			"delay": 1500
 			}).lazylinepainter('paint'); 
 
 });
@@ -123,8 +123,8 @@ var wadus = function() {
        $('.quotes div').hide(); // hide all slides
              $('.quotes div:first-child').show(); // show first slide
              setInterval(function () {
-                   $('.quotes div:first-child').fadeOut(1000)
-                         .next('div').fadeIn(3000)
+                   $('.quotes div:first-child').fadeOut(2000)
+                         .next('div').fadeIn(4000)
                          .end().appendTo('.quotes');
              },
        6000); // slide duration

@@ -23,6 +23,7 @@ body {
   font-weight:normal;
   text-align: center;
   color:#fff;
+  text-rendering:optimizeLegibility;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -87,7 +88,7 @@ h3 {
 	left:-50%;
 }
 .quotes div p.quote {
-	font-family:"Palatino Linotype", "Georgia", "Book Antiqua", Palatino, serif;
+	font-family:"Lucida Bright", "Palatino Linotype", "Georgia", "Book Antiqua", Palatino, serif;
 	font-style:italic;
 	font-size:26px;
 	margin:0;
@@ -237,7 +238,7 @@ footer #SSNN a i span {
 	font-size:14px;
 }
 
-@media all and (max-width: 420px) {
+@media all and (max-width: 660px) {
 	footer {
 		position:relative;
 		top:50px;
@@ -250,8 +251,11 @@ footer #SSNN a i span {
 		width:80%;
 		left:-50%;
 		text-align:center;
-		margin:0 0 30px 0;
+		margin:0 0 40px 0;
 		padding:0 10%;
+	}
+	footer #powered {
+		margin:0 0 0 0;
 	}
 	footer #SSNN p {
 		display:block;

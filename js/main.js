@@ -106,12 +106,12 @@ var pathObj = {
 		$('.comingsoon a').mouseout(function(){
 		    $('.bg_image').removeClass('scale');
 		});
-		$('#logo2').mouseover(function(){
-			$('.bg_image').addClass('scale');
-		});
-		$('#logo2').mouseout(function(){
-		    $('.bg_image').removeClass('scale');
-		});
+		// $('#logo2').mouseover(function(){
+		// 	$('.bg_image').addClass('scale');
+		// });
+		// $('#logo2').mouseout(function(){
+		//     $('.bg_image').removeClass('scale');
+		// });
 	});
 
 

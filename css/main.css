@@ -13,17 +13,30 @@
 html, body { height: 100%; }
 
 body {
-  background: #333 url('../images/nasa2.jpg') no-repeat top center;
- -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-attachment:fixed;
   font: 16px 'gotham', 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight:normal;
   text-align: center;
   color:#fff;
   text-rendering:optimizeLegibility;
+}
+
+.bg_image {
+	position:absolute;
+	z-index:-99999px;
+	width:100%;
+	height:100%;
+	background: #333 url('../images/nasa2.jpg') no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow:hidden;
+	background-attachment:fixed;
+	transform: scale(1.0);
+  	transition: transform 3.5s ease;
+}
+.bg_image.scale {
+	transform: scale(1.1);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -70,22 +83,33 @@ h3 {
 	margin:100px auto 0 auto;
 }
 .comingsoon {
+	position:relative;
 	width:100%;
 	text-align:center;
 	margin:200px auto 0 auto;
 }
+.comingsoon a {
+	display:block;
+	width:270px;
+	margin:10px auto 0 auto;
+	border:2px solid rgba(255,255,255,.3);
+	border-radius:4px;
+	padding:10px;
+	text-decoration:none;
+	transition: all .5s ease;
+}
+	.comingsoon a:hover {
+		border:2px solid rgba(255,255,255,1);
+	}
 
 .quotes {
 	width:100%;
-	height:80px;
-	position:absolute;
-	left:50%;
+	height:0px;
 }
 .quotes div {
 	width:100%;
 	text-align:center;
 	position:absolute;
-	left:-50%;
 }
 .quotes div p.quote {
 	font-family:"Lucida Bright", "Palatino Linotype", "Georgia", "Book Antiqua", Palatino, serif;
@@ -142,7 +166,7 @@ h3 {
 		height:280px;
 	}
 	.quotes {
-		width:80%;
+		width:100%;
 	}
 	.quotes div {
 		width:80%;
@@ -180,7 +204,7 @@ h3 {
 		width:90%;
 	}
 	.quotes div {
-		width:90%;
+		width:auto;
 		padding:0 5%;
 	}
 	.quotes div p.quote {
@@ -240,16 +264,14 @@ footer #SSNN a i span {
 
 @media all and (max-width: 660px) {
 	footer {
-		position:relative;
-		top:50px;
-		width:80%;
-		left:50%;
+		position:absolute;
+		bottom:0px;
+		width:100%;
 	}
 	footer #powered,
 	footer #SSNN {
 		position:relative;
 		width:80%;
-		left:-50%;
 		text-align:center;
 		margin:0 0 40px 0;
 		padding:0 10%;

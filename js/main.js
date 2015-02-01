@@ -88,8 +88,7 @@ var pathObj = {
 //		});
 //	}, 6000); // every 1000 ms
 	
- 	$('#logo').lazylinepainter( 
- 		{
+ 	$('#logo').lazylinepainter({
     		"svgData": pathObj,
     		"strokeWidth": 3,
     		"strokeColor": "#fff",
@@ -97,9 +96,23 @@ var pathObj = {
 			"responsive": true,
 			"onComplete": wadus,
 			"delay": 1500
-			}).lazylinepainter('paint'); 
+		}).lazylinepainter('paint');
+	});
 
-});
+	$(document).ready(function(){ 
+		$('.comingsoon a').mouseover(function(){
+		    $('.bg_image').addClass('scale');
+		});
+		$('.comingsoon a').mouseout(function(){
+		    $('.bg_image').removeClass('scale');
+		});
+		$('#logo2').mouseover(function(){
+			$('.bg_image').addClass('scale');
+		});
+		$('#logo2').mouseout(function(){
+		    $('.bg_image').removeClass('scale');
+		});
+	});
 
 
 var wadus = function() {
@@ -120,12 +133,12 @@ var wadus = function() {
  };
 
  $(function () {
-       $('.quotes div').hide(); // hide all slides
-             $('.quotes div:first-child').show(); // show first slide
+       $('.quotes div').hide();
+             $('.quotes div:first-child').show();
              setInterval(function () {
                    $('.quotes div:first-child').fadeOut(2000)
                          .next('div').fadeIn(4000)
                          .end().appendTo('.quotes');
              },
-       6000); // slide duration
+       6000);
  });

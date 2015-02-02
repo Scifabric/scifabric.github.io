@@ -30,9 +30,10 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	box-sizing: border-box;
 	overflow:hidden;
 	background-attachment:fixed;
-	transform: scale(1.0);
+	transform: background-scale(1.0);
   	transition: transform 10s ease;
 }
 .bg_image.scale {

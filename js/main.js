@@ -76,10 +76,10 @@ var wadus = function() {
 	$( "#logo2" ).animate({
 	    width: "70%",
 		opacity: 1
-	  }, 1800, function() {
+	  }, 1200, function() {
 	    // Animation complete.
 	  });
-//	$("#logo").animate({ opacity: 0 }, 300 );
+	$("#logo").animate({ opacity: 0 }, 600 );
 //	$( "#logo2" ).hover(function() {
 //		$(this).animate({ opacity: 0 }, 300 );
 //		$("#logo").animate({ opacity: 0.2 }, 300 );

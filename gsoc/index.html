@@ -1,0 +1,135 @@
+---
+layout: info
+title: SciFabric - Google Summer of Code 2015
+---
+<Section class="summer-head">
+<img src="/images/logo-h.png">
+</section>
+
+<section class="general">
+    <h1>Google Summer of Code 2015</h1>
+  
+  <div id="SummerCode">
+    <img src="/images/GoSC.png">
+  </div>
+
+    <h2>A few words about us</h2>
+    <p><a href="http://pybossa.com">PyBossa</a> is a free, <a href="http://github.com/PyBossa/">100% open-source framework for crowdsourcing</a>. It enables you to create and run projects where volunteers help you with image classification, transcription, geocoding and more. PyBossa lets researchers, civic hackers and developers connect with people all around the world to solve problems faster and more efficiently. Embrace the power of the crowd!</p>
+
+    <h2>Crowdcrafting: our PyBossa hosted service</h2>
+    <p><a href="http://crowdcrafting.org">Crowdcrafting</a> uses PyBossa software. It is a web-based service that invites volunteers to contribute to scientific projects developed by citizens, professionals or institutions that need help to solve problems, analyze data or complete challenging tasks that can’t be done by machines alone, but require human intelligence.</p>
+    <p>The platform is 100% open source – that is its software is developed and distributed freely – and 100% open-science, making scientific research accessible to everyone.</p>
+
+    <h2>Information for Students</h2>
+    <p>Getting in touch with us and discussing the project idea will definitely increase your chance to write a good project proposal and finally to get accepted. If you want to apply for or propose a project, please use our application template and send a copy to us. </p>
+
+    
+    <h2 id="projects"> Projects</h2>
+
+    <h2 class="font2">Make PyBossa project development easier <br>by using Yeoman templates</h2>
+    <h3>Aim and Summary</h3>
+      <ul>
+        <li>PyBossa projects  (formely called apps) are basically simple HTML & JS websites. Implementation samples are currently hosted here starting with app-*  https://github.com/PyBossa. To develop your own customized PyBossa crowdsourcing project you have to clone them and modify them. Yeoman is a great tool to create such templates, test and easy customize them with a simple command line like “yo pybossa-project”.</li>
+      </ul>
+
+      <h3>Implementation Ideas and Resources</h3>
+      <ul>
+        <li>Create a simple modular structure for PyBossa projects with e.g. grunt & bower.</li>
+        <li>(Live) Preview of HTML/JS projects without using PyBossa server for development.</li>
+        <li>Add automated testing of PyBossa HTML/JS projects.</li>
+        <li>Goal: At the end the PyBossa end user should be able to create a custom, modular, well tested project more easily with simple steps inside Yeoman and not cloning & modify existing projects on github.</li>
+      </ul>
+
+      <h3>Skills</h3>
+      <ul>
+        <li>Programming skills: JavaScript, HTML5, basic Python skills</li>
+        <li>Knowledge of modern JS dev tools like: npm, bower, grunt.</li>
+        <li>Knowledge of Yeoman & JS testing tools like mocha is a plus.</li>
+        <li>Usability and visual design skills a plus</li>
+      </ul>
+
+       <h3>Mentors</h3>
+        <p>Alejandro <a
+            href="https://twitter.com/alejandrodob">@alejandrodob</a> and
+        Marvin <a href="https://twitter.com/therealmarv">@therealmarv</a></p>
+    <br>
+
+    <h2 class="font2">Improvements for PyBossa.js</h2>
+      <ul>
+        <li>Create a simple modular structure for <a href="https://github.com/PyBossa/pybossa.js">PyBossa.js</a> library using grunt & bower.</li>
+        <li>Trigger events when a task is loaded, presented and saved.</li>
+        <li>Tests for the current library.</li>
+        <li>Goal: update, improve and add new functionalities to the PyBossa.js library in order to make it easier to debug and develop with.</li>
+      </ul>
+
+      <h3>Skills</h3>
+      <ul>
+        <li>Programming skills: JavaScript and HTML5</li>
+        <li>Knowledge of modern JS dev tools like: npm, bower, grunt.</li>
+        <li>Knowledge of Yeoman & JS testing tools like mocha is a plus.</li>
+      </ul>
+
+      <h3>Mentors</h3>
+
+          <p>Alejandro 
+          <a href="https://twitter.com/alejandrodob">@alejandrodob</a>, Marvin
+          <a href="https://twitter.com/therealmarv">@therealmarv</a> and Daniel
+          <a href="https://twitter.com/teleyinex">@teleyinex</a></p>
+    <br>
+    <h2 class="font2">Data analysis of PyBossa projects with Enki</h2>
+      <ul>
+        <li>Add Shapely support to <a href="https://github.com/PyBossa/enki">Enki</a> library.</Li>
+        <li>Add auto-throttling to Enki library to respect PyBossa API requests limits.</li>
+        <li>Tests for the current library.</li>
+        <li>Goal: update, improve and add new functionalities to the Enki library in order to make it easier to analyze PyBossa projects statistically.</li>
+      </ul>
+
+
+      <h3>Skills</h3>
+      <ul>
+        <li>Programming skills: Python</li>
+        <li>Knowledge of Data Analysis and Statistics</li>
+        <li>Knowledge of GIS systems</li>
+        <li>Knowledge of Pandas library is desirable. </li>
+      </ul>
+
+      <h3>Mentors</h3>
+        <p>Daniel <a href="https://twitter.com/teleyinex">@teleyinex</a></p>
+                    
+      <br>
+      <h2 class="font2"> Create charts and graphics <br>to display results of PyBossa projects</h2>
+      <h3>Aim and Summary</h3>
+        <ul>
+          <li>Projects in PyBossa show their progress with very few detail (just a percentage). But since the very moment a project starts getting contributions, anyone can access to the results in a raw (CSV or JSON) format. Some amazing libraries for data visualization like D3.js http://d3js.org/ can be used to build beautiful charts and graphics and give al this data more meaning.</li>
+          </ul>
+      <h3>Implementation Ideas and Resources</h3>
+        <ul>
+          <li>Create a small Javascript library on top of any the chosen visualization library (e.g. D3.js) that creates meaningful charts for displaying the project results.</li>
+          <li>Integrate the previous library with the PyBossa theme (the front-end HTML templates).</li>
+          <li>Test and document the library.</li>
+        </ul>
+      <h3>Skills</h3>
+        <ul>
+          <li>Programming skills: JavaScript, HTML5</li>
+          <li>Knowledge of modern JS dev tools like: npm, bower, grunt.</li>
+          <li>Knowledge of JS testing tools.</li>
+          <li>Usability and visual design skills</li>
+        </ul>
+
+        <h3>Mentors</h3>
+          <p>Alejandro 
+          <a href="https://twitter.com/alejandrodob">@alejandrodob</a>, Marvin
+          <a href="https://twitter.com/therealmarv">@therealmarv</a> and Daniel
+          <a href="https://twitter.com/teleyinex">@teleyinex</a></p>
+
+
+    <br>
+    <h2>Propose an original idea</h2>
+      <p>Do you have an original idea of how to improve PyBossa and Crowdcrafting and think you can get it done in the summer? We will be happy to review original proposals and if you have the skills and we can find the mentors, we will be happy to support your project.</p>
+
+        
+
+        <h4>Contact</h4>
+        <p>info@scifabric.com</p>
+</section>
+ 

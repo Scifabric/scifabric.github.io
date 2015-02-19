@@ -11,9 +11,22 @@ body {
   font-weight:200;
   line-height: 1.5;
   height:100%;
-  color:#fff;
+  color:#AABED0;
   text-rendering:optimizeLegibility;
+  background-repeat: no-repeat;
   background-color: #002D3C;
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #030E17),
+	color-stop(1, #002D3C)
+);
+	background-image: -o-linear-gradient(bottom, #030E17 0%, #002D3C 100%);
+	background-image: -moz-linear-gradient(bottom, #030E17 0%, #002D3C 100%);
+	background-image: -webkit-linear-gradient(bottom, #030E17 0%, #002D3C 100%);
+	background-image: -ms-linear-gradient(bottom, #030E17 0%, #002D3C 100%);
+	background-image: linear-gradient(to bottom, #030E17 0%, #002D3C 100%);
 }
 
 
@@ -23,15 +36,16 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 10px 0; }
 
-a         { color: #fff; }
-a:hover   { color: #fff; text-decoration:none }
-a:visited { color: #fff; }
+a         { color: #AABED0; }
+a:hover   { color: #AABED0; text-decoration:none }
+a:visited { color: #AABED0; }
 
 
 h1 {
 	margin:0 auto 10px auto;
 	font-weight:500;
 	font-size:32px;
+	color: #fff;
 }
 
 
@@ -39,23 +53,25 @@ h2 {
 	margin:28px auto 10px auto;
 	font-weight:300;
 	font-size:24px;
+	color: #fff;
 }
 
 h3{
 	margin:20px auto 10px auto;
 	font-weight:300;
 	font-size:18px;
+	color: #fff;
 }
 
 
 #projects{
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid #AABED0;
 }
 
 .font2{
-	font-family:"Lucida Bright", "Palatino Linotype", "Georgia", "Book Antiqua", Palatino, serif;
 	font-style:italic;
-	color: #FFE8C8;
+	color: #fff;
+	font-weight: 300;
 }
 
 

@@ -8,22 +8,27 @@
         <meta name="viewport" content="width=device-width">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <link href="/css/video.css" rel="stylesheet">
 		<link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
 
         <script src="/js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="/js/modernizr.custom.js" type="text/javascript" charset="utf-8"></script>
         
-		<script src="/js/jquery.lazylinepainter-1.5.1.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="/js/main.js" type="text/javascript" charset="utf-8"></script>
+        <script src="path/to/jquery.fitvids.js"></script>
+        <script>
+            $(document).ready(function(){
+            // Target your .container, .wrapper, .post, etc.
+            $("#video").fitVids();
+            });
+        </script>
+
         {% include ga.html %}
 		
 	</head>
 	<body>
         
-        <div class="bg_image">
-        </div>
-
 		<section class="site">
 
 			{{ content }}
@@ -32,7 +37,7 @@
 		
 		<footer>
 		    
-		    <div id="powered">
+		    <!-- <div id="powered">
 		        <p>Powering up <a href="http://pybossa.com">PyBossa</a> and <a href="http://crowdcrafting.org">Crowdcrafting</a> since 2011</p>
 		    </div>
 		    
@@ -47,7 +52,7 @@
     	        <a href="https://github.com/PyBossa/crowdcrafting.org">
                     <i class="fa fa-github"></i>
     	        </a>
-	        </div>
+	        </div>-->
 	        
 		</footer>
 

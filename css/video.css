@@ -38,7 +38,7 @@ body {
 -------------------------------------------------- */
 
 /* Carousel base class */
-.video-container {
+/*.video-container {
   max-height: 700px;
   margin-bottom: 60px;
   background-color: black;
@@ -60,7 +60,7 @@ background: url(ejemplo.jpg) no-repeat;
 background-size: cover;
 display: inline-block;
 
-}
+}*/
 
 
 
@@ -104,3 +104,13 @@ display: inline-block;
     margin-top: 120px;
   }
 }
+
+.p1-hero-wrapper{position:relative;height:600px}
+@media (max-width: 767px){
+  .p1-hero-wrapper{height:400px}
+}
+#hero{z-index:-1;position:absolute;right:0;left:0;top:0;bottom:0;overflow:hidden}
+@media (max-width: 1099px){
+  #bgvid{height:100%;width:auto}
+}
+#bgvid{bottom:0;position:absolute;width:100%}

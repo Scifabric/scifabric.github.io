@@ -8,6 +8,51 @@ body {
 }
 
 
+#logo{
+  max-width: 150px;
+  margin-bottom: 40px;
+}
+
+.color-primary{
+  color:#1C4A5F;
+}
+
+.bg_color_1{
+  background-color: #1E7591;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 150px;
+    color: white;
+
+}
+
+
+.italic{
+  font-style: italic;
+  }
+
+.bold{
+  font-weight: 700;
+}  
+
+.light{
+  font-weight: 300;
+}
+
+
+.container .light{
+  line-height: 1.4;
+}
+
+.top_90{ 
+  margin-top: 90px;
+}
+
+.down100{
+  margin-bottom: 100px;
+}
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -107,7 +152,7 @@ display: inline-block;
 
 .p1-hero-wrapper{
   position: relative;
-  height: 550px;
+  height: 750px;
   margin-bottom: 30px;
   }
 
@@ -121,7 +166,13 @@ display: inline-block;
   z-index:-1;
   position:absolute;
   right:0;left:0;top:0;bottom:0;
-  overflow:hidden
+  overflow:hidden;
+  background: #333 url('../images/bg.jpg') no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment:fixed;
 }
 @media (max-width: 1099px){
   #bgvid{height:100%;width:auto}

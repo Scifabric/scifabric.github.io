@@ -52,12 +52,16 @@ body {
   line-height: 1.4;
 }
 
-.top_90{ 
+.top90{ 
   margin-top: 90px;
 }
 
 .down100{
   margin-bottom: 100px;
+}
+
+.down70{
+  margin-bottom: 70px;
 }
 
 /* CUSTOMIZE THE NAVBAR

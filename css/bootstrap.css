@@ -3156,7 +3156,8 @@ fieldset[disabled] .btn-success.active {
 }
 .btn-info {
   color: #fff;
-  border-color: #fff;
+  border-color: rgba(255,255,255,.2);
+  border-width:2px;
 }
 .btn-info:hover,
 .btn-info:focus,
@@ -3323,10 +3324,12 @@ fieldset[disabled] .btn-link:focus {
 }
 .btn-lg,
 .btn-group-lg > .btn {
-  padding: 10px 16px;
-  font-size: 18px;
+  padding: 15px 35px;
+  font-size: 15px;
+  font-weight:600;
   line-height: 1.3333333;
-  border-radius: 6px;
+  border-radius: 50px;
+  text-transform: uppercase;
 }
 .btn-sm,
 .btn-group-sm > .btn {

@@ -3,6 +3,10 @@
 /* Padding below the footer and lighter body text */
 
 body {
+  font-family: "source-sans-pro", "Source Sans Pro", "Helvetica Neue", HelveticaNeue, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-shadow:0 0 1px transparent;
+  text-rendering:optimizeLegibility;
   padding-bottom: 40px;
   color: #5a5a5a;
 }
@@ -40,6 +44,9 @@ body {
   font-weight: 300;
 }
 
+.uppercase {
+	text-transform:uppercase;
+}
 
 .container .light{
   line-height: 1.4;

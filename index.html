@@ -2,6 +2,23 @@
 layout: default
 title: SciFabric - Tailor-made solutions for your citizen science and research projects
 ---
+<!-- All modals added here for the demo. You would of course just have one, dynamically created -->
+    <div class="md-modal md-effect-1" id="modal-1">
+      <div class="md-content">
+        <h3>Modal Dialog</h3>
+        <div>
+          <p>This is a modal window. You can do the following things with it:</p>
+          <ul>
+            <li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+            <li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+            <li><strong>Close:</strong> click on the button below to close the modal.</li>
+          </ul>
+          <button class="md-close">Close me!</button>
+        </div>
+      </div>
+    </div>
+
+
     <div class="navbar-wrapper">
       <div class="container">
 
@@ -34,6 +51,7 @@ title: SciFabric - Tailor-made solutions for your citizen science and research p
     </div>
 
 
+
     <!-- Video
     ================================================== -->
     <div class="p1-hero-wrapper">
@@ -57,8 +75,6 @@ title: SciFabric - Tailor-made solutions for your citizen science and research p
       </div>
     </div>
 
-   <!-- /.video -->
-
 
     <!-- Marketing messaging and featurettes
     ================================================== -->
@@ -68,7 +84,9 @@ title: SciFabric - Tailor-made solutions for your citizen science and research p
         <div class="col-md-12">
           <h1 class="text-center color-primary uppercase bold top90">Free open-source software</h1>
           <h3 class="light text-center down100">SciFabric is a free, open-source software company<br /> focused on crowdsourcing science.</h3>
+          <button class="md-trigger" data-modal="modal-1">Fade in &amp; Scale</button>
         </div>
+
       
         <div class="col-md-6 text-center">
           <img src="/images/logo_pybossa.png">
@@ -151,6 +169,7 @@ title: SciFabric - Tailor-made solutions for your citizen science and research p
         </div>
     
     </div> <!-- /END OF THE CONTAINER -->
+                <div class="md-overlay"></div><!-- the overlay element -->
 
 <div class="bg_color_1">
     <div class="container">
@@ -162,7 +181,7 @@ title: SciFabric - Tailor-made solutions for your citizen science and research p
             <img src="http://placehold.it/120x120" />
             <h4>Training</h4>
             <p>Learn how to use PyBossa and fly alone!</p>
-            <p><a href="#" style="color:#fff">+ info and prices</a></p>
+            <button type="button" class="btn btn-link md-trigger" data-modal="modal-1" style="color:#fff">+ info and prices</button>
         </div>
         <div class="col-md-4 text-center">
             <img src="http://placehold.it/120x120" />

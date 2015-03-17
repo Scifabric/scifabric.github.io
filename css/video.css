@@ -28,8 +28,17 @@ body {
   padding-top: 100px;
   padding-bottom: 150px;
     color: white;
-
 }
+
+.bg_color_2{
+  background-color: #f9f9f9;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  
+}
+
 
 
 .italic{

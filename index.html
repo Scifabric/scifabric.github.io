@@ -220,33 +220,34 @@ title: SciFabric - Tailor-made solutions for your citizen science and research p
         <h1 class="text-center color-primary uppercase bold">Contact us</h1>
         <h3 class="light text-center down100">Get in touch! We will be happy to answer your questions, concerns and inquiries.</h3>
 
+<div class="codrops-top clearfix">
 
-                <div class="row">
-
-                    <div class="section-title text-center wow fadeInDown">
-                        <h2>Contact Us</h2>
-                        <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
-                    </div>
-                    <section class="content">
-        <span class="input input--hoshi">
-          <input class="input__field input__field--hoshi" type="text" id="input-4" />
-          <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-4">
-            <span class="input__label-content input__label-content--hoshi">Name</span>
-          </label>
-        </span>
-        <span class="input input--hoshi">
-          <input class="input__field input__field--hoshi" type="text" id="input-5" />
-          <label class="input__label input__label--hoshi input__label--hoshi-color-2" for="input-5">
-            <span class="input__label-content input__label-content--hoshi">Street</span>
-          </label>
-        </span>
-        <span class="input input--hoshi">
-          <input class="input__field input__field--hoshi" type="text" id="input-6" />
-          <label class="input__label input__label--hoshi input__label--hoshi-color-3" for="input-6">
-            <span class="input__label-content input__label-content--hoshi">Town</span>
-          </label>
-        </span>
-        <p>Inspired by Andrej Radisic's <a href="https://dribbble.com/shots/1785176-Jawbreaker-input-field">Jawbreaker input field</a></p>
+      <section>
+        <form id="theForm" class="simform" autocomplete="off">
+          <div class="simform-inner">
+            <ol class="questions">
+              <li>
+                <span><label for="q1">What's your name?</label></span>
+                <input id="q1" name="q1" type="text"/>
+              </li>
+              <li>
+                <span><label for="q2">Where do you live?</label></span>
+                <input id="q2" name="q2" type="text"/>
+              </li>
+            </ol><!-- /questions -->
+            <button class="submit" type="submit">Send answers</button>
+            <div class="controls">
+              <button class="next"></button>
+              <div class="progress"></div>
+              <span class="number">
+                <span class="number-current"></span>
+                <span class="number-total"></span>
+              </span>
+              <span class="error-message"></span>
+            </div><!-- / controls -->
+          </div><!-- /simform-inner -->
+          <span class="final-message"></span>
+        </form><!-- /simform -->      
       </section>
 
 
@@ -268,6 +269,7 @@ title: SciFabric - Tailor-made solutions for your citizen science and research p
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="../../dist/js/bootstrap.min.js"></script>
     <script src="../../assets/js/docs.min.js"></script>

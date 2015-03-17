@@ -10,6 +10,7 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/bootstrap.css">
         <link href="/css/video.css" rel="stylesheet">
+        <link href="/css/component.css" rel="stylesheet">
 		<link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,700,300' rel='stylesheet' type='text/css'>
 
@@ -25,6 +26,29 @@
             // Target your .container, .wrapper, .post, etc.
             $("#video").fitVids();
             });
+        </script>
+        <script src="/js/classie.js"></script>
+        <script src="/js/stepsForm.js"></script>
+        <script>
+            var theForm = document.getElementById( 'theForm' );
+
+            new stepsForm( theForm, {
+                onSubmit : function( form ) {
+                    // hide form
+                    classie.addClass( theForm.querySelector( '.simform-inner' ), 'hide' );
+
+                    /*
+                    form.submit()
+                    or
+                    AJAX request (maybe show loading indicator while we don't have an answer..)
+                    */
+
+                    // let's just simulate something...
+                    var messageEl = theForm.querySelector( '.final-message' );
+                    messageEl.innerHTML = 'Thank you! We\'ll be in touch.';
+                    classie.addClass( messageEl, 'show' );
+                }
+            } );
         </script>
 
         {% include ga.html %}

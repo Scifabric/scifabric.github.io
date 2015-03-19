@@ -61,6 +61,10 @@ body {
   line-height: 1.4;
 }
 
+.top100{ 
+  margin-top: 100px;
+}
+
 .top90{ 
   margin-top: 90px;
 }
@@ -71,6 +75,10 @@ body {
 
 .down70{
   margin-bottom: 70px;
+}
+
+.down20{
+  margin-bottom: 20px;
 }
 
 /* CUSTOMIZE THE NAVBAR

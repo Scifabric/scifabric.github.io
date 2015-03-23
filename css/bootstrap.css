@@ -903,6 +903,22 @@ footer {
 	margin:0;
 }
 
+header {
+	background-color:#fff;
+	opacity:0;
+	-webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow:    0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+	box-shadow:         0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+	transition:all .2 ease;
+	-webkit-transition: opacity .3s ease;
+       -o-transition: opacity .3s ease;
+          transition: opacity .3s ease;
+}
+
+header.none {
+	opacity:1;
+}
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -3435,7 +3451,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
   border: 1px solid transparent;
 }
 @media (min-width: 768px) {

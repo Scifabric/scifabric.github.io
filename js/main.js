@@ -14,3 +14,12 @@ $(function() {
 	    }
 	});
 });
+
+$(window).scroll(function() {
+if ($(this).scrollTop() > 250){  
+    $('header').addClass("none");
+  }
+  else{
+    $('header').removeClass("none");
+  }
+});

@@ -57,6 +57,21 @@
 
         <script src="js/classie.js"></script>
         <script src="js/modalEffects.js"></script>
-
+        <script src="//cdn.jsdelivr.net/headroomjs/0.7.0/headroom.min.js"></script>
+        <script src="//cdn.jsdelivr.net/headroomjs/0.7.0/angular.headroom.min.js"></script>
+        <script src="//cdn.jsdelivr.net/headroomjs/0.7.0/jQuery.headroom.min.js"></script>
+        <script>
+        var headroom = new Headroom(elem, {
+        "offset": 205,
+        "tolerance": 5,
+        "classes": {
+        "initial": "animated",
+        "pinned": "slideDown",
+        "unpinned": "slideUp"
+        }
+        });
+        headroom.init();
+        // to destroy
+        headroom.destroy();</script>
 	</body>
 </html>

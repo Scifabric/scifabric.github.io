@@ -20,6 +20,14 @@
 		<script src="/js/modernizr.custom.js" type="text/javascript" charset="utf-8"></script>
         
 		<script src="/js/main.js" type="text/javascript" charset="utf-8"></script>
+        <script>
+                // grab an element
+        var myElement = document.querySelector("header");
+        // construct an instance of Headroom, passing the element
+        var headroom  = new Headroom(myElement);
+        // initialise
+        headroom.init();
+        </script>
   
 
 
@@ -61,7 +69,8 @@
         <script src="//cdn.jsdelivr.net/headroomjs/0.7.0/angular.headroom.min.js"></script>
         <script src="//cdn.jsdelivr.net/headroomjs/0.7.0/jQuery.headroom.min.js"></script>
         <script>
-        var headroom = new Headroom(elem, {
+
+        var headroom = new Headroom(myElement, {
         "offset": 205,
         "tolerance": 5,
         "classes": {

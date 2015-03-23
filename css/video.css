@@ -12,44 +12,39 @@ body {
 }
 
 
-#logo{
+#logo {
   max-width: 150px;
   margin-bottom: 40px;
 }
 
-.color-primary{
+.color-primary {
   color:#CCC;
 }
 
-.bg_color_1{
+.bg_color_1 {
   background-color: #1E7591;
-  margin-top: 150px;
   margin-bottom: 100px;
-  padding-top: 100px;
-  padding-bottom: 150px;
-    color: white;
+  padding:40px 0 150px;
+  color: white;
 }
 
-.bg_color_2{
+.bg_color_2 {
   background-color: #f9f9f9;
-  margin-top: 150px;
-  margin-bottom: 100px;
-  padding-top: 100px;
+  margin-top: 80px;
   padding-bottom: 150px;
-  
 }
 
 
 
-.italic{
+.italic {
   font-style: italic;
   }
 
-.bold{
+.bold {
   font-weight: 700;
 }  
 
-.light{
+.light {
   font-weight: 300;
 }
 

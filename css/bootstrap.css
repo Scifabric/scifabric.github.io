@@ -2507,6 +2507,7 @@ fieldset[disabled] .btn-success.active {
 .btn-info {
   color: #fff;
   border-color: rgba(255,255,255,.2);
+  background-color: rgba(255,255,255,0);
   border-width:2px;
 }
 .btn-info:hover,

@@ -1255,19 +1255,23 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 36px;
+  font-size: 28px;
 }
 h2,
 .h2 {
   font-size: 30px;
 }
+#hero h2 {
+  font-size: 50px;
+  margin-bottom:40px;
+}
 h3,
 .h3 {
-  font-size: 28px;
+  font-size: 38px;
 }
 h4,
 .h4 {
-  font-size: 18px;
+  font-size: 26px;
 }
 h5,
 .h5 {
@@ -1371,10 +1375,17 @@ a.bg-success:hover {
   background-color: #c1e2b3;
 }
 .bg-info {
-  background-color: #d9edf7;
+  color:#F5A623;
+  font-weight:500;
+  border:2px solid rgba(245,166,35,1);
+  padding:6px 20px;
+  border-radius:100px;
 }
 a.bg-info:hover {
-  background-color: #afd9ee;
+	color:#FFF;
+	background-color:rgba(245,166,35,1);
+	border:2px solid rgba(245,166,35,0);
+	text-decoration:none;
 }
 .bg-warning {
   background-color: #fcf8e3;

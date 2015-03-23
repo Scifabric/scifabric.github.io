@@ -1092,6 +1092,7 @@ textarea {
 a {
   color: #337ab7;
   text-decoration: none;
+  transition: all 0.5s ease;
 }
 a:hover,
 a:focus {
@@ -1377,10 +1378,6 @@ a.bg-success:hover {
 }
 .bg-info {
   color:#F5A623;
-  font-weight:500;
-  border:2px solid rgba(245,166,35,1);
-  padding:6px 20px;
-  border-radius:100px;
 }
 a.bg-info:hover {
 	color:#FFF;
@@ -2996,7 +2993,7 @@ select[multiple].form-group-lg .form-control {
           user-select: none;
   background-image: none;
   border: 1px solid transparent;
-  border-radius: 4px;
+  border-radius: 50px;
 }
 .btn:focus,
 .btn:active:focus,
@@ -3011,8 +3008,7 @@ select[multiple].form-group-lg .form-control {
 .btn:hover,
 .btn:focus,
 .btn.focus {
-  color: #333;
-  text-decoration: none;
+
 }
 .btn:active,
 .btn.active {
@@ -3179,7 +3175,8 @@ fieldset[disabled] .btn-success.active {
 .open > .dropdown-toggle.btn-info {
   color: #fff;
   background-color: #31b0d5;
-  border-color: #269abc;
+  border-color: #31b0d5;
+  text-decoration:none;
 }
 .btn-info:active,
 .btn-info.active,
@@ -3211,6 +3208,53 @@ fieldset[disabled] .btn-info.active {
   color: #5bc0de;
   background-color: #fff;
 }
+
+.btn-info-2 {
+  color: #F5A623;
+  border-color: rgba(245,166,35,.2);
+  border-width:2px;
+  font-weight:600;
+}
+.btn-info-2:hover,
+.btn-info-2:focus,
+.btn-info-2.focus,
+.btn-info-2:active,
+.btn-info-2.active,
+.open > .dropdown-toggle.btn-info-2 {
+  color: #FFF !important;
+  background-color: rgba(245,166,35,1);
+  border-color: rgba(245,166,35,1);
+  text-decoration:none;
+}
+.btn-info-2:active,
+.btn-info-2.active,
+.open > .dropdown-toggle..btn-info-2 {
+  background-image: none;
+}
+.btn-info-2.disabled,
+.btn-info-2[disabled],
+fieldset[disabled] .btn-info-2,
+.btn-info-2.disabled:hover,
+.btn-info-2[disabled]:hover,
+fieldset[disabled] .btn-info-2:hover,
+.btn-info-2.disabled:focus,
+.btn-info-2[disabled]:focus,
+fieldset[disabled] .btn-info-2:focus,
+.btn-info-2.disabled.focus,
+.btn-info-2[disabled].focus,
+fieldset[disabled] .btn-info-2.focus,
+.btn-info-2.disabled:active,
+.btn-info-2[disabled]:active,
+fieldset[disabled] .btn-info-2:active,
+.btn-info-2.disabled.active,
+.btn-info-2[disabled].active,
+fieldset[disabled] .btn-info-2.active {
+
+}
+.btn-info-2 .badge {
+
+}
+
 .btn-warning {
   color: #fff;
   background-color: #f0ad4e;
@@ -3340,15 +3384,14 @@ fieldset[disabled] .btn-link:focus {
   font-size: 15px;
   font-weight:600;
   line-height: 1.3333333;
-  border-radius: 50px;
   text-transform: uppercase;
 }
 .btn-sm,
 .btn-group-sm > .btn {
-  padding: 5px 10px;
-  font-size: 12px;
+  padding: 10px 25px;
+  font-size: 15px;
   line-height: 1.5;
-  border-radius: 3px;
+  text-transform: uppercase;
 }
 .btn-xs,
 .btn-group-xs > .btn {

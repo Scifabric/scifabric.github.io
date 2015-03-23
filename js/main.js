@@ -18,8 +18,10 @@ $(function() {
 $(window).scroll(function() {
 if ($(this).scrollTop() > 250){  
     $('header').addClass("none");
+    $('#go-to-top').addClass("none");
   }
   else{
     $('header').removeClass("none");
+	$('#go-to-top').removeClass("none");
   }
 });

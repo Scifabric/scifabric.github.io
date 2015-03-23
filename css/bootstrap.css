@@ -4856,7 +4856,18 @@ a.badge:focus {
   margin-bottom: 30px;
   color: inherit;
   background-color: #eee;
+  right:0;left:0;top:0;bottom:0;
+  overflow:hidden;
+  background: #333 url('../images/bg.jpg') no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment:fixed;
+  height: 750px;
+  margin-bottom: 30px;
 }
+
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;

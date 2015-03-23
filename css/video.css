@@ -192,7 +192,6 @@ display: inline-block;
 
 #hero{
   z-index:-1;
-  position:absolute;
   right:0;left:0;top:0;bottom:0;
   overflow:hidden;
   background: #333 url('../images/bg.jpg') no-repeat top center;
@@ -201,6 +200,9 @@ display: inline-block;
   -o-background-size: cover;
   background-size: cover;
   background-attachment:fixed;
+  height: 750px;
+  margin-bottom: 30px;
+  }
 }
 @media (max-width: 1099px){
   #bgvid{height:100%;width:auto}

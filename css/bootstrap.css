@@ -405,13 +405,13 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: #888;
   text-decoration: none;
   transition: all 0.5s ease;
 }
 a:hover,
 a:focus {
-  color: #23527c;
+  color: #333;
   text-decoration: underline;
 }
 a:focus {
@@ -891,9 +891,6 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-}
-.firstfold {
-	margin-top:120px !important;
 }
 
 footer {
@@ -3896,7 +3893,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-nav > li > a:hover {
   background-color:transparent;
-  border-bottom:2px solid red;
+  border-bottom:2px solid #333;
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
@@ -4251,7 +4248,7 @@ a.badge:focus {
   -o-background-size: cover;
   background-size: cover;
   background-attachment:fixed;
-  height: 750px;
+  height: 800px;
   margin-bottom: 30px;
 }
 

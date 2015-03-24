@@ -59,6 +59,14 @@ body {
   color:#CCC;
 }
 
+.color-one {
+  color:#077CA0;
+}
+
+.border{
+border: 1px solid #ccc;
+}
+
 .bg_color_1 {
   background-color: #1E7591;
   margin-bottom: 100px;

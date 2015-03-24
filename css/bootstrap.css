@@ -411,7 +411,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #333;
+  color: #077CA0;
   text-decoration: underline;
 }
 a:focus {
@@ -903,9 +903,10 @@ footer {
 header {
 	background-color:#fff;
 	opacity:0;
-	-webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid #ccc;
+	/*-webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 	-moz-box-shadow:    0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-	box-shadow:         0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+	box-shadow:         0px 1px 2px 0px rgba(0, 0, 0, 0.2);*/
 	transition:all .2 ease;
 	-webkit-transition: opacity .3s ease;
        -o-transition: opacity .3s ease;
@@ -2514,8 +2515,8 @@ fieldset[disabled] .btn-success.active {
 .btn-info.active,
 .open > .dropdown-toggle.btn-info {
   color: #fff;
-  background-color: #31b0d5;
-  border-color: #31b0d5;
+  background-color: #077CA0;
+  border-color: #077CA0;
   text-decoration:none;
 }
 .btn-info:active,
@@ -3269,7 +3270,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eee;
 }
 .nav > li.disabled > a {
   color: #777;

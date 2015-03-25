@@ -11,6 +11,25 @@ body {
   color: #5a5a5a;
 }
 
+footer .ssnn a {
+	display:inline-block;
+	height:70px;
+	width:70px;
+	font-size:34px !important;
+	margin:0 30px 60px 30px;
+	padding:15px 15px 5px 15px ;
+	border-radius:100px;
+	background-color:rgba(255,255,255,.05);
+}
+footer .ssnn a div {
+	font-size:34px !important;
+}
+footer .ssnn a:hover {
+	background-color:rgba(255,255,255,.05);
+	color:#fff;
+	text-decoration:none;
+}
+
 #go-to-top {
 	position:fixed;
 	display:block;
@@ -36,7 +55,7 @@ body {
 }
 
 .firstfold {
-  margin-top:80px !important;
+  margin-top:70px !important;
 }
 
 
@@ -102,7 +121,7 @@ body {
 }
 
 .who_need_us {
-  background: #f9f9f9 url('../images/luna.jpg') center center no-repeat fixed;
+  background: #f9f9f9 url('../images/britishmuseum.jpg') center center no-repeat fixed;
   background-size:cover;
 }
 .who_need_us p,
@@ -124,7 +143,7 @@ body {
 }
 
 .tailoring {
-  background: #f9f9f9 url('../images/nasa2.jpg') center center no-repeat fixed;
+  background: #1E7591 url('../images/britishmuseum2.jpg') center center no-repeat fixed;
   background-size:cover;
 }
 
@@ -206,6 +225,18 @@ body {
 }
 .navbar-wrapper .navbar .container {
   width: auto;
+}
+
+.navbar-wrapper .btn-header {
+	border:none;
+}
+.navbar-wrapper .btn-header a {
+	border:none;
+	background-color:#1E7591;
+	color:#fff;
+}
+.navbar-wrapper .btn-header:hover {
+
 }
 
 

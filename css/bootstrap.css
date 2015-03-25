@@ -2551,8 +2551,8 @@ fieldset[disabled] .btn-info.active {
 }
 
 .btn-info-2 {
-  color: #F5A623;
-  border-color: rgba(245,166,35,.2);
+  color: #077CA0;
+  border-color: rgba(7,124,160,.4);
   border-width:2px;
   font-weight:600;
 }
@@ -2563,8 +2563,8 @@ fieldset[disabled] .btn-info.active {
 .btn-info-2.active,
 .open > .dropdown-toggle.btn-info-2 {
   color: #FFF !important;
-  background-color: rgba(245,166,35,1);
-  border-color: rgba(245,166,35,1);
+  background-color: rgba(7,124,160,1);
+  border-color: rgba(7,124,160,1);
   text-decoration:none;
 }
 .btn-info-2:active,

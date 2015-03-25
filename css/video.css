@@ -77,8 +77,10 @@ body {
 
 .bg_color_2 {
   background-color: #f9f9f9;
-  margin-top: 80px;
   padding-bottom: 150px;
+}
+.case_studies {
+  padding-bottom: 100px;
 }
 .who_need_us {
   background: #f9f9f9 url('../images/uncle_sam.png') center center no-repeat fixed;

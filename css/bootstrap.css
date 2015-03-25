@@ -4287,15 +4287,8 @@ a.badge:focus {
 }
 .thumbnail {
   display: block;
-  padding: 4px;
-  margin-bottom: 20px;
-  line-height: 1.42857143;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  -webkit-transition: border .2s ease-in-out;
-       -o-transition: border .2s ease-in-out;
-          transition: border .2s ease-in-out;
+  padding: 2px;
+
 }
 .thumbnail > img,
 .thumbnail a > img {
@@ -4308,8 +4301,7 @@ a.thumbnail.active {
   border-color: #337ab7;
 }
 .thumbnail .caption {
-  padding: 9px;
-  color: #333;
+ /* padding: 9px;*/
 }
 .alert {
   padding: 15px;

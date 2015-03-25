@@ -102,13 +102,27 @@ body {
 }
 
 .who_need_us {
-  background: #f9f9f9 url('../images/pattern.png') center center no-repeat fixed;
+  background: #f9f9f9 url('../images/luna.jpg') center center no-repeat fixed;
   background-size:cover;
 }
-.who_need_us p.media-heading {
+.who_need_us p,
+.contact p {
   font-size:22px;
-  
 }
+
+.who_need_us .col-md-6,
+.contact .col-md-6 {
+  margin-top: 20px;
+}
+
+.contact{
+  padding-bottom: 150px;
+}
+
+.contact h4{
+  font-weight: 500;
+}
+
 .tailoring {
   background: #f9f9f9 url('../images/nasa2.jpg') center center no-repeat fixed;
   background-size:cover;

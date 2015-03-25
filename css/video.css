@@ -79,6 +79,14 @@ body {
   background-color: #f9f9f9;
   padding-bottom: 150px;
 }
+
+.bg_color_3 {
+  background-color: #042935;
+  padding: 25px;
+  color: white;
+}
+
+
 .case_studies {
   padding-bottom: 100px;
 }

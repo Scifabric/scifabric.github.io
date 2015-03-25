@@ -88,10 +88,22 @@ body {
 
 
 .case_studies {
-  padding-bottom: 100px;
+  padding-bottom: 120px;
 }
+.case_studies h4 {
+  margin: 20px 10px 20px 10px;
+}
+.case_studies p {
+  margin: 0 10px 30px 10px;
+}
+
 .who_need_us {
-  background: #f9f9f9 url('../images/uncle_sam.png') center center no-repeat fixed;
+  background: #f9f9f9 url('../images/pattern.png') center center no-repeat fixed;
+  background-size:cover;
+}
+.who_need_us p.media-heading {
+  font-size:22px;
+  
 }
 .tailoring {
   background: #f9f9f9 url('../images/nasa2.jpg') center center no-repeat fixed;

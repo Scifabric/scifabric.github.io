@@ -3,7 +3,8 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  font-family: "source-sans-pro", "Source Sans Pro", "Helvetica Neue", HelveticaNeue, Helvetica, sans-serif;
+/*  font-family: "source-sans-pro", "Source Sans Pro", "Helvetica Neue", HelveticaNeue, Helvetica, sans-serif; */
+  font-family: "Helvetica Neue", HelveticaNeue, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-shadow:0 0 1px transparent;
   text-rendering:optimizeLegibility;

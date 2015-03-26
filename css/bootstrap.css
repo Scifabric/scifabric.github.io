@@ -388,14 +388,7 @@ html {
 
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 1.42857143;
-  color: #333;
-  background-color: #fff;
-}
+
 input,
 button,
 select,
@@ -2606,6 +2599,7 @@ fieldset[disabled] .btn-info-2.active {
   text-transform: uppercase;
 }
 .btn-info-3:hover,
+.btn-info-3:hover a,
 .btn-info-3:focus,
 .btn-info-3.focus,
 .btn-info-3:active,

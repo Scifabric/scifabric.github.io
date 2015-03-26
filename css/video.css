@@ -8,8 +8,10 @@ body {
   -webkit-font-smoothing: antialiased;
   text-shadow:0 0 1px transparent;
   text-rendering:optimizeLegibility;
-  padding-bottom: 40px;
   color: #5a5a5a;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.42857143;
 }
 
 footer .ssnn a {
@@ -110,6 +112,10 @@ footer .ssnn a:hover {
   margin: -15px -40px 0px 0px;
   background-color: transparent;
   color: white;
+}
+
+.no-pad-left{
+  padding-left: 0px;
 }
 .case_studies {
   border-top:1px solid #ddd;

@@ -128,6 +128,8 @@ font-weight:500;
 .about {
 	border-bottom:1px solid #eee;
 	padding-bottom:120px;
+	padding-bottom:380px;
+	background: #fff url('../images/cc_bodegon.png') no-repeat bottom center;
 }
 .case_studies {
   padding-bottom: 120px;

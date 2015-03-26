@@ -162,23 +162,20 @@ font-weight:500;
   border-radius:4px;
 }
 
+.client p.role {
+  color:#999;
+  font-size:14px;
+  font-weight:500;
+}
 
-.quotes .quote-box {
-	background-color:#fff;
-	padding:30px;
-	margin-top:20px;
-	border-radius:4px;
+.client p.quote {
+  color:#666;
+  font-size:16px;
+  font-weight:400;
 }
-.quotes p.role {
-	color:#999;
-	font-size:14px;
-	font-weight:500;
-}
-.quotes p.quote {
-	color:#666;
-	font-size:16px;
-	font-weight:400;
-}
+
+
+
 .contact{
   padding-bottom: 150px;
 }

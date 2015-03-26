@@ -205,7 +205,7 @@ font-weight:500;
 }  
 
 .semibold{
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .light {
@@ -230,6 +230,10 @@ font-weight:500;
 
 .top90{ 
   margin-top: 90px;
+}
+
+.top20 {
+	margin-top:20px;
 }
 
 .down100{

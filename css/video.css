@@ -153,6 +153,16 @@ font-weight:500;
 .contact .col-md-6 {
   margin-top: 20px;
 }
+
+
+.client {
+  background-color:#fff;
+  padding:30px;
+  margin-top:20px;
+  border-radius:4px;
+}
+
+
 .quotes .quote-box {
 	background-color:#fff;
 	padding:30px;

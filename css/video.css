@@ -14,6 +14,16 @@ body {
   line-height: 1.42857143;
 }
 
+footer p{
+  font-size: 22px;
+  padding-left: inherit;
+}
+
+footer p i{
+  margin-left: 15px;
+}
+
+
 footer .ssnn a {
 	display:inline-block;
 	height:70px;
@@ -24,14 +34,15 @@ footer .ssnn a {
 	border-radius:100px;
 	background-color:rgba(255,255,255,.05);
 }
-footer .ssnn a div {
-	font-size:34px !important;
-}
+
 footer .ssnn a:hover {
 	background-color:rgba(255,255,255,.05);
 	color:#fff;
 	text-decoration:none;
 }
+
+
+
 
 #go-to-top {
 	position:fixed;

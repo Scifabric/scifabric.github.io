@@ -125,8 +125,11 @@ font-weight:500;
 .no-pad-left{
   padding-left: 0px;
 }
+.about {
+	border-bottom:1px solid #eee;
+	padding-bottom:70px;
+}
 .case_studies {
-  border-top:1px solid #ddd;
   padding-bottom: 120px;
 }
 .case_studies h4 {

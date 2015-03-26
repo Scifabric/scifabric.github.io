@@ -90,6 +90,14 @@ footer .ssnn a:hover {
 .color-one {
   color:#077CA0;
 }
+.color-two {
+  color:#FFF;
+font-size:14px;
+font-weight:500;
+}
+.color-two:hover {
+  background-color:rgba(255,255,255,.05);
+}
 
 .bg_color_1 {
   background-color: #1E7591;

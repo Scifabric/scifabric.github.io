@@ -112,6 +112,7 @@ footer .ssnn a:hover {
   color: white;
 }
 .case_studies {
+  border-top:1px solid #ddd;
   padding-bottom: 120px;
 }
 .case_studies h4 {
@@ -122,12 +123,11 @@ footer .ssnn a:hover {
 }
 
 .who_need_us {
-  background: #f9f9f9 url('../images/britishmuseum.jpg') center center no-repeat fixed;
-  background-size:cover;
+  background: #f9f9f9 url('../images/bg_triangles.png') top center no-repeat fixed;
 }
 .who_need_us p,
 .contact p {
-  font-size:22px;
+  font-size:20px;
 }
 
 .who_need_us .col-md-6,
@@ -144,8 +144,12 @@ footer .ssnn a:hover {
 }
 
 .tailoring {
-  background: #1E7591 url('../images/britishmuseum2.jpg') center center no-repeat fixed;
-  background-size:cover;
+  background: #1E7591 url('../images/bg_triangles_blue.png') top center no-repeat fixed;
+}
+.tailoring p {
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: 25px;
 }
 
 .crew_profile {
@@ -201,6 +205,11 @@ footer .ssnn a:hover {
 
 .down20{
   margin-bottom: 20px;
+}
+
+h1 {
+	font-size: 20px;
+	font-weight:500 !important;
 }
 
 /* CUSTOMIZE THE NAVBAR

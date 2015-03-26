@@ -140,7 +140,7 @@ font-weight:500;
 }
 
 .who_need_us {
-  background: #f9f9f9 url('../images/bg_triangles.png') top center no-repeat fixed;
+  background: #f9f9f9 url('../images/bg_triangles.png') top center repeat fixed;
 }
 .who_need_us p,
 .contact p {
@@ -151,7 +151,22 @@ font-weight:500;
 .contact .col-md-6 {
   margin-top: 20px;
 }
-
+.quotes .quote-box {
+	background-color:#fff;
+	padding:30px;
+	margin-top:20px;
+	border-radius:4px;
+}
+.quotes p.role {
+	color:#999;
+	font-size:14px;
+	font-weight:500;
+}
+.quotes p.quote {
+	color:#666;
+	font-size:16px;
+	font-weight:400;
+}
 .contact{
   padding-bottom: 150px;
 }
@@ -161,7 +176,7 @@ font-weight:500;
 }
 
 .tailoring {
-  background: #1E7591 url('../images/bg_triangles_blue.png') top center no-repeat fixed;
+  background: #1E7591 url('../images/bg_triangles_blue.png') top center repeat fixed;
 }
 .tailoring p {
 	font-weight: 400;

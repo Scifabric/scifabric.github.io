@@ -17,6 +17,11 @@ body {
 footer p{
   font-size: 22px;
   padding-left: inherit;
+  color: #6d6d6d;
+}
+
+footer a{
+  color: #fff;
 }
 
 footer p i{

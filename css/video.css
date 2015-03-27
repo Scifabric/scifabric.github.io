@@ -147,6 +147,17 @@ font-weight:500;
 	background:   rgba(240,240,245,1) url('../images/cc_bodegon.png') no-repeat bottom center;
   
 }
+
+
+@media (max-width: 767px){
+.about p {
+  font-size: 22px;
+}
+
+
+}
+
+
 .case_studies {
   padding-bottom: 120px;
 }
@@ -156,6 +167,15 @@ font-weight:500;
 .case_studies p {
   margin: 0 10px 30px 10px;
 }
+
+
+@media (max-width: 767px){
+.case p {
+  font-size: 22px;
+}
+
+
+
 
 .who_need_us {
   background: #f9f9f9 url('../images/bg_triangles.png') top center repeat fixed;

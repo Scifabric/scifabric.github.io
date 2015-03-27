@@ -2590,36 +2590,26 @@ fieldset[disabled] .btn-info-2.active {
 
 }
 
-
-.btn-info-3 {
-  color: rgba(7,124,160,.7);
+.btn-header {
+  color: rgba(7,124,160,1) !important;
   border-color: rgba(7,124,160,.7);
-  background-color: rgba(7,124,160,0);
-  border-width:2px;
-  font-weight:600;
+  background-color: rgba(0,0,0,.03);
+  border-width:0;
+  font-weight:500;
+  font-size:13px;
   text-transform: uppercase;
+  margin:7px 0 0 12px;
+  padding:8px 18px !important;
 }
-.btn-info-3:hover,
-.btn-info-3:hover a,
-.btn-info-3:focus,
-.btn-info-3.focus,
-.btn-info-3:active,
-.btn-info-3.active,
-.open > .dropdown-toggle.btn-info-3 {
+.btn-header:hover,
+.btn-header:focus,
+.btn-header:active,
+.open > .dropdown-toggle.btn-header {
   color: #FFF !important;
   background-color: rgba(7,124,160,1);
-  border-color: rgba(7,124,160,1);
+  border-width:0;
   text-decoration:none;
 }
-.btn-info-3:active,
-.btn-info-3.active,
-.open > .dropdown-toggle..btn-info-3 {
-  background-image: none;
-}
-
-
-
-
 
 .btn-warning {
   color: #fff;
@@ -3767,6 +3757,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-btn {
   margin-top: 8px;
   margin-bottom: 8px;
+  margin-left:12px;
 }
 .navbar-btn.btn-sm {
   margin-top: 10px;
@@ -3913,12 +3904,9 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > li > a {
   text-transform:uppercase;
   font-weight:500;
-  font-size:15px;
-  border-bottom:2px solid #fff;
+  font-size:14px;
 }
 .navbar-inverse .navbar-nav > li > a:hover {
-  background-color:transparent;
-  border-bottom:2px solid #333;
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,

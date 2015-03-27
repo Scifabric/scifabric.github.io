@@ -17,11 +17,13 @@ $(function() {
 
 $(window).scroll(function() {
 if ($(this).scrollTop() > 250){  
-    $('header').addClass("none");
-    $('#go-to-top').addClass("none");
+    $('header').css('top','0px');
+	$('header').addClass('show');
+    $('#go-to-top').css('bottom','0px');
+	$('#go-to-top').addClass('show');
   }
   else{
-    $('header').removeClass("none");
-	$('#go-to-top').removeClass("none");
+	$('header').css('top','-=200px');
+	$('#go-to-top').css('bottom','-=100px');
   }
 });

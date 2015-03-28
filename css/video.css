@@ -331,7 +331,8 @@ blockquote {
 
 @media (max-width: 768px){
 .social-media {
-  margin-top: 50px;
+  margin-bottom:50px;
+  margin-top: 20px;
   text-align: center;
 }
 

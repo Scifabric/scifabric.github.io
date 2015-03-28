@@ -324,20 +324,18 @@ blockquote {
 }
 
 @media (max-width: 768px){
-.contact .col-md-6 {
-  margin-top: 50px;
-  text-align: center;
-}
+	.contact .col-md-6 {
+  		margin-top: 50px;
+  		text-align: center;
+	}
 }
 
 @media (max-width: 768px){
-.social-media {
-  margin-bottom:50px;
-  margin-top: 20px;
-  text-align: center;
-}
-
-
+	.social-media {
+  		margin-bottom:50px;
+  		margin-top: 20px;
+  		text-align: center;
+	}
 }
 
 .tailoring {
@@ -358,16 +356,27 @@ blockquote {
   margin-top: 30px;
 }
 
-@media (max-width: 970px){
-.tailoring .col-md-4 {
-  margin-top: 50px;
+@media (max-width: 970px) {
+	.tailoring .col-md-4 {
+  		margin-top: 50px;
+	}
 }
-
-.navbar-brand{
-
-
-}
-
+@media (max-width: 768px) {
+	h1 {
+		font-size:14 !important;
+	}
+	h2 {
+		font-size:24px !important;
+	} h3 {
+		font-size:20px !important;
+	}
+	p {
+		font-size: 16px !important;
+	}
+	.jumbotron {
+		height:auto;
+		padding-bottom:60px;
+	}
 }
 
 

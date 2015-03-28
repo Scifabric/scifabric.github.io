@@ -328,12 +328,16 @@ blockquote {
   margin-top: 50px;
   text-align: center;
 }
+}
 
 @media (max-width: 768px){
 .social-media {
   margin-bottom:50px;
   margin-top: 20px;
   text-align: center;
+}
+
+
 }
 
 .tailoring {

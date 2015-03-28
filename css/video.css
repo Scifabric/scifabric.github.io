@@ -323,6 +323,16 @@ blockquote {
   font-weight: 500;
 }
 
+@media (max-width: 768px){
+.contact .col-md-6 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+
+
+
 .tailoring {
   background: #1E7591 url('../images/bg_triangles_blue.png') top center repeat fixed;
 }

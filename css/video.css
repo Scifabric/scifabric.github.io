@@ -30,6 +30,20 @@ header {
 	opacity:1;
 }
 
+.navbar-brand img{
+max-width:200px; 
+margin-top: -14px;
+}
+
+
+@media (min-width: 768px) and (max-width: 992px){
+
+    .navbar-brand img{
+    max-width:150px; 
+    margin-top: -10px
+      }
+}
+
 
 #go-to-top {
 	position:fixed;
@@ -261,6 +275,8 @@ blockquote {
         font-size: 17px;
       }
 
+
+
 }
 
 
@@ -324,6 +340,12 @@ blockquote {
 .tailoring .col-md-4 {
   margin-top: 50px;
 }
+
+.navbar-brand{
+
+
+}
+
 }
 
 

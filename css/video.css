@@ -329,9 +329,11 @@ blockquote {
   text-align: center;
 }
 
-
-
-
+@media (max-width: 768px){
+.social-media {
+  margin-top: 50px;
+  text-align: center;
+}
 
 .tailoring {
   background: #1E7591 url('../images/bg_triangles_blue.png') top center repeat fixed;

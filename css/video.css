@@ -343,6 +343,11 @@ blockquote {
 .tailoring {
   background: #1E7591 url('../images/bg_triangles_blue.png') top center repeat fixed;
 }
+.tailoring h4 {
+  font-size:22px;
+  font-weight:600;
+  margin-top:20px;
+}
 .tailoring p {
 	font-weight: 400;
 	font-size: 20px;

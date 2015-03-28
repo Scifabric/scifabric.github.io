@@ -55,6 +55,10 @@ header {
 }
 #go-to-top a:hover {
 	padding:13px 15px 22px 15px;
+}
+#go-to-top a:hover,
+#go-to-top a:focus,
+#go-to-top a:active {
 	text-decoration:none;
 }
 

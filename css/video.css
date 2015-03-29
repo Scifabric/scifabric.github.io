@@ -295,13 +295,21 @@ blockquote {
 .client img {
 	margin:15px 20px 0px 15px;
 	width:80px;
+  float: left;
 }
 
-
-@media (max-width: 600px){
+@media (max-width: 550px){
+   
     .client img {
-      margin: 20px 20px 15px 15px;
+      margin: auto;
+      float: none;
     }
+
+    .caption h4 ,
+    .role{
+      text-align: center;
+    }
+
 }
 
 .bqstart {

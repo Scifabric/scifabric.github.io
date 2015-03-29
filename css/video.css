@@ -31,17 +31,16 @@ header {
 }
 
 .navbar-brand img{
-	max-width:160px; 
-	margin-top: -10px;
+	max-width:200px; 
+	margin-top: -13px;
 }
 
 
 @media (min-width: 768px) and (max-width: 992px){
-
     .navbar-brand img{
-    max-width:150px; 
-    margin-top: -10px
-      }
+		max-width:150px; 
+		margin-top: -10px
+	}
 }
 
 
@@ -212,10 +211,21 @@ font-weight:500;
   padding-bottom: 120px;
 }
 .case_studies h4 {
-  margin: 20px 10px 20px 10px;
+  margin: 20px 10px 0 10px;
+  font-size:22px;
+}
+.case_studies h5 {
+  margin: 5px 10px 20px 10px;
+  color:#999;
 }
 .case_studies p {
+  margin: 0 10px 10px 10px;
+  font-size:14px;
+}
+.case_studies a {
   margin: 0 10px 30px 10px;
+  font-weight:400;
+  font-size:16px;
 }
 
 .who_need_us {
@@ -237,7 +247,7 @@ font-weight:500;
   padding:30px;
   margin-top:20px;
   border-radius:3px;
-  min-height: 530px;
+  min-height: 330px;
 }
 
 .client p.role {
@@ -255,23 +265,23 @@ font-weight:500;
 blockquote {
 	border:0;
 	font-size:15px;
+	margin-top:20px;
 }
 
-
 @media (max-width: 767px){
-
      blockquote {
         font-size: 17px;
       }
-
-
-
 }
 
 
 .client h4 {
 	font-size:20px;
 	margin-top:20px;
+}
+.client img {
+	margin:15px 20px 0px 15px;
+	width:80px;
 }
 
 .bqstart {
@@ -545,6 +555,10 @@ display: inline-block;
 #bgvid{bottom:0;position:absolute;width:100%}
 
 @media (max-width: 768px) {
+	.navbar-brand img {
+		max-width:160px; 
+		margin-top: -10px;
+	}
 	h1 {
 		font-size:14px !important;
 	}

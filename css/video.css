@@ -247,8 +247,21 @@ font-weight:500;
   padding:30px;
   margin-top:20px;
   border-radius:3px;
-  min-height: 330px;
 }
+
+@media (min-width: 991px){
+     .client {
+        min-height: 470px;
+      }
+}
+
+@media (max-width: 990px){
+     .client {
+        min-height: 350px;
+      }
+}
+
+
 
 .client p.role {
   color:#999;

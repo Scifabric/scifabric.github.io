@@ -548,8 +548,11 @@ display: inline-block;
   }
 }
 
-#hero{
-  z-index:-1;
+.jumbotron {
+  padding: 30px 15px;
+  margin-bottom: 0px;
+  color: inherit;
+  background-color: #eee;
   right:0;left:0;top:0;bottom:0;
   overflow:hidden;
   background: #333 url('../images/bg.jpg') no-repeat top center;
@@ -558,10 +561,18 @@ display: inline-block;
   -o-background-size: cover;
   background-size: cover;
   background-attachment:fixed;
-  height: 750px;
-  margin-bottom: 30px;
+  height: 780px;
+}
+
+
+@media (max-width: 767px){
+  .jumbotron{
+    background: #0F3B49;
   }
 }
+
+
+
 @media (max-width: 1099px){
   #bgvid{height:100%;width:auto}
 }

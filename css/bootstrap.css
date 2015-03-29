@@ -4263,7 +4263,7 @@ a.badge:focus {
 .nav-pills > li > a > .badge {
   margin-left: 3px;
 }
-.jumbotron {
+/*.jumbotron {
   padding: 30px 15px;
   margin-bottom: 0px;
   color: inherit;
@@ -4277,7 +4277,7 @@ a.badge:focus {
   background-size: cover;
   background-attachment:fixed;
   height: 780px;
-}
+}*/
 
 .jumbotron h1,
 .jumbotron .h1 {

@@ -1,44 +1,317 @@
 ---
 layout: default
-title: SciFabric - Tailor-made solutions for your citizen science and research projects
+title: SciFabric - Bespoke solutions for your citizen science and research projects
 ---
-	
-	<section id="logo_traced">
-		<div id='logo'></div>
-		<div id='logo2'>
-		    <img src="/images/scifabric_logo_white_vert_trans.svg" onerror="this.onerror=null; this.src='/images/scifabric_logo_white_vert_trans.png'" width="100%" height="auto">
-		</div>
-	</section>
 
-	<section class="claim">
-		<h1>SciFabric</h1>
-		<!--<h2>Tailor-made solutions for your<br /> citizen science and research projects</h2>-->
-		            
-            <div class="quotes">
-                  <div>
-                        <p class="quote">Everything is theoretically impossible, until it is done.</p>
-                        <p class="author">– Robert A. Heinlein</p>
-                  </div>
-                  <div>
-                        <p class="quote">The science of today is the technology of tomorrow.</p>
-                        <p class="author">– Edward Teller</p>
-                  </div>
-                  <div>
-                        <p class="quote">If the facts don't fit the theory, change the facts.</p>
-                        <p class="author">– Albert Einstein</p>
-                  </div>
-                  <div>
-                        <p class="quote">Science is organized knowledge. Wisdom is organized life.</p>
-                        <p class="author">– Immanuel Kant</p>
-                  </div>
-                  <div>
-                        <p class="quote">Science never solves a problem without creating ten more.</p>
-                        <p class="author">– George Bernard Shaw</p>
-                  </div>
-                  
-             </div>
-		
-    </section>
-    <section class="comingsoon">
-	    <a href="mailto:info@scifabric.com">Coming soon. Say hi!</a>
-    </section>
+<a name="top"></a>
+
+<!-- Modals -->
+<div class="md-modal md-effect-1" id="modal-pybossa">
+    <div class="md-content">
+
+        <div class="bg_color_3 img-rounded text-center">
+            <button class="md-close btn pull-right" id="btn_close"><i class="fa fa-times fa-lg"></i></button>
+            <img src="/images/pybossa_logo.png" alt="...">
+        </div>
+        <div>
+            <p>Pybossa is very flexible and it will adapt to your project needs. You can add, change or remove anything to it. No templates, no impositions, PyBossa can easily be bespoken with new features, apps or anything your mind can come up with. If you have the tech requirements, PyBossa is for you.</p>
+        </div>
+    </div>
+</div>
+
+<div class="md-modal md-effect-1" id="modal-crowdcrafting">
+    <div class="md-content">
+        <div class="bg_color_3 img-rounded text-center">
+            <button class="md-close btn pull-right" id="btn_close"><i class="fa fa-times fa-lg"></i></button>
+            <img src="/images/crowdcrafting_logo.png" alt="...">
+        </div>
+        <div>
+            <p>It is very easy to use and requires no technical knowledge. Everything is already set up so you can focus on the important. We'll do the rest. Need specific features? We got it. At Crowdcrafting you will also have access to hundreds of volunteers who are already collaborating on projects.</p>
+        </div>
+    </div>
+</div>
+
+
+
+<header class="navbar-wrapper">
+    <div class="container">
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#about">
+                        <img src="/images/Logo_Scifabric.png">
+                    </a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#caseStudies">Case Studies</a></li>
+                        <li><a href="#whoNeedUs">Who Need Us</a></li>
+                        <li><a href="#tailoring">Tailoring</a></li>
+                        <li><a href="#contact" class="btn btn-header">Get in touch!</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+</header>
+
+<div id="go-to-top">
+    <a href="#top">
+        <span class="sf-up-open-big"></span>
+    </a>
+</div>
+
+
+<div class="jumbotron">
+    <div class="container text-center firstfold">
+        <div id="logo" class="center-block">
+            <img src="/images/scifabric_logo_white_vert_trans.svg" onerror="this.onerror=null; this.src='/images/scifabric_logo_white_vert_trans.png'" width="100%" height="auto">
+        </div>
+        <h2>Bespoke solutions for <br/>crowdsourcing research</h2>
+        
+        </br>
+        
+        <p><a class="btn btn-lg btn-info" href="#about" role="button">Learn more about SciFabric</a></p>
+        <div id="brands" class="center-block hidden-xs">
+            <p class="white">Some companies we proudly work with</p>
+            <img src="/images/brands.png" width="100%" height="auto">
+        </div>
+    </div>
+</div>
+
+<!-- Wrap the rest of the page in another container to center all the content. -->
+
+<div class="about"><a name="about"></a>
+    <div class="container col-md-12 text-center">
+        <h1 class="color-primary uppercase bold top90">Free open-source software</h1>
+        <h3 class="down70 color-one">SciFabric is a free, open-source software company<br /> focused on crowdsourcing science.</h3>
+    </div>
+
+    <div class="container pbandcc">
+        <div class="col-md-6 text-center">
+            <div class="thumbnail">
+                <img src="/images/Pybossa_color.png" class="img-rounded">
+
+                <div class="caption">
+                    <p class="semibold">PyBossa is our free software for you to build up your own crowdsourced or citizen science project just the way you want it.</p>
+                    <a class="btn btn-info-2 btn-sm md-trigger top20" data-modal="modal-pybossa">More info</a>
+                    <p class="top20"><a href="http://pybossa.com/" target="_blank" class="color-one semibold btn-link top20">visit pybossa.com</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 text-center">
+            <div class="thumbnail">
+                <img src="/images/CrowdCrafting_color.png" class="img-rounded">
+                <div class="caption">
+                    <p class="semibold">Crowdcrafting is our open platform, built on PyBossa, where anyone can create a crowdsourced or citizen science project.</p>
+                    <a class="btn btn-info-2 btn-sm md-trigger top20" data-modal="modal-crowdcrafting">More info</a>
+                    <p class="top20"><a href="http://crowdcrafting.org/" target="_blank" class="color-one semibold btn-link top20">visit crowdcrafting.org</a></p>
+                </div>
+            </div>        
+        </div>
+    </div>
+</div>
+
+<div class="container case_studies"><a name="caseStudies"></a>
+    <div class="col-md-12 text-center">
+        <h1 class="color-primary uppercase bold top90">Case Studies</h1>
+        <h3 class="color-one down70">People and Institutions around the world<br />are already trusting SciFabric.</h3>
+    </div>
+    <div class="row">
+        <div class=" col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0">
+            <div class="thumbnail">
+                <img src="/images/Micropast.png" class="img-rounded" />
+                <div class="caption">
+                    <h4>Micropasts</h4>
+                    <h5>by The British Museum</h5>
+                    <p class="small semibold">The British Museum and the University College of London hired SciFabric to build their own PyBossa powered citsci platform to achieve two different objectives: digitizing the huge card catalog of British prehistoric metal artifacts, and creating a high quality 3D model of every one of these archaeological artifacts via process known as photo-masking.</br></p>
+                    <a href="http://crowdsourced.micropasts.org" target="_blank" class="color-one">Visit Micropast</a>
+                    <!--<a href="#contact" class="color-one btn btn-sm btn-info-2">More info</a>-->
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0">
+            <div class="thumbnail">
+                <img src="/images/Cities.png" class="img-rounded"/>
+                <div class="caption">
+                    <h4>Cities at Night</h4>
+                    <h5>by Nasa</h5>
+                    <p class="small semibold">Supported by NASA, the Complutense University of Madrid (UCM) is leading one of Crowdcrafting’s most ambitious projects to study energy use and light pollution. Their main goal is to catalog images taken by astronauts from the International Space Station: algorithms cannot distinguish between stars, cities, and other objects, and humans are much more efficient for complex image analysis.</p>
+                    <a href="http://crowdcrafting.org/app/darkskies/" target="_blank" class="color-one">Visit cities at night</a>
+                    <!--<a href="#contact" class="color-one btn btn-sm btn-info-2">More info</a>-->
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-0">
+            <div class="thumbnail">
+                <img src="/images/Antimatter.png" class="img-rounded">
+                <div class="caption">
+                    <h4>Antimatter Alpha</h4>
+                    <h5>by CERN</h5>
+                    <p class="small semibold">The European Organization for Nuclear Research, CERN, has enlisted Scifabric and Crowdcrafting  to help it understand how antimatter interacts with gravity. The AEgIS experiment asks volunteers to trace antimatter tracks in images of a special emulsion – its as easy as joining the dots! Volunteer contributions will help researchers to calculate how antimatter is affected by gravity.</p>
+                    <a href="http://crowdcrafting.org/app/antimatter/" target="_blank" class="color-one">Visit Antimatter project</a>
+                    <!--<a href="#contact" class="color-one btn btn-sm btn-info-2">More info</a>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <!-- /END OF THE CONTAINER -->
+
+<div class="bg_color_2 who_need_us"><a name="whoNeedUs"></a>
+    <div class="container">
+        <div class="col-md-12 text-center">
+            <h1 class="color-primary uppercase bold top90" style="color:#999">Who need us?</h1>
+            <h3 class="down70 color-one">Researchers, IT managers, citizens…
+            </br> We’re here for you!</h3>
+        </div>  
+        <div class="row">
+            <div class="col-md-6">
+                <p><strong>Researchers with specific technological needs</strong>: customization, building projects.</p>
+            </div>
+            <div class="col-md-6">
+                <p><strong>Research projects IT managers</strong>: implementation and understanding of the tool.</p>
+            </div>
+            <div class="col-md-6">
+                <p><strong>Researchers with limited resources</strong>: and without the necessary technological support.</p>
+            </div>
+            <div class="col-md-6">
+                <p><strong>Citizens <em>(you, sure!)</em></strong>: who want to start their own projects.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bg_color_1 tailoring"><a name="tailoring"></a>
+    <div class="container">
+        <div class="col-md-12">
+            <h1 class="text-center uppercase bold top90">Tailoring</h1>
+            <h3 class="text-center down70">How can we help you build up your own project?</h3>
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="images/compass.png" />
+            <!--<div class="sf-paperplane fontastic"></div>-->
+            <h4>Training</h4>
+            <p>Learn how to use PyBossa<br/> and fly alone!</p>
+            <a href="#contact" class="color-two btn btn-sm btn-info">More info</a>
+            <!--<button type="button" class="btn btn-sm btn-info bold md-trigger" data-modal="modal-3">More info</button>-->
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="images/support.png" />
+            <!--<div class="icon sf-params fontastic"></div>-->
+            <h4>Support &amp; Maintenance</h4>
+            <p>Forget about server hosting.<br/> We’re here for you.</p>
+            <a href="#contact" class="color-two btn btn-sm btn-info">More info</a>
+            <!--<button type="button" class="btn btn-sm btn-info bold md-trigger" data-modal="modal-3">More info</button>-->
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="images/rocket.png" />
+            <!--<div class="icon sf-lab fontastic"></div>-->
+            <h4>Consultancy</h4>
+            <p>Your project is unique.<br/> You know it, we’ll build it.</p>
+            <a href="#contact" class="color-two btn btn-sm btn-info">Tell us more!</a>
+            <!--<button type="button" class="btn btn-sm btn-info bold md-trigger" data-modal="modal-3">+ tell us more!</button>-->
+        </div>
+    </div>
+</div>
+
+<div class="bg_color_2 quotes">
+    <div class="container">
+        <div class="col-md-12 text-center">
+            <h1 class="color-primary uppercase bold top90">Contact us</h1>
+            <h3 class="color-one down70">What clients are saying</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-6  col-lg-5 col-lg-offset-1">
+                <div class="thumbnail client">
+                    <img src="images/Andrew_Bevan.jpeg" class="img-circle pull-left"/>
+                    <div class="caption">
+                        <h4 class="">Andrew Bevan</h4>
+                        <p class="role">Professor of Spatial and Comparative Archaeology at <a href="http://www.ucl.ac.uk/">UCL</a></p>
+                        <blockquote class="semibold"><span class="bqstart">&ldquo;</span>“Pybossa makes the creation of crowdsourcing projects so much easier and more enjoyable than it would otherwise be starting from scratch. It provides a leg-up for those just making their first steps in crowd-sourcing, but sacrifices nothing for those experts who want considerable flexibility. Its ability to re-deploy both the modular code and general wisdom developed in one initiative to enhance the quality of others is remarkable and makes the most of open source software. The future of citizen science is pythonised and moves to a bossa (nova) beat."<span class="bqend">&rdquo;</span></blockquote>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6  col-lg-5">
+                <div class="thumbnail client">
+                    <img src="images/daniel_pett_quote.jpg" class="img-circle pull-left"/>
+                    <div class="caption">
+                        <h4 class="">Daniel Pett</h4>
+                        <p class="role">ICT Advisor<br/> at <a href="http://www.britishmuseum.org/">British Museum</a></p>
+                        <blockquote class="semibold"><span class="bqstart">&ldquo;</span>The Pybossa system has allowed the British Museum to release an
+                         amazing resource to the public and a worldwide audience. It has so
+                        much potential for citizen scientists and future developments will aid
+                        archaeologists and museums curators to tell new narratives with input
+                        from the crowd.<span class="bqend">&rdquo;</span></blockquote>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /END OF THE ROW -->
+    </div> <!-- /END OF THE CONTAINER -->
+</div> <!-- /END OF BG_Color-->
+
+
+<!--<div class="bg_color_2"><a name="meetTheCrew"></a>
+<div class="container text-center">
+<div class="col-md-12">
+<h1 class="text-center color-primary uppercase bold top90">Meet the crew</h1>
+<h3 class="text-center down100">We're Alejandro, Álvaro, Clara, Daniel, Jorge and Marvin</h3>
+</div>
+</div>
+
+<div class="container crew_profile">
+<img src="http://placehold.it/150x400"/>
+<h4>Daniel Lombraña González</h4>
+<p>During my PhD I discovered that my real passion is to research and build tools that could help other people to solve their problems (I guess, that's my engineering side speaking).</p>
+<p>Right now I'm focused on building the citizen science framework PyBossa and its hosted version Crowdcrafting, where professional and amateur scientist create their research projects and invite people to help them to solve a problem.</p>
+<div class="icon sf-facebook fontastic"></div>
+<div class="icon sf-google fontastic"></div>
+<div class="icon sf-twitter-alt fontastic"></div>
+<div class="icon sf-github-alt fontastic"></div>
+</div>
+</div><!--END OF BG_Color-->
+
+
+<div class="container contact"><a name="contact"></a>
+    <div class="col-md-12 text-center">
+        <h1 class="color-primary uppercase bold top90">Contact us</h1>
+        <h3 class="color-one">Get in touch!</h3>
+        <p class="down70">We will be happy to answer your questions, concerns and inquiries.</p>
+    </div>
+
+    <div class="col-sm-6 col-md-6">
+        <h4>Bussiness</h4>
+        <p>If you’re thinking of hiring please contact<br/>
+            <a class="color-one" href="mailto:daniel@scifabric.com?Subject=Hello!">daniel@scifabric.com</a>
+        </p>
+    </div>
+
+    <div class="col-sm-6 col-md-6">
+        <h4>Support</h4>
+        <p>If you’re you’re having technical issues please contact<br/> 
+            <a class="color-one" href="mailto:support@scifabric.com?Subject=Hello!">support@scifabric.com</a>
+        </p>
+    </div>
+
+    <div class="col-sm-6 col-md-6">
+        <h4>Press</h4>
+        <p>Press, PR, Communications in general, write to<br/> 
+            <a class="color-one" href="mailto:clara@scifabric.com?Subject=Hello!">clara@scifabric.com</a>
+        </p>
+    </div>
+
+    <div class="col-sm-6 col-md-6">
+        <h4>Information</h4>
+        <p>Just to want to say hi?<br/> 
+            <a class="color-one" href="mailto:info@scifabric.com?Subject=Hello!">info@scifabric.com</a>
+        </p>
+    </div>
+</div><!-- /END OF THE CONTAINER -->

@@ -8,48 +8,66 @@
         <meta name="viewport" content="width=device-width">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <link href="/css/component.css" rel="stylesheet">
 		<link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<link href="/css/video.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,700,300' rel='stylesheet' type='text/css'>
+
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
         <script src="/js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="/js/modernizr.custom.js" type="text/javascript" charset="utf-8"></script>
         
-		<script src="/js/jquery.lazylinepainter-1.5.1.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="/js/main.js" type="text/javascript" charset="utf-8"></script>
+        <script>
+                // grab an element
+        var myElement = document.querySelector("header");
+        // construct an instance of Headroom, passing the element
+        var headroom  = new Headroom(myElement);
+        // initialise
+        headroom.init();
+        </script>
+  
+
+
         {% include ga.html %}
 		
 	</head>
 	<body>
         
-        <div class="bg_image">
-        </div>
-
 		<section class="site">
 
 			{{ content }}
 
 		</section>
 		
-		<footer>
-		    
-		    <div id="powered">
-		        <p>Powering up <a href="http://pybossa.com">PyBossa</a> and <a href="http://crowdcrafting.org">Crowdcrafting</a> since 2011</p>
-		    </div>
-		    
-		    <div id="SSNN">
-		        <p>Keep you updated</p>
-		        <a href="https://www.facebook.com/crowdcrafting">
-                    <i class="fa fa-facebook"></i>
-    	        </a>
-    	        <a href="https://twitter.com/scifabric">
-    	            <i class="fa fa-twitter"></i>
-    	        </a>
-    	        <a href="https://github.com/PyBossa/crowdcrafting.org">
-                    <i class="fa fa-github"></i>
-    	        </a>
-	        </div>
-	        
-		</footer>
+        <footer>
+            <div class="container social-media">
+                <div class="col-xs-12 col-sm-9 ">
+                    <img class="logo_horiz" src="/images/Logo_Scifabric_2.png"  style="margin-top: -20px"/>
 
+                <p>Scifabric is powering up <a href="http://pybossa.com/">PyBossa</a> and <a href="http://crowdcrafting.org/">Crowdcrafting</a> since 2011</p>
+            </div>
+            <div class="col-xs-12 col-sm-3">
+                <p class="text-right social-media">
+                    <a href="https://www.facebook.com/crowdcrafting"><i class="fa fa-facebook-official"></i></a>
+                    <a href="https://twitter.com/scifabric"><i class="fa fa-twitter"></i></a>
+                    <a href="https://github.com/PyBossa/crowdcrafting.org"><i class="fa fa-github"></i></a>
+                    <p>
+
+                    </div>
+                </footer>
+
+        <script src="js/classie.js"></script>
+        <script src="js/modalEffects.js"></script>
+        
+        <script src="../../assets/js/docs.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+        
 	</body>
 </html>

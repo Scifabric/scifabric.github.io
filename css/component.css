@@ -87,13 +87,39 @@ perspective effects (not including the modals and the overlay).
 .md-content > div {
 	padding: 15px 40px 15px 30px;
 	margin: 0;
-	font-weight: 300;
-	font-size: 1.15em;
+}
+.md-content > div.md-head {
+	border-radius:3px 3px 0 0;
+}
+.md-content img {
+	width:50%;
+}
+.md-content > div.md-text {
+	margin: 0;
+	padding: 30px 40px;
+	font-weight: 400;
+	font-size: 16px;
+	color:#666;
+}
+.md-content > div.md-text p {
+	margin: 10px 0;
 }
 
-.md-content > div p {
-	margin: 0;
-	padding: 10px 0;
+@media (max-width: 768px) {
+	.md-content img {
+		width:70%;
+	}
+	.md-content button {
+		position:relative;
+		top:-35px;
+		right:25px;
+		float:right;
+		width:40px;
+	}
+	.md-content button i {
+		margin-top:-250px;
+		font-size:24px;
+	}
 }
 
 .md-content > div ul {

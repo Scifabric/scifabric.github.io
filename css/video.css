@@ -1,6 +1,5 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
-/* Padding below the footer and lighter body text */
 
 body {
 /*  font-family: "source-sans-pro", "Source Sans Pro", "Helvetica Neue", HelveticaNeue, Helvetica, sans-serif; */
@@ -14,163 +13,8 @@ body {
   line-height: 1.42857143;
 }
 
-header {
-	background-color:#fff;
-	top:-200px;
-	opacity:0;
-	-webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
-	-moz-box-shadow:    0px 1px 1px 0px rgba(0, 0, 0, 0.1);
-	box-shadow:         0px 1px 1px 0px rgba(0, 0, 0, 0.1);
-	transition:top .2 ease;
-	-webkit-transition: top .3s ease;
-    -o-transition: top .3s ease;
-    transition: top .3s ease;
-}
-.show {
-	opacity:1;
-}
-
-.navbar-brand img{
-	max-width:200px; 
-	margin-top: -13px;
-}
-
-
-@media (min-width: 768px) and (max-width: 992px){
-    .navbar-brand img{
-		max-width:150px; 
-		margin-top: -10px
-	}
-}
-
-#btn-nav{
-  padding-left: 15px;
-}
-
-@media (min-width: 768px) and (max-width: 992px){
-    
-    #btn-nav{
-    padding-left: 3px;
-    }
-}
-
-
-
-#go-to-top {
-	position:fixed;
-	display:block;
-	background-color:#fff;
-	right:40px;
-	border-radius:4px 4px 0 0;
-	bottom:-90px;
-	-webkit-box-shadow: 0px -1px 1px 1px rgba(0, 0, 0, 0.1);
-	-moz-box-shadow:    0px -1px 1px 1px rgba(0, 0, 0, 0.1);
-	box-shadow:         0px -1px 1px 1px rgba(0, 0, 0, 0.1);
-	transition: bottom .2 ease;
-	-webkit-transition: bottom .3s ease;
-    -o-transition: bottom .3s ease;
-    transition: bottom .3s ease;
-}
-#go-to-top.none {
-	bottom:0;
-}
-#go-to-top a {
-	display:inline-block !important;
-	padding:13px 15px 10px 15px;
-}
-#go-to-top a:hover {
-	padding:13px 15px 22px 15px;
-}
-#go-to-top a:hover,
-#go-to-top a:focus,
-#go-to-top a:active {
-	text-decoration:none;
-}
-
-h1 {
-	font-size: 20px;
-	font-weight:500 !important;
-}
-
-footer {
-	background-color:#222;
-	color:#fff;
-	padding:160px 0 40px ;
-	margin:0;
-}
-
-footer p{
-  font-size: 22px;
-  padding-left: inherit;
-  color: #6d6d6d;
-}
-
-footer a{
-  color: #fff;
-}
-
-footer p i{
-  margin-left: 15px;
-}
-
-
-footer .ssnn a {
-	display:inline-block;
-	height:70px;
-	width:70px;
-	font-size:34px !important;
-	margin:0 30px 60px 30px;
-	padding:15px 15px 5px 15px ;
-	border-radius:100px;
-	background-color:rgba(255,255,255,.05);
-}
-
-footer .ssnn a:hover {
-	background-color:rgba(255,255,255,.05);
-	color:#fff;
-	text-decoration:none;
-}
-
-.firstfold {
-  margin-top:70px !important;
-}
-
-#logo {
-  max-width: 150px;
-  margin-bottom: 40px;
-}
-
-#brands{
-  max-width: 900px;
-  opacity: 0.85;
-  margin-top: 90px
-}
-
-#brands p {
-	font-size:16px;
-	font-weight:600;
-	opacity:.5;
-}
-
-.white{
-  color:#fff;
-}
-
-.color-primary {
-  color:#CCC;
-}
-
-.color-one {
-  color:#077CA0;
-}
-.color-two {
-  color:#FFF;
-font-size:14px;
-font-weight:500;
-}
-.color-two:hover {
-  background-color:#077CA0;
-}
+/* General Styles
+-------------------------------------------------- */
 
 .bg_color_1 {
   background-color: #1E7591;
@@ -189,35 +33,343 @@ font-weight:500;
   color: white;
 }
 
-#btn_close{
+
+.color-primary {
+  color:#CCC;
+}
+
+.color-one {
+  color:#077CA0;
+}
+.color-two {
+  color:#FFF;
+font-size:14px;
+font-weight:500;
+}
+
+.color-two:hover {
+  background-color:#077CA0;
+}
+
+.white{
+  color:#fff;
+}
+
+
+.italic {
+  font-style: italic;
+  }
+
+.bold {
+  font-weight: 700;
+}  
+
+.semibold{
+  font-weight: 400;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.container .light{
+  line-height: 1.4;
+}
+
+.uppercase {
+  text-transform:uppercase;
+}
+
+
+.left20{
+  margin-left: 20px;
+}
+
+.top100{ 
+  margin-top: 100px;
+}
+
+.top90{ 
+  margin-top: 90px;
+}
+
+.top20 {
+  margin-top:20px;
+}
+
+.down100{
+  margin-bottom: 100px;
+}
+
+.down70{
+  margin-bottom: 70px;
+}
+
+.down20{
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  
+  h1 {
+    font-size:14px !important;
+  }
+  h2 {
+    font-size:20px !important;
+  }
+  h3 {
+    font-size:20px !important;
+  }
+  h3 br {
+    display:none;
+  }
+  p {
+    font-size: 16px !important;
+  }
+
+  .btn {
+    font-size:12px !important;
+  }
+  
+  .left20{
+    margin-left: 10px;
+  }
+
+  .top100{ 
+    margin-top: 50px;
+  }
+
+  .top90{ 
+    margin-top: 50px;
+  }
+
+  .top20 {
+    margin-top:10px;
+  }
+
+  .down100{
+    margin-bottom: 50px;
+  }
+
+  .down70{
+    margin-bottom: 40px;
+  }
+
+  .down20{
+    margin-bottom: 10px;
+  }
+  
+}
+
+
+
+/* Header
+-------------------------------------------------- */
+
+header {
+	background-color:#fff;
+	top:-200px;
+	opacity:0;
+	-webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow:    0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+	box-shadow:         0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+	transition:top .2 ease;
+	-webkit-transition: top .3s ease;
+    -o-transition: top .3s ease;
+    transition: top .3s ease;
+}
+
+
+.firstfold {
+  margin-top:70px !important;
+}
+
+
+.jumbotron {
+  padding: 30px 15px;
+  margin-bottom: 0px;
+  color: inherit;
+  background-color: #eee;
+  right:0;left:0;top:0;bottom:0;
+  overflow:hidden;
+  background: #333 url('../images/bg.jpg') no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment:fixed;
+  height: 780px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-device-pixel-ratio: 2) {
+    
+  .jumbotron {
+    /* Reference the @2x Sprite */
+    background-image: url('../images/bg@2x.jpg');
+    /* Translate the @2x sprite's dimensions back to 1x */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    }
+}
+
+#logo {
+  max-width: 150px;
+  margin-bottom: 40px;
+}
+
+#brands{
+  max-width: 900px;
+  opacity: 0.85;
+  margin-top: 90px
+}
+
+#brands p {
+  font-size:16px;
+  font-weight:600;
+  opacity:.5;
+}
+
+@media (max-width: 768px)  {
+    
+    .firstfold {
+    margin-top:20px !important;
+    }
+
+    .jumbotron {
+    background: #0F3B49;
+    height:auto;
+    padding: 30px 0 60px 0 !important;
+    }
+    .jumbotron h2 {
+    margin-bottom:10px;
+    }
+    .jumbotron #logo img {
+    width:70%;
+    }
+
+}
+
+/* Nav Bar
+-------------------------------------------------- */
+
+.show {
+	opacity:1;
+}
+
+.navbar-brand img{
+	max-width:200px; 
+	margin-top: -13px;
+}
+
+
+@media (min-width: 768px) and (max-width: 992px){
+    .navbar-brand img{
+		max-width:150px; 
+		margin-top: -10px
+	}
+}
+
+
+#btn-nav{
+  padding-left: 15px;
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    
+    #btn-nav{
+    padding-left: 3px;
+    }
+}
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    padding:10px 0;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+}
+
+
+/* Modals
+-------------------------------------------------- */
+
+#btn-close{
   margin: -15px -40px 0px 0px;
   background-color: transparent;
   color: white;
 }
 
-.no-pad-left{
-  padding-left: 0px;
-}
+
+/* About
+-------------------------------------------------- */
+
 .about {
 	border-bottom:1px solid #eee;
 	padding-bottom:120px;
 	padding-bottom:0px;
 	background: #fff url('../images/bg_triangles_grad.png') repeat-x bottom center fixed; 
 }
+
 .about .pbandcc {
   background: transparent url('../images/cc_bodegon.png') no-repeat bottom center; 
   padding-bottom:380px;
 }
 
 
-@media (max-width: 767px){
+@media (max-width: 768px){
   
-  .about p {
+    .about p {
     font-size: 22px;
+    }
+
+    .about .pbandcc {
+    background: none; 
+    padding-bottom:40px;
+    }
+
   }
 
-}
 
+/* Case studies
+-------------------------------------------------- */
 
 .case_studies {
   padding-bottom: 120px;
@@ -243,6 +395,23 @@ font-weight:500;
   color:#666;
 }
 
+@media (max-width: 768px)  {
+
+    .case_studies p {
+    font-size: 15px !important;
+    }
+
+    .case_studies .col-xs-10 {
+    text-align:center;
+    padding:0;
+    margin-top: 20px;
+    }
+} 
+
+
+/* Who need us
+-------------------------------------------------- */
+
 .who_need_us {
   background: #f9f9f9 url('../images/bg_triangles.png') top center repeat fixed;
 }
@@ -256,6 +425,10 @@ font-weight:500;
   margin-top: 20px;
 }
 
+
+
+/* Clients
+-------------------------------------------------- */
 
 .client {
   background-color:#fff;
@@ -276,8 +449,6 @@ font-weight:500;
       }
 }
 
-
-
 .client p.role {
   color:#999;
   font-size:14px;
@@ -296,12 +467,12 @@ blockquote {
 	margin-top:20px;
 }
 
-@media (max-width: 767px){
-     blockquote {
-        font-size: 17px;
-      }
-}
+@media (max-width: 768px)  {
 
+  .quotes blockquote {
+    font-size:15px;
+  }
+}
 
 .client h4 {
 	font-size:20px;
@@ -357,6 +528,9 @@ blockquote {
 }
 
 
+/* Contact
+-------------------------------------------------- */
+
 .contact{
   padding-bottom: 150px;
 }
@@ -372,13 +546,8 @@ blockquote {
 	}
 }
 
-@media (max-width: 768px){
-	.social-media {
-  		margin-bottom:50px;
-  		margin-top: 20px;
-  		text-align: center;
-	}
-}
+/* Tailoring
+-------------------------------------------------- */
 
 .tailoring {
   background: #1E7591 url('../images/bg_triangles_blue.png') top center repeat fixed;
@@ -398,11 +567,22 @@ blockquote {
   margin-top: 30px;
 }
 
+@media (max-width: 768px)  {
+
+  .tailoring img {
+    width:45%;
+  }
+}
+
 @media (max-width: 970px) {
-	.tailoring .col-md-4 {
+	
+  .tailoring .col-md-4 {
   		margin-top: 50px;
 	}
 }
+
+/* Team
+-------------------------------------------------- */
 
 .crew_profile {
 	background-color:#fff;
@@ -415,311 +595,101 @@ blockquote {
 }
 
 
-.italic {
-  font-style: italic;
-  }
-
-.bold {
-  font-weight: 700;
-}  
-
-.semibold{
-  font-weight: 400;
-}
-
-.light {
-  font-weight: 300;
-}
-
-.uppercase {
-	text-transform:uppercase;
-}
-
-.container .light{
-  line-height: 1.4;
-}
-
-.left20{
-  margin-left: 20px;
-}
-
-.top100{ 
-  margin-top: 100px;
-}
-
-.top90{ 
-  margin-top: 90px;
-}
-
-.top20 {
-	margin-top:20px;
-}
-
-.down100{
-  margin-bottom: 100px;
-}
-
-.down70{
-  margin-bottom: 70px;
-}
-
-.down20{
-  margin-bottom: 20px;
-}
-
-
-
-/* CUSTOMIZE THE NAVBAR
+/* Footer
 -------------------------------------------------- */
 
-/* Special class on .container surrounding .navbar, used for positioning it into place. */
-.navbar-wrapper {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 20;
+
+footer {
+  background-color:#222;
+  color:#fff;
+  padding:160px 0 40px ;
+  margin:0;
 }
 
-/* Flip around the padding for proper display in narrow viewports */
-.navbar-wrapper > .container {
-  padding-right: 0;
-  padding-left: 0;
-}
-.navbar-wrapper .navbar {
-  padding-right: 0px;
-  padding-left: 0px;
-}
-.navbar-wrapper .navbar .container {
-  width: auto;
+footer p{
+  font-size: 22px;
+  padding-left: inherit;
+  color: #6d6d6d;
 }
 
+footer a{
+  color: #fff;
+}
 
+footer p i{
+  margin-left: 15px;
+}
 
-/* CUSTOMIZE THE CAROUSEL
+footer .ssnn a {
+  display:inline-block;
+  height:70px;
+  width:70px;
+  font-size:34px !important;
+  margin:0 30px 60px 30px;
+  padding:15px 15px 5px 15px ;
+  border-radius:100px;
+  background-color:rgba(255,255,255,.05);
+}
+
+footer .ssnn a:hover {
+  background-color:rgba(255,255,255,.05);
+  color:#fff;
+  text-decoration:none;
+}
+
+footer {
+    padding:40px 0 30px 0;
+  }
+footer .logo_horiz {
+    width:40%;
+    margin-bottom:30px;
+  }
+
+@media (max-width: 768px){
+  
+  .social-media {
+      margin-bottom:50px;
+      margin-top: 20px;
+      text-align: center;
+  }
+  i .fa {
+    font-size:40px;
+    margin:0 20px;
+  }
+  
+}
+
+/* Go to top btn
 -------------------------------------------------- */
 
-/* Carousel base class */
-/*.video-container {
-  max-height: 700px;
-  margin-bottom: 60px;
-  background-color: black;
-
+#go-to-top {
+  position:fixed;
+  display:block;
+  background-color:#fff;
+  right:40px;
+  border-radius:4px 4px 0 0;
+  bottom:-90px;
+  -webkit-box-shadow: 0px -1px 1px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow:    0px -1px 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow:         0px -1px 1px 1px rgba(0, 0, 0, 0.1);
+  transition: bottom .2 ease;
+  -webkit-transition: bottom .3s ease;
+    -o-transition: bottom .3s ease;
+    transition: bottom .3s ease;
+}
+#go-to-top.none {
+  bottom:0;
+}
+#go-to-top a {
+  display:inline-block !important;
+  padding:13px 15px 10px 15px;
+}
+#go-to-top a:hover {
+  padding:13px 15px 22px 15px;
+}
+#go-to-top a:hover,
+#go-to-top a:focus,
+#go-to-top a:active {
+  text-decoration:none;
 }
 
-.video-container > video {
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 700px;
-}
-
-video #bgvid {
-  position: absolute;
-min-width: 100%; ;
-width: 100%; height: auto; z-index: -100;
-background: url(ejemplo.jpg) no-repeat;
-background-size: cover;
-display: inline-block;
-
-}*/
-
-
-
-
-
-/* RESPONSIVE CSS
--------------------------------------------------- */
-
-@media (min-width: 768px) {
-  /* Navbar positioning foo */
-  .navbar-wrapper {
-    padding:10px 0;
-  }
-  .navbar-wrapper .container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-  .navbar-wrapper .navbar {
-    padding-right: 0;
-    padding-left: 0;
-  }
-
-  /* The navbar becomes detached from the top, so we round the corners */
-  .navbar-wrapper .navbar {
-    border-radius: 4px;
-  }
-
-  /* Bump up size of carousel content */
-  .carousel-caption p {
-    margin-bottom: 20px;
-    font-size: 21px;
-    line-height: 1.4;
-  }
-
-  .featurette-heading {
-    font-size: 50px;
-  }
-}
-
-@media (min-width: 992px) {
-  .featurette-heading {
-    margin-top: 120px;
-  }
-}
-
-.p1-hero-wrapper{
-  position: relative;
-  height: 750px;
-  margin-bottom: 30px;
-  }
-
-@media (max-width: 767px){
-  .p1-hero-wrapper{
-    height:500px
-  }
-}
-
-.jumbotron {
-  padding: 30px 15px;
-  margin-bottom: 0px;
-  color: inherit;
-  background-color: #eee;
-  right:0;left:0;top:0;bottom:0;
-  overflow:hidden;
-  background: #333 url('../images/bg.jpg') no-repeat top center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-attachment:fixed;
-  height: 780px;
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2), 
-only screen and (min-device-pixel-ratio: 2) {
-    
-  .jumbotron {
-    /* Reference the @2x Sprite */
-    background-image: url('../images/bg@2x.jpg');
-    /* Translate the @2x sprite's dimensions back to 1x */
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
-    }
-}
-
-
-@media (max-width: 767px){
-  .jumbotron{
-    background: #0F3B49;
-  }
-}
-
-
-
-@media (max-width: 1099px){
-  #bgvid{height:100%;width:auto}
-}
-#bgvid{bottom:0;position:absolute;width:100%}
-
-@media (max-width: 768px) {
-	.navbar-brand img {
-		max-width:160px; 
-		margin-top: -10px;
-	}
-	h1 {
-		font-size:14px !important;
-	}
-	h2 {
-		font-size:20px !important;
-	}
-	h3 {
-		font-size:20px !important;
-	}
-	h3 br {
-		display:none;
-	}
-	p {
-		font-size: 16px !important;
-	}
-	.jumbotron {
-		height:auto;
-		padding: 30px 0 60px 0 !important;
-	}
-	.jumbotron h2 {
-		margin-bottom:10px;
-	}
-	.jumbotron #logo img {
-		width:70%;
-	}
-	.firstfold {
-		margin-top:20px !important;
-	}
-	
-	.about .pbandcc {
-	  background: none; 
-	  padding-bottom:40px;
-	}
-	
-	footer {
-		padding:40px 0 30px 0;
-	}
-	footer .logo_horiz {
-		width:40%;
-		margin-bottom:30px;
-	}
-	.btn {
-		font-size:12px !important;
-	}
-	
-	.left20{
-	  margin-left: 10px;
-	}
-
-	.top100{ 
-	  margin-top: 50px;
-	}
-
-	.top90{ 
-	  margin-top: 50px;
-	}
-
-	.top20 {
-		margin-top:10px;
-	}
-
-	.down100{
-	  margin-bottom: 50px;
-	}
-
-	.down70{
-	  margin-bottom: 40px;
-	}
-
-	.down20{
-	  margin-bottom: 10px;
-	}
-	
-	.tailoring img {
-		width:45%;
-	}
-	.case_studies p {
-    	font-size: 15px !important;
-  	}
-
-  	.case_studies .col-xs-10 {
-    	text-align:center;
-		padding:0;
-		margin-top: 20px;
-  	}
-	.quotes blockquote {
-		font-size:15px;
-	}
-	i.fa {
-		font-size:40px;
-		margin:0 20px;
-	}
-	
-}

@@ -335,7 +335,7 @@ only screen and (min-device-pixel-ratio: 2) {
 	border-bottom:1px solid #eee;
 	padding-bottom:120px;
 	padding-bottom:0px;
-	background: #fff url('../images/bg_triangles_grad.png') repeat-x bottom center fixed; 
+	background: #fff url('../images/triangles_bg.png') repeat-x bottom center fixed; 
 }
 
 .about .pbandcc {

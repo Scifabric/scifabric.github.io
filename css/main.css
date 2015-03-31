@@ -327,15 +327,6 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 
 
-/* Modals
--------------------------------------------------- */
-
-#btn-close{
-  margin: -15px -40px 0px 0px;
-  background-color: transparent;
-  color: white;
-}
-
 
 /* About
 -------------------------------------------------- */
@@ -367,9 +358,10 @@ only screen and (min-device-pixel-ratio: 2) {
   }
 
 @media (max-width: 991px){
+     
      .about br {
-    display:none;
-  }
+      display:none;
+      }
 }
 
 /* Case studies

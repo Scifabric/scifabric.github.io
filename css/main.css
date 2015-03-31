@@ -366,6 +366,11 @@ only screen and (min-device-pixel-ratio: 2) {
 
   }
 
+@media (max-width: 991px){
+     .about br {
+    display:none;
+  }
+}
 
 /* Case studies
 -------------------------------------------------- */

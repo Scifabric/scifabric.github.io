@@ -6,38 +6,40 @@ title: SciFabric - Bespoke solutions for your citizen science and research proje
 <a name="top"></a>
 
 <!-- Modals -->
-<div class="md-modal md-effect-1" id="modal-pybossa">
-    <div class="md-content">
-
-        <div class="bg_color_3 md-head text-center">
-            <button class="md-close btn pull-right" id="btn-close"><i class="fa fa-times fa-lg"></i></button>
-            <img src="/images/pybossa_logo.png" alt="Pybossa Logo">
-        </div>
-        <div class="md-text">
+<div class="modal fade" id="modal-pybossa" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header bg_color_3 text-center img-rounded">
+        <button type="button" class="close white" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <img src="/images/pybossa_logo.png" alt="Pybossa Logo">
+      </div>
+      <div class="modal-body">
             <p>The software is completely flexible and can be tailored to your individual needs. Your project can be custom-made with the tools, features and applications you desire. </p>
             <p>Then, as your project evolves, you can remove, add or alter anything you like. If you have specific technical requirements, PyBossa is for you.</p>
             <p class="top20"><a href="http://pybossa.com/" target="_blank" class="color-one semibold btn-link top20">visit pybossa.com</a></p>
-        </div>
+      </div>
     </div>
+  </div>
 </div>
 
-<div class="md-modal md-effect-1" id="modal-crowdcrafting">
-    <div class="md-content">
-        <div class="bg_color_3 md-head text-center">
-            <button class="md-close btn pull-right" id="btn-close"><i class="fa fa-times fa-lg"></i></button>
-            <img src="/images/crowdcrafting_logo.png" alt="Crowdcrafting Logo">
-        </div>
-        <div class="md-text">
+<div class="modal fade" id="modal-crowdcrafting" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header bg_color_3 text-center img-rounded">
+        <button type="button" class="close white" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <img src="/images/crowdcrafting_logo.png" alt="Pybossa Logo">
+      </div>
+      <div class="modal-body">
             <p><strong>Crowdcrafting is all about being user-friendly.</strong></p>
             <p>It is designed to make setting up your project as straightforward and painless as possible, so that you can focus on what really matters. We have easy-to-use project templates and, if you need specific features, we got’em.</p>
             <p>At Crowdcrafting, you will have access to our community of amazing volunteers who contribute to the projects we host. </p>
             <p class="top20"><a href="http://crowdcrafting.org/" target="_blank" class="color-one semibold btn-link top20">visit crowdcrafting.org</a></p>
-        </div>
+      </div>
     </div>
+  </div>
 </div>
 
-<div class="md-overlay">
-</div>
+<!-- Header -->
 
 <header class="navbar-wrapper">
     <div class="container">
@@ -51,7 +53,7 @@ title: SciFabric - Bespoke solutions for your citizen science and research proje
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="#about">
-                        <img src="/images/Logo_Scifabric.png">
+                        <img src="/images/Logo_Scifabric.png" class="hires">
                     </a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
@@ -88,7 +90,7 @@ title: SciFabric - Bespoke solutions for your citizen science and research proje
         <p><a class="btn btn-lg btn-info" href="#about" role="button">Learn more about SciFabric</a></p>
         <div id="brands" class="center-block hidden-xs">
             <p class="white">Some companies we proudly work with</p>
-            <img src="/images/brands.png" width="100%" height="auto">
+            <img src="/images/brands.png" width="100%" height="auto" class="hires">
         </div>
     </div>
 </div>
@@ -102,24 +104,26 @@ title: SciFabric - Bespoke solutions for your citizen science and research proje
     </div>
 
     <div class="container pbandcc">
-        <div class="col-md-6 text-center">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-6 text-center">
             <div class="thumbnail">
-                <img src="/images/Pybossa_color.png" class="img-rounded">
+                <img src="/images/Pybossa_color.png" class="hires" width="230px">
 
                 <div class="caption">
                     <p class="semibold">PyBossa is our free software that you can use to build your own crowdsourced or citizen science project just the way you like it.</p>
-                    <a class="btn btn-info-2 btn-sm md-trigger top20" data-modal="modal-pybossa">More info</a>
+                    <button type="button" class="btn btn-info-2 btn-sm top20" data-toggle="modal" data-target="#modal-pybossa">More info</button>
                     <p class="top20"><a href="http://pybossa.com/" target="_blank" class="color-one semibold btn-link top20">visit pybossa.com</a></p>
+
+
                 </div>
             </div>
         </div>
 
-        <div class="col-md-6 text-center">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-6 text-center">
             <div class="thumbnail">
-                <img src="/images/CrowdCrafting_color.png" class="img-rounded">
+                <img src="/images/CrowdCrafting_color.png" class="hires" width="230px">
                 <div class="caption">
                     <p class="semibold">Crowdcrafting is an open, PyBossa-powered platform where anyone can create a crowdsourced or citizen science project.</p>
-                    <a class="btn btn-info-2 btn-sm md-trigger top20" data-modal="modal-crowdcrafting">More info</a>
+                    <button type="button" class="btn btn-info-2 btn-sm top20" data-toggle="modal" data-target="#modal-crowdcrafting">More info</button>
                     <p class="top20"><a href="http://crowdcrafting.org/" target="_blank" class="color-one semibold btn-link top20">visit crowdcrafting.org</a></p>
                 </div>
             </div>        

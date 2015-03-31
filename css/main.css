@@ -2,7 +2,6 @@
 -------------------------------------------------- */
 
 body {
-/*  font-family: "source-sans-pro", "Source Sans Pro", "Helvetica Neue", HelveticaNeue, Helvetica, sans-serif; */
   font-family: "Helvetica Neue", HelveticaNeue, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-shadow:0 0 1px transparent;
@@ -261,14 +260,14 @@ only screen and (min-device-pixel-ratio: 2) {
 
 .navbar-brand img{
 	max-width:200px; 
-	margin-top: -13px;
+	margin-top: -15px;
 }
 
 
-@media (min-width: 768px) and (max-width: 992px){
+@media (max-width: 992px){
     .navbar-brand img{
 		max-width:150px; 
-		margin-top: -10px
+		margin-top: -9px
 	}
 }
 
@@ -328,15 +327,6 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 
 
-/* Modals
--------------------------------------------------- */
-
-#btn-close{
-  margin: -15px -40px 0px 0px;
-  background-color: transparent;
-  color: white;
-}
-
 
 /* About
 -------------------------------------------------- */
@@ -367,6 +357,12 @@ only screen and (min-device-pixel-ratio: 2) {
 
   }
 
+@media (max-width: 991px){
+     
+     .about br {
+      display:none;
+      }
+}
 
 /* Case studies
 -------------------------------------------------- */

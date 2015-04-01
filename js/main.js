@@ -26,8 +26,6 @@ $(function() {
 
            //rename image
            images[i].src = imageName;
-
-           console.log('su puta madre');
          }
     }
 });

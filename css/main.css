@@ -338,6 +338,17 @@ only screen and (min-device-pixel-ratio: 2) {
 	background: #fff url('../images/triangles_bg.png') repeat-x bottom center fixed; 
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-device-pixel-ratio: 2) {
+    
+  .about {
+    /* Reference the @2x Sprite */
+    background: #fff url('../images/triangles_bg@2x.png') repeat-x bottom center fixed; 
+    /* Translate the @2x sprite's dimensions back to 1x */
+    background-size: 159px; 
+    }
+}
+
 .about .pbandcc {
   background: transparent url('../images/cc_bodegon.png') no-repeat bottom center; 
   padding-bottom:380px;

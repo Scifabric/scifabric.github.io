@@ -345,7 +345,7 @@ only screen and (min-device-pixel-ratio: 2) {
     /* Reference the @2x Sprite */
     background: #fff url('../images/triangles_bg@2x.png') repeat-x bottom center fixed; 
     /* Translate the @2x sprite's dimensions back to 1x */
-    background-size: 159px; 
+    background-size: 112px; 
     }
 }
 

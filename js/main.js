@@ -26,22 +26,21 @@ $(function() {
 
            //rename image
            images[i].src = imageName;
-
-           console.log('su puta madre');
          }
     }
 });
 
 $(window).scroll(function() {
 if ($(this).scrollTop() > 250){  
-    $('header').css('top','0px');
-	$('header').addClass('show');
+    $('nav').css('top','0px');
+	$('nav').addClass('show');
     $('#go-to-top').css('bottom','0px');
 	$('#go-to-top').addClass('show');
   }
   else{
-	$('header').css('top','-=200px');
+	$('nav').css('top','-=200px');
 	$('#go-to-top').css('bottom','-=100px');
   }
 });
+
 

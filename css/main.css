@@ -10,6 +10,7 @@ body {
   font-size: 17px;
   font-weight: 300;
   line-height: 1.42857143;
+  position: relative;
 }
 
 /* General Styles
@@ -164,8 +165,7 @@ font-weight:500;
 
 /* Header
 -------------------------------------------------- */
-
-header {
+nav {
 	background-color:#fff;
 	top:-200px;
 	opacity:0;

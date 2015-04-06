@@ -335,8 +335,16 @@ only screen and (min-device-pixel-ratio: 2) {
 	border-bottom:1px solid #eee;
 	padding-bottom:120px;
 	padding-bottom:0px;
-	background: #fff url('../images/bg_triangles_grad.png') repeat-x bottom center fixed; 
-}
+  background: background: rgba(255,255,255,0);
+  background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(249,249,249,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(100%, rgba(249,249,249,1)));
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(249,249,249,1) 100%);
+  background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(249,249,249,1) 100%);
+  background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(249,249,249,1) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(249,249,249,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f9f9f9', GradientType=0 );
+  }
+
 
 .about .pbandcc {
   background: transparent url('../images/cc_bodegon.png') no-repeat bottom center; 
@@ -409,8 +417,21 @@ only screen and (min-device-pixel-ratio: 2) {
 -------------------------------------------------- */
 
 .who_need_us {
-  background: #f9f9f9 url('../images/bg_triangles.png') top center repeat fixed;
+  background: #f9f9f9 url('../images/triangles_bg.png') repeat top fixed;
 }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-device-pixel-ratio: 2) {
+    
+  .who_need_us {
+    /* Reference the @2x Sprite */
+    background: #f9f9f9 url('../images/triangles_bg@2x.png') repeat top fixed;
+    /* Translate the @2x sprite's dimensions back to 1x */
+    background-size: 450px; 
+    }
+}
+
+
 .who_need_us p,
 .contact p {
   font-size:20px;
@@ -546,8 +567,17 @@ blockquote {
 -------------------------------------------------- */
 
 .tailoring {
-  background: #1E7591 url('../images/bg_triangles_blue.png') top center repeat fixed;
+  background: #28425C url('../images/triangles_bg2.png') repeat top fixed;
 }
+
+  .tailoring {
+    /* Reference the @2x Sprite */
+    background: #28425C url('../images/triangles_bg2@2x.png') repeat top fixed;
+    /* Translate the @2x sprite's dimensions back to 1x */
+    background-size: 450px; 
+    }
+}
+
 .tailoring h4 {
   font-size:22px;
   font-weight:600;

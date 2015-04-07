@@ -633,9 +633,8 @@ footer {
 }
 
 footer p{
-  font-size: 22px;
-  padding-left: inherit;
-  color: #6d6d6d;
+  font-size: 20px;
+  color: #87B1BE;
 }
 
 footer a{
@@ -646,27 +645,9 @@ footer p i{
   margin-left: 15px;
 }
 
-footer .ssnn a {
-  display:inline-block;
-  height:70px;
-  width:70px;
-  font-size:34px !important;
-  margin:0 30px 60px 30px;
-  padding:15px 15px 5px 15px ;
-  border-radius:100px;
-  background-color:rgba(255,255,255,.05);
-}
-
-footer .ssnn a:hover {
-  background-color:rgba(255,255,255,.05);
-  color:#fff;
-  text-decoration:none;
-}
-
-
 footer .logo_horiz {
-    width:40%;
-    margin-bottom:30px;
+    width:25%;
+    margin-bottom:10px;
   }
 
 @media (max-width: 768px){

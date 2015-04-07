@@ -634,11 +634,14 @@ footer {
 
 footer p{
   font-size: 20px;
-  color: #87B1BE;
+  color: #fff;
 }
 
 footer a{
-  color: #fff;
+  color: rgba(255, 255, 255, .65);
+}
+footer a:hover{
+  color: rgba(255, 255, 255, 1);
 }
 
 footer p i{

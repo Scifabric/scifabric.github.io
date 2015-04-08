@@ -346,11 +346,36 @@ only screen and (min-device-pixel-ratio: 2) {
   }
 
 
-.about .pbandcc {
-  background: transparent url('../images/devices_scifabric.png') no-repeat bottom center; 
-  padding-bottom:650px;
-  margin-bottom: 0px;
+@media (min-width: 1201px){
+
+      .about .pbandcc {
+        background: transparent url('../images/devices_scifabric.png') no-repeat bottom center; 
+        padding-bottom:650px;
+        margin-bottom: 0px;
+      }
 }
+
+@media (min-width: 992px) and (max-width: 1200px){
+
+        .about .pbandcc {
+        background: transparent url('../images/devices_scifabric_950.png') no-repeat bottom center; 
+        padding-bottom:550px;
+      }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+        .about .pbandcc {
+        background: transparent url('../images/devices_scifabric_750.png') no-repeat bottom center; 
+        padding-bottom:450px;
+      }
+
+}
+
+
+
+
 
 
 @media (max-width: 768px){

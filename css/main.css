@@ -346,6 +346,10 @@ only screen and (min-device-pixel-ratio: 2) {
 
 @media (max-width: 768px){
   
+    .about h1{
+      margin-top: 70px;
+    }
+
     .about p {
     font-size: 22px;
     }
@@ -421,6 +425,12 @@ only screen and (min-device-pixel-ratio: 2) {
   margin-top: 20px;
 }
 
+@media (max-width: 768px){
+  
+    .who_need_us h1{
+      margin-top: 70px;
+    }
+}
 
 
 /* Clients

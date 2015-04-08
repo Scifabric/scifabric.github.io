@@ -351,7 +351,7 @@ only screen and (min-device-pixel-ratio: 2) {
       .about .pbandcc {
         background: transparent url('../images/devices_scifabric.png') no-repeat bottom center; 
         padding-bottom:650px;
-        margin-bottom: 0px;
+        margin-bottom: 60px;
       }
 }
 
@@ -360,6 +360,7 @@ only screen and (min-device-pixel-ratio: 2) {
         .about .pbandcc {
         background: transparent url('../images/devices_scifabric_950.png') no-repeat bottom center; 
         padding-bottom:550px;
+         margin-bottom: 40px;
       }
 
 }
@@ -369,6 +370,7 @@ only screen and (min-device-pixel-ratio: 2) {
         .about .pbandcc {
         background: transparent url('../images/devices_scifabric_750.png') no-repeat bottom center; 
         padding-bottom:450px;
+         margin-bottom: 40px;
       }
 
 }

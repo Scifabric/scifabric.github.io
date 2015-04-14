@@ -214,6 +214,10 @@ only screen and (min-device-pixel-ratio: 2) {
     }
 }
 
+.jumbotron_small{
+  height: 500px;
+}
+
 #logo {
   max-width: 150px;
   margin-bottom: 40px;

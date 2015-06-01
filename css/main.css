@@ -753,4 +753,25 @@ British Museum
   background-color: #000;
 }
 
+.btn-header-BM {
+  color: #fff;
+
+  border-color: #fff;
+  background-color: rgba(0,0,0,.03);
+  border-width:1;
+  font-weight:500;
+  font-size:13px;
+  text-transform: uppercase;
+  margin:7px 0 0 12px;
+  padding:8px 18px !important;
+}
+.btn-header-BM:hover,
+.btn-header-BM:focus,
+.btn-header-BM:active,
+.open > .dropdown-toggle.btn-header-BM {
+  color: #000;
+  background-color: #fff;
+  border-width:1;
+  text-decoration:none;
+}
 

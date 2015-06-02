@@ -117,6 +117,10 @@ font-weight:500;
   margin-bottom: 60px;
 }
 
+.down30{
+  margin-bottom: 30px;
+}
+
 .down20{
   margin-bottom: 20px;
 }
@@ -836,7 +840,7 @@ only screen and (min-device-pixel-ratio: 2) {
 
 
 .h3-BM{
-  font-size: 36px;
+  font-size: 32px;
 }
 
 .color-BM{
@@ -847,5 +851,24 @@ only screen and (min-device-pixel-ratio: 2) {
   color: #5a5a5a;
 }
 
+.BM-back {
+        background: transparent url('../images/devices_BM.png') no-repeat bottom center; 
+        padding-bottom:530px;
+      }
 
-
+.btn-BM {
+  color: #BE935D;
+  border-color: #BE935D;
+  background-color: rgba(255,255,255,0);
+  border-width:2px;
+}
+.btn-BM:hover,
+.btn-BM:focus,
+.btn-BM.focus,
+.btn-BM:active,
+.btn-BM.active {
+  color: #fff;
+  background-color: #BE935D;
+  border-color: #BE935D;
+  text-decoration:none;
+}

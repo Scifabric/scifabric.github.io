@@ -775,9 +775,44 @@ British Museum
   text-decoration:none;
 }
 
+.jumbotron-BM {
+  padding: 30px 15px;
+  margin-bottom: 0px;
+  color: inherit;
+  background-color: #eee;
+  right:0;left:0;top:0;bottom:0;
+  overflow:hidden;
+  background: #333 url('../images/bg-BM.png') no-repeat top center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-attachment:fixed;
+  height: 550px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-device-pixel-ratio: 2) {
+    
+  .jumbotron-BM {
+    /* Reference the @2x Sprite */
+    background-image: url('../images/bg-BM@2x.png');
+    /* Translate the @2x sprite's dimensions back to 1x */
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    }
+}
 
 #logo-BM {
-  max-width: 400px;
-  margin-bottom: 40px;
+  margin-top: 110px;
+  max-width: 500px;
+  margin-bottom: 130px;
+}
+
+#brands-BM{
+  max-width: 600px;
+  opacity: 0.85;
 }
 

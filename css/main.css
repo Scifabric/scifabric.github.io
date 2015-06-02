@@ -88,6 +88,9 @@ font-weight:500;
 .top100{ 
   margin-top: 100px;
 }
+.top90{ 
+  margin-top: 90px;
+}
 
 .top70{
   margin-top: 70px;
@@ -97,8 +100,8 @@ font-weight:500;
   margin-top: 60px;
 }
 
-.top90{ 
-  margin-top: 90px;
+.top30 {
+  margin-top:30px;
 }
 
 .top20 {
@@ -832,12 +835,14 @@ only screen and (min-device-pixel-ratio: 2) {
   opacity: 0.85;
 }
 
+.about-BM{
+  padding-bottom: 60px;
+}
 
 .h1-BM{
   font-size: 18px;
   font-weight: 400;
 }
-
 
 .h3-BM{
   font-size: 32px;
@@ -850,11 +855,6 @@ only screen and (min-device-pixel-ratio: 2) {
 .grey-BM{
   color: #5a5a5a;
 }
-
-.BM-back {
-        background: transparent url('../images/devices_BM.png') no-repeat bottom center; 
-        padding-bottom:530px;
-      }
 
 .btn-BM {
   color: #BE935D;
@@ -872,3 +872,56 @@ only screen and (min-device-pixel-ratio: 2) {
   border-color: #BE935D;
   text-decoration:none;
 }
+
+.btn-BM-2 {
+  color: #fff;
+  border-color: #fff;
+  background-color: rgba(255,255,255,0);
+  border-width:2px;
+    -webkit-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.btn-BM-2:hover,
+.btn-BM-2:focus,
+.btn-BM-2.focus,
+.btn-BM-2:active,
+.btn-BM-2.active {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+  text-decoration:none;
+}
+
+
+
+.BM-method {
+  color: #BDBDBD;
+background: #333 url('../images/London.png') no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment:fixed;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-device-pixel-ratio: 2) {
+    
+  .BM-method {
+    /* Reference the @2x Sprite */
+    background-image: url('../images/London@2x.png');
+    /* Translate the @2x sprite's dimensions back to 1x */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+
+.method-icon{
+width: 130px;
+}
+

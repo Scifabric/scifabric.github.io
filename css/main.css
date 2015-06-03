@@ -511,6 +511,10 @@ only screen and (min-device-pixel-ratio: 2) {
   padding:30px;
   margin-top:20px;
   border-radius:3px;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.05);
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.05);
+  -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.05);
+
 }
 
 @media (min-width: 991px){
@@ -954,7 +958,7 @@ width: 130px;
 
 .bignumber{
   color: #BE935D;
-  font-size: 70px;
+  font-size: 80px;
   font-weight: 100;
   margin-bottom: 0px;
 }
@@ -966,4 +970,53 @@ width: 130px;
   margin-top: 40px;
 }
 
+.middle-number{
+  margin-left: 50px;
+}
+
+.bg_color_BM {
+  background-color: #f7f7f7;
+  padding-bottom: 60px;
+}
+
+.contact-BM{
+  color: #BDBDBD;
+background: #333 url('../images/coins.png') no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment:fixed;
+  padding-bottom: 100px;
+  height: auto;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-device-pixel-ratio: 2) {
+    
+  .contact-BM {
+    /* Reference the @2x Sprite */
+    background-image: url('../images/coins@2x.png');
+    /* Translate the @2x sprite's dimensions back to 1x */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+
+    .BM-contact-Link{
+      margin-top: 15px;
+      color: white;
+      text-decoration: underline;
+    }
+
+ .BM-contact-Link:hover{
+      color: white;
+      text-decoration: underline;
+    }
+
+     
+.BM-footer{
+  background-color: #000;
+}
 

@@ -946,7 +946,24 @@ width: 130px;
   margin: 20px auto 20px auto;
 }
 
-.numbers{
+.number{
   color: #BE935D;
   font-weight: 200;
+  margin-left: 55px;
 }
+
+.bignumber{
+  color: #BE935D;
+  font-size: 70px;
+  font-weight: 100;
+  margin-bottom: 0px;
+}
+.bignumber span{
+  font-size: 50px;
+}
+
+.projectdescription{
+  margin-top: 40px;
+}
+
+

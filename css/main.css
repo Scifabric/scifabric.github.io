@@ -811,10 +811,10 @@ British Museum
   right:0;left:0;top:0;bottom:0;
   overflow:hidden;
   background: #333 url('../images/bg-BM.png') no-repeat top center;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-attachment:fixed;
   height: 550px;
 }
@@ -826,10 +826,11 @@ only screen and (min-device-pixel-ratio: 2) {
     /* Reference the @2x Sprite */
     background-image: url('../images/bg-BM@2x.png');
     /* Translate the @2x sprite's dimensions back to 1x */
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment:fixed;
     }
 }
 

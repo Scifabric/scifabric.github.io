@@ -139,7 +139,7 @@ font-weight:500;
     font-size:14px !important;
   }
   h2 {
-    font-size:20px !important;
+    font-size:20px;
   }
   h3 {
     font-size:20px !important;
@@ -272,6 +272,7 @@ only screen and (min-device-pixel-ratio: 2) {
     }
     .jumbotron h2 {
     margin-bottom:10px;
+    font-size: 20px;
     }
     .jumbotron #logo img {
     width:70%;
@@ -951,28 +952,9 @@ width: 130px;
   margin: 20px auto 20px auto;
 }
 
-.number{
-  color: #BE935D;
-  font-weight: 200;
-  margin-left: 55px;
-}
-
-.bignumber{
-  color: #BE935D;
-  font-size: 80px;
-  font-weight: 100;
-  margin-bottom: 0px;
-}
-.bignumber span{
-  font-size: 50px;
-}
 
 .projectdescription{
   margin-top: 40px;
-}
-
-.middle-number{
-  margin-left: 50px;
 }
 
 .bg_color_BM {
@@ -1021,3 +1003,138 @@ only screen and (min-device-pixel-ratio: 2) {
   background-color: #000;
 }
 
+/************************************* 
+*************  NUMBERS  **************
+**************************************/
+  .bignumber{
+      color: #BE935D;
+      font-weight: 100; 
+}
+
+.number{
+       color: #BE935D;
+       font-weight: 200;
+     }
+
+
+@media (max-width: 767px){
+  .bignumber{
+      font-size: 50px;
+      margin-top: 30px;
+      margin-bottom: 0px;
+    }
+
+    .number{
+       color: #BE935D;
+      padding-left: 50px;
+    }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    .number{
+      margin-left: 35px;
+    }
+
+    .bignumber{
+      font-size: 55px;
+    }
+
+    .bignumber span{
+      font-size: 40px;
+    }
+
+    .middle-number{
+    margin-left: 0px;
+    padding-left: 30px;
+    }
+
+    .last-number{
+    padding-left: 100px;
+    }
+
+  }
+
+@media (min-width: 1200px) {
+
+    .number{
+      margin-left: 0px;
+      margin-left: 50px;
+    }
+
+    .bignumber{
+      font-size: 85px;
+      margin-bottom: 0px;
+    }
+
+    .bignumber span{
+      font-size: 40px;
+    }
+
+    .first-number{
+    padding-left: 20px;
+    }
+
+    .middle-number{
+    margin-left: 0px;
+    padding-left: 80px;
+    }
+
+    .last-number{
+    padding-left: 80px;
+    }
+
+  }
+
+ @media (min-width: 992px) and (max-width: 1199px){
+
+      .number{
+      margin-left: 55px;
+      }
+
+      .bignumber{
+      font-size: 65px;
+      margin-bottom: 0px;
+      }
+
+      .bignumber span{
+      font-size: 50px;
+      }
+
+      .first-number,
+      .middle-number,
+      .last-number{
+        margin-top: 10px;
+      }
+
+      .first-number{
+      padding-left: 25px;
+      }
+
+      .middle-number{
+      padding-left: 60px;
+
+      }
+
+      .last-number{
+      padding-left: 50px;
+      }
+
+  }
+
+/************************************* 
+***********  Responsive BM  **********
+**************************************/
+
+
+
+
+@media (max-width: 991px){
+
+    .no-br-small br{
+      display: none;
+    }
+}

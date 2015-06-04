@@ -1151,6 +1151,15 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 
 #logo-BM {
-  margin-top: 200px;
-  
+
+  margin-top: 200px;}
+
+  .photo-mask{
+    margin-top: 30px;
+  }
+
 }
+
+
+
+

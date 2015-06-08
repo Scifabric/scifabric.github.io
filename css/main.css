@@ -1,6 +1,5 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
-
 body {
   font-family: "Helvetica Neue", HelveticaNeue, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -946,6 +945,7 @@ only screen and (min-device-pixel-ratio: 2) {
     -o-background-size: cover;
     background-size: cover;
     }
+}
 
 .method-icon{
 width: 130px;
@@ -996,7 +996,7 @@ background: #333 url('../images/coins.png') no-repeat top center;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), 
-only screen and (min-device-pixel-ratio: 2) {
+only screen and (min-resolution: 1dppx) {
     
   .contact-BM {
     /* Reference the @2x Sprite */
@@ -1020,16 +1020,16 @@ only screen and (min-device-pixel-ratio: 2) {
     }
 
      
-.BM-footer{
-  background-color: #000;
+ .BM-footer{
+   background-color: #000;
+ }
 }
-
 /************************************* 
 *************  NUMBERS  **************
 **************************************/
-  .bignumber{
+.bignumber{
       color: #BE935D;
-      font-weight: 100; 
+      font-weight: 100;
 }
 
 .number{

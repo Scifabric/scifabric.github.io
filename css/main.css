@@ -1179,6 +1179,42 @@ only screen and (min-device-pixel-ratio: 2) {
     margin-top: 30px;
   }
 
+  .jumbotron-BM {
+  padding: 30px 15px;
+  margin-bottom: 0px;
+  color: inherit;
+  background-color: #eee;
+  right:0;left:0;top:0;bottom:0;
+  overflow:hidden;
+  background: #333 url('../images/bg-BM.png') no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment:fixed;
+  height: 400px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-device-pixel-ratio: 2) {
+    
+  .jumbotron-BM {
+    /* Reference the @2x Sprite */
+    background-image: url('../images/bg-BM@2x.png');
+    /* Translate the @2x sprite's dimensions back to 1x */
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment:fixed;
+    }
+}
+
+#logo-BM {
+  margin-top: 130px;
+}
+
+
 }
 
 

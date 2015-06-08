@@ -956,6 +956,12 @@ width: 130px;
   margin-top:30px;
 }
 
+@media (max-width: 768px){
+  .modal-logo{
+  max-width: 260px;
+  }
+}
+
 .modal-title{
   color: #BE935D;
   font-size: 22px;

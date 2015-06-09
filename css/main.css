@@ -1163,5 +1163,38 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 
 
+.btn-link-BM {
+  font-weight: normal;
+  color: #BE935D;
+  border-radius: 0;
+}
+.btn-link-BM,
+.btn-link-BM:active,
+.btn-link-BM.active,
+.btn-link-BM[disabled],
+fieldset[disabled] .btn-link {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.btn-link-BM,
+.btn-link-BM:hover,
+.btn-link-BM:focus,
+.btn-link-BM:active {
+  border-color: transparent;
+}
+.btn-link-BM:hover,
+.btn-link-BM:focus {
+  color: #BE935D;
+  text-decoration: none;
+  background-color: transparent;
+}
+.btn-link[disabled]:hover,
+fieldset[disabled] .btn-link:hover,
+.btn-link[disabled]:focus,
+fieldset[disabled] .btn-link:focus {
+  color: #777;
+  text-decoration: none;
+}
 
 

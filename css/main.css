@@ -442,11 +442,13 @@ only screen and (min-device-pixel-ratio: 2) {
   font-size:15px;
   color:#999;
 }
-.case_studies a {
-  margin: 0 10px 30px 10px;
+
+.case_studies_link {
+  margin: 15px 0px 15px 10px;
   font-weight:400;
   font-size:16px;
 }
+
 .case_studies p.summary {
   font-weight:400;
   font-size:16px;

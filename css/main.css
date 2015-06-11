@@ -719,7 +719,12 @@ footer p i{
 }
 
 footer .logo_horiz {
-    width:25%;
+    width:35%;
+    margin-bottom:10px;
+  }
+
+  footer .logo_sf {
+    width:35%;
     margin-bottom:10px;
   }
 

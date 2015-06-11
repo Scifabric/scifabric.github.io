@@ -726,6 +726,12 @@ footer .logo_horiz {
   footer .logo_sf {
     width:35%;
     margin-bottom:10px;
+    opacity: .7;
+  }
+
+   footer .logo_sf:hover {
+
+    opacity: 1;
   }
 
 @media (max-width: 768px){

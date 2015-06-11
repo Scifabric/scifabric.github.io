@@ -698,7 +698,7 @@ width: 112px;
 footer {
   background-color:#0B4253;
   color:#fff;
-  padding:140px 0 60px ;
+  padding:100px 0 60px ;
   margin:0;
 }
 
@@ -715,7 +715,7 @@ footer a:hover{
 }
 
 footer p i{
-  margin-left: 15px;
+  margin: 10px;
 }
 
 footer .logo_horiz {

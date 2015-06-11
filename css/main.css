@@ -723,11 +723,25 @@ footer .logo_horiz {
     margin-bottom:10px;
   }
 
-  footer .logo_sf {
+footer .logo_sf {
     width:35%;
     margin-bottom:10px;
     opacity: .7;
   }
+
+@media (max-width: 768px){
+
+footer .logo_horiz {
+    width:60%;
+
+  }
+
+footer .logo_sf {
+    width:60%;
+    opacity: .7;
+  }
+
+}
 
    footer .logo_sf:hover {
     opacity: 1;

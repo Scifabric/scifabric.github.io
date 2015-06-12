@@ -715,9 +715,11 @@ footer a:hover{
   color: rgba(255, 255, 255, 1);
 }
 
-footer p i{
-  margin: 10px;
+#icons-rrss{
+  margin-left: 0px;
+  margin-right: 10px;
 }
+ 
 
 footer .logo_horiz {
     width:35%;
@@ -755,10 +757,11 @@ footer .logo_sf {
       margin-top: 20px;
       text-align: center;
   }
-  i .fa {
-    font-size:40px;
-    margin:0 20px;
+  #icons-rrss{
+      margin: 20px;
+      font-size: 30px;
   }
+     
   
 }
 

@@ -31,3 +31,12 @@ $(function() {
 });
 
 
+$(window).scroll(function() {
+if ($(this).scrollTop() > 250){  
+    $('#go-to-top').css('bottom','0px');
+	$('#go-to-top').addClass('show');
+  }
+  else{
+	$('#go-to-top').css('bottom','-=100px');
+  }
+});

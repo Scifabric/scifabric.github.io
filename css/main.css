@@ -983,6 +983,10 @@ only screen and (min-device-pixel-ratio: 2) {
 width: 130px;
 }
 
+.modal {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 .modal-open {
   overflow-y: auto;
 }

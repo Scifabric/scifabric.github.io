@@ -1,6 +1,9 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
+
+
 body {
+  padding-right: 0px !important;
   font-family: "Helvetica Neue", HelveticaNeue, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-shadow:0 0 1px transparent;
@@ -978,6 +981,10 @@ only screen and (min-device-pixel-ratio: 2) {
 
 .method-icon{
 width: 130px;
+}
+
+.modal-open {
+  overflow-y: auto;
 }
 
 .modal-logo{

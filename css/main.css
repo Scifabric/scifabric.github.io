@@ -1,9 +1,6 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
-
-
 body {
-  padding-right: 0px !important;
   font-family: "Helvetica Neue", HelveticaNeue, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-shadow:0 0 1px transparent;
@@ -192,14 +189,14 @@ font-weight:500;
 /* Header
 -------------------------------------------------- */
 nav {
-	background-color:#fff;
-	top:-200px;
-	opacity:0;
-	-webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
-	-moz-box-shadow:    0px 1px 1px 0px rgba(0, 0, 0, 0.1);
-	box-shadow:         0px 1px 1px 0px rgba(0, 0, 0, 0.1);
-	transition:top .2 ease;
-	-webkit-transition: top .3s ease;
+  background-color:#fff;
+  top:-200px;
+  opacity:0;
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow:    0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  box-shadow:         0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  transition:top .2 ease;
+  -webkit-transition: top .3s ease;
     -o-transition: top .3s ease;
     transition: top .3s ease;
 }
@@ -286,20 +283,20 @@ only screen and (min-device-pixel-ratio: 2) {
 -------------------------------------------------- */
 
 .show {
-	opacity:1;
+  opacity:1;
 }
 
 .navbar-brand img{
-	max-width:200px; 
-	margin-top: -15px;
+  max-width:200px; 
+  margin-top: -15px;
 }
 
 
 @media (max-width: 992px){
     .navbar-brand img{
-		max-width:150px; 
-		margin-top: -9px
-	}
+    max-width:150px; 
+    margin-top: -9px
+  }
 }
 
 
@@ -363,9 +360,9 @@ only screen and (min-device-pixel-ratio: 2) {
 -------------------------------------------------- */
 
 .about {
-	border-bottom:1px solid #eee;
-	padding-bottom:120px;
-	padding-bottom:0px;
+  border-bottom:1px solid #eee;
+  padding-bottom:120px;
+  padding-bottom:0px;
   background: background: rgba(255,255,255,0);
   background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(249,249,249,1) 100%);
   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(100%, rgba(249,249,249,1)));
@@ -547,9 +544,9 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 
 blockquote {
-	border:0;
-	font-size:15px;
-	margin-top:20px;
+  border:0;
+  font-size:15px;
+  margin-top:20px;
 }
 
 @media (max-width: 768px)  {
@@ -560,12 +557,12 @@ blockquote {
 }
 
 .client h4 {
-	font-size:20px;
-	margin-top:20px;
+  font-size:20px;
+  margin-top:20px;
 }
 .client img {
-	margin:15px 20px 0px 15px;
-	width:80px;
+  margin:15px 20px 0px 15px;
+  width:80px;
   float: left;
 }
 
@@ -585,20 +582,20 @@ blockquote {
 
 .bqstart {
   float: left;
-  height: 45px;
-  margin-top: -58px;
-  margin-left:-60px;
-  font-size: 800%;
-  color: #F9F9F9;
+  height: 65px;
+  margin-top: -38px;
+  margin-left: -45px;
+  font-size: 600%;
+  color: #DDDDDD;
 }
 
 .bqend {
   float: right;
   height: 25px;
   margin-top: -30px;
-  margin-right:-59px;
-  font-size: 700%;
-  color: #F9F9F9;
+  margin-right:-40px;
+  font-size: 500%;
+  color: #DDDDDD;
 }
 
 
@@ -625,10 +622,10 @@ blockquote {
 }
 
 @media (max-width: 768px){
-	.contact .col-md-6 {
-  		margin-top: 50px;
-  		text-align: center;
-	}
+  .contact .col-md-6 {
+      margin-top: 50px;
+      text-align: center;
+  }
 }
 
 /* Tailoring
@@ -652,9 +649,9 @@ blockquote {
   margin-top:20px;
 }
 .tailoring p {
-	font-weight: 400;
-	font-size: 20px;
-	margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 25px;
 }
 
 .tailoring .col-md-4 {
@@ -673,10 +670,10 @@ width: 112px;
 }
 
 @media (max-width: 970px) {
-	
+  
   .tailoring .col-md-4 {
-  		margin-top: 50px;
-	}
+      margin-top: 50px;
+  }
 }
 
 
@@ -685,13 +682,13 @@ width: 112px;
 -------------------------------------------------- */
 
 .crew_profile {
-	background-color:#fff;
+  background-color:#fff;
 }
 .crew_profile.container {
-	padding:0;
+  padding:0;
 }
 .crew_profile img {
-	display:inline-block;
+  display:inline-block;
 }
 
 
@@ -981,14 +978,6 @@ only screen and (min-device-pixel-ratio: 2) {
 
 .method-icon{
 width: 130px;
-}
-
-.modal {
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-.modal-open {
-  overflow-y: auto;
 }
 
 .modal-logo{
@@ -1286,6 +1275,14 @@ fieldset[disabled] .btn-link {
 }
 .btn-link[disabled]:hover,
 fieldset[disabled] .btn-link:hover,
+.btn-link[disabled]:focus,
+fieldset[disabled] .btn-link:focus {
+  color: #777;
+  text-decoration: none;
+}
+
+
+.btn-link:hover,
 .btn-link[disabled]:focus,
 fieldset[disabled] .btn-link:focus {
   color: #777;

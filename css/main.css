@@ -582,20 +582,20 @@ blockquote {
 
 .bqstart {
   float: left;
-  height: 45px;
-  margin-top: -58px;
-  margin-left:-60px;
-  font-size: 800%;
-  color: #F9F9F9;
+  height: 65px;
+  margin-top: -38px;
+  margin-left: -45px;
+  font-size: 600%;
+  color: #DDDDDD;
 }
 
 .bqend {
   float: right;
   height: 25px;
   margin-top: -30px;
-  margin-right:-59px;
-  font-size: 700%;
-  color: #F9F9F9;
+  margin-right:-40px;
+  font-size: 500%;
+  color: #DDDDDD;
 }
 
 

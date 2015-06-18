@@ -953,7 +953,7 @@ only screen and (min-device-pixel-ratio: 2) {
 
 .BM-method {
   color: #BDBDBD;
-background: #333 url('../images/London.png') no-repeat top center;
+  background: #333 url('../images/London.png') no-repeat top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -976,6 +976,17 @@ only screen and (min-device-pixel-ratio: 2) {
     background-size: cover;
     }
 }
+
+.BM-method a{
+  color: #bdbdbd;
+  text-decoration: underline;
+}
+
+.BM-method a:hover{
+  color: #fff;
+  text-decoration: underline;
+}
+
 
 .method-icon{
 width: 130px;

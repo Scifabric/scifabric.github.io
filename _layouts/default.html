@@ -33,7 +33,7 @@
 		<section class="site">
 
 			{{ content }}
-
+            {% include cookies.html %}
 		</section>
 
        <footer>
@@ -63,5 +63,8 @@
 
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+        {% include manage_cookies.js %}
+
 	</body>
 </html>

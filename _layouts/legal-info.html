@@ -13,9 +13,9 @@
         <link href="/css/main.css" rel="stylesheet">
 
         <script src="/js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="/js/modernizr.custom.js" type="text/javascript" charset="utf-8"></script>
+        <script src="/js/modernizr.custom.js" type="text/javascript" charset="utf-8"></script>
         
-		<script src="/js/main.js" type="text/javascript" charset="utf-8"></script>
+        <script src="/js/main.js" type="text/javascript" charset="utf-8"></script>
 
         <!-- Twitter -->
         <meta name="twitter:card" content="summary" />
@@ -26,19 +26,17 @@
 
 
         {% include ga.html %}
-		
-	</head>
+        
+    </head>
         <body data-spy="scroll" data-target="#navbar">
-		<section class="site">
+        <section class="site">
 
-			{{ content }}
-            
-
-		</section>
+            {{ content }}
 
         {% include cookies.html %}
-		
-        <footer class="BM-footer">
+        </section>
+        
+        <footer>
             <div class="container social-media">
                 <div class="col-xs-12 col-sm-6">
                     <img class="logo_horiz hires" src="/images/Logo_Scifabric_2.png">
@@ -63,6 +61,9 @@
 
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+        
+
         {% include manage_cookies.js %}
-	</body>
+        
+    </body>
 </html>

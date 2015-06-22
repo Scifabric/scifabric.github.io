@@ -33,7 +33,7 @@
 		<section class="site">
 
 			{{ content }}
-
+            {% include cookies.html %}
 		</section>
 
        <footer>
@@ -64,47 +64,7 @@
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 
-<script>
-function GetCookie(name) {
-    var arg=name+"=";
-    var alen=arg.length;
-    var clen=document.cookie.length;
-    var i=0;
- 
-    while (i<clen) {
-        var j=i+alen;
- 
-        if (document.cookie.substring(i,j)==arg)
-            return "1";
-        i=document.cookie.indexOf(" ",i)+1;
-        if (i==0)
-            break;
-    }
- 
-    return null;
-}
- 
-function aceptar_cookies(){
-    var expire=new Date();
-    expire=new Date(expire.getTime()+7776000000);
-    document.cookie="cookies_scifabric=aceptada; expires="+expire;
- 
-    var visit=GetCookie("cookies_scifabric");
- 
-    if (visit==1){
-        popbox3();
-    }
-}
- 
-$(function() {
-    var visit=GetCookie("cookies_scifabric");
-    if (visit==1){ popbox3(); }
-});
- 
-function popbox3() {
-    $('#overbox3').toggle();
-}
-</script>
+        {% include manage_cookies.js %}
 
 	</body>
 </html>

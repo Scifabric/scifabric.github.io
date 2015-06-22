@@ -804,6 +804,11 @@ footer .logo_sf {
 /* cookies 
 ------------------------------------------------- */
 
+.cookies-container{
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
 #cookiebox {
     position: fixed;
     bottom: 0px;

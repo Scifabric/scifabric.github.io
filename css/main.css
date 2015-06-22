@@ -800,6 +800,52 @@ footer .logo_sf {
   text-decoration:none;
 }
 
+
+/* cookies 
+------------------------------------------------- */
+
+#cookiebox {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 999999;
+    display: block;
+}
+#infocookie {
+    margin: auto;
+    position: relative;
+    top: 0px;
+    height: 58px;
+    width: 100%;
+    text-align:center;
+    background-color: #F9F9F9;
+}
+#infocookie p {
+    line-height:50px;
+    font-size:12px;
+    text-align:center;
+}
+#infocookie p a {
+    margin-right:5px;
+    text-decoration: underline;
+}
+
+@media (max-width: 767px){
+
+
+#infocookie {
+  padding: 10px;
+  height: auto;
+}
+#infocookie p {
+    line-height:25px;
+    font-size:12px !important;
+    text-align:center;
+}
+
+}
+
 /* 
 --------------------------------------------------
 --------------------------------------------------

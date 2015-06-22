@@ -833,7 +833,14 @@ footer .logo_sf {
 }
 #infocookie p a {
     margin-right:5px;
-    text-decoration: underline;
+    font-weight: 400;
+}
+
+.btn-cookie{
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #077CA0;
+  padding-bottom: 4px; 
 }
 
 @media (max-width: 767px){

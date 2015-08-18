@@ -224,6 +224,10 @@ nav {
   height: 780px;
 }
 
+.jumbotron-cookies {
+    background: #333 url("../images/cookies.jpg") no-repeat fixed center top / cover
+}
+
 @media only screen and (-webkit-min-device-pixel-ratio: 2), 
 only screen and (min-device-pixel-ratio: 2) {
     
@@ -1312,12 +1316,12 @@ fieldset[disabled] .btn-link:focus {
 
 /* ------- Cookies consent ------- */
 .cc_container {
-    background: #2A7A9E !important;
+    background: #0B4253 !important;
     color: white !important;
 }
 .cc_container .cc_btn, .cc_container .cc_btn:visited {
     background-color: white !important;
-    color: #2A7A9E !important;
+    color: #0B4253 !important;
     }
 
 .cc_container a, .cc_container a:visited {
@@ -1327,4 +1331,8 @@ fieldset[disabled] .btn-link:focus {
 }
 .cc_container a, .cc_container a:visited {
     color:  white !important;
+}
+
+.cc_more_info {
+    font-weight: bold !important;
 }

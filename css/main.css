@@ -224,6 +224,10 @@ nav {
   height: 780px;
 }
 
+.jumbotron-cookies {
+    background: #333 url("../images/cookies.jpg") no-repeat fixed center top / cover
+}
+
 @media only screen and (-webkit-min-device-pixel-ratio: 2), 
 only screen and (min-device-pixel-ratio: 2) {
     

@@ -38,6 +38,36 @@
 	</head>
         <body data-spy="scroll" data-target="#navbar">
         {% include gtm.html %}
+<nav class="navbar-wrapper">
+    <div class="container">
+        <div class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#about">
+                        <img src="/images/Logo_Scifabric.png" class="hires">
+                    </a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#caseStudies">Case Studies</a></li>
+                        <li><a href="#whoNeedUs">Who Needs Us</a></li>
+                        <li><a href="#tailoring">Customise</a></li>
+                        <li id="btn-nav"><a href="#contact" class="btn btn-header">Get in touch!</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</nav>
+
 		<section class="site">
 
 			{{ content }}

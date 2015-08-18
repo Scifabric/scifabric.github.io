@@ -1312,12 +1312,12 @@ fieldset[disabled] .btn-link:focus {
 
 /* ------- Cookies consent ------- */
 .cc_container {
-    background: #2A7A9E !important;
+    background: #0B4253 !important;
     color: white !important;
 }
 .cc_container .cc_btn, .cc_container .cc_btn:visited {
     background-color: white !important;
-    color: #2A7A9E !important;
+    color: #0B4253 !important;
     }
 
 .cc_container a, .cc_container a:visited {

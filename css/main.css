@@ -1332,3 +1332,7 @@ fieldset[disabled] .btn-link:focus {
 .cc_container a, .cc_container a:visited {
     color:  white !important;
 }
+
+.cc_more_info {
+    font-weight: bold !important;
+}

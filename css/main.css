@@ -1310,3 +1310,21 @@ fieldset[disabled] .btn-link:focus {
 }
 
 
+/* ------- Cookies consent ------- */
+.cc_container {
+    background: #2A7A9E !important;
+    color: white !important;
+}
+.cc_container .cc_btn, .cc_container .cc_btn:visited {
+    background-color: white !important;
+    color: #2A7A9E !important;
+    }
+
+.cc_container a, .cc_container a:visited {
+    text-decoration: none !important;
+    color: white;
+    transition: color 200ms ease 0s;
+}
+.cc_container a, .cc_container a:visited {
+    color:  white !important;
+}

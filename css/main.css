@@ -1439,3 +1439,57 @@ ul.share-social li a.google-plus:hover {
     padding-left: 5px;
 
 }
+
+div.author-detail {
+	text-align:center;
+}
+
+.author-detail {
+	border-radius:3px;
+	background-color:#f7f6f5;
+	margin-bottom:60px;
+	text-align:left !important;
+	padding:40px 30px 35px 30px;
+}
+.author-detail > div > a > img {
+	margin:-10px 0 0 -5px;
+}
+.author-detail h3 {
+	margin:0px 0 0 0;
+	padding:0;
+	font-size:18px;
+}
+.author-detail p.author-rol {
+	font-size:15px;
+	color:#999;
+}
+.author-detail p {
+	font-size:16px;
+	color:#666;
+}
+.author-detail ul {
+	list-style-type:none;
+	margin:0 0 0 0;
+	padding:0;
+	font-size:14px;
+}
+.author-detail ul li {
+	display:inline-block;
+	margin:0 5px 0 0 ;
+	text-align:center;
+}
+.author-detail ul li a {
+	background-color:rgba(0,0,0,.3);
+	display:block;
+	width:30px;
+	height:30px;
+	padding-top:6px;
+	border-radius:100%;
+}
+.author-detail ul li a:hover {
+	background-color:rgba(0,0,0,.6);
+}
+.author-detail ul li a i {
+	font-size:16px;
+	color:#fff;
+}

@@ -229,10 +229,11 @@ nav {
 }
 
 .jumbotron-cookies {
-    background: #333 url("../images/cookies.jpg") no-repeat fixed center top / cover
+    background: #333 url("../images/cookies.jpg") no-repeat fixed center top / cover;
 }
 
 .jumbotron-blog {
+    background: #333 url("../images/blog.jpg") no-repeat fixed center top / cover;
     height: 600px;
 }
 
@@ -1526,4 +1527,36 @@ div.author-detail {
 
 .post-date a {
     text-decoration: underline;
+}
+
+.post-entry > .post-date {
+    color: #999;
+    font-size: 13px !important;
+    text-shadow: 0px 0px 0px;
+}
+
+.post-entry > .intro {
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.post-entry > .intro::before,
+.post-entry > .intro::after{
+    display:none;
+}
+
+.post-entry {
+    margin-bottom: 50px;
+}
+
+.blog-entries {
+    margin-top: 50px;
+}
+
+.jumbotron-blog .white p,
+.jumbotron-blog .white a {
+    color: white;
 }

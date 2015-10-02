@@ -3,54 +3,55 @@ layout: default
 body_class: blog
 active: blog
 ---
-<div class="jumbotron_small jumbotron jumbotron-cookies" style='background: #333 url("{{page.photo}}") no-repeat fixed center top / cover;'>
+<div class="jumbotron_small jumbotron jumbotron-blog" style='background: #333 url("{{page.photo}}") no-repeat fixed center top / cover;'>
     <div class="container text-center firstfold">
     </br>
         <div id="logo" class="center-block">
             <img src="/images/scifabric_logo_white_vert_trans.svg" onerror="this.onerror=null; this.src='/images/scifabric_logo_white_vert_trans.png'" width="100%" height="auto">
         </div>
-		<h2 class="title">{{page.title}}</h2>
+        <h2 class="title">{{page.title}}</h2>
         </br>
-       
-        <div class="post-caption">
-		<p>Photo by <a href="{{page.photo_url}}">{{page.photo_author}}</a></p>
-        </div>
     </div>
 </div>
 
 
 <div class="container post-detail first-container">
-	<div class="col-md-8 col-md-offset-2">
-		<p class="back-to-blog-index"><a href="/blog/">« Blog entries</a></p>
-		<ul class="share-social">
-			<li class="share_on">Share on</li>
-			<li>
-				<a href="javascript:window.open('http%3A%2F%2Fwww.facebook.com%2Fshare.php%3Fu%3Dhttp%3A%2F%2Fpybossa.com{{ page.url }}', '_blank', 'width=500,height=450');void(0);" class="facebook">
-					<i class="fa fa-facebook"></i>
-					<span>Facebook</span>
-				</a>
-			</li>
-			<li>
-				<a
+    <div class="col-md-2 col-md-offset-2">
+        <p class="back-to-blog-index"><a href="/blog/">« Blog entries</a></p>
+    </div>
+    <div class="col-md-2 col-md-offset-1">
+        <p class="back-to-blog-index">Photo by <a href="{{page.photo_url}}">{{page.photo_author}}</a></p>
+    </div>
+    <div class="col-md-3">
+        <ul class="share-social">
+            <li class="share_on">Share on</li>
+            <li>
+                <a href="javascript:window.open('http%3A%2F%2Fwww.facebook.com%2Fshare.php%3Fu%3Dhttp%3A%2F%2Fpybossa.com{{ page.url }}', '_blank', 'width=500,height=450');void(0);" class="facebook">
+                    <i class="fa fa-facebook"></i>
+                    <span>Facebook</span>
+                </a>
+            </li>
+            <li>
+                <a
                     href='javascript:window.open("https://twitter.com/intent/tweet?text={{page.intro|escape}}&url=http://pybossa.com{{page.url}}","_blank","width=500,height=450");void(0);' class="twitter">
-					<i class="fa fa-twitter"></i>
-					<span>Twitter</span>
-				</a>
-			</li>
-			<li>
-				<a href="javascript:window.open('https%3A%2F%2Fplus.google.com%2Fshare?url=http%3A%2F%2Fpybossa.com{{ page.url }}', '_blank', 'width=500,height=450');void(0);" class="google-plus">
-					<i class="fa fa-google-plus"></i>
-					<span>Google+</span>
-				</a>
-			</li>
-		</ul>
+                    <i class="fa fa-twitter"></i>
+                    <span>Twitter</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:window.open('https%3A%2F%2Fplus.google.com%2Fshare?url=http%3A%2F%2Fpybossa.com{{ page.url }}', '_blank', 'width=500,height=450');void(0);" class="google-plus">
+                    <i class="fa fa-google-plus"></i>
+                    <span>Google+</span>
+                </a>
+            </li>
+        </ul>
         {% for member in site.data.crew %}
         {% if member.author == page.author %}
         <p class="slackin">
         <script async defer src="http://slackin.crowdcrafting.org/slackin.js"></script>
         </p>
 
-		<p class="post-date">{{ page.date | date: "%-d %B %Y" }} by <a
+        <p class="post-date">{{ page.date | date: "%-d %B %Y" }} by <a
             href="{{member.homepage}}">{{member.name}}
             {{member.surname}}</a>
 
@@ -58,48 +59,28 @@ active: blog
         {% endif %}
         {% endfor %}
 
-	</div>
+    </div>
 
-	<div class="col-md-8 col-md-offset-2">
-		<p class="intro">{{page.intro}}</p>
-		{{ content }}
-		<!--<p class="post-quote">{{page.quote}}</p>-->
-	</div>
-	<div class="col-md-8 col-md-offset-2 tagged-in">
+    <div class="col-md-8 col-md-offset-2">
+        <p class="intro">{{page.intro}}</p>
+        {{ content }}
+        <!--<p class="post-quote">{{page.quote}}</p>-->
+    </div>
+    <div class="col-md-8 col-md-offset-2 tagged-in">
         <!--
-		<ul>
-			<li class="title">This entry was tagged with</li>
-			<li><a href="#">citizen science</a></li>
-			<li><a href="#">open source</a></li>
-			<li><a href="#">pybossa</a></li>
-			<li><a href="#">evolution</a></li>
-			<li><a href="#">discussion</a></li>
+        <ul>
+            <li class="title">This entry was tagged with</li>
+            <li><a href="#">citizen science</a></li>
+            <li><a href="#">open source</a></li>
+            <li><a href="#">pybossa</a></li>
+            <li><a href="#">evolution</a></li>
+            <li><a href="#">discussion</a></li>
         </ul>-->
-	</div>
-    {% for member in site.data.crew %}
-    {% if member.author == page.author %}
-	<div class="col-md-8 col-md-offset-2 author-detail">
-		<div class="col-md-2 hidden-sm hidden-xs">
-			<a href="{{member.homepage}}">
-                <img class="img-circle" src="/assets/img/crew/{{member.avatar}}" width="100%">
-			</a>
-		</div>
-		<div class="col-md-8">
-            <h3>{{member.name}} {{member.surname}}</h3>
-            <p class="author-rol">{{member.position}} @ SciFabric</p>
-            <p>{{member.name}} {{member.bio}}</p>
-			<ul>
-                <li><a href="mailto:{{member.email}}"><i class="fa fa-envelope"></i></a></li>
-                <li><a href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="http://linkedin.com/in/{{member.linkedin}}"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/{{member.github}}"><i class="fa fa-github"></i></a></li>
-			</ul>
-    		</div>
-	</div>
-    {% endif %}
-    {% endfor %}
+    </div>
 
-	<!--<div class="col-md-8 col-md-offset-2">
+    {% include authorbanner.html %}
+
+    <!--<div class="col-md-8 col-md-offset-2">
         <div id="disqus_thread"></div>
             <script type="text/javascript">
                 /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -120,17 +101,17 @@ active: blog
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h4 class="modal-title" id="myModalLabel">Modal title</h4>
-			</div>
-			<div class="modal-body">
-				
-			</div>
-		</div>
-	</div>
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                
+            </div>
+        </div>
+    </div>
 </div>
 
 

@@ -10,7 +10,16 @@ active: blog
             <img src="/images/scifabric_logo_white_vert_trans.svg" onerror="this.onerror=null; this.src='/images/scifabric_logo_white_vert_trans.png'" width="100%" height="auto">
         </div>
         <h2 class="title">{{page.title}}</h2>
-        </br>
+        {% for member in site.data.crew %}
+        {% if member.author == page.author %}
+        <p class="slackin">
+            <script async defer src="http://slackin.crowdcrafting.org/slackin.js"></script>
+        </p>
+
+        <p class="post-date">{{ page.date | date: "%-d %B %Y" }} by <a href="{{member.homepage}}">{{member.name}} {{member.surname}}</a>
+        </p>
+        {% endif %}
+        {% endfor %}
     </div>
 </div>
 
@@ -45,19 +54,6 @@ active: blog
                 </a>
             </li>
         </ul>
-        {% for member in site.data.crew %}
-        {% if member.author == page.author %}
-        <p class="slackin">
-        <script async defer src="http://slackin.crowdcrafting.org/slackin.js"></script>
-        </p>
-
-        <p class="post-date">{{ page.date | date: "%-d %B %Y" }} by <a
-            href="{{member.homepage}}">{{member.name}}
-            {{member.surname}}</a>
-
-        </p>
-        {% endif %}
-        {% endfor %}
 
     </div>
 

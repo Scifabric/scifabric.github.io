@@ -288,12 +288,18 @@ only screen and (min-device-pixel-ratio: 2) {
     }
     .jumbotron h2 {
     margin-bottom:10px;
-    font-size: 20px;
+    font-size: 38px;
     }
     .jumbotron #logo img {
     width:70%;
     }
 
+}
+
+@media (max-width: 360px) {
+    .jumbotron h2 {
+    font-size: 28px;
+    }
 }
 
 /* Nav Bar
@@ -1567,6 +1573,10 @@ div.author-detail {
 
 .blog-entries {
     margin-top: 50px;
+}
+
+.jumbotron-blog h2 {
+    margin-bottom: 20px;
 }
 
 .jumbotron-blog .white p,

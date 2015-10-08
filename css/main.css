@@ -1617,7 +1617,7 @@ div.author-detail {
     font-size: 14px;
 }
 
-.faces ul > li > img {
+.faces ul > li > a > img {
     max-width: 80px;
     border-radius: 40px;
     padding: 1px;

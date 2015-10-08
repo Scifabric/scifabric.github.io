@@ -1599,3 +1599,32 @@ div.author-detail {
 .definitions {
     margin-top: 10%;
 }
+
+.faces {
+    text-align: center;
+}
+
+.faces ul {
+    list-style-type: none;
+    vertical-align: middle;
+}
+
+.faces ul > li {
+    text-align: center;
+    display:inline-block;
+    margin: 0px 1px;
+    margin-right: 25px;
+    font-size: 14px;
+}
+
+.faces ul > li > img {
+    max-width: 80px;
+    border-radius: 40px;
+    padding: 1px;
+    border: 1px solid rgba(0, 0, 0, 0.2)
+}
+
+.faces ul > li > p{
+    margin-top: 5px;
+}
+

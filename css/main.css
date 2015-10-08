@@ -228,6 +228,10 @@ nav {
   height: 500px;
 }
 
+.jumbotron-xs {
+    height: 200px;
+}
+
 .jumbotron-cookies {
     background: #333 url("../images/cookies.jpg") no-repeat fixed center top / cover;
 }
@@ -266,13 +270,12 @@ only screen and (min-device-pixel-ratio: 2) {
 #brands{
   max-width: 900px;
   opacity: 0.85;
-  margin-top: 90px
 }
 
 #brands p {
-  font-size:16px;
+  font-size:26px;
   font-weight:600;
-  opacity:.5;
+  text-align:center;
 }
 
 @media (max-width: 768px)  {
@@ -1671,4 +1674,8 @@ div.author-detail {
 
 .micropasts {
     background: rgb(0, 39, 53) url("/images/Micropast.png") no-repeat center top/ cover;
+}
+
+.citiesatnight {
+    background: rgb(0, 39, 53) url("/images/Cities.png") no-repeat center top/ cover;
 }

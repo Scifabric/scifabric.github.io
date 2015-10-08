@@ -1679,3 +1679,44 @@ div.author-detail {
 .citiesatnight {
     background: rgb(0, 39, 53) url("/images/Cities.png") no-repeat center top/ cover;
 }
+
+.teachers h2,
+.students h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.teachers .row .col-md-12 > a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.teachers .col-md-6 p,
+.students .col-md-12 p {
+    text-align: left;
+}
+
+.students .col-md-12 {
+    margin-top: 20px;
+}
+
+.teachers img,
+.students img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80px;
+}
+
+.teachers h3,
+.students h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.students .small {
+    font-size: 12px;
+}

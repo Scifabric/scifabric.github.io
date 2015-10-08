@@ -1641,3 +1641,8 @@ div.author-detail {
     padding: 1px;
     border: 5px solid #042935;
 }
+
+.modal-body .row .col-xs-4 {
+    text-align: center;
+    font-size: 12px;
+}

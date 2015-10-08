@@ -6,96 +6,7 @@ active: home
 
 <a name="top"></a>
 
-<!-- Modals -->
-<div class="modal fade" id="modal-pybossa" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header bg_color_3 text-center">
-        <button type="button" class="close white" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <img src="/images/pybossa_logo.png" class="img-responsive" alt="Pybossa Logo">
-      </div>
-      <div class="modal-body">
-            <p>The software is completely flexible and can be tailored to your individual needs. Your project can be custom-made with the tools, features and applications you desire. </p>
-            <p>Then, as your project evolves, you can remove, add or alter anything you like. If you have specific technical requirements, PyBossa is for you.</p>
-            <p class="top20"><a href="http://pybossa.com/" target="_blank" class="color-one semibold btn-link top20">visit pybossa.com</a></p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="modal-crowdcrafting" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header bg_color_3 text-center">
-        <button type="button" class="close white" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <img src="/images/crowdcrafting_logo.png" class="img-responsive" alt="Pybossa Logo">
-      </div>
-      <div class="modal-body">
-            <p><strong>Crowdcrafting is all about being user-friendly.</strong></p>
-            <p>It is designed to make setting up your project as straightforward and painless as possible, so that you can focus on what really matters. We have easy-to-use project templates.</p>
-            <p>At Crowdcrafting, you will have access to our community of amazing volunteers who contribute to the projects we host. </p>
-            <p class="top20"><a href="http://crowdcrafting.org/" target="_blank" class="color-one semibold btn-link top20">visit crowdcrafting.org</a></p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="modal-crowdsourcing" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header bg_color_3 text-center">
-        <button type="button" class="close white" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4>Crowdsourcing</h4>
-      </div>
-      <div class="modal-body">
-          <p>The process of obtaining needed services, ideas or content by soliciting contributions from a large group of people, and specially from an online community.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="modal-collective-micro-research" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header bg_color_3 text-center">
-        <button type="button" class="close white" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4>Collective micro research</h4>
-      </div>
-      <div class="modal-body">
-          <p>Similar to crowdfunding or micro financing. Providing time or intellectual resources instead of financial. Resarch projects can benefit from collective cooperation adding all the small contributions of time of each volunteer: 1000 volunteers x 1 minute = 1000 extra minutes for research.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="modal-citizen-science" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header bg_color_3 text-center">
-        <button type="button" class="close white" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4>Citizen science</h4>
-      </div>
-      <div class="modal-body">
-          <p>(Crowd science, crowd-sourced science, civic science, volunteer monitoring or networked science) is scientific research conducted, in whole or in part, by amateur or nonprofessional scientists. Citizen science is sometimes included in terms such as "public participation in scientific research".</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="modal-collective-intelligence" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header bg_color_3 text-center">
-        <button type="button" class="close white" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4>Collective intelligence</h4>
-      </div>
-      <div class="modal-body">
-          <p>Shared or group intelligence that emerges from teh collaboration and collective efforts of many individuals. The use of the Internet promtes online interaction between users resulting in a form of collective intelligence.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
+{% include modals.html %}
 
 <div id="go-to-top">
     <a href="#top">
@@ -165,7 +76,7 @@ active: home
         </div>
         <div class="col-sm-12 faces">
             <ul>
-                <li><a href=""><img src="/assets/img/crew/alejandro.jpg"/><p>Alejandro</p></a></li>
+                <li><a data-toggle="modal" data-target="#modal-alejandro"><img src="/assets/img/crew/alejandro.jpg"/><p>Alejandro</p></a></li>
                 <li><a href=""><img src="/assets/img/crew/alvaro.jpg"/><br/><p>Álvaro</p></a></li>
                 <li><li><a href=""><img src="/assets/img/crew/clara.jpg"/><br/><p>Clara</p></a></li>
                 <li><li><a href=""><img src="/assets/img/crew/daniel.jpg"/><br/><p>Daniel</p></a></li>

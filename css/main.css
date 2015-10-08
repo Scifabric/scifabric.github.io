@@ -1646,3 +1646,29 @@ div.author-detail {
     text-align: center;
     font-size: 12px;
 }
+
+.case-study-cover {
+    height: 275px;
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+}
+
+.case-study-cover h4 {
+    margin: 0px;
+    padding-top: 90px;
+    position:relative;
+    color: white;
+}
+
+.case-study-cover p {
+    padding-top: 5px;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:white;
+}
+
+.micropasts {
+    background: rgb(0, 39, 53) url("/images/Micropast.png") no-repeat center top/ cover;
+}

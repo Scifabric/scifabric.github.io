@@ -133,6 +133,30 @@ font-weight:500;
   margin-bottom: 20px;
 }
 
+.btn-info {
+    color: #fff;
+    border-color: rgba(255,255,255,.2);
+    background-color: rgba(255,255,255,0);
+    border-width: 2px;
+}
+
+.btn-explain{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-right: 1px solid white;
+    border-radius: 0px;
+}
+
+.btn-explain:last-child {
+    border-right: 0px;
+}
+
+.btn-explain:hover{
+  color: #fff;
+}
+
+
 @media (max-width: 768px) {
   
   h1 {

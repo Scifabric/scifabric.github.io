@@ -165,10 +165,24 @@ font-weight:500;
 }
 
 .btn-info-2 {
-    color:#077CA0;
-    background-color: rgba(255,255,255,0);
-    border-width: 2px;
+  color: #077CA0;
+  border-color: rgba(7,124,160,.6);
+  background-color: rgba(255,255,255,0);
+  border-width:2px;
+  font-weight:600;
 }
+.btn-info-2:hover,
+.btn-info-2:focus,
+.btn-info-2.focus,
+.btn-info-2:active,
+.btn-info-2.active,
+.open > .dropdown-toggle.btn-info-2 {
+  color: #FFF !important;
+  background-color: rgba(7,124,160,1);
+  border-color: rgba(7,124,160,1);
+  text-decoration:none;
+}
+
 
 @media (max-width: 768px) {
   
@@ -288,7 +302,7 @@ only screen and (min-device-pixel-ratio: 2) {
     
   .jumbotron {
     /* Reference the @2x Sprite */
-    background-image: url('../images/bg@2x.jpg');
+    background-image: url('../images/b@2x.jpg');
     /* Translate the @2x sprite's dimensions back to 1x */
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -422,16 +436,19 @@ only screen and (min-device-pixel-ratio: 2) {
 /* About, What is sections
 -------------------------------------------------- */
 
-.what-is{  
-  padding-bottom:120px;
+.what-is, .case_studies {  
   padding-bottom:90px;
+  background-color: #FAFAFA;
+}
+
+.case_studies{
+  background-color: #404B54;
 }
 
 
 .about, .tailoring {
-  padding-bottom:120px;
   padding-bottom:90px;
-  background-color: #FAFAFA;
+
   }
 
 
@@ -489,9 +506,6 @@ only screen and (min-device-pixel-ratio: 2) {
 /* Case studies
 -------------------------------------------------- */
 
-.case_studies {
-  padding-bottom: 120px;
-}
 .case_studies h4 {
   margin: 25px 10px 15px 10px;
   font-size:22px;
@@ -1708,13 +1722,36 @@ div.author-detail {
     font-style: italic;
   }
 
-.micropasts {
+.micropasts,
+.citiesatnight{
+background: rgba(41, 48, 53, .5);
+-webkit-transition:  .3s ease;
+-o-transition:  .3s ease;
+transition: .3s ease;
+}
+
+.micropasts:hover,
+.citiesatnight:hover{
+background: rgba(41, 48, 53, 1);
+}
+
+.micropasts:hover .btn-info,
+.citiesatnight:hover .btn-info{
+  color: #FFF !important;
+  background-color: rgba(7,124,160,1);
+  border-color: rgba(7,124,160,1);
+  text-decoration:none;
+}
+
+
+/*.micropasts {
     background: rgb(0, 39, 53) url("/images/Micropast.png") no-repeat center top/ cover;
 }
 
 .citiesatnight {
     background: rgb(0, 39, 53) url("/images/Cities.png") no-repeat center top/ cover;
 }
+*/
 
 .teachers h2,
 .students h2 {

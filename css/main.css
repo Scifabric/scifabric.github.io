@@ -147,7 +147,7 @@ font-weight:500;
 
 .btn-info {
     color: #fff;
-    border-color: rgba(255,255,255,.3);
+    border-color: rgba(255,255,255,.4);
     background-color: rgba(255,255,255,0);
     border-width: 2px;
 }
@@ -694,18 +694,22 @@ blockquote {
 }
 
 /* Tailoring
--------------------------------------------------- */
+-------------------------------------------------- 
 
 .tailoring {
   background: #0B4253 url('../images/triangles_bg2.png') repeat top fixed;
 }
 
   .tailoring {
-    /* Reference the @2x Sprite */
+    /* Reference the @2x Sprite 
     background: #0B4253 url('../images/triangles_bg2@2x.png') repeat top fixed;
-    /* Translate the @2x sprite's dimensions back to 1x */
+    /* Translate the @2x sprite's dimensions back to 1x 
     background-size: 450px; 
     }
+*/
+
+.tailoring {
+  background-color: #0F3B49;
 }
 
 .tailoring h4 {
@@ -762,7 +766,7 @@ width: 112px;
 
 
 footer {
-  background-color:#0B4253;
+  background-color:#0F3B49;
   color:#fff;
   padding:100px 0 60px ;
   margin:0;

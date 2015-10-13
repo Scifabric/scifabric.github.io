@@ -436,9 +436,8 @@ only screen and (min-device-pixel-ratio: 2) {
 /* About, What is sections
 -------------------------------------------------- */
 
-.what-is, .case_studies {  
+.what-is, .case_studies, .tailoring  {  
   padding-bottom:90px;
-  background-color: #FAFAFA;
 }
 
 .case_studies{
@@ -446,8 +445,9 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 
 
-.about, .tailoring {
+.about{
   padding-bottom:90px;
+  background-color: #FAFAFA;
 
   }
 

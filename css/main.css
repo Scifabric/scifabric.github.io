@@ -16,11 +16,6 @@ body {
 /* General Styles
 -------------------------------------------------- */
 
-.bg_color_1 {
-  background-color: #1E7591;
-  padding:40px 0 150px;
-  color: white;
-}
 
 .bg_black{
   background-color: #000;
@@ -424,25 +419,19 @@ only screen and (min-device-pixel-ratio: 2) {
 
 
 
-/* About
+/* About, What is sections
 -------------------------------------------------- */
 
-
-
-
-
-.about {
-  border-bottom:1px solid #eee;
+.what-is{  
   padding-bottom:120px;
   padding-bottom:90px;
-  background: background: rgba(255,255,255,0);
-  background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(249,249,249,1) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(100%, rgba(249,249,249,1)));
-  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(249,249,249,1) 100%);
-  background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(249,249,249,1) 100%);
-  background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(249,249,249,1) 100%);
-  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(249,249,249,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f9f9f9', GradientType=0 );
+}
+
+
+.about, .tailoring {
+  padding-bottom:120px;
+  padding-bottom:90px;
+  background-color: #FAFAFA;
   }
 
 
@@ -708,9 +697,6 @@ blockquote {
     }
 */
 
-.tailoring {
-  background-color: #0F3B49;
-}
 
 .tailoring h4 {
   font-size:22px;

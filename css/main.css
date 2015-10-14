@@ -41,6 +41,11 @@ body {
 .color-one {
   color:#077CA0;
 }
+
+.color-one-light{
+   color: #3B9BB9;
+}
+
 .color-two {
   color:#FFF;
 font-size:14px;
@@ -120,6 +125,10 @@ font-weight:500;
   margin-bottom: 60px;
 }
 
+.down50{
+  margin-bottom: 50px;
+}
+
 .down30{
   margin-bottom: 30px;
 }
@@ -130,6 +139,7 @@ font-weight:500;
 
 .btn{
       font-weight: 600;
+      border-radius: 50px;
 }
 
 .btn-sm{
@@ -548,8 +558,7 @@ only screen and (min-device-pixel-ratio: 2) {
   font-size:20px;
 }
 
-.who_need_us .col-md-6,
-.contact .col-md-6 {
+.who_need_us .col-md-6{
   margin-top: 20px;
 }
 
@@ -561,10 +570,11 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 
 
-.for-students p span {
-  font-style: italic;
-  font-size: 14px;
+.contact .col-md-6 {
+  margin-top: 20px;
 }
+
+
 
 
 /* Clients
@@ -761,9 +771,9 @@ width: 112px;
 
 
 footer {
-  background-color:#0F3B49;
+  background-color: #293035;
   color:#fff;
-  padding:100px 0 60px ;
+  padding:100px 0 80px ;
   margin:0;
 }
 
@@ -1056,7 +1066,7 @@ width: 130px;
 }
 
 .modal {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.65);
 }
 
 .modal-open {
@@ -1771,6 +1781,22 @@ background-color: #ECEDEF;
 -o-transition:  .3s ease;
 transition: .3s ease;
 }
+
+.for-teachers:hover,
+.for-students:hover{
+  background: #D4D8DC;
+}
+
+.for-teachers:hover .btn-link,
+.for-students:hover .btn-link{
+  color: #FFF !important;
+  background-color: rgba(7,124,160,1);
+  border-color: rgba(7,124,160,1);
+  text-decoration: none;
+      border-radius: 50px;
+  }
+
+
 
 /*.micropasts {
     background: rgb(0, 39, 53) url("/images/Micropast.png") no-repeat center top/ cover;

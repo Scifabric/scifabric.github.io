@@ -445,7 +445,7 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 
 
-.about{
+.about, .education{
   padding-bottom:90px;
   background-color: #FAFAFA;
 
@@ -506,6 +506,8 @@ only screen and (min-device-pixel-ratio: 2) {
 /* Case studies
 -------------------------------------------------- */
 
+
+
 .case_studies h4 {
   margin: 25px 10px 15px 10px;
   font-size:22px;
@@ -539,20 +541,6 @@ only screen and (min-device-pixel-ratio: 2) {
 /* Who need us
 -------------------------------------------------- */
 
-.who_need_us {
-  background: #f9f9f9 url('../images/triangles_bg.png') repeat top fixed;
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2), 
-only screen and (min-device-pixel-ratio: 2) {
-    
-  .who_need_us {
-    /* Reference the @2x Sprite */
-    background: #f9f9f9 url('../images/triangles_bg@2x.png') repeat top fixed;
-    /* Translate the @2x sprite's dimensions back to 1x */
-    background-size: 450px; 
-    }
-}
 
 
 .who_need_us p,
@@ -570,6 +558,12 @@ only screen and (min-device-pixel-ratio: 2) {
     .who_need_us h1{
       margin-top: 70px;
     }
+}
+
+
+.for-students p span {
+  font-style: italic;
+  font-size: 14px;
 }
 
 
@@ -683,6 +677,7 @@ blockquote {
 
 .contact{
   padding-bottom: 150px;
+  text-align: center;
 }
 
 .contact h4{
@@ -1743,6 +1738,39 @@ background: rgba(41, 48, 53, 1);
   text-decoration:none;
 }
 
+.education-cover{
+    height: 300px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+}
+
+.education-cover h4{
+    margin: 0px;
+    padding-top: 45px;
+    position:relative;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.education-cover p {
+    padding-top: 5px;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.education-cover p  span {
+    font-style: italic;
+}
+
+.for-teachers, 
+.for-students{
+background-color: #ECEDEF;
+-webkit-transition:  .3s ease;
+-o-transition:  .3s ease;
+transition: .3s ease;
+}
 
 /*.micropasts {
     background: rgb(0, 39, 53) url("/images/Micropast.png") no-repeat center top/ cover;

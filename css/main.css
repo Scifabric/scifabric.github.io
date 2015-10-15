@@ -158,21 +158,19 @@ font-weight:500;
 }
 
 .btn-explain{
-    color: #fff;
-    text-transform: uppercase;
+    color: #5a5a5a;
     font-size: 15px;
-    border-right: 2px solid;
-    border-right-color: rgba(255,255,255,.3);
-    border-radius: 0px;
-}
-
-.btn-explain:last-child {
-    border-right: 0px;
+    text-decoration: none;
+    font-weight: 300;
+    background: #ECEDEF;
 }
 
 .btn-explain:hover{
-  color: #fff;
+  text-decoration: none;
+  color: #5a5a5a;
+  background: #D4D8DC;
 }
+
 
 .btn-info-2 {
   color: #077CA0;
@@ -193,6 +191,9 @@ font-weight:500;
   text-decoration:none;
 }
 
+h3{
+  font-size: 
+}
 
 @media (max-width: 768px) {
   
@@ -250,22 +251,12 @@ font-weight:500;
 
 /* Header
 -------------------------------------------------- */
-nav {
-  background-color:#fff;
-  top:-200px;
-  opacity:0;
-  -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow:    0px 1px 1px 0px rgba(0, 0, 0, 0.1);
-  box-shadow:         0px 1px 1px 0px rgba(0, 0, 0, 0.1);
-  transition:top .2 ease;
-  -webkit-transition: top .3s ease;
-    -o-transition: top .3s ease;
-    transition: top .3s ease;
-}
+
 
 
 .firstfold {
   margin-top:70px !important;
+  margin-bottom: 60px;
 }
 
 
@@ -276,14 +267,22 @@ nav {
   background-color: #eee;
   right:0;left:0;top:0;bottom:0;
   overflow:hidden;
-  background: #0F3B49 url('../images/b.jpg') no-repeat top center;
+  background: #0F3B49 url('../images/bg.png') no-repeat top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-attachment:fixed;
-  height: 780px;
+  height: auto;
 }
+
+.jumbotron h2 {
+  font-size: 46px;
+  color:#fff;
+  margin-bottom:20px;
+  margin-top: 50px;
+}
+
 
 .jumbotron_small{
   height: 500px;
@@ -312,7 +311,7 @@ only screen and (min-device-pixel-ratio: 2) {
     
   .jumbotron {
     /* Reference the @2x Sprite */
-    background-image: url('../images/b@2x.jpg');
+    background-image: url('../images/bg@2x.png');
     /* Translate the @2x sprite's dimensions back to 1x */
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -368,9 +367,28 @@ only screen and (min-device-pixel-ratio: 2) {
 
 /* Nav Bar
 -------------------------------------------------- */
+nav {
+  background-color: transparent;
+}
+
+nav a{
+  color: #fff;
+}
+
 
 .show {
-  opacity:1;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow:    0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  box-shadow:         0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+  transition: .2 ease;
+  -webkit-transition:  .3s ease;
+    -o-transition: .3s ease;
+    transition:  .3s ease;
+}
+
+.show a{
+  color: #999;
 }
 
 .navbar-brand img{
@@ -378,6 +396,53 @@ only screen and (min-device-pixel-ratio: 2) {
   margin-top: -15px;
 }
 
+.btn-header {
+  color: #fff !important;
+  border-color: rgba(255,255,255,1);
+  background-color: rgba(255,255,255,0.4);
+  border-width:0;
+  font-weight:500;
+  font-size:13px;
+  text-transform: uppercase;
+  margin:7px 0 0 12px;
+  padding:8px 18px !important;
+}
+.btn-header:hover,
+.btn-header:focus,
+.btn-header:active,
+ .open > .dropdown-toggle.btn-header {
+  color: #FFF !important;
+  background-color: rgba(7,124,160,1);
+  border-width:0;
+  text-decoration:none;
+}
+
+
+.show .btn-header {
+  color: rgba(7,124,160,1) !important;
+  border-color: rgba(7,124,160,.7);
+  background-color: rgba(0,0,0,.03);
+  border-width:0;
+  font-weight:500;
+  font-size:13px;
+  text-transform: uppercase;
+  margin:7px 0 0 12px;
+  padding:8px 18px !important;
+}
+.show .btn-header:hover,
+.show .btn-header:focus,
+.show .btn-header:active,
+.show .open > .show .dropdown-toggle.btn-header {
+  color: #FFF !important;
+  background-color: rgba(7,124,160,1);
+  border-width:0;
+  text-decoration:none;
+}
+
+.definitions {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
 @media (max-width: 992px){
     .navbar-brand img{
@@ -456,7 +521,7 @@ only screen and (min-device-pixel-ratio: 2) {
 
 
 .about, .education{
-  padding-bottom:90px;
+  padding-bottom:60px;
   background-color: #FAFAFA;
 
   }
@@ -1647,9 +1712,6 @@ div.author-detail {
     text-decoration: underline;
 }
 
-.definitions {
-    margin-top: 10%;
-}
 
 .faces {
     text-align: center;

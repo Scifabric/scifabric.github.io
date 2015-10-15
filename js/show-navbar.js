@@ -1,5 +1,5 @@
 $(window).scroll(function() {
-if ($(this).scrollTop() > 250){  
+if ($(this).scrollTop() > 150){  
     $('nav').css('top','0px');
 	$('nav').addClass('show');
     $('#go-to-top').css('bottom','0px');

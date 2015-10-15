@@ -1,17 +1,12 @@
 $(window).scroll(function() {
   var distanceToTop = $(this).scrollTop();
   if (distanceToTop <= 10){
-    $('nav').css('top', '0px');
     $('nav').removeClass('show');
+    $('#scifabricLogo').attr('src', 'images/Logo_Scifabric.png')
   }
-  if (distanceToTop > 10) {
-    $('nav').css('top','-200px');
-    $('#go-to-top').css('bottom','-100px');
-  }
-  if (distanceToTop > 10){
-    $('nav').css('top','0px');
+  else {
+    $('#scifabricLogo').attr('src', 'images/Logo_Scifabric_blue.png')
     $('nav').addClass('show');
-    $('#go-to-top').css('bottom','0px');
   }
 });
 

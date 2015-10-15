@@ -23,10 +23,12 @@ $(function() {
         // create new image name
         var imageType = images[i].src.substr(-4);
         var imageName = images[i].src.substr(0, images[i].src.length - 4);
-        imageName += "@2x" + imageType;
+        if (imageName.search(/@2x/) === -1) {
+          imageName += "@2x" + imageType;
 
-        //rename image
-        images[i].src = imageName;
+          //rename image
+          images[i].src = imageName;
+        }
       }
     }
   }

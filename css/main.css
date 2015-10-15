@@ -526,6 +526,10 @@ nav a{
 
   }
 
+.education-icon {
+    margin-bottom: 5px;
+    width: 50px;
+}
 
 @media (min-width: 1201px){
 

@@ -165,6 +165,22 @@ font-weight:500;
     background: #ECEDEF;
 }
 
+@media (max-width: 768px) {
+  .btn-explain{
+      width: 40%;
+      margin-top: 10px;
+  }
+}
+
+@media (max-width: 440px) {
+  .btn-explain{
+      width: 65%;
+      margin-top: 10px;
+  }
+}
+
+
+
 .btn-explain:hover{
   text-decoration: none;
   color: #5a5a5a;
@@ -345,7 +361,6 @@ only screen and (min-device-pixel-ratio: 2) {
     }
 
     .jumbotron {
-    background: #0F3B49;
     height:auto;
     padding: 30px 0 60px 0 !important;
     }
@@ -389,6 +404,10 @@ nav a{
 
 .show a{
   color: #999;
+}
+
+.show li:hover a{
+    color: #077CA0;
 }
 
 .navbar-brand img{
@@ -649,7 +668,7 @@ nav a{
   font-size:20px;
 }
 
-.who_need_us .col-md-6{
+.who_need_us .education-cover{
   margin-top: 20px;
 }
 

@@ -516,15 +516,37 @@ nav a{
 }
 
 .case_studies{
-  background-color: #404B54;
+    padding-bottom:60px;
+    color: inherit;
+    overflow: hidden;
+    background: #fafafa url('../images/dark-flare.jpg') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
 }
 
 
-.about, .education{
+.about {
   padding-bottom:60px;
   background-color: #FAFAFA;
-
   }
+
+.education {  
+    padding-bottom:60px;
+    color: inherit;
+    overflow: hidden;
+    background: #fafafa url('../images/light-flare.jpg') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+}
+
 
 .education-icon {
     margin-bottom: 5px;
@@ -1795,7 +1817,7 @@ div.author-detail {
 
 .micropasts,
 .citiesatnight{
-background: rgba(41, 48, 53, .5);
+background: rgba(41, 48, 53, .4);
 -webkit-transition:  .3s ease;
 -o-transition:  .3s ease;
 transition: .3s ease;
@@ -1803,7 +1825,7 @@ transition: .3s ease;
 
 .micropasts:hover,
 .citiesatnight:hover{
-background: rgba(41, 48, 53, 1);
+background: rgba(41, 48, 53, .8);
 }
 
 .micropasts:hover .btn-info,
@@ -1842,7 +1864,7 @@ background: rgba(41, 48, 53, 1);
 
 .for-teachers, 
 .for-students{
-background-color: #ECEDEF;
+    background-color: rgba(235, 236, 246, 0.5);
 -webkit-transition:  .3s ease;
 -o-transition:  .3s ease;
 transition: .3s ease;
@@ -1850,7 +1872,7 @@ transition: .3s ease;
 
 .for-teachers:hover,
 .for-students:hover{
-  background: #D4D8DC;
+     background-color: rgba(235, 236, 246, 0.8);
 }
 
 .for-teachers:hover .btn-link,

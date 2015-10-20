@@ -63,8 +63,13 @@ active: home
     </div>
 
 
-
-<!--
+    </div>
+    <div class="expand">
+        <div class="col-sm-12" style="text-align:center;">
+            <a id="team-expand"><li id="team-expand-btn" class="fa fa-plus"></li> Meet the team</a>
+        </div>
+    </div>
+    <div class="who-we-are">
         <div class="col-sm-12" style="text-align:center;">
             <h4>Who we are</h4>
             <p>A team with a new way of thinking, experimenting and working, with interests in music, arts and technology.</p>
@@ -80,8 +85,8 @@ active: home
                 <li><li><a data-toggle="modal" data-target="#modal-marvin" href=""><img src="/assets/img/crew/marvin.png"/><br/><p>Marvin</p></a></li>
             </ul>
         </div>
--->
     </div>
+
 </div>
 
 
@@ -235,8 +240,9 @@ active: home
             <div class="education-cover for-students">
                     <h4>Students</h4>
                     <p>Experimenting. Hypothesis, observation, analysis. <br>WE WILL MAKE THINGS EXPLODE*
-                        <br><span>*No, we probably won't, sorry.</span></p>
+</p>
                     <a href="#contact" class="btn btn-sm btn-link top20">Starting at 25EUR/person</a>
+                    <p><span>*No, we probably won't, sorry.</span></p>
             </div>
         </div>
 
@@ -371,3 +377,23 @@ active: home
         </p>
     </div>
 </div><!-- /END OF THE CONTAINER -->
+
+<script>
+    $(function () {
+              $('[data-toggle="tooltip"]').tooltip()
+
+              $("#team-expand").off('click').on('click', function(){
+                  if ($(".who-we-are").css('max-height') == '0px') {
+                    $(".who-we-are").css('max-height', '300px');
+                    $("#team-expand-btn").removeClass('rotate-to-open');
+                    $("#team-expand-btn").addClass('rotate-to-close');
+                  }
+                  else {
+                    $(".who-we-are").css('max-height', '0px');
+                    $("#team-expand-btn").removeClass('rotate-to-close');
+                    $("#team-expand-btn").addClass('rotate-to-open');
+                  }
+                  });
+              })
+
+</script>

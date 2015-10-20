@@ -2073,3 +2073,24 @@ transition: .3s ease;
 .students .small {
     font-size: 12px;
 }
+
+.rotate-to-close{
+    transform: rotate(45deg);
+    transition: transform 450ms cubic-bezier(0.55, 0.085, 0.68, 0.53) 0s;
+}
+
+.rotate-to-open{
+    transform: rotate(0deg);
+    transition: transform 450ms cubic-bezier(0.55, 0.085, 0.68, 0.53) 0s;
+}
+
+#team-expand {
+    font-size: 24px;
+}
+
+.who-we-are {
+    max-height: 0px;
+    width: 100%;
+    overflow: hidden;
+    transition: max-height 450ms cubic-bezier(0.55, 0.085, 0.68, 0.53) 0s;
+}

@@ -85,7 +85,7 @@ font-weight:500;
   text-transform:uppercase;
 }
 
-@media (max-width: 768px){
+@media (max-width: 991px){
   br{
     display: none;
   }
@@ -108,6 +108,10 @@ font-weight:500;
 
 .top60{
   margin-top: 60px;
+}
+
+.top40{
+  margin-top: 40px;
 }
 
 .top30 {
@@ -367,10 +371,17 @@ only screen and (min-device-pixel-ratio: 2) {
 
     .jumbotron {
     height:auto;
-    padding: 30px 0 60px 0 !important;
+    padding: 30px 0 30px 0 !important;
     }
+
+    #logo {
+    max-width: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    }
+
     .jumbotron h2 {
-    margin-bottom:10px;
+    margin-bottom:40px;
     font-size: 38px;
     }
     .jumbotron #logo img {
@@ -418,32 +429,28 @@ li:hover a{
     color: rgba(255,255,255,1);
 }
 
-.dropdown-menu > li > a {
-    display: block;
-    padding: 12px 10px;
-    clear: both;
-    font-weight: normal;
-    line-height: 1.42857143;
-    color: #999;
-    white-space: nowrap;
-    text-align: center;
-}
-
-.dropdown-menu {
-    padding: 0px;
-    margin: 0px;
-}
 
 @media (max-width: 991px) and (min-width: 768px){
+    
     .navbar-nav > li > a {
-        padding: 16px 0 10px 9px;
+      padding: 16px 0 10px 9px;
+      color: rgba(255,255,255,.8);
+    }
+
+    li:hover a{
+      color: rgba(255,255,255,1);
     }
 
     .navbar-inverse .navbar-nav > li > a {
-        text-transform: uppercase;
-        font-weight: 500;
-        font-size: 12px;
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 12px;
     }
+
+    .show .navbar-nav > li > a{
+    color: #999;
+    }
+
 }
 
 @media (max-width: 768px){
@@ -458,6 +465,22 @@ li:hover a{
   .navbar-collapse a:hover{
     color: rgba(7,124,160,1);
   }
+}
+
+.dropdown-menu > li > a {
+    display: block;
+    padding: 12px 10px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #999;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.dropdown-menu {
+    padding: 0px;
+    margin: 0px;
 }
 
 .show {
@@ -645,7 +668,7 @@ li:hover a{
 
 
 .about {
-  padding-bottom:60px;
+  padding-bottom:40px;
   background-color: #FAFAFA;
   }
 

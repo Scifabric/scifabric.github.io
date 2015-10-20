@@ -85,6 +85,11 @@ font-weight:500;
   text-transform:uppercase;
 }
 
+@media (max-width: 768px){
+  br{
+    display: none;
+  }
+}
 
 .left20{
   margin-left: 20px;
@@ -293,10 +298,10 @@ h3{
 }
 
 .jumbotron h2 {
-  font-size: 46px;
-  color:#fff;
-  margin-bottom:20px;
-  margin-top: 50px;
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 

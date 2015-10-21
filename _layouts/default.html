@@ -16,7 +16,6 @@
 		<script src="/js/modernizr.custom.js" type="text/javascript" charset="utf-8"></script>
         
 		<script src="/js/main.js" type="text/javascript" charset="utf-8"></script>
-        <script src="/js/show-navbar.js" type="text/javascript" charset="utf-8"></script>
 
         <!-- Twitter -->
         <meta name="twitter:card" content="summary" />
@@ -49,19 +48,25 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="/#about">
-                                <img src="/images/Logo_Scifabric.png" class="hires">
+                            <a class="navbar-brand" href="/#what-is-scifabric">
+                                <img id="scifabricLogo" alt="logo Scifabric" src="/images/Logo_Scifabric.png" class="hires">
                             </a>
                         </div>
                         <div id="navbar" class="navbar-collapse collapse">
                             <ul class="nav navbar-nav navbar-right">
-                                {% if page.active == 'home'%}
-                                <li><a href="/#about">About</a></li>
-                                <li><a href="/#caseStudies">Case Studies</a></li>
-                                <li><a href="/#whoNeedUs">Who Needs Us</a></li>
-                                <li><a href="/#tailoring">Customise</a></li>
-                                {% endif %}
-                                <li id="btn-nav"><a href="/#contact" class="btn btn-header">Get in touch!</a></li>
+                                <li><a href="/#what-is-scifabric">What is SciFabric</a></li>
+                                <li><a href="/#what-we-do">What we do</a></li>
+                                <li><a href="/#how-we-do-it">How we do it</a></li>
+                                <!--<li><a href="/#what-we-offer">What we offer</a></li>
+                                <li><a href="/#education">Education</a></li>-->
+                                <li class="dropdown">
+                                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">What we offer <span class="caret"></span></a>
+                                  <ul class="dropdown-menu">
+                                    <li><a href="/#what-we-offer">Services</a></li>
+                                    <li><a href="/#education">Education</a></li>
+                                  </ul>
+                                </li>
+                                <li id="btn-nav"><a href="/#contact" class="btn btn-header">Say hi!</a></li>
                             </ul>
                         </div>
                     </div>

@@ -1970,11 +1970,20 @@ div.author-detail {
     padding: 30px;
 }
 
+.education-cover .uppercase {
+    text-transform: uppercase;
+}
+
+.education-cover .footnote{
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
 .education-cover h4 {
     margin: 0px;
     position: relative;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 18px;
     color: #077CA0;
 }
 
@@ -2057,4 +2066,8 @@ transition: .3s ease;
 
 .students .small {
     font-size: 12px;
+}
+
+.tailoring p.lead {
+    text-align:center;
 }

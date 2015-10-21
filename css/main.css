@@ -660,6 +660,10 @@ li:hover a{
     background: #fafafa url('../images/triangles_bg.png') repeat top fixed;
 }
 
+.grey {
+    background: #fafafa repeat top fixed;
+}
+
 
 .about {
   padding-bottom:40px;
@@ -1063,6 +1067,7 @@ footer .logo_sf {
 -------------------------------------------------- */
 
 #go-to-top {
+  z-index:999;
   position:fixed;
   display:block;
   background-color:#fff;

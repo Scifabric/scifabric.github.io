@@ -1971,6 +1971,7 @@ div.author-detail {
 
 .education-cover .uppercase {
     text-transform: uppercase;
+    padding-bottom: 5px;
 }
 
 .education-cover .footnote{

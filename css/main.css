@@ -779,7 +779,7 @@ li:hover a{
 
 .who_need_us .education-cover{
   margin-top: 20px;
-      height: auto;
+      min-height: 320px;
 }
 
 @media (max-width: 768px){
@@ -1964,7 +1964,6 @@ div.author-detail {
 }
 
 .education-cover{
-    height: 300px;
     border-radius: 5px;
     text-align: center;
     padding: 30px;

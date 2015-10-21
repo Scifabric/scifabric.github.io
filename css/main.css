@@ -292,7 +292,7 @@ h3{
   background-color: #eee;
   right:0;left:0;top:0;bottom:0;
   overflow:hidden;
-  background: #0F3B49 url('../images/bg.png') no-repeat top center;
+  background: #0F3B49 url('../images/bg.jpg') no-repeat top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -336,7 +336,7 @@ only screen and (min-device-pixel-ratio: 2) {
     
   .jumbotron {
     /* Reference the @2x Sprite */
-    background-image: url('../images/bg@2x.png');
+    background-image: url('../images/bg@2x.jpg');
     /* Translate the @2x sprite's dimensions back to 1x */
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -657,13 +657,8 @@ li:hover a{
     padding-bottom:60px;
     color: inherit;
     overflow: hidden;
-    background: #fafafa url('../images/dark-flare.jpg') no-repeat top center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-attachment: fixed;
     height: auto;
+    background: #0B4253 url('../images/triangles_bg2.png') repeat top fixed;
 }
 
 
@@ -676,13 +671,9 @@ li:hover a{
     padding-bottom:60px;
     color: inherit;
     overflow: hidden;
-    background: #fafafa url('../images/light-flare.jpg') no-repeat top center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-attachment: fixed;
     height: auto;
+    background: #fafafa url('../images/triangles_bg.png') 
+    repeat top fixed;
 }
 
 

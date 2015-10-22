@@ -64,7 +64,11 @@ $(function() {
             $('#scifabricLogo').attr('src', '/images/Logo_Scifabric_blue.png');
             $('nav').addClass('show');
         }
+
+        $(".nav li > a").click(function(){
+            if (!$(this).hasClass("dropdown-toggle")) {
+                $("#dropdown").removeClass("open");
+            }
+        });
     });
-
-
 });

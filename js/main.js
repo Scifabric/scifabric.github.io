@@ -59,5 +59,12 @@ $(function() {
     setRetinaPictures();
     });
 
+    $(window).load(function(){
+        if ($(this).height() > 250) {
+            $('#scifabricLogo').attr('src', '/images/Logo_Scifabric_blue.png');
+            $('nav').addClass('show');
+        }
+    });
+
 
 });

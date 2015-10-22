@@ -4,7 +4,7 @@ title: Blog
 ---
 <div class="jumbotron jumbotron-blog">
     <div class="container text-center firstfold">
-    </br>
+        </br>
         <div id="logo" class="center-block">
             <img src="/images/scifabric_logo_white_vert_trans.svg" onerror="this.onerror=null; this.src='/images/scifabric_logo_white_vert_trans.png'" width="100%" height="auto">
         </div>
@@ -15,53 +15,53 @@ title: Blog
 </div>
 
 <div class="container blog-entries first-container">
-	<div class="col-md-offset-1 col-md-10">
-		{% for post in site.categories.blog %}
+    <div class="col-md-offset-1 col-md-10">
+        {% for post in site.categories.blog %}
         {% assign loopindex = forloop.index | modulo: 2 %}
         <!-- modulo {{loopindex}} -->
-		{% if loopindex == 1 %}
-		<div class="row">
-			<div class="col-md-6 post-entry">
-				<a href="{{ post.url }}">
+        {% if loopindex == 1 %}
+        <div class="row">
+            <div class="col-md-6 post-entry">
+                <a href="{{ post.url }}">
                     <div style="height: 222.5px; background: #333 url({{post.photo}}) no-repeat center top/ cover;"></div>
                 </a>
-				<a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
-				<p class="post-date">{{ post.date | date: "%-d %B %Y" }}</p>
-				<p class="intro">{{ post.intro | strip_html | truncate: 150 }}</p>
-				<a class="btn btn-info-2" href="{{ site.prefix }}{{ post.url }}">Read more</a>
-			</div>
-		{% else %}
-			<div class="col-md-6 post-entry">
-				<a href="{{ post.url }}">
+                <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+                <p class="post-date">{{ post.date | date: "%-d %B %Y" }}</p>
+                <p class="intro">{{ post.intro | strip_html | truncate: 150 }}</p>
+                <a class="btn btn-info-2" href="{{ site.prefix }}{{ post.url }}">Read more</a>
+            </div>
+            {% else %}
+            <div class="col-md-6 post-entry">
+                <a href="{{ post.url }}">
                     <div style="height: 222.5px; background: #333 url({{post.photo}}) no-repeat center top/ cover;"></div>
                 </a>
-				<a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
-				<p class="post-date">{{ post.date | date: "%-d %B %Y" }}</p>
-				<p class="intro">{{ post.intro | strip_html | truncate: 150 }}</p>
-				<a class="btn btn-info-2" href="{{ site.prefix }}{{ post.url }}">Read more</a>
-			</div>
-		</div>
-		{% endif %}
-		{% endfor %}
+                <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+                <p class="post-date">{{ post.date | date: "%-d %B %Y" }}</p>
+                <p class="intro">{{ post.intro | strip_html | truncate: 150 }}</p>
+                <a class="btn btn-info-2" href="{{ site.prefix }}{{ post.url }}">Read more</a>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
     </div>
 
-		<!--<div class="post-nav">
-			<a href="#" class="btn btn-small btn-default">Load more posts</a>
-		</div> -->
-	</div>
+    <!--<div class="post-nav">
+            <a href="#" class="btn btn-small btn-default">Load more posts</a>
+        </div> -->
+</div>
 </div>
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h4 class="modal-title" id="myModalLabel">Modal title</h4>
-			</div>
-			<div class="modal-body">
-				
-			</div>
-		</div>
-	</div>
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+        </div>
+        <div class="modal-body">
+
+        </div>
+    </div>
+</div>
 </div>

@@ -1952,10 +1952,12 @@ div.author-detail {
 
 .micropasts{
     background: #0F3B49 url('../images/Micropast.png') no-repeat top center;
+    background-size: cover;
 }
 
 .citiesatnight{
     background: #0F3B49 url('../images/Cities.png') no-repeat top center;
+    background-size: cover;
 }
 
 

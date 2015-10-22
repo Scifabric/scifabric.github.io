@@ -66,12 +66,9 @@ $(function() {
         }
 
         $(".nav li > a").click(function(){
-            console.log(!$(this).hasClass("dropdown-toggle"));
             if (!$(this).hasClass("dropdown-toggle")) {
                 $("#dropdown").removeClass("open");
             }
         });
     });
-
-
 });

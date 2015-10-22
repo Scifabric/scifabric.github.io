@@ -2102,3 +2102,29 @@ background: rgb(0, 39, 53) url("/images/Cities.png") no-repeat center top/ cover
 .h4ckademy ul li:hover a {
     color: #097CA0;
 }
+
+
+.arrow:after, 
+.arrow:before {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.arrow:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-bottom-color: white;
+    border-width: 10px;
+    margin-left: -10px;
+}
+.arrow:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-bottom-color: rgba(0, 0, 0, 0.15);
+    border-width: 12px;
+    margin-left: -12px;
+}

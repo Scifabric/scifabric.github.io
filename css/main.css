@@ -2099,6 +2099,6 @@ background: rgb(0, 39, 53) url("/images/Cities.png") no-repeat center top/ cover
 
 .h4ckademy a:hover,
 .h4ckademy a:focus,
-.h4ckademy ul li a:hover {
+.h4ckademy ul li:hover a {
     color: #097CA0;
 }

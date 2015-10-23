@@ -325,6 +325,10 @@ h3{
     height: 600px;
 }
 
+.jumbotron-training {
+    background: #333 url("../images/training2.jpg") no-repeat fixed center top / cover;
+}
+
 .jumbotron-blog > .container > .title {
     text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.8);
 }
@@ -1970,7 +1974,8 @@ div.author-detail {
     text-decoration:none;
 }
 
-.education-cover{
+.education-cover,
+.training-cover {
     border-radius: 5px;
     text-align: center;
     padding: 30px;
@@ -2129,4 +2134,26 @@ background: rgb(0, 39, 53) url("/images/Cities.png") no-repeat center top/ cover
     border-bottom-color: rgba(0, 0, 0, 0.15);
     border-width: 12px;
     margin-left: -12px;
+}
+
+.training-cover {
+    background-color: #0B4253;
+    color: #FFF;
+}
+
+.training-cover .lead {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.training-cover .lead.hours,
+.training-cover .lead.topics,
+.training-cover .lead.price {
+    padding-top: 10px;
+}
+
+.training-cover .price {
+    font-weight: 600;
 }

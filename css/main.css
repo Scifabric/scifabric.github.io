@@ -2145,16 +2145,13 @@ background: rgb(0, 39, 53) url("/images/Cities.png") no-repeat center top/ cover
     font-weight: 600;
     margin-bottom: 5px;
     margin-top: 20px;
+    color: #cecece;
 }
 
 .training-cover .lead.hours,
 .training-cover .lead.topics,
 .training-cover .lead.price {
     padding-top: 10px;
-}
-
-.training-cover .price {
-    font-weight: 600;
 }
 
 .general{

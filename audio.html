@@ -30,7 +30,7 @@ var context = new AudioContext()
 var lineOut = new WebAudiox.LineOut(context)
 
 // load a sound and play it immediatly
-WebAudiox.loadBuffer(context, '/assets/snd/noise.mp3', function(buffer){
+WebAudiox.loadBuffer(context, '/assets/snd/loop.mp3', function(buffer){
         // init AudioBufferSourceNode
         var source  = context.createBufferSource();
         source.buffer   = buffer;

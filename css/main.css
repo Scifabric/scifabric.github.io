@@ -2163,9 +2163,13 @@ background: rgb(0, 39, 53) url("/images/Cities.png") no-repeat center top/ cover
 
 .training-cover {
     border-radius: 5px;
-    padding: 30px;
+    padding: 15px 20px 15px 20px;
 }
 
 .training-cover h4 {
    color: #077CA0;
+}
+
+.training-cover .btn{
+    width: 100%;
 }

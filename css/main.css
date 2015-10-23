@@ -1974,8 +1974,7 @@ div.author-detail {
     text-decoration:none;
 }
 
-.education-cover,
-.training-cover {
+.education-cover{
     border-radius: 5px;
     text-align: center;
     padding: 30px;
@@ -2137,15 +2136,15 @@ background: rgb(0, 39, 53) url("/images/Cities.png") no-repeat center top/ cover
 }
 
 .training-cover {
-    background-color: #0B4253;
-    color: #FFF;
+    background-color: #FFF;
 }
 
 .training-cover .lead {
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
+    margin-top: 20px;
 }
 
 .training-cover .lead.hours,
@@ -2156,4 +2155,17 @@ background: rgb(0, 39, 53) url("/images/Cities.png") no-repeat center top/ cover
 
 .training-cover .price {
     font-weight: 600;
+}
+
+.general{
+    background: #fafafa;
+}
+
+.training-cover {
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.training-cover h4 {
+   color: #077CA0;
 }

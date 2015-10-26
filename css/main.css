@@ -272,6 +272,11 @@ h3{
 
 }
 
+@media (max-width: 360px) {
+    .top90 {
+        margin-top: 80px;
+    }
+}
 
 
 /* Header
@@ -2177,4 +2182,11 @@ background: rgb(0, 39, 53) url("/images/Cities.png") no-repeat center top/ cover
 
 .training-cover .btn{
     width: 100%;
+}
+
+@media(max-width: 360px){
+    .arrow:after, 
+    .arrow:before {
+        display: none;
+    }
 }

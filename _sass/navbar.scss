@@ -13,12 +13,7 @@ nav a{
     background-color: rgba(255, 255, 255, 0);
 }
 
-@media (min-width: 768px){
-    .navbar-right .dropdown-menu {
-        right: -10px;
-        left: auto;
-    }
-}
+
 
 li a{
     color: rgba(255,255,255,.8);
@@ -29,43 +24,6 @@ li:hover a{
     color: rgba(255,255,255,1);
 }
 
-
-@media (max-width: 991px) and (min-width: 768px){
-
-    .navbar-nav > li > a {
-        padding: 16px 0 10px 9px;
-        color: rgba(255,255,255,.8);
-    }
-
-    li:hover a{
-        color: rgba(255,255,255,1);
-    }
-
-    .navbar-inverse .navbar-nav > li > a {
-        text-transform: uppercase;
-        font-weight: 500;
-        font-size: 12px;
-    }
-
-    .show .navbar-nav > li > a{
-        color: #999;
-    }
-
-}
-
-@media (max-width: 768px){
-    .navbar-collapse{
-        background-color: rgba(255,255,255,1);
-    }
-
-    .navbar-collapse a{
-        color: #999;
-    }
-
-    .navbar-collapse a:hover{
-        color: rgba(7,124,160,1);
-    }
-}
 
 .dropdown-menu > li > a {
     display: block;
@@ -184,50 +142,7 @@ li:hover a{
     margin-left: -12px;
 }
 
-@media(max-width: 360px){
-    .arrow:after, 
-    .arrow:before {
-        display: none;
-    }
-}
 
-@media (max-width: 768px){
-    .btn-header {
-        color: rgba(7,124,160,1) !important;
-        border-color: rgba(7,124,160,.7);
-        background-color: rgba(0,0,0,.2);
-        border-width:0;
-        font-weight:500;
-        font-size:13px;
-        width: 95%;
-    }
-
-    .btn-header:hover,
-    .btn-header:focus,
-    .btn-header:active,
-    .open > .show .dropdown-toggle.btn-header {
-        color: #FFF !important;
-        background-color: rgba(7,124,160,1);
-        border-width:0;
-        text-decoration:none;
-    }
-
-}
-
-@media (max-width: 992px){
-    .navbar-brand img{
-        max-width:150px; 
-        margin-top: -9px
-    }
-}
-
-
-@media (min-width: 768px) and (max-width: 992px){
-
-    #btn-nav{
-        padding-left: 3px;
-    }
-}
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
@@ -251,26 +166,6 @@ li:hover a{
     width: auto;
 }
 
-@media (min-width: 768px) {
-    /* Navbar positioning foo */
-    .navbar-wrapper {
-        padding:10px 0;
-    }
-    .navbar-wrapper .container {
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-    .navbar-wrapper .navbar {
-        padding-right: 0;
-        padding-left: 0;
-    }
-
-    /* The navbar becomes detached from the top, so we round the corners */
-    .navbar-wrapper .navbar {
-        border-radius: 4px;
-    }
-
-}
-
-
-
+@import "navbar360";
+@import "navbar768";
+@import "navbar992";

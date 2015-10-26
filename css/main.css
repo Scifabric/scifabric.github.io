@@ -2137,3 +2137,10 @@ background: rgb(0, 39, 53) url("/images/Cities.png") no-repeat center top/ cover
     border-width: 12px;
     margin-left: -12px;
 }
+
+@media(max-width: 360px){
+    .arrow:after, 
+    .arrow:before {
+        display: none;
+    }
+}

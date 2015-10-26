@@ -1,0 +1,58 @@
+.case-study-cover {
+    height: 275px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+
+.case-study-cover h4 {
+    margin: 0px;
+    padding-top: 70px;
+    position:relative;
+    color: white;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+
+.case-study-cover p {
+    padding-top: 5px;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:white;
+}
+
+.case-study-cover p  span {
+    font-style: italic;
+}
+
+.micropasts{
+    background: #0F3B49 url('../images/Micropast.png') no-repeat top center;
+    background-size: cover;
+}
+
+.citiesatnight{
+    background: #0F3B49 url('../images/Cities.png') no-repeat top center;
+    background-size: cover;
+}
+
+.micropasts:hover .btn-info,
+.citiesatnight:hover .btn-info{
+    color: #FFF !important;
+    background-color: rgba(7,124,160,1);
+    border-color: rgba(7,124,160,1);
+    text-decoration:none;
+}
+
+/*.micropasts {
+background: rgb(0, 39, 53) url("/images/Micropast.png") no-repeat center top/ cover;
+}
+
+.citiesatnight {
+background: rgb(0, 39, 53) url("/images/Cities.png") no-repeat center top/ cover;
+}
+ */
+
+
+

@@ -67,3 +67,12 @@
     border-color: rgba(7,124,160,1);
     text-decoration:none;
 }
+
+
+@media (max-width: 768px) {
+
+    .btn {
+        font-size:12px !important;
+    }
+}
+

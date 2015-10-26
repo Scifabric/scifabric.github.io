@@ -52,3 +52,44 @@
 .down20{
     margin-bottom: 20px;
 }
+
+
+@media (max-width: 768px) {
+
+    .left20{
+        margin-left: 10px;
+    }
+
+    .top100{ 
+        margin-top: 50px;
+    }
+
+    .top90{ 
+        margin-top: 50px;
+    }
+
+    .top20 {
+        margin-top:10px;
+    }
+
+    .down100{
+        margin-bottom: 50px;
+    }
+
+    .down70{
+        margin-bottom: 40px;
+    }
+
+    .down20{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (max-width: 360px) {
+    .top90 {
+        margin-top: 80px;
+    }
+}
+
+

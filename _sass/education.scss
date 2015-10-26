@@ -1,0 +1,113 @@
+.education {  
+    padding-bottom:60px;
+    color: inherit;
+    overflow: hidden;
+    height: auto;
+    background: #0B4253 url('../images/triangles_bg2.png') 
+    repeat top fixed;
+}
+
+
+.education-icon {
+    margin-bottom: 5px;
+    width: 50px;
+}
+
+
+.education-cover{
+    margin-top: 20px;
+    min-height: 320px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+}
+
+.education-cover .uppercase {
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.education-cover .footnote{
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.education-cover h4 {
+    margin: 0px;
+    position: relative;
+    font-weight: 600;
+    font-size: 18px;
+    color: #077CA0;
+}
+
+.education-cover p {
+    padding-top: 5px;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.education-cover p  span {
+    font-style: italic;
+}
+
+.for-teachers, 
+.for-students{
+    background-color: rgba(255, 255, 255, 1);
+    -webkit-transition:  .3s ease;
+    -o-transition:  .3s ease;
+    transition: .3s ease;
+}
+
+
+.for-teachers:hover .btn-link,
+.for-students:hover .btn-link{
+    color: #FFF !important;
+    background-color: rgba(7,124,160,1);
+    border-color: rgba(7,124,160,1);
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.teachers h2,
+.students h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.teachers .row .col-md-12 > a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.teachers .col-md-6 p,
+.students .col-md-12 p {
+    text-align: left;
+}
+
+.students .col-md-12 {
+    margin-top: 20px;
+}
+
+.teachers img,
+.students img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80px;
+}
+
+.teachers h3,
+.students h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.students .small {
+    font-size: 12px;
+}
+
+

@@ -2,6 +2,8 @@
 // It lies in <source>/_sass, just waiting to be imported.
 // It does not contain the YAML front matter and has no corresponding output file in the built site.
 
+@import "colors";
+
 body {
     font-family: "Helvetica Neue", HelveticaNeue, Helvetica, sans-serif;
     @include vendor-prefix('font-smoothing', 'antialiased');
@@ -11,4 +13,72 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.42857143;
+}
+
+.bg_black{
+    background-color: $black;
+    height: 150px;
+}
+
+.bg_color_2 {
+    background-color: $background-color-2;
+    padding-bottom: 150px;
+}
+
+.bg_color_3 {
+    background-color: $background-color-3;
+    padding: 25px;
+    color: white;
+}
+
+
+.color-primary {
+    color: $color-primary;
+}
+
+.color-one {
+    color: $color-one;
+}
+
+.color-one-light{
+    color: $color-one-light;
+}
+
+.color-two {
+    color: $color-two;
+    font-size:14px;
+    font-weight:500;
+}
+
+.color-two:hover {
+    background-color: $color-two-hover;
+}
+
+.white{
+    color: $white;
+}
+
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}  
+
+.semibold{
+    font-weight: 400;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.container .light{
+    line-height: 1.4;
+}
+
+.uppercase {
+    text-transform:uppercase;
 }

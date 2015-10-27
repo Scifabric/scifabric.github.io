@@ -9,3 +9,314 @@
     border-color: rgba(7,124,160,1);
     text-decoration:none;
 }
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+    body {
+        padding-right: 0px !important;
+        font-family: "Helvetica Neue", HelveticaNeue, Helvetica, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        text-shadow:0 0 1px transparent;
+        text-rendering:optimizeLegibility;
+        color: #9B9B9B;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.42857143;
+        position: relative;
+        background-color: #000;
+    }
+
+    /* General Styles
+    -------------------------------------------------- */
+
+    h1{
+        font-size: 42px !important;
+        font-weight: bold;
+        font-family: "Gotham", Gotham, HelveticaNeue, Helvetica, sans-serif;
+        color: #fff !important;
+    }
+
+    h3{
+        font-size: 22px;
+        font-weight: bold;
+        font-family: "Gotham", Gotham, HelveticaNeue, Helvetica, sans-serif;
+        color: #fff;
+        margin-top: 10px;
+    }
+
+    h5{    
+        font-size: 14px !important;
+        font-weight: bold;
+        color: #FFF0D6;
+        text-transform: uppercase;
+    
+    }
+
+
+    .jumbotron {
+        padding: 30px 15px;
+        margin-bottom: 0px;
+        color: inherit;
+        right:0;left:0;top:0;bottom:0;
+        overflow:hidden;
+        background: #000 url('../images/world.png') no-repeat top center;
+     
+        height: 750px;
+    }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 2), 
+    only screen and (min-device-pixel-ratio: 2) {
+    
+        .jumbotron {
+            /* Reference the @2x Sprite */
+            background: #000 url('../images/world@2x.png') no-repeat top center;
+            /* Translate the @2x sprite's dimensions back to 1x */
+    
+        }
+    }
+
+
+    .btn-header {
+        color: #fff;
+        border-color: rgba(255,255,255,.4);
+        background-color: rgba(255,255,255,0);
+        border-width: 2px;
+        color: rgba(255,255,255,.8) !important;
+        font-weight:500;
+        font-size:13px;
+        text-transform: uppercase;
+        margin:7px 0 0 12px;
+        padding:8px 18px !important;
+    }
+    .btn-header:hover,
+    .btn-header:focus,
+    .btn-header:active,
+    .open > .dropdown-toggle.btn-header {
+        color: rgba(0,0,0,1) !important;
+        background-color: rgba(255,255,255,1);
+        border-width:2px;
+        text-decoration:none;
+    }
+
+
+
+    .show .btn-header {
+        color: rgba(7,124,160,1) !important;
+        border-color: rgba(7,124,160,.7);
+        background-color: rgba(0,0,0,.03);
+        border-width:0;
+        font-weight:500;
+        font-size:13px;
+        text-transform: uppercase;
+        margin:7px 0 0 12px;
+        padding:8px 18px !important;
+    }
+    .show .btn-header:hover,
+    .show .btn-header:focus,
+    .show .btn-header:active,
+    .show .open > .show .dropdown-toggle.btn-header {
+        color: #FFF !important;
+        background-color: rgba(7,124,160,1);
+        border-width:0;
+        text-decoration:none;
+    }
+
+
+    @media (max-width: 768px){
+        .btn-header {
+            color: rgba(7,124,160,1) !important;
+            border-color: rgba(7,124,160,.7);
+            background-color: rgba(0,0,0,.2);
+            border-width:0;
+            font-weight:500;
+            font-size:13px;
+            width: 95%;
+        }
+    
+        .btn-header:hover,
+        .btn-header:focus,
+        .btn-header:active,
+        .open > .show .dropdown-toggle.btn-header {
+            color: #FFF !important;
+            background-color: rgba(7,124,160,1);
+            border-width:0;
+            text-decoration:none;
+        }
+    
+    }
+
+
+
+    .jumbotron h1{
+        margin-top: 125px;
+        margin-bottom: 0px;
+    }
+
+    .jumbotron p{
+        font-size: 18px;
+        color: #fff;
+        font-weight: 500;
+    
+    }
+
+    .btn-info {
+        color: #fff;
+        border-color: rgba(255,255,255,.4);
+        background-color: rgba(255,255,255,0);
+        border-width: 2px;
+        margin-top: 250px;
+        padding: 15px 65px;
+    }
+
+
+    .btn-info:hover, 
+    .btn-info:focus, 
+    .btn-info.focus, 
+    .btn-info:active, 
+    .btn-info.active, 
+    .open > .dropdown-toggle.btn-info {
+        color: #000;
+        background-color: #fff;
+        border-color: #fff;
+        text-decoration: none;
+    }
+
+
+    .stars{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding-top: 130px;
+        color: inherit;
+        right:0;left:0;top:0;bottom:0;
+        overflow:hidden;
+        background: #000 url('../images/stars.png') no-repeat top center;
+        height: 591px;
+        text-align: center;
+    }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 2), 
+    only screen and (min-device-pixel-ratio: 2) {
+    
+        .stars {
+            /* Reference the @2x Sprite */
+            background: #000 url('../images/stars@2x.png') no-repeat top center;
+            /* Translate the @2x sprite's dimensions back to 1x */
+    
+        }
+    }
+
+    .stars p{
+     
+        width: 50%;
+        margin: auto;
+           margin-bottom: 80px;
+       
+       }
+
+
+       .univers{
+           margin-top: 100px;
+           margin-bottom: 100px;
+           color: inherit;
+           right:0;left:0;top:0;bottom:0;
+           overflow:hidden;
+          /* background: #000 url('../images/univers.png') no-repeat top center;*/
+           height: auto;
+       }
+
+       @media only screen and (-webkit-min-device-pixel-ratio: 2), 
+       only screen and (min-device-pixel-ratio: 2) {
+       
+           .univers {
+               /* Reference the @2x Sprite */
+               /*background: #000 url('../images/univers@2x.png') no-repeat top center;*/
+               /* Translate the @2x sprite's dimensions back to 1x */
+       
+           }
+       }
+
+
+       .univers .count{
+           margin-top: 100px;
+       }
+
+       .rocket{
+           margin-top: 200px;
+           margin-bottom: 100px;
+           color: inherit;
+           right:0;left:0;top:0;bottom:0;
+           overflow:hidden;
+           text-align: center;
+           background: #000 url('../images/rocket.png') no-repeat  bottom center;
+           height: 800px;
+       }
+
+       @media only screen and (-webkit-min-device-pixel-ratio: 2), 
+       only screen and (min-device-pixel-ratio: 2) {
+       
+           .rocket {
+               /* Reference the @2x Sprite */
+               /*background: #000 url('../images/univers@2x.png') no-repeat top center;*/
+               /* Translate the @2x sprite's dimensions back to 1x */
+       
+           }
+       }
+
+       .rocket p{
+           width: 70%;
+           margin: auto;
+       }
+
+       .astronaut{
+           margin-top: 200px;
+           margin-bottom: 200px;
+           text-align: center;
+       }
+
+       .opinion{
+           color: #fff;
+           width: 85%;
+           margin: auto;
+       }
+
+       .astronaut h3{
+               margin-top: 30px;
+               }  
+
+
+               .contact{
+                   margin-top: 200px;
+                   margin-bottom: 100px;
+                   padding-top: 150px;
+                   color: inherit;
+                   right:0;left:0;top:0;bottom:0;
+                   overflow:hidden;
+                   text-align: center;
+                   background: #000 url('../images/sky.png') no-repeat  bottom center;
+                   -webkit-background-size: cover;
+                   -moz-background-size: cover;
+                   -o-background-size: cover;
+                   background-size: cover;
+               }
+
+               @media only screen and (-webkit-min-device-pixel-ratio: 2), 
+               only screen and (min-device-pixel-ratio: 2) {
+               
+                   .contact {
+                       /* Reference the @2x Sprite */
+                       /*background: #000 url('../images/sky@2x.png') no-repeat top center;*/
+                       /* Translate the @2x sprite's dimensions back to 1x */
+               
+                   }
+               }
+
+
+               .contact p{
+                   color: #fff;
+               }
+
+               .contact a{
+                   color: #fff;
+                   text-decoration: underline;
+               }
+

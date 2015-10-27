@@ -1,0 +1,11 @@
+.citiesatnight{
+    background: #0F3B49 url('../images/Cities.png') no-repeat top center;
+    background-size: cover;
+}
+
+.citiesatnight:hover .btn-info{
+    color: #FFF !important;
+    background-color: rgba(7,124,160,1);
+    border-color: rgba(7,124,160,1);
+    text-decoration:none;
+}

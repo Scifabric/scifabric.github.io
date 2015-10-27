@@ -1,3 +1,4 @@
+@import "modules/colors";
 .citiesatnight{
     background: #0F3B49 url('../images/Cities.png') no-repeat top center;
     background-size: cover;
@@ -12,19 +13,7 @@
 
 /* GLOBAL STYLES
 -------------------------------------------------- */
-    body {
-        padding-right: 0px !important;
-        font-family: "Helvetica Neue", HelveticaNeue, Helvetica, sans-serif;
-        -webkit-font-smoothing: antialiased;
-        text-shadow:0 0 1px transparent;
-        text-rendering:optimizeLegibility;
-        color: #9B9B9B;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.42857143;
-        position: relative;
-        background-color: #000;
-    }
+@import "case-studies/cities-at-night/global";
 
     /* General Styles
     -------------------------------------------------- */
@@ -49,7 +38,7 @@
         font-weight: bold;
         color: #FFF0D6;
         text-transform: uppercase;
-    
+
     }
 
 
@@ -60,18 +49,18 @@
         right:0;left:0;top:0;bottom:0;
         overflow:hidden;
         background: #000 url('../images/world.png') no-repeat top center;
-     
+
         height: 750px;
     }
 
     @media only screen and (-webkit-min-device-pixel-ratio: 2), 
     only screen and (min-device-pixel-ratio: 2) {
-    
+
         .jumbotron {
             /* Reference the @2x Sprite */
             background: #000 url('../images/world@2x.png') no-repeat top center;
             /* Translate the @2x sprite's dimensions back to 1x */
-    
+
         }
     }
 
@@ -132,7 +121,7 @@
             font-size:13px;
             width: 95%;
         }
-    
+
         .btn-header:hover,
         .btn-header:focus,
         .btn-header:active,
@@ -142,7 +131,7 @@
             border-width:0;
             text-decoration:none;
         }
-    
+
     }
 
 
@@ -156,7 +145,7 @@
         font-size: 18px;
         color: #fff;
         font-weight: 500;
-    
+
     }
 
     .btn-info {
@@ -196,127 +185,128 @@
 
     @media only screen and (-webkit-min-device-pixel-ratio: 2), 
     only screen and (min-device-pixel-ratio: 2) {
-    
+
         .stars {
             /* Reference the @2x Sprite */
             background: #000 url('../images/stars@2x.png') no-repeat top center;
             /* Translate the @2x sprite's dimensions back to 1x */
-    
+
         }
     }
 
     .stars p{
-     
+
         width: 50%;
         margin: auto;
-           margin-bottom: 80px;
-       
-       }
+        margin-bottom: 80px;
+
+    }
 
 
-       .univers{
-           margin-top: 100px;
-           margin-bottom: 100px;
-           color: inherit;
-           right:0;left:0;top:0;bottom:0;
-           overflow:hidden;
-          /* background: #000 url('../images/univers.png') no-repeat top center;*/
-           height: auto;
-       }
+    .univers{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        color: inherit;
+        right:0;left:0;top:0;bottom:0;
+        overflow:hidden;
+        /* background: #000 url('../images/univers.png') no-repeat top center;*/
+        height: auto;
+    }
 
-       @media only screen and (-webkit-min-device-pixel-ratio: 2), 
-       only screen and (min-device-pixel-ratio: 2) {
-       
-           .univers {
-               /* Reference the @2x Sprite */
-               /*background: #000 url('../images/univers@2x.png') no-repeat top center;*/
-               /* Translate the @2x sprite's dimensions back to 1x */
-       
-           }
-       }
+    @media only screen and (-webkit-min-device-pixel-ratio: 2), 
+    only screen and (min-device-pixel-ratio: 2) {
 
+        .univers {
+            /* Reference the @2x Sprite */
+            /*background: #000 url('../images/univers@2x.png') no-repeat top center;*/
+            /* Translate the @2x sprite's dimensions back to 1x */
 
-       .univers .count{
-           margin-top: 100px;
-       }
-
-       .rocket{
-           margin-top: 200px;
-           margin-bottom: 100px;
-           color: inherit;
-           right:0;left:0;top:0;bottom:0;
-           overflow:hidden;
-           text-align: center;
-           background: #000 url('../images/rocket.png') no-repeat  bottom center;
-           height: 800px;
-       }
-
-       @media only screen and (-webkit-min-device-pixel-ratio: 2), 
-       only screen and (min-device-pixel-ratio: 2) {
-       
-           .rocket {
-               /* Reference the @2x Sprite */
-               /*background: #000 url('../images/univers@2x.png') no-repeat top center;*/
-               /* Translate the @2x sprite's dimensions back to 1x */
-       
-           }
-       }
-
-       .rocket p{
-           width: 70%;
-           margin: auto;
-       }
-
-       .astronaut{
-           margin-top: 200px;
-           margin-bottom: 200px;
-           text-align: center;
-       }
-
-       .opinion{
-           color: #fff;
-           width: 85%;
-           margin: auto;
-       }
-
-       .astronaut h3{
-               margin-top: 30px;
-               }  
+        }
+    }
 
 
-               .contact{
-                   margin-top: 200px;
-                   margin-bottom: 100px;
-                   padding-top: 150px;
-                   color: inherit;
-                   right:0;left:0;top:0;bottom:0;
-                   overflow:hidden;
-                   text-align: center;
-                   background: #000 url('../images/sky.png') no-repeat  bottom center;
-                   -webkit-background-size: cover;
-                   -moz-background-size: cover;
-                   -o-background-size: cover;
-                   background-size: cover;
-               }
+    .univers .count{
+        margin-top: 100px;
+    }
 
-               @media only screen and (-webkit-min-device-pixel-ratio: 2), 
-               only screen and (min-device-pixel-ratio: 2) {
-               
-                   .contact {
-                       /* Reference the @2x Sprite */
-                       /*background: #000 url('../images/sky@2x.png') no-repeat top center;*/
-                       /* Translate the @2x sprite's dimensions back to 1x */
-               
-                   }
-               }
+    .rocket{
+        margin-top: 200px;
+        margin-bottom: 100px;
+        color: inherit;
+        right:0;left:0;top:0;bottom:0;
+        overflow:hidden;
+        text-align: center;
+        background: #000 url('../images/rocket.png') no-repeat  bottom center;
+        height: 800px;
+    }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 2), 
+    only screen and (min-device-pixel-ratio: 2) {
+
+        .rocket {
+            /* Reference the @2x Sprite */
+            /*background: #000 url('../images/univers@2x.png') no-repeat top center;*/
+            /* Translate the @2x sprite's dimensions back to 1x */
+
+        }
+    }
+
+    .rocket p{
+        width: 70%;
+        margin: auto;
+    }
+
+    .astronaut{
+        margin-top: 200px;
+        margin-bottom: 200px;
+        text-align: center;
+    }
+
+    .opinion{
+        color: #fff;
+        width: 85%;
+        margin: auto;
+    }
+
+    .astronaut h3{
+        margin-top: 30px;
+    }  
 
 
-               .contact p{
-                   color: #fff;
-               }
+    .contact{
+        margin-top: 200px;
+        margin-bottom: 100px;
+        padding-top: 150px;
+        color: inherit;
+        right:0;left:0;top:0;bottom:0;
+        overflow:hidden;
+        text-align: center;
+        background: #000 url('../images/sky.png') no-repeat  bottom center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 
-               .contact a{
-                   color: #fff;
-                   text-decoration: underline;
-               }
+    @media only screen and (-webkit-min-device-pixel-ratio: 2), 
+    only screen and (min-device-pixel-ratio: 2) {
 
+        .contact {
+            /* Reference the @2x Sprite */
+            /*background: #000 url('../images/sky@2x.png') no-repeat top center;*/
+            /* Translate the @2x sprite's dimensions back to 1x */
+
+        }
+    }
+
+
+    .contact p{
+        color: #fff;
+    }
+
+    .contact a{
+        color: #fff;
+        text-decoration: underline;
+    }
+
+@import "case-studies/cities-at-night/footer"

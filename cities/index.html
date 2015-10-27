@@ -4,7 +4,9 @@ title: SciFabric - Bespoke solutions for crowdsourcing research
 active: home
 css: cities-at-night
 ---
-
+<script src="/js/case-studies/cities-at-night/jquery.waypoints.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/js/case-studies/cities-at-night/webaudiox.js" type="text/javascript" charset="utf-8"></script>
+<script src="/js/case-studies/cities-at-night/sound.js" type="text/javascript" charset="utf-8"></script>
 <a name="top"></a>
 
 <div id="go-to-top">
@@ -44,7 +46,7 @@ css: cities-at-night
     <h5>Mission</h5>
     <h3>Cities at Night aims to classify, identify and geo-reference images taken by astronauts from the International Space Station.</h3>
     <p>These are the only images available of the Earth at night in color and high resolution.</p>
-    <img src="../images/space-institutions.svg" width="90%">
+    <img alt="Space Institutions Logo" src="../images/space-institutions.svg" width="90%">
     </div>
     
 </div>
@@ -56,17 +58,17 @@ css: cities-at-night
             <h3>Cities at Night consists of three projects, each with a unique but related purpose.</h3>
             <p>At Scifabric we created Dark Skies, the first Cities At Night project and also advised on the development of the follow-up Lost At Night and Night Cities ISS projects. The first Dark Skies prototype was created in less than an hour, which proved to the researchers how easy Crowdcrafting is to use.</p>
 
-            <h5 class="count">Three</h5>
+            <h5 id="3" class="count">Three</h5>
             <h3>In Dark Skies project, contributors classify what can be observed in images, whether that’s cities, stars, lights or other objects.</h3>
             <h5>And counting</h5>
             <p>This project is a classic image pattern recognition problem where the volunteers identify objects that algorithms have trouble with. In this case, identifying stars, cities at night, auroras borealis, etc. is quite complex for computers while people can do it with a simple glimpse. This project was the fir</p>
 
-            <h5 class="count">two</h5>
+            <h5 id="2" class="count">two</h5>
             <h3>In the Lost At Night project, volunteers identify particular cities in the photographs</h3>
             <h5>And counting</h5>
             <p>This second project shows how PyBossa technology may be used for georeferencing. The project uses web maps to geolocate the cities shown in the images, saving the latitude and longitude of particular features.</p>
 
-            <h5 class="count">One</h5>
+            <h5 id="1" class="count">One</h5>
             <h3>In Night Cities ISS the purpose is to accurately georeference the location of cities, that is, associate the cities on the pictures with locations in physical space.</h3>
             <h5>And counting</h5>
             <p>Finally, building on previous work, the aim of this project is pinpoint the exact location of city features in the images. It uses advanced web-mapping techniques, like allowing users to rotate images on top of a web map to mark points that will identify the city shown on the picture. This facilitates accurate georeferencing of the city.</p>
@@ -77,7 +79,7 @@ css: cities-at-night
 
 <div class="container rocket">
     <div class="col-md-8 col-md-offset-2">
-    <h5>Ignition & Liftoff</h5>
+    <h5 id='liftoff'>Ignition & Liftoff</h5>
     <h3>The project has so far attracted more than 30,000 unique contributors on all three projects. Thanks to users more than 145,000 images have now been classified, located and georeferenced.</h3>
     <p>A tutorial shows users how to contribute,
  tasks to complete and gives step by step information. 
@@ -89,7 +91,7 @@ with no prior information or notions.</p>
 
 <div class="container astronaut">
     <div class="col-md-6 col-md-offset-3">
-       <img src="../images/astronaut.png" width="60px">
+       <img alt="Alejandro Sánchez Photo" src="../images/astronaut.png" width="60">
             <h5>The astronaut</h5>
         <p><strong>
         Alejandro Sánchez de Miguel<br>

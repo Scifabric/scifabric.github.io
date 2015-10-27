@@ -1,3 +1,5 @@
 name: SciFabric
 markdown: redcarpet
 pygments: true
+sass:
+    style: compressed

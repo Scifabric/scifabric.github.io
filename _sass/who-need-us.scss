@@ -1,0 +1,21 @@
+.who_need_us p,
+.contact p {
+    font-size:20px;
+}
+
+.who_need_us {
+    margin-top: 20px;
+    min-height: 320px;
+}
+
+@media (max-width: 768px){
+
+    .who_need_us h1{
+        margin-top: 70px;
+    }
+}
+
+
+.contact .col-md-6 {
+    margin-top: 20px;
+}

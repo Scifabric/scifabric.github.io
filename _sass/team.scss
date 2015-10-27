@@ -1,0 +1,58 @@
+.crew_profile {
+    background-color:#fff;
+}
+.crew_profile.container {
+    padding:0;
+}
+.crew_profile img {
+    display:inline-block;
+}
+
+.faces {
+    text-align: center;
+}
+
+.faces ul {
+    list-style-type: none;
+    vertical-align: middle;
+}
+
+.faces ul > li {
+    text-align: center;
+    display:inline-block;
+    margin: 0px 1px;
+    margin-right: 25px;
+    font-size: 14px;
+}
+
+.faces ul > li > a > img {
+    max-width: 80px;
+    border-radius: 40px;
+    padding: 1px;
+    border: 1px solid rgba(0, 0, 0, 0.2)
+}
+
+.faces ul > li > p{
+    margin-top: 5px;
+}
+
+.modal-dialog {
+    margin-top: 15%;
+}
+
+.modal-photo-rounded {
+    max-width: 200px;
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+    padding: 1px;
+    border: 5px solid #042935;
+}
+
+.modal-body .row .col-xs-4 {
+    text-align: center;
+    font-size: 12px;
+}
+
+

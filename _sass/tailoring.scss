@@ -1,0 +1,40 @@
+.tailoring  {  
+    padding-bottom:90px;
+}
+
+.tailoring h4 {
+    font-size:22px;
+    font-weight:600;
+    margin-top:20px;
+}
+.tailoring p {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.tailoring .col-md-4 {
+    margin-top: 30px;
+}
+
+.tailoring p.lead {
+    text-align:center;
+}
+
+.tailor-icons{
+    width: 112px;
+}
+
+@media (max-width: 768px)  {
+
+    .tailoring img {
+        width:45%;
+    }
+}
+
+@media (max-width: 970px) {
+
+    .tailoring .col-md-4 {
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,171 @@
+nav {
+    background-color: transparent;
+}
+
+nav a{
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover, 
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+
+li a{
+    color: rgba(255,255,255,.8);
+}
+
+
+li:hover a{
+    color: rgba(255,255,255,1);
+}
+
+
+.dropdown-menu > li > a {
+    display: block;
+    padding: 12px 10px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #999;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.dropdown-menu {
+    padding: 0px;
+    margin: 0px;
+}
+
+.show {
+    background-color: #fff;
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow:    0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+    box-shadow:         0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+    transition: .2 ease;
+    -webkit-transition:  .3s ease;
+    -o-transition: .3s ease;
+    transition:  .3s ease;
+}
+
+.show a{
+    color: #999;
+}
+
+.show li:hover a{
+    color: #077CA0;
+}
+
+.show .navbar-inverse .navbar-nav > .open >  a,
+.show .navbar-inverse .navbar-nav > .open >  a:hover, 
+.show .navbar-inverse .navbar-nav > .open >  a:focus {
+    color: #999;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+.navbar-brand img{
+    max-width:200px; 
+    margin-top: -15px;
+}
+
+
+.btn-header {
+    color: rgba(255,255,255,.8) !important;
+    border-color: rgba(255,255,255,.4);
+    background-color: rgba(255,255,255,0.4);
+    border-width:0;
+    font-weight:500;
+    font-size:13px;
+    text-transform: uppercase;
+    margin:7px 0 0 12px;
+    padding:8px 18px !important;
+}
+.btn-header:hover,
+.btn-header:focus,
+.btn-header:active,
+.open > .dropdown-toggle.btn-header {
+    color: rgba(7,124,160,1) !important;
+    background-color: rgba(255,255,255,1);
+    border-width:0;
+    text-decoration:none;
+}
+
+
+.show .btn-header {
+    color: rgba(7,124,160,1) !important;
+    border-color: rgba(7,124,160,.7);
+    background-color: rgba(0,0,0,.03);
+    border-width:0;
+    font-weight:500;
+    font-size:13px;
+    text-transform: uppercase;
+    margin:7px 0 0 12px;
+    padding:8px 18px !important;
+}
+.show .btn-header:hover,
+.show .btn-header:focus,
+.show .btn-header:active,
+.show .open > .show .dropdown-toggle.btn-header {
+    color: #FFF !important;
+    background-color: rgba(7,124,160,1);
+    border-width:0;
+    text-decoration:none;
+}
+
+.arrow:after, 
+.arrow:before {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.arrow:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-bottom-color: white;
+    border-width: 10px;
+    margin-left: -10px;
+}
+.arrow:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-bottom-color: rgba(0, 0, 0, 0.15);
+    border-width: 12px;
+    margin-left: -12px;
+}
+
+
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-wrapper .navbar {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.navbar-wrapper .navbar .container {
+    width: auto;
+}
+
+@import "navbar360";
+@import "navbar768";
+@import "navbar992";

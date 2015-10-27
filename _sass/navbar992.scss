@@ -1,0 +1,37 @@
+@media (max-width: 992px){
+    .navbar-brand img{
+        max-width:150px; 
+        margin-top: -9px
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 992px){
+
+    #btn-nav{
+        padding-left: 3px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+
+    .navbar-nav > li > a {
+        padding: 16px 0 10px 9px;
+        color: rgba(255,255,255,.8);
+    }
+
+    li:hover a{
+        color: rgba(255,255,255,1);
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    .show .navbar-nav > li > a{
+        color: #999;
+    }
+
+}

@@ -1,0 +1,15 @@
+.contact{
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+.contact h4{
+    font-weight: 500;
+}
+
+@media (max-width: 768px){
+    .contact .col-md-6 {
+        margin-top: 50px;
+        text-align: center;
+    }
+}

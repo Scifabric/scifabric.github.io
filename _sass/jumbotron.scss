@@ -1,0 +1,75 @@
+
+.jumbotron {
+    padding: 30px 15px;
+    margin-bottom: 0px;
+    color: inherit;
+    right:0;left:0;top:0;bottom:0;
+    overflow:hidden;
+    background: #0F3B49 url('../images/bg.jpg') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment:fixed;
+    height: auto;
+}
+
+.jumbotron h2 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+
+.jumbotron_small{
+    height: 500px;
+}
+
+.jumbotron-xs {
+    height: 200px;
+}
+
+.jumbotron-cookies {
+    background: #333 url("../images/cookies.jpg") no-repeat fixed center top / cover;
+}
+
+.jumbotron-blog {
+    background: #333 url("../images/blog.jpg") no-repeat fixed center top / cover;
+    height: 600px;
+}
+
+.jumbotron-training {
+    background: #333 url("../images/training.jpg") no-repeat fixed center top / cover;
+}
+
+.jumbotron-support {
+    background: #333 url("../images/support.jpg") no-repeat fixed center top / cover;
+}
+
+.jumbotron-cloud-servers {
+    background: #333 url("../images/cloud.jpg") no-repeat fixed center top / cover;
+}
+
+.jumbotron-blog > .container > .title {
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-device-pixel-ratio: 2) {
+
+    .jumbotron {
+        /* Reference the @2x Sprite */
+        background-image: url('../images/bg@2x.jpg');
+        /* Translate the @2x sprite's dimensions back to 1x */
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; 
+    }
+}
+
+
+
+

@@ -1,0 +1,21 @@
+.cc_container {
+    background: #0B4253 !important;
+    color: white !important;
+}
+.cc_container .cc_btn, .cc_container .cc_btn:visited {
+    background-color: white !important;
+    color: #0B4253 !important;
+}
+
+.cc_container a, .cc_container a:visited {
+    text-decoration: none !important;
+    color: white;
+    transition: color 200ms ease 0s;
+}
+.cc_container a, .cc_container a:visited {
+    color:  white !important;
+}
+
+.cc_more_info {
+    font-weight: bold !important;
+}

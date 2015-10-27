@@ -1,0 +1,499 @@
+.navbar-toggle-BM {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+.navbar-toggle-BM .icon-bar {
+    background-color: #fff;
+}
+
+#navbar-BM{
+    background-color: #000;
+}
+
+.btn-header-BM {
+    color: #fff;
+
+    border-color: #fff;
+    background-color: rgba(0,0,0,.03);
+    border-width:1;
+    font-weight:500;
+    font-size:13px;
+    text-transform: uppercase;
+    margin:7px 0 0 12px;
+    padding:8px 18px !important;
+}
+.btn-header-BM:hover,
+.btn-header-BM:focus,
+.btn-header-BM:active,
+.open > .dropdown-toggle.btn-header-BM {
+    color: #000;
+    background-color: #fff;
+    border-width:1;
+    text-decoration:none;
+}
+
+.jumbotron-BM {
+    padding: 30px 15px;
+    margin-bottom: 0px;
+    color: inherit;
+    background-color: #eee;
+    right:0;left:0;top:0;bottom:0;
+    overflow:hidden;
+    background: #333 url('../images/coins.png') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment:fixed;
+    height: 550px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-device-pixel-ratio: 2) {
+
+    .jumbotron-BM {
+        /* Reference the @2x Sprite */
+        background-image: url('../images/coins@2x.png');
+        /* Translate the @2x sprite's dimensions back to 1x */
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-attachment:fixed;
+    }
+}
+
+#logo-BM {
+    margin-top: 110px;
+    max-width: 500px;
+    margin-bottom: 100px;
+}
+
+#brands-BM{
+    max-width: 600px;
+    opacity: 0.85;
+}
+
+.about-BM{
+    padding-bottom: 60px;
+}
+
+.h1-BM{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.h3-BM{
+    font-size: 32px;
+}
+
+.color-BM{
+    color: #BE935D;
+}
+
+.grey-BM{
+    color: #5a5a5a;
+}
+
+.btn-BM {
+    color: #BE935D;
+    border-color: #BE935D;
+    background-color: rgba(255,255,255,0);
+    border-width:2px;
+}
+.btn-BM:hover,
+.btn-BM:focus,
+.btn-BM.focus,
+.btn-BM:active,
+.btn-BM.active {
+    color: #fff;
+    background-color: #BE935D;
+    border-color: #BE935D;
+    text-decoration:none;
+}
+
+.btn-BM-2 {
+    color: #fff;
+    border-color: #fff;
+    background-color: rgba(255,255,255,0);
+    border-width:2px;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.btn-BM-2:hover,
+.btn-BM-2:focus,
+.btn-BM-2.focus,
+.btn-BM-2:active,
+.btn-BM-2.active {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+    text-decoration:none;
+}
+
+
+
+.BM-method {
+    color: #BDBDBD;
+    background: #333 url('../images/London.png') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment:fixed;
+    padding-bottom: 100px;
+    height: auto;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-device-pixel-ratio: 2) {
+
+    .BM-method {
+        /* Reference the @2x Sprite */
+        background-image: url('../images/London@2x.png');
+        /* Translate the @2x sprite's dimensions back to 1x */
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+.BM-method a{
+    color: #bdbdbd;
+    text-decoration: underline;
+}
+
+.BM-method a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+.method-icon{
+    width: 130px;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.modal-open {
+    overflow-y: auto;
+}
+
+.modal-logo{
+    width: 300px;
+    margin-top:30px;
+}
+
+@media (max-width: 768px){
+    .modal-logo{
+        max-width: 260px;
+    }
+}
+
+.modal-title{
+    color: #BE935D;
+    font-size: 22px;
+}
+
+.modal-img{
+    width: 75%;
+    display: block;
+    margin: 20px auto 20px auto;
+}
+
+
+.projectdescription{
+    margin-top: 40px;
+}
+
+.bg_color_BM {
+    background-color: #f7f7f7;
+    padding-bottom: 60px;
+}
+
+.contact-BM{
+    color: #BDBDBD;
+    background: #333 url('../images/coins.png') no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment:fixed;
+    padding-bottom: 100px;
+    height: auto;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-resolution: 1dppx) {
+
+    .contact-BM {
+        /* Reference the @2x Sprite */
+        background-image: url('../images/coins@2x.png');
+        /* Translate the @2x sprite's dimensions back to 1x */
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .BM-contact-Link{
+        margin-top: 15px;
+        color: white;
+        text-decoration: underline;
+    }
+
+    .BM-contact-Link:hover{
+        color: white;
+        text-decoration: underline;
+    }
+
+
+    .BM-footer{
+        background-color: #000;
+    }
+}
+
+.bignumber{
+    color: #BE935D;
+    font-weight: 100;
+}
+
+.number{
+    color: #BE935D;
+    font-weight: 200;
+}
+
+@media (max-width: 767px){
+
+    .bignumber{
+        font-size: 50px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .number{
+        color: #BE935D;
+        padding-left: 40px;
+        text-align: center;
+    }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    .number{
+        margin-left: 35px;
+    }
+
+    .bignumber{
+        font-size: 55px;
+    }
+
+    .bignumber span{
+        font-size: 40px;
+    }
+
+    .middle-number{
+        margin-left: 0px;
+        padding-left: 30px;
+    }
+
+    .last-number{
+        padding-left: 100px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .number{
+        margin-left: 0px;
+        margin-left: 50px;
+    }
+
+    .bignumber{
+        font-size: 85px;
+        margin-bottom: 0px;
+    }
+
+    .bignumber span{
+        font-size: 40px;
+    }
+
+    .first-number{
+        padding-left: 20px;
+    }
+
+    .middle-number{
+        margin-left: 0px;
+        padding-left: 80px;
+    }
+
+    .last-number{
+        padding-left: 80px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+    .number{
+        margin-left: 55px;
+    }
+
+    .bignumber{
+        font-size: 65px;
+        margin-bottom: 0px;
+    }
+
+    .bignumber span{
+        font-size: 50px;
+    }
+
+    .first-number,
+    .middle-number,
+    .last-number{
+        margin-top: 10px;
+    }
+
+    .first-number{
+        padding-left: 25px;
+    }
+
+    .middle-number{
+        padding-left: 60px;
+
+    }
+
+    .last-number{
+        padding-left: 50px;
+    }
+
+}
+
+/************************************* 
+ ***********  Responsive BM  **********
+ **************************************/
+
+
+
+
+@media (max-width: 991px){
+
+    .no-br-small br{
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 768px){
+
+    .contact-BM h4{
+        margin-top: 30px;
+    }
+
+    #logo-BM {
+
+    margin-top: 200px;}
+
+    .photo-mask{
+        margin-top: 30px;
+    }
+
+    .jumbotron-BM {
+        padding: 30px 15px;
+        margin-bottom: 0px;
+        color: inherit;
+        background-color: #eee;
+        right:0;left:0;top:0;bottom:0;
+        overflow:hidden;
+        background: #333 url('../images/bg-BM.png') no-repeat top center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-attachment:fixed;
+        height: 400px;
+    }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 2), 
+    only screen and (min-device-pixel-ratio: 2) {
+
+        .jumbotron-BM {
+            /* Reference the @2x Sprite */
+            background-image: url('../images/bg-BM@2x.png');
+            /* Translate the @2x sprite's dimensions back to 1x */
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            background-attachment:fixed;
+        }
+    }
+
+    #logo-BM {
+        margin-top: 130px;
+    }
+
+
+}
+
+
+.btn-link-BM {
+    font-weight: normal;
+    color: #BE935D;
+    border-radius: 0;
+}
+.btn-link-BM,
+.btn-link-BM:active,
+.btn-link-BM.active,
+.btn-link-BM[disabled],
+fieldset[disabled] .btn-link {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.btn-link-BM,
+.btn-link-BM:hover,
+.btn-link-BM:focus,
+.btn-link-BM:active {
+    border-color: transparent;
+}
+.btn-link-BM:hover,
+.btn-link-BM:focus {
+    color: #BE935D;
+    text-decoration: none;
+    background-color: transparent;
+}
+.btn-link[disabled]:hover,
+fieldset[disabled] .btn-link:hover,
+.btn-link[disabled]:focus,
+fieldset[disabled] .btn-link:focus {
+    color: #777;
+    text-decoration: none;
+}
+
+
+.btn-link:hover,
+.btn-link[disabled]:focus,
+fieldset[disabled] .btn-link:focus {
+    color: #777;
+    text-decoration: none;
+}

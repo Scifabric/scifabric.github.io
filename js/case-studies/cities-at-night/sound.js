@@ -15,6 +15,51 @@ WebAudiox.loadBuffer(context, '/assets/snd/loop.mp3', function(buffer){
         source.start(0);
         });
 
+
+// load a sound and play it immediatly
+WebAudiox.loadBuffer(context, '/assets/snd/roger.mp3', function(buffer){
+        // init AudioBufferSourceNode
+        var source  = context.createBufferSource();
+        source.buffer   = buffer;
+        source.connect(lineOut.destination);
+        // start the sound now
+        source.start(20);
+        });
+
+
+// load a sound and play it immediatly
+WebAudiox.loadBuffer(context, '/assets/snd/tminus.mp3', function(buffer){
+        // init AudioBufferSourceNode
+        var source  = context.createBufferSource();
+        source.buffer   = buffer;
+        source.connect(lineOut.destination)
+        var waypoint = new Waypoint({
+                element: document.getElementById('tminus'),
+                handler: function(direction) {
+                    source.start(0);
+                    console.log("3 step");},
+                offset: 120 
+            });
+        });
+
+
+
+// load a sound and play it immediatly
+WebAudiox.loadBuffer(context, '/assets/snd/ignition.mp3', function(buffer){
+        // init AudioBufferSourceNode
+        var source  = context.createBufferSource();
+        source.buffer   = buffer;
+        source.connect(lineOut.destination)
+        var waypoint = new Waypoint({
+                element: document.getElementById('ignition'),
+                handler: function(direction) {
+                    source.start(0);
+                    console.log("3 step");},
+                offset: 120 
+            });
+        });
+
+
 // load a sound and play it immediatly
 WebAudiox.loadBuffer(context, '/assets/snd/3.mp3', function(buffer){
         // init AudioBufferSourceNode
@@ -61,7 +106,7 @@ WebAudiox.loadBuffer(context, '/assets/snd/1.mp3', function(buffer){
                     console.log(direction);
                     console.log('1 step');
                                 },
-                offset: 100 
+                offset: 120 
             });
         });
 
@@ -96,6 +141,6 @@ WebAudiox.loadBuffer(context, '/assets/snd/liftoff.mp3', function(buffer){
                     console.log(direction);
                     console.log('liftoff');
                                 },
-                offset: 320 
+                offset: 120 
             });
         });

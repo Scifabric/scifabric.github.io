@@ -8,6 +8,7 @@ var lineOut = new WebAudiox.LineOut(context)
 WebAudiox.loadBuffer(context, '/assets/snd/loop.mp3', function(buffer){
         // init AudioBufferSourceNode
         var source  = context.createBufferSource();
+        source.loop = true;
         source.buffer   = buffer;
         source.connect(lineOut.destination);
         // start the sound now
@@ -60,12 +61,30 @@ WebAudiox.loadBuffer(context, '/assets/snd/1.mp3', function(buffer){
                     console.log(direction);
                     console.log('1 step');
                                 },
-                offset: 120 
+                offset: 100 
             });
         });
 
 // load a sound and play it immediatly
-WebAudiox.loadBuffer(context, '/assets/snd/0.ogg', function(buffer){
+WebAudiox.loadBuffer(context, '/assets/snd/0.mp3', function(buffer){
+        // init AudioBufferSourceNode
+        var source  = context.createBufferSource();
+        source.buffer   = buffer
+        source.connect(lineOut.destination)
+        var waypoint = new Waypoint({
+                element: document.getElementById('0'),
+                handler: function(direction) {
+                    source.start(0);
+                    console.log(direction);
+                    console.log('0 step');
+                                },
+                offset: 120 
+            });
+        });
+
+
+// load a sound and play it immediatly
+WebAudiox.loadBuffer(context, '/assets/snd/liftoff.mp3', function(buffer){
         // init AudioBufferSourceNode
         var source  = context.createBufferSource();
         source.buffer   = buffer
@@ -77,6 +96,6 @@ WebAudiox.loadBuffer(context, '/assets/snd/0.ogg', function(buffer){
                     console.log(direction);
                     console.log('liftoff');
                                 },
-                offset: 120 
+                offset: 320 
             });
         });

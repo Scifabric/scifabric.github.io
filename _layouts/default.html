@@ -55,6 +55,7 @@
                         </div>
                         <div id="navbar" class="navbar-collapse collapse">
                             <ul class="nav navbar-nav navbar-right">
+                                {% if page.navbar == "default" %}
                                 <li><a href="/#what-is-scifabric">What is SciFabric</a></li>
                                 <li><a href="/#what-we-do">What we do</a></li>
                                 <li><a href="/#how-we-do-it">How we do it</a></li>
@@ -65,6 +66,7 @@
                                     <li><a href="/#education">Education</a></li>
                                 </ul>
                                 </li>
+                                {% endif %}
                                 <li id="btn-nav"><a href="/#contact" class="btn btn-header">Say hi!</a></li>
                             </ul>
                         </div>

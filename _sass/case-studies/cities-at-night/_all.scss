@@ -1,4 +1,5 @@
 @import "modules/colors";
+
 .citiesatnight{
     background: #0F3B49 url('../images/Cities.png') no-repeat top center;
     background-size: cover;
@@ -11,12 +12,11 @@
     text-decoration:none;
 }
 
-/* GLOBAL STYLES
--------------------------------------------------- */
+/* GLOBAL STYLES -------------------------------------------------- */
+
 @import "case-studies/cities-at-night/global";
 
-    /* General Styles
-    -------------------------------------------------- */
+/* General Styles ------------------------------------------------- */
 
     h1{
         font-size: 42px !important;
@@ -192,7 +192,7 @@
             /* Reference the @2x Sprite */
             background: #000 url('../images/stars@2x.png') no-repeat top center;
             /* Translate the @2x sprite's dimensions back to 1x */
-
+            background-size: 1443px 591px !important; 
         }
     }
 

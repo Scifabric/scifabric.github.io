@@ -211,7 +211,7 @@
         color: inherit;
         right:0;left:0;top:0;bottom:0;
         overflow:hidden;
-        /* background: #000 url('../images/univers.png') no-repeat top center;*/
+        background: #000 url('../images/universe-right.png') no-repeat top center;
         height: auto;
     }
 
@@ -220,8 +220,10 @@
 
         .univers {
             /* Reference the @2x Sprite */
-            /*background: #000 url('../images/univers@2x.png') no-repeat top center;*/
+            // background: #000 url('../images/universe-right@2x.png') no-repeat top right; 
             /* Translate the @2x sprite's dimensions back to 1x */
+             background-size: 271px 1700px !important; 
+
 
         }
     }

@@ -6,7 +6,7 @@ if (Modernizr.webaudio) {
     var lineOut = new WebAudiox.LineOut(context)
     
     // load a sound and play it immediatly
-    WebAudiox.loadBuffer(context, '/assets/snd/loop.mp3', function(buffer){
+    WebAudiox.loadBuffer(context, '/assets/snd/loop3.ogg', function(buffer){
             // init AudioBufferSourceNode
             var source  = context.createBufferSource();
             source.loop = true;
@@ -22,11 +22,32 @@ if (Modernizr.webaudio) {
             // init AudioBufferSourceNode
             var source  = context.createBufferSource();
             source.buffer   = buffer;
-            source.connect(lineOut.destination);
+            // Create a stereo panner
+            var panNode = context.createStereoPanner();
+            panNode.pan.value = 1;
+            //source.connect(lineOut.destination);
+            source.connect(panNode);
+            panNode.connect(lineOut.destination);
             // start the sound now
-            source.start(20);
+            source.start(5);
             });
     
+
+    // load a sound and play it immediatly
+    WebAudiox.loadBuffer(context, '/assets/snd/roger.mp3', function(buffer){
+            // init AudioBufferSourceNode
+            var source  = context.createBufferSource();
+            source.buffer   = buffer;
+            // Create a stereo panner
+            var panNode = context.createStereoPanner();
+            panNode.pan.value = -1;
+            //source.connect(lineOut.destination);
+            source.connect(panNode);
+            panNode.connect(lineOut.destination);
+            // start the sound now
+            source.start(15);
+            });
+
     
     // load a sound and play it immediatly
     WebAudiox.loadBuffer(context, '/assets/snd/tminus.mp3', function(buffer){

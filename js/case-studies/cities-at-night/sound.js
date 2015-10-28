@@ -83,7 +83,7 @@ if (Modernizr.webaudio) {
     
     
     // load a sound and play it immediatly
-    WebAudiox.loadBuffer(context, '/assets/snd/3.mp3', function(buffer){
+    WebAudiox.loadBuffer(context, '/assets/snd/3.ogg', function(buffer){
             // init AudioBufferSourceNode
             var source  = context.createBufferSource();
             source.buffer   = buffer;

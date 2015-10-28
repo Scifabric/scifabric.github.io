@@ -63,10 +63,8 @@ only screen and (min-device-pixel-ratio: 2) {
         /* Reference the @2x Sprite */
         background-image: url('../images/bg@2x.jpg');
         /* Translate the @2x sprite's dimensions back to 1x */
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover; 
+        background-size: 1444px 701px !important; 
+    
     }
 }
 

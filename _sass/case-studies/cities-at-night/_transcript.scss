@@ -46,8 +46,18 @@
 
 
 @media(max-width:768px) {
+
+    .scene {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: left;
+    margin-top: 165px;
+    min-height: 115px;
+    height: 200px;
+    }
+
     .more {
-    margin-top: 140px;
+    margin-top: 200px;
     }
     
     #know-more {
@@ -62,5 +72,9 @@
     color: #fff;
     margin-top: 40px;
 
+    }
+
+    .jumbotron {
+    height: 600px;
     }
 }

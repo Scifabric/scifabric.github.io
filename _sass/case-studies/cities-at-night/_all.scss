@@ -94,23 +94,22 @@
 
 
     .show .btn-header {
-        color: rgba(7,124,160,1) !important;
-        border-color: rgba(7,124,160,.7);
-        background-color: rgba(0,0,0,.03);
-        border-width:0;
-        font-weight:500;
-        font-size:13px;
-        text-transform: uppercase;
-        margin:7px 0 0 12px;
-        padding:8px 18px !important;
+    color: rgba(255,255,255,0.4);
+    border-color: rgba(255,255,255,0.4);
+    background-color: rgba(255,255,255,0);
+    border-width: 2px;
+    color: rgba(255,255,255,0.8) !important;
+    margin: 7px 0 0 12px;
+    padding: 8px 18px !important;
     }
+
     .show .btn-header:hover,
     .show .btn-header:focus,
     .show .btn-header:active,
     .show .open > .show .dropdown-toggle.btn-header {
-        color: #FFF !important;
-        background-color: rgba(7,124,160,1);
-        border-width:0;
+        color: rgba(0,0,0,1) !important;
+        background-color: rgba(255,255,255,1);
+        border-width:2px;
         text-decoration:none;
     }
 
@@ -352,19 +351,6 @@
         text-decoration: underline;
     }
 
-    #know-more {
-    border: none;
-    color: rgba(255,255,255,.4);
-    font-size: 14px;
-    margin-top: 200px;
-    }
-
-    #know-more:hover{
-    background: none;
-    color: #fff;
-    margin-top: 200px;
-
-    }
 
 
         @media (max-width: 768px){

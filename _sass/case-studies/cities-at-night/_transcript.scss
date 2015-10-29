@@ -30,6 +30,15 @@
     color: rgba(255,255,255,.4) !important;
 }
 
+.more a{
+    color: rgba(255,255,255,.4) !important;
+}
+
+
+.more a:hover{
+    color: rgba(255,255,255,1);
+}
+
 #know-more {
 border: none;
 color: rgba(255,255,255,.4);
@@ -62,8 +71,6 @@ margin-top: 200px;
     color: rgba(255,255,255,1) !important;
 
 }
-
-
 
 @media(max-width:768px) {
 

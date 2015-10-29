@@ -16,8 +16,6 @@ theater
         // It could be of two types: a DOM element or a function.
         current = self.current.voice;
 
-    console.log(current.id);
-
     // TheaterJS has some useful methods such as
     // addClass, hasClass, removeClass, ...
     // Note: the "saying" class adds the blinking caret.
@@ -35,7 +33,6 @@ theater
     // When say or erase ends, remove the caret.
     var say = document.getElementById(current.id + "-say");
     if (say.id != 'log-say') {
-        console.log(say.id);
         self.utils.removeClass(say, "saying");
         self.utils.removeClass(current, "saying");
         self.utils.addClass(say, "silence");

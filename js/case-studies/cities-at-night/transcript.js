@@ -60,7 +60,9 @@ theater
 .write(function () { theater.play(); });
 
 $("#know-more").off('click').on('click', function(){
-    $(".transcript").addClass("fadeout");
+    $(".scene").fadeOut("slow", function(){
+        $(".after-transcript").fadeIn();
+    });
     $("#know-more").hide();
 });
 

@@ -25,12 +25,42 @@
 }
 
 .more {
-    margin-top: 225px;
-    font-size: 52px !important;
+    margin-top: 340px;
+    font-size: 35px !important;
+    color: rgba(255,255,255,.4) !important;
 }
 
-@media(max-width:360px) {
+    #know-more {
+    border: none;
+    color: rgba(255,255,255,.4);
+    font-size: 14px;
+    margin-top: 200px;
+    }
+
+    #know-more:hover{
+    background: none;
+    color: #fff;
+    margin-top: 200px;
+
+    }
+
+
+@media(max-width:768px) {
     .more {
-        margin-top: 140px;
+    margin-top: 140px;
+    }
+    
+    #know-more {
+    border: none;
+    color: rgba(255,255,255,.4);
+    font-size: 14px;
+    margin-top: 40px;
+    }
+
+    #know-more:hover{
+    background: none;
+    color: #fff;
+    margin-top: 40px;
+
     }
 }

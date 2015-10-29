@@ -53,7 +53,12 @@ $(function() {
             $('#scifabricLogo').attr('src', '/images/nav-logo.svg');
         }
         else {
-            $('#scifabricLogo').attr('src', '/images/nav-logo-blue.svg');
+            if ($("body").hasClass('case-study')) {
+                $('#scifabricLogo').attr('src', '/images/nav-logo.svg');
+            }
+            else {
+                $('#scifabricLogo').attr('src', '/images/nav-logo-blue.svg');
+            }
             $('nav').addClass('show');
         }
     // setRetinaPictures();

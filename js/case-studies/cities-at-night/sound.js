@@ -15,8 +15,11 @@ if (Modernizr.webaudio) {
     });
 
     function playstory(){
+
+        var loopsound = Modernizr.audio.ogg ? '/assets/snd/loop3.ogg' : '/assets/snd/loop.mp3';
+
         // load a sound and play it immediatly
-        WebAudiox.loadBuffer(context, '/assets/snd/loop3.ogg', function(buffer){
+        WebAudiox.loadBuffer(context, loopsound, function(buffer){
                 // init AudioBufferSourceNode
                 var source  = context.createBufferSource();
                 source.loop = true;
@@ -184,5 +187,5 @@ if (Modernizr.webaudio) {
 }
 else {
     $("#btn-mute").hide();
-    console.log("REALLY!?? You should use a moder web browser to browse this case study!");
+    console.log("REALLY!?? You should use a modern web browser to browse this case study!");
 }

@@ -70,7 +70,7 @@ if (Modernizr.webaudio) {
                         handler: function(direction) {
                             source.start(0);
                             console.log("tminus step");},
-                        offset: 120 
+                        offset: '25%'
                     });
                 });
         
@@ -103,7 +103,7 @@ if (Modernizr.webaudio) {
                         handler: function(direction) {
                             source.start(0);
                             console.log("3 step");},
-                        offset: 120 
+                        offset: '25%' 
                     });
                 });
         
@@ -121,7 +121,7 @@ if (Modernizr.webaudio) {
                             console.log(direction);
                             console.log('2 step');
                                         },
-                        offset: 120 
+                        offset: '25%' 
                     });
                 });
         
@@ -138,7 +138,7 @@ if (Modernizr.webaudio) {
                             console.log(direction);
                             console.log('1 step');
                                         },
-                        offset: 120 
+                        offset: '25%' 
                     });
                 });
         
@@ -155,7 +155,7 @@ if (Modernizr.webaudio) {
                             console.log(direction);
                             console.log('0 step');
                                         },
-                        offset: 120 
+                        offset: '10%' 
                     });
                 });
         
@@ -173,7 +173,7 @@ if (Modernizr.webaudio) {
                             console.log(direction);
                             console.log('liftoff');
                                         },
-                        offset: 120 
+                        offset: '25%' 
                     });
                 });
 

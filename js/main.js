@@ -40,6 +40,8 @@ $(function() {
         if ($(this).scrollTop() > 250){  
             $('#go-to-top').css('bottom','0px');
             $('#go-to-top').addClass('show');
+            $('#say-hi').css('bottom','0px');
+            $('#say-hi').addClass('show');
         }
         else{
             $('#go-to-top').css('bottom','-=100px');

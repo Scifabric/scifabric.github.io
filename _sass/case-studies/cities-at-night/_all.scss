@@ -70,7 +70,6 @@
 
 
     .btn-header {
-        color: #fff;
         border-color: rgba(255,255,255,.4);
         background-color: rgba(255,255,255,0);
         border-width: 2px;
@@ -116,10 +115,10 @@
 
     @media (max-width: 768px){
         .btn-header {
-            color: rgba(7,124,160,1) !important;
-            border-color: rgba(7,124,160,.7);
-            background-color: rgba(0,0,0,.2);
-            border-width:0;
+            border-color: rgba(255,255,255,.4);
+            background-color: rgba(255,255,255,0);
+            border-width: 2px;
+            color: rgba(255,255,255,.8) !important;
             font-weight:500;
             font-size:13px;
             width: 95%;
@@ -129,10 +128,13 @@
         .btn-header:focus,
         .btn-header:active,
         .open > .show .dropdown-toggle.btn-header {
-            color: #FFF !important;
-            background-color: rgba(7,124,160,1);
-            border-width:0;
-            text-decoration:none;
+            border-color: rgba(255,255,255,1);
+            background-color: rgba(255,255,255,1);
+            border-width: 2px;
+            color: rgba(0,0,0,1) !important;
+            font-weight:500;
+            font-size:13px;
+            width: 95%;
         }
 
     }

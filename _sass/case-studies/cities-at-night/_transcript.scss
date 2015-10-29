@@ -30,19 +30,39 @@
     color: rgba(255,255,255,.4) !important;
 }
 
-    #know-more {
-    border: none;
-    color: rgba(255,255,255,.4);
-    font-size: 14px;
-    margin-top: 200px;
-    }
+#know-more {
+border: none;
+color: rgba(255,255,255,.4);
+font-size: 14px;
+margin-top: 200px;
+}
 
-    #know-more:hover{
-    background: none;
-    color: #fff;
-    margin-top: 200px;
+#know-more:hover{
+background: none;
+color: #fff;
+margin-top: 200px;
+}
 
-    }
+
+#btn-mute .btn-header{
+    border:none;
+     width: 50px;
+}
+
+#btn-mute .btn-header{
+    border:none;
+    background:none;
+      font-size: 24px;
+      color: rgba(255,255,255,.5) !important
+}
+
+#btn-mute .btn-header:hover {
+    border:none;
+    background:none;
+    color: rgba(255,255,255,1) !important;
+
+}
+
 
 
 @media(max-width:768px) {

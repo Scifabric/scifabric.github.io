@@ -3,7 +3,7 @@
     padding-right: 25%;
     text-align: left;
     margin-top: 125px;
-    min-height: 80px;
+    min-height: 115px;
 }
 
 .after-transcript {
@@ -26,4 +26,10 @@
 .more {
     margin-top: 225px;
     font-size: 52px !important;
+}
+
+@media(max-width:360px) {
+    .more {
+        margin-top: 140px;
+    }
 }

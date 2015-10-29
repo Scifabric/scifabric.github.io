@@ -1,6 +1,6 @@
 if (Modernizr.webaudio) {
-    var context = new AudioContext()
-    var lineOut = new WebAudiox.LineOut(context)
+   var context = new AudioContext()
+   var lineOut = new WebAudiox.LineOut(context)
 
     $("#btn-mute").off('click').on('click', function(){
         lineOut.toggleMute();
@@ -11,7 +11,6 @@ if (Modernizr.webaudio) {
         else {
             $("#mute").remove('fa-volume-off');
             $("#mute").addClass('fa-volume-up');
-
         }
     });
 
@@ -180,8 +179,10 @@ if (Modernizr.webaudio) {
 
 
         }
-    playstory();
+
+      playstory();
 }
 else {
+    $("#btn-mute").hide();
     console.log("REALLY!?? You should use a moder web browser to browse this case study!");
 }

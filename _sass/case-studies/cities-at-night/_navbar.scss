@@ -15,7 +15,37 @@
     background-color: rgba(0, 0, 0, 0);
 }
 
-.navbar-collapse {
-    background-color: rgba(0, 0, 0, .85);
+
+
+
+/*This is a experiment of the mobile site with no navbar*/
+
+  @media (min-width: 768px){
+
+	.no-desktop{
+		display: none;
+	}
 }
 
+  @media (max-width: 768px){
+
+  	.navbar-collapse {
+    background-color: rgba(0, 0, 0, .85);
+	}
+
+	.navbar-inverse .navbar-toggle {
+    background-color: rgba(5, 32, 150, 1);
+    display: none;
+	}
+
+	#btn-mute{
+	text-align: right;
+	}
+
+	.btn-header{
+	font-size: 23px !important;
+	margin-right: 15px !important;
+    margin-top: 2px !important;
+	}
+
+}

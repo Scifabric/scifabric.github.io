@@ -28,20 +28,20 @@ theater
     self.utils.addClass(say, "saying");
     self.utils.addClass(current, "saying");
     })
-.on("say:end", function (eventName) {
-    var self    = this,
-current = self.current.voice;
-
-// When say or erase ends, remove the caret.
-var say = document.getElementById(current.id + "-say");
-if (say.id != 'log-say') {
-    console.log(say.id);
-    self.utils.removeClass(say, "saying");
-    self.utils.removeClass(current, "saying");
-    self.utils.addClass(say, "silence");
-    $("#" + current.id).text("");
-    self.utils.addClass(current, "silence");
-}
+    .on("say:end", function (eventName) {
+        var self    = this,
+    current = self.current.voice;
+    
+    // When say or erase ends, remove the caret.
+    var say = document.getElementById(current.id + "-say");
+    if (say.id != 'log-say') {
+        console.log(say.id);
+        self.utils.removeClass(say, "saying");
+        self.utils.removeClass(current, "saying");
+        self.utils.addClass(say, "silence");
+        $("#" + current.id).text("");
+        self.utils.addClass(current, "silence");
+    }
 });
 
 
@@ -58,4 +58,10 @@ theater
 .write("Michael Collins: lenses." + spaces)
 .write("log: Apollo 11. August 1969")
 .write(function () { theater.play(); });
+
+$("#know-more").off('click').on('click', function(){
+    $(".transcript").addClass("fadeout");
+    $("#know-more").hide();
+});
+
 });

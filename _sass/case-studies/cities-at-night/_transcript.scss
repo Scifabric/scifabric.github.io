@@ -1,4 +1,5 @@
 .transcript {
+    opacity: 1;
     content: " ";
     position: absolute;
     top: 0px;
@@ -9,7 +10,11 @@
     padding-right: 25%;
     background: #000 url('../images/world.png') no-repeat top center;
     height: 100vh;
+}
 
+.fadeout {
+    opacity: 0;
+    transition: opacity 500ms cubic-bezier(0.55, 0.085, 0.68, 0.53) 0s;
 }
 
 .transcript {
@@ -30,3 +35,5 @@
 .silence {
     display: none;
 }
+
+

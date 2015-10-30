@@ -39,6 +39,18 @@ theater
         $("#" + current.id).text("");
         self.utils.addClass(current, "silence");
     }
+    else {
+        $("#log-say").fadeOut();
+        $("#know-more").fadeOut();
+        $("#jumbotron").removeClass('jumbotron-no-world');
+        $("#jumbotron").addClass('jumbotron');
+        $("#jumbotron").css("opacity", "1");
+        $(".scene").fadeOut("slow", function(){
+            $(".after-transcript").fadeIn();
+        });
+        $("#know-more").hide();
+
+    }
 });
 
 

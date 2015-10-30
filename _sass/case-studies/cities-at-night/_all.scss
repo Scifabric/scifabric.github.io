@@ -54,6 +54,8 @@
         background: #000 url('../images/world.png') no-repeat top center;
         //height: 750px;
         height: 100vh;
+        opacity: 0;
+        transition: opacity 1000ms cubic-bezier(0.55, 0.085, 0.68, 0.53) 0s;
     }
 
     @media only screen and (-webkit-min-device-pixel-ratio: 2), 
@@ -67,6 +69,28 @@
 
         }
     }
+
+    .jumbotron-no-world {
+        padding: 30px 15px;
+        margin-bottom: 0px;
+        color: inherit;
+        right:0;left:0;top:0;bottom:0;
+        overflow:hidden;
+        background: #000 url('../images/no-world.png') no-repeat top center;
+        height: 100vh;
+    }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 2), 
+    only screen and (min-device-pixel-ratio: 2) {
+
+        .jumbotron-no-world {
+            /* Reference the @2x Sprite */
+            background: #000 url('../images/no-world@2x.png') no-repeat top center;
+            /* Translate the @2x sprite's dimensions back to 1x */
+            background-size: 1444px 701px;
+        }
+    }
+
 
 
     .btn-header {

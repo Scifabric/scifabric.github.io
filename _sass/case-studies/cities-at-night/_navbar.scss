@@ -25,6 +25,10 @@
 	.no-desktop{
 		display: none;
 	}
+
+    .say-hi{
+           display: none;
+    }
 }
 
   @media (max-width: 768px){
@@ -84,4 +88,7 @@
             width: 95%;
         }
 
+       footer{
+       	height: auto !important;
+       }
 }

@@ -124,7 +124,7 @@ $("document").ready(function(){
               offset: '25%'
             });
 
-             var zeroWaypoint = $('#0').waypoint({
+            var zeroWaypoint = $('#0').waypoint({
               handler: function(direction) {
                   if (direction === 'down') {
                     playSound('0.mp3', context, lineOut);
@@ -133,25 +133,16 @@ $("document").ready(function(){
               offset: '10%'
             });
 
-            
-            // load a sound and play it immediatly
-            WebAudiox.loadBuffer(context, '/assets/snd/liftoff.mp3', function(buffer){
-                    // init AudioBufferSourceNode
-                    var source  = context.createBufferSource();
-                    source.buffer   = buffer
-                    source.connect(lineOut.destination)
-                    var waypoint = new Waypoint({
-                            element: document.getElementById('liftoff'),
-                            handler: function(direction) {
-                                source.start();
-                                console.log(direction);
-                                console.log('liftoff');
-                                            },
-                            offset: '25%' 
-                        });
-                    });
-    
-    
+
+            var liftoffWaypoint = $('#liftoff').waypoint({
+              handler: function(direction) {
+                  if (direction === 'down') {
+                    playSound('liftoff.mp3', context, lineOut);
+                  }
+                },
+              offset: '25%'
+            });
+
             }
     
           playstory();

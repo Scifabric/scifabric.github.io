@@ -16,8 +16,9 @@ $("document").ready(function(){
 
 
     
-        $("#btn-mute").off('click').on('click', function(){
+        $("#btn-mute, #btn-mute-mbl").off('click').on('click', function(){
             lineOut.toggleMute();
+            console.log(lineOut.isMuted);
             if (lineOut.isMuted) {
                 $("#mute").removeClass('fa-volume-up');
                 $("#mute").addClass('fa-volume-off');

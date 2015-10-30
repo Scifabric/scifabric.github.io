@@ -78,31 +78,24 @@ $("document").ready(function(){
     
 
 
-            var waypoints = $('#tminus').waypoint({
+            var tminusWaypoint = $('#tminus').waypoint({
               handler: function(direction) {
                   if (direction === 'down') {
                     playSound('tminus.mp3', context, lineOut);
                   }
                 },
               offset: '25%'
-            })
+            });
+
+            var tminusWaypoint = $('#ignition').waypoint({
+              handler: function(direction) {
+                  if (direction === 'down') {
+                    playSound('ignition.mp3', context, lineOut);
+                  }
+                },
+              offset: '25%'
+            });
     
-            
-            // load a sound and play it immediatly
-            WebAudiox.loadBuffer(context, '/assets/snd/ignition.mp3', function(buffer){
-                    // init AudioBufferSourceNode
-                    var source  = context.createBufferSource();
-                    source.buffer   = buffer;
-                    source.connect(lineOut.destination)
-                    var waypoint = new Waypoint({
-                            element: document.getElementById('ignition'),
-                            handler: function(direction) {
-                                source.start(0);
-                                console.log("3 step");},
-                            offset: 220 
-                        });
-                    });
-            
             
             // load a sound and play it immediatly
             WebAudiox.loadBuffer(context, '/assets/snd/3.ogg', function(buffer){

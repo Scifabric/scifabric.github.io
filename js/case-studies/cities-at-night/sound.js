@@ -87,7 +87,7 @@ $("document").ready(function(){
               offset: '25%'
             });
 
-            var tminusWaypoint = $('#ignition').waypoint({
+            var igntionWaypoint = $('#ignition').waypoint({
               handler: function(direction) {
                   if (direction === 'down') {
                     playSound('ignition.mp3', context, lineOut);

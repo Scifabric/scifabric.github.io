@@ -45,6 +45,7 @@ $(function() {
         }
         else{
             $('#go-to-top').css('bottom','-=100px');
+            $('#say-hi').removeClass('show');
         }
     });
 

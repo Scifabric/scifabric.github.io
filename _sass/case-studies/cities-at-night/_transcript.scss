@@ -52,19 +52,22 @@ margin-top: 200px;
 }
 
 
-#btn-mute .btn-header{
+#btn-mute .btn-header,
+#btn-mute-mbl .btn-header{
     border:none;
-     width: 50px;
+    width: 50px;
 }
 
-#btn-mute .btn-header{
+#btn-mute .btn-header,
+#btn-mute-mbl .btn-header{
     border:none;
     background:none;
       font-size: 24px;
       color: rgba(255,255,255,.5) !important
 }
 
-#btn-mute .btn-header:hover {
+#btn-mute .btn-header:hover,
+#btn-mute-mbl .btn-header:hover {
     border:none;
     background:none;
     color: rgba(255,255,255,1) !important;

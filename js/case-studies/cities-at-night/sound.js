@@ -154,14 +154,25 @@ $("document").ready(function(){
             });
 
 
-            var liftoffWaypoint = $('#motor').waypoint({
+            var motorWaypoint = $('#motor').waypoint({
               handler: function(direction) {
                   if (direction === 'down') {
                     playSound('motor.mp3', context, lineOut);
                   }
                 },
-              offset: '50%'
+              offset: '25%'
             });
+
+             
+            var contactWaypoint = $('#contact').waypoint({
+              handler: function(direction) {
+                  if (direction === 'down') {
+                    playSound('landed.mp3', context, lineOut);
+                  }
+                },
+              offset: '25%'
+            });
+
 
 
             }

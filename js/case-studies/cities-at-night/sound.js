@@ -45,35 +45,35 @@ $("document").ready(function(){
             
             
             // load a sound and play it immediatly
-            WebAudiox.loadBuffer(context, '/assets/snd/apollo11/houston.mp3', function(buffer){
-                    // init AudioBufferSourceNode
-                    var source  = context.createBufferSource();
-                    source.buffer   = buffer;
-                    // Create a stereo panner
-                    var panNode = context.createStereoPanner();
-                    panNode.pan.value = 1;
-                    //source.connect(lineOut.destination);
-                    source.connect(panNode);
-                    panNode.connect(lineOut.destination);
-                    // start the sound now
-                    source.start(5);
-                    });
-            
+            // WebAudiox.loadBuffer(context, '/assets/snd/apollo11/houston.mp3', function(buffer){
+            //         // init AudioBufferSourceNode
+            //         var source  = context.createBufferSource();
+            //         source.buffer   = buffer;
+            //         // Create a stereo panner
+            //         var panNode = context.createStereoPanner();
+            //         panNode.pan.value = 1;
+            //         //source.connect(lineOut.destination);
+            //         source.connect(panNode);
+            //         panNode.connect(lineOut.destination);
+            //         // start the sound now
+            //         source.start(5);
+            //         });
+            // 
     
             // load a sound and play it immediatly
-            WebAudiox.loadBuffer(context, '/assets/snd/apollo11/roger.mp3', function(buffer){
-                    // init AudioBufferSourceNode
-                    var source  = context.createBufferSource();
-                    source.buffer   = buffer;
-                    // Create a stereo panner
-                    var panNode = context.createStereoPanner();
-                    panNode.pan.value = -1;
-                    //source.connect(lineOut.destination);
-                    source.connect(panNode);
-                    panNode.connect(lineOut.destination);
-                    // start the sound now
-                    source.start(15);
-                    });
+            // WebAudiox.loadBuffer(context, '/assets/snd/apollo11/roger.mp3', function(buffer){
+            //         // init AudioBufferSourceNode
+            //         var source  = context.createBufferSource();
+            //         source.buffer   = buffer;
+            //         // Create a stereo panner
+            //         var panNode = context.createStereoPanner();
+            //         panNode.pan.value = -1;
+            //         //source.connect(lineOut.destination);
+            //         source.connect(panNode);
+            //         panNode.connect(lineOut.destination);
+            //         // start the sound now
+            //         source.start(20);
+            //         });
     
     
 
@@ -81,11 +81,21 @@ $("document").ready(function(){
             var tminusWaypoint = $('#tminus').waypoint({
               handler: function(direction) {
                   if (direction === 'down') {
-                    playSound('tminus.mp3', context, lineOut);
+                    playSound('houston.mp3', context, lineOut);
                   }
                 },
               offset: '25%'
             });
+
+            var rogerWaypoint = $('#roger').waypoint({
+                  handler: function(direction) {
+                  if (direction === 'down') {
+                    playSound('roger.mp3', context, lineOut);
+                  }
+                },
+              offset: '25%'
+            });
+
 
             var igntionWaypoint = $('#ignition').waypoint({
               handler: function(direction) {
@@ -142,6 +152,17 @@ $("document").ready(function(){
                 },
               offset: '25%'
             });
+
+
+            var liftoffWaypoint = $('#motor').waypoint({
+              handler: function(direction) {
+                  if (direction === 'down') {
+                    playSound('motor.mp3', context, lineOut);
+                  }
+                },
+              offset: '50%'
+            });
+
 
             }
     

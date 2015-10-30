@@ -4,7 +4,7 @@ $("document").ready(function(){
        var lineOut = new WebAudiox.LineOut(context)
 
        function playSound(sound, context, lineout) {
-           var snd = '/assets/snd/' + sound;
+           var snd = '/assets/snd/apollo11/' + sound;
            WebAudiox.loadBuffer(context, snd, function(buffer){
                // init AudioBufferSourceNode
                var source  = context.createBufferSource();
@@ -30,7 +30,7 @@ $("document").ready(function(){
     
         function playstory(){
     
-            var loopsound = Modernizr.audio.ogg ? '/assets/snd/loop3.ogg' : '/assets/snd/loop.mp3';
+            var loopsound = Modernizr.audio.ogg ? '/assets/snd/apollo11/loop.ogg' : '/assets/snd/apollo11/loop.mp3';
     
             // load a sound and play it immediatly
             WebAudiox.loadBuffer(context, loopsound, function(buffer){
@@ -45,7 +45,7 @@ $("document").ready(function(){
             
             
             // load a sound and play it immediatly
-            WebAudiox.loadBuffer(context, '/assets/snd/roger.mp3', function(buffer){
+            WebAudiox.loadBuffer(context, '/assets/snd/apollo11/houston.mp3', function(buffer){
                     // init AudioBufferSourceNode
                     var source  = context.createBufferSource();
                     source.buffer   = buffer;
@@ -61,7 +61,7 @@ $("document").ready(function(){
             
     
             // load a sound and play it immediatly
-            WebAudiox.loadBuffer(context, '/assets/snd/roger.mp3', function(buffer){
+            WebAudiox.loadBuffer(context, '/assets/snd/apollo11/roger.mp3', function(buffer){
                     // init AudioBufferSourceNode
                     var source  = context.createBufferSource();
                     source.buffer   = buffer;

@@ -16,7 +16,8 @@ $("document").ready(function(){
 
 
     
-        $("#btn-mute, #btn-mute-mbl").off('click').on('click', function(){
+        $("#btn-mute, #btn-mute-mbl").off('click').on('click', function(event){
+            event.preventDefault();
             lineOut.toggleMute();
             console.log(lineOut.isMuted);
             if (lineOut.isMuted) {

@@ -92,6 +92,7 @@ var wadus = function() {
         opacity: 1
     }, 1000, function() {
         // Animation complete.
+        $("body").addClass('loaded');
     });
     $("#logo").fadeTo(1000, 0);
 };

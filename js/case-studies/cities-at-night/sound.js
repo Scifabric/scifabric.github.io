@@ -114,7 +114,7 @@ window.ost = function(start){
             var threeWaypoint = $('#3').waypoint({
               handler: function(direction) {
                   if (direction === 'down') {
-                    playSound('3.ogg', context, lineOut);
+                    playSound('3alt.mp3', context, lineOut);
                   }
                 },
               offset: '25%'
@@ -123,7 +123,7 @@ window.ost = function(start){
             var twoWaypoint = $('#2').waypoint({
               handler: function(direction) {
                   if (direction === 'down') {
-                    playSound('2.mp3', context, lineOut);
+                    playSound('2alt.mp3', context, lineOut);
                   }
                 },
               offset: '25%'
@@ -133,7 +133,7 @@ window.ost = function(start){
             var oneWaypoint = $('#1').waypoint({
               handler: function(direction) {
                   if (direction === 'down') {
-                    playSound('1.mp3', context, lineOut);
+                    playSound('1alt.mp3', context, lineOut);
                   }
                 },
               offset: '25%'
@@ -142,7 +142,7 @@ window.ost = function(start){
             var zeroWaypoint = $('#0').waypoint({
               handler: function(direction) {
                   if (direction === 'down') {
-                    playSound('0.mp3', context, lineOut);
+                    playSound('0alt.mp3', context, lineOut);
                   }
                 },
               offset: '10%'
@@ -155,20 +155,10 @@ window.ost = function(start){
                     playSound('liftoff.mp3', context, lineOut);
                   }
                 },
-              offset: '25%'
+              offset: '35%'
             });
 
 
-            var motorWaypoint = $('#motor').waypoint({
-              handler: function(direction) {
-                  if (direction === 'down') {
-                    playSound('motor.mp3', context, lineOut);
-                  }
-                },
-              offset: '25%'
-            });
-
-             
             var contactWaypoint = $('#contact').waypoint({
               handler: function(direction) {
                   if (direction === 'down') {

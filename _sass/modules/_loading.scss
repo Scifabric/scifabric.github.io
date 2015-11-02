@@ -8,6 +8,7 @@
     position: absolute;
     top:0;
     left:0;
+    background: $black;
 }
 
 #loader {
@@ -31,7 +32,6 @@
     top: 0;
     width: 51%;
     height: 100%;
-    background: $color-one;
 }
  
 #loader-wrapper .loader-section.section-left {
@@ -85,3 +85,11 @@
     @include vendor-prefix('transform', 'translateY(-100%)');
     @include vendor-prefix('transition', 'all 0.3s 0.6s ease-out');
 } */
+
+.loading-text {
+    display: block;
+    margin-top: 25%;
+    margin-left: 50%;
+    margin-right: 50%;
+    color: $white;
+}

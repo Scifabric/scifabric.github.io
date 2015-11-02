@@ -4,18 +4,11 @@ body_class: blog
 active: blog
 css: blog
 ---
-<script src="/js/jquery.lazylinepainter-1.5.1.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="/js/bloglogoanim.js" type="text/javascript" charset="utf-8"></script>
-<link rel="stylesheet" href="/css/logoanim.css">
-
 <div class="jumbotron_small jumbotron jumbotron-blog" style='background: #333 url("{{page.photo}}") no-repeat fixed center top / cover;'>
     <div class="container text-center firstfold">
         <h2 class="title">{{page.title}}</h2>
-        <div id="logo_traced">
-            <div id='logo'></div>
-            <div id='logo2'>
-                <img alt="SciFabric Logo" src="/images/scifabric_logo_white_vert_trans.svg" onerror="this.onerror=null; this.src='/images/scifabric_logo_white_vert_trans.png'" width="100%">
-            </div>
+        <div id="logo-front" class="center-block">
+            <img alt="SciFabric Logo" src="/images/scifabric_logo_white_vert_trans.svg" onerror="this.onerror=null; this.src='/images/scifabric_logo_white_vert_trans.png'" width="100%">
         </div>
         {% for member in site.data.crew %}
         {% if member.author == page.author %}

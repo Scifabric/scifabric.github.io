@@ -8,7 +8,7 @@
  */ 
 
 var pathObj = {
-    "logo": {
+    "loading_logo": {
         "strokepath": 
             [
             {
@@ -70,7 +70,7 @@ var pathObj = {
 
 $(document).ready(function(){ 
 
-    var painterfw = $('#logo').lazylinepainter( 
+    var painterfw = $('#loading_logo').lazylinepainter( 
         {
             "svgData": pathObj,
         "strokeWidth": 2,
@@ -88,14 +88,14 @@ $(document).ready(function(){
 
 var waiting = function() {
     console.log("Initiating waiting...");
-    $( "#logo2" ).animate({
+    $( "#loading_logo2" ).animate({
         width: "70%",
         opacity: 1
     }, 1000, function() {
         // Animation complete.
     });
 
-    $("#logo").fadeTo(1000, 0);
+    $("#loading_logo").fadeTo(1000, 0);
 
     $(window).ready(function(){
         console.log("calling waiting function");

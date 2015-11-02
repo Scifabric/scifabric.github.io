@@ -1,4 +1,6 @@
-$(window).load(function(){
+window.transcript = function(start){
+
+        window.transcriptStarted = true;
     var theater = new TheaterJS({erase: false});
     theater
     .describe("Buzz Aldrin", { speed: .9, accuracy: 1, invincibility: 4 } , "#buzz")
@@ -79,4 +81,4 @@ $("#know-more").off('click').on('click', function(){
     $("#know-more").hide();
 });
 
-});
+}

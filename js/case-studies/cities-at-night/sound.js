@@ -1,4 +1,5 @@
-$("document").ready(function(){
+window.ost = function(start){
+
     if (Modernizr.webaudio) {
        var context = new AudioContext()
        var lineOut = new WebAudiox.LineOut(context)
@@ -32,6 +33,7 @@ $("document").ready(function(){
     
         function playstory(){
     
+            var ostStarted = new Event('ostStarted');
             var loopsound = Modernizr.audio.ogg ? '/assets/snd/apollo11/loop.ogg' : '/assets/snd/apollo11/loop.mp3';
     
             // load a sound and play it immediatly
@@ -43,6 +45,7 @@ $("document").ready(function(){
                     source.connect(lineOut.destination);
                     // start the sound now
                     source.start(0);
+                    dispatchEvent(ostStarted);
                     });
             
             
@@ -185,5 +188,5 @@ $("document").ready(function(){
         $("#btn-mute").hide();
         console.log("REALLY!?? You should use a modern web browser to browse this case study!");
     }
-});
+}
 

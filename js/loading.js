@@ -77,7 +77,7 @@ $(document).ready(function(){
         "strokeColor": "#fff",
         "drawSequential": false,
         "responsive": true,
-        "onComplete": wadus,
+        "onComplete": waiting,
         "delay": 1000
         });
 
@@ -85,16 +85,26 @@ $(document).ready(function(){
 
 });
 
-var wadus = function() {
-    console.log("hola");
+var waiting = function() {
+    console.log("Initiating waiting...");
     $( "#logo2" ).animate({
         width: "70%",
         opacity: 1
     }, 1000, function() {
         // Animation complete.
-        $("body").addClass('loaded');
     });
     $("#logo").fadeTo(1000, 0);
+
+    $(window).ready(function(){
+        window.transcriptStarted = false;
+        $("body").addClass('loaded');
+        console.log("Loading ost...");
+        window.ost();
+        addEventListener('ostStarted', function (e) { 
+            console.log("Sounds started...");
+            window.setTimeout(window.transcript, 1200);
+        }, false);
+    });
 };
 
 

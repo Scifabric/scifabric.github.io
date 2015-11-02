@@ -24,10 +24,14 @@ window.ost = function(start){
             if (lineOut.isMuted) {
                 $("#mute").removeClass('fa-volume-up');
                 $("#mute").addClass('fa-volume-off');
+                $("#mute-mbl").removeClass('fa-volume-up');
+                $("#mute-mbl").addClass('fa-volume-off');
             }
             else {
-                $("#mute").remove('fa-volume-off');
+                $("#mute").removeClass('fa-volume-off');
                 $("#mute").addClass('fa-volume-up');
+                $("#mute-mbl").removeClass('fa-volume-off');
+                $("#mute-mbl").addClass('fa-volume-up');
             }
         });
     

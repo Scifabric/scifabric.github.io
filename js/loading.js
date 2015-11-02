@@ -85,6 +85,7 @@ $(document).ready(function(){
 
 });
 
+
 var waiting = function() {
     console.log("Initiating waiting...");
     $( "#logo2" ).animate({
@@ -93,17 +94,17 @@ var waiting = function() {
     }, 1000, function() {
         // Animation complete.
     });
+
     $("#logo").fadeTo(1000, 0);
 
     $(window).ready(function(){
-        window.transcriptStarted = false;
-        $("body").addClass('loaded');
-        console.log("Loading ost...");
-        window.ost();
-        addEventListener('ostStarted', function (e) { 
-            console.log("Sounds started...");
-            window.setTimeout(window.transcript, 1200);
-        }, false);
+        console.log("calling waiting function");
+        if (typeof(window._waiting) == 'function') {
+            window._waiting();
+        }
+        else {
+            $("body").addClass('loaded');
+        }
     });
 };
 

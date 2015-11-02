@@ -20,7 +20,7 @@ var waiting = function() {
             window._waiting();
         }
         else {
-            $("#loader-wrapper").fadeOut();
+            $("body").addClass('loaded');
         }
     });
 };

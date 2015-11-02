@@ -53,8 +53,7 @@
         right:0;left:0;top:0;bottom:0;
         overflow:hidden;
         background: #000 url('../images/world.png') no-repeat top center;
-        //height: 750px;
-        height: 100vh;
+        height: 750px;
         opacity: 0;
         transition: opacity 1000ms cubic-bezier(0.55, 0.085, 0.68, 0.53) 0s;
     }
@@ -77,8 +76,8 @@
         color: inherit;
         right:0;left:0;top:0;bottom:0;
         overflow:hidden;
+        height: 750px;
         background: #000 url('../images/no-world.png') no-repeat top center;
-        height: 100vh;
     }
 
     @media only screen and (-webkit-min-device-pixel-ratio: 2), 
@@ -397,9 +396,7 @@
                 right:0;left:0;top:0;bottom:0;
                 overflow:hidden;
                 background: #000 url('../images/small-world.png') no-repeat top center;
-                // height: auto;
-                height: 100vh;
-               
+                height: 450px;
             }
 
             @media only screen and (-webkit-min-device-pixel-ratio: 2), 
@@ -409,9 +406,13 @@
                     /* Reference the @2x Sprite */
                     background:  url('../images/small-world@2x.png') no-repeat top center;
                     /* Translate the @2x sprite's dimensions back to 1x */
-                    background-size: 701px 500px!important;
+                    background-size: 701px 500px !important;
 
                 }
+            }
+
+            .jumbotron-no-world {
+                height: 450px;
             }
 
             h1{

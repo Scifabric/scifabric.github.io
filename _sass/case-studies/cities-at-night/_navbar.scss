@@ -15,6 +15,9 @@
     background-color: rgba(0, 0, 0, 0);
 }
 
+#btn-nav .btn-header {
+    font-size: 16px !important;
+}
 
 
 
@@ -34,7 +37,7 @@
   @media (max-width: 768px){
 
   	.navbar-collapse {
-    background-color: rgba(0, 0, 0, .85);
+    background-color: rgba(0, 0, 0, 0);
 	}
 
 	.navbar-inverse .navbar-toggle {

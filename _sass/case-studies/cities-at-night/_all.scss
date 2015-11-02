@@ -323,14 +323,16 @@
 
     }
 
+    @media (min-width: 769px){ 
     .rocket h3{
         line-height: 38px;
     }
-    
+
     .city-number{
     font-size: 32px;
     }
 
+    }
 
     .astronaut{
         margin-top: 200px;

@@ -70,15 +70,20 @@ only screen and (min-device-pixel-ratio: 2) {
         /* Reference the @2x Sprite */
         background-image: url('../images/training.jpg');
         /* Translate the @2x sprite's dimensions back to 1x */
-        background-size: 1444px 701px !important; 
     }
 
     .jumbotron-cloud-servers {
         /* Reference the @2x Sprite */
         background-image: url('../images/cloud.jpg');
         /* Translate the @2x sprite's dimensions back to 1x */
-        background-size: 1444px 701px !important; 
     }
+
+    .jumbotron-blog{
+        /* Reference the @2x Sprite */
+        background-image: url('../images/blog.jpg');
+        /* Translate the @2x sprite's dimensions back to 1x */
+    }
+
 
 
 }

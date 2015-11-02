@@ -64,8 +64,23 @@ only screen and (min-device-pixel-ratio: 2) {
         background-image: url('../images/bg@2x.jpg');
         /* Translate the @2x sprite's dimensions back to 1x */
         background-size: 1444px 701px !important; 
-    
     }
+
+    .jumbotron-training {
+        /* Reference the @2x Sprite */
+        background-image: url('../images/training.jpg');
+        /* Translate the @2x sprite's dimensions back to 1x */
+        background-size: 1444px 701px !important; 
+    }
+
+    .jumbotron-cloud-servers {
+        /* Reference the @2x Sprite */
+        background-image: url('../images/cloud.jpg');
+        /* Translate the @2x sprite's dimensions back to 1x */
+        background-size: 1444px 701px !important; 
+    }
+
+
 }
 
 

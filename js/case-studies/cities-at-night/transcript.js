@@ -62,12 +62,12 @@ theater
 .write("Buzz Aldrin: Alright, now, do we want black and white, color, 250 or 80?"+spaces)
 .write("Buzz Aldrin: I've got all options over here.      ")
 .write("Neil Armstrong: Oh, we'll probably want..." + spaces)
-.write("Buzz Aldrin: Let me have a camera." + spaces)
 .write("Neil Armstrong: How many cameras you got?" + spaces)
+.write("Buzz Aldrin: Let me have a camera." + spaces)
 .write("Buzz Aldrin: How many cameras?" + spaces)
 .write("Michael Collins: Well, only one camera, but I've got..." + spaces)
 .write("Michael Collins: lenses." + spaces)
-.write("log: Apollo 11. August 1969")
+.write("log: August 1969" + spaces)
 .write(function () { theater.play(); });
 
 $("#know-more").off('click').on('click', function(){

@@ -162,7 +162,7 @@ window.ost = function(start){
             });
 
 
-            var contactWaypoint = $('#contact').waypoint({
+            var contactWaypoint = $('#mission').waypoint({
               handler: function(direction) {
                   if (direction === 'down') {
                     playSound('landed.mp3', context, lineOut);

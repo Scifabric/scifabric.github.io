@@ -57,18 +57,6 @@
         transition: opacity 1000ms cubic-bezier(0.55, 0.085, 0.68, 0.53) 0s;
     }
 
-    @media only screen and (-webkit-min-device-pixel-ratio: 2), 
-    only screen and (min-device-pixel-ratio: 2) {
-
-        .jumbotron {
-            /* Reference the @2x Sprite */
-            background: #000 url('../images/world@2x.png') no-repeat top center;
-            /* Translate the @2x sprite's dimensions back to 1x */
-            background-size: 1444px 701px;
-
-        }
-    }
-
     .jumbotron-no-world {
         padding: 30px 15px;
         margin-bottom: 0px;
@@ -78,19 +66,6 @@
         height: 630px;
         background: #000 url('../images/no-world.png') no-repeat top center;
     }
-
-    @media only screen and (-webkit-min-device-pixel-ratio: 2), 
-    only screen and (min-device-pixel-ratio: 2) {
-
-        .jumbotron-no-world {
-            /* Reference the @2x Sprite */
-            background: #000 url('../images/no-world@2x.png') no-repeat top center;
-            /* Translate the @2x sprite's dimensions back to 1x */
-            background-size: 1444px 701px;
-        }
-    }
-
-
 
     .btn-header {
         border-color: rgba(255,255,255,.4);
@@ -214,16 +189,6 @@
         text-align: center;
     }
 
-    @media only screen and (-webkit-min-device-pixel-ratio: 2), 
-    only screen and (min-device-pixel-ratio: 2) {
-
-        .stars {
-            /* Reference the @2x Sprite */
-            background: #000 url('../images/stars@2x.png') no-repeat top center;
-            /* Translate the @2x sprite's dimensions back to 1x */
-            background-size: 1443px 591px !important; 
-        }
-    }
 
     .stars p{
 
@@ -244,20 +209,6 @@
         background-position: top left, top right;
         height: auto;
     }
-
-    @media only screen and (-webkit-min-device-pixel-ratio: 2), 
-    only screen and (min-device-pixel-ratio: 2) {
-
-        .univers {
-            /* Reference the @2x Sprite */
-
-            background-image: url('../images/universe-left@2x.png'),url('../images/universe-right@2x.png');
-            background-position: top left, top right;
-            background-size: 427px 1740px, 427px 1740px !important;  
-        }
-    }
-
-
 
     .univers p {
         margin-bottom: 100px;
@@ -290,10 +241,6 @@
     }
 }
 
-
-
-
-
     .rocket{
         margin-top: 200px;
         margin-bottom: 100px;
@@ -303,17 +250,6 @@
         text-align: center;
         background: #000 url('../images/rocket.png') no-repeat  bottom center;
         height: 800px;
-    }
-
-    @media only screen and (-webkit-min-device-pixel-ratio: 2), 
-    only screen and (min-device-pixel-ratio: 2) {
-
-        .rocket {
-            /* Reference the @2x Sprite */
-            /*background: #000 url('../images/univers@2x.png') no-repeat top center;*/
-            /* Translate the @2x sprite's dimensions back to 1x */
-
-        }
     }
 
     .rocket p{
@@ -352,8 +288,7 @@
 
 
     footer{
-        margin-top: 100px;
-        
+        margin-top: 100px;  
         color: inherit;
         right:0;left:0;top:0;bottom:0;
         overflow:hidden;
@@ -363,18 +298,6 @@
         -o-background-size: cover;
         background-size: cover;
         height: auto;
-    }
-
-    @media only screen and (-webkit-min-device-pixel-ratio: 2), 
-    only screen and (min-device-pixel-ratio: 2) {
-
-        footer {
-            /* Reference the @2x Sprite */
-            background: #000 url('../images/cities-footer@2x.png') no-repeat bottom center;
-            background-size: 1440px 1030px;
-            /* Translate the @2x sprite's dimensions back to 1x */
-
-        }
     }
 
    .contact {
@@ -395,9 +318,6 @@
         color: #fff;
         text-decoration: underline;
     }
-
-
-
 
 
 
@@ -521,17 +441,6 @@
             height: auto;
             }
 
-            @media only screen and (-webkit-min-device-pixel-ratio: 2), 
-            only screen and (min-device-pixel-ratio: 2) {
-
-                footer {
-                /* Reference the @2x Sprite */
-                background: #000 url('../images/cities-footer-768@2x.png') no-repeat bottom center;
-                background-size: 768px 1030px;
-                /* Translate the @2x sprite's dimensions back to 1x */
-
-                }
-            }
 
     }
 

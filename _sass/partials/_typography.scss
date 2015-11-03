@@ -10,53 +10,53 @@ body {
     @include vendor-prefix('font-smoothing', 'antialiased');
     text-shadow:0 0 1px transparent;
     text-rendering:optimizeLegibility;
-    color: $font-color;
+    color: $grey-font;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.42857143;
 }
 
 .bg_black{
-    background-color: $black;
+    background-color: $black-bg;
     height: 150px;
 }
 
 .bg_color_2 {
-    background-color: $background-color-2;
+    background-color: $sciblue-bg;
     padding-bottom: 150px;
 }
 
 .bg_color_3 {
-    background-color: $background-color-3;
+    background-color: $sciblue-bg;
     padding: 25px;
     color: white;
 }
 
 
 .color-primary {
-    color: $color-primary;
+    color: $grey204-font;
 }
 
 .color-one {
-    color: $color-one;
+    color: $sciblue-font;
 }
 
 .color-one-light{
-    color: $color-one-light;
+    color: $sciblue-font;
 }
 
 .color-two {
-    color: $color-two;
+    color: green;
     font-size:14px;
     font-weight:500;
 }
 
 .color-two:hover {
-    background-color: $color-two-hover;
+    background-color: green;
 }
 
 .white{
-    color: $white;
+    color: white;
 }
 
 

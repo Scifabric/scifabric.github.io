@@ -20,7 +20,6 @@ window.ost = function(start){
         $("#btn-mute, #btn-mute-mbl").off('click').on('click', function(event){
             event.preventDefault();
             lineOut.toggleMute();
-            console.log(lineOut.isMuted);
             if (lineOut.isMuted) {
                 $("#mute").removeClass('fa-volume-up');
                 $("#mute").addClass('fa-volume-off');

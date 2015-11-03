@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{page.title}}</title>
+        <meta name="description" content="{{page.title}}">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Custom CSS -->
+        <link href="/css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link href="/css/default.css" rel="stylesheet">
+        <link href="/css/{{page.css}}.css" rel="stylesheet">
+
+        <script src="/js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="/js/modernizr.custom.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="/js/main.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@scifabric" />
+        <meta name="twitter:title" content="{{page.title}}" />
+        <meta name="twitter:description" content="{{page.title}}" />
+        <meta name="twitter:image" content="http://scifabric.com/images/bg.jpg" />
+
+
+        <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+        <script type="text/javascript">
+            window.cookieconsent_options = {"message":"Cookies help us to deliver our services. By using our services, you agree to our use of cookies.","dismiss":"Got it!","learnMore":"Learn More.","link":"/cookies-policy/","theme":"dark-bottom"};
+        </script>
+
+        <script type="text/javascript" src="//s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js"></script>
+        <!-- End Cookie Consent plugin -->
+
+        {% include scroll.html %}
+
+    </head>
+    <body data-spy="scroll" data-target="#navbar" class="case-study">
+        {% include gtm.html %}
+
+        {% include loading.html %}
+        <nav class="navbar-wrapper">
+            <div class="container">
+                <div class="navbar navbar-inverse">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="/#what-is-scifabric">
+                                <img id="scifabricLogo" alt="logo Scifabric" src="/images/nav-logo.svg">
+                            </a>
+                            <p id="btn-mute-mbl"><a href="#" class="btn btn-header no-desktop"><i id="mute-mbl" class="fa fa-volume-up"></i></a></p>
+                        </div>
+                        <div id="navbar" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav navbar-right">
+                                    <li id="btn-mute"><a href="#" class="btn btn-header"><i id="mute" class="fa fa-volume-up"></i></a></li>
+                                <li id="btn-nav"><a href="/#contact" class="btn btn-header">Say hi!</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+
+        <section class="site">
+           
+            {{ content }}
+            
+        </section>
+
+        <footer>
+            
+            <div class="container text-center contact" id="contact">
+                <div class="col-md-12  down50">
+                    <h3>We will be happy to answer your questions, concerns and inquiries.</h3>
+                </div>
+
+                <div class="col-sm-6 col-md-6">
+                    <h5>Bussiness</h5>
+                    <p>If you’re thinking of hiring us please contact<br/>
+                    <a class="color-one" href="mailto:daniel@scifabric.com?Subject=Hello!">daniel@scifabric.com</a>
+                    </p>
+                </div>
+
+                <div class="col-sm-6 col-md-6">
+                    <h5>Support</h5>
+                    <p>If you’re you’re having technical issues please contact<br/> 
+                    <a class="color-one" href="mailto:support@scifabric.com?Subject=Hello!">support@scifabric.com</a>
+                    </p>
+                </div>
+
+                <div class="col-sm-6 col-md-6">
+                    <h5>Press</h5>
+                    <p>Press, PR, Communications in general, write to<br/> 
+                    <a class="color-one" href="mailto:clara@scifabric.com?Subject=Hello!">clara@scifabric.com</a>
+                    </p>
+                </div>
+
+                <div class="col-sm-6 col-md-6">
+                    <h5>Information</h5>
+                    <p>Just to want to say hi? Please write to<br/> 
+                    <a class="color-one" href="mailto:info@scifabric.com?Subject=Hello!">info@scifabric.com</a>
+                    </p>
+                </div>
+           </div>
+
+
+            <div class="container social-media">
+                <div class="col-xs-12 col-sm-6">
+                    <img alt="SciFabric Logo" class="logo_horiz hires" src="/images/Logo_Scifabric_2.png">
+                    <p>Developing <a href="http://pybossa.com/">PyBossa</a> and hosting <a href="http://crowdcrafting.org/">Crowdcrafting</a> since 2011</p>
+                    <p class="social-media">
+                    <a href="https://www.facebook.com/crowdcrafting"><i class="icons-rrss fa fa-facebook-official"></i></a>
+                    <a href="https://twitter.com/scifabric"><i class="icons-rrss fa fa-twitter"></i></a>
+                    <a href="https://github.com/PyBossa/"><i class="icons-rrss fa fa-github"></i></a>
+                </div>
+                <div class="social-media col-xs-12 col-sm-6 text-right">
+                    <a href="https://shuttleworthfoundation.org">
+                        <img class="logo_sf hires" alt="Shuttleworth Foundation Logo" src="/images/logo_sf.png"></a>
+                </div>
+            </div>
+            </footer>
+
+
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+        </body>
+    </html>

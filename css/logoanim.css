@@ -3,7 +3,8 @@
     height:180px;
 }
 
-#logo {
+#logo,
+#loading_logo {
     width:60%;
     height:100px;
     max-width:150px;
@@ -18,7 +19,8 @@
     opacity:.3;
 }
 
-#logo2 {
+#logo2,
+#loading_logo2{
     width:60%;
     max-width:150px;
     position:absolute;

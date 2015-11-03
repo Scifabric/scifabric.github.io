@@ -63,11 +63,29 @@ only screen and (min-device-pixel-ratio: 2) {
         /* Reference the @2x Sprite */
         background-image: url('../images/bg@2x.jpg');
         /* Translate the @2x sprite's dimensions back to 1x */
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover; 
+        background-size: 1444px 701px !important; 
     }
+
+    .jumbotron-training {
+        /* Reference the @2x Sprite */
+        background-image: url('../images/training.jpg');
+        /* Translate the @2x sprite's dimensions back to 1x */
+    }
+
+    .jumbotron-cloud-servers {
+        /* Reference the @2x Sprite */
+        background-image: url('../images/cloud.jpg');
+        /* Translate the @2x sprite's dimensions back to 1x */
+    }
+
+    .jumbotron-blog{
+        /* Reference the @2x Sprite */
+        background-image: url('../images/blog.jpg');
+        /* Translate the @2x sprite's dimensions back to 1x */
+    }
+
+
+
 }
 
 

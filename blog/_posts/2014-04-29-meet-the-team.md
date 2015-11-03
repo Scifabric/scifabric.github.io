@@ -77,7 +77,7 @@ Here they are, your crowdsourcing dream team:
 
 <div class="media">
   <a class="pull-right" href="http://daniellombrana.es" style="width:20%;">
-    <img class="media-object img-circle" src="/assets/img/daniel.jpg" style="width:100%;">
+    <img class="media-object img-circle" src="/assets/img/crew/daniel.jpg" style="width:100%;">
   </a>
   <div class="media-body">
     <h2 class="media-heading">Daniel Lombraña González – Lead Developer</h2>
@@ -99,7 +99,7 @@ Here they are, your crowdsourcing dream team:
 
 <div class="media">
   <a class="pull-right" href="http://therealmarv.com/" style="width:20%;">
-    <img class="media-object img-circle" src="/assets/img/marvin.png" style="width:100%;">
+    <img class="media-object img-circle" src="/assets/img/crew/marvin.png" style="width:100%;">
   </a>
   <div class="media-body">
     <h2 class="media-heading">Marvin Reimer – Senior Developer</h2>
@@ -114,7 +114,7 @@ Here they are, your crowdsourcing dream team:
 
 <div class="media">
   <a class="pull-right" href="http://www.linkedin.com/in/alejandrodob" style="width:20%;">
-    <img class="media-object img-circle" src="/assets/img/alejandro.jpg" style="width:100%;">
+    <img class="media-object img-circle" src="/assets/img/crew/alejandro.jpg" style="width:100%;">
   </a>
   <div class="media-body">
     <h2 class="media-heading">Alejandro Domínguez Bayo – Junior Developer</h2>
@@ -128,7 +128,7 @@ Here they are, your crowdsourcing dream team:
 
 <div class="media">
   <a class="pull-right" href="http://jcorrea.es/" style="width:20%;">
-    <img class="media-object img-circle" src="/assets/img/jorge.jpg" style="width:100%;">
+    <img class="media-object img-circle" src="/assets/img/crew/jorge.jpg" style="width:100%;">
   </a>
   <div class="media-body">
     <h2 class="media-heading">Jorge Correa – UX/UI Designer</h2>
@@ -142,7 +142,7 @@ Here they are, your crowdsourcing dream team:
 
 <div class="media">
   <a class="pull-right" href="http://www.quantumdiaries.org/author/james-doherty/" style="width:20%;">
-    <img class="media-object img-circle" src="/assets/img/james.jpg" style="width:100%;">
+    <img class="media-object img-circle" src="/assets/img/crew/james.jpg" style="width:100%;">
   </a>
   <div class="media-body">
     <h2 class="media-heading">James Doherty – Communications</h2>

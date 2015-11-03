@@ -40,9 +40,12 @@ $(function() {
         if ($(this).scrollTop() > 250){  
             $('#go-to-top').css('bottom','0px');
             $('#go-to-top').addClass('show');
+            $('#say-hi').css('bottom','0px');
+            $('#say-hi').addClass('show');
         }
         else{
             $('#go-to-top').css('bottom','-=100px');
+            $('#say-hi').removeClass('show');
         }
     });
 
@@ -50,18 +53,23 @@ $(function() {
         var distanceToTop = $(this).scrollTop();
         if (distanceToTop <= 10){
             $('nav').removeClass('show');
-            $('#scifabricLogo').attr('src', '/images/Logo_Scifabric.png');
+            $('#scifabricLogo').attr('src', '/images/nav-logo.svg');
         }
         else {
-            $('#scifabricLogo').attr('src', '/images/Logo_Scifabric_blue.png');
+            if ($("body").hasClass('case-study')) {
+                $('#scifabricLogo').attr('src', '/images/nav-logo.svg');
+            }
+            else {
+                $('#scifabricLogo').attr('src', '/images/nav-logo-blue.svg');
+            }
             $('nav').addClass('show');
         }
-    setRetinaPictures();
+    // setRetinaPictures();
     });
 
     $(window).load(function(){
         if ($(this).scrollTop() > 250) {
-            $('#scifabricLogo').attr('src', '/images/Logo_Scifabric_blue.png');
+            $('#scifabricLogo').attr('src', '/images/nav-logo-blue.svg');
             $('nav').addClass('show');
         }
 

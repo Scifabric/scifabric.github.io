@@ -9,7 +9,7 @@
 
         <!-- Custom CSS -->
         <link href="/css/bootstrap.css" rel="stylesheet">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link href="/css/default.css" rel="stylesheet">
         <link href="/css/{{page.css}}.css" rel="stylesheet">
 
@@ -38,6 +38,7 @@
     </head>
     <body data-spy="scroll" data-target="#navbar">
         {% include gtm.html %}
+        {% include loading.html %}
         <nav class="navbar-wrapper">
             <div class="container">
                 <div class="navbar navbar-inverse">
@@ -50,11 +51,12 @@
                                 <span class="icon-bar"></span>
                             </button>
                             <a class="navbar-brand" href="/#what-is-scifabric">
-                                <img id="scifabricLogo" alt="logo Scifabric" src="/images/Logo_Scifabric.png" class="hires">
+                                <img id="scifabricLogo" alt="logo Scifabric" src="/images/nav-logo.svg">
                             </a>
                         </div>
                         <div id="navbar" class="navbar-collapse collapse">
                             <ul class="nav navbar-nav navbar-right">
+                                {% if page.navbar == "default" %}
                                 <li><a href="/#what-is-scifabric">What is SciFabric</a></li>
                                 <li><a href="/#what-we-do">What we do</a></li>
                                 <li><a href="/#how-we-do-it">How we do it</a></li>
@@ -65,6 +67,7 @@
                                     <li><a href="/#education">Education</a></li>
                                 </ul>
                                 </li>
+                                {% endif %}
                                 <li id="btn-nav"><a href="/#contact" class="btn btn-header">Say hi!</a></li>
                             </ul>
                         </div>
@@ -100,10 +103,7 @@
             </footer>
 
 
-            <script src="../../assets/js/docs.min.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-            <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-            <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
         </body>
     </html>

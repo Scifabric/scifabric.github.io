@@ -53,7 +53,7 @@
         right:0;left:0;top:0;bottom:0;
         overflow:hidden;
         background: #000 url('../images/world.png') no-repeat top center;
-        height: 750px;
+        height: 630px;
         opacity: 0;
         transition: opacity 1000ms cubic-bezier(0.55, 0.085, 0.68, 0.53) 0s;
     }
@@ -76,7 +76,7 @@
         color: inherit;
         right:0;left:0;top:0;bottom:0;
         overflow:hidden;
-        height: 750px;
+        height: 630px;
         background: #000 url('../images/no-world.png') no-repeat top center;
     }
 

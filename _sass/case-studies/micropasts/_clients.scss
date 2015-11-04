@@ -1,0 +1,29 @@
+.client {
+    background-color: $white;
+    padding:40px;
+    box-shadow:  0 2px 3px 0px rgba(0, 0, 0, 0.16);
+
+}
+
+.client a{
+	color: $micropasts-color;
+}
+
+@media(min-width:1200px){
+    .client {
+    min-height: 480px;
+    }
+}
+
+@media(max-width:1199px){
+    .client {
+    min-height: 560px;
+    }
+}
+
+@media(max-width:980px){
+    .client {
+        margin-top: 15px;
+        min-height: 1px;
+    }
+}

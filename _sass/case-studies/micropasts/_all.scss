@@ -1,5 +1,6 @@
 @import "modules/colors";
 @import "case-studies/micropasts/colors";
+@import "case-studies/micropasts/clients";
 
 .navbar-toggle-BM {
     position: relative;
@@ -132,7 +133,7 @@
 
 
 .BM-method {
-    color: $grey-font;
+    color: $grey-light-font;
     background: $light-grey-bg url('../images/London.png') no-repeat top center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -144,7 +145,7 @@
 }
 
 .BM-method a{
-    color: $grey-font;
+    color: $grey-light-font;
     text-decoration: underline;
 }
 
@@ -443,3 +444,4 @@ fieldset[disabled] .btn-link:focus {
     color: $grey-font;
     text-decoration: none;
 }
+

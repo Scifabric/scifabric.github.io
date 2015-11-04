@@ -13,10 +13,8 @@
         <link href="/css/default.css" rel="stylesheet">
         <link href="/css/{{page.css}}.css" rel="stylesheet">
 
-        <script src="/js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
         <script src="/js/modernizr.custom.js" type="text/javascript" charset="utf-8"></script>
 
-        <script src="/js/main.js" type="text/javascript" charset="utf-8"></script>
 
         <!-- Twitter -->
         <meta name="twitter:card" content="summary" />
@@ -25,16 +23,6 @@
         <meta name="twitter:description" content="{{page.title}}" />
         <meta name="twitter:image" content="http://scifabric.com/images/bg.jpg" />
 
-        <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
-        <script type="text/javascript">
-            window.cookieconsent_options = {"message":"Cookies help us to deliver our services. By using our services, you agree to our use of cookies.","dismiss":"Got it!","learnMore":"Learn More.","link":"/cookies-policy/","theme":"dark-bottom"};
-        </script>
-
-        <script type="text/javascript" src="//s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js"></script>
-        <!-- End Cookie Consent plugin -->
-
-
-        {% include scroll.html %}
     </head>
     <body data-spy="scroll" data-target="#navbar">
         {% include gtm.html %}
@@ -64,12 +52,7 @@
                 </div>
             </div>
         </footer>
+        {% include defaultjs.html %}
 
-
-        <script src="../../assets/js/docs.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
     </body>
 </html>

@@ -1,3 +1,5 @@
+@import "case-studies/micropasts/colors";
+
 .navbar-toggle-BM {
     position: relative;
     float: right;
@@ -7,21 +9,21 @@
     margin-bottom: 8px;
     background-color: transparent;
     background-image: none;
-    border: 1px solid #fff;
+    border: 1px solid $white;
     border-radius: 4px;
 }
 .navbar-toggle-BM .icon-bar {
-    background-color: #fff;
+    background-color: $white;
 }
 
 #navbar-BM{
-    background-color: #000;
+    background-color: $black-bg;
 }
 
 .btn-header-BM {
-    color: #fff;
+    color: $white;
 
-    border-color: #fff;
+    border-color: $white;
     background-color: rgba(0,0,0,.03);
     border-width:1;
     font-weight:500;
@@ -34,8 +36,8 @@
 .btn-header-BM:focus,
 .btn-header-BM:active,
 .open > .dropdown-toggle.btn-header-BM {
-    color: #000;
-    background-color: #fff;
+    color: $black-bg;
+    background-color: $white;
     border-width:1;
     text-decoration:none;
 }
@@ -81,7 +83,7 @@
 }
 
 .color-BM{
-    color: #BE935D;
+    color: $micropasts-color;
 }
 
 .grey-BM{
@@ -89,8 +91,8 @@
 }
 
 .btn-BM {
-    color: #BE935D;
-    border-color: #BE935D;
+    color: $micropasts-color;
+    border-color: $micropasts-color;
     background-color: rgba(255,255,255,0);
     border-width:2px;
 }
@@ -99,15 +101,15 @@
 .btn-BM.focus,
 .btn-BM:active,
 .btn-BM.active {
-    color: #fff;
-    background-color: #BE935D;
-    border-color: #BE935D;
+    color: $white;
+    background-color: $micropasts-color;
+    border-color: $micropasts-color;
     text-decoration:none;
 }
 
 .btn-BM-2 {
-    color: #fff;
-    border-color: #fff;
+    color: $white;
+    border-color: $white;
     background-color: rgba(255,255,255,0);
     border-width:2px;
     -webkit-transition: all 0.5s ease;
@@ -120,9 +122,9 @@
 .btn-BM-2.focus,
 .btn-BM-2:active,
 .btn-BM-2.active {
-    color: #000;
-    background-color: #fff;
-    border-color: #fff;
+    color: $black-bg;
+    background-color: $white;
+    border-color: $white;
     text-decoration:none;
 }
 
@@ -146,7 +148,7 @@
 }
 
 .BM-method a:hover{
-    color: #fff;
+    color: $white;
     text-decoration: underline;
 }
 
@@ -175,7 +177,7 @@
 }
 
 .modal-title{
-    color: #BE935D;
+    color: $micropasts-color;
     font-size: 22px;
 }
 
@@ -221,16 +223,16 @@
 
 
 .BM-footer{
-    background-color: #000;
+    background-color: $black-bg;
 }
 
 .bignumber{
-    color: #BE935D;
+    color: $micropasts-color;
     font-weight: 100;
 }
 
 .number{
-    color: #BE935D;
+    color: $micropasts-color;
     font-weight: 200;
 }
 
@@ -244,7 +246,7 @@
     }
 
     .number{
-        color: #BE935D;
+        color: $micropasts-color;
         padding-left: 40px;
         text-align: center;
     }
@@ -401,7 +403,7 @@
 
 .btn-link-BM {
     font-weight: normal;
-    color: #BE935D;
+    color: $micropasts-color;
     border-radius: 0;
 }
 .btn-link-BM,
@@ -421,7 +423,7 @@ fieldset[disabled] .btn-link {
 }
 .btn-link-BM:hover,
 .btn-link-BM:focus {
-    color: #BE935D;
+    color: $micropasts-color;
     text-decoration: none;
     background-color: transparent;
 }

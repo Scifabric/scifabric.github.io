@@ -1,15 +1,16 @@
-$black: #000;
-$white: #fff;
+// COLORS
+$black-bg: rgba(0,0,0,1);
+$white-transparent-bg: rgba(255, 255, 255, 0);
+$white-semitransparent-bg: rgba(255, 255, 255, 0.8);
+$sciblue-bg: rgba(7, 124, 160, 1);
+$sciblue-light-bg: rgba(7, 124, 160, .6);
+$light-grey-bg: rgba(250, 250, 250, 1);
 
-$font-color: #5a5a5a;
+$grey204-font: rgba(204, 204, 204, 1);
+$grey-font: rgba(90, 90, 90, 1);
+$sciblue-font: $sciblue-bg;
+$white-font: rgba(255, 255, 255, 1);
 
-$background-color-2: #f9f9f9;
-$background-color-3: #042935;
-
-$color-primary: #CCC;
-$color-one: #077CA0;
-$color-one-light: #3B9BB9;
-
-$color-two: #FFF;
-$color-two-hover: #077CA0;
-
+$grey-footer: rgba(45, 45, 45, 1);
+$white-footer: rgba(255, 255, 255, 1);
+$white-light-footer: rgba(255, 255, 255, .65);

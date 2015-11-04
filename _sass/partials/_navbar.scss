@@ -3,25 +3,25 @@ nav {
 }
 
 nav a{
-    color: #fff;
+    color: $white-font;
 }
 
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover, 
 .navbar-inverse .navbar-nav > .open > a:focus {
-    color: #fff;
-    background-color: rgba(255, 255, 255, 0);
+    color: $white-font;
+    background-color: $white-transparent-bg;
 }
 
 
 
 li a{
-    color: rgba(255,255,255,.8);
+    color: $white-semitransparent-bg;
 }
 
 
 li:hover a{
-    color: rgba(255,255,255,1);
+    color: $white-footer;
 }
 
 
@@ -31,9 +31,13 @@ li:hover a{
     clear: both;
     font-weight: normal;
     line-height: 1.42857143;
-    color: #999;
+    color: $grey-font;
     white-space: nowrap;
     text-align: center;
+}
+
+.dropdown-menu > li > a:hover {
+    color: $sciblue-font;
 }
 
 .dropdown-menu {
@@ -42,7 +46,7 @@ li:hover a{
 }
 
 .show {
-    background-color: #fff;
+    background-color: $white-footer;
     -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow:    0px 1px 1px 0px rgba(0, 0, 0, 0.1);
     box-shadow:         0px 1px 1px 0px rgba(0, 0, 0, 0.1);
@@ -53,18 +57,18 @@ li:hover a{
 }
 
 .show a{
-    color: #999;
+    color: $grey-font;
 }
 
 .show li:hover a{
-    color: #077CA0;
+    color: $sciblue-font;
 }
 
 .show .navbar-inverse .navbar-nav > .open >  a,
 .show .navbar-inverse .navbar-nav > .open >  a:hover, 
 .show .navbar-inverse .navbar-nav > .open >  a:focus {
-    color: #999;
-    background-color: rgba(255, 255, 255, 0);
+    color: $grey-font;
+    background-color: $white-transparent-bg;
 }
 
 
@@ -75,9 +79,9 @@ li:hover a{
 
 
 .btn-header {
-    color: rgba(255,255,255,.8) !important;
-    border-color: rgba(255,255,255,.4);
-    background-color: rgba(255,255,255,0.4);
+    color: $white-semitransparent-bg !important;
+    border-color: $white-semitransparent-bg;
+    background-color: $white-semitransparent-bg;
     border-width:0;
     font-weight:500;
     font-size:13px;
@@ -89,16 +93,16 @@ li:hover a{
 .btn-header:focus,
 .btn-header:active,
 .open > .dropdown-toggle.btn-header {
-    color: rgba(7,124,160,1) !important;
-    background-color: rgba(255,255,255,1);
+    color: $sciblue-font !important;
+    background-color: $white-font;
     border-width:0;
     text-decoration:none;
 }
 
 
 .show .btn-header {
-    color: rgba(7,124,160,1) !important;
-    border-color: rgba(7,124,160,.7);
+    color: $sciblue-bg !important;
+    border-color: $sciblue-light-bg; 
     background-color: rgba(0,0,0,.03);
     border-width:0;
     font-weight:500;
@@ -111,8 +115,8 @@ li:hover a{
 .show .btn-header:focus,
 .show .btn-header:active,
 .show .open > .show .dropdown-toggle.btn-header {
-    color: #FFF !important;
-    background-color: rgba(7,124,160,1);
+    color: $white-footer !important;
+    background-color: $sciblue-bg;
     border-width:0;
     text-decoration:none;
 }

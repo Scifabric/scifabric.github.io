@@ -1,7 +1,8 @@
 @import "modules/colors";
-@import "case-studies/cities-at-night/colors";
 @import "modules/animate";
 @import "modules/loading";
+@import "case-studies/cities-at-night/colors";
+@import "case-studies/cities-at-night/cookies-consent";
 
 .citiesatnight{
     background: $sciblue-bg url('../images/Cities.png') no-repeat top center;

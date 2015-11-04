@@ -1,4 +1,39 @@
-
 footer {
     padding: 0px 0 80px;
     }
+
+footer {
+    .credits {
+        font-size: 12px;
+    }
+
+    .credits h5 {
+        margin-top: 150px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .credits h6 {
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+
+    .credits p {
+        margin-bottom: -10px;
+    }
+
+    .credits a {
+        font-size: 10px;
+    }
+
+}
+
+@media(max-width:360px) {
+    footer {
+        .credits h6 {
+            margin-top: 16px;
+        }
+    }
+}

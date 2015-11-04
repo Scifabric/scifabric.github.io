@@ -37,6 +37,20 @@ footer .logo_sf {
 @media (max-width: 768px){
 
     footer .logo_horiz {
+        width:30%;
+
+    }
+
+    footer .logo_sf {
+        width:30%;
+        opacity: .7;
+    }
+
+}
+
+@media (max-width: 500px){
+
+    footer .logo_horiz {
         width:60%;
 
     }
@@ -47,6 +61,7 @@ footer .logo_sf {
     }
 
 }
+
 
 footer .logo_sf:hover {
     opacity: 1;

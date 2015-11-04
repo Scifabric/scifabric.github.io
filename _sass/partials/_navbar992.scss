@@ -17,11 +17,11 @@
 
     .navbar-nav > li > a {
         padding: 16px 0 10px 9px;
-        color: rgba(255,255,255,.8);
+        color: $white-semitransparent-bg;
     }
 
     li:hover a{
-        color: rgba(255,255,255,1);
+        color: $white-font;
     }
 
     .navbar-inverse .navbar-nav > li > a {
@@ -31,7 +31,7 @@
     }
 
     .show .navbar-nav > li > a{
-        color: #999;
+        color: $grey-font;
     }
 
 }

@@ -14,16 +14,8 @@
 .btn-info {
     color: #fff;
     border-color: rgba(255,255,255,.4);
-    background-color: rgba(255,255,255,0);
+    background-color: $white-transparent-bg;
     border-width: 2px;
-}
-
-.btn-explain{
-    color: #5a5a5a;
-    font-size: 15px;
-    text-decoration: none;
-    font-weight: 300;
-    background: #ECEDEF;
 }
 
 @media (max-width: 768px) {
@@ -42,17 +34,10 @@
 
 
 
-.btn-explain:hover{
-    text-decoration: none;
-    color: #5a5a5a;
-    background: #D4D8DC;
-}
-
-
 .btn-info-2 {
-    color: #077CA0;
-    border-color: rgba(7,124,160,.6);
-    background-color: rgba(255,255,255,0);
+    color: $sciblue-bg;
+    border-color: $sciblue-light-bg;
+    background-color: $white-transparent-bg;
     border-width:2px;
     font-weight:600;
 }
@@ -63,8 +48,8 @@
 .btn-info-2.active,
 .open > .dropdown-toggle.btn-info-2 {
     color: #FFF !important;
-    background-color: rgba(7,124,160,1);
-    border-color: rgba(7,124,160,1);
+    background-color: $sciblue-bg;
+    border-color: $sciblue-bg;
     text-decoration:none;
 }
 

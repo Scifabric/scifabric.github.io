@@ -1,14 +1,15 @@
 @import "modules/colors";
+@import "case-studies/cities-at-night/colors";
 @import "modules/animate";
 @import "modules/loading";
 
 .citiesatnight{
-    background: #0F3B49 url('../images/Cities.png') no-repeat top center;
+    background: $sciblue-bg url('../images/Cities.png') no-repeat top center;
     background-size: cover;
 }
 
 .citiesatnight:hover .btn-info{
-    color: #FFF !important;
+    color: $white !important;
     background-color: rgba(7,124,160,1);
     border-color: rgba(7,124,160,1);
     text-decoration:none;
@@ -24,21 +25,21 @@
         font-size: 42px;
         font-weight: bold;
         font-family: "Gotham", Gotham, HelveticaNeue, Helvetica, sans-serif;
-        color: #fff !important;
+        color: $white !important;
     }
 
     h3{
         font-size: 22px;
         font-weight: bold;
         font-family: "Gotham", Gotham, HelveticaNeue, Helvetica, sans-serif;
-        color: #fff;
+        color: $white;
         margin-top: 10px;
     }
 
     h5{    
         font-size: 14px !important;
         font-weight: bold;
-        color: #FFF0D6;
+        color: $cities-color;
         text-transform: uppercase;
 
     }
@@ -51,22 +52,10 @@
         color: inherit;
         right:0;left:0;top:0;bottom:0;
         overflow:hidden;
-        background: #000 url('../images/world.png') no-repeat top center;
+        background: $black-bg url('../images/world.png') no-repeat top center;
         height: 630px;
         opacity: 0;
         transition: opacity 1000ms cubic-bezier(0.55, 0.085, 0.68, 0.53) 0s;
-    }
-
-    @media only screen and (-webkit-min-device-pixel-ratio: 2), 
-    only screen and (min-device-pixel-ratio: 2) {
-
-        .jumbotron {
-            /* Reference the @2x Sprite */
-            background: #000 url('../images/world@2x.png') no-repeat top center;
-            /* Translate the @2x sprite's dimensions back to 1x */
-            background-size: 1444px 701px;
-
-        }
     }
 
     .jumbotron-no-world {
@@ -76,27 +65,14 @@
         right:0;left:0;top:0;bottom:0;
         overflow:hidden;
         height: 630px;
-        background: #000 url('../images/no-world.png') no-repeat top center;
+        background: $black-bg url('../images/no-world.png') no-repeat top center;
     }
-
-    @media only screen and (-webkit-min-device-pixel-ratio: 2), 
-    only screen and (min-device-pixel-ratio: 2) {
-
-        .jumbotron-no-world {
-            /* Reference the @2x Sprite */
-            background: #000 url('../images/no-world@2x.png') no-repeat top center;
-            /* Translate the @2x sprite's dimensions back to 1x */
-            background-size: 1444px 701px;
-        }
-    }
-
-
 
     .btn-header {
         border-color: rgba(255,255,255,.4);
-        background-color: rgba(255,255,255,0);
+        background-color: $white-transparent-bg;
         border-width: 2px;
-        color: rgba(255,255,255,.8) !important;
+        color: $white-semitransparent-bg !important;
         font-weight:500;
         font-size:13px;
         text-transform: uppercase;
@@ -107,8 +83,8 @@
     .btn-header:focus,
     .btn-header:active,
     .open > .dropdown-toggle.btn-header {
-        color: rgba(0,0,0,1) !important;
-        background-color: rgba(255,255,255,1);
+        color: $black-bg !important;
+        background-color: $white;
         border-width:2px;
         text-decoration:none;
     }
@@ -118,9 +94,9 @@
     .show .btn-header {
     color: rgba(255,255,255,0.4);
     border-color: rgba(255,255,255,0.4);
-    background-color: rgba(255,255,255,0);
+    background-color: $white-transparent-bg;
     border-width: 2px;
-    color: rgba(255,255,255,0.8) !important;
+    color: $white-semitransparent-bg !important;
     margin: 7px 0 0 12px;
     padding: 8px 18px !important;
     }
@@ -129,8 +105,8 @@
     .show .btn-header:focus,
     .show .btn-header:active,
     .show .open > .show .dropdown-toggle.btn-header {
-        color: rgba(0,0,0,1) !important;
-        background-color: rgba(255,255,255,1);
+        color: $black-bg !important;
+        background-color: $white;
         border-width:2px;
         text-decoration:none;
     }
@@ -139,7 +115,7 @@
     @media (max-width: 768px){
         .btn-header {
             border-color: rgba(255,255,255,.4);
-            background-color: rgba(255,255,255,0);
+            background-color: $white-transparent-bg;
             border-width: 2px;
             color: rgba(255,255,255,.8) !important;
             font-weight:500;
@@ -151,10 +127,10 @@
         .btn-header:focus,
         .btn-header:active,
         .open > .show .dropdown-toggle.btn-header {
-            border-color: rgba(255,255,255,1);
-            background-color: rgba(255,255,255,1);
+            border-color: $white;
+            background-color: $white;
             border-width: 2px;
-            color: rgba(0,0,0,1) !important;
+            color: $black-bg !important;
             font-weight:500;
             font-size:13px;
             width: 95%;
@@ -171,15 +147,15 @@
 
     .jumbotron p{
         font-size: 18px;
-        color: #fff;
+        color: $white;
         font-weight: 500;
 
     }
 
     .btn-info {
-        color: #fff;
+        color: $white;
         border-color: rgba(255,255,255,.4);
-        background-color: rgba(255,255,255,0);
+        background-color: $white-transparent-bg;
         border-width: 2px;
         margin-top: 250px;
         padding: 15px 65px;
@@ -192,9 +168,9 @@
     .btn-info:active, 
     .btn-info.active, 
     .open > .dropdown-toggle.btn-info {
-        color: #000;
-        background-color: #fff;
-        border-color: #fff;
+        color: $black-bg;
+        background-color: $white;
+        border-color: $white;
         text-decoration: none;
     }
 
@@ -209,21 +185,11 @@
         color: inherit;
         right:0;left:0;top:0;bottom:0;
         overflow:hidden;
-        background: #000 url('../images/stars.png') no-repeat top center;
+        background: $black-bg url('../images/stars.png') no-repeat top center;
         height: 591px;
         text-align: center;
     }
 
-    @media only screen and (-webkit-min-device-pixel-ratio: 2), 
-    only screen and (min-device-pixel-ratio: 2) {
-
-        .stars {
-            /* Reference the @2x Sprite */
-            background: #000 url('../images/stars@2x.png') no-repeat top center;
-            /* Translate the @2x sprite's dimensions back to 1x */
-            background-size: 1443px 591px !important; 
-        }
-    }
 
     .stars p{
 
@@ -245,20 +211,6 @@
         height: auto;
     }
 
-    @media only screen and (-webkit-min-device-pixel-ratio: 2), 
-    only screen and (min-device-pixel-ratio: 2) {
-
-        .univers {
-            /* Reference the @2x Sprite */
-
-            background-image: url('../images/universe-left@2x.png'),url('../images/universe-right@2x.png');
-            background-position: top left, top right;
-            background-size: 427px 1740px, 427px 1740px !important;  
-        }
-    }
-
-
-
     .univers p {
         margin-bottom: 100px;
     }
@@ -276,7 +228,7 @@
 
     .univers .circle::before {
     content: "";
-    background-color: rgb(0, 0, 0);
+    background-color: $black-bg;
     border: rgba(255, 255, 255, 0.32) 1px solid;
     position: absolute;
     width: 20px;
@@ -290,10 +242,6 @@
     }
 }
 
-
-
-
-
     .rocket{
         margin-top: 200px;
         margin-bottom: 100px;
@@ -301,19 +249,8 @@
         right:0;left:0;top:0;bottom:0;
         overflow:hidden;
         text-align: center;
-        background: #000 url('../images/rocket.png') no-repeat  bottom center;
+        background: $black-bg url('../images/rocket.png') no-repeat  bottom center;
         height: 800px;
-    }
-
-    @media only screen and (-webkit-min-device-pixel-ratio: 2), 
-    only screen and (min-device-pixel-ratio: 2) {
-
-        .rocket {
-            /* Reference the @2x Sprite */
-            /*background: #000 url('../images/univers@2x.png') no-repeat top center;*/
-            /* Translate the @2x sprite's dimensions back to 1x */
-
-        }
     }
 
     .rocket p{
@@ -340,7 +277,7 @@
     }
 
     .opinion{
-        color: #fff;
+        color: $white;
         width: 85%;
         margin: auto;
     }
@@ -352,29 +289,16 @@
 
 
     footer{
-        margin-top: 100px;
-        
+        margin-top: 100px;  
         color: inherit;
         right:0;left:0;top:0;bottom:0;
         overflow:hidden;
-        background: #000 url('../images/cities-footer.png') no-repeat  bottom center;
+        background: $black-bg url('../images/cities-footer.png') no-repeat  bottom center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         height: auto;
-    }
-
-    @media only screen and (-webkit-min-device-pixel-ratio: 2), 
-    only screen and (min-device-pixel-ratio: 2) {
-
-        footer {
-            /* Reference the @2x Sprite */
-            background: #000 url('../images/cities-footer@2x.png') no-repeat bottom center;
-            background-size: 1440px 1030px;
-            /* Translate the @2x sprite's dimensions back to 1x */
-
-        }
     }
 
    .contact {
@@ -388,16 +312,13 @@
     text-align: center;
     }
     .contact p{
-        color: #fff;
+        color: $white;
     }
 
     .contact a{
-        color: #fff;
+        color: $white;
         text-decoration: underline;
     }
-
-
-
 
 
 
@@ -408,7 +329,7 @@
                 color: inherit;
                 right:0;left:0;top:0;bottom:0;
                 overflow:hidden;
-                background: #000 url('../images/small-world.png') no-repeat top center;
+                background: $black-bg url('../images/small-world.png') no-repeat top center;
                 height: 450px;
             }
 
@@ -513,7 +434,7 @@
             color: inherit;
             right:0;left:0;top:0;bottom:0;
             overflow:hidden;
-            background: #000 url('../images/cities-footer-768.png') no-repeat bottom center;
+            background: $black-bg url('../images/cities-footer-768.png') no-repeat bottom center;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
@@ -521,17 +442,6 @@
             height: auto;
             }
 
-            @media only screen and (-webkit-min-device-pixel-ratio: 2), 
-            only screen and (min-device-pixel-ratio: 2) {
-
-                footer {
-                /* Reference the @2x Sprite */
-                background: #000 url('../images/cities-footer-768@2x.png') no-repeat bottom center;
-                background-size: 768px 1030px;
-                /* Translate the @2x sprite's dimensions back to 1x */
-
-                }
-            }
 
     }
 

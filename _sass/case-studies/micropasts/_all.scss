@@ -1,3 +1,4 @@
+@import "modules/colors";
 @import "case-studies/micropasts/colors";
 
 .navbar-toggle-BM {
@@ -46,10 +47,10 @@
     padding: 30px 15px;
     margin-bottom: 0px;
     color: inherit;
-    background-color: #eee;
+    background-color: $light-grey-bg;
     right:0;left:0;top:0;bottom:0;
     overflow:hidden;
-    background: #333 url('../images/coins.png') no-repeat top center;
+    background: $light-grey-bg url('../images/coins.png') no-repeat top center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -87,13 +88,13 @@
 }
 
 .grey-BM{
-    color: #5a5a5a;
+    color: $grey-font;
 }
 
 .btn-BM {
     color: $micropasts-color;
     border-color: $micropasts-color;
-    background-color: rgba(255,255,255,0);
+    background-color: $white-transparent-bg;
     border-width:2px;
 }
 .btn-BM:hover,
@@ -110,7 +111,7 @@
 .btn-BM-2 {
     color: $white;
     border-color: $white;
-    background-color: rgba(255,255,255,0);
+    background-color: $white-transparent-bg;
     border-width:2px;
     -webkit-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -131,8 +132,8 @@
 
 
 .BM-method {
-    color: #BDBDBD;
-    background: #333 url('../images/London.png') no-repeat top center;
+    color: $grey-font;
+    background: $light-grey-bg url('../images/London.png') no-repeat top center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -143,7 +144,7 @@
 }
 
 .BM-method a{
-    color: #bdbdbd;
+    color: $grey-font;
     text-decoration: underline;
 }
 
@@ -193,13 +194,13 @@
 }
 
 .bg_color_BM {
-    background-color: #f7f7f7;
+    background-color: $light-grey-bg;
     padding-bottom: 60px;
 }
 
 .contact-BM{
-    color: #BDBDBD;
-    background: #333 url('../images/coins.png') no-repeat top center;
+    color: $grey-font;
+    background: $light-grey-bg url('../images/coins.png') no-repeat top center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -431,7 +432,7 @@ fieldset[disabled] .btn-link {
 fieldset[disabled] .btn-link:hover,
 .btn-link[disabled]:focus,
 fieldset[disabled] .btn-link:focus {
-    color: #777;
+    color: $grey-font;
     text-decoration: none;
 }
 
@@ -439,6 +440,6 @@ fieldset[disabled] .btn-link:focus {
 .btn-link:hover,
 .btn-link[disabled]:focus,
 fieldset[disabled] .btn-link:focus {
-    color: #777;
+    color: $grey-font;
     text-decoration: none;
 }

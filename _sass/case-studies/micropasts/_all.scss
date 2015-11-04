@@ -56,21 +56,6 @@
     height: 550px;
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2), 
-only screen and (min-device-pixel-ratio: 2) {
-
-    .jumbotron-BM {
-        /* Reference the @2x Sprite */
-        background-image: url('../images/coins@2x.png');
-        /* Translate the @2x sprite's dimensions back to 1x */
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-attachment:fixed;
-    }
-}
-
 #logo-BM {
     margin-top: 110px;
     max-width: 500px;
@@ -155,20 +140,6 @@ only screen and (min-device-pixel-ratio: 2) {
     height: auto;
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2), 
-only screen and (min-device-pixel-ratio: 2) {
-
-    .BM-method {
-        /* Reference the @2x Sprite */
-        background-image: url('../images/London@2x.png');
-        /* Translate the @2x sprite's dimensions back to 1x */
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
-}
-
 .BM-method a{
     color: #bdbdbd;
     text-decoration: underline;
@@ -236,34 +207,21 @@ only screen and (min-device-pixel-ratio: 2) {
     height: auto;
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2), 
-only screen and (min-resolution: 1dppx) {
 
-    .contact-BM {
-        /* Reference the @2x Sprite */
-        background-image: url('../images/coins@2x.png');
-        /* Translate the @2x sprite's dimensions back to 1x */
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
+.BM-contact-Link{
+    margin-top: 15px;
+    color: white;
+    text-decoration: underline;
+}
 
-    .BM-contact-Link{
-        margin-top: 15px;
-        color: white;
-        text-decoration: underline;
-    }
-
-    .BM-contact-Link:hover{
-        color: white;
-        text-decoration: underline;
-    }
+.BM-contact-Link:hover{
+    color: white;
+    text-decoration: underline;
+}
 
 
-    .BM-footer{
-        background-color: #000;
-    }
+.BM-footer{
+    background-color: #000;
 }
 
 .bignumber{
@@ -431,21 +389,6 @@ only screen and (min-resolution: 1dppx) {
         background-size: cover;
         background-attachment:fixed;
         height: 400px;
-    }
-
-    @media only screen and (-webkit-min-device-pixel-ratio: 2), 
-    only screen and (min-device-pixel-ratio: 2) {
-
-        .jumbotron-BM {
-            /* Reference the @2x Sprite */
-            background-image: url('../images/bg-BM@2x.png');
-            /* Translate the @2x sprite's dimensions back to 1x */
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
-            background-attachment:fixed;
-        }
     }
 
     #logo-BM {

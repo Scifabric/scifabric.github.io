@@ -1,20 +1,20 @@
 footer {
-    background-color: #0B4253;
-    color:#fff;
+    background-color: $grey-footer;
+    color: white;
     padding:100px 0 80px ;
     margin:0;
 }
 
 footer p{
     font-size: 20px;
-    color: #fff;
+    color: white;
 }
 
 footer a{
-    color: rgba(255, 255, 255, .65);
+    color: $white-light-footer;
 }
 footer a:hover{
-    color: rgba(255, 255, 255, 1);
+    color: $white-footer;
 }
 
 .icons-rrss{
@@ -72,7 +72,7 @@ footer .logo_sf:hover {
     z-index:999;
     position:fixed;
     display:block;
-    background-color:#fff;
+    background-color: white;
     right:40px;
     border-radius:4px 4px 0 0;
     bottom:-90px;

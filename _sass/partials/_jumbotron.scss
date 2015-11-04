@@ -21,6 +21,14 @@
     margin-top: 40px;
 }
 
+@media (max-width: 768px) {
+    .jumbotron h2 {
+        font-size: 38px;
+        color: $white-font;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+}
 
 .jumbotron_small{
     height: 500px;
@@ -28,6 +36,15 @@
 
 .jumbotron-xs {
     height: 200px;
+    background: #0F3B49;
+    padding: 30px 15px;
+    margin-bottom: 0px;
+    color: inherit;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
 }
 
 .jumbotron-cookies {
@@ -56,15 +73,7 @@
 }
 
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2), 
-only screen and (min-device-pixel-ratio: 2) {
 
-    .jumbotron {
-        /* Reference the @2x Sprite */
-        background-image: url('../images/bg@2x.jpg');
-        /* Translate the @2x sprite's dimensions back to 1x */
-        background-size: 1444px 701px !important; 
-    }
 
     .jumbotron-training {
         /* Reference the @2x Sprite */
@@ -86,7 +95,6 @@ only screen and (min-device-pixel-ratio: 2) {
 
 
 
-}
 
 
 

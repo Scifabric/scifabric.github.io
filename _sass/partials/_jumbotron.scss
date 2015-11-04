@@ -60,12 +60,32 @@
     background: #333 url("../images/training.jpg") no-repeat fixed center top / cover;
 }
 
+.jumbotron-training h2,
+.jumbotron-training p,
+.jumbotron-training a {
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+.jumbotron-training img {
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.8));
+}
+
 .jumbotron-support {
     background: #333 url("../images/support.jpg") no-repeat fixed center top / cover;
 }
 
 .jumbotron-cloud-servers {
     background: #333 url("../images/cloud.jpg") no-repeat fixed center top / cover;
+}
+
+.jumbotron-cloud-servers h2,
+.jumbotron-cloud-servers p,
+.jumbotron-cloud-servers a {
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+.jumbotron-cloud-servers img {
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.8));
 }
 
 .jumbotron-blog > .container > .title {

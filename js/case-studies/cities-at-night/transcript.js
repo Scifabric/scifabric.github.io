@@ -4,13 +4,14 @@ window.transcript = function(start){
     var theater = new theaterJS({erase: false});
     theater
     .addActor("Buzz Aldrin", { speed: .9, accuracy: 1, invincibility: 4 } , "#buzz")
+    .addActor("Buzz Aldrin2", { speed: .9, accuracy: 1, invincibility: 4 } , "#buzz2")
     .addActor("Neil Armstrong", .9, "#neil")
     .addActor("log", .9, "#log")
     .addActor("Michael Collins", .9, "#michael");
 
     var scenes = [
 "Buzz Aldrin: Alright, now, do we want black and white, color, 250 or 80?", 
-"Buzz Aldrin: I've got all options over here.",
+"Buzz Aldrin2: I've got all options over here.",
 "Neil Armstrong: Oh, we'll probably want...",
 "Neil Armstrong: How many cameras you got?",
 "Buzz Aldrin: Let me have a camera.",
@@ -53,35 +54,39 @@ theater
     p.text("Next");
     p.css('font-style', 'italic');
     p.off('click').on('click', function(self){
-        current = theater.getCurrentActor();
-        // When say or erase ends, remove the caret.
-        var say = document.getElementById(current.$element.id + "-say");
-        if (say != 'log-say') {
-            //self.utils.removeClass(say, "saying");
-            $("#" + current.$element.id + "-say").removeClass("saying");
-            //self.utils.removeClass(current, "saying");
-            theater.getCurrentActor().$element.classList.remove('saying');
-            //self.utils.addClass(say, "silence");
-            $("#" + current.$element.id + "-say").addClass("silence");
-            $("#" + current.$element.id).text("");
-            //self.utils.addClass(current, "silence");
-            theater.getCurrentActor().$element.classList.add('silence');
-        }
-        else {
-            $("#log-say").fadeOut();
-            $("#know-more").fadeOut();
-            $("#jumbotron").removeClass('jumbotron-no-world');
-            $("#jumbotron").addClass('jumbotron');
-            $("#jumbotron").css("opacity", "1");
-            $(".scene").fadeOut("slow", function(){
-                $(".after-transcript").fadeIn();
-            });
-            $("#know-more").hide();
+       current = theater.getCurrentActor();
+       // When say or erase ends, remove the caret.
+       var say = document.getElementById(current.$element.id + "-say");
+       console.log(say);
+       if (theater.getCurrentActor().$element.id != 'log') {
+           //self.utils.removeClass(say, "saying");
+           $("#" + current.$element.id + "-say").removeClass("saying");
+           //self.utils.removeClass(current, "saying");
+           theater.getCurrentActor().$element.classList.remove('saying');
+           //self.utils.addClass(say, "silence");
+           $("#" + current.$element.id + "-say").addClass("silence");
+           $("#" + current.$element.id).text("");
+           console.log("Next clicked!");
+           console.log("#" + current.$element.id);
+           //self.utils.addClass(current, "silence");
+           theater.getCurrentActor().$element.classList.add('silence');
+       }
+       else {
+           $("#log-say").fadeOut();
+           $("#know-more").fadeOut();
+           $("#jumbotron").removeClass('jumbotron-no-world');
+           $("#jumbotron").addClass('jumbotron');
+           $("#jumbotron").css("opacity", "1");
+           $(".scene").fadeOut("slow", function(){
+               $(".after-transcript").fadeIn();
+           });
+           $("#know-more").hide();
 
-        }
-
+       }
+       //console.log(scenes.shift());
        theater.addScene(scenes.shift());
        theater.play();
+
     });
     $(".controls").html("").append(p);
     theater.stop();
@@ -91,8 +96,7 @@ theater
 
 var spaces = "             ";
 
-theater
-.addScene(scenes.shift());
+theater.addScene(scenes.shift());
 theater.play();
 //.write("Buzz Aldrin: I've got all options over here.      ")
 //.write("Neil Armstrong: Oh, we'll probably want..." + spaces)

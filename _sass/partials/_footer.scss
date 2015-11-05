@@ -142,7 +142,8 @@ footer .logo_sf:hover {
     text-decoration:none;
 }
 
-.credits-handler{
+.credits-handler,
+.credits {
     margin-top: 20px;
     font-size: 12px;
 }
@@ -167,13 +168,11 @@ footer .logo_sf:hover {
     margin-bottom: 0px;
 }
 
-.credits p {
-    margin-bottom: -10px;
-}
 
 .credits a {
     font-size: 12px;
 }
+
 
 @media(max-width:360px) {
     footer {

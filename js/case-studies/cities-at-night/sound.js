@@ -1,7 +1,14 @@
 window.ost = function(start){
 
-    $(document).scrollTop(0);
+    try {
+      var ostStarted = new Event('ostStarted');
+    } catch(e) {
+      // IE polyfill, do it the old way
+      var ostStarted = document.createEvent('Event');
+      ostStarted.initEvent('ostStarted', true, true);
+    }
 
+    $(document).scrollTop(0);
 
     if (Modernizr.webaudio) {
        var context = new AudioContext()
@@ -53,7 +60,6 @@ window.ost = function(start){
     
         function playstory(){
     
-            var ostStarted = new Event('ostStarted');
             var loopsound = Modernizr.audio.ogg ? '/assets/snd/apollo11/loop.ogg' : '/assets/snd/apollo11/loop.mp3';
 
     
@@ -193,6 +199,7 @@ window.ost = function(start){
     else {
         $("#btn-mute").hide();
         console.log("REALLY!?? You should use a modern web browser to browse this case study!");
+        dispatchEvent(ostStarted);
     }
 }
 

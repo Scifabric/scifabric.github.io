@@ -4,6 +4,11 @@ window.ost = function(start){
        var context = new AudioContext()
        var lineOut = new WebAudiox.LineOut(context)
 
+       var sounds = {'loop': true, 'tminus': false, 
+                     'roger': false, 'ignition': false,
+                     'three': false, 'two': false, 'one': false,
+                     'zero': false, 'liftoff': false, 'mission': false}
+
        function playSound(sound, context, lineout) {
            var snd = '/assets/snd/apollo11/' + sound;
            WebAudiox.loadBuffer(context, snd, function(buffer){
@@ -52,44 +57,11 @@ window.ost = function(start){
                     });
             
             
-            // load a sound and play it immediatly
-            // WebAudiox.loadBuffer(context, '/assets/snd/apollo11/houston.mp3', function(buffer){
-            //         // init AudioBufferSourceNode
-            //         var source  = context.createBufferSource();
-            //         source.buffer   = buffer;
-            //         // Create a stereo panner
-            //         var panNode = context.createStereoPanner();
-            //         panNode.pan.value = 1;
-            //         //source.connect(lineOut.destination);
-            //         source.connect(panNode);
-            //         panNode.connect(lineOut.destination);
-            //         // start the sound now
-            //         source.start(5);
-            //         });
-            // 
-    
-            // load a sound and play it immediatly
-            // WebAudiox.loadBuffer(context, '/assets/snd/apollo11/roger.mp3', function(buffer){
-            //         // init AudioBufferSourceNode
-            //         var source  = context.createBufferSource();
-            //         source.buffer   = buffer;
-            //         // Create a stereo panner
-            //         var panNode = context.createStereoPanner();
-            //         panNode.pan.value = -1;
-            //         //source.connect(lineOut.destination);
-            //         source.connect(panNode);
-            //         panNode.connect(lineOut.destination);
-            //         // start the sound now
-            //         source.start(20);
-            //         });
-    
-    
-
-
             var tminusWaypoint = $('#tminus').waypoint({
               handler: function(direction) {
-                  if (direction === 'down') {
+                  if ((direction === 'down') && (!sounds['tminus'])) {
                     playSound('houston.mp3', context, lineOut);
+                    sounds['tminus'] = true;
                   }
                 },
               offset: '25%'

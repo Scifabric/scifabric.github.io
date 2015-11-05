@@ -1,5 +1,6 @@
 window.ost = function(start){
 
+
     if (Modernizr.webaudio) {
        var context = new AudioContext()
        var lineOut = new WebAudiox.LineOut(context)
@@ -54,6 +55,7 @@ window.ost = function(start){
                     // start the sound now
                     source.start(0);
                     dispatchEvent(ostStarted);
+
                     });
             
             
@@ -140,12 +142,29 @@ window.ost = function(start){
               offset: '35%'
             });
 
+            function fadeOut(){
+                var audioFadeOut = setInterval(function(){
+                    if ((lineOut) && (lineOut.volume > 0)) {
+                        lineOut.volume -= 0.1;
+                        console.log(lineOut.volume);
+                    }
+                    
+                    if ((lineOut) && (lineOut.volume === 0)) {
+                        lineOut.volume = 0;
+                        clearInterval(audioFadeOut);
+                        clearInterval(fadeOutID);
+                    }
+                }, 200);
+            }
+
 
             var contactWaypoint = $('#mission').waypoint({
               handler: function(direction) {
                   if ((direction === 'down') && (!sounds['mission'])) {
                     playSound('landed.mp3', context, lineOut);
                     sounds['mission'] = true;
+                    // Fade out.
+                    var fadeOutID = setInterval(fadeOut, 20000);
                   }
                 },
               offset: '25%'

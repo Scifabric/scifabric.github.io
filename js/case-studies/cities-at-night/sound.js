@@ -44,6 +44,7 @@ window.ost = function(start){
     
             var ostStarted = new Event('ostStarted');
             var loopsound = Modernizr.audio.ogg ? '/assets/snd/apollo11/loop.ogg' : '/assets/snd/apollo11/loop.mp3';
+
     
             // load a sound and play it immediatly
             WebAudiox.loadBuffer(context, loopsound, function(buffer){
@@ -55,7 +56,6 @@ window.ost = function(start){
                     // start the sound now
                     source.start(0);
                     dispatchEvent(ostStarted);
-
                     });
             
             

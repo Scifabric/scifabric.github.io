@@ -69,8 +69,9 @@ window.ost = function(start){
 
             var rogerWaypoint = $('#roger').waypoint({
                   handler: function(direction) {
-                  if (direction === 'down') {
+                  if ((direction === 'down') && (!sounds['roger'])){
                     playSound('roger.mp3', context, lineOut);
+                    sounds['roger'] = true;
                   }
                 },
               offset: '25%'
@@ -79,8 +80,9 @@ window.ost = function(start){
 
             var igntionWaypoint = $('#ignition').waypoint({
               handler: function(direction) {
-                  if (direction === 'down') {
+                  if ((direction === 'down') && (!sounds['ignition'])){
                     playSound('ignition.mp3', context, lineOut);
+                    sounds['ignition'] = true;
                   }
                 },
               offset: '25%'
@@ -88,8 +90,9 @@ window.ost = function(start){
 
             var threeWaypoint = $('#3').waypoint({
               handler: function(direction) {
-                  if (direction === 'down') {
+                  if ((direction === 'down') && (!sounds['three'])) {
                     playSound('3alt.mp3', context, lineOut);
+                    sounds['three'] = true;
                   }
                 },
               offset: '25%'
@@ -97,8 +100,9 @@ window.ost = function(start){
 
             var twoWaypoint = $('#2').waypoint({
               handler: function(direction) {
-                  if (direction === 'down') {
+                  if ((direction === 'down') && (!sounds['two'])) {
                     playSound('2alt.mp3', context, lineOut);
+                    sounds['two'] = true;
                   }
                 },
               offset: '25%'
@@ -107,8 +111,9 @@ window.ost = function(start){
             
             var oneWaypoint = $('#1').waypoint({
               handler: function(direction) {
-                  if (direction === 'down') {
+                  if ((direction === 'down') && (!sounds['one'])){
                     playSound('1alt.mp3', context, lineOut);
+                    sounds['one'] = true;
                   }
                 },
               offset: '25%'
@@ -116,8 +121,9 @@ window.ost = function(start){
 
             var zeroWaypoint = $('#0').waypoint({
               handler: function(direction) {
-                  if (direction === 'down') {
+                  if ((direction === 'down') && (!sounds['zero'])) {
                     playSound('0alt.mp3', context, lineOut);
+                    sounds['zero'] = true;
                   }
                 },
               offset: '10%'
@@ -126,8 +132,9 @@ window.ost = function(start){
 
             var liftoffWaypoint = $('#liftoff').waypoint({
               handler: function(direction) {
-                  if (direction === 'down') {
+                  if ((direction === 'down') && (!sounds['liftoff'])){
                     playSound('liftoff.mp3', context, lineOut);
+                    sounds['liftoff'] = true;
                   }
                 },
               offset: '35%'
@@ -136,8 +143,9 @@ window.ost = function(start){
 
             var contactWaypoint = $('#mission').waypoint({
               handler: function(direction) {
-                  if (direction === 'down') {
+                  if ((direction === 'down') && (!sounds['mission'])) {
                     playSound('landed.mp3', context, lineOut);
+                    sounds['mission'] = true;
                   }
                 },
               offset: '25%'

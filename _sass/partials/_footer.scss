@@ -7,7 +7,6 @@ footer {
 }
 
 footer p{
-    font-size: 20px;
     color: white;
 }
 
@@ -39,14 +38,17 @@ footer .logo_sf {
     line-height: 0.8;
 }
 
-.column > div {
-    height: 100px;
-}
+
 
 @media (min-width:768px) {
     .column > :not(:first-child) {
         border-left:2px solid #D3D3D3;
     }
+
+    .column > div {
+    min-height: 150px;
+}
+
 }
 
 @media (max-width:767px) {

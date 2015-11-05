@@ -9,6 +9,7 @@ window.ost = function(start){
                      'roger': false, 'ignition': false,
                      'three': false, 'two': false, 'one': false,
                      'zero': false, 'liftoff': false, 'mission': false}
+       var fadeOutID = 0;
 
        function playSound(sound, context, lineout) {
            var snd = '/assets/snd/apollo11/' + sound;
@@ -21,12 +22,10 @@ window.ost = function(start){
            });
        }
 
-
-    
-        $("#btn-mute, #btn-mute-mbl").off('click').on('click', function(event){
-            event.preventDefault();
-            lineOut.toggleMute();
-            if (lineOut.isMuted) {
+        function toogleMuteButton(lineOut){
+            console.log("mutebuton");
+            console.log(lineOut.volume);
+            if ((lineOut.isMuted) || (lineOut.volume === 0)) {
                 $("#mute").removeClass('fa-volume-up');
                 $("#mute").addClass('fa-volume-off');
                 $("#mute-mbl").removeClass('fa-volume-up');
@@ -38,6 +37,12 @@ window.ost = function(start){
                 $("#mute-mbl").removeClass('fa-volume-off');
                 $("#mute-mb-mbll").addClass('fa-volume-up');
             }
+        }
+    
+        $("#btn-mute, #btn-mute-mbl").off('click').on('click', function(event){
+            event.preventDefault();
+            lineOut.toggleMute();
+            toogleMuteButton(lineOut);
         });
     
         function playstory(){
@@ -145,14 +150,17 @@ window.ost = function(start){
             function fadeOut(){
                 var audioFadeOut = setInterval(function(){
                     if ((lineOut) && (lineOut.volume > 0)) {
-                        lineOut.volume -= 0.1;
+                        lineOut.volume = (lineOut.volume - 0.1).toFixed(2);
                         console.log(lineOut.volume);
+                        if (lineOut.volume <= 0) {
+                            lineOut.volume = 0;
+                        }
                     }
                     
                     if ((lineOut) && (lineOut.volume === 0)) {
-                        lineOut.volume = 0;
                         clearInterval(audioFadeOut);
                         clearInterval(fadeOutID);
+                        toogleMuteButton(lineOut);
                     }
                 }, 200);
             }
@@ -164,7 +172,7 @@ window.ost = function(start){
                     playSound('landed.mp3', context, lineOut);
                     sounds['mission'] = true;
                     // Fade out.
-                    var fadeOutID = setInterval(fadeOut, 20000);
+                    fadeOutID = setInterval(fadeOut, 20000);
                   }
                 },
               offset: '25%'

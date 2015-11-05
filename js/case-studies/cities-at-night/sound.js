@@ -1,5 +1,7 @@
 window.ost = function(start){
 
+    $(document).scrollTop(0);
+
 
     if (Modernizr.webaudio) {
        var context = new AudioContext()
@@ -23,9 +25,7 @@ window.ost = function(start){
        }
 
         function toogleMuteButton(lineOut){
-            console.log("mutebuton");
-            console.log(lineOut.volume);
-            if ((lineOut.isMuted) || (lineOut.volume === 0)) {
+            if (lineOut.isMuted) {
                 $("#mute").removeClass('fa-volume-up');
                 $("#mute").addClass('fa-volume-off');
                 $("#mute-mbl").removeClass('fa-volume-up');
@@ -36,6 +36,12 @@ window.ost = function(start){
                 $("#mute").addClass('fa-volume-up');
                 $("#mute-mbl").removeClass('fa-volume-off');
                 $("#mute-mb-mbll").addClass('fa-volume-up');
+            }
+
+            if (lineOut.volume === 0) {
+                // Remove all classes 
+                $("#mute").hide();
+                $("#mute-mbl").hide();
             }
         }
     

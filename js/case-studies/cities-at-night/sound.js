@@ -1,8 +1,24 @@
 window.ost = function(start){
 
+    try {
+      var ostStarted = new Event('ostStarted');
+    } catch(e) {
+      // IE polyfill, do it the old way
+      var ostStarted = document.createEvent('Event');
+      ostStarted.initEvent('ostStarted', true, true);
+    }
+
+    $(document).scrollTop(0);
+
     if (Modernizr.webaudio) {
        var context = new AudioContext()
        var lineOut = new WebAudiox.LineOut(context)
+
+       var sounds = {'loop': true, 'tminus': false, 
+                     'roger': false, 'ignition': false,
+                     'three': false, 'two': false, 'one': false,
+                     'zero': false, 'liftoff': false, 'mission': false}
+       var fadeOutID = 0;
 
        function playSound(sound, context, lineout) {
            var snd = '/assets/snd/apollo11/' + sound;
@@ -15,11 +31,7 @@ window.ost = function(start){
            });
        }
 
-
-    
-        $("#btn-mute, #btn-mute-mbl").off('click').on('click', function(event){
-            event.preventDefault();
-            lineOut.toggleMute();
+        function toogleMuteButton(lineOut){
             if (lineOut.isMuted) {
                 $("#mute").removeClass('fa-volume-up');
                 $("#mute").addClass('fa-volume-off');
@@ -32,12 +44,24 @@ window.ost = function(start){
                 $("#mute-mbl").removeClass('fa-volume-off');
                 $("#mute-mb-mbll").addClass('fa-volume-up');
             }
+
+            if (lineOut.volume === 0) {
+                // Remove all classes 
+                $("#mute").hide();
+                $("#mute-mbl").hide();
+            }
+        }
+    
+        $("#btn-mute, #btn-mute-mbl").off('click').on('click', function(event){
+            event.preventDefault();
+            lineOut.toggleMute();
+            toogleMuteButton(lineOut);
         });
     
         function playstory(){
     
-            var ostStarted = new Event('ostStarted');
             var loopsound = Modernizr.audio.ogg ? '/assets/snd/apollo11/loop.ogg' : '/assets/snd/apollo11/loop.mp3';
+
     
             // load a sound and play it immediatly
             WebAudiox.loadBuffer(context, loopsound, function(buffer){
@@ -52,44 +76,11 @@ window.ost = function(start){
                     });
             
             
-            // load a sound and play it immediatly
-            // WebAudiox.loadBuffer(context, '/assets/snd/apollo11/houston.mp3', function(buffer){
-            //         // init AudioBufferSourceNode
-            //         var source  = context.createBufferSource();
-            //         source.buffer   = buffer;
-            //         // Create a stereo panner
-            //         var panNode = context.createStereoPanner();
-            //         panNode.pan.value = 1;
-            //         //source.connect(lineOut.destination);
-            //         source.connect(panNode);
-            //         panNode.connect(lineOut.destination);
-            //         // start the sound now
-            //         source.start(5);
-            //         });
-            // 
-    
-            // load a sound and play it immediatly
-            // WebAudiox.loadBuffer(context, '/assets/snd/apollo11/roger.mp3', function(buffer){
-            //         // init AudioBufferSourceNode
-            //         var source  = context.createBufferSource();
-            //         source.buffer   = buffer;
-            //         // Create a stereo panner
-            //         var panNode = context.createStereoPanner();
-            //         panNode.pan.value = -1;
-            //         //source.connect(lineOut.destination);
-            //         source.connect(panNode);
-            //         panNode.connect(lineOut.destination);
-            //         // start the sound now
-            //         source.start(20);
-            //         });
-    
-    
-
-
             var tminusWaypoint = $('#tminus').waypoint({
               handler: function(direction) {
-                  if (direction === 'down') {
+                  if ((direction === 'down') && (!sounds['tminus'])) {
                     playSound('houston.mp3', context, lineOut);
+                    sounds['tminus'] = true;
                   }
                 },
               offset: '25%'
@@ -97,8 +88,9 @@ window.ost = function(start){
 
             var rogerWaypoint = $('#roger').waypoint({
                   handler: function(direction) {
-                  if (direction === 'down') {
+                  if ((direction === 'down') && (!sounds['roger'])){
                     playSound('roger.mp3', context, lineOut);
+                    sounds['roger'] = true;
                   }
                 },
               offset: '25%'
@@ -107,8 +99,9 @@ window.ost = function(start){
 
             var igntionWaypoint = $('#ignition').waypoint({
               handler: function(direction) {
-                  if (direction === 'down') {
+                  if ((direction === 'down') && (!sounds['ignition'])){
                     playSound('ignition.mp3', context, lineOut);
+                    sounds['ignition'] = true;
                   }
                 },
               offset: '25%'
@@ -116,8 +109,9 @@ window.ost = function(start){
 
             var threeWaypoint = $('#3').waypoint({
               handler: function(direction) {
-                  if (direction === 'down') {
+                  if ((direction === 'down') && (!sounds['three'])) {
                     playSound('3alt.mp3', context, lineOut);
+                    sounds['three'] = true;
                   }
                 },
               offset: '25%'
@@ -125,8 +119,9 @@ window.ost = function(start){
 
             var twoWaypoint = $('#2').waypoint({
               handler: function(direction) {
-                  if (direction === 'down') {
+                  if ((direction === 'down') && (!sounds['two'])) {
                     playSound('2alt.mp3', context, lineOut);
+                    sounds['two'] = true;
                   }
                 },
               offset: '25%'
@@ -135,8 +130,9 @@ window.ost = function(start){
             
             var oneWaypoint = $('#1').waypoint({
               handler: function(direction) {
-                  if (direction === 'down') {
+                  if ((direction === 'down') && (!sounds['one'])){
                     playSound('1alt.mp3', context, lineOut);
+                    sounds['one'] = true;
                   }
                 },
               offset: '25%'
@@ -144,8 +140,9 @@ window.ost = function(start){
 
             var zeroWaypoint = $('#0').waypoint({
               handler: function(direction) {
-                  if (direction === 'down') {
+                  if ((direction === 'down') && (!sounds['zero'])) {
                     playSound('0alt.mp3', context, lineOut);
+                    sounds['zero'] = true;
                   }
                 },
               offset: '10%'
@@ -154,18 +151,40 @@ window.ost = function(start){
 
             var liftoffWaypoint = $('#liftoff').waypoint({
               handler: function(direction) {
-                  if (direction === 'down') {
+                  if ((direction === 'down') && (!sounds['liftoff'])){
                     playSound('liftoff.mp3', context, lineOut);
+                    sounds['liftoff'] = true;
                   }
                 },
               offset: '35%'
             });
 
+            function fadeOut(){
+                var audioFadeOut = setInterval(function(){
+                    if ((lineOut) && (lineOut.volume > 0)) {
+                        lineOut.volume = (lineOut.volume - 0.1).toFixed(2);
+                        console.log(lineOut.volume);
+                        if (lineOut.volume <= 0) {
+                            lineOut.volume = 0;
+                        }
+                    }
+                    
+                    if ((lineOut) && (lineOut.volume === 0)) {
+                        clearInterval(audioFadeOut);
+                        clearInterval(fadeOutID);
+                        toogleMuteButton(lineOut);
+                    }
+                }, 200);
+            }
+
 
             var contactWaypoint = $('#mission').waypoint({
               handler: function(direction) {
-                  if (direction === 'down') {
+                  if ((direction === 'down') && (!sounds['mission'])) {
                     playSound('landed.mp3', context, lineOut);
+                    sounds['mission'] = true;
+                    // Fade out.
+                    fadeOutID = setInterval(fadeOut, 20000);
                   }
                 },
               offset: '25%'
@@ -180,6 +199,7 @@ window.ost = function(start){
     else {
         $("#btn-mute").hide();
         console.log("REALLY!?? You should use a modern web browser to browse this case study!");
+        dispatchEvent(ostStarted);
     }
 }
 

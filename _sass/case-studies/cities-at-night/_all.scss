@@ -84,23 +84,32 @@
     .btn-header:focus,
     .btn-header:active,
     .open > .dropdown-toggle.btn-header {
-        color: $black-bg !important;
-        background-color: $white;
+        color: $white !important;
+        background-color: $white-transparent-bg;
         border-width:2px;
         text-decoration:none;
     }
 
-    .p-header  { border-color: rgba(255,255,255,0);
-        background-color: $white-transparent-bg;
-        border-width: 2px;
+    .nav-share{
+        margin-left: 12px;
         color: $white-light-footer !important;
+    }
+
+    .nav-share:hover{
+        color: $white !important;
+    }
+
+    .p-header  {         
+        color: $white-light-footer !important;
+        text-transform: uppercase; 
+        padding: 8px 0px 10px 25px  !important;
+        border-left: 1px solid;
         font-weight:500;
         font-size:13px;
-        text-transform: uppercase;
         margin:10px 0 0 20px;
-        padding:8px 18px !important;
-        border-left: 1px solid;
     }
+
+
 
     .show .btn-header {
     color: rgba(255,255,255,0.4);

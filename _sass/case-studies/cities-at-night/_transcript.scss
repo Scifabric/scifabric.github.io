@@ -24,6 +24,10 @@
     display: none;
 }
 
+.hidden {
+    visibility: hidden;
+}
+
 .more {
     margin-top: 230px;
     font-size: 35px !important;
@@ -102,4 +106,14 @@ margin-top: 90px;
     margin-top: 40px;
 
     }
+}
+
+.scene h3 {
+    display: block;
+    min-height: 80px;
+    content: " ";
+}
+
+.scene #next {
+    font-style: italic;
 }

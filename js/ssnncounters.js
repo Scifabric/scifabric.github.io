@@ -1,8 +1,8 @@
-var currentURL = window.location.href;
+var currentURL = encodeURIComponent(window.location.href);
 
 if (currentURL.indexOf('localhost') > -1) {
     console.log("As you're in localhost we use our Crowdcrafting site.");
-    currentURL = encodeURIComponent('http://crowdcrafting.org');
+    currentURL = encodeURIComponent('http://scifabric.com/citiesatnight/');
 }
 
 var twitterEndpoint = 'https://cdn.api.twitter.com/1/urls/count.json?url=' + currentURL + '&callback=?';
@@ -18,13 +18,17 @@ $.when($.getJSON( twitterEndpoint, "jsonp"),
             var span = $("<span/>");
             span.text(t[0].count);
             $("#twitterCount").append(span);
+
             console.log("Linkedin: " + l[0].count);
             var span = $("<span/>");
             span.text(l[0].count);
             $("#linkedinCount").append(span);
+
             console.log("Facebook: " + f[0].shares);
             var span = $("<span/>");
-            span.text(f[0].shares);
+            span.text("0");
+            if (f[0].shares) {
+                span.text(f[0].shares);
+            }
             $("#facebookCount").append(span);
-            
         });

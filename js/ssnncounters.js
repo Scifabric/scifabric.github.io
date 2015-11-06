@@ -15,10 +15,16 @@ $.when($.getJSON( twitterEndpoint, "jsonp"),
        $.getJSON( facebookEndpoint, "jsonp")
         ).done(function(t,l,f){
             console.log("Twitter:" + t[0].count);
-            $("#twitterCount").text(t[0].count);
+            var span = $("<span/>");
+            span.text(t[0].count);
+            $("#twitterCount").append(span);
             console.log("Linkedin: " + l[0].count);
-            $("#linkedinCount").text(t[0].count);
+            var span = $("<span/>");
+            span.text(l[0].count);
+            $("#linkedinCount").append(span);
             console.log("Facebook: " + f[0].shares);
-            $("#facebookCount").text(t[0].shares);
+            var span = $("<span/>");
+            span.text(f[0].shares);
+            $("#facebookCount").append(span);
             
         });

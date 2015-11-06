@@ -42,7 +42,7 @@ window.ost = function(start){
                 $("#mute").removeClass('fa-volume-off');
                 $("#mute").addClass('fa-volume-up');
                 $("#mute-mbl").removeClass('fa-volume-off');
-                $("#mute-mb-mbll").addClass('fa-volume-up');
+                $("#mute-mbl").addClass('fa-volume-up');
             }
 
             if (lineOut.volume === 0) {

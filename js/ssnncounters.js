@@ -1,4 +1,4 @@
-var currentURL = window.location.href;
+var currentURL = encodeURIComponent(window.location.href);
 
 if (currentURL.indexOf('localhost') > -1) {
     console.log("As you're in localhost we use our Crowdcrafting site.");

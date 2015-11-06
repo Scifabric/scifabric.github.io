@@ -70,14 +70,14 @@
     }
 
     .btn-header {
-        border-color: rgba(255,255,255,.4);
+        border-color: rgba(255,255,255,0);
         background-color: $white-transparent-bg;
         border-width: 2px;
         color: $white-semitransparent-bg !important;
         font-weight:500;
         font-size:13px;
         text-transform: uppercase;
-        margin:7px 0 0 12px;
+        margin:7px 0 0 0;
         padding:8px 18px !important;
     }
     .btn-header:hover,
@@ -90,11 +90,21 @@
         text-decoration:none;
     }
 
-
+    .p-header  { border-color: rgba(255,255,255,0);
+        background-color: $white-transparent-bg;
+        border-width: 2px;
+        color: $white-light-footer !important;
+        font-weight:500;
+        font-size:13px;
+        text-transform: uppercase;
+        margin:10px 0 0 20px;
+        padding:8px 18px !important;
+        border-left: 1px solid;
+    }
 
     .show .btn-header {
     color: rgba(255,255,255,0.4);
-    border-color: rgba(255,255,255,0.4);
+    border-color: rgba(255,255,255,0);
     background-color: $white-transparent-bg;
     border-width: 2px;
     color: $white-semitransparent-bg !important;

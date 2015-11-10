@@ -6,3 +6,8 @@
  }, false);
  window.ost();
 }
+
+
+// Download CSS images as backgrounds
+var world = $("<img/>");
+world.attr("src", "/images/world.png");

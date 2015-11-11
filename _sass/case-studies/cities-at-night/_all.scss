@@ -368,18 +368,6 @@
                 height: 450px;
             }
 
-            @media only screen and (-webkit-min-device-pixel-ratio: 2), 
-            only screen and (min-device-pixel-ratio: 2) {
-
-                .jumbotron {
-                    /* Reference the @2x Sprite */
-                    background:  url('../images/small-world@2x.png') no-repeat top center;
-                    /* Translate the @2x sprite's dimensions back to 1x */
-                    background-size: 701px 500px !important;
-
-                }
-            }
-
             .jumbotron-no-world {
                 height: 450px;
             }

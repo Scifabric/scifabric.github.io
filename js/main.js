@@ -35,6 +35,9 @@ $(function() {
 
     setRetinaPictures();
 
+    var blueLogo = $("<img/>");
+    blueLogo.attr("src", "/images/nav-logo-blue.svg");
+
 
     $(window).scroll(function() {
         if ($(this).scrollTop() > 250){  

@@ -6,7 +6,7 @@ quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
 photo: /assets/img/blog/Sound.jpg
 photo_author: Matt Roberts
 photo_url: https://www.flickr.com/photos/cpgmattr/545663150/
-intro: "How to use Crowdcrafting for research involving sound pattern recognition"
+description: "How to use Crowdcrafting for research involving sound pattern recognition"
 author: jimmyd
 keywords: crowdsourcing, crowdcrafting, PyBossa, open, source, science, citizen, opensource, brain, processor, cognitive, image, pattern, recognition, sound 
 ---

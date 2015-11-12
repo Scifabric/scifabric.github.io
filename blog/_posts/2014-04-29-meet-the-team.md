@@ -6,7 +6,7 @@ quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
 photo: /assets/img/blog/crowd.jpg
 photo_author: Ding Yuin Shan
 photo_url: https://www.flickr.com/photos/90461913@N00/7901102136/
-intro: "Welcome to the new and improved PyBossa 0.2.1 – the only 100% open source crowdsourcing framework."
+description: "Welcome to the new and improved PyBossa 0.2.1 – the only 100% open source crowdsourcing framework."
 author: jimmyd
 keywords: crowdsourcing, PyBossa, open, source, science, citizen
 ---

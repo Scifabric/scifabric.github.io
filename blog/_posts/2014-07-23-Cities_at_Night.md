@@ -6,7 +6,7 @@ quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
 photo: /assets/img/blog/city.jpg
 photo_author: Kohei Kanno
 photo_url: https://www.flickr.com/photos/flyingover/16203192036/
-intro: "Help the Cities at Night team analyse thousands of photographs from the International Space Station to fight light pollution"
+description: "Help the Cities at Night team analyse thousands of photographs from the International Space Station to fight light pollution"
 author: jimmyd
 keywords: crowdsourcing, crowdcrafting, PyBossa, open, source, science, citizen, opensource, NASA, ESA 
 ---

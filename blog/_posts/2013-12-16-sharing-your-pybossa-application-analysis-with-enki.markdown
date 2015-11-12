@@ -5,7 +5,7 @@ date: 2013-12-16
 photo: /assets/img/blog/enki.jpg
 photo_author: Georgelazenby
 photo_url: http://en.wikipedia.org/wiki/File:Chaos_Monster_and_Sun_God.png
-intro: "Now you can not only share your analysis, you can also get feedback and patches on it as a iPython notebook, tweet about it, and improve it over time because you can save the notebook as a Github Gist."
+description: "Now you can not only share your analysis, you can also get feedback and patches on it as a iPython notebook, tweet about it, and improve it over time because you can save the notebook as a Github Gist."
 author: teleyinex
 keywords: analysis, statistics, pybossa, ipython, open science
 ---

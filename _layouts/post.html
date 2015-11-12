@@ -40,7 +40,7 @@ css: blog
                     </li>
                     <li>
                     <a
-                        href='javascript:window.open("https://twitter.com/intent/tweet?text={{page.intro|escape}}&url=http://pybossa.com{{page.url}}","_blank","width=500,height=450");void(0);' class="twitter">
+                        href='javascript:window.open("https://twitter.com/intent/tweet?text={{page.description|escape}}&url=http://pybossa.com{{page.url}}","_blank","width=500,height=450");void(0);' class="twitter">
                         <i class="fa fa-twitter"></i>
                         <span>Twitter</span>
                     </a>
@@ -61,7 +61,7 @@ css: blog
 
 <div class="container post-detail first-container">
     <div class="col-md-8 col-md-offset-2">
-        <p class="intro">{{page.intro}}</p>
+        <p class="intro">{{page.description}}</p>
         {{ content }}
         <!--<p class="post-quote">{{page.quote}}</p>-->
     </div>

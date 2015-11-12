@@ -6,7 +6,7 @@ quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
 photo: /assets/img/blog/WorldChange.jpg
 photo_author: Neal Fowler
 photo_url: https://www.flickr.com/photos/31878512@N06/3904638720/
-intro: "James Doherty quizzes PyBossa founder Daniel Lombraña on his keynote speech and experiences at Empodera LIVE"
+description: "James Doherty quizzes PyBossa founder Daniel Lombraña on his keynote speech and experiences at Empodera LIVE"
 author: jimmyd
 keywords: crowdsourcing, crowdcrafting, PyBossa, open, source, science, citizen, opensource, brain, processor, cognitive, image, pattern, recognition 
 ---

@@ -6,7 +6,7 @@ quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
 photo: /assets/img/blog/Eye.jpg
 photo_author: Artiom Gorgan
 photo_url: https://www.flickr.com/photos/artiomgorgan/8791577401/
-intro: "The first in a series of blog posts showcasing how researchers can use Crowdcrafting to tap into superior human cognitive powers"
+description: "The first in a series of blog posts showcasing how researchers can use Crowdcrafting to tap into superior human cognitive powers"
 author: jimmyd
 keywords: crowdsourcing, crowdcrafting, PyBossa, open, source, science, citizen, opensource, brain, processor, cognitive, image, pattern, recognition 
 ---

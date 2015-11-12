@@ -6,7 +6,7 @@ quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
 photo: /assets/img/blog/evolve.jpg
 photo_author: Keoni Cabral
 photo_url: https://www.flickr.com/photos/keoni101/8084689965/
-intro: "PyBossa facilitates new wave of crowdsourced research into the humanities"
+description: "PyBossa facilitates new wave of crowdsourced research into the humanities"
 author: jimmyd
 keywords: crowdsourcing, crowdcrafting, PyBossa, open, source, science, citizen, opensource, music, cognitive, image, pattern, recognition, sound 
 ---

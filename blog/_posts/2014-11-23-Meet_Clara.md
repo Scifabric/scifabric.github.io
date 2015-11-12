@@ -6,7 +6,7 @@ quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
 photo: /assets/img/blog/Community.jpg
 photo_author: Ian Sane
 photo_url: https://www.flickr.com/photos/31246066@N04/4936872846/in/photolist-5TBjYh-jjcJWJ-8wfLim-fkvHcD-75xGUT-5EqEBT-HCQMZ-aBcNvp-4AJXm-4G11LM-3gLyCc-aEA8jY-aFN9t8-5jJhhD-akHupi-4XjjuD-9B5tek-nfoJQy-7T9N7x-8CB2Eo-cJjh1W-aAfuXG-6xoKTk-6JtVTp-9nHEwk-aC1YHf-c18FW-aZAPDn-HCUCr-aFm7kp-JKSJU-4XZQr2-bessLk-nNcpK-oyNJup-do64P-7ZbWxC-5qbSex-9R2T7C-5J3RaS-Wqkr4-ai5mFR-dr2Qet-aDWxVU-9oX49f-7Efw9Y-arJaGx-6jCSeQ-n4Z2oA-6y18Yp
-intro: "James Doherty interviews Clara Sánchez-Puga, PyBossa's newly appointed Community Manager"
+description: "James Doherty interviews Clara Sánchez-Puga, PyBossa's newly appointed Community Manager"
 author: jimmyd
 keywords: crowdsourcing, crowdcrafting, PyBossa, open, source, science, citizen, opensource, Madrid, Webmaker, community, Manager 
 ---

@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{page.title}}</title>
-        <meta name="description" content="{{page.title}}">
+        <title>{{page.title}} - SciFabric</title>
+        <meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{page.title}}{% endif %}">
         <meta name="viewport" content="width=device-width">
 
         <!-- Custom CSS -->
@@ -21,6 +21,7 @@
         <meta name="twitter:title" content="{{page.title}}" />
         <meta name="twitter:description" content="{{page.title}}" />
         <meta name="twitter:image" content="http://scifabric.com/images/bg.jpg" />
+        <meta property="fb:page_id" content="907611755994273"/>
 
         <script src="/js/modernizr.custom.js" type="text/javascript" charset="utf-8"></script>
 

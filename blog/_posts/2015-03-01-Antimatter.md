@@ -6,7 +6,7 @@ quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
 photo: /assets/img/blog/Antimatter3.jpg
 photo_author: AEgIS, CERN
 photo_url: http://aegis.web.cern.ch/aegis/
-intro: "Help CERN’s AEgIS experiment work out how antimatter interacts with gravity. Just join the dots!"
+description: "Help CERN’s AEgIS experiment work out how antimatter interacts with gravity. Just join the dots!"
 author: jimmyd
 keywords: crowdsourcing, crowdcrafting, PyBossa, open, source, science, citizen, opensource, CERN, antimatter, Michael Doser, particle physics 
 ---

@@ -6,7 +6,7 @@ quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
 photo: /assets/img/blog/Mosquito3.jpg
 photo_author: Department of Foreign Affers
 photo_url: https://www.flickr.com/photos/dfataustralianaid/10703811283/
-intro: "Rural Geolocator project helps field teams in Africa create Malaria-free zones"
+description: "Rural Geolocator project helps field teams in Africa create Malaria-free zones"
 author: jimmyd
 keywords: crowdsourcing, crowdcrafting, PyBossa, open, source, science, citizen, opensource, Malaraia, Kenya, Malawi, HDSS, Field Study 
 ---

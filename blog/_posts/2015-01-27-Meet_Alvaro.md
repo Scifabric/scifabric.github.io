@@ -6,7 +6,7 @@ quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
 photo: /assets/img/blog/design.jpg
 photo_author: Jeffrey Zeldman
 photo_url: https://www.flickr.com/photos/zeldman/18931698353/
-intro: "PyBossa’s new UX designer Álvaro Suárez Pérez tells James Doherty about his new job, Spanish history and very clever dog.
+description: "PyBossa’s new UX designer Álvaro Suárez Pérez tells James Doherty about his new job, Spanish history and very clever dog.
 "
 author: jimmyd
 keywords: crowdsourcing, crowdcrafting, PyBossa, open, source, science, citizen, opensource, Madrid, Webmaker, community, Manager 

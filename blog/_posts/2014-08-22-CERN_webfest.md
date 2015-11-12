@@ -5,7 +5,7 @@ date:   2014-08-22
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
 photo: /assets/img/blog/Mug.jpg
 photo_author: James Doherty
-intro: "PyBossa-powered project GeotagX takes home honours at the CERN Summer Student Webfest"
+description: "PyBossa-powered project GeotagX takes home honours at the CERN Summer Student Webfest"
 author: jimmyd
 keywords: crowdsourcing, crowdcrafting, PyBossa, open, source, science, citizen, opensource, NASA, ESA 
 ---

@@ -5,7 +5,7 @@ date:   2014-07-04
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
 photo: /assets/img/blog/CClogo.png
 photo_author: Jorge Correa
-intro: "PyBossa launches hi-spec new version of crowdsourcing platform Crowdcrafting.org"
+description: "PyBossa launches hi-spec new version of crowdsourcing platform Crowdcrafting.org"
 author: jimmyd
 keywords: crowdsourcing, crowdcrafting, PyBossa, open, source, science, citizen, opensource 
 ---

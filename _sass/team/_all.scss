@@ -63,3 +63,20 @@
 .jorge-bg {
     background: url("../images/jorge-bg.jpg") no-repeat center top / cover;
 }
+
+@media (max-width: 767px){
+.team-portratit{
+    display: block;
+    margin: auto;
+    float: none;
+}
+
+.team-bg h3, .team-bg p{
+	text-align: center;
+}
+
+.team-bg p{
+	margin: auto;
+}
+
+}

@@ -1,0 +1,82 @@
+.team-bg{
+	background-color: #f7f7f7;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+.team-portratit{
+	float: left;
+	margin-right: 40px;
+	border-radius: 50%;
+}
+
+.team-bg h3{
+	font-size: 18px;
+	color: #077CA0;
+	font-weight: bold;
+	margin-top: 0px;
+	line-height: 1.2;
+}
+
+.team-bg h3 span{
+	font-weight: 200;
+}
+
+.team-bg h3 a{
+	font-size: 18px;
+	color: #077CA0;
+	text-decoration: underline;
+}
+
+.team-bg h3 br{
+    display: inherit;
+}
+
+.team-bg p{
+	margin-left: 190px;
+}
+
+.daniel-bg {
+    background: url("../images/daniel-bg.jpg") no-repeat center top / cover;
+}
+
+.alejandro-bg {
+    background: url("../images/alejandro-bg.jpg") no-repeat center top / cover;
+}
+
+.clara-bg {
+    background: url("../images/clara-bg.jpg") no-repeat center top / cover;
+}
+
+.alvaro-bg {
+    background: url("../images/alvaro-bg.jpg") no-repeat center top / cover;
+}
+
+.marvin-bg {
+    background: url("../images/marvin-bg.jpg") no-repeat center top / cover;
+}
+
+.james-bg {
+    background: url("../images/james-bg.jpg") no-repeat center top / cover;
+}
+
+.jorge-bg {
+    background: url("../images/jorge-bg.jpg") no-repeat center top / cover;
+}
+
+@media (max-width: 767px){
+.team-portratit{
+    display: block;
+    margin: auto;
+    float: none;
+}
+
+.team-bg h3, .team-bg p{
+	text-align: center;
+}
+
+.team-bg p{
+	margin: auto;
+}
+
+}

@@ -32,22 +32,23 @@ navbar: default
             <div class="col-xs-12 col-sm-4">
                 <ul class="share-social">
                     <li>
+                    <a
+                        href='javascript:window.open("https://twitter.com/intent/tweet?text={{page.description|escape}}&url=http://scifabric.com{{page.url}}&via=Scifabric","_blank","width=500,height=450");void(0);' class="twitter">
+                        <i class="fa fa-twitter"></i>
+                        <span>Twitter</span>
+                    </a>
+                    </li>
+
+                    <li>
                     <a href="javascript:window.open('http://www.facebook.com/sharer/sharer.php?u=http://scifabric.com{{ page.url }}', '_blank', 'width=500,height=450');void(0);" class="facebook">
                         <i class="fa fa-facebook"></i>
                         <span>Facebook</span>
                     </a>
                     </li>
                     <li>
-                    <a
-                        href='javascript:window.open("https://twitter.com/intent/tweet?text={{page.description|escape}}&url=http://scifabric.com{{page.url}}&via=S","_blank","width=500,height=450");void(0);' class="twitter">
-                        <i class="fa fa-twitter"></i>
-                        <span>Twitter</span>
-                    </a>
-                    </li>
-                    <li>
-                    <a href="javascript:window.open('https%3A%2F%2Fplus.google.com%2Fshare?url=http%3A%2F%2Fpybossa.com{{ page.url }}', '_blank', 'width=500,height=450');void(0);" class="google-plus">
-                        <i class="fa fa-google-plus"></i>
-                        <span>Google+</span>
+                    <a href="javascript:window.open('https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fscifabric.com{{ page.url }}', '_blank', 'width=500,height=450');void(0);" class="linkedin">
+                        <i class="fa fa-linkedin-square"></i>
+                        <span>LinkedIn</span>
                     </a>
                     </li>
                 </ul>

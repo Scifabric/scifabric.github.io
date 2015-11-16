@@ -10,8 +10,8 @@
         <!-- Custom CSS -->
         <link href="/css/bootstrap.css" rel="stylesheet">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-        <link href="/css/default.css" rel="stylesheet">
-        <link href="/css/{{page.css}}.css" rel="stylesheet">
+        <link href="/css/default.css?x={{site.time | date: '%s'}}" rel="stylesheet">
+        <link href="/css/{{page.css}}.css?x={{site.time | date: '%s'}}" rel="stylesheet">
 
         <script src="/js/modernizr.custom.js" type="text/javascript" charset="utf-8"></script>
 
@@ -21,13 +21,13 @@
         <meta name="twitter:site" content="@Scifabric"/>
         <meta name="twitter:title" content="The story of a man fighting light pollution from space."/>
         <meta name="twitter:description" content="Cities at Night is a research that aims to raise awareness of light pollution and provide tools for monitoring it." />
-        <meta name="twitter:image" content="http://scifabric.com/images/citiesatnight-twittercard.png" />
+        <meta name="twitter:image" content="http://scifabric.com/images/citiesatnight-twittercard.png?x={{site.time | date: '%s'}}" />
         <!-- Open Graph -->
         <meta property="og:title" content="The story of a man fighting light pollution from space." />
         <meta property="og:type" content="article" />
         <meta property="og:url" content="http://scifabric.com/citiesatnight/" />
         <meta property="og:description" content="Cities at Night is a research that aims to raise awareness of light pollution and provide tools for monitoring it." />
-        <meta property="og:image" content="http://scifabric.com/images/citiesatnight-facebookcard.png" />
+        <meta property="og:image" content="http://scifabric.com/images/citiesatnight-facebookcard.png?x={{site.time | date: '%s'}}" />
         <meta property="og:tag" content="crowdsourcing, research, citizenscience" />
         <meta property="fb:page_id" content="907611755994273"/>
 

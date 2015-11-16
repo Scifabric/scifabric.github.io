@@ -17,7 +17,7 @@ navbar: default
         <script async defer src="http://slackin.crowdcrafting.org/slackin.js"></script>
         </p>
 
-        <p class="post-date">{{ page.date | date: "%-d %B %Y" }} by <a href="{{member.homepage}}">{{member.name}} {{member.surname}}</a>
+        <p class="post-date">{{ page.date | date: "%-d %B %Y" }} by <a href="/team/#{{member.author}}">{{member.name}} {{member.surname}}</a>
         </p>
         {% endif %}
         {% endfor %}

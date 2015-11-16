@@ -2,7 +2,7 @@ var currentURL = encodeURIComponent(window.location.href);
 
 if (currentURL.indexOf('localhost') > -1) {
     console.log("As you're in localhost we use our Crowdcrafting site.");
-    currentURL = encodeURIComponent('http://scifabric.com/citiesatnight/');
+    currentURL = encodeURIComponent('http://scifabric.com/success-stories/citiesatnight/');
 }
 
 var twitterEndpoint = 'https://cdn.api.twitter.com/1/urls/count.json?url=' + currentURL + '&callback=?';

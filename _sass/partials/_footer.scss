@@ -35,22 +35,25 @@ footer .logo_sf {
     margin-top: 25px;
 }
 
+
 .column p {
+    text-align: left;
     line-height: 0.8;
+    font-size: 14px;
 }
 
 
+.column p strong {
+    font-size: 16px;
+}
 
-@media (min-width:768px) {
-    .column > :not(:first-child) {
-        border-left:2px solid #D3D3D3;
+@media (max-width:768px) {
+    .column p {
+        text-align: center;
     }
-
-    .column > div {
-    min-height: 100px;
 }
 
-}
+
 
 @media (max-width:767px) {
     svg {

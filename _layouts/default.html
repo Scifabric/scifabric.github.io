@@ -16,11 +16,18 @@
 
 
         <!-- Twitter -->
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@scifabric" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@Scifabric" />
         <meta name="twitter:title" content="{{page.title}}" />
-        <meta name="twitter:description" content="{{page.title}}" />
-        <meta name="twitter:image" content="http://scifabric.com/images/bg.jpg" />
+        <meta name="twitter:description" content="{{page.description}}" />
+        <meta name="twitter:image" content="http://scifabric.com{{page.photo}}?x={{site.time | date: '%s'}}" />
+        <!-- Open Graph -->
+        <meta property="og:title" content="{{page.title}}" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="http://scifabric.com{{page.url}}" />
+        <meta property="og:description" content="{{page.description}}"/>
+        <meta property="og:image" content="http://scifabric.com{{page.photo}}?x={{site.time | date: '%s'}}" />
+        <meta property="og:tag" content="crowdsourcing, research, citizenscience" />
         <meta property="fb:page_id" content="907611755994273"/>
 
         <script src="/js/modernizr.custom.js" type="text/javascript" charset="utf-8"></script>
@@ -73,73 +80,9 @@
 
         </section>
 
-    <footer>
-        <div class="container">
-            
-            <div class="row">
-                <div class="col-md-12"> 
-                    <img alt="SciFabric Logo" class="logo_horiz" src="/images/nav-logo.svg">
-                    <p>Developing <a href="http://pybossa.com/">PyBossa</a> and hosting <a href="http://crowdcrafting.org/">Crowdcrafting</a> since 2011</p>
-    
-                </div>
-            </div>
-            <div class="row column">
-                
-                <div class="col-sm-4 col-md-offset-1 col-md-3">
-             
-                    <p><strong>Products</strong></p>
-                    <p><a href="http://pybossa.com">Pybossa</a></p>
-                    <p><a href="http://crowdcrafting.org">Crowdcrafting</a></p>
-
-                </div>
-                
-                <div class="col-sm-4 col-md-4">
-                    
-                    <svg class="visible-xs"><line x1="0" y1="0" x2="35" y2="0"/></svg>
-                    
-                    <p><strong>Services</strong></p>
-                    <p><a href="/training/">PyBossa training</a></p>
-                    <p><a href="/pybossa-cloud-servers/">Pybossa cloud servers</a></p>
-                    <p><a href="/pybossa-cloud-servers/#support">Pybossa support</a></p>
-                    
-                </div>
-                
-                <div class="col-sm-4 col-md-3">
-                    
-                    <svg class="visible-xs"><line x1="0" y1="0" x2="35" y2="0"/></svg> 
-                    
-                    <p><strong>Social</strong></p>
-                    <p><a href="/blog">Blog</a></p>
-                    <p><a href="http://twitter.com/PyBossa/">Twitter</a></p>
-                    <p><a href="https://www.facebook.com/scifabric/">Facebook</a></p>
-
-                </div>
-
-            </div>
-            
-            <div class="col-md-12">
-                <a href="https://shuttleworthfoundation.org">
-                <img class="logo_sf" src="../images/logo_sf.svg" width="279"></a>
-            </div>
-
-        </div>
-         <!--<p class="credits-handler">This has been possible thanks to <a id="credits-handler" href="#">open licensed content.</a></p>
-                    <div class="row credits">
-                        <div class="col-md-6">
-                            <h6>Images</h6>
-                            <p><a target="_blank" href="https://www.flickr.com/photos/nasacommons/9449352803/">NASA on The Commons (No &copy; restrictions)</a></p>
-                            <p><a target="_blank" href="https://www.flickr.com/photos/gsfc/8247962102/">NASA Goddard Space Flight (CC-BY)</a></p>
-                            <p><a target="_blank" href="https://www.flickr.com/photos/shanelin/4344198946">Shane Lin (CC-BY)</a></p>
-                            <p><a target="_blank" href="https://www.flickr.com/photos/tom_hall_nz/17317951241/">Tom Hall (CC-BY)</a></p>
-        
-                        </div>
-                        <div class="col-md-6">
-                            <h6>Audio</h6>
-                            <p><a target="_blank" href="https://archive.org/details/Apollo11AudioHighlights">NASA (Public Domain Mark 1.0)</a></p>
-        
-                        </div>
-                    </div>-->
-    </footer>
+        <footer>
+        {% include footer.html %}
+        </footer>
         {% include defaultjs.html %}
     </body>
 </html>

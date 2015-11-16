@@ -14,11 +14,21 @@
     height: auto;
 }
 
-.jumbotron h2 {
+.jumbotron h2,
+.jumbotron h1 {
     font-size: 48px;
     color: $white-font;
     margin-bottom: 20px;
     margin-top: 40px;
+}
+
+.jumbotron .white a {
+    text-align: center;
+    color: white;
+    height:40px;
+    font-size: 16px;
+    font-family: helvetica,arial,sans-serif;
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
@@ -58,6 +68,10 @@
 
 .jumbotron-training {
     background: #333 url("../images/training.jpg") no-repeat fixed center top / cover;
+}
+
+.jumbotron-dark-flare{
+    background: #333 url("/images/dark-flare.jpg") no-repeat fixed center top / cover;
 }
 
 .jumbotron-team {

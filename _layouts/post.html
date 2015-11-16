@@ -3,9 +3,10 @@ layout: default
 body_class: blog
 active: blog
 css: blog
+navbar: default
 ---
 <div class="jumbotron_small jumbotron jumbotron-blog" style='background: #333 url("{{page.photo}}") no-repeat fixed center top / cover;'>
-    <div class="container text-center firstfold">
+    <div class="container top60 text-center">
         <h2 class="title">{{page.title}}</h2>
         <div id="logo-front" class="center-block">
             <img alt="SciFabric Logo" src="/images/scifabric_logo_white_vert_trans.svg" onerror="this.onerror=null; this.src='/images/scifabric_logo_white_vert_trans.png'" width="100%">
@@ -31,14 +32,14 @@ css: blog
             <div class="col-xs-12 col-sm-4">
                 <ul class="share-social">
                     <li>
-                    <a href="javascript:window.open('http%3A%2F%2Fwww.facebook.com%2Fshare.php%3Fu%3Dhttp%3A%2F%2Fpybossa.com{{ page.url }}', '_blank', 'width=500,height=450');void(0);" class="facebook">
+                    <a href="javascript:window.open('http://www.facebook.com/sharer/sharer.php?u=http://scifabric.com{{ page.url }}', '_blank', 'width=500,height=450');void(0);" class="facebook">
                         <i class="fa fa-facebook"></i>
                         <span>Facebook</span>
                     </a>
                     </li>
                     <li>
                     <a
-                        href='javascript:window.open("https://twitter.com/intent/tweet?text={{page.description|escape}}&url=http://pybossa.com{{page.url}}","_blank","width=500,height=450");void(0);' class="twitter">
+                        href='javascript:window.open("https://twitter.com/intent/tweet?text={{page.description|escape}}&url=http://scifabric.com{{page.url}}&via=S","_blank","width=500,height=450");void(0);' class="twitter">
                         <i class="fa fa-twitter"></i>
                         <span>Twitter</span>
                     </a>

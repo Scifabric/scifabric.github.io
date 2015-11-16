@@ -20,6 +20,10 @@ ul.share-social
     font-family: "Open Sans",helvetica,arial,sans-serif;
 }
 
+.share-social a {
+    text-shadow: none !important;
+}
+
 ul.share-social {
     padding-left: 0px;
 }
@@ -43,7 +47,7 @@ ul.share-social {
 .post-date a,
 .back-to-blog-index a,
 p.back-to-blog-index{
-    color:white;
+    color: white;
 }
 
 .post-date,
@@ -68,7 +72,7 @@ ul.share-social li {
 }
 ul.share-social li a {
     display:block;
-    background-color:#eee;
+    background-color: white;
     border:0;
     color:#428bca;
     border-radius:3px;

@@ -7,7 +7,6 @@ if (currentURL.indexOf('localhost') > -1) {
 
 
 
-var twitterEndpoint = 'https://cdn.api.twitter.com/1/urls/count.json?url=' + currentURL + '&callback=?';
 var facebookEndpoint = 'https://graph.facebook.com/' + currentURL;
 var linkedinEndpoint = 'https://www.linkedin.com/countserv/count/share?url=' + currentURL + "&format=jsonp&callback=?";
 
@@ -16,13 +15,11 @@ var facebook_counter = 0;
 var linkedin_counter = 0;
 
 
-$.when($.getJSON( twitterEndpoint, "jsonp"),
+$.when(
        $.getJSON( linkedinEndpoint, "jsonp"),
        $.getJSON( facebookEndpoint, "jsonp")
-        ).done(function(t,l,f){
+        ).done(function(l,f){
             var event = new Event('defaultURLdone');
-            console.log("Twitter:" + t[0].count);
-            twitter_counter += t[0].count;
 
             console.log("Linkedin: " + l[0].count);
             linkedin_counter += l[0].count;
@@ -37,18 +34,15 @@ $.when($.getJSON( twitterEndpoint, "jsonp"),
 if (window.bitly_link) {
     currentURL = window.bitly_link;
     console.log(window.bitly_link);
-    var twitterEndpoint = 'https://cdn.api.twitter.com/1/urls/count.json?url=' + currentURL + '&callback=?';
     var facebookEndpoint = 'https://graph.facebook.com/' + currentURL;
     var linkedinEndpoint = 'https://www.linkedin.com/countserv/count/share?url=' + currentURL + "&format=jsonp&callback=?";
     
     
-    $.when($.getJSON( twitterEndpoint, "jsonp"),
+    $.when(
            $.getJSON( linkedinEndpoint, "jsonp"),
            $.getJSON( facebookEndpoint, "jsonp")
-            ).done(function(t,l,f){
+            ).done(function(l,f){
                 var event = new Event('bitlyURLdone');
-                console.log("Twitter:" + t[0].count);
-                twitter_counter += t[0].count;
     
                 console.log("Linkedin: " + l[0].count);
                 linkedin_counter += l[0].count;
@@ -62,8 +56,8 @@ if (window.bitly_link) {
 }
 
 
-function update_counters(facebook, twitter, linkedin) {
-    $("#twitterCount").html('<i class="fa fa-twitter-square"></i>Twitter ' + twitter_counter);
+function update_counters(facebook, linkedin) {
+    $("#twitterCount").html('<i class="fa fa-twitter-square"></i>Twitter ');
 
     $("#facebookCount").html('<i class="fa fa-facebook-square"></i>Facebook ' + facebook_counter);
 
@@ -73,11 +67,11 @@ function update_counters(facebook, twitter, linkedin) {
 
 var elem = document.getElementById('twitterCount');
 elem.addEventListener('defaultURLdone', function(e){
-    update_counters(facebook_counter, twitter_counter, linkedin_counter);
+    update_counters(facebook_counter, linkedin_counter);
 }, false);
 
 var elem_two = document.getElementById('facebookCount');
 
 elem_two.addEventListener('bitlyURLdone', function(e){
-    update_counters(facebook_counter, twitter_counter, linkedin_counter);
+    update_counters(facebook_counter, linkedin_counter);
 }, false);

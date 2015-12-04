@@ -11,7 +11,7 @@ author: jimmyd
 keywords: crowdsourcing, crowdcrafting, PyBossa, open, source, science, citizen, opensource, music, cognitive, image, pattern, recognition, sound 
 ---
 
-Crowdsourcing is an incredibly useful tool in science. PyBossa software has helped CERN to [track antimatter](http://pybossa.com/blog/2015/03/01/Antimatter/), NASA to [analyse light pollution from the International Space Station](http://pybossa.com/blog/2014/07/23/Cities_at_Night/) and the University of Basel to [fight Malaria in Africa](http://pybossa.com/blog/2014/10/03/Rural_Geolocator/). However, crowdsourcing has applications far beyond citizen science.
+Crowdsourcing is an incredibly useful tool in science. PyBossa software has helped CERN to [track antimatter](/blog/2015/03/01/Antimatter.html), NASA to [analyse light pollution from the International Space Station](/blog/2014/07/23/Cities_at_Night.html) and the University of Basel to [fight Malaria in Africa](/blog/2014/10/03/Rural_Geolocator.html). However, crowdsourcing has applications far beyond citizen science.
 
 This blog post focuses on how some of the world's leading research institutions are using PyBossa software to research the humanities. We describe three different projects run by the [British Museum](http://www.britishmuseum.org/), the [National Library of Israel](http://www.nlics.org/) and [University College London](http://www.ucl.ac.uk/) to show how PyBossa software can facilitate research, enhance collections and engage the public with the humanities.
 

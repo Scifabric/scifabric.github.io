@@ -11,7 +11,7 @@ author: jimmyd
 keywords: crowdsourcing, crowdcrafting, PyBossa, open, source, science, citizen, opensource, brain, processor, cognitive, image, pattern, recognition, sound 
 ---
 
-In the [first blog entry of this series](http://pybossa.com/blog/2015/04/02/Image_Pattern_Recognition/) we explained that, while computers are becoming incredibly sophisticated, the human brain remains a more versatile and effective tool for interpreting certain types of data. We explained how the brain is particularly adept at pattern recognition and how [Crowdcrafting](http://crowdcrafting.org/) may be used to exploit these abilities.
+In the [first blog entry of this series](/blog/2015/04/02/Image_Pattern_Recognition.html) we explained that, while computers are becoming incredibly sophisticated, the human brain remains a more versatile and effective tool for interpreting certain types of data. We explained how the brain is particularly adept at pattern recognition and how [Crowdcrafting](http://crowdcrafting.org/) may be used to exploit these abilities.
 
 # Listen up!
 

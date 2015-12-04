@@ -13,7 +13,7 @@ keywords: crowdsourcing, crowdcrafting, PyBossa, open, source, science, citizen,
 
 Welcome to the fourth and final installation of our ‘Brain vs. Processor’ blog series.  We’ve been highlighting that, whilst computers are awesome and all, humans are still much better at performing certain cognitive tasks. 
 
-In the first three parts of the series we have considered how adept the brain is at [image pattern recognition](http://pybossa.com/blog/2015/04/02/Image_Pattern_Recognition/), [sound pattern recognition](http://pybossa.com/blog/2015/05/10/Sound_Pattern_Recognition/) and [extracting information from data sets](http://pybossa.com/blog/2015/09/07/Data-mining/). This blog post is about how [Crowdcrafting](http://crowdcrafting.org/) can be used to tap into volunteers’ ability to spot patterns in moving images.
+In the first three parts of the series we have considered how adept the brain is at [image pattern recognition](/blog/2015/04/02/Image_Pattern_Recognition.html), [sound pattern recognition](/blog/2015/05/10/Sound_Pattern_Recognition.html) and [extracting information from data sets](/blog/2015/09/07/Data-mining.html). This blog post is about how [Crowdcrafting](http://crowdcrafting.org/) can be used to tap into volunteers’ ability to spot patterns in moving images.
 
 # Moving image analysis
 

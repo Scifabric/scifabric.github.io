@@ -13,7 +13,7 @@ keywords: crowdsourcing, crowdcrafting, PyBossa, open, source, science, citizen,
 
 Welcome to Part 3 of our Brain vs. Processor blog series, which is examining how the human brain remains a more versatile and effective tool than computers for interpreting certain types of data, and detailing how you can use [PyBossa](http://pybossa.com/) software to tap into these capabilities.
 
-So far we’ve talked about how humans are ace at interpreting [images](http://pybossa.com/blog/2015/04/02/Image_Pattern_Recognition/) and [sounds](http://pybossa.com/blog/2015/05/10/Sound_Pattern_Recognition/). This blog post focuses on another amazing skill we possess that you’re doing right now… yup, reading!
+So far we’ve talked about how humans are ace at interpreting [images](/blog/2015/04/02/Image_Pattern_Recognition.html) and [sounds](/blog/2015/05/10/Sound_Pattern_Recognition.html). This blog post focuses on another amazing skill we possess that you’re doing right now… yup, reading!
 
 # Interpretation skills
 

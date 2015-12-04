@@ -116,3 +116,66 @@ ul.as-seen-on > li > ul > li.screenshot a {
 ul.as-seen-on > li > ul > li span {
     display: none;
 }
+
+.presskit-logos > .intro,
+.presskit-images > .intro {
+    padding:0px 15px 10px;
+    width:75%;
+}
+
+div.presskit-logos h3 {
+    margin:30px 0 20px 15px;
+    color:#999;
+    font-size:20px;
+}
+
+.presskit-logos > .intro,
+.presskit-images > .intro {
+        width:100% !important;
+    }
+.presskit-logos > .intro p,
+.presskit-images > .intro p {
+        font-size:14px;
+    }
+.press-releases h2,
+.presskit-images > .intro h2 {
+        font-size:18px;
+    }
+.presskit-images > .intro h2 small,
+.presskit-logos > .intro h2 small {
+        display:block;
+        font-size:14px;
+        margin: 10px 0 0 0;
+    }
+.presskit-images h3,
+.presskit-logos h3 {
+        font-size:14px;
+    }
+.presskit-images img {
+        width:100%;
+        height:auto;
+    }
+
+.presskit-logos ul li span, .presskit-images ul li span {
+    text-align: center;
+}
+
+.presskit-logos ul, .presskit-images ul {
+    list-style-type: none;
+}
+
+.presskit-logos ul li img {
+    border-radius: 4px;
+}
+
+.presskit-logos ul li span, .presskit-images ul li span {
+    margin: 0px 0px 10px;
+    border-radius: 4px;
+    padding: 20px 5px;
+    min-height: 120px;
+    text-align: center;
+    background: transparent url("../img/press/press_kit_logos_bg.png") repeat-x scroll 0% 0%;
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+}

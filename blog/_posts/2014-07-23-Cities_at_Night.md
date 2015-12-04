@@ -19,7 +19,7 @@ Astronauts – like tourists – enjoy capturing the beautiful scenes they encou
 
 # Three projects
 
-[*Cities at Night*](http://www.citiesatnight.org/) have created three projects on PyBossa-powered crowdsourcing platform [*Crowdcrafting.org*](http://crowdcrafting.org/) (read about it [here](http://pybossa.com/blog/2014/07/04/crowdcrafting/)) to enlist the help of volunteers to classify and analyse photographs in the JSC database. The first task is to identify what can be seen in each photograph – stars, a city, an astronaut, darkness or a little green man perhaps? This task is carried out in the [*Dark Skies ISS project*](http://crowdcrafting.org/app/darkskies/).
+[*Cities at Night*](http://www.citiesatnight.org/) have created three projects on PyBossa-powered crowdsourcing platform [*Crowdcrafting.org*](http://crowdcrafting.org/) (read about it [here](/blog/2014/07/04/crowdcrafting.html)) to enlist the help of volunteers to classify and analyse photographs in the JSC database. The first task is to identify what can be seen in each photograph – stars, a city, an astronaut, darkness or a little green man perhaps? This task is carried out in the [*Dark Skies ISS project*](http://crowdcrafting.org/app/darkskies/).
 
 The next step is to identify the city in a photograph. In the [*Lost at Night project*](http://crowdcrafting.org/app/LostAtNight/), volunteers peruse photographs of cities then, on recognising a particular city (perhaps by its shape, notable features or through local knowledge), its location is noted on a world map.
 

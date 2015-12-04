@@ -1,0 +1,118 @@
+@import "modules/colors";
+
+.as-seen-on {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+}
+
+.as-seen-on.screens {
+    color: $white-font;
+}
+
+
+.as-seen-on.screens p {
+    font-size: 16px;
+}
+
+.bignews-banner {
+    background-color: $sciblue-bg;
+    margin: 40px auto 0px;
+    padding: 30px;
+    border-radius: 3px;
+}
+
+.bignews-banner img {
+    float: left;
+    margin-right: 30px;
+}
+
+.bignews-banner p {
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.bignews-banner p, .bignews-banner a {
+    color: rgb(255, 255, 255) !important;
+    font-size: 20px !important;
+    font-weight: 100;
+}
+
+.bignews-banner a {
+    font-size: 18px !important;
+    text-decoration: underline;
+}
+
+ .download-press-kit {
+    padding: 20px;
+    margin-top: 30px;
+    background-color: $grey-footer;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.download-press-kit p {
+    font-size: 16px;
+    width: 80%;
+    color: rgb(255, 255, 255) !important;
+    font-weight: 200 !important;
+    margin: 10px auto;
+}
+
+.download-press-kit .btn-info{
+    font-size: 14px;
+    padding: 10px 20px;
+    margin: 10px 5px;
+}
+
+ul.as-seen-on > li {
+    padding: 10px 0px;
+    margin: 0px;
+    border-bottom: 1px dotted rgb(221, 221, 221);
+}
+
+ul.as-seen-on > li:last-of-type {
+    border-bottom: medium none;
+}
+
+ul.as-seen-on > li > ul {
+    float: right;
+}
+
+ul.as-seen-on > li > span {
+    color: rgb(153, 153, 153);
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+}
+
+ul.as-seen-on > li > span > a {
+    color: rgb(102, 102, 102);
+    font-weight: 600;
+}
+
+ul.as-seen-on > li > a {
+    font-weight: 400;
+    font-size: 18px;
+    width: 80%;
+    display: inline-block;
+    color: $sciblue-font;
+}
+
+ ul.as-seen-on > li > ul > li {
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+ul.as-seen-on > li > ul > li.article a, 
+ul.as-seen-on > li > ul > li.screenshot a {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    color: rgb(153, 153, 153);
+}
+
+ul.as-seen-on > li > ul > li span {
+    display: none;
+}

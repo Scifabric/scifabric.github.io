@@ -76,6 +76,10 @@ ul.as-seen-on > li:last-of-type {
     border-bottom: medium none;
 }
 
+ul.screens > li {
+    border-bottom:none;
+}
+
 ul.as-seen-on > li > ul {
     float: right;
 }
@@ -117,13 +121,17 @@ ul.as-seen-on > li > ul > li span {
     display: none;
 }
 
+.presskit-images {
+    margin-bottom: 30px;
+}
+
 .presskit-logos > .intro,
 .presskit-images > .intro {
     padding:0px 15px 10px;
     width:75%;
 }
 
-div.presskit-logos h3 {
+.presskit-logos h3 {
     margin:30px 0 20px 15px;
     color:#999;
     font-size:20px;
@@ -151,10 +159,22 @@ div.presskit-logos h3 {
 .presskit-logos h3 {
         font-size:14px;
     }
+
+.presskit-logos h3 {
+    margin: 30px 0px 20px 15px;
+    color: rgb(153, 153, 153);
+    font-size: 20px;
+}
 .presskit-images img {
         width:100%;
         height:auto;
     }
+
+.presskit-logos li:hover a,
+.presskit-logos a,
+.presskit-logos a:hover {
+    color: $sciblue-font;
+}
 
 .presskit-logos ul li span, .presskit-images ul li span {
     text-align: center;
@@ -162,10 +182,18 @@ div.presskit-logos h3 {
 
 .presskit-logos ul, .presskit-images ul {
     list-style-type: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 .presskit-logos ul li img {
     border-radius: 4px;
+}
+
+.presskit-images ul li span {
+    padding: 0px;
+    width: 100%;
+    overflow: inherit;
 }
 
 .presskit-logos ul li span, .presskit-images ul li span {
@@ -174,8 +202,13 @@ div.presskit-logos h3 {
     padding: 20px 5px;
     min-height: 120px;
     text-align: center;
-    background: transparent url("../img/press/press_kit_logos_bg.png") repeat-x scroll 0% 0%;
+    background: transparent url("/assets/img/press/press_kit_logos_bg.png") repeat-x scroll 0% 0%;
     display: -moz-box;
     -moz-box-pack: center;
     -moz-box-align: center;
+}
+
+
+ ul.alt li.dark span, .presskit-images ul.alt li.dark span {
+    background-position: 0px -400px;
 }

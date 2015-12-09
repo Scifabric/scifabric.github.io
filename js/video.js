@@ -51,13 +51,10 @@ function scaleBannerVideoSize(element){
         $(this).width(windowWidth);
 
         $(this).css({'top' : 0});
-        //if(windowWidth < 1000){
-        //    videoHeight = windowHeight;
-        //    videoWidth = videoHeight / videoAspectRatio;
-        //    $(this).css({'margin-top' : 0, 'margin-left' : -(videoWidth - windowWidth) / 2 + 'px'});
-
-        //    $(this).width(videoWidth).height(videoHeight);
-        //}
+        if(windowWidth < 1000){
+            $("video").remove();
+            $(".poster").removeClass("hidden");
+        }
 
         $('.homepage-hero-module .video-container video').addClass('fadeIn animated');
 

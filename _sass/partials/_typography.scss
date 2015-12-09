@@ -10,50 +10,50 @@ body {
     @include vendor-prefix('font-smoothing', 'antialiased');
     text-shadow:0 0 1px transparent;
     text-rendering:optimizeLegibility;
-    color: $blue-light;
+    color: $grey;
     font-size: 16pt;
     font-weight: 400;
     line-height: 1.42857143;
 }
 
 h1 {
-    color: $blue-dark;
+    color: $dark-grey;
     font-size: 46pt;
     font-weight: 700;
 }
 
 h2  {
-    color: $blue-dark;
+    color: $dark-grey;
     font-size: 24pt;
     font-weight: 600;
 }
 
 h3 {
-    color: $white-light;
+    color: $bright-grey;
     font-size: 20pt;
     font-weight: 600;
 }
 
 p {
-    color: $blue-light;
+    color: $grey;
     font-size: 16pt;
     font-weight: 400;
 }
 
 p.lead {
-    color: $white-light;
+    color: $bright-grey;
     font-size: 20pt;
     font-weight: 400;
 }
 
 p.lead .dark {
-    color: $blue-light;
+    color: $grey;
     font-weight: 400;
     font-size: 20pt;
 }
 
 footer p {
-    color: $white-dark;
+    color: $semi-white;
     font-size: 16pt;
     font-weight: 400;
 }

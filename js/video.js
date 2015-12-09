@@ -51,7 +51,7 @@ function scaleBannerVideoSize(element){
         $(this).width(windowWidth);
 
         $(this).css({'top' : 0});
-        if(windowWidth < 1000){
+        if(windowWidth < 991){
             $("video").remove();
             $(".poster").removeClass("hidden");
         }

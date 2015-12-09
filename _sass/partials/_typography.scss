@@ -6,7 +6,7 @@
 @import "partials/mixins";
 
 body {
-    font-family: "Helvetica Neue", HelveticaNeue, Helvetica, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     @include vendor-prefix('font-smoothing', 'antialiased');
     text-shadow:0 0 1px transparent;
     text-rendering:optimizeLegibility;

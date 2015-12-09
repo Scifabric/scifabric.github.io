@@ -22,10 +22,15 @@ navbar: default
         {% endif %}
         {% endfor %}
         <div class="row white">
+            {% if page.type != 'press' %}
             <div class="col-xs-12 col-sm-4">
                 <p>« <a href="/blog/">Blog entries</a></p>
             </div>
-
+            {% else %}
+            <div class="col-xs-12 col-sm-4">
+                <p>« <a href="/press/">Press Release entries</a></p>
+            </div>
+            {% endif %}
             <div class="col-xs-12 col-sm-4">
                 <p>Photo by <a href="{{page.photo_url}}">{{page.photo_author}}</a></p>
             </div>

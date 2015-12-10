@@ -14,9 +14,7 @@
     height: auto;
 }
 
-.jumbotron h2,
 .jumbotron h1 {
-    font-size: 48px;
     color: $white-font;
     margin-bottom: 20px;
     margin-top: 40px;
@@ -139,6 +137,11 @@
     h1, p {
         color: $dark-grey;
     }
+
+    h2 {
+        color: $dark-grey;
+    }
+
     .circle-arrow {
         color: $white;
         margin-top: 15%;

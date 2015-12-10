@@ -52,23 +52,23 @@ $(function() {
         }
     });
 
-    $(window).scroll(function() {
-        var distanceToTop = $(this).scrollTop();
-        if (distanceToTop <= 10){
-            $('nav').removeClass('show');
-            $('#scifabricLogo').attr('src', '/images/nav-logo.svg');
-        }
-        else {
-            if ($("body").hasClass('case-study')) {
-                $('#scifabricLogo').attr('src', '/images/nav-logo.svg');
-            }
-            else {
-                $('#scifabricLogo').attr('src', '/images/nav-logo-blue.svg');
-            }
-            $('nav').addClass('show');
-        }
-    // setRetinaPictures();
-    });
+    // $(window).scroll(function() {
+    //     var distanceToTop = $(this).scrollTop();
+    //     if (distanceToTop <= 10){
+    //         $('nav').removeClass('show');
+    //         $('#scifabricLogo').attr('src', '/images/nav-logo.svg');
+    //     }
+    //     else {
+    //         if ($("body").hasClass('case-study')) {
+    //             $('#scifabricLogo').attr('src', '/images/nav-logo.svg');
+    //         }
+    //         else {
+    //             $('#scifabricLogo').attr('src', '/images/nav-logo-blue.svg');
+    //         }
+    //         $('nav').addClass('show');
+    //     }
+    // // setRetinaPictures();
+    // });
 
     $(window).load(function(){
         if ($(this).scrollTop() > 250) {

@@ -1,15 +1,16 @@
-.case_studies {
+.case-studies {
+    background-color: $grey-bg;
     padding-bottom:90px;
 }
 
-.case_studies{
+.case-studies{
     padding-bottom:60px;
     color: inherit;
     overflow: hidden;
     height: auto;
 }
 
-.case_studies h4 {
+.case-studies h4 {
     margin: 25px 10px 15px 10px;
     font-size:22px;
 }
@@ -19,7 +20,7 @@
 }
 
 
-.case_studies p.summary {
+.case-studies p.summary {
     font-weight:400;
     font-size:16px;
     color:#666;
@@ -29,11 +30,11 @@
 
 @media (max-width: 768px)  {
 
-    .case_studies p {
+    .case-studies p {
         font-size: 15px !important;
     }
 
-    .case_studies .col-xs-10 {
+    .case-studies .col-xs-10 {
         text-align:center;
         padding:0;
         margin-top: 20px;

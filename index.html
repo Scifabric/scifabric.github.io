@@ -133,105 +133,39 @@ css: home
 
 </div>
 
-
-
-<div class="tailoring" id="what-we-offer"><a name="tailoring"></a>
-    <div class="container">
-        <div class="col-md-12">
-            <h1 class="text-center color-primary uppercase bold top90">What we offer</h1>
-            <h3 class="text-center color-one down30">At your service</h3>
-            <p class="lead">How we can help you build your project</p>
-        </div>
-        <div class="col-sm-6 col-md-4 text-center">
-            <img alt="Crowdsourcing traning" src="images/training.svg">
-            <h4>PyBossa Training</h4>
-            <p>You want to learn how to use PyBossa and fly solo?</p>
-            <a href="/crowdsourcing/training/" class="btn btn-sm btn-info-2">Starting at 3000€/Course</a>
-        </div>
-        <div class="col-sm-6 col-md-4 text-center">
-            <img alt="Crowdsourcing hosting servers" src="images/support.svg" >
-            <h4>PyBossa Servers</h4>
-            <p>Forget about server hosting – we'll do the hard work.</p>
-            <a href="/crowdsourcing/pybossa-cloud-servers/" class="btn btn-sm btn-info-2">Starting at 150€/month</a>
-        </div>
-        <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0 text-center">
-            <img alt="Crowdsourcing consultancy" src="images/consultancy.svg">
-            <h4>Consultancy</h4>
-            <p>Your project is unique.<br/> You know it, we’ll build it.</p>
-            <a href="#contact" class="btn btn-sm btn-info-2">Contact us</a>
-        </div>
-    </div>
-</div>
-
-<div class="who_need_us education" id="education">
-    <div class="container">
-        <div class="col-md-offset-1 col-md-10 text-center">
-
-            <h3 class="down30 white top90">Hey teachers!</h3>
-            <p class="lead down50 white">We have courses on citizen science, volunteer thinking, volunteer sensing and more. Learn to teach your students how to create and participate in crowdsourced projects. Or let us be the teacher for a day!</p>
-        </div>  
-
-        <div class="col-xs-12 col-sm-12 col-md-8 ">
-            <div class="education-cover for-students">
-                <p class="uppercase">For teachers</p>
-                <div class="col-sm-6 col-md-6">
-                    <h4>TEACHING THROUGH CROWDSOURCING</h4>
-                    <p>Students can benefit from participation in crowdsourced projects. Learn how to make the most of this resource.</p><br>
+<div class="quotes"> 
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            {% for quote in site.data.quotes %}
+            <li data-target="#myCarousel" data-slide-to="{{ forloop.index0 }}" {% if forloop.first == true %}class="active"{% endif %}></li>
+            {% endfor %}
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            {% for quote in site.data.quotes %}
+            {% if forloop.first == true %}
+            <div class="item active">
+            {% else %}
+            <div class="item">
+            {% endif %}
+                <div class="container">
+                    <div class="quote-caption">
+                        <div class="row">
+                            <div class="col-md-offset-3 col-md-1">
+                                <img class="first-slide" src="/assets/img/portrait-quotes/{{quote.portrait}}" alt="{{quote.name}} Portrait">
+                            </div>
+                            <div class="col-md-8">
+                                <p><strong>{{quote.name}}</strong></p>
+                                <p><strong>{{quote.company}}</strong></p>
+                            </div>
+                            <div class="col-md-offset-3 col-md-6">
+                                <p class="add-quotes">{{quote.quote}}</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-6 col-md-6">
-                    <h4>INTRODUCTION TO<br/> CITIZEN SCIENCE </h4>
-                    <p>Create a crowdsourced project and enthuse your students about citizen science!</p><br>
-                </div>
-                <a href="#contact" class="btn btn-sm btn-link top20">Starting at 40EUR/person</a>
             </div>
+            {% endfor %}
         </div>
-        <div class="col-xs-12 col-sm-offset-0 col-sm-12 col-md-4">
-            <div class="education-cover for-students">
-                <p class="uppercase">For students from 12</p>
-                <h4>INTRODUCTION TO<br/> SCIENCE </h4>
-                <p>We'll introduce experimentation, the scientific method, hypotheses, observation and analysis. WE'LL MAKE THINGS EXPLODE.*</p>
-                <a href="#contact" class="btn btn-sm btn-link top20">Starting at 20EUR/person</a>
-                <p class="footnote">*Actually, we probably won't. Sorry. </p>
-            </div>
-        </div>
-
-        <div class="col-sm-12" style="text-align:center;">
-            <p class="down30 white top60 lead">We're all ears! <a class="white" href="/#contact">CONTACT US</a> and let us know what we can do for you.</p>
-        </div>
-    </div>
-</div>
-
-<div class="container contact" id="contact">
-    <div class="col-md-12 text-center down50">
-        <h1 class="color-primary uppercase bold top90">Get in touch</h1>
-        <h3 class="color-one">We'd love to hear from you</h3>
-    </div>
-
-    <div class="col-sm-6 col-md-6">
-        <h4>Business</h4>
-        <p>If you’re thinking of hiring us please contact<br/>
-        <a class="color-one" href="mailto:daniel@scifabric.com?Subject=Hello!">daniel@scifabric.com</a>
-        </p>
-    </div>
-
-    <div class="col-sm-6 col-md-6">
-        <h4>Support</h4>
-        <p>If you’re having technical issues please contact<br/> 
-        <a class="color-one" href="mailto:support@scifabric.com?Subject=Hello!">support@scifabric.com</a>
-        </p>
-    </div>
-
-    <div class="col-sm-6 col-md-6">
-        <h4>Press</h4>
-        <p>Press, PR, communications in general, write to<br/> 
-        <a class="color-one" href="mailto:clara@scifabric.com?Subject=Hello!">clara@scifabric.com</a>
-        </p>
-    </div>
-
-    <div class="col-sm-6 col-md-6">
-        <h4>Information</h4>
-        <p>Just to want to say 'Hi'? Please write to<br/> 
-        <a class="color-one" href="mailto:info@scifabric.com?Subject=Hello!">info@scifabric.com</a>
-        </p>
-    </div>
+    </div><!-- /.carousel -->
 </div>

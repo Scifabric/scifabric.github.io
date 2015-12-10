@@ -1,18 +1,19 @@
 .case-studies {
     background-color: $grey-bg;
+    padding-top: 90px;
     padding-bottom:90px;
-}
-
-.case-studies{
-    padding-bottom:60px;
-    color: inherit;
     overflow: hidden;
     height: auto;
 }
 
-.case-studies h4 {
-    margin: 25px 10px 15px 10px;
-    font-size:22px;
+
+.card {
+    background-color: $white;
+    h3 {
+        font-color: $grey;
+        font-weight: 600;
+        font-size: 20px;
+    }
 }
 
 .case-study-cover  .btn{

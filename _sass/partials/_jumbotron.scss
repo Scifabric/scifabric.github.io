@@ -146,6 +146,20 @@
         color: $white;
         margin-top: 15%;
     }
+
+    .circle {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 2px solid $white;
+
+        .fa.fa-arrow-down {
+            display: inline-block;
+            font-size: 30px;
+            margin-top: 15px;
+        }
+    }
 }
 
 

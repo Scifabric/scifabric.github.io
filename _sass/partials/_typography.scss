@@ -11,14 +11,14 @@ body {
     text-shadow:0 0 1px transparent;
     text-rendering:optimizeLegibility;
     color: $grey;
-    font-size: 16pt;
+    font-size: 16px;
     font-weight: 400;
     line-height: 1.42857143;
 }
 
 h1 {
     color: $dark-grey;
-    font-size: 46pt;
+    font-size: 46px;
     font-weight: 700;
 }
 
@@ -30,13 +30,13 @@ h2  {
 
 h3 {
     color: $bright-grey;
-    font-size: 20pt;
+    font-size: 20px;
     font-weight: 600;
 }
 
 p {
     color: $grey;
-    font-size: 16pt;
+    font-size: 16px;
     font-weight: 400;
 }
 
@@ -46,18 +46,18 @@ p.dark {
 
 p.lead {
     color: $bright-grey;
-    font-size: 20pt;
+    font-size: 20px;
     font-weight: 400;
 }
 
 p.lead.dark {
     color: $grey;
     font-weight: 400;
-    font-size: 20pt;
+    font-size: 20px;
 }
 
 footer p {
     color: $semi-white;
-    font-size: 16pt;
+    font-size: 16px;
     font-weight: 400;
 }

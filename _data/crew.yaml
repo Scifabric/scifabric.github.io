@@ -8,6 +8,7 @@
   avatar: daniel.jpg
   email: daniel@scifabric.com
   bio: "is an open-source developer and a researcher with a passion for citizen science."
+  longbio: "Daniel is our boss. A computer engineer with a PhD in parallel genetic programming on volunteer desktop grids. He is also a senior researcher at the Citizen Cyberscience Centre and a fellow of the Shuttleworth Foundation."
   homepage: http://daniellombrana.es
 
 - name: Marvin
@@ -17,8 +18,9 @@
   github: therealmarv
   twitter: therealmarv
   linkedin: marvinreimer
-  avatar: marvin.png
+  avatar: marvin.jpg
   bio: "software engineer with passion for everything related to smart, open, secure, standardized, mobile, cloud technology."
+  longbio: "Marvin is a Computer Engineer as well as sysadmin GNU/Linux systems. He is our senior developer, so that means he manages the infrastructure of Crowdcrafting as well as develops its technology: PyBossa. In order words: this wouldn't be up without him."
   homepage: http://therealmarv.com/
 
 - name: Alejandro
@@ -32,6 +34,7 @@
   avatar: alejandro.jpg
   email: alejandro@scifabric.com
   bio: "loves mathematics but only beated by his passion for developing web apps."
+  longbio: "Alejandro is our junior developer. He is a mathematician who also holds a degree in computer science. He is completely focused on becoming the best programmer in the world. Oh! And he occasionally sports the most magnificent beard."
   homepage: http://www.linkedin.com/in/alejandrodob
 
 - name: Jorge
@@ -43,6 +46,7 @@
   linkedin: jorgecorrea
   avatar: jorge.jpg
   bio: "loves helping people making meaningful products and services."
+  longbio: "Jorge is our lead designer. Pragmatic and handicraft front-end coder with over 15 years of experience. *Jaw dropping here, thanks. He helps people make beautiful and meaningful products and services."
   homepage: http://jcorrea.es
 
 - name: James
@@ -54,6 +58,7 @@
   linkedin: jamespjdoherty
   avatar: james.jpg
   bio: "is a physicist, citizen science enthusiast and communicator who turns science into stories."
+  longbio: "James is Scifabric's communications aficionado. He holds degrees in law and physics, and has completed a research project on the Large Hadron Collider at CERN. Impressive, huh?"
   homepage: http://www.quantumdiaries.org/author/james-doherty/
 
 - name: Clara
@@ -66,6 +71,7 @@
   linkedin: clarasanchezpuga
   avatar: clara.jpg
   bio: "is a creative copywriter who loves music and her family."
+  longbio: "Clara is our copywriter. She holds degrees in advertising and media, and a Masters degree in UX and Digital Products Design. But, most importantly, she also sings and plays guitar in a kick-ass rock band and, well, you don't!"
   homepage: http://roqueandodurisimo.com/
 
 - name: Álvaro
@@ -78,6 +84,7 @@
   linkedin: alvarosuarezperez
   avatar: alvaro.jpg
   bio: "is a UX/UI designer who really loves technology."
+  longbio: "Álvaro is our ‘user experience’ guy. He tries to make things look pretty, holds a Bachelor of Fine Arts, likes fighting with HTML and CSS code, and loves to learn new things. He is also a tech-lover who likes design, photography, science and dogs."
   homepage: http://www.alvarosuarez.com/
 
 

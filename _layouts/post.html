@@ -13,26 +13,26 @@ navbar: default
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 {% if page.type != 'press' %}
-                <p><a href="/blog/">Back to entries</a></p>
+                <p class="post-back"><a href="/blog/">Back to entries</a></p>
                 {% else %}
-                <p><a href="/press/">Back to press</a></p>
+                <p class="post-back"><a href="/press/">Back to press</a></p>
                 {% endif %}
 
                 <h1>{{page.title}}</h1>
                 <h2>{{page.description}}</h2>
-                <p>{{ page.date | date: "%-d %B %Y" }}</p>
+                <p class="post-details">{{ page.date | date: "%-d %B %Y" }}</p>
                 {% for member in site.data.crew %}
                 {% if member.author == page.author %}
-                <p>Post by <a href="/team/#{{member.author}}">{{member.name}} {{member.surname}}</a></p>
+                <p class="post-details">Post by <a href="/team/#{{member.author}}">{{member.name}} {{member.surname}}</a></p>
                 {% endif %}
                 {% endfor %}
-                <p>Cover photo by <a href="{{page.photo_url}}">{{page.photo_author}}</a></p>
+                <p class="post-details">Cover photo by <a href="{{page.photo_url}}">{{page.photo_author}}</a></p>
             </div>
-            <div class="col-md-8 col-md-offset-2">
+            <div class="top30 col-md-8 col-md-offset-2">
                 {{content}}
             </div>
             <div class="col-md-8 col-md-offset-2">
-                <p class="lead dark">Share this blog post: 
+                <p class="lead dark"><strong>Share this blog post:</strong>
                 <a
                     href='javascript:window.open("https://twitter.com/intent/tweet?text={{page.description|escape}}&url=http://scifabric.com{{page.url}}&via=Scifabric","_blank","width=500,height=450");void(0);' class="twitter">
                     <i class="fa fa-twitter-square"></i></a>
@@ -47,6 +47,45 @@ navbar: default
             </div>
         </div>
     </div>
+<div class="container blog-entries first-container">
+    <div class="col-md-offset-1 col-md-10">
+        {% for post in site.categories.blog %}
+        {% assign loopindex = forloop.index | modulo: 2 %}
+        <!-- modulo {{loopindex}} -->
+        {% if loopindex == 1 %}
+        <div class="row">
+            <div class="col-md-6">
+                <div class="thumbnail card">
+                    <div style="height: 222.5px; background: #333 url({{post.photo}}) no-repeat center top/ cover;"></div>
+                    <div class="caption">
+                        <h3>{{post.title}}</h3>
+                        <p>{{post.content | strip_html | truncate: 100 }}.</p>
+                    </div>
+                    <div class="readmore">
+                        <p><a href="{{site.prefix}}{{post.url}}">Read More</a></p>
+                    </div>
+                </div>
+            </div>
+        {% else %}
+            <div class="col-md-6">
+                <div class="thumbnail card">
+                    <div style="height: 222.5px; background: #333 url({{post.photo}}) no-repeat center top/ cover;"></div>
+                    <div class="caption">
+                        <h3>{{post.title}}</h3>
+                        <p>{{post.content | strip_html | truncate: 100 }}.</p>
+                    </div>
+                    <div class="readmore">
+                        <p><a href="{{site.prefix}}{{post.url}}">Read More</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        {% if forloop.index0 == 1 %} {% break %} {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
 
     {% include authorbanner.html %}
 </section>

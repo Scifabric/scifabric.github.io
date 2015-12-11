@@ -140,7 +140,18 @@ ul.share-social li a.linkedin:hover {
     background-color:rgb(26, 132, 188);
 }
 
-.post-caption {
+p.post-back,
+p.post-details {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+p.post-back {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+p.post-caption {
     font-size: 12px;
 }
 

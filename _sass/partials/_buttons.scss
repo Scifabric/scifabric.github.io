@@ -36,10 +36,11 @@
 
 .btn-info-2 {
     color: $sciblue-bg;
-    border-color: $sciblue-light-bg;
-    background-color: $white-transparent-bg;
+    border-color: $sciblue-bg;
+    background-color: $white;
     border-width:2px;
     font-weight:600;
+    border-radius: 2px;
 }
 .btn-info-2:hover,
 .btn-info-2:focus,

@@ -1,7 +1,8 @@
 @import "modules/colors";
 
+
 a {
-    color: $sciblue-font;
+    color: $blue-link;
 }
 
 .as-seen-on {
@@ -12,12 +13,14 @@ a {
 }
 
 .as-seen-on.screens {
-    color: $white-font;
+    color: $white;
 }
 
 
 .as-seen-on.screens p {
     font-size: 16px;
+    font-weight: 400;
+    color: $white;
 }
 
 .bignews-banner {
@@ -216,3 +219,8 @@ ul.as-seen-on > li > ul > li span {
  ul.alt li.dark span, .presskit-images ul.alt li.dark span {
     background-position: 0px -400px;
 }
+
+.featured p {
+    padding: 0px 10px 0px 10px;
+}
+

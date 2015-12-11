@@ -5,17 +5,17 @@
     color: inherit;
     right:0;left:0;top:0;bottom:0;
     overflow:hidden;
-    background: #0F3B49 url('../images/bg.jpg') no-repeat top center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: $quotes-bg url("/assets/img/science-icons-bg.png") repeat fixed center top;
     background-attachment:fixed;
     height: auto;
 }
 
+.jumbotron h1, 
+.jumbotron h2 {
+    color: $white;
+}
+
 .jumbotron h1 {
-    color: $white-font;
     margin-bottom: 20px;
     margin-top: 40px;
 }

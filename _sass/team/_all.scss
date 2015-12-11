@@ -9,8 +9,8 @@
 
 .team-bg{
 	background-color: #f7f7f7;
-	padding-top: 150px;
-	padding-bottom: 150px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .team-portratit{
@@ -21,19 +21,19 @@
 
 .team-bg h3{
 	font-size: 18px;
-	color: #077CA0;
-	font-weight: bold;
+	color: $sciblue;
+	font-weight: 600;
 	margin-top: 0px;
 	line-height: 1.2;
 }
 
 .team-bg h3 span{
-	font-weight: 200;
+	font-weight: 400;
 }
 
 .team-bg h3 a{
 	font-size: 18px;
-	color: #077CA0;
+	color: $sciblue;
 	text-decoration: underline;
 }
 

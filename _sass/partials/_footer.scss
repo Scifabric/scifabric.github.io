@@ -1,116 +1,38 @@
 footer {
-    background-color: $grey-footer;
-    text-align: center;
+    background-color: $grey-bg;
     color: white;
     padding:100px 0 80px ;
     margin:0;
 }
 
+footer .col-md-2 p:first-child
+{
+  padding-bottom: 30px;
+}
+
 footer p{
-    color: $white-light-footer;
+    color: $semi-white;
+    margin-bottom: 2px;
 }
 
-footer a{
-    color: $white-light-footer;
+footer p strong {
+    color: $white;
 }
 
+footer a,
 footer a:hover{
-    color: $white-footer;
+    color: $semi-white;
 }
-
 
 footer .logo_horiz {
-    width:25%;
+    width:50%;
     margin-bottom:15px;
 }
 
 footer .logo_sf {
-    width:20%;
-    margin-top: 20px;
-    margin-bottom:10px;
+    margin-top: 10px;
+    width: 40%;
     opacity: .7;
-}
-
-.column {
-    margin-top: 25px;
-}
-
-
-.column p {
-    text-align: left;
-    line-height: 0.8;
-    font-size: 14px;
-}
-
-
-.column p strong {
-    font-size: 16px;
-}
-
-@media (max-width:768px) {
-    .column p {
-        text-align: center;
-    }
-}
-
-
-
-@media (max-width:767px) {
-    svg {
-        margin-left: auto;
-        margin-right: auto;
-        height: 23px;
-        width: 35px;
-        stroke: #D3D3D3;
-        stroke-width: 4px;
-    }
-}
-
-@media (max-width: 768px){
-
-    footer .logo_horiz {
-        width:30%;
-
-    }
-
-    footer .logo_sf {
-        width:30%;
-        opacity: .7;
-    }
-
-}
-
-@media (max-width: 500px){
-
-    footer .logo_horiz {
-        width:60%;
-
-    }
-
-    footer .logo_sf {
-        width:60%;
-        opacity: .7;
-    }
-
-}
-
-
-footer .logo_sf:hover {
-    opacity: 1;
-}
-
-@media (max-width: 768px){
-
-    .social-media {
-        margin-bottom:50px;
-        margin-top: 20px;
-        text-align: center;
-    }
-    #icons-rrss{
-        margin: 20px;
-        font-size: 30px;
-    }
-
 }
 
 

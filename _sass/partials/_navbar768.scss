@@ -17,25 +17,25 @@
         border-radius: 4px;
     }
 
-    .btn-header {
-        color: $sciblue-bg !important;
-        border-color: $sciblue-light-bg;
-        background-color: rgba(0,0,0,.2);
-        border-width:0;
-        font-weight:500;
-        font-size:13px;
-        width: 95%;
-    }
+    // .btn-header {
+    //     color: $sciblue-bg !important;
+    //     border-color: $sciblue-light-bg;
+    //     background-color: rgba(0,0,0,.2);
+    //     border-width:0;
+    //     font-weight:500;
+    //     font-size:13px;
+    //     width: 95%;
+    // }
 
-    .btn-header:hover,
-    .btn-header:focus,
-    .btn-header:active,
-    .open > .show .dropdown-toggle.btn-header {
-        color: $white-footer !important;
-        background-color: $sciblue-bg;
-        border-width:0;
-        text-decoration:none;
-    }
+    // .btn-header:hover,
+    // .btn-header:focus,
+    // .btn-header:active,
+    // .open > .show .dropdown-toggle.btn-header {
+    //     color: $white-footer !important;
+    //     background-color: $sciblue-bg;
+    //     border-width:0;
+    //     text-decoration:none;
+    // }
 
 }
 

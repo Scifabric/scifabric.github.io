@@ -1,5 +1,6 @@
 nav {
-    background-color: transparent;
+
+    background-color: $white;
 }
 
 nav a{
@@ -79,45 +80,41 @@ li:hover a{
 
 
 .btn-header {
-    color: $white-semitransparent-bg !important;
-    border-color: $white-semitransparent-bg;
-    background-color: $white-semitransparent-bg;
-    border-width:0;
-    font-weight:500;
-    font-size:13px;
+    color: $blue-link;
+    border-color: $sciblue-bg;
+    background-color: $white;
+    border-width: 2px;
     text-transform: uppercase;
     margin:7px 0 0 12px;
     padding:8px 18px !important;
+    border-radius: 2px;
 }
 .btn-header:hover,
 .btn-header:focus,
 .btn-header:active,
 .open > .dropdown-toggle.btn-header {
-    color: $sciblue-font !important;
-    background-color: $white-font;
-    border-width:0;
+    color: $white;
+    background-color: $sciblue-bg;
     text-decoration:none;
 }
 
 
 .show .btn-header {
-    color: $sciblue-bg !important;
-    border-color: $sciblue-light-bg; 
-    background-color: rgba(0,0,0,.03);
-    border-width:0;
-    font-weight:500;
-    font-size:13px;
+    color: $blue-link;
+    border-color: $sciblue-bg;
+    background-color: $white;
+    border-width: 2px;
     text-transform: uppercase;
     margin:7px 0 0 12px;
     padding:8px 18px !important;
+    border-radius: 2px;
 }
 .show .btn-header:hover,
 .show .btn-header:focus,
 .show .btn-header:active,
 .show .open > .show .dropdown-toggle.btn-header {
-    color: $white-footer !important;
+    color: $white;
     background-color: $sciblue-bg;
-    border-width:0;
     text-decoration:none;
 }
 

@@ -27,7 +27,7 @@ a {
     background-color: $sciblue-bg;
     margin: 40px auto 0px;
     padding: 30px;
-    border-radius: 3px;
+    border-radius: 2px;
 }
 
 .bignews-banner img {
@@ -54,7 +54,7 @@ a {
     padding: 20px;
     margin-top: 30px;
     background-color: $grey-footer;
-    border-radius: 3px;
+    border-radius: 2px;
     color: rgb(255, 255, 255);
     text-align: center;
 }
@@ -194,7 +194,7 @@ ul.as-seen-on > li > ul > li span {
 }
 
 .presskit-logos ul li img {
-    border-radius: 4px;
+    border-radius: 2px;
 }
 
 .presskit-images ul li span {
@@ -205,7 +205,7 @@ ul.as-seen-on > li > ul > li span {
 
 .presskit-logos ul li span, .presskit-images ul li span {
     margin: 0px 0px 10px;
-    border-radius: 4px;
+    border-radius: 2px;
     padding: 20px 5px;
     min-height: 120px;
     text-align: center;

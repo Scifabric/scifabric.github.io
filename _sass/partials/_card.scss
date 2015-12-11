@@ -13,6 +13,11 @@
         padding-right: 20px;
         padding-bottom: 10px;
 
+        p {
+            display: inline-block;
+            min-height: 130px;
+        }
+
     }
 }
 
@@ -22,6 +27,12 @@
         color: $grey;
         font-weight: 600;
         font-size: 20px;
+        display:inline-block;
+        min-height: 45px;
+    }
+
+    h3.small-space {
+        min-height: 23px;
     }
 
 }

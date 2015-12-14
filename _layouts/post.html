@@ -33,7 +33,11 @@ navbar: default
                 {{content}}
             </div>
             <div class="col-md-8 col-md-offset-2">
+                {% if page.type != 'press' %}
                 <p class="lead dark"><strong>Share this blog post:</strong>
+                {% else %}
+                <p class="lead dark"><strong>Share this press release:</strong>
+                {% endif %}
                 <a
                     href='javascript:window.open("https://twitter.com/intent/tweet?text={{page.description|escape}}&url=http://scifabric.com{{page.url}}&via=Scifabric","_blank","width=500,height=450");void(0);' class="twitter">
                     <i class="fa fa-twitter-square"></i></a>
@@ -62,6 +66,7 @@ navbar: default
         {% endif %}
         {% endfor %}
         <div class="row">
+            {% if site.categories.blog[prev_post].title %}
             <div class="col-md-offset-2 col-md-4">
                 <div class="thumbnail card">
                     <div style="height: 222.5px; background: #333 url({{site.categories.blog[prev_post].photo}}) no-repeat center top/ cover;"></div>
@@ -74,6 +79,7 @@ navbar: default
                     </div>
                 </div>
             </div>
+            {% endif %}
             {% if site.categories.blog[next_post].title %}
             <div class="col-md-4">
                 <div class="thumbnail card">

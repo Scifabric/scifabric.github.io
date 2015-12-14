@@ -6,7 +6,7 @@ footer {
 }
 
 footer .col-md-2 p:first-child
-{
+{ margin-top: 12px;
   padding-bottom: 30px;
 }
 
@@ -19,9 +19,12 @@ footer p strong {
     color: $white;
 }
 
-footer a,
-footer a:hover{
+footer a,{
     color: $semi-white;
+}
+
+footer a:hover{
+    color: $white;
 }
 
 footer .logo_horiz {
@@ -99,6 +102,9 @@ footer .logo_sf {
     font-size: 12px;
 }
 
+.dev-and-host{
+    margin-top: 7px;
+}
 
 @media(max-width:360px) {
     footer {
@@ -110,3 +116,16 @@ footer .logo_sf {
 
 @import "partials/cookies-consent";
 
+@media(max-width:768px) {
+    footer .col-sm-4 {
+        margin-top: 50px;
+    
+    }
+    footer{
+        text-align: center;
+    }
+
+    footer .col-sm-4 p:first-child {
+    padding-bottom: 15px;
+    }
+}

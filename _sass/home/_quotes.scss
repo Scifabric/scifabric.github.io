@@ -1,5 +1,5 @@
 .quotes {
-    height: 500px;
+    height: 400px;
 }
 .quotes,
 .carousel.item {
@@ -7,7 +7,7 @@
 }
 
 .quote-caption .row {
-    margin-top: 15%;
+    margin-top: 100px;
 }
 
 .quote-caption,
@@ -23,7 +23,7 @@
 
 /* Carousel base class */
 .carousel {
-    height: 500px;
+    height: 400px;
     margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -33,7 +33,7 @@
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-    height: 500px;
+    height: 400px;
 }
 
 .quote-pic{

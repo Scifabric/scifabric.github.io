@@ -14,6 +14,7 @@
 .quote-caption p{
     color: $white;
     font-weight: 600;
+    margin-bottom: 0px;
 }
 
 .quote-caption .col-md-8 {
@@ -33,4 +34,13 @@
 /* Declare heights because of positioning of img element */
 .carousel .item {
     height: 500px;
+}
+
+.quote-pic{
+    float: left;
+    margin-right: 15px;
+}
+
+.add-quotes{
+    margin-top: 20px;
 }

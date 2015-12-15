@@ -20,7 +20,7 @@ navbar: default
         <!-- modulo {{loopindex}} -->
         {% if loopindex == 1 %}
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-sm-offset-2 col-sm-8 col-md-6">
                 <div class="thumbnail card">
                     <div class="post-pic" style="background: #0097A7 url({{post.photo}}) no-repeat center top/ cover;"></div>
                     <div class="caption">
@@ -31,7 +31,7 @@ navbar: default
                 </div>
             </div>
         {% else %}
-            <div class="col-md-6">
+            <div class="col-sm-offset-2 col-sm-8 col-md-6">
                 <div class="thumbnail card">
                     <div class="post-pic"  style="background: #0097A7 url({{post.photo}}) no-repeat center top/ cover;"></div>
                     <div class="caption">
@@ -52,7 +52,7 @@ navbar: default
         <!-- loopindex: {{ loopindex}}-->
         {% if loopindex == 0 %}
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-sm-offset-2 col-sm-8  col-md-4">
                 <div class="thumbnail card">
                     <div class="post-pic" style="background: #0097A7 url({{post.photo}}) no-repeat center top/ cover;"></div>
                     <div class="caption">
@@ -64,7 +64,7 @@ navbar: default
             </div>
         {% endif %}
         {% if loopindex == 1 %}
-            <div class="col-md-4">
+            <div class="col-sm-offset-2 col-sm-8 col-md-4">
                 <div class="thumbnail card">
                     <div class="post-pic" style="background: #0097A7 url({{post.photo}}) no-repeat center top/ cover;"></div>
                     <div class="caption">
@@ -76,7 +76,7 @@ navbar: default
             </div>
         {% endif %}
         {% if loopindex == 2 %}
-            <div class="col-md-4">
+            <div class="col-sm-offset-2 col-sm-8 col-md-4">
                 <div class="thumbnail card">
                     <div class="post-pic"  style="background: #0097A7 url({{post.photo}}) no-repeat center top/ cover;"></div>
                     <div class="caption">

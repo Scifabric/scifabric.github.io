@@ -57,5 +57,33 @@
     height: 195px;
 }
 
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {     
+        .post-pic{
+        height: 253px;
+        }
+}
 
+
+/* Medium devices (992px and up) */
+@media (min-width: 992px) {     
+       .col-md-6 .post-pic{
+        height: 202px;
+        }
+
+        .col-md-4 .post-pic{
+        height: 202px;
+        }
+}
+
+/* Large devices (992px and up) */
+@media (min-width: 1200px) {     
+       .col-md-6 .post-pic{
+        height: 250px;
+        }
+
+        .col-md-4 .post-pic{
+        height: 160px;
+        }
+}
 

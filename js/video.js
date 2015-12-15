@@ -20,7 +20,8 @@ function scaleVideoContainer() {
 
     var height = $(window).height() + 5;
     //var unitHeight = parseInt(height) + 'px';
-    var unitHeight = $(window).width() / 1.77777778 + 'px';
+    //var unitHeight = $(window).width() / 1.77777778 + 'px';
+    var unitHeight = '650px';
     $('.homepage-hero-module').css('height',unitHeight);
 
 }

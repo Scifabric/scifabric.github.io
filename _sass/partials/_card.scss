@@ -15,7 +15,7 @@
 
         p {
             display: inline-block;
-            min-height: 130px;
+      
         }
 
     }
@@ -38,9 +38,7 @@
 }
 
 .readmore {
-    padding: 0px 20px 10px;
-    position: absolute;
-    bottom: 15px;
+    
 
     a {
         color: $blue-link;

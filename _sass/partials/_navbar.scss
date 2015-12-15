@@ -167,6 +167,10 @@ li:hover a{
     width: auto;
 }
 
+#btn-nav a {
+    font-weight: 600;
+}
+
 @import "partials/navbar360";
 @import "partials/navbar768";
 @import "partials/navbar992";

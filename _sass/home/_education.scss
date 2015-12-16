@@ -1,3 +1,15 @@
+.who_need_us h2, 
+.who_need_us h3, 
+.who_need_us p {
+    color: $grey;
+
+}
+
+.grey_link,
+.grey_link:hover {
+    color: $grey;
+}
+
 .education {  
     padding-bottom:60px;
     color: inherit;

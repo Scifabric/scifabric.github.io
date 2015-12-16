@@ -16,7 +16,7 @@ new platform on 27th March, but we have also grown from a one-man show to a five
 side team in just a few months. In this blog post we introduce you to some of the key
 features of PyBossa 0.2.1 and to its new dedicated team.
 
-# What is PyBossa?
+## What is PyBossa?
 
 PyBossa is an open source platform that allows you to create web micro-tasking
 applications where volunteers can participate using their own web browsers.
@@ -28,7 +28,7 @@ help with image classification, transcription, geocoding and much more.
 
 See the PyBossa [overview](http://docs.pybossa.com/en/latest/overview.html) for how the platform works.
 
-# What’s so PyGreat about it?
+## What’s so PyGreat about it?
 
 Creating and running crowdsourced projects has never been easier and, indeed, Francois
 Grey (Coordinator of the Citizen Cyberscience Centre) has declared that PyBossa 0.2.1 is
@@ -45,13 +45,13 @@ PDFs; geo-referencing; and phone-based data collection;
  
 Oh, and did we mention it’s all open source?
 
-# “PyBeautiful”
+## “PyBeautiful”
 
 The new PyBossa has been described as *“PyBeautiful”* and *“PyGorgeous”* on the
 Tweetosphere. And its beauty and usability extends to tablets and smartphones, so you
 can work on your project on the go...
 
-# PyBossa-powered applications
+## PyBossa-powered applications
 
 Here are a few examples of PyBossa-powered applications to whet your appetite for what
 you can achieve with the platform:
@@ -65,13 +65,13 @@ University College London which invites the public to become citizen archeologis
 as diverse as: particle collisions at CERN; mapping light pollution from the International
 Space Station; and monitoring fracking activities in the US.
 
-# PyComplicated?
+## PyComplicated?
 
 If you have a particularly challenging, complicated or large project – DON’T WORRY. The
 PyBossa team (meet them below) is on hand to help you create bespoke applications
 which meet your needs and those of your contributors.
 
-# The PyTeam
+## The PyTeam
 
 Here they are, your crowdsourcing dream team:
 

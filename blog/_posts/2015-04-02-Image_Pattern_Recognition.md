@@ -13,11 +13,11 @@ keywords: crowdsourcing, crowdcrafting, PyBossa, open, source, science, citizen,
 
 We admit it – computers are getting pretty clever. They can calculate pi to trillions of digits, model what happens when two protons collide at close to the speed of light and even allow you to share photographs of your lunch with everyone you know. But there are some things computers aren’t that great at. They can’t identify where you’re from by your accent, they’re not very good at mining specific types of data from documents and they can’t tell how you feel from your facial expressions.
 
-# Advanced cognitive abilities
+## Advanced cognitive abilities
 
 Humans possess advanced cognitive skills that make us much better than computers at analysing certain kinds of information. And if you need to exploit these interpretative skills in order to analyse your research data, then having access to lots of human brains might be very helpful. Humans are great at spotting patterns, so in this post we’ll show you how to easily set up a project in [Crowdcrafting](/blog/2014/07/04/crowdcrafting.html) for recognising patterns in images.
 
-# Image recognition
+## Image recognition
 
 This handy little video, created by PyBossa’s lead developer [Daniel](http://daniellombrana.es/), shows just how easy it is to create an image pattern recognition-type project in Crowdcrafting. 
 
@@ -25,7 +25,7 @@ This handy little video, created by PyBossa’s lead developer [Daniel](http://d
 
 Crowdcrafting has a tool specifically for importing images from [Flickr](https://www.flickr.com/). So once you’ve uploaded the images you want to analyse into Flickr, you can create a new project with our handy ‘Image Pattern Recognition’ template and then use the Flickr importer tool to load images into your project. Then you just need to create the tasks you want your contributors to complete and – hey presto! – you’ve got an image pattern recognition project up and running in no time.
 
-# Projects in action
+## Projects in action
 
 Lots of researchers are already using Crowdcrafting to host their image pattern recognition projects. On the environmental front, researchers use Crowdcrafting for identifying and geo-referencing pictures of cities at night taken from the International Space Station ([Cities at Night](http://crowdcrafting.org/app/nightcitiesiss/)), to identify landfill sites ([Landfill Hunter](http://crowdcrafting.org/app/landfill/)) and to find fracking sites in satellite images ([SkyTruth Frackfinder](http://crowdcrafting.org/app/frackfinder_tadpole/)).
 
@@ -39,7 +39,7 @@ Biologists use Crowdcrafting to help them document arthropod interactions ([Arth
 
 On the humanitarian front, we have projects that aim to pinpoint areas worst affected by natural disasters ([GeotagX](http://geotagx.org/)) and identify ‘potentially habitable structures’ to help in the fight against Malaria ([Rural Geolocator](http://crowdcrafting.org/app/RuralGeolocator/)). We also have projects that aim to classify human facial expressions ([the Face We Make](http://crowdcrafting.org/app/thefacewemake/)) and even help to identify Nicholas Cage’s face in photographs ([Nicholas Cage](http://crowdcrafting.org/app/nicolascage/)).
 
-# Give it a go
+## Give it a go
 
 Humans are better than computers at performing certain tasks. Crowdcrafting has an easy to use ‘Image Pattern Recognition’ template and Flickr importer tool, so you can exploit these cognitive and interpretative skills as part of your research. Researchers are already using Crowdcrafting in some amazing ways, and you could too.
 

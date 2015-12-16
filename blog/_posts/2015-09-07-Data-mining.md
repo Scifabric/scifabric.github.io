@@ -15,11 +15,11 @@ Welcome to Part 3 of our Brain vs. Processor blog series, which is examining how
 
 So far we’ve talked about how humans are ace at interpreting [images](/blog/2015/04/02/Image_Pattern_Recognition.html) and [sounds](/blog/2015/05/10/Sound_Pattern_Recognition.html). This blog post focuses on another amazing skill we possess that you’re doing right now… yup, reading!
 
-# Interpretation skills
+## Interpretation skills
 
 Computers are becoming more sophisticated at transcribing information from documents. But humans still have the edge when it comes to more advanced analysis, such as extracting specific key pieces of information, understanding the meaning of a document and being able to summarise it, and interpreting old swirly-wurly illegible handwriting. Researchers are using PyBossa and [Crowdcrafting](http://crowdcrafting.org/) to exploit these skills.
 
-# Transcribing documents in Crowdcrafting
+## Transcribing documents in Crowdcrafting
 
 Scifabric’s head honcho [Daniel Lombraña González](http://daniellombrana.es/) has kindly recorded a little video that shows how easy it is to set up a PDF transcription project in Crowdcrafting. 
 
@@ -29,7 +29,7 @@ Just create a new project, use the platform’s integration with Dropbox to uplo
 
 We have some awesome projects making the most of these capabilities.
 
-# Open Oil
+## Open Oil
  
 The [Open Oil](http://openoil.net/) project wants to make the oil industry more transparent. Oil conglomerates can be made up of hundreds of companies related by a complex web of contracts. Regulation often requires that the contracts be made publicly available but nevertheless understanding the industry as a whole is a massive challenge. [Open Oil](http://openoil.net/) uploads contracts into their own [Crowdcrafting project](https://crowdcrafting.org/project/openoil/) and asks volunteers to extract key pieces of information. This will help the team gain a better understanding of how the industry works.
 
@@ -38,11 +38,11 @@ The [Open Oil](http://openoil.net/) project wants to make the oil industry more 
 
 Follow Open Oil on [Twitter](https://twitter.com/Open_Oil).
 
-# Iceland's Criminal Court
+## Iceland's Criminal Court
 
 In the [Héraðsdómar - sýknað eða sakfellt](http://crowdcrafting.org/project/heradsdomar/) project, Icelandic citizen [Páll Hilmarsson](http://gogn.in/) wanted to test a journalist's published assertions that a particular judge, who had a conviction rate of 95%, was biased. Páll uploaded 4,700 judgements of the Reykjavik district court to Crowdcrafting and asked volunteers to note the identity of the judge and whether there was a conviction in each case. In only 17 days, 300 users completed almost 15,000 tasks. Analysis showed that the judge in question was within the statistical norm and that, said journalist, needed a lesson in statistics. We think he got one...
 
-# LibCrowds
+## LibCrowds
 
 [LibCrowds](http://www.libcrowds.com/) is a new crowdsourcing platform that aims to make the physical and digital collections of the [British Library](http://www.bl.uk/) more accessible. Its maiden project – [Convert-a-Card](http://www.libcrowds.com/project/category/convert-a-card/) – asks volunteers to transcribe text from printed card catalogues into electronic records in order to make them available to a worldwide audience. The project is initially focused on the library's Asian and African collections, particularly the Chinese and Indian catalogues. Data identified, transcribed or translated as part of the project will be freely accessible from the British Library's [Explore](http://explore.bl.uk/primo_library/libweb/action/search.do?dscnt=1&dstmp=1437390432340&vid=BLVU1&fromLogin=true) catalogue.
 
@@ -51,7 +51,7 @@ In the [Héraðsdómar - sýknað eða sakfellt](http://crowdcrafting.org/projec
 
 Follow [LibCrowds](https://twitter.com/LibCrowds) and the [British Library](https://twitter.com/britishlibrary) on Twitter.
 
-# Need a hand?
+## Need a hand?
 
 If you need to do a bit of data mining, [PyBossa](http://pybossa.com/) and [Crowdcrafting](http://crowdcrafting.org/) may provide you with the ideal tool. Need any help or advice on setting your project up? Contact us on info@scifabric.com.
 

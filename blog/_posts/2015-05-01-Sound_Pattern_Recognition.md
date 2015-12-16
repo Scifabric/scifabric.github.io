@@ -13,7 +13,7 @@ keywords: crowdsourcing, crowdcrafting, PyBossa, open, source, science, citizen,
 
 In the [first blog entry of this series](/blog/2015/04/02/Image_Pattern_Recognition.html) we explained that, while computers are becoming incredibly sophisticated, the human brain remains a more versatile and effective tool for interpreting certain types of data. We explained how the brain is particularly adept at pattern recognition and how [Crowdcrafting](http://crowdcrafting.org/) may be used to exploit these abilities.
 
-# Listen up!
+## Listen up!
 
 In this post we describe how Crowdcrafting may be used to set-up projects where volunteer citizen scientists can help to analyse data in the form of sound clips. [Daniel Lombraña González](http://daniellombrana.es/) – PyBossa’s lead developer and resident nice fellow – has kindly made a video showing how to set-up up your own project using sound clips imported from [Dropbox](https://www.dropbox.com/).
 
@@ -23,7 +23,7 @@ So all you have to do is create a new project and use Crowdcrafting’s integrat
 
 You can check out some sample projects on Crowdcrafting, which show how projects may be integrated with [Dropbox](https://www.dropbox.com/) and [SoundCloud](https://soundcloud.com/).
 
-# Existing projects
+## Existing projects
 
 Researchers are already making use of Crowdcrafting’s capabilities to host sound recognition projects. The [Sounds of New York City](http://crowdcrafting.org/app/sonycv1/) (SONYC) is an ambitious project that aims to map the ‘soundscape’ of New York City. Sound clips captured from various locations around the Big Apple have been imported into Crowdcrafting and volunteers are asked to identify the sounds they hear in the clips. Ultimately it is hoped that volunteers will be able to load sound clips recorded on their mobile phones into the project in order to create a comprehensive sound map of NYC. Such data will transform our understanding of noise pollution and the makeup of soundscapes of cities.
 
@@ -33,7 +33,7 @@ Researchers are already making use of Crowdcrafting’s capabilities to host sou
 
 The [Sound Swarm](http://crowdcrafting.org/app/soundswarm/) project is exploring the possibility of displaying sound through the behaviour of groups of animals. The team behind the project aims to develop a sound display of what a school of dolphins, flock of birds or shoal of fish might sound like.
 
-# Sound appealing?
+## Sound appealing?
 
 The team at PyBossa have integrated Crowdcrafting and [Dropbox](https://www.dropbox.com/) so that sound files can be easily imported into crowdsourced projects. This allows researchers to tap into the ears and brains of volunteers, who can become the experts in sound pattern recognition. So if you need sound clips analysed for your research, give [Crowdcrafting](http://crowdcrafting.org/) a nice loud shout.
 

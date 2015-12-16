@@ -22,7 +22,9 @@ function scaleVideoContainer() {
     //var unitHeight = parseInt(height) + 'px';
     //var unitHeight = $(window).width() / 1.77777778 + 'px';
     var unitHeight = '600px';
-    $('.homepage-hero-module').css('height',unitHeight);
+    //$('.homepage-hero-module').css('height',unitHeight);
+    $('.homepage-hero-module').addClass('video-height');
+    $('.video-container').addClass('video-height');
 
 }
 

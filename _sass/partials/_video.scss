@@ -40,3 +40,23 @@
 .video-container video.fillWidth {
     width: 100%;
 }
+
+.video-height,
+.video-poster {
+    height: 600px;
+}
+
+.video-poster {
+    background: rgba(0, 0, 0, 0.4) url("/assets/video/snapshots/Working-Space.jpg") no-repeat fixed center center !important;
+    width: auto;
+}
+
+@media(max-width:360px){
+
+
+    .video-poster,
+    .video-height {
+        height: 480px;
+    }
+
+}

@@ -15,11 +15,11 @@ Welcome to the fourth and final installation of our ‘Brain vs. Processor’ bl
 
 In the first three parts of the series we have considered how adept the brain is at [image pattern recognition](/blog/2015/04/02/Image_Pattern_Recognition.html), [sound pattern recognition](/blog/2015/05/10/Sound_Pattern_Recognition.html) and [extracting information from data sets](/blog/2015/09/07/Data-mining.html). This blog post is about how [Crowdcrafting](http://crowdcrafting.org/) can be used to tap into volunteers’ ability to spot patterns in moving images.
 
-# Moving image analysis
+## Moving image analysis
 
 The human brain is wired to spot patterns. We see shapes in the clouds, interpret funny squiggles on paper (writing that is) and can pick out our best mate’s face in a room full of people. We’re masters at interpreting the world around us and we do it every day. We’re also able to apply these skills to interpreting moving pictures. That’s why we spend so much time watching Youtube and ‘Game of Thrones’ box sets...
 
-# Video pattern recognition
+## Video pattern recognition
 
 Crowdcrafting creator [Daniel Lombraña González](http://daniellombrana.es/) has made a short video to showcase how easy it is to set up a video pattern recognition project in Crowdcrafting.
 
@@ -29,7 +29,7 @@ Crowdcrafting creator [Daniel Lombraña González](http://daniellombrana.es/) ha
 
 Video clips can be easily imported into a project using Crowdcrafting’s [Dropbox](https://www.dropbox.com/) interface. Then,  the convenient ‘video pattern recognition’ template may be used to create tasks for volunteers. And, whadyaknow, you’ve just made a crowdsourced video pattern recognition project. Congratulations!
 
-# Example projects
+## Example projects
 
 We have some great projects employing this functionality. 
 
@@ -45,6 +45,6 @@ We think video pattern recognition could also be used to identify moving animals
 
 If you’re using the platform for video pattern recognition please let us know in the comments box below.
 
-# Give it a go!
+## Give it a go!
 
 If you think video pattern recognition crowdsourcing is a useful tool for you, then give it a go on [Crowdcrafting](http://crowdcrafting.org/). If you need some advice to set-up your project please contact us: info@scifabric.com.

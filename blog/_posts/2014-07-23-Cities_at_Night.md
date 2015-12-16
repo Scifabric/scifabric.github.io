@@ -17,7 +17,7 @@ Astronauts – like tourists – enjoy capturing the beautiful scenes they encou
 
 [*Cities at Night*](http://www.citiesatnight.org/) is a research project run by the Group of Extragalactic Astrophysics and Astronomical Instrumentation from the of Universidad Coplutense de Madrid, and supported by NASA, the European Space Agency (ESA) and the Canadian Space Agency (CSA). Its mission is to analyse photographs in the JSC database to map light pollution emitted by cities across the globe – and they need your help!
 
-# Three projects
+## Three projects
 
 [*Cities at Night*](http://www.citiesatnight.org/) have created three projects on PyBossa-powered crowdsourcing platform [*Crowdcrafting.org*](http://crowdcrafting.org/) (read about it [here](/blog/2014/07/04/crowdcrafting.html)) to enlist the help of volunteers to classify and analyse photographs in the JSC database. The first task is to identify what can be seen in each photograph – stars, a city, an astronaut, darkness or a little green man perhaps? This task is carried out in the [*Dark Skies ISS project*](http://crowdcrafting.org/app/darkskies/).
 
@@ -28,11 +28,11 @@ The next step is to identify the city in a photograph. In the [*Lost at Night pr
 
 The final task, carried out in the [*Night Cities ISS project*](http://crowdcrafting.org/app/nightcitiesiss/), is to georeference every photograph. This involves matching city features in the photograph with the same features on a map. The longitude and latitude of each feature is recorded, which helps the [*Cities at Night*](http://www.citiesatnight.org/) team very accurately georeference each photograph.
 
-# Informing decision-makers
+## Informing decision-makers
 
 Once images are accurately georeferenced, they may be used to measure, compare and monitor light emitted by cities at night. This information will be fed to governments and local authorities to encourage them to take the right decisions to reduce light pollution.
 
-# Preliminary results
+## Preliminary results
 
 After NASA, ESA and CSA promoted the [*Cities at Night*](http://www.citiesatnight.org/) projects last week, they got rather popular! More than 6,000 tasks have been completed by volunteers, with over 900 cities already georeferenced. This astounding response has allowed [*Cities at Night*](http://www.citiesatnight.org/) to start publishing results, such as the fabulous georeferenced image of Shanghai below.
 

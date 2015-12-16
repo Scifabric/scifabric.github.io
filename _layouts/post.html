@@ -69,13 +69,11 @@ navbar: default
             {% if site.categories.blog[prev_post].title %}
             <div class="col-md-offset-2 col-md-4">
                 <div class="thumbnail card">
-                    <div style="height: 222.5px; background: #333 url({{site.categories.blog[prev_post].photo}}) no-repeat center top/ cover;"></div>
+                    <div class="post-pic" style="background: #0097A7 url({{site.categories.blog[prev_post].photo}}) no-repeat center top/ cover;"></div>
                     <div class="caption">
                         <h3>{{site.categories.blog[prev_post].title}}</h3>
-                        <p>{{site.categories.blog[prev_post].content | strip_html | truncate: 100 }}.</p>
-                    </div>
-                    <div class="readmore">
-                        <p><a href="{{site.prefix}}{{site.categories.blog[prev_post].url}}">Read More</a></p>
+                        <p>{{site.categories.blog[prev_post].content | strip_html | truncate: 80 }}.</p>
+                        <p class="readmore"><a href="{{site.prefix}}{{site.categories.blog[prev_post].url}}">Read More</a></p>
                     </div>
                 </div>
             </div>
@@ -83,13 +81,11 @@ navbar: default
             {% if site.categories.blog[next_post].title %}
             <div class="col-md-4">
                 <div class="thumbnail card">
-                    <div style="height: 222.5px; background: #333 url({{site.categories.blog[next_post].photo}}) no-repeat center top/ cover;"></div>
+                    <div class="post-pic" style="background: #0097A7 url({{site.categories.blog[next_post].photo}}) no-repeat center top/ cover;"></div>
                     <div class="caption">
                         <h3>{{site.categories.blog[next_post].title}}</h3>
-                        <p>{{site.categories.blog[next_post].content | strip_html | truncate: 100 }}.</p>
-                    </div>
-                    <div class="readmore">
-                        <p><a href="{{site.prefix}}{{site.categories.blog[next_post].url}}">Read More</a></p>
+                        <p>{{site.categories.blog[next_post].content | strip_html | truncate: 80 }}.</p>
+                        <p class="readmore"><a href="{{site.prefix}}{{site.categories.blog[next_post].url}}">Read More</a></p>
                     </div>
                 </div>
             </div>

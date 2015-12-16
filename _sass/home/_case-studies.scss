@@ -1,41 +1,13 @@
-.case_studies {
-    padding-bottom:90px;
-}
-
-.case_studies{
-    padding-bottom:60px;
-    color: inherit;
+.case-studies {
+    background-color: $grey-bg;
+    padding-top: 60px;
+    padding-bottom:120px;
     overflow: hidden;
     height: auto;
+    border-top: 52px solid transparent;
 }
 
-.case_studies h4 {
-    margin: 25px 10px 15px 10px;
-    font-size:22px;
+.case-studies .lead {
+	margin-bottom: 40px;
 }
-
-.case-study-cover  .btn{
-    margin-top: 20px;
-}
-
-
-.case_studies p.summary {
-    font-weight:400;
-    font-size:16px;
-    color:#666;
-}
-
-@import "case-study";
-
-@media (max-width: 768px)  {
-
-    .case_studies p {
-        font-size: 15px !important;
-    }
-
-    .case_studies .col-xs-10 {
-        text-align:center;
-        padding:0;
-        margin-top: 20px;
-    }
-} 
+@import "partials/card";

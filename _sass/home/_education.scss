@@ -1,3 +1,15 @@
+.who_need_us h2, 
+.who_need_us h3, 
+.who_need_us p {
+    color: $grey;
+
+}
+
+.grey_link,
+.grey_link:hover {
+    color: $grey;
+}
+
 .education {  
     padding-bottom:60px;
     color: inherit;
@@ -17,9 +29,13 @@
 .education-cover{
     margin-top: 20px;
     min-height: 340px;
-    border-radius: 5px;
     text-align: center;
     padding: 30px;
+    border-radius: 2px;
+ 
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+
 }
 
 .education-cover .uppercase {
@@ -53,20 +69,19 @@
 
 .for-teachers, 
 .for-students{
-    background-color: rgba(255, 255, 255, 1);
+    background-color: $white;
     -webkit-transition:  .3s ease;
     -o-transition:  .3s ease;
     transition: .3s ease;
 }
 
-
 .for-teachers:hover .btn-link,
 .for-students:hover .btn-link{
-    color: #FFF !important;
-    background-color: rgba(7,124,160,1);
-    border-color: rgba(7,124,160,1);
+    color: $white !important;
+    background-color: $sciblue-bg;
+    border-color: $sciblue-bg;
     text-decoration: none;
-    border-radius: 50px;
+    border-width: 2px;
 }
 
 .teachers h2,

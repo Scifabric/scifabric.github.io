@@ -1,0 +1,47 @@
+.quotes {
+    height: 400px;
+}
+.quotes,
+.carousel.item {
+    background: $quotes-bg url("/assets/img/science-icons-bg.png") repeat fixed center top;
+}
+
+.quote-caption .row {
+    margin-top: 100px;
+}
+
+.quote-caption,
+.quote-caption p{
+    color: $white;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.quote-caption .col-md-8 {
+    margin-left: -30px;
+}
+
+/* Carousel base class */
+.carousel {
+    height: 400px;
+    margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+    height: 400px;
+}
+
+.quote-pic{
+    float: left;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.add-quotes{
+    margin-top: 20px;
+}

@@ -1,0 +1,21 @@
+.jumbotron-fans {
+    background: $white;
+    padding-top: 60px;
+	padding-bottom: 120px;
+
+    .col-md-2 {
+        margin-bottom: 15px;
+    }
+}
+.fans {
+    h3 {
+        color: $grey;
+        text-transform: uppercase;
+    }
+}
+
+.jumbotron-fans h3 {
+
+	margin-bottom: 40px;	
+
+}

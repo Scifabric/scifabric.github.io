@@ -4,7 +4,7 @@
 }
 
 .grey {
-    background: #fafafa repeat top fixed;
+    background: $grey-bg repeat top fixed;
 }
 
 .definitions {
@@ -13,19 +13,21 @@
 }
 
 .general{
-    background: #ececec;
+    background: $white;
+}
+
+.general.dark {
+    background: $grey-bg;
+}
+
+.general.author-bg {
+    background: $author-bg;
 }
 
 #logo-front {
     max-width: 150px;
     margin-bottom: 40px;
 }
-
-#brands{
-    max-width: 900px;
-    opacity: 0.85;
-}
-
 
 @media (max-width: 767px)  {
 
@@ -44,10 +46,6 @@
         margin-bottom: 40px;
     }
 
-    .jumbotron h2 {
-        margin-bottom:40px;
-        font-size: 38px;
-    }
     .jumbotron #logo img {
         width:70%;
     }
@@ -58,4 +56,9 @@
     br{
         display: none;
     }
+}
+
+.regular-section {
+    padding-top: 60px;
+    padding-bottom: 120px;
 }

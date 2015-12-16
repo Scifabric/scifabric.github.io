@@ -2,19 +2,16 @@
 layout: default
 title: Featured on Press
 description: Fox news, CNN, The Guardian, Gizmodo, NBC News, Popular Science, etc.
+navbar: default
 css: press
 ---
-<div class="jumbotron jumbotron-dark-flare">
+<div class="jumbotron">
     <div class="container text-center firstfold">
-        <br>
-        <div id="logo-front" class="center-block">
-            <img alt="SciFabric Logo" src="/images/scifabric_logo_white_vert_trans.svg" onerror="this.onerror=null; this.src='/images/scifabric_logo_white_vert_trans.png'" width="100%">
-        </div>
         <h1>Featured on Press</h1>
-        <ul class="as-seen-on screens">
+    <ul class="as-seen-on screens">
             {% for post in site.categories.press %}
             {% if post.featured %}
-            <li class="col-md-4 col-sm-4 wow fadeInUp">
+            <li class="featured col-md-4 col-sm-4 wow fadeInUp">
                 <a class="hidden-xs" href="{{post.link}}"><img src="{{site.URL}}/assets/img/press/{{post.featured_img}}" alt="{{post.author}}" width="100%"/></a>
                 <h4 class="news-heading"><a href="{{post.link}}">{{post.source}}</a></h4>
                 {{post.content}}

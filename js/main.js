@@ -13,6 +13,12 @@ $(function() {
                 }
             }
     });
+
+
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+
     function setRetinaPictures() {
         if (window.devicePixelRatio > 1) {
             var images = $("img.hires");

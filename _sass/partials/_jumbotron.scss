@@ -149,6 +149,11 @@
         border-radius: 50%;
         border: 2px solid $white;
 
+        a,
+        a:hover {
+            color: $white;
+        }
+
         .fa.fa-arrow-down {
             display: inline-block;
             font-size: 30px;

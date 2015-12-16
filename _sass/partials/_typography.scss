@@ -69,3 +69,16 @@ footer p {
 .bright-grey {
     color: $bright-grey;
 }
+
+
+@media (max-width: 768px) {
+    .jumbotron .h1,
+    .jumbotron h1{
+    font-size: 28px;
+    }
+
+    .jumbotron .h2,
+    .jumbotron h2{
+        font-size: 20px;
+    }
+}

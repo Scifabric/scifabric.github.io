@@ -3,7 +3,7 @@ layout: post
 title:  "Fighting light pollution from space"
 date:   2014-07-23 
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-photo: /assets/img/blog/city.jpg
+photo: city
 photo_author: Kohei Kanno
 photo_url: https://www.flickr.com/photos/flyingover/16203192036/
 description: "Help the Cities at Night team analyse thousands of photographs from the International Space Station to fight light pollution"

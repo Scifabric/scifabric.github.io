@@ -3,12 +3,13 @@ layout: post
 title:  "Python backend developer"
 date:   2015-12-01 
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-photo: /assets/img/jobs/python.jpg
+photo: python
 photo_author: Neoprolog
 photo_url: https://www.flickr.com/photos/neoprolog/2974146669/
 description: "SciFabric is looking for a python web developer."
 author: teleyinex
 keywords: python, developer, backend
+css: assets-photos
 ---
 
 ## We're hiring!

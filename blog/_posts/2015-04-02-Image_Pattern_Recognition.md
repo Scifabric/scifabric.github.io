@@ -3,7 +3,7 @@ layout: post
 title:  "Brain vs Processor: Part 1 – Image Pattern Recognition"
 date:   2015-04-02 
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-photo: /assets/img/blog/Eye.jpg
+photo: Eye
 photo_author: Artiom Gorgan
 photo_url: https://www.flickr.com/photos/artiomgorgan/8791577401/
 description: "The first in a series of blog posts showcasing how researchers can use Crowdcrafting to tap into superior human cognitive powers"

@@ -3,7 +3,7 @@ layout: post
 title:  "Coffee and code: PyBossa at the CERN Webfest"
 date:   2014-08-22 
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-photo: /assets/img/blog/Mug.jpg
+photo: Mug
 photo_author: James Doherty
 description: "PyBossa-powered project GeotagX takes home honours at the CERN Summer Student Webfest"
 author: jimmyd

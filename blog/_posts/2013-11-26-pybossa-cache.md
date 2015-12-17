@@ -2,7 +2,7 @@
 layout: post
 title: "Adding a load balanced & high-availability cache to PyBossa"
 date:   2013-11-26
-photo: /assets/img/blog/balance.jpg
+photo: balance
 photo_author: Jakub Michankow
 photo_url: https://www.flickr.com/photos/glowform/3779533414/
 description: "Sentinel is a system that allows you to monitor your master-slave setup, and discover Redis services in a very simple way"

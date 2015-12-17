@@ -1,6 +1,21 @@
 //jQuery is required to run this code
 $( document ).ready(function() {
 
+    if (window.matchMedia("(min-width: 769px)").matches) {
+        var vid = $("<source/>");
+        vid.attr('type', 'video/mp4');
+        vid.attr('src', $('video').data("mp4"));
+        $('video').append(vid);
+        var vid = $("<source/>");
+        vid.attr('type', 'video/webm');
+        vid.attr('src', $('video').data("webm"));
+        $('video').append(vid);
+
+    }
+    else {
+        console.log("No video for you, we don't want to waste your bandwidth!");
+    }
+
     scaleVideoContainer();
 
     initBannerVideoSize('.video-container .poster img');

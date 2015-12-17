@@ -2,7 +2,7 @@
 layout: post
 title: "The adventure of knowing interview"
 date: 2014-02-18
-photo: /assets/img/blog/knowledge.jpg
+photo: knowledge
 photo_author: Tim Green
 photo_url: https://www.flickr.com/photos/atoach/6093826210/
 description: "Spanish National TV TVE interviews Daniel Lombraña about Citizen Science"

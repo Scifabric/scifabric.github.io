@@ -3,7 +3,7 @@ layout: post
 title:  "Crowdcrafting: the next generation"
 date:   2014-07-04 
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-photo: /assets/img/blog/CClogo.png
+photo: CClogo
 photo_author: Jorge Correa
 description: "PyBossa launches hi-spec new version of crowdsourcing platform Crowdcrafting.org"
 author: jimmyd

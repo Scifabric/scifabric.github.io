@@ -4,7 +4,7 @@ layout: post
 title:  "Crowdsourcing the Bronze Age"
 date:   2014-06-05 
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-photo: /assets/img/blog/bronze.jpg
+photo: bronze
 photo_author: Horian Varlan
 photo_url: https://www.flickr.com/photos/horiavarlan/4269377213/
 description: "The British Museum and University College London team up to crowdsource Britain’s Bronze Age with PyBossa-powered platform Micropasts.org"

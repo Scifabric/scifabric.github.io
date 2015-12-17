@@ -3,7 +3,7 @@ layout: post
 title:  "Harnessing the power of the Crowd to fight Malaria"
 date:   2014-10-03 
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-photo: /assets/img/blog/Mosquito3.jpg
+photo: Mosquito3
 photo_author: Department of Foreign Affers
 photo_url: https://www.flickr.com/photos/dfataustralianaid/10703811283/
 description: "Rural Geolocator project helps field teams in Africa create Malaria-free zones"

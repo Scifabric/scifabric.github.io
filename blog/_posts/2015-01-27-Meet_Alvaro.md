@@ -3,7 +3,7 @@ layout: post
 title:  "PyBossa hires new UX designer to heighten user experience"
 date:   2015-01-27 
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-photo: /assets/img/blog/design.jpg
+photo: design
 photo_author: Jeffrey Zeldman
 photo_url: https://www.flickr.com/photos/zeldman/18931698353/
 description: "PyBossa’s new UX designer Álvaro Suárez Pérez tells James Doherty about his new job, Spanish history and very clever dog.

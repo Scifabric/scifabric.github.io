@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome to the future of crowdsourcing"
 date:   2014-04-29 
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-photo: /assets/img/blog/crowd.jpg
+photo: crowd
 photo_author: Ding Yuin Shan
 photo_url: https://www.flickr.com/photos/90461913@N00/7901102136/
 description: "Welcome to the new and improved PyBossa 0.2.1 – the only 100% open source crowdsourcing framework."

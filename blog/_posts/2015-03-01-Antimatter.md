@@ -3,7 +3,7 @@ layout: post
 title:  "Join the dots to measure antimatter"
 date:   2015-03-01 
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-photo: /assets/img/blog/Antimatter3.jpg
+photo: Antimatter3
 photo_author: AEgIS, CERN
 photo_url: http://aegis.web.cern.ch/aegis/
 description: "Help CERN’s AEgIS experiment work out how antimatter interacts with gravity. Just join the dots!"

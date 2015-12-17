@@ -3,7 +3,7 @@ layout: post
 title:  "Reinventing the wheel"
 date:   2014-02-26 
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-photo: /assets/img/blog/wheel.jpg
+photo: wheel
 photo_author: b3d
 photo_url: https://www.flickr.com/photos/b3d_/6147600313/
 description: Reinventing the wheel can be treated as a technique that will assure enough genetic diversity (different features) for frameworks, so the species can survive.

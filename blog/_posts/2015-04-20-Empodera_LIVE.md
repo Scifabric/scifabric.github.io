@@ -3,7 +3,7 @@ layout: post
 title:  "Where to meet people who want to change the world"
 date:   2015-04-20 
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-photo: /assets/img/blog/WorldChange.jpg
+photo: WorldChange
 photo_author: Neal Fowler
 photo_url: https://www.flickr.com/photos/31878512@N06/3904638720/
 description: "James Doherty quizzes PyBossa founder Daniel Lombraña on his keynote speech and experiences at Empodera LIVE"

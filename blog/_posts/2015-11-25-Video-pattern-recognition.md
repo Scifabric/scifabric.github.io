@@ -3,7 +3,7 @@ layout: post
 title:  "Brain vs Processor: Part 4 – Video pattern recognition"
 date:   2015-11-25 
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-photo: /assets/img/blog/Ballerina2.jpg
+photo: Ballerina2
 photo_author: Hernán Piñera
 photo_url: https://www.flickr.com/photos/hernanpc/21071089181/in/photolist-y6YQH4-jjzBWg-5MvCK2-6Ltpj5-745E5d-4h7mU9-84MXzs-84MZ4m-84JQmK-84JRpk-57CQyi-acLt2B-JesKg-f4GNkr-cho6Dd-dw2L5J-deYsdw-f4Z3s3-bKozZ6-rmH8M-cb2GwU-4h7knf-bnkk1b-bnhD41-acLxXr-acLxrD-pxHXn-bXeEe5-dw14uu-acPhQ5-aSjkAt-gemTRG-oFqFV2-9oFR4m-ad19qS-chmqyb-acLsxi-rmHf7-e3bGcg-bwtCfu-aSjktp-f4Jen6-f4JuKt-f4KcC2-rmHce-d54EVj-c7m7h3-aSjkZM-chkNC9-dvrLtX
 description: "Crowdsource video content analysis with Crowdcrafting"

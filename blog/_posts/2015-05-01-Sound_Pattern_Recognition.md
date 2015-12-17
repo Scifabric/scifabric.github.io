@@ -3,7 +3,7 @@ layout: post
 title:  "Brain vs Processor: Part 2 – Sound Pattern Recognition"
 date:   2015-05-10 
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-photo: /assets/img/blog/Sound.jpg
+photo: Sound
 photo_author: Matt Roberts
 photo_url: https://www.flickr.com/photos/cpgmattr/545663150/
 description: "How to use Crowdcrafting for research involving sound pattern recognition"

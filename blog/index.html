@@ -5,6 +5,7 @@ content: What we think and say about crowdsourcing and citizen science.
 css: blog
 navbar: default
 ---
+<link rel="stylesheet" href="/css/photos.css">
 <div class="jumbotron">
     <div class="container text-center firstfold">
         <h1>Blog</h1>
@@ -22,7 +23,7 @@ navbar: default
         <div class="row">
             <div class="col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-6">
                 <div class="thumbnail card">
-                    <div class="post-pic" style="background: #0097A7 url({{post.photo}}) no-repeat center top/ cover;"></div>
+                    <div class="post-pic cover-{{post.photo}}"></div>
                     <div class="caption">
                         <h3>{{post.title}}</h3>
                         <p>{{post.content | strip_html | truncate: 110 }}.</p>
@@ -33,7 +34,7 @@ navbar: default
         {% else %}
             <div class="col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-6">
                 <div class="thumbnail card">
-                    <div class="post-pic"  style="background: #0097A7 url({{post.photo}}) no-repeat center top/ cover;"></div>
+                    <div class="post-pic cover-{{post.photo}}"></div>
                     <div class="caption">
                         <h3>{{post.title}}</h3>
                         <p>{{post.content | strip_html | truncate: 110 }}.</p>
@@ -54,7 +55,7 @@ navbar: default
         <div class="row">
             <div class="col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-4">
                 <div class="thumbnail card">
-                    <div class="post-pic" style="background: #0097A7 url({{post.photo}}) no-repeat center top/ cover;"></div>
+                    <div class="post-pic cover-{{post.photo}}"></div>
                     <div class="caption">
                         <h3>{{post.title | truncate: 50}}</h3>
                         <p>{{post.content | strip_html | truncate: 80 }}.</p>
@@ -66,7 +67,7 @@ navbar: default
         {% if loopindex == 1 %}
             <div class="col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-4">
                 <div class="thumbnail card">
-                    <div class="post-pic" style="background: #0097A7 url({{post.photo}}) no-repeat center top/ cover;"></div>
+                    <div class="post-pic cover-{{post.photo}}"></div>
                     <div class="caption">
                         <h3>{{post.title | truncate: 50 }}</h3>
                         <p>{{post.content | strip_html | truncate: 80 }}.</p>
@@ -78,7 +79,7 @@ navbar: default
         {% if loopindex == 2 %}
             <div class="col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-4">
                 <div class="thumbnail card">
-                    <div class="post-pic"  style="background: #0097A7 url({{post.photo}}) no-repeat center top/ cover;"></div>
+                    <div class="post-pic cover-{{post.photo}}"></div>
                     <div class="caption">
                         <!-- {{post.title | size}} -->
                         <h3>{{post.title | truncate: 50}}</h3>

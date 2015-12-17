@@ -3,7 +3,7 @@ layout: post
 title:  "Brain vs Processor: Part 3 – PDF Data Mining"
 date:   2015-09-07 
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-photo: /assets/img/blog/Quill.jpg
+photo: Quill
 photo_author: Lennart Tange
 photo_url: https://www.flickr.com/photos/lennartt/7767334716/in/photolist-cQnC15-nFXbc-hbUp9u-2pZ7fV-817Gkm-f5Ebvo-7vuMwr-oiudxM-6fHYs4-bbkYzz-qqBSXL-vWrZ5f-oE9DyL-93EhKE-5Aqfvq-qHZBcg-9NbGou-jGaJ3k-5FdXox-q4ZB3R-2YGADn-f5WiW4-6YJjjy-4okHTv-8vC3Ef-6P2h7m-7SyD2r-bNLgPc-gFc8B2-7S5Acj-nhku2N-3r5Lz-619scQ-oiidpw-c7S5NS-4opDnA-86CQHB-jBLsX1-awriLT-kfUQa1-47GeJT-CbBZY-6QSy1v-87BChS-fj9zct-4mYwgs-2CWoeV-6vcfbQ-5koddX-zQLni
 description: "Use PyBossa and Crowdcrafting to extract information from PDF documents"

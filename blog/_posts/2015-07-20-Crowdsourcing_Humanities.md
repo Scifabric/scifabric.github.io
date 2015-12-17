@@ -3,7 +3,7 @@ layout: post
 title:  "Crowdsourcing the Humanities"
 date:   2015-07-20 
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-photo: /assets/img/blog/evolve.jpg
+photo: evolve
 photo_author: Keoni Cabral
 photo_url: https://www.flickr.com/photos/keoni101/8084689965/
 description: "PyBossa facilitates new wave of crowdsourced research into the humanities"

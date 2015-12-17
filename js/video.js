@@ -1,7 +1,7 @@
 //jQuery is required to run this code
 $( document ).ready(function() {
 
-    if (window.matchMedia("(min-width: 640px)").matches) {
+    if (window.matchMedia("(min-width: 769px)").matches) {
         var vid = $("<source/>");
         vid.attr('type', 'video/mp4');
         vid.attr('src', $('video').data("mp4"));

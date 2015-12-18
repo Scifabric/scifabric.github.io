@@ -5,7 +5,7 @@ date:   2015-12-17
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
 photo: /assets/img/blog/sapling.jpg
 photo_author: Jason Scragz
-photo_url: https://www.flickr.com/photos/scragz/132300147/in/photolist-cG5e2-9aVs72-ch6KRd-4bZAWg-4FaiQF-9s7Xt5-4cPRau-5uidrc-f9Uz3V-7RJGeq-7nSjZz-5Cajqq-GyRcS-8scZX-9x9N1Z-6LyMTm-6HfekA-fDpooj-m8bJ5n-7oZNTy-efWye-so1ges-sHMA98-aXP24T-mnoisk-qv6MgY-8SQJQ4-rWRj6W-biqGBe-Ayys8D-qeqqbC-eChFaT-nXV6dX-bYERKs-kTKKUJ-DiBqk-nFqLPY-z8ofWi-8GSKAj-caM8Bm-ftsZGW-vWVmE-cCW1mJ-6JTGuX-9HZEq6-vfww8i-fa9MyW-rhCY4t-9x16dW-rZKzLQ
+photo_url: https://www.flickr.com/photos/scragz/132300147/
 description: "SciFabric joins forces with the Citizen Cyberlab, Govlab and the One Campaign to track global goals for sustainable development"
 author: jimmyd
 keywords: crowdsourcing, crowdcrafting, PyBossa, open, source, science, citizen, opensource, transcribe, cognitive, image, pattern, recognition, sound, data, mine, PDF, video, Open Seventeen, sustainability, Mozilla

@@ -3,7 +3,7 @@ layout: post
 title:  "The Open Seventeen: Crowdsourcing sustainable development"
 date:   2015-12-17 
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-photo: /assets/img/blog/sapling.jpg
+photo: sapling
 photo_author: Jason Scragz
 photo_url: https://www.flickr.com/photos/scragz/132300147/
 description: "SciFabric joins forces with the Citizen Cyberlab, Govlab and the One Campaign to track global goals for sustainable development"
@@ -32,7 +32,7 @@ Projects can be set up in three easy steps. First, identify a set of open public
 
 Three pitches will be chosen and offered support & guidance to set up their proposed projects. The [Govlab Academy](http://govlabacademy.org/) will help participants develop the project from idea to implementation. [SciFabric](http://scifabric.com/) will help build the project on the [Crowdcrafting](https://crowdcrafting.org/) platform. And the [One Campaign](http://www.one.org/international/) will profile the winning project at international events.
 
-![alttext](/assets/img/blog/OpenMoz.jpg "James Doherty")
+![Mozilla Festival](/assets/img/blog/OpenMoz.JPG "James Doherty")
 <p class="post-caption">Photo by <a href="http://scifabric.com/team/">James Doherty</a> The Open Seventeen team brainstormed projects with participants at the "Tackling Sustainable Development with Citizen Science on the Web" session at Mozilla Festival in London (November 2015).</p>
 
 

@@ -1,0 +1,24 @@
+- name: Jesse von Doom
+  portrait: jesse-pic.png
+  company: CASH Music
+  quote: "We're social animals — we understand the power of a crowd. Scifabric makes that accessible to everyone, every project, everywhere."
+
+- name: Esra'a Al Shafei
+  portrait: esra-pic.png
+  company: Majal
+  quote: "Few companies understand the impact and power of collective wisdom better than SciFabric, whose projects continue to amaze me."
+
+- name: Daniel Pett
+  portrait: daniel-pic.png
+  company: British Museum
+  quote: "The PyBossa system has allowed the British Museum to release an amazing resource to the public and worldwide audience."
+
+- name: Seamus Kraft
+  portrait: seamus-pic.png
+  company: The OpenGov Foundation
+  quote: "Human progress only happens when people collaborate. Crowdcrafting makes progress possible with a brilliant, fun and open-source approach."
+
+- name: Andrew Bevan
+  portrait: andrew-pic.png
+  company: University College of London
+  quote: "Pybossa makes the creation of crowdsourcing projects so much easier and more enjoyable than it would otherwise be starting from scratch."

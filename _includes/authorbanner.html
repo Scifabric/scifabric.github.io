@@ -1,22 +1,28 @@
 {% for member in site.data.crew %}
 {% if member.author == page.author %}
-<div class="col-md-8 col-md-offset-2 author-detail">
-    <div class="col-md-2 hidden-sm hidden-xs">
-        <a href="{{member.homepage}}">
-            <img class="img-circle" src="/assets/img/crew/{{member.avatar}}" width="100%">
-        </a>
-    </div>
-    <div class="col-md-8">
-        <h3>{{member.name}} {{member.surname}}</h3>
-        <p class="author-rol">{{member.position}} @ SciFabric</p>
-        <p>{{member.name}} {{member.bio}}</p>
-        <ul>
-            <li><a href="mailto:{{member.email}}"><i class="fa fa-envelope"></i></a></li>
-            <li><a href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="http://linkedin.com/in/{{member.linkedin}}"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="https://github.com/{{member.github}}"><i class="fa fa-github"></i></a></li>
-        </ul>
+<div class="jumbotron jumbotron-author">
+    <div class="container">
+        <div class="col-md-8 col-md-offset-2 author-detail">
+            <div class="col-md-3 hidden-sm hidden-xs">
+                <a href="{{member.homepage}}">
+                    <img class="img-circle" src="/assets/img/crew/{{member.avatar}}" width="100%">
+                </a>
+            </div>
+            <div class="col-md-8">
+                <h3>{{member.name}} {{member.surname}}</h3>
+                <p class="author-rol">{{member.position}}</p>
+                <p>{{member.name}} {{member.longbio}}</p>
+                <ul>
+                    <li><a href="mailto:{{member.email}}"><i class="fa fa-envelope"></i></a></li>
+                    <li><a href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="http://linkedin.com/in/{{member.linkedin}}"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/{{member.github}}"><i class="fa fa-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
     </div>
 </div>
+
 {% endif %}
 {% endfor %}

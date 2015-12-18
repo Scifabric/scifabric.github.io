@@ -1,4 +1,31 @@
 @import "modules/colors";
+@import "partials/card";
+
+.jumbotron-author {
+    background-image: none;
+    background-color: $author-bg;
+    p {
+        font-weight: 400;
+    }
+}
+
+.blogpost {
+    h1 {
+        font-size: 38px;
+    }
+    h3 {
+        color: $grey;
+    }
+    p {
+        font-size: 19px;
+        line-height: 1.5;
+    }
+}
+
+.jumbotron-blog {
+    background: #333 url("../images/blog.jpg") no-repeat fixed center top / cover;
+    height: 600px;
+}
 
 section img {
     max-width: 100%;
@@ -51,19 +78,6 @@ ul.share-social {
 .post-date a,
 .back-to-blog-index a,
 p.back-to-blog-index{
-    color: white;
-}
-
-.post-date,
-.post-date a,
-.back-to-blog-index a,
-p.back-to-blog-index,
-li.share-on{
-    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.8);
-}
-
-li.share-on {
-    font-size: 16px;
     color: white;
 }
 
@@ -129,7 +143,18 @@ ul.share-social li a.linkedin:hover {
     background-color:rgb(26, 132, 188);
 }
 
-.post-caption {
+p.post-back,
+p.post-details {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+p.post-back {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+p.post-caption {
     font-size: 12px;
 }
 
@@ -166,9 +191,6 @@ div.author-detail {
 }
 
 .author-detail {
-    border-radius:3px;
-    background-color:#f7f6f5;
-    margin-bottom:60px;
     text-align:left !important;
     padding:40px 30px 35px 30px;
 }
@@ -176,17 +198,18 @@ div.author-detail {
     margin:-10px 0 0 -5px;
 }
 .author-detail h3 {
+    color: $sciblue;
     margin:0px 0 0 0;
     padding:0;
     font-size:18px;
 }
 .author-detail p.author-rol {
     font-size:15px;
-    color:#999;
+    color: $sciblue;
 }
 .author-detail p {
     font-size:16px;
-    color:#666;
+    color: $grey;
 }
 .author-detail ul {
     list-style-type:none;

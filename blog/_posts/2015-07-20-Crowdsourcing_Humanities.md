@@ -3,7 +3,7 @@ layout: post
 title:  "Crowdsourcing the Humanities"
 date:   2015-07-20 
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
-photo: /assets/img/blog/evolve.jpg
+photo: evolve
 photo_author: Keoni Cabral
 photo_url: https://www.flickr.com/photos/keoni101/8084689965/
 description: "PyBossa facilitates new wave of crowdsourced research into the humanities"
@@ -11,11 +11,11 @@ author: jimmyd
 keywords: crowdsourcing, crowdcrafting, PyBossa, open, source, science, citizen, opensource, music, cognitive, image, pattern, recognition, sound 
 ---
 
-Crowdsourcing is an incredibly useful tool in science. PyBossa software has helped CERN to [track antimatter](http://pybossa.com/blog/2015/03/01/Antimatter/), NASA to [analyse light pollution from the International Space Station](http://pybossa.com/blog/2014/07/23/Cities_at_Night/) and the University of Basel to [fight Malaria in Africa](http://pybossa.com/blog/2014/10/03/Rural_Geolocator/). However, crowdsourcing has applications far beyond citizen science.
+Crowdsourcing is an incredibly useful tool in science. PyBossa software has helped CERN to [track antimatter](/blog/2015/03/01/Antimatter.html), NASA to [analyse light pollution from the International Space Station](/blog/2014/07/23/Cities_at_Night.html) and the University of Basel to [fight Malaria in Africa](/blog/2014/10/03/Rural_Geolocator.html). However, crowdsourcing has applications far beyond citizen science.
 
 This blog post focuses on how some of the world's leading research institutions are using PyBossa software to research the humanities. We describe three different projects run by the [British Museum](http://www.britishmuseum.org/), the [National Library of Israel](http://www.nlics.org/) and [University College London](http://www.ucl.ac.uk/) to show how PyBossa software can facilitate research, enhance collections and engage the public with the humanities.
 
-# LibCrowds
+## LibCrowds
 
 [LibCrowds](http://www.libcrowds.com/) is a new crowdsourcing platform that aims to make the physical and digital collections of the [British Library](http://www.bl.uk/) more accessible. The platform is open source, so all datasets generated will be available for download.
 
@@ -26,7 +26,7 @@ LibCrowds' maiden project – [Convert-a-Card](http://www.libcrowds.com/project/
 
 Follow [LibCrowds](https://twitter.com/LibCrowds) and the [British Library](https://twitter.com/britishlibrary) on Twitter.
 
-# National Library of Israel
+## National Library of Israel
 
 The [National Library of Israel](http://www.nlics.org/) (NLI) has set up a new platform to improve their metadata where they ask contributors to tag, transcribe and answer questions relating to historical Israeli documents. 
 
@@ -37,7 +37,7 @@ In order to create a customised platform, the NLI has upgraded to a PyBossa UX/U
 
 Speak Hebrew? Then [give it a go](http://www.nlics.org/)!
 
-# Micropasts
+## Micropasts
 
 The [British Museum](http://www.britishmuseum.org/) and [University College London](http://www.ucl.ac.uk/) (UCL) have teamed-up to create [Micropasts](http://micropasts.org/), a platform that invites members of the public to become citizen archeologists. The project aims to create the world’s leading prehistoric metal database and change the way we research our collective past.
 
@@ -48,7 +48,7 @@ The British Museum’s Bronze Age collection contains over 30,000 tools and weap
 
 The Micropasts team have created over 70 projects and is at the forefront of crowdsourcing humanitarian research. Follow [Micropasts](https://twitter.com/MicroPasts) on Twitter.  
 
-# Can we help you?
+## Can we help you?
  
 If you would like to find out more about how PyBossa software can help with your research, please drop us an e-mail at info@scifabric.com.
 

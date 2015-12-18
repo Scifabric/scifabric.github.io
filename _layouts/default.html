@@ -11,8 +11,16 @@
         <link href="/css/bootstrap.css" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link href="/css/default.css" rel="stylesheet">
-        <link href="/css/{{page.css}}.css" rel="stylesheet">
-        <link rel="icon" type="image/png" href="http://localhost:4000/images/favicon.png">
+        {% if page.css %}
+            {% for css in page.css %}
+            <link href="/css/{{css}}.css" rel="stylesheet">
+            {% endfor %}
+        {% endif %}
+        <link rel="icon" type="image/png" href="/images/favicon.png">
+        <!-- Fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600,600italic,200,200italic,300,700,700italic,900italic,900,300italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.7/css/swiper.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.7/css/swiper.min.css">
 
 
         <!-- Twitter -->
@@ -35,8 +43,7 @@
     </head>
     <body data-spy="scroll" data-target="#navbar">
         {% include gtm.html %}
-        {% include loading.html %}
-        <nav class="navbar-wrapper">
+        <nav class="navbar-wrapper show">
             <div class="container">
                 <div class="navbar navbar-inverse">
                     <div class="container">
@@ -47,25 +54,18 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="/#what-is-scifabric">
-                                <img id="scifabricLogo" alt="logo Scifabric" src="/images/nav-logo.svg">
+                            <a class="navbar-brand" href="/">
+                                <img id="scifabricLogo" alt="logo Scifabric" src="/images/nav-logo-blue.svg">
                             </a>
                         </div>
                         <div id="navbar" class="navbar-collapse collapse">
                             <ul class="nav navbar-nav navbar-right">
                                 {% if page.navbar == "default" %}
-                                <li><a href="/#what-is-scifabric">What is SciFabric</a></li>
-                                <li><a href="/#what-we-do">What we do</a></li>
-                                <li><a href="/#how-we-do-it">How we do it</a></li>
-                                <li id="dropdown" class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">What we offer <span class="caret"></span></a>
-                                <ul class="dropdown-menu arrow">
-                                    <li><a href="/#what-we-offer">Services</a></li>
-                                    <li><a href="/#education">Education</a></li>
-                                </ul>
-                                </li>
+                                <li><a href="/crowdsourcing/">Services</a></li>
+                                <li><a href="/team/">Us</a></li>
+                                <li><a href="/blog/">Blog</a></li>
                                 {% endif %}
-                                <li id="btn-nav"><a href="/#contact" class="btn btn-header">Say hi!</a></li>
+                                <li id="btn-nav"><a href="/contact/" class="btn btn-header">Say hi!</a></li>
                             </ul>
                         </div>
                     </div>

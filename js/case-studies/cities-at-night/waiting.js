@@ -17,3 +17,21 @@ else {
     var world = $("<img/>");
     world.attr("src", "/images/world.png");
 }
+
+
+$(window).scroll(function() {
+    var distanceToTop = $(this).scrollTop();
+    if (distanceToTop <= 10){
+        $('nav').removeClass('show');
+        $('#scifabricLogo').attr('src', '/images/nav-logo.svg');
+    }
+    else {
+        if ($("body").hasClass('case-study')) {
+            $('#scifabricLogo').attr('src', '/images/nav-logo.svg');
+        }
+        else {
+            $('#scifabricLogo').attr('src', '/images/nav-logo-blue.svg');
+        }
+        $('nav').addClass('show');
+    }
+});

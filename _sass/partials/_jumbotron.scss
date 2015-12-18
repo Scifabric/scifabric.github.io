@@ -5,19 +5,17 @@
     color: inherit;
     right:0;left:0;top:0;bottom:0;
     overflow:hidden;
-    background: #0F3B49 url('../images/bg.jpg') no-repeat top center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: $quotes-bg url("/assets/img/science-icons-bg.png") repeat fixed center top;
     background-attachment:fixed;
     height: auto;
 }
 
-.jumbotron h2,
+.jumbotron h1, 
+.jumbotron h2 {
+    color: $white;
+}
+
 .jumbotron h1 {
-    font-size: 48px;
-    color: $white-font;
     margin-bottom: 20px;
     margin-top: 40px;
 }
@@ -33,7 +31,7 @@
 
 @media (max-width: 768px) {
     .jumbotron h2 {
-        font-size: 38px;
+   
         color: $white-font;
         margin-bottom: 20px;
         margin-top: 40px;
@@ -61,10 +59,7 @@
     background: #333 url("../images/cookies.jpg") no-repeat fixed center top / cover;
 }
 
-.jumbotron-blog {
-    background: #333 url("../images/blog.jpg") no-repeat fixed center top / cover;
-    height: 600px;
-}
+
 
 .jumbotron-training {
     background: #333 url("../images/training.jpg") no-repeat fixed center top / cover;
@@ -74,9 +69,7 @@
     background: #333 url("/images/dark-flare.jpg") no-repeat fixed center top / cover;
 }
 
-.jumbotron-team {
-    background: #144352 url("../images/dark-flare.jpg") no-repeat center top / cover;
-}
+
 
 
 
@@ -134,33 +127,46 @@
         /* Translate the @2x sprite's dimensions back to 1x */
     }
 
+.jumbotron-video {
+    padding: 0px 0px;
+    h1, p {
+        color: $dark-grey;
+    }
 
-.jumbotron-team h2 {
-    font-size: 36px;
-    margin-top: 40px;
-    padding-left: 10%;
-    padding-right: 10%;
-}
+    h2 {
+        color: $dark-grey;
+    }
 
-@media (max-width: 991px){
+    .circle-arrow {
+        color: $white;
+        margin-top: 15%;
+    }
 
-    .jumbotron-team h2 {
-        font-size: 36px;
-        margin-top: 20px;
-        padding-left: 15%;
-        padding-right: 15%;
+    .circle {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 2px solid $white;
+
+        a,
+        a:hover {
+            color: $white;
+        }
+
+        .fa.fa-arrow-down {
+            display: inline-block;
+            font-size: 30px;
+            margin-top: 15px;
+        }
     }
 }
 
-@media (max-width: 767px){
-
-    .jumbotron-team h2 {
-        font-size: 28px;
-        margin-top: 100px;
-        text-align: left;
-        padding-left: 0%;
-        padding-right: 0%;
-    }
+.jumbotron-video a .circle{
+           color: $white;
 }
+
+
+
 
 

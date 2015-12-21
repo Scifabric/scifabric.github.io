@@ -66,7 +66,7 @@ as well as a live feed of what's going on.
 
 Finally, (I told you, we've not forgotten about you developer), we've included a plugin
 system in PyBossa. This feature allows you to actually extend what PyBossa can do for you.
-For example, the British Libray and their PyBossa powered platform [LibCrowds](https://github.com/LibCrowds/Z3950-pybossa-plugin) have 
+For example, the British Library and their PyBossa powered platform [LibCrowds](https://github.com/LibCrowds/Z3950-pybossa-plugin) have 
 created two cool plugins:
 
  * [Discourse integration](https://github.com/LibCrowds/discourse-pybossa-plugin): now you can have your own forum in PyBossa without problems.

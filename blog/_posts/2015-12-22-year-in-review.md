@@ -87,7 +87,10 @@ In summary, PyBossa keeps growing adding new features that we hope you find usef
 ## Be your own research platform
 
 This year at least 5 institutions have chosen PyBossa as their solution to become their
-own crowdsourcing research platform (and we're so happy and proud about it). 
+own crowdsourcing research platform (and we're so happy and proud about it). Thus, let's
+start with the science!
+
+<iframe src="//giphy.com/embed/Fbyam9ZAJ3J1m" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/time-school-chemistry-Fbyam9ZAJ3J1m"></a></p>
 
 ### National Library of Israel
 

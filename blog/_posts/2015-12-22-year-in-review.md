@@ -17,11 +17,16 @@ reflect in what we've achieved and done through this 2015.
 
 As you know, or you should :-), the king of our products is [PyBossa](http://pybossa.com). 
 
-PyBossa lets you build your own research platform in a few steps, and due to its simplicity
+PyBossa lets you *build your own research platform* in a few steps, and due to its simplicity
 we wanted to bring more new cool features to it, so you, yes, you, you'll be able to do more
 with less hacking (I feel you developers, but don't worry we've created also amazing tools for
 you, that'll be in a moment).
 
+
+<iframe src="//giphy.com/embed/oKVs1VY0MKfvO" width="480" height="253" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/nervous-indiana-jones-waiting-oKVs1VY0MKfvO"></a></p>
+
+
+### Third Party Integrations
 
 We know you have your data in different services. For this reason, we wanted to bring new integrations
 to PyBossa. These year we've added two:
@@ -41,11 +46,14 @@ without a Dropbox account, so as we knew that most people already use this servi
 data sets, we thought: what about integrating it into PyBossa? And voila, here you have it! Another
 integration that allows you to select easily your own data sets from a file picker viewer.
 
+
 While these integrations are cool, we realized that lots of projects were updated *by hand* with
 new data as it became available. For instance, when you are using our [EpiCollect+]() integration
 to capture data with phones, you *had* to manually import from time to time the project again to get
 the new entries. It was simple, but you had to remember to do it. Thus, we decided to automate it, 
 and the **auto importers** were born.
+
+<iframe src="//giphy.com/embed/YXpp9YxWhyWBy" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/angry-king-burger-YXpp9YxWhyWBy"></a></p>
 
 Auto importers let you get your data directly into your PyBossa project without having to do it 
 by hand. This feature allows you to basically push data to your projects, reducing your time in 
@@ -57,6 +65,8 @@ crowdsourcing platform, what you have achieved, etc. Due to this, we've integrat
 with [Mailchimp](). The integration allows your users when they register to accept or decline
 being subscribed to your newsletter. Simple but effective. Keep your communications with the tools
 that you already use.
+
+<iframe src="//giphy.com/embed/XB6pGqvOfJqY8" width="480" height="368" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/dancing-happy-jimmy-fallon-XB6pGqvOfJqY8"></a></p>
 
 With this approach in mind, communicating with your community, we also wanted to get 
 more insights about what's going on in the platform. Hence, we've developed for administrators

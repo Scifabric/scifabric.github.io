@@ -30,7 +30,7 @@ to PyBossa. These year we've added two:
  *  Dropbox.
 
 With Flickr you can import any album on the site, or log in with your Flickr account and select the album or set
-that you want to import. As simple as that. This feature is pretty handy for galleries, libraries, archieves
+that you want to import. As simple as that. This feature is pretty handy for galleries, libraries, archives
 and museums (GLAM) as they usually have tons of pictures on the [Flickr commons]() section. Those, if you
 have your photos already in Flickr, import them with a click or upload photos to it. They give 1TB of space
 for free!!
@@ -38,7 +38,7 @@ for free!!
 Well, if Flickr is handy, what do you think about our Dropbox integration? Yes, you can import any
 picture, audio file, PDF or video file from your own Dropbox account. I don't know too many people
 without a Dropbox account, so as we knew that most people already use this service to store their own
-data sets, we thought: what about integrating it into PyBossa? And voila, here you have it! Another
+data sets, we thought: what about integrating it into PyBossa? And voilà, here you have it! Another
 integration that allows you to select easily your own data sets from a file picker viewer.
 
 While these integrations are cool, we realized that lots of projects were updated *by hand* with
@@ -104,7 +104,7 @@ other half is hard to find. All of the declarations are only available as scanne
 PDFs, sometimes handwritten, which makes it difficult to properly scrutinise the register.
 
 They used PyBossa to transform human readable documents into machine readable documents, 
-publishing a search interface and a data set in Github.
+publishing a search interface and a data set in GitHub.
 
 ### The British Library
 
@@ -118,9 +118,9 @@ particularly the Chinese and Indian catalogues. Data identified, transcribed or
 translated as part of the project will be freely accessible from the 
 British Library’s Explore catalogue.
 
-### University of Heilderberg
+### University of Heidelberg
 
-The [University of Heliderberg](http://www.heidelberg.edu/) and [Disaster Mappers](https://disastermappers.wordpress.com/) used our PyBossa technology to create two amazing projects.
+The [University of Heidelberg](http://www.heidelberg.edu/) and [Disaster Mappers](https://disastermappers.wordpress.com/) used our PyBossa technology to create two amazing projects.
 
 The [first project](http://crowdmap.geog.uni-heidelberg.de/app/missing_maps_follow_up/) has been about supporting the [Missing Maps Project](http://www.missingmaps.org/) by classifying 
 Bing aerial imagery. The volunteer were asked to assess whether there are human 
@@ -129,7 +129,7 @@ analyzed areas.
 
 The [second project](http://crowdmap.geog.uni-heidelberg.de/app/shelter_dynamics/) was about monitor the temporal and spatial dynamics of camps of 
 internally displaced persons (IDP) using satellite imagery to provide credible and 
-up-to-date information from Nepal Eartquake natural disaster.
+up-to-date information from Nepal Earthquake natural disaster.
 
 ## Events
 

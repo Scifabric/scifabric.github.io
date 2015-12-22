@@ -29,7 +29,7 @@ you, that'll be in a moment).
 ### Third Party Integrations
 
 We know you have your data in different services. For this reason, we wanted to bring new integrations
-to PyBossa. These year we've added two:
+to PyBossa. These year we've added three:
 
  *  Flickr, 
  *  Dropbox, and 
@@ -47,7 +47,7 @@ without a Dropbox account, so as we knew that most people already use this servi
 data sets, we thought: what about integrating it into PyBossa? And voilà, here you have it! Another
 integration that allows you to select easily your own data sets from a file picker viewer.
 
-We've added in December the Twitter importer. You were looking for sentiment analysis using Twitter hashtags? You can now!
+We've added in December the Twitter importer. **You were looking for sentiment analysis using Twitter hashtags? You can now!**
 You only have to type the query that you want to import, and PyBossa will do the hard work for you. We've created [two templates](https://github.com/PyBossa/project-twitter-templates)
 so you can do sentiment analysis in less than 10 minutes!
 
@@ -59,15 +59,15 @@ and the **auto importers** were born.
 
 <iframe src="//giphy.com/embed/YXpp9YxWhyWBy" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/angry-king-burger-YXpp9YxWhyWBy"></a></p>
 
-Auto importers let you get your data directly into your PyBossa project without having to do it 
-by hand. This feature allows you to basically push data to your projects, while you can do other
+**Auto importers let you get your data directly into your PyBossa project without having to do it 
+by hand**. This feature allows you to basically push data to your projects, while you can do other
 stuff. Now you can enjoy a cup of coffee while you check your email, as PyBossa will notify you what when the new data
 has been added. Enjoy!
 
 Up to now all the integrations are for you, but what about your community? Well, don't worry
 we've you also covered. We know that your community wants to get connected, get the latest news of your
-crowdsourcing platform, what you have achieved, etc. Due to this, we've integrated PyBossa
-with [Mailchimp](http://mailchimp.com/). The integration prompts your new users, when register, if they want to
+crowdsourcing platform, what you have achieved, etc. Due to this, **we've integrated PyBossa
+with [Mailchimp](http://mailchimp.com/)**. The integration prompts your new users, when register, if they want to
 be subscribed to your newsletter. Simple but effective. Now you don't have an excuse to communicate, more, right?
 
 <iframe src="//giphy.com/embed/XB6pGqvOfJqY8" width="480" height="368" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/dancing-happy-jimmy-fallon-XB6pGqvOfJqY8"></a></p>
@@ -87,7 +87,7 @@ created two cool plugins:
  * [Discourse integration](https://github.com/LibCrowds/discourse-pybossa-plugin): now you can have your own forum in PyBossa without problems.
  * [Z39.50 integration](https://github.com/LibCrowds/Z3950-pybossa-plugin): if your institution uses this protocol, you can integrate it without problems.
 
-Not bad for a year, right? Then, go and grab the latest version!
+Not bad for a year, right? Then, go and [grab the latest version!](https://github.com/PyBossa/pybossa/releases)
 
 ## Be your own research platform
 
@@ -120,7 +120,8 @@ PDFs, sometimes handwritten, which makes it difficult to properly scrutinise the
 
 Their solution? Use PyBossa to transform human readable documents into machine readable documents, 
 publishing a [search interface](http://www.theguardian.com/global/datablog/ng-interactive/2015/mar/27/search-the-nsw-register-of-pecuniary-interests-to-see-what-politicians-have-declared) and a [data set in GitHub](https://github.com/nickjevershed/pecuniaryinterests/blob/master/data.json), as well as a nice [article about this
-investigation](http://www.theguardian.com/australia-news/2015/mar/27/exclusive-nsw-liberal-mps-failed-to-declare-financial-interests-on-register).
+investigation](http://www.theguardian.com/australia-news/2015/mar/27/exclusive-nsw-liberal-mps-failed-to-declare-financial-interests-on-register)
+where the journalists explains that their research *forced New South Wales fair trading minister and the Liberal party’s whip to correct their pecuniary interest disclosures*. Amazing!
 
 ### The British Library
 
@@ -164,7 +165,7 @@ At [Zincshower](http://zincshower.com/) we won the award: **Best startup of the 
 electronic music as well as hang out with some of the most amazing start ups at their Sonar+D
 section.
 
-<iframe src="//giphy.com/embed/26tPghhb310muUkEw" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/90s-retro-commercials-26tPghhb310muUkEw">via GIPHY</a></p>
+<iframe src="//giphy.com/embed/26tPghhb310muUkEw" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/90s-retro-commercials-26tPghhb310muUkEw"></a></p>
 
 ## Crowdcrafting
 

@@ -21,6 +21,10 @@
         line-height: 1.5;
     }
 
+    li:hover a {
+        color: $sciblue-font;
+    }
+
 }
 
 .jumbotron-blog {

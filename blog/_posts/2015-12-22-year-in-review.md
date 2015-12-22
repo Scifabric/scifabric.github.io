@@ -170,7 +170,7 @@ At [Zincshower](http://zincshower.com/) we won the award for **Best startup of t
 [Sonar+D](http://sonarplusd.com/), a very cool event where we had the opportunity to learn about the latest trends in
 electronic music, as well as hang out with some of amazing start-ups.
 
-<iframe src="//giphy.com/embed/26tPghhb310muUkEw" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/90s-retro-commercials-26tPghhb310muUkEw">via GIPHY</a></p>
+<iframe src="//giphy.com/embed/26tPghhb310muUkEw" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/90s-retro-commercials-26tPghhb310muUkEw"></a></p>
 
 ## Crowdcrafting
 

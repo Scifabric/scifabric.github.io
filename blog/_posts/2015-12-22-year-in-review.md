@@ -31,24 +31,28 @@ you, that'll be in a moment).
 We know you have your data in different services. For this reason, we wanted to bring new integrations
 to PyBossa. These year we've added two:
 
- *  Flickr, and
- *  Dropbox.
+ *  Flickr, 
+ *  Dropbox, and 
+ *  Twitter.
 
-With Flickr you can import any album on the site, or log in with your Flickr account and select the album or set
+**With Flickr you can import any album on the site**, or log in with your Flickr account and select the album or set
 that you want to import. As simple as that. This feature is pretty handy for galleries, libraries, archives
-and museums (GLAM) as they usually have tons of pictures on the [Flickr commons]() section. Those, if you
-have your photos already in Flickr, import them with a click or upload photos to it. They give 1TB of space
+and museums (GLAM) as they usually have tons of pictures on the [Flickr commons](https://www.flickr.com/commons/) section. Thus, if you
+have your photos already in Flickr, import them with a click or upload new photos to it. They give 1TB of space
 for free!!
 
-Well, if Flickr is handy, what do you think about our Dropbox integration? Yes, you can import any
-picture, audio file, PDF or video file from your own Dropbox account. I don't know too many people
+Well, if Flickr is handy, what do you think about our Dropbox integration? Yes, **you can import any
+picture, audio file, PDF or video file from your own Dropbox account**. I don't know many people
 without a Dropbox account, so as we knew that most people already use this service to store their own
 data sets, we thought: what about integrating it into PyBossa? And voilà, here you have it! Another
 integration that allows you to select easily your own data sets from a file picker viewer.
 
+We've added in December the Twitter importer. You were looking for sentiment analysis using Twitter hashtags? You can now!
+You only have to type the query that you want to import, and PyBossa will do the hard work for you. We've created [two templates](https://github.com/PyBossa/project-twitter-templates)
+so you can do sentiment analysis in less than 10 minutes!
 
-While these integrations are cool, we realized that lots of projects were updated *by hand* with
-new data as it became available. For instance, when you are using our [EpiCollect+]() integration
+While these integrations are cool, we realized that lots of projects were updated *by hand* when
+new data became available. For instance, when you are using our [EpiCollect+](http://plus.epicollect.net/) integration
 to capture data with phones, you *had* to manually import from time to time the project again to get
 the new entries. It was simple, but you had to remember to do it. Thus, we decided to automate it, 
 and the **auto importers** were born.
@@ -56,37 +60,38 @@ and the **auto importers** were born.
 <iframe src="//giphy.com/embed/YXpp9YxWhyWBy" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/angry-king-burger-YXpp9YxWhyWBy"></a></p>
 
 Auto importers let you get your data directly into your PyBossa project without having to do it 
-by hand. This feature allows you to basically push data to your projects, reducing your time in 
-running your scripts to push the data. Now you can enjoy a cup of coffee while you check in your email what new data
+by hand. This feature allows you to basically push data to your projects, while you can do other
+stuff. Now you can enjoy a cup of coffee while you check your email, as PyBossa will notify you what when the new data
 has been added. Enjoy!
 
-Also, we know that your community wants to get connected, get the latest news of your
+Up to now all the integrations are for you, but what about your community? Well, don't worry
+we've you also covered. We know that your community wants to get connected, get the latest news of your
 crowdsourcing platform, what you have achieved, etc. Due to this, we've integrated PyBossa
-with [Mailchimp](). The integration allows your users when they register to accept or decline
-being subscribed to your newsletter. Simple but effective. Keep your communications with the tools
-that you already use.
+with [Mailchimp](http://mailchimp.com/). The integration prompts your new users, when register, if they want to
+be subscribed to your newsletter. Simple but effective. Now you don't have an excuse to communicate, more, right?
 
 <iframe src="//giphy.com/embed/XB6pGqvOfJqY8" width="480" height="368" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/dancing-happy-jimmy-fallon-XB6pGqvOfJqY8"></a></p>
 
 With this approach in mind, communicating with your community, we also wanted to get 
-more insights about what's going on in the platform. Hence, we've developed for administrators
-a dashboard where you can know when a new PyBossa version is released, the number of
+more insights about what's going on in the platform. Hence, **we've developed for administrators
+a dashboard** where you can know when a new PyBossa version is released, the number of
 registered users in your site in the last week, new created projects, published and updated
 as well as a live feed of what's going on. 
 
-Finally, (I told you, we've not forgotten about you developer), we've included a plugin
-system in PyBossa. This feature allows you to actually extend what PyBossa can do for you.
+Finally, (I told you, we've not forgotten about you developer), **we've included a plugin
+system in PyBossa**. This feature allows you to actually extend what PyBossa can do for you.
+
 For example, the British Library and their PyBossa powered platform [LibCrowds](https://github.com/LibCrowds/Z3950-pybossa-plugin) have 
 created two cool plugins:
 
  * [Discourse integration](https://github.com/LibCrowds/discourse-pybossa-plugin): now you can have your own forum in PyBossa without problems.
  * [Z39.50 integration](https://github.com/LibCrowds/Z3950-pybossa-plugin): if your institution uses this protocol, you can integrate it without problems.
 
-In summary, PyBossa keeps growing adding new features that we hope you find useful.
+Not bad for a year, right? Then, go and grab the latest version!
 
 ## Be your own research platform
 
-This year at least 5 institutions have chosen PyBossa as their solution to become their
+This year four institutions have chosen PyBossa as their solution to become their
 own crowdsourcing research platform (and we're so happy and proud about it). Thus, let's
 start with the science!
 
@@ -98,9 +103,6 @@ The National Library contacted us this year to showcase what they have achieved 
 their PyBossa powered platform [nlics.org](http://nlics.org). Their goal is to improve 
 their metadata where they ask contributors to tag, transcribe and answer questions 
 relating to historical Israeli documents.
-
-They've customized the look and feel and you can see that they have added lots of work to it.
-
 
 ### The Guardian
 
@@ -116,8 +118,9 @@ pecuniary interests register has never been viewable online by the public, and t
 other half is hard to find. All of the declarations are only available as scanned 
 PDFs, sometimes handwritten, which makes it difficult to properly scrutinise the register.
 
-They used PyBossa to transform human readable documents into machine readable documents, 
-publishing a search interface and a data set in GitHub.
+Their solution? Use PyBossa to transform human readable documents into machine readable documents, 
+publishing a [search interface](http://www.theguardian.com/global/datablog/ng-interactive/2015/mar/27/search-the-nsw-register-of-pecuniary-interests-to-see-what-politicians-have-declared) and a [data set in GitHub](https://github.com/nickjevershed/pecuniaryinterests/blob/master/data.json), as well as a nice [article about this
+investigation](http://www.theguardian.com/australia-news/2015/mar/27/exclusive-nsw-liberal-mps-failed-to-declare-financial-interests-on-register).
 
 ### The British Library
 
@@ -126,10 +129,12 @@ As with the National Library of Israel, they have several projects where they us
 to ask volunteers to transcribe text from printed card catalogues into electronic records 
 in order to make them available to a worldwide audience. 
 
-The project is initially focused on the library’s Asian and African collections, 
+The project is initially focused on the library's Asian and African collections, 
 particularly the Chinese and Indian catalogues. Data identified, transcribed or 
 translated as part of the project will be freely accessible from the 
-British Library’s Explore catalogue.
+British Library's Explore catalogue.
+
+You can find the [first results of the project in their blog](http://www.libcrowds.com/blog/6).
 
 ### University of Heidelberg
 
@@ -147,22 +152,36 @@ up-to-date information from Nepal Earthquake natural disaster.
 ## Events
 
 This year we have participated in several conferences, workshops and symposiums. We were at
-[EmpoderaLIVE]() and we participated in the presentation of the results of Micropasts: a PyBossa
+[EmpoderaLIVE](http://live.empodera.org/) and we participated in the presentation of the results of Micropasts: a PyBossa
 powered project by the British Museum and University College of London. 
 
-At [Zincshower]() we won the award: Best startup of the event, something that make us go to
-[Sonar+D]() a very cool event because we have the chance to listen to the latest trends on
+![Spear head 3D printed thanks to PyBossa](/assets/img/blog/spear.jpg)
+
+At [Zincshower](http://zincshower.com/) we won the award: **Best startup of the event**, something that make us go to
+[Sonar+D](http://sonarplusd.com/) a very cool event because we have the chance to listen to the latest trends on
 electronic music as well as hang out with some of the most amazing start ups at their Sonar+D
 section.
 
+<iframe src="//giphy.com/embed/26tPghhb310muUkEw" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/90s-retro-commercials-26tPghhb310muUkEw">via GIPHY</a></p>
 
 ## Crowdcrafting
 
-Crowdcrafting has seen also amazing projects like:-----
+Crowdcrafting has seen also amazing projects like: [Landfill Hunter](http://crowdcrafting.org/project/landfill/) where the researcher
+wants to increase landfill awareness as well as contribute data to help better understand landfills and bring that information into the public discourse.
 
-If we've to show our vanity checks, we can say that Crowdcrafting has imported more than 200k tasks, and close to 
-half million of answers submitted by volunteers from all over the world.
+[European Illegal Parking](http://crowdcrafting.org/project/Illegal_Parking/) want to to build an European Illegal Parking Ranking. Hopefully, this ranking will raise awareness to the problem in Europe and thus pressure the national and local institutions to pursue more effective measures to tackle the problem. Awesome, right?
 
-2000 new users joined us this year, while almost 4k anonymous people participated in a project.
+Finally, [Localizing Pune's Budget](http://crowdcrafting.org/project/localpunebudget/). This project is trying to analyze and evaluate the ward-level infrastructure and public spending for Pune. Out of 9,614 budget items listed in the annual budget book for 2015-16 (see the simplified and combined list in bottom link), about 1,997 do not have any ward number or whole-city marking alloted. It would be great if you could assign the proper ward numbers to these works: so they then can have a more accurate picture about the investment made in various areas of Pune.
 
-More than 600 projects were created, 
+If we've to show our **vanity checks**, we can say that **people have uploaded more than 200K tasks to Crowdcrafting**, and close to 
+**half a million of answers have been submitted by volunteers from all over the world**.
+
+**2000 new users joined us this year**, while almost **4000 anonymous people participated in a project**.
+
+More than **600 projects were created** and new ones will come for sure in 2016.
+
+While this year has been amazing, we think that 2016 will be even cooler with new additions to PyBossa (like a new
+importer for Youtube videos) as well as some secret stuff that we cannot share yet (yes, I'm trying to build momentum
+so you'll check the blog next year ;-)).
+
+Merry Christmas and Happy 2016!

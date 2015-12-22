@@ -156,6 +156,8 @@ This year we have participated in several conferences, workshops and symposiums.
 powered project by the British Museum and University College of London. 
 
 ![Spear head 3D printed thanks to PyBossa](/assets/img/blog/spear.jpg)
+<p class="post-caption">Spear head 3D printed built thanks to PyBossa powered photomasking projects at Micropasts.</p>
+
 
 At [Zincshower](http://zincshower.com/) we won the award: **Best startup of the event**, something that make us go to
 [Sonar+D](http://sonarplusd.com/) a very cool event because we have the chance to listen to the latest trends on

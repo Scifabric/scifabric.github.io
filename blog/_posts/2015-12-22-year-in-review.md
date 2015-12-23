@@ -21,8 +21,9 @@ introduced some cool new features so you'll be able to do more
 with less hacking. (Don't worry developers, we've created amazing tools for
 you too... read on!)
 
-
-<iframe src="//giphy.com/embed/oKVs1VY0MKfvO" width="480" height="253" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/nervous-indiana-jones-waiting-oKVs1VY0MKfvO"></a></p>
+<div class="embed-responsive embed-responsive-4by3">
+  <iframe class="embed-responsive-item" src="//giphy.com/embed/oKVs1VY0MKfvO" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/nervous-indiana-jones-waiting-oKVs1VY0MKfvO"></a></p>
+  </div>
 
 
 ### Third Party Integrations
@@ -57,7 +58,9 @@ to capture data with phones, you *had* to manually import the project again from
 the new entries. It was simple, but you had to remember to do it. Thus, we decided to automate it, 
 and so the **auto importers** were born.
 
-<iframe src="//giphy.com/embed/YXpp9YxWhyWBy" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/angry-king-burger-YXpp9YxWhyWBy"></a></p>
+<div class="embed-responsive embed-responsive-4by3">
+  <iframe class="embed-responsive-item" src="//giphy.com/embed/YXpp9YxWhyWBy" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/angry-king-burger-YXpp9YxWhyWBy"></a></p>
+  </div>
 
 Auto importers let you transfer data directly into your PyBossa project without having to do it 
 manually. This feature allows you to push data to your projects while you can do other
@@ -74,7 +77,9 @@ crowdsourcing platform, and keep up-to-date on what you have achieved etc. So we
 with [Mailchimp](http://mailchimp.com/). The integration asks new users whether they want to
 subscribe to your newsletter at registration. Simple but effective. Now you have no excuse for not communicating to your community, right?
 
-<iframe src="//giphy.com/embed/XB6pGqvOfJqY8" width="480" height="368" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/dancing-happy-jimmy-fallon-XB6pGqvOfJqY8"></a></p>
+<div class="embed-responsive embed-responsive-4by3">
+  <iframe class="embed-responsive-item" src="//giphy.com/embed/XB6pGqvOfJqY8" width="480" height="368" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/dancing-happy-jimmy-fallon-XB6pGqvOfJqY8"></a></p>
+  </div>
 
 ### Administrator's dashboard
 
@@ -103,7 +108,9 @@ Not bad for a year's work, right? Then, go and grab the latest version!
 This year four institutions have chosen PyBossa as their solution to become their
 own crowdsourcing research platform (and we're so happy and proud about it).
 
-<iframe src="//giphy.com/embed/Fbyam9ZAJ3J1m" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/time-school-chemistry-Fbyam9ZAJ3J1m"></a></p>
+<div class="embed-responsive embed-responsive-4by3">
+  <iframe class="embed-responsive-item" src="//giphy.com/embed/Fbyam9ZAJ3J1m" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/time-school-chemistry-Fbyam9ZAJ3J1m"></a></p>
+  </div>
 
 ### National Library of Israel
 
@@ -170,7 +177,9 @@ At [Zincshower](http://zincshower.com/) we won the award for **Best startup of t
 [Sonar+D](http://sonarplusd.com/), a very cool event where we had the opportunity to learn about the latest trends in
 electronic music, as well as hang out with some of amazing start-ups.
 
-<iframe src="//giphy.com/embed/26tPghhb310muUkEw" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/90s-retro-commercials-26tPghhb310muUkEw"></a></p>
+<div class="embed-responsive embed-responsive-4by3">
+  <iframe class="embed-responsive-item" src="//giphy.com/embed/26tPghhb310muUkEw" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/90s-retro-commercials-26tPghhb310muUkEw"></a></p>
+  </div>
 
 ## Crowdcrafting
 

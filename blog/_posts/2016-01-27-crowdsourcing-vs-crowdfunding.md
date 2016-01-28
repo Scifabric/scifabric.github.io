@@ -12,7 +12,9 @@ author: jimmyd
 
 We’re nice here at SciFabric. We like building tools that help people, petting puppies and helping old folks to cross the road. But there’s one thing that makes us MAD… and that’s when people get ‘crowdsourcing’ and ‘crowdfunding’ mixed up. Argh!!
 
-<iframe src="//giphy.com/embed/R54jhpzpARmVy" width="750" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/shake-fist-angry-girl-shakes-R54jhpzpARmVy">via GIPHY</a></p>
+<div class="embed-responsive embed-responsive-4by3">
+  <iframe class="embed-responsive-item" src="//giphy.com/embed/R54jhpzpARmVy" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/shake-fist-angry-girl-shakes-R54jhpzpARmVy"></a></p>
+  </div>
 
 It really gets our goat, so we’ve decided to set the record straight and write a definitive guide on the difference between these two concepts.
 
@@ -64,7 +66,9 @@ Crowdfunding has been extremely disruptive to traditional finance models and rev
 
 And you’re probably more familiar with crowdfunding than you think. For instance, President Obama raised over $50 million through crowdfunding for his 2008 election campaign. Instead of targeting large donors, Obama asked thousands of his supporters for small contributions. Cha ching!
 
-<iframe src="//giphy.com/embed/dpYkMt1b9BNmw" width="750" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/obama-barack-happy-dance-dpYkMt1b9BNmw">via GIPHY</a></p>
+<div class="embed-responsive embed-responsive-4by3">
+  <iframe class="embed-responsive-item" src="//giphy.com/embed/dpYkMt1b9BNmw" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/obama-barack-happy-dance-dpYkMt1b9BNmw"></a></p>
+  </div>
 
 So what are the different types of crowdfunding?
 
@@ -108,6 +112,8 @@ Get it? Got it? GOOD!
 
 We can get back to petting puppies…
 
-<iframe src="//giphy.com/embed/fpimaNarpyW88" width="700" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/show-what-videos-fpimaNarpyW88">via GIPHY</a></p>
+<div class="embed-responsive embed-responsive-4by3">
+  <iframe class="embed-responsive-item" src="//giphy.com/embed/fpimaNarpyW88" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/show-what-videos-fpimaNarpyW88"></a></p>
+  </div>
 
 ... and owls!

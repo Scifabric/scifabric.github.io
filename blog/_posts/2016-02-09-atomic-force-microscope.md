@@ -10,6 +10,7 @@ tags: SciFabric, microscope, diy
 location: Madrid, Spain
 description: ""
 layout: post
+author: teleyinex
 ---
 
 Microscopes, who has not used one? Well, I hope you have, at least in your scholar years. They allow us to see things that our
@@ -22,14 +23,17 @@ In 1625 [Giovanni Faber](https://en.wikipedia.org/wiki/Giovanni_Faber), a fellow
 However, we'll have to wait 40 years to see how the microscope becomes a popular tool used in science. In 1665 [Robert Hooke](https://en.wikipedia.org/wiki/Robert_Hooke) published [Micrographia](https://ia800504.us.archive.org/5/items/mobot31753000817897/mobot31753000817897.pdf) a book that inspired the use of microscopes for scientific exploration. His hand made drawings in copperplates of insects and plant cells made his work to become really popular due to quality of them: 
 
 ![Hooke's microscope](/assets/img/blog/Hooke-microscope.png)
-
-![Cork cells](/assets/img/blog/cork.jpg)
-
-![Cork cells](/assets/img/blog/HookeFlea01.jpg)
+<p class="post-caption">Photo by <a href="#">Wikipedia</a>.</p>
 
 The engravings actually were detailed, but the most awesome feature was that you could unfold them making it larger than the folio itself, reinforcing the tremendous power of the microscope.
 
+![Cork cells](/assets/img/blog/HookeFlea01.jpg)
+<p class="post-caption">Photo by <a href="#">Wikipedia</a>.</p>
+
 Oh, yes, Hooke also coined the term *cell* as the cells reminded him the cells of honeycomb.
+
+![Cork cells](/assets/img/blog/cork.jpg)
+<p class="post-caption">Photo by <a href="#">Wikipedia</a>.</p>
 
 In the coming years, the microscope was used widely in Italy, the Netherlands and England. Marcelo Malpighi in Italy studied the biological structures of the lungs. However, the greatest contribution came from Antonie van Leeuwenhoek who discovered red blood cells and spermatozoa and helped popularise microscopy as a technique. On 1676, Van Leeuwenhoek reported the discovery of micro-organisms.
 
@@ -38,6 +42,7 @@ In the coming years, microscopes faced a problem: how to light the samples. It w
 Then, a big breakthrough happened, scientists started to use electrons instead of light and electromagnets in the place of glass lenses, creating the first electron microscope, the transmission electron microscope. This was 1931.
 
 ![Electron microscope image](/assets/img/blog/ant.jpg)
+<p class="post-caption">Photo by <a href="#">Wikipedia</a>.</p>
 
 Then, in the 1980s started the development of the first scanning probe microscopes.  The first one was the scanning tunneling microscope developed by Gerd Binning and Heinrich Rohrer (1981), and then 5 years later Gerd Binning, Quate and Gerber invented the **atomic force microscope** (AFM).
 

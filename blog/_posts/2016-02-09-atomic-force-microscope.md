@@ -224,7 +224,7 @@ In November 2015 we wrote the first draft. We proposed to [Medialab-Prado](http:
 
 The workshop became quite popular and the Spanish national TV show, [La aventura del saber](http://www.rtve.es/television/la-aventura-del-saber/) (the 
 adventure of knowing) interviewed us, showing how we built the microscope and analyzed
-some of the samples (it starts at minute 14:00 -in Spanish):
+some of the samples (it starts at minute 14:00, only in Spanish):
 
 <div class="embed-responsive embed-responsive-16by9">
 <iframe frameborder="0" src="http://www.rtve.es/drmn/embed/video/3468356"

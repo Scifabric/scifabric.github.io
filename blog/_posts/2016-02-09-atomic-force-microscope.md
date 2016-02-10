@@ -1,5 +1,5 @@
 ---
-title: "Micrographia 2.0: building atomic force microscopes by hand"
+title: "Are do it yourself atomic force microscopes the new Micrographia?"
 template: entry
 date: 2016-02-09
 slug: atomicforcemicroscope
@@ -8,7 +8,7 @@ photo_author: Project-128
 photo_url: https://www.flickr.com/photos/project-128/11612131236/
 tags: SciFabric, microscope, diy
 location: Madrid, Spain
-description: ""
+description: "How low cost do-it-yourself atomic force microscopes could make scientific history."
 layout: post
 author: teleyinex
 ---

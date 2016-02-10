@@ -254,7 +254,7 @@ Are nanoscopes making history?
 Well, I would say it's early to know, but the truth is that it has lots of potential. 
 
 I can barely imagine how kids will be building and using this tool trying to understand what lies
-in the nano world. And the best part is that we're building and exploring it together!
+in the nano world, and the best part is that we're exploring it together!
 
 By the way: High Five! You are awesome! You just read until here, so cool! 
 

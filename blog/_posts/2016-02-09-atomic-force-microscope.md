@@ -13,13 +13,20 @@ layout: post
 author: teleyinex
 ---
 
-Microscopes, who has not used one? Well, I hope you have, at least when you were at 
-high school. Microscopes allow us to see things that our naked eyes cannot, 
-opening the door to new discoveries. But, do you know when was it invented? 
-How old is it?
+Let me ask you a question: if you have to chose an image to represent science, which
+one will you use? Probably a microscope (actually if you search in [Google Images](https://www.google.com/search?q=science&biw=1535&bih=764&source=lnms&tbm=isch&sa=X&ved=0ahUKEwio_bbKoO3KAhVIVxQKHbgjCGkQ_AUIBygC), some
+of the images show you a microscope). The microscope is a tool that anyone will associate it
+with science or research, but how did it happened? Why became it so popular?
 
-Evidence suggests that in 1620 in Netherlands there was the first compound microscope. 
-Almost 400 years ago!
+Well, it became so popular thanks to Robert Hooke's book [**Micro**graphia (1665)](https://en.wikipedia.org/wiki/Micrographia). 
+This book marked a milestone in the scientific
+history as it showed to the scientific community how it could be used to analyze and study the **micro** world
+with hand made drawings of cells, fleas and insects. 
+
+Now, 351 years later we might be experiencing the writing of the next book (I've the title: **Nano**graphia) that will be a turning
+point in science history again. The popularization of low cost do-it-yourself atomic force microscopes that
+will allow us to explore the **nano** world. But, how did we get here? Do you know how old 
+is the microscope? Let's start from the beginning.
 
 <div class="embed-responsive embed-responsive-16by9">
 <iframe src="//giphy.com/embed/1unWthRtNnzkA" width="480" height="260" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p></p>
@@ -27,17 +34,22 @@ Almost 400 years ago!
 
 Indeed! That's actually a long story, but worth it. Bear with me. 
 
+## The early years of the microscope
+
+Evidence suggests that in 1620 in Netherlands there was the first compound microscope. 
+Almost 400 years ago!
+
 While the microscope was invented, it didn't have a name. Huh! We'll have to wait 5 extra years to actually name it. In 1625 [Giovanni Faber](https://en.wikipedia.org/wiki/Giovanni_Faber) -a fellow of the [Lincean Academy](https://en.wikipedia.org/wiki/Accademia_dei_Lincei)- coins the name *microscope* after [Galileo Galilei](https://en.wikipedia.org/wiki/Galileo_Galilei) presented it one year before. The name comes from the Greek words μικρόν (micron) meaning "small", and σκοπεῖν (skopein) meaning "to look at".
 
 Now we know when it was named, but when did it become popular? Well, guess what, we'll 
 have to wait 40 years to see how the microscope becomes a popular 
 tool used in science. 
 
-In 1665 [Robert Hooke](https://en.wikipedia.org/wiki/Robert_Hooke) 
-published [Micrographia](https://ia800504.us.archive.org/5/items/mobot31753000817897/mobot31753000817897.pdf) 
+As we said before, in 1665 [Robert Hooke](https://en.wikipedia.org/wiki/Robert_Hooke) 
+published [Micrographia (PDF)](https://ia800504.us.archive.org/5/items/mobot31753000817897/mobot31753000817897.pdf) 
 a book that inspired the use of microscopes for scientific exploration. His hand 
 made drawings of insects and plant cells (engraved in in copperplates) popularized 
-his work due to details and quality of the drawings: 
+his work due to details and quality of the drawings. Just check the following images!
 
 ![Hooke's microscope](/assets/img/blog/Hooke-microscope.png)
 <p class="post-caption">Hooke's microscope, from an engraving in Micrographia. Photo by <a href="https://en.wikipedia.org/wiki/Robert_Hooke#/media/File:Hooke-microscope.png">Wikipedia</a>.</p>
@@ -127,7 +139,6 @@ institutions will not have the cash to buy it.
 <iframe src="//giphy.com/embed/5u0uZecUZlUsM" width="480" height="327" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 </div>
 
-
 With this problem in mind, in 2015 the [LEGO Foundation](http://www.legofoundation.com/) 
 sponsored a summer school program to develop an affordable do-it-yourself (DIY) 
 atomic force microscope suitable for use in schools by children. The [result](http://www.nature.com/nnano/journal/v10/n5/full/nnano.2015.95.html) has 
@@ -159,9 +170,13 @@ can be used to analyze and take samples of these particles involving schools fro
 
 As Robert Hooke's book Micrographia popularized microscopes, the lowcost DIY nanoscopes will enable
 kids and anyone with interest in this field to write the next book that will popularize this new
-type of microscopes. By studying and analyzing PM 2.5 particles we will be able to write a book that 
-will help to spread the word about this technology, as Hooke did almost 400 years ago. I've even the title:
-Nanographia. 
+type of microscopes. If Micrographia was a milestone due to new discoveries in the micro world, 
+affordable do-it-yourself nanoscopes will help to write the book that will make history again: Nanographia.
+
+How? Well, explaining how to build the nanoscope and how you can use it for studying 
+and analyzing PM 2.5 particles. We will use photos instead of hand made drawings showing our
+discoveries and it will help to spread the word about this technology, as Hooke did 
+almost 400 years ago. 
 
 The book will describe the process to analyze these particles. It will have written instructions
 about how you build the nanoscope, step by step (it could have even a virtual reality associated app
@@ -174,20 +189,35 @@ get back, put them under the microscope and look for the particles. Due to the s
 the known distance between the tracks, we'll be able to identify them. 
 
 The next chapter will be about the analysis. Once you have the samples, you will describe
-how you can analyze them by hand. As this step will be slow, we'll describe how Edwin and 
-his team contacted us to use our citizen science [Crowdcrafting](http://crowdcrafting.org) 
-platform to use it as a crowdsourcing solution for analyzing the samples with the crowd.
+how you can analyze them by hand. 
 
-Obviously, the book will describe what's [crowdsourcing and citizen science](http://scifabric.com/blog/2016/01/27/crowdsourcing-vs-crowdfunding.html) and how you can use it for
-tackling problems that machines alone cannot. It will include links to the project itself,
-the [prototype](http://crowdcrafting.org/project/lego2nano/) where you 
+Incredible right? As we discovered this story, we couldn't resist to contribute a few
+chapters for the book. One about crowdsourcing as we think it could be amazing to analyze
+the samples with the crowd, and a second one running workshops about the project where
+you can learn, build the nanoscope, and analyze samples with the crowd.
+
+## SciFabric's chapters for Nanographia
+
+As I said, since we discovered the project, we fell in love with it. To our surprise
+Edwin and his team contacted us to use our citizen science [Crowdcrafting](http://crowdcrafting.org) 
+platform to use it as a crowdsourcing solution for analyzing the samples with the crowd. Therefore
+our idea of contributing one chapter to Nanographia became a reality.
+
+This chapter will be about citizen science, and it will describe what's [crowdsourcing and citizen science](http://scifabric.com/blog/2016/01/27/crowdsourcing-vs-crowdfunding.html). It will include links to the project itself,
+the [prototype](http://crowdcrafting.org/project/lego2nano/), where you 
 can identify some PM 2.5 particles by drawing the area covered by them. 
 
-Incredible right? We were so amazed when they shared this story with us that 
-we couldn't resist and we proposed to [Medialab-Prado](http://medialab-prado.es/) 
-(Madrid, Spain) to organize a workshop around it, as [we give citizen science training courses for students and teachers interested
-in this field](http://scifabric.com/crowdsourcing/#education). At the end, Edwin 
-visited us and showed how easily you can build an AFM microscope.
+The chapter will describe the [tools that we use for building the prototype](http://pybossa.com), so others
+can replicate it (like science does!) and extend the impact.
+
+Finally, the second chapter will be a more hands-on where we teach people how to build
+the prototype, the microscope, take samples, etc. organizing workshops around it. 
+
+The first draft of this chapter was written last 2015, when we proposed exactly a workshop
+about this topic to [Medialab-Prado](http://medialab-prado.es/) 
+(Madrid, Spain). [We organize citizen science workshops for students and teachers interested
+in this field](http://scifabric.com/crowdsourcing/#education), so a first draft was ready
+in a few weeks and Medialab-Prado publicly announced it. 
 
 <div class="embed-responsive embed-responsive-16by9">
 <iframe src="//giphy.com/embed/11sBLVxNs7v6WA" width="480" height="216" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
@@ -208,9 +238,7 @@ style="color:#333;font-weight:bold;" title="La aventura del saber - 02/02/16"
 href="http://www.rtve.es/alacarta/videos/la-aventura-del-saber/aventura-del-saber-02-02-16/3468356/"><strong>La aventura del saber - 02/02/16</strong></a></div>
 </div>
 
-Then, at the end of the year, [Medialab-Prado organized an open day](http://medialab-prado.es/article/festilab-1-ano-en-un-dia) where they invited the 
-most relevant projects to present what we did at this venue, and I presented the workshop
-in this sort talk of only 6 minutes (only in Spanish):
+Due to the success of the workshop, we were invited by [Medialab-Prado to their open day event](http://medialab-prado.es/article/festilab-1-ano-en-un-dia) to present what we achieved with the nanoscope. I presented the project in only 6 minutes, and they recorded it in the following video (only in Spanish):
 
 <div class="embed-responsive embed-responsive-16by9">
 <iframe src="https://player.vimeo.com/video/154714664" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

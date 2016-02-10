@@ -31,6 +31,7 @@ navbar: default
                 {% endif %}
                 {% endfor %}
                 <p class="post-details">Cover photo by <a href="{{page.photo_url}}">{{page.photo_author}}</a></p>
+                <p class="post-details">Reading time ~ <span title="{{ content | number_of_words}} words"> {% include readingtime.html %}</span></p>
             </div>
             <div class="top30 col-md-8 col-md-offset-2">
                 {{content}}

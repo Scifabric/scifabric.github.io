@@ -159,8 +159,8 @@ can be used to analyze and take samples of these particles involving schools fro
 
 As Robert Hooke's book Micrographia popularized microscopes, the lowcost DIY nanoscopes will enable
 kids and anyone with interest in this field to write the next book that will popularize this new
-type of microscopes. Studying and analyzing PM 2.5 particles, we will be able to write a book that 
-will help to spread the word about this technology, as Hooke did almost 400 years ago. I've the title:
+type of microscopes. By studying and analyzing PM 2.5 particles we will be able to write a book that 
+will help to spread the word about this technology, as Hooke did almost 400 years ago. I've even the title:
 Nanographia. 
 
 The book will describe the process to analyze these particles. It will have written instructions

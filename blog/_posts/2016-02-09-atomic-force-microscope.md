@@ -8,7 +8,7 @@ photo_author: Project-128
 photo_url: https://www.flickr.com/photos/project-128/11612131236/
 tags: SciFabric, microscope, diy
 location: Madrid, Spain
-description: "How low cost do-it-yourself atomic force microscopes could make scientific history."
+description: "Build an atomic force microscope in less than 2 hours!"
 layout: post
 author: teleyinex
 ---

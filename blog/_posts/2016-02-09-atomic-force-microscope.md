@@ -130,7 +130,7 @@ institutions will not have the cash to buy it.
 
 With this problem in mind, in 2015 the [LEGO Foundation](http://www.legofoundation.com/) 
 sponsored a summer school program to develop an affordable do-it-yourself (DIY) 
-atomic force microscope suitable for use in schools by children. The result has 
+atomic force microscope suitable for use in schools by children. The [result](http://www.nature.com/nnano/journal/v10/n5/full/nnano.2015.95.html) has 
 been an [open source AFM](http://openafm.com/) that children can build using 
 LEGO pieces, Arduino, 3D printable parts and local components. 
 

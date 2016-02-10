@@ -174,20 +174,20 @@ schools all over the world have participated in his projects.
 
 ## Nanographia, the drawings of PM 2.5
 
-As Robert Hooke's book Micrographia popularized microscopes, the low cost DIY nanoscopes will enable
+As Robert Hooke's book Micrographia popularized microscopes, the low cost DIY nanoscope will enable
 kids and anyone with interest in this field to write the next book that will popularize this new
-type of microscopes. If Micrographia was a milestone due to new discoveries in the micro world, 
+type of microscope. If Micrographia was a milestone due to new discoveries in the micro world, 
 affordable do-it-yourself nanoscopes will help to write the book that will make history again: Nanographia.
 
-The book will describe how you can build the nanoscope,  and how you can use it for studying 
+The book will describe how you can build the nanoscope and how you can use it for studying 
 PM 2.5 particles. Instead of drawings, the book will feature photos showing the 
 discoveries. As you can see, Nanographia will help to spread the word about this technology, as Hooke did 
 almost 400 years ago. 
 
-As with any other scientific book, there'll be a subject to be studied. In this one, the PM2.5 particles.
-A chapter will explain what PM2.5 particles are, as well as how you can take samples using 
-cutting pieces of DVD ROMs, as [microscope slides](https://en.wikipedia.org/wiki/Microscope_slide), placed
-outside (for at least 10 minutes). 
+As with any other scientific publication, there will be a subject to be studied: the PM2.5 particles.
+A chapter might explain what PM2.5 particles are, as well as how you can make 
+[microscope sample slides](https://en.wikipedia.org/wiki/Microscope_slide) by cutting up DVD ROMs and placing them
+outside for at least 10 minutes. 
 
 Why are we going to use DVDs? Because the distance between the tracks in a DVD are known (740 nanometers) and
 we can see them with the AFM. 
@@ -197,9 +197,8 @@ how you can analyze them by hand: calibrating the samples and measuring
 the area covered by the candidate PM2.5 particles.
 
 Incredible right? As we discovered this story, we wanted to contribute a few
-chapters for the book. One about crowdsourcing as we think it could be amazing to analyze
-the samples with the crowd (following the citizen science approach that this project 
-already has), and a second one running workshops about the project where
+chapters for the book. One about crowdsourcing as we think it would be amazing for the crowd to analyze samples
+(following the citizen science approach of this project), and a second one running workshops about the project where
 you can learn, build the nanoscope, and analyze the samples with the crowd.
 
 ## SciFabric's chapters for Nanographia
@@ -208,7 +207,7 @@ Our desire to contribute to this book became a reality when
 Edwin and his team contacted us to use our citizen science [Crowdcrafting](http://crowdcrafting.org) 
 platform for analyzing the samples with the crowd. 
 
-This first chapter will be about citizen science, and it will describe what's 
+This first chapter will be about citizen science, and it will describe what is 
 [crowdsourcing and citizen science](http://scifabric.com/blog/2016/01/27/crowdsourcing-vs-crowdfunding.html). 
 It will explain the project where anyone can analyze samples, including links to the 
 [prototype](http://crowdcrafting.org/project/lego2nano/). 
@@ -219,16 +218,16 @@ can replicate it (like science does!).
 The next chapter will be about citizen science workshops, as [we offer them to 
 students and teachers](http://scifabric.com/crowdsourcing/#education) as a new way to discover
 science and learn by doing. The chapter will include a new course on how you can build 
-the nanoscope, use its technology and learn the citizen science approach of it.
+the nanoscope, use its technology and learn the citizen science approach.
 
-In November 2015 we wrote the first draft. We proposed to [Medialab-Prado](http://medialab-prado.es/) 
-(Madrid, Spain) to organize an event like this, and they accepted it. 
+In November 2015 we wrote the first draft. We proposed that [Medialab-Prado](http://medialab-prado.es/) 
+(Madrid, Spain) organize an event like this, and they accepted. 
 
 <div class="embed-responsive embed-responsive-16by9">
 <iframe src="//giphy.com/embed/11sBLVxNs7v6WA" width="480" height="216" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 </div>
 
-The workshop became quite popular and the Spanish national TV show, [La aventura del saber](http://www.rtve.es/television/la-aventura-del-saber/) (the 
+The workshop became popular and Spanish national TV show [La aventura del saber](http://www.rtve.es/television/la-aventura-del-saber/) (the 
 adventure of knowing) interviewed us, showing how we built the microscope and analyzed
 some of the samples (it starts at minute 14:00, only in Spanish):
 
@@ -243,7 +242,7 @@ style="color:#333;font-weight:bold;" title="La aventura del saber - 02/02/16"
 href="http://www.rtve.es/alacarta/videos/la-aventura-del-saber/aventura-del-saber-02-02-16/3468356/"><strong>La aventura del saber - 02/02/16</strong></a></div>
 </div>
 
-Due to the success of the workshop, we were invited by [Medialab-Prado to share at their open day event](http://medialab-prado.es/article/festilab-1-ano-en-un-dia) what we built at the workshop. In the following video you can see me talking about the project (in Spanish):
+Due to the success of the workshop, we were invited by [Medialab-Prado to share what we built at their open day event](http://medialab-prado.es/article/festilab-1-ano-en-un-dia). In the following video you can see me talking about the project (in Spanish):
 
 <div class="embed-responsive embed-responsive-16by9">
 <iframe src="https://player.vimeo.com/video/154714664" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -252,8 +251,8 @@ Due to the success of the workshop, we were invited by [Medialab-Prado to share 
 
 ## The final chapter 
 
-We've seen the evolution of microscopes and how human pursue of knowledge has getting 
-us here. Nowadays we can build nanoscopes at home and explore the nano world in a few
+We've seen the evolution of microscopes and how human pursuit of knowledge has got 
+us here today. Nowadays we can build nanoscopes at home and explore the nano world in a few
 hours. The possibilities are endless, but are nanoscopes the new edition of Micrographia? 
 Are nanoscopes making history?
 

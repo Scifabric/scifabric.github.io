@@ -183,7 +183,7 @@ tackling problems that machines alone cannot. It will include links to the proje
 the [prototype](http://crowdcrafting.org/project/lego2nano/) where you 
 can identify some PM 2.5 particles by drawing the area covered by them. 
 
-If you are right now as amazed as we were the first time they contacted us and shared their story,
+Incredible right? We were so amazed when they shared this story with us that 
 we couldn't resist and we proposed to [Medialab-Prado](http://medialab-prado.es/) 
 (Madrid, Spain) to organize a workshop around it, as [we give citizen science training courses for students and teachers interested
 in this field](http://scifabric.com/crowdsourcing/#education). At the end, Edwin 

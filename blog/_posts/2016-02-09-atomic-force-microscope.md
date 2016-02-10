@@ -29,7 +29,7 @@ Indeed! That's actually a long story, but worth it. Bear with me.
 
 While the microscope was invented, it didn't have a name. Huh! We'll have to wait 5 extra years to actually name it. In 1625 [Giovanni Faber](https://en.wikipedia.org/wiki/Giovanni_Faber) -a fellow of the [Lincean Academy](https://en.wikipedia.org/wiki/Accademia_dei_Lincei)- coins the name *microscope* after [Galileo Galilei](https://en.wikipedia.org/wiki/Galileo_Galilei) presented it one year before. The name comes from the Greek words μικρόν (micron) meaning "small", and σκοπεῖν (skopein) meaning "to look at".
 
-Now we know when it was named, but when become it popular? Well, guess what, we'll 
+Now we know when it was named, but when did it become popular? Well, guess what, we'll 
 have to wait 40 years to see how the microscope becomes a popular 
 tool used in science. 
 

@@ -198,7 +198,7 @@ you can learn, build the nanoscope, and analyze the samples with the crowd.
 
 ## SciFabric's chapters for Nanographia
 
-Our desire to contribute to this book, became a reality when 
+Our desire to contribute to this book became a reality when 
 Edwin and his team contacted us to use our citizen science [Crowdcrafting](http://crowdcrafting.org) 
 platform for analyzing the samples with the crowd. 
 

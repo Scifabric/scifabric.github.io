@@ -121,7 +121,7 @@ invented the **atomic force microscope** (AFM).
 ## Atomic Force Microscope (AFM)
 
 The AFM is a big step forward because it improves the quality of the images and 
-gives us access to the nanoworld. An optical microscope is limited by the 
+gives us access to the nano world. An optical microscope is limited by the 
 [Abbe limit](https://en.wikipedia.org/wiki/Diffraction-limited_system) which is 
 around 250 nm (0.25 μm). 
 
@@ -157,7 +157,7 @@ kids could start operating it in a matter of minutes.
 <iframe src="//giphy.com/embed/LgwoVr7YgUkrC" width="480" height="342" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 </div>
 
-Due to this success, now kids will be able to see nanostructures that otherwise will be impossible with
+Due to this success, now kids will be able to see nano structures that otherwise will be impossible with
 a regular microscope. For example, particles with an [aerodynamic diameter of 2.5 micrometers or less](http://www3.epa.gov/pmdesignations/faq.htm)
 (known as PM 2.5). Why these particles in particular? Well, because they're among the most harmful
 for human health as they are small enough to penetrate deeply in the lungs and may even cross
@@ -168,7 +168,7 @@ can be used to analyze and take samples of these particles involving schools fro
 
 ## Nanographia, the drawings of PM 2.5
 
-As Robert Hooke's book Micrographia popularized microscopes, the lowcost DIY nanoscopes will enable
+As Robert Hooke's book Micrographia popularized microscopes, the low cost DIY nanoscopes will enable
 kids and anyone with interest in this field to write the next book that will popularize this new
 type of microscopes. If Micrographia was a milestone due to new discoveries in the micro world, 
 affordable do-it-yourself nanoscopes will help to write the book that will make history again: Nanographia.

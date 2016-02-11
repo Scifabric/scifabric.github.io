@@ -32,6 +32,7 @@ navbar: default
                 {% endfor %}
                 <p class="post-details">Cover photo by <a href="{{page.photo_url}}">{{page.photo_author}}</a></p>
                 <p class="post-details">Reading time ~ <span title="{{ content | number_of_words}} words"> {% include readingtime.html %}</span></p>
+                <p class="post-details">GIFs & memes ~ <span id="n_memes"></span></p>
             </div>
             <div class="top30 col-md-8 col-md-offset-2">
                 {{content}}
@@ -102,3 +103,7 @@ navbar: default
 
     {% include authorbanner.html %}
 </section>
+<script>
+   var n_memes =  document.getElementsByTagName("iframe").length;
+   document.getElementById("n_memes").innerHTML = n_memes;
+</script>

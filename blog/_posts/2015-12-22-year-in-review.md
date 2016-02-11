@@ -15,13 +15,13 @@ reflect on our achievements over the past 12 months...
 
 ## PyBossa
 
-As you know, or at least should know :-), [PyBossa](http://pybossa.com) is the king of our products. 
+As you know, or at least should know <i class="twa twa-smile"></i>, [PyBossa](http://pybossa.com) is the king of our products. 
 It lets you *build your own research platform* in just a few easy steps. This year, we've 
 introduced some cool new features so you'll be able to do more
 with less hacking. (Don't worry developers, we've created amazing tools for
 you too... read on!)
 
-<div class="embed-responsive embed-responsive-4by3">
+<div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="//giphy.com/embed/oKVs1VY0MKfvO" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/nervous-indiana-jones-waiting-oKVs1VY0MKfvO"></a></p>
   </div>
 
@@ -58,7 +58,7 @@ to capture data with phones, you *had* to manually import the project again from
 the new entries. It was simple, but you had to remember to do it. Thus, we decided to automate it, 
 and so the **auto importers** were born.
 
-<div class="embed-responsive embed-responsive-4by3">
+<div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="//giphy.com/embed/YXpp9YxWhyWBy" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/angry-king-burger-YXpp9YxWhyWBy"></a></p>
   </div>
 
@@ -108,7 +108,7 @@ Not bad for a year's work, right? Then, go and grab the latest version!
 This year four institutions have chosen PyBossa as their solution to become their
 own crowdsourcing research platform (and we're so happy and proud about it).
 
-<div class="embed-responsive embed-responsive-4by3">
+<div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="//giphy.com/embed/Fbyam9ZAJ3J1m" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/time-school-chemistry-Fbyam9ZAJ3J1m"></a></p>
   </div>
 
@@ -211,6 +211,6 @@ More than **600 projects were created** and there will no doubt be lots of new o
 
 While this year has been amazing, we think that 2016 will be even cooler with new additions to PyBossa (like a new
 importer for Youtube videos) as well as some secret stuff that we cannot share yet (yes, I'm trying to build anticipation
-so you'll check the blog next year ;-)).
+so you'll check the blog next year <i class="twa twa-wink"></i>).
 
 Merry Christmas and Happy 2016!

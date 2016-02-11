@@ -46,7 +46,7 @@ coined the name *microscope*, after [Galileo Galilei](https://en.wikipedia.org/w
 presented it one year before. 
 The name comes from the Greek words μικρόν (micron) meaning "small", and σκοπεῖν (skopein) meaning "to look at".
 
-So we know when it was named, but when did it become a popular instrument? Well, guess what, we 
+So we know when it was named, but when did it become a popular instrument? Well, guess what,
 another 40 years elapsed before the microscope becomes a popular 
 tool used in science. 
 

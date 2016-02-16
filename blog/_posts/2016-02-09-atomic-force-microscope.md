@@ -150,9 +150,9 @@ atomic force microscope suitable for use in schools by children. The [result](ht
 been an [open source AFM](http://openafm.com/) that children can build using 
 LEGO pieces, Arduino, 3D printable parts and local components. 
 
-At the same time, [Edwin Hwu](http://www.phys.sinica.edu.tw/directory_user_en.php?id_key=94&eng=T) and his team (who are also developing an open AFM) released
+At the same time, [Edwin Hwu](http://www.phys.sinica.edu.tw/directory_user_en.php?id_key=94&eng=T) and his team (who are also developing an open AFM) licensed
 a low cost closed-source version, [the Strømlingo DIY AFM](http://www.stromlinet-nano.com/), which costs 98% less than the
-ones available onthe market.
+ones available on the market.
 
 These big savings make AFM affordable, enabling institutions to buy cheap AFM microscopes that their
 students can build themselves. Moreover, this building process only takes a few hours and the
@@ -168,7 +168,7 @@ a regular microscope, such as particles with an [aerodynamic diameter of 2.5 mic
 for human health as they are small enough to penetrate deeply in the lungs and may even cross
 into the blood. Scary, right?
 
-Edwin and his team are have shown how affordable nanoscopes
+Edwin and his students have shown how affordable nanoscopes
 can be used to analyze and take samples of these particles and, indeed, 
 schools all over the world have participated in his projects. 
 

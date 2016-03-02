@@ -39,22 +39,22 @@ body {
 }
 
 .btn-header-BM {
-    color: $white;
-
+    color: $white !important;
     border-color: $white;
     background-color: rgba(0,0,0,.03);
-    border-width:1;
+    border-width:2;
     font-weight:500;
     font-size:13px;
     text-transform: uppercase;
     margin:7px 0 0 12px;
-    padding:8px 18px !important;
+    padding:8px 36px !important;
+    border-radius: 3px;
 }
 .btn-header-BM:hover,
 .btn-header-BM:focus,
 .btn-header-BM:active,
 .open > .dropdown-toggle.btn-header-BM {
-    color: $black-bg;
+    color: $black-bg !important;
     background-color: $white;
     border-width:1;
     text-decoration:none;

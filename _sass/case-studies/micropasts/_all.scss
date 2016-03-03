@@ -13,6 +13,27 @@ body {
     line-height: 1.42857143;
 }
 
+@font-face {
+    font-family: 'bm-font';
+    src: url('../fonts/bm-font.eot');
+    src: url('../fonts/bm-font.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bm-font.woff2') format('woff2'),
+         url('../fonts/bm-font.woff') format('woff'),
+         url('../fonts/bm-font.ttf') format('truetype'),
+         url('../fonts/bm-font.svg#bm-font') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1,h2,h3{
+    font-family: 'bm-font';
+}
+
+h1{font-size: 46px;}
+h2{font-size: 36px;}
+h3{font-size: 28px;}
+
 .white {
     color: $white;
 }
@@ -76,9 +97,14 @@ body {
 }
 
 #hat {
-    margin-top: 60px;
+    margin-top: 40px;
     max-width: 70px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.title,
+.subtitle{
+    margin-top: 10px;
 }
 
 .about-BM{

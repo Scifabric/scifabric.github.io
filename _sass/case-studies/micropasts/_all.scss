@@ -49,6 +49,8 @@ h4{font-size: 20px;}
 .lead-BM{
     font-size: 20px;
     font-weight: 500;
+        margin-bottom: 0px;
+    margin-top: 20px;
 }
 
 .white {
@@ -159,7 +161,9 @@ h4{font-size: 20px;}
     text-decoration:none;
 }
 
-
+.methods{
+    margin-top: 60px;
+}
 
 
 
@@ -336,14 +340,6 @@ p.number{
         margin-top: 30px;
     }
 
-    #hat {
-
-    margin-top: 200px;}
-
-    .photo-mask{
-        margin-top: 30px;
-    }
-
     .jumbotron-BM {
         padding: 30px 15px;
         margin-bottom: 0px;
@@ -351,7 +347,7 @@ p.number{
         background-color: #eee;
         right:0;left:0;top:0;bottom:0;
         overflow:hidden;
-        background: #333 url('../images/bg-BM.png') no-repeat top center;
+        background: #333 url('../images/pieces.svg') no-repeat top center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;

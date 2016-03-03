@@ -4,7 +4,7 @@
 @import "case-studies/micropasts/clients";
 
 body {
-    font-family: "Helvetica Neue", HelveticaNeue, Helvetica, sans-serif;
+    font-family: 'Source Sans Pro', HelveticaNeue, Helvetica, sans-serif;
     @include vendor-prefix('font-smoothing', 'antialiased');
     text-shadow:0 0 1px transparent;
     text-rendering:optimizeLegibility;
@@ -166,10 +166,20 @@ h4{font-size: 20px;}
 }
 
 
+.numbers-BM{
+    right:0;left:0;top:0;bottom:0;
+    overflow:hidden;
+    background: url('../images/pieces-dark.png') no-repeat top center #562B02;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment:fixed;
+}
+
 
 
 .contact-BM{
-
     background: $light-grey-bg url('../images/coins.png') no-repeat top center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -197,126 +207,15 @@ h4{font-size: 20px;}
     background-color: $black-bg;
 }
 
-.bignumber{
-    color: $micropasts-color;
-    font-weight: 100;
-}
-
-p.number{
-    color: $micropasts-color;
-    font-weight: 200;
-}
-
-@media (max-width: 767px){
-
-    .bignumber{
-        font-size: 50px;
-        margin-top: 30px;
-        margin-bottom: 0px;
-        text-align: center;
-    }
-
-    .number{
-        color: $micropasts-color;
-        padding-left: 40px;
-        text-align: center;
-    }
-
-}
 
 
 
-@media (min-width: 768px) and (max-width: 991px){
 
-    .number{
-        margin-left: 35px;
-    }
 
-    .bignumber{
-        font-size: 55px;
-    }
 
-    .bignumber span{
-        font-size: 40px;
-    }
 
-    .middle-number{
-        margin-left: 0px;
-        padding-left: 30px;
-    }
 
-    .last-number{
-        padding-left: 100px;
-    }
 
-}
-
-@media (min-width: 1200px) {
-
-    .number{
-        margin-left: 0px;
-        margin-left: 50px;
-    }
-
-    .bignumber{
-        font-size: 85px;
-        margin-bottom: 0px;
-    }
-
-    .bignumber span{
-        font-size: 40px;
-    }
-
-    .first-number{
-        padding-left: 20px;
-    }
-
-    .middle-number{
-        margin-left: 0px;
-        padding-left: 80px;
-    }
-
-    .last-number{
-        padding-left: 80px;
-    }
-
-}
-
-@media (min-width: 992px) and (max-width: 1199px){
-
-    .number{
-        margin-left: 55px;
-    }
-
-    .bignumber{
-        font-size: 65px;
-        margin-bottom: 0px;
-    }
-
-    .bignumber span{
-        font-size: 50px;
-    }
-
-    .first-number,
-    .middle-number,
-    .last-number{
-        margin-top: 10px;
-    }
-
-    .first-number{
-        padding-left: 25px;
-    }
-
-    .middle-number{
-        padding-left: 60px;
-
-    }
-
-    .last-number{
-        padding-left: 50px;
-    }
-
-}
 
 /************************************* 
  ***********  Responsive BM  **********
@@ -357,7 +256,7 @@ p.number{
     }
 
     #hat {
-        margin-top: 130px;
+        margin-top: 100px;
     }
 
 

@@ -27,12 +27,14 @@ body {
 }
 
 h1,h2,h3{
-    font-family: 'bm-font';
-    font-weight: 500;
+font-family: 'bm-font';
+font-weight: 500;
 }
 
 p{
-    color: $grey-font;
+color: $grey-font;
+font-family: 'Source Sans Pro', sans-serif;
+-webkit-font-smoothing: antialiased;
 }
 
 h1{font-size: 46px;}

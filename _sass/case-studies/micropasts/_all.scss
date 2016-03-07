@@ -177,44 +177,24 @@ h4{font-size: 20px;}
     background-attachment:fixed;
 }
 
-
-
 .contact-BM{
-    background: $light-grey-bg url('../images/coins.png') no-repeat top center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-attachment:fixed;
-    padding-bottom: 100px;
-    height: auto;
+    background-color: #504439;
 }
 
-
-.BM-contact-Link{
-    margin-top: 15px;
-    color: white;
+.link-BM {
+    color: #4A90E2;
     text-decoration: underline;
+    transition: all 0.5s ease;
+    cursor: pointer;
 }
 
-.BM-contact-Link:hover{
-    color: white;
-    text-decoration: underline;
+.link-BM:hover {
+    color: #2B8DFF;
 }
 
-
-.BM-footer{
-    background-color: $black-bg;
+footer {
+    background-color: #231507;
 }
-
-
-
-
-
-
-
-
-
 
 
 /************************************* 
@@ -235,9 +215,6 @@ h4{font-size: 20px;}
 
 @media (max-width: 768px){
 
-    .contact-BM h4{
-        margin-top: 30px;
-    }
 
     .jumbotron-BM {
         padding: 30px 15px;
@@ -263,54 +240,4 @@ h4{font-size: 20px;}
 }
 
 
-.btn-link-BM {
-    font-weight: normal;
-    color: $micropasts-color;
-    border-radius: 0;
-}
-.btn-link-BM,
-.btn-link-BM:active,
-.btn-link-BM.active,
-.btn-link-BM[disabled],
-fieldset[disabled] .btn-link {
-    background-color: transparent;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-.btn-link-BM,
-.btn-link-BM:hover,
-.btn-link-BM:focus,
-.btn-link-BM:active {
-    border-color: transparent;
-}
-.btn-link-BM:hover,
-.btn-link-BM:focus {
-    color: $micropasts-color;
-    text-decoration: none;
-    background-color: transparent;
-}
-.btn-link[disabled]:hover,
-fieldset[disabled] .btn-link:hover,
-.btn-link[disabled]:focus,
-fieldset[disabled] .btn-link:focus {
-    color: $grey-font;
-    text-decoration: none;
-}
 
-
-.btn-link:hover,
-.btn-link[disabled]:focus,
-fieldset[disabled] .btn-link:focus {
-    color: $grey-font;
-    text-decoration: none;
-}
-
-footer {
-    background-color: $black-bg;
-}
-
-
-p.role,
-p.semibold {
-    color: $grey-font;
-}

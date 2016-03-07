@@ -106,17 +106,17 @@ permalink: /success-stories/micropasts/
         </div>
         
         <div class="col-xs-12 col-md-2 col-md-offset-3 text-center color-BM">
-            <h2 class="white">+ 1500</h2>
+            <h2 class="white">+ <span id="engagedUsers">1500</span></h2>
             <p  class="white">Engaged users</p>
         </div>
 
         <div class="col-xs-12 col-sm-4 col-md-2 text-center white">
-            <h2 class="white">+ 37500</h2>
-            <p  class="white">Task Completed</p>
+            <h2 class="white">+ <span id="taskCompleted">37500</span></h2>
+            <p  class="white">Submitted Answers</p>
         </div>
 
         <div class="col-xs-12 col-sm-4 col-md-2 text-center color-BM"> 
-            <h2 class="white">+ 70</h2>
+            <h2 class="white">+ <span id="n_projects">70</span></h2>
             <p  class="white">Projects</p>
         </div>
 
@@ -148,12 +148,4 @@ permalink: /success-stories/micropasts/
         </div>
     </div>
 </div>
-<script>
-    var url = "http://crowdsourced.micropasts.org/api/globalstats";
-$.ajax({
-  dataType: "json",
-  url: url,
-  data: data,
-  success: success
-});
-</script>
+

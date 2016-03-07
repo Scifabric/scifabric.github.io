@@ -148,4 +148,12 @@ permalink: /success-stories/micropasts/
         </div>
     </div>
 </div>
-
+<script>
+    var url = "http://crowdsourced.micropasts.org/api/globalstats";
+$.ajax({
+  dataType: "json",
+  url: url,
+  data: data,
+  success: success
+});
+</script>

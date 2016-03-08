@@ -4,7 +4,7 @@
 @import "case-studies/micropasts/clients";
 
 body {
-    font-family: "Helvetica Neue", HelveticaNeue, Helvetica, sans-serif;
+    font-family: 'Source Sans Pro', HelveticaNeue, Helvetica, sans-serif;
     @include vendor-prefix('font-smoothing', 'antialiased');
     text-shadow:0 0 1px transparent;
     text-rendering:optimizeLegibility;
@@ -13,10 +13,49 @@ body {
     line-height: 1.42857143;
 }
 
+@font-face {
+    font-family: 'bm-font';
+    src: url('../fonts/bm-font.eot');
+    src: url('../fonts/bm-font.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bm-font.woff2') format('woff2'),
+         url('../fonts/bm-font.woff') format('woff'),
+         url('../fonts/bm-font.ttf') format('truetype'),
+         url('../fonts/bm-font.svg#bm-font') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1,h2,h3,h4{
+font-family: 'bm-font';
+font-weight: 500;
+}
+
+p{
+color: $grey-font;
+font-family: 'Source Sans Pro', sans-serif;
+-webkit-font-smoothing: antialiased;
+}
+
+h1{font-size: 46px;}
+h2{font-size: 36px;}
+h3{font-size: 28px;}
+h4{font-size: 20px;}
+
+.small{
+    margin-bottom: 40px;
+}
+
+.lead-BM{
+    font-size: 20px;
+    font-weight: 500;
+        margin-bottom: 0px;
+    margin-top: 20px;
+}
+
 .white {
     color: $white;
 }
-
 
 .navbar-toggle-BM {
     position: relative;
@@ -35,26 +74,26 @@ body {
 }
 
 #navbar-BM{
-    background-color: $black-bg;
+    background-color: $navbarBM-color;
 }
 
 .btn-header-BM {
-    color: $white;
-
+    color: $white !important;
     border-color: $white;
     background-color: rgba(0,0,0,.03);
-    border-width:1;
+    border-width:2;
     font-weight:500;
     font-size:13px;
     text-transform: uppercase;
     margin:7px 0 0 12px;
-    padding:8px 18px !important;
+    padding:8px 36px !important;
+    border-radius: 3px;
 }
 .btn-header-BM:hover,
 .btn-header-BM:focus,
 .btn-header-BM:active,
 .open > .dropdown-toggle.btn-header-BM {
-    color: $black-bg;
+    color: $black-bg !important;
     background-color: $white;
     border-width:1;
     text-decoration:none;
@@ -64,53 +103,45 @@ body {
     padding: 30px 15px;
     margin-bottom: 0px;
     color: inherit;
-    background-color: $light-grey-bg;
     right:0;left:0;top:0;bottom:0;
     overflow:hidden;
-    background: $light-grey-bg url('../images/coins.png') no-repeat top center;
-    -webkit-background-size: cover;
+    background: url('../images/pieces.jpg') no-repeat top center #231507;
+    -webkit-background-size: cover; 
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-attachment:fixed;
     height: 550px;
 }
 
-#logo-BM {
-    margin-top: 110px;
-    max-width: 500px;
-    margin-bottom: 100px;
+#hat {
+    margin-top: 40px;
+    max-width: 70px;
+    margin-bottom: 10px;
 }
 
-#brands-BM{
-    max-width: 600px;
-    opacity: 0.85;
+.title,
+.subtitle{
+    margin-top: 10px;
 }
 
-.about-BM{
-    padding-bottom: 60px;
-}
-
-.about-BM p {
-    color: $grey-font;
-}
-
-.h1-BM{
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.h3-BM{
-    font-size: 32px;
-    font-weight: 500;
+.section{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .color-BM{
     color: $micropasts-color;
 }
 
-.grey-BM{
-    color: $grey-font;
+.about-BM{
+    right:0;left:0;top:0;bottom:0;
+    overflow:hidden;
+    background: url('../images/arrow.svg') no-repeat top center #FCF8F2;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment:fixed;
 }
 
 .btn-BM {
@@ -130,280 +161,64 @@ body {
     text-decoration:none;
 }
 
-.btn-BM-2 {
-    color: $white;
-    border-color: $white;
-    background-color: $white-transparent-bg;
-    border-width:2px;
-    -webkit-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-
-.btn-BM-2:hover,
-.btn-BM-2:focus,
-.btn-BM-2.focus,
-.btn-BM-2:active,
-.btn-BM-2.active {
-    color: $black-bg;
-    background-color: $white;
-    border-color: $white;
-    text-decoration:none;
+.methods{
+    margin-top: 60px;
 }
 
 
-
-.BM-method {
-    color: $grey-light-font;
-    background: $light-grey-bg url('../images/London.png') no-repeat top center;
-    -webkit-background-size: cover;
+.numbers-BM{
+    right:0;left:0;top:0;bottom:0;
+    overflow:hidden;
+    background: url('../images/pieces-dark.jpg') no-repeat top center #562B02;
+    -webkit-background-size: cover; 
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-attachment:fixed;
-    padding-bottom: 100px;
-    height: auto;
-}
-
-.BM-method p,
-.BM-method h1 {
-    color: $grey-light-font;
-}
-
-.BM-method a{
-    color: $grey-light-font;
-    text-decoration: underline;
-}
-
-.BM-method a:hover{
-    color: $white;
-    text-decoration: underline;
-}
-
-
-.method-icon{
-    width: 130px;
-}
-
-.modal {
-    background-color: rgba(0, 0, 0, 0.65);
-}
-
-.modal-open {
-    overflow-y: auto;
-}
-
-.modal-logo{
-    width: 300px;
-    margin-top:30px;
-}
-
-@media (max-width: 768px){
-    .modal-logo{
-        max-width: 260px;
-    }
-}
-
-.modal-title{
-    color: $micropasts-color;
-    font-size: 22px;
-}
-
-.modal-img{
-    width: 75%;
-    display: block;
-    margin: 20px auto 20px auto;
-}
-
-
-.projectdescription{
-    margin-top: 40px;
-}
-
-.bg_color_BM {
-    background-color: $light-grey-bg;
-    padding-bottom: 60px;
 }
 
 .contact-BM{
-    color: $grey-font;
-    background: $light-grey-bg url('../images/coins.png') no-repeat top center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-attachment:fixed;
-    padding-bottom: 100px;
-    height: auto;
+    background-color: #504439;
 }
 
-
-.BM-contact-Link{
-    margin-top: 15px;
-    color: white;
+.link-BM {
+    color: #E7D888;
     text-decoration: underline;
+    transition: all 0.5s ease;
+    cursor: pointer;
 }
 
-.BM-contact-Link:hover{
-    color: white;
-    text-decoration: underline;
+.link-BM:hover {
+    color: #DBC346;
 }
 
-
-.BM-footer{
-    background-color: $black-bg;
+footer {
+    background-color: #231507;
 }
 
-.bignumber{
-    color: $micropasts-color;
-    font-weight: 100;
-}
-
-p.number{
-    color: $micropasts-color;
-    font-weight: 200;
-}
-
-@media (max-width: 767px){
-
-    .bignumber{
-        font-size: 50px;
-        margin-top: 30px;
-        margin-bottom: 0px;
-        text-align: center;
-    }
-
-    .number{
-        color: $micropasts-color;
-        padding-left: 40px;
-        text-align: center;
-    }
-
-}
-
-
-
-@media (min-width: 768px) and (max-width: 991px){
-
-    .number{
-        margin-left: 35px;
-    }
-
-    .bignumber{
-        font-size: 55px;
-    }
-
-    .bignumber span{
-        font-size: 40px;
-    }
-
-    .middle-number{
-        margin-left: 0px;
-        padding-left: 30px;
-    }
-
-    .last-number{
-        padding-left: 100px;
-    }
-
-}
-
-@media (min-width: 1200px) {
-
-    .number{
-        margin-left: 0px;
-        margin-left: 50px;
-    }
-
-    .bignumber{
-        font-size: 85px;
-        margin-bottom: 0px;
-    }
-
-    .bignumber span{
-        font-size: 40px;
-    }
-
-    .first-number{
-        padding-left: 20px;
-    }
-
-    .middle-number{
-        margin-left: 0px;
-        padding-left: 80px;
-    }
-
-    .last-number{
-        padding-left: 80px;
-    }
-
-}
-
-@media (min-width: 992px) and (max-width: 1199px){
-
-    .number{
-        margin-left: 55px;
-    }
-
-    .bignumber{
-        font-size: 65px;
-        margin-bottom: 0px;
-    }
-
-    .bignumber span{
-        font-size: 50px;
-    }
-
-    .first-number,
-    .middle-number,
-    .last-number{
-        margin-top: 10px;
-    }
-
-    .first-number{
-        padding-left: 25px;
-    }
-
-    .middle-number{
-        padding-left: 60px;
-
-    }
-
-    .last-number{
-        padding-left: 50px;
-    }
-
-}
 
 /************************************* 
  ***********  Responsive BM  **********
  **************************************/
 
 
-
-
-@media (max-width: 991px){
-
-    .no-br-small br{
-        display: none;
-    }
-
-}
-
-
 @media (max-width: 768px){
 
-    .contact-BM h4{
-        margin-top: 30px;
+    .btn-header-BM{
+        margin:0px;
+        border-color: $grey-font;
+        color: $grey-font !important;
     }
 
-    #logo-BM {
-
-    margin-top: 200px;}
-
-    .photo-mask{
-        margin-top: 30px;
+    .navbar-nav {
+        margin: 7.5px 0px;
     }
+
+    h1{font-size: 40px;}
+    h2{font-size: 30px;}
+    h3{font-size: 20px;}
+    h4{font-size: 16px;}
+
 
     .jumbotron-BM {
         padding: 30px 15px;
@@ -412,71 +227,31 @@ p.number{
         background-color: #eee;
         right:0;left:0;top:0;bottom:0;
         overflow:hidden;
-        background: #333 url('../images/bg-BM.png') no-repeat top center;
+        background: #231507 url('../images/pieces.png') no-repeat top center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-attachment:fixed;
-        height: 400px;
+        height: auto;
     }
 
-    #logo-BM {
-        margin-top: 130px;
+    #hat {
+        margin-top: 80px;
+    }
+
+    .section{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .methods {
+        margin-top: 40px;
     }
 
 
+
 }
 
 
-.btn-link-BM {
-    font-weight: normal;
-    color: $micropasts-color;
-    border-radius: 0;
-}
-.btn-link-BM,
-.btn-link-BM:active,
-.btn-link-BM.active,
-.btn-link-BM[disabled],
-fieldset[disabled] .btn-link {
-    background-color: transparent;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-.btn-link-BM,
-.btn-link-BM:hover,
-.btn-link-BM:focus,
-.btn-link-BM:active {
-    border-color: transparent;
-}
-.btn-link-BM:hover,
-.btn-link-BM:focus {
-    color: $micropasts-color;
-    text-decoration: none;
-    background-color: transparent;
-}
-.btn-link[disabled]:hover,
-fieldset[disabled] .btn-link:hover,
-.btn-link[disabled]:focus,
-fieldset[disabled] .btn-link:focus {
-    color: $grey-font;
-    text-decoration: none;
-}
 
-
-.btn-link:hover,
-.btn-link[disabled]:focus,
-fieldset[disabled] .btn-link:focus {
-    color: $grey-font;
-    text-decoration: none;
-}
-
-footer {
-    background-color: $black-bg;
-}
-
-
-p.role,
-p.semibold {
-    color: $grey-font;
-}

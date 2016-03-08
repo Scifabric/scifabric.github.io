@@ -202,18 +202,22 @@ footer {
  **************************************/
 
 
+@media (max-width: 768px){
 
-
-@media (max-width: 991px){
-
-    .no-br-small br{
-        display: none;
+    .btn-header-BM{
+        margin:0px;
+        border-color: $grey-font;
+        color: $grey-font !important;
     }
 
-}
+    .navbar-nav {
+        margin: 7.5px 0px;
+    }
 
-
-@media (max-width: 768px){
+    h1{font-size: 40px;}
+    h2{font-size: 30px;}
+    h3{font-size: 20px;}
+    h4{font-size: 16px;}
 
 
     .jumbotron-BM {
@@ -223,18 +227,28 @@ footer {
         background-color: #eee;
         right:0;left:0;top:0;bottom:0;
         overflow:hidden;
-        background: #333 url('../images/pieces.svg') no-repeat top center;
+        background: #231507 url('../images/pieces.png') no-repeat top center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         background-attachment:fixed;
-        height: 400px;
+        height: auto;
     }
 
     #hat {
-        margin-top: 100px;
+        margin-top: 80px;
     }
+
+    .section{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .methods {
+        margin-top: 40px;
+    }
+
 
 
 }

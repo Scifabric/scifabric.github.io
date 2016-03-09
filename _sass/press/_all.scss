@@ -169,10 +169,6 @@ ul.as-seen-on > li > ul > li span {
     color: rgb(153, 153, 153);
     font-size: 20px;
 }
-.presskit-images img {
-        width:100%;
-        height:auto;
-    }
 
 .presskit-logos li:hover a,
 .presskit-logos a,
@@ -204,12 +200,10 @@ ul.as-seen-on > li > ul > li span {
     margin: 0px 0px 10px;
     border-radius: 2px;
     padding: 20px 5px;
-    min-height: 120px;
     text-align: center;
     background: transparent url("/assets/img/press/press_kit_logos_bg.png") repeat-x scroll 0% 0%;
-    display: -moz-box;
-    -moz-box-pack: center;
-    -moz-box-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 

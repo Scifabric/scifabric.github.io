@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Open Science – a power for change"
+title:  "Open Science – making science better"
 date:   2016-03-27 
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
 photo: Skull

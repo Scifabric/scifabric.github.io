@@ -57,7 +57,7 @@ may become overwhelmed and the public confused. This seems to put little faith i
 scientists to choose relevant data to explore, and the intellect of citizens. There is also a concern 
 that science data might be used for EVIL…
 
-<div class="embed-responsive embed-responsive-4by3">
+<div class="embed-responsive embed-responsive-16by9">
   <iframe src="//giphy.com/embed/nXU1FF5HS2eFG" width="480" height="205" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/dr-evil-mike-myers-austin-powers-nXU1FF5HS2eFG">via GIPHY</a></p>
 </div>
 

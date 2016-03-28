@@ -65,12 +65,16 @@ that science data might be used for EVIL…
 
 On the other hand, Open Science solves many of the problems mentioned above. Open access publication 
 of research reports and data allows for rigorous peer review by the community, not just journal peer reviewers. 
-Open research repositories, such as [arXiv](http://arxiv.org/), allow the community to openly critique and debate research findings, leading to open peer review. 
+Open 'pre-print' research repositories, such as [arXiv](http://arxiv.org/) (used by the physics community) and 
+[bioRxiv](http://www.sciencealert.com/a-group-of-biologists-are-bypassing-journals-and-uploading-their-work-straight-to-the-internet)
+(recently started by life scientists), allow communities to openly critique and debate research findings, leading to open peer review. 
 This greater level of scrutiny encourages scientists to focus on quality 
  rather than quantity. Open science also makes experiments more transparent and reproducible, 
  and provides forums (such as [PLoS](https://www.plos.org/)) for the reporting of efforts that have failed to reproduce published results. 
  Open Science can help the science community to create an environment where publicly acknowledging one’s
   mistakes and failures is valued, and will enhance a scientist’s reputation.
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/2zMgY8Dx9co' frameborder='0' allowfullscreen></iframe></div>
 
 ## SciFabric’s view
 

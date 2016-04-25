@@ -10,11 +10,11 @@ description: "Citizen scientists identify cancer cells with Cancer Research UK�
 author: jimmyd
 ---
 
-[Cancer Research UK](http://www.cancerresearchuk.org/)’s Trailblazer tool has enabled volunteers to distinguish between cancer 
+**[Cancer Research UK](http://www.cancerresearchuk.org/)’s Trailblazer tool has enabled volunteers to distinguish between cancer 
 cells and healthy cells in tissue samples with 95% accuracy and only 25 minutes of training. 
 And, for the first time, citizen scientists were able to detect clinically significant features 
 of cancer cells with 90% accuracy. SciFabric’s James Doherty meets [Andy Paterson](https://www.linkedin.com/in/apaterson01), Digital 
-Solutions Architect at Cancer Research UK and the technical lead on the Trailblazer project.
+Solutions Architect at Cancer Research UK and the technical lead on the Trailblazer project.**
 
 ### Andy, is Trailblazer the first foray into citizen science for Cancer Research UK?
 
@@ -73,9 +73,8 @@ The team will be working hard to publish more scientific papers and to make the 
 by our citizen scientists available for anyone to study. Citizen science has enabled the world’s largest 
 predictive study in invasive bladder cancer.
 
-![Trailblazer Results Poster](/assets/img/blog/CancerResults3.jpeg)
+ ![Trailblazer Results Poster](/assets/img/blog/CancerResults3.jpeg)
 <p class="post-caption">Trailblazer produced bona fide academic results, as reported in this poster. Photo by <a href="https://www.cancerresearchuk.org/sites/default/files/trailblazer_results_poster_ncri_2015.pdf">Cancer Research UK</a>.</p>
-
 
 ### Has Trailblazer changed the landscape in this field?
 
@@ -84,19 +83,13 @@ We knew the public wanted to be involved, and that they could accurately carry o
 Trailblazer confirmed that citizen scientists could play an important role in accelerating research across a wide 
 range of cancer types, including those previously considered difficult to analyse. The levels of accuracy achieved 
 have shown that citizen science can be a reliable, accurate and efficient method for biomedical research. 
-Most excitingly, we hope that the results from projects such as Trailblazer can one day be used to help to train algorithms
- to automatically detect cancer cells. 
+Most excitingly, we hope that the results from projects such as Trailblazer can one day be used to help to train algorithms 
+to automatically detect cancer cells.
 
 ### Do you think crowdsourcing is a potentially useful tool in medicine and healthcare generally?
 
 The main area of relevance for citizen science is in research.  It is not an appropriate tool for clinical diagnosis 
-where you need a quick and reliable expert opinion. We’re not attempting to replace pathologists...
-
-<div class="embed-responsive embed-responsive-16by9">
-<iframe src="//giphy.com/embed/EDt1m8p5hqXG8" width="480" height="264" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/phew-alan-ritchson-i-can-do-that-EDt1m8p5hqXG8">via GIPHY</a></p>
-</div>
- 
-But it is in the area of research – where there is large volumes of data in which researchers want to identify 
+where you need a quick and reliable expert opinion. We’re not attempting to replace pathologists. But it is in the area of research – where there is large volumes of data in which researchers want to identify 
 trends and patterns – that the potential for citizen science truly lies.
 
 ## Want to know more?

@@ -4,3 +4,22 @@
         display: none;
     }
 }
+
+@media(max-width: 360px) {
+.navbar-inverse .navbar-toggle,
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus
+{
+    background-color: transparent;
+}
+
+.navbar-toggle, .navbar-toggle:hover, .navbar-toggle:focus {
+    background-color: transparent;
+    border: 0px;
+    background: none;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+}

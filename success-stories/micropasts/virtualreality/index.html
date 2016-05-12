@@ -33,7 +33,20 @@
         bottom: 0;
       }
     </style>
-    <div id="example"></div>
+<link rel="stylesheet" href="/css/animate.css">
+<link rel="stylesheet" href="/css/loading.css">
+<link rel="stylesheet" href="/css/logoanim.css">
+<body>
+<div id="loader-wrapper" style="background-color:black">
+    <div id="loader">
+        <div id="logo_traced">
+            <div id='loading_logo2' class="central-block animated infinite rotateIn">
+                <img alt="SciFabric Logo" src="/images/spinner.svg" onerror="this.onerror=null; this.src='/images/spinner.svg'" width="100%">
+            </div>
+        </div>
+    </div>
+</div>
+<div id="example"></div>
 
   <script src="/assets/js/vr/js/three.min.js"></script>
   <script src="/assets/js/vr/js/loaders/DDSLoader.js"></script>
@@ -174,6 +187,14 @@
                 var onProgress = function ( xhr ) {
                     if ( xhr.lengthComputable ) {
                         var percentComplete = xhr.loaded / xhr.total * 100;
+                        if (percentComplete < 100) {
+                            document.getElementById('example').style.display = 'none';
+                        }
+                        else {
+                            document.getElementById('example').style.display = 'block';
+                            document.getElementById('loader-wrapper').style.display = 'none';
+
+                        }
                         console.log( Math.round(percentComplete, 2) + '% downloaded' );
                     }
                 };

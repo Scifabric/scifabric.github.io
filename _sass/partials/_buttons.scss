@@ -34,7 +34,8 @@
 
 
 
-.btn-info-2 {
+.btn-info-2,
+.btn-google-vr {
     color: $sciblue-bg;
     border-color: $sciblue-bg;
     background-color: $white;
@@ -42,6 +43,25 @@
     font-weight:600;
     border-radius: 2px;
 }
+
+.btn-google-vr {
+    margin-top: 30px;
+    color: #562b02;
+    border-color: #562b02;
+}
+
+.btn-google-vr:hover,
+.btn-google-vr:focus,
+.btn-google-vr.focus,
+.btn-google-vr:active,
+.btn-google-vr.active,
+.open > .dropdown-toggle.btn-info-2 {
+    color: #FFF !important;
+    background-color: #562b02;
+    border-color: #562b02;
+    text-decoration:none;
+}
+
 .btn-info-2:hover,
 .btn-info-2:focus,
 .btn-info-2.focus,

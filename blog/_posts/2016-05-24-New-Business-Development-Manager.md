@@ -79,7 +79,9 @@ Two goldfish: Peppa and George – names chosen by my two-year-old daughter.
 
 Pottery – I can make you a fabulous plate any time you like! 
 
+<div class="embed-responsive embed-responsive-4by3">
 <iframe src="//giphy.com/embed/uwhzDrIZ7Sk0g" width="480" height="463" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/trick-wheel-pottery-uwhzDrIZ7Sk0g">via GIPHY</a></p>
+</div>
 
 ## What will be the first thing you do in the role?
  

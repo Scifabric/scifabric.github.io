@@ -129,17 +129,24 @@
 
 .jumbotron-main {
 
-    background: #333  url("../images/road.png") no-repeat fixed center top / cover;
-
+    background: #333  url("../images/road.png") no-repeat center bottom /cover;
     min-height: 570px;
 
     padding: 0px 0px;
-    h1, p {
+    h1, p, h2 {
         color: $white-font;
     }
 
-    h2 {
-        color: $white-font;
+    h1{
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    h2{
+        font-size: 28px;
+        font-weight: 300;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 
     .circle-arrow {

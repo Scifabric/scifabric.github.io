@@ -1,4 +1,3 @@
-
 .jumbotron {
     padding: 30px 15px;
     margin-bottom: 0px;
@@ -127,14 +126,20 @@
         /* Translate the @2x sprite's dimensions back to 1x */
     }
 
-.jumbotron-video {
+
+.jumbotron-main {
+
+    background: #333  url("../images/road.png") no-repeat fixed center top / cover;
+
+    min-height: 570px;
+
     padding: 0px 0px;
     h1, p {
-        color: $dark-grey;
+        color: $white-font;
     }
 
     h2 {
-        color: $dark-grey;
+        color: $white-font;
     }
 
     .circle-arrow {
@@ -162,7 +167,7 @@
     }
 }
 
-.jumbotron-video a .circle{
+.jumbotron-main a .circle{
            color: $white;
 }
 

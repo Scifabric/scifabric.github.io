@@ -1,7 +1,15 @@
 .features{
     color: $dark-grey;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.features .media{
+    margin-bottom: 60px;
 }
 
 .features .media-heading{
     color: $sciblue;
+    font-size: 20px;
+    font-weight: 600;
 }

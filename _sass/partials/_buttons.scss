@@ -11,6 +11,23 @@
     text-transform: uppercase;
 }
 
+.btn-default{
+    color: #fff;
+    border-color: $sciblue;
+    background-color: $sciblue;
+    border-width: 2px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    }
+
+.btn-default:hover {
+    color: #fff;
+    border-color: rgba(4,86,111,1);
+    background-color: rgba(4,86,111,1);
+    text-decoration: none;
+    }
+
+
 .btn-info {
     color: #fff;
     border-color: rgba(255,255,255,.4);

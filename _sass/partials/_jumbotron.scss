@@ -179,11 +179,21 @@
            color: $white;
 }
 
+.jumbotron-main .firstfold{
+    margin-top: 200px !important;
+}
+
+
 @media(max-width: 767px){
 
     .jumbotron-main{
      height: auto;
     }
+
+    .jumbotron-main .firstfold{
+    margin-top: 130px !important;
+}
+
 }
 
 

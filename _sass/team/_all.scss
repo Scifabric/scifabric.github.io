@@ -7,32 +7,32 @@
     }
 }
 
-.about h3,
-.team-avatars > h3,
-.valueproposition h3{
+section.about h3,
+div.team-avatars > h3,
+section.valueproposition h3{
     display: block;
     text-align: center;
     color: $dark-grey;
     text-transform: uppercase;
 }
 
-.about a {
+section.about a {
     color: $sciblue;
     text-decoration: underline;
 }
 
-.about h4 {
+section.about h4 {
     font-size: 22px;
     margin-top: 22px;
 }
 
-.about .lead {
+section.about .lead {
     font-size: 24px;
     color:  $grey;
 }
 
-.about p,
-.general p {
+section.about p,
+section.general p {
         font-size: 19px;
         line-height: 1.5;
 }

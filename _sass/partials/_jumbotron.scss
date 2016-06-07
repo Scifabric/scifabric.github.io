@@ -127,6 +127,7 @@
     }
 
 
+
 .jumbotron-main {
 
     background: #333  url("../images/main.png") no-repeat center bottom /cover;
@@ -178,7 +179,12 @@
            color: $white;
 }
 
+@media(max-width: 767px){
 
+    .jumbotron-main{
+     height: auto;
+    }
+}
 
 
 

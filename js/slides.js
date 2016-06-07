@@ -3,4 +3,7 @@
         paginationClickable: true
     });
 
-    var rolling = new Swiper('#rolling-container', {});
+    var rolling = new Swiper('#rolling-container', {
+        loop: true,
+        autoplay: 2000
+    });

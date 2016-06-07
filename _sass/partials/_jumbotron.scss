@@ -186,12 +186,13 @@
 
 @media(max-width: 767px){
 
-    .jumbotron-main{
-     height: auto;
-    }
+.jumbotron-main {
+    min-height: auto;
+}
 
     .jumbotron-main .firstfold{
-    margin-top: 130px !important;
+    margin-top: 20px !important;
+    margin-bottom: 10px;
 }
 
 }

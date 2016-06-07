@@ -1,4 +1,6 @@
-    var swiper = new Swiper('.swiper-container', {
+    var swiper = new Swiper('#quotes-container', {
         pagination: '.swiper-pagination',
         paginationClickable: true
     });
+
+    var rolling = new Swiper('#rolling-container', {});

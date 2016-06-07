@@ -1,11 +1,10 @@
-
 .jumbotron {
     padding: 30px 15px;
     margin-bottom: 0px;
     color: inherit;
     right:0;left:0;top:0;bottom:0;
     overflow:hidden;
-    background: $quotes-bg url("/assets/img/science-icons-bg.png") repeat fixed center top;
+    background: $quotes-bg url("/images/pattern.png") repeat fixed center top;
     background-attachment:fixed;
     height: auto;
 }
@@ -127,14 +126,28 @@
         /* Translate the @2x sprite's dimensions back to 1x */
     }
 
-.jumbotron-video {
+
+
+.jumbotron-main {
+
+    background: #333  url("../images/main.png") no-repeat center bottom /cover;
+    min-height: 570px;
+
     padding: 0px 0px;
-    h1, p {
-        color: $dark-grey;
+    h1, p, h2 {
+        color: $white-font;
     }
 
-    h2 {
-        color: $dark-grey;
+    h1{
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    h2{
+        font-size: 28px;
+        font-weight: 300;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 
     .circle-arrow {
@@ -162,11 +175,30 @@
     }
 }
 
-.jumbotron-video a .circle{
+.jumbotron-main a .circle{
            color: $white;
 }
 
+.jumbotron-main .firstfold{
+    margin-top: 170px !important;
+}
 
+.jumbotron-main .btn-default{
+    margin-top: 20px;
+}
+
+@media(max-width: 767px){
+
+.jumbotron-main {
+    min-height: auto;
+}
+
+    .jumbotron-main .firstfold{
+    margin-top: 20px !important;
+    margin-bottom: 10px;
+}
+
+}
 
 
 

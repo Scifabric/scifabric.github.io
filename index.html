@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data at its best
-description: SciFabric develops platforms to collect, analyse and enrich data. We work with great institutions on scientific research, the humanities, data journalism, medicine, education and much more...
+description: Scifabric develops easy-to-use technologies to collect, analyse and enrich (your) data with the crowd.
 active: home
 navbar: default
 css: 
@@ -17,36 +17,68 @@ css:
 </div>
 
 
-<div class="jumbotron jumbotron-video homepage-hero-module">
+<div class="jumbotron jumbotron-main">
     <div class="container firstfold" style="z-index:10; position:relative;">
         <div class="row">
             <div class="text-center col-md-8 col-md-offset-2">
                 <h1>Data at its best</h1>
-                <h2>The easiest way to collect, analyse and enrich data with the crowd.</h2>
+                <h2>Scifabric develops easy-to-use technologies to collect, analyse and enrich (your) data with the crowd.</h2>
+                <a class="btn btn-default btn-sm" href="/crowdsourcing/"> THAT’S EXACTLY WHAT I WAS LOOKING FOR!</a>
             </div>
-            <div class="text-center circle-arrow col-md-12">
-                <a href="#caseStudies">
-                    <div class="circle">
-                        <i class="fa fa-arrow-down"></i>
-                    </div>
-                 </a>
-            </div>
-        </div>
-    </div>
-
-    <div class="video-container">
-        <div class="filter"></div>
-        <video data-mp4="/assets/video/MP4/Working-Space.mp4" data-webm="/assets/video/MP4/Working-Space.mp4"  autoplay loop class="fillWidth">
-        </video>
-        <div class="poster video-poster hidden">
         </div>
     </div>
 </div>
 
+<div class="rolling-text">
+    <div id="rolling-container" class="swiper-container">
+        <div class="swiper-wrapper">
+            {% for tagline in site.data.taglines %}
+            <div class="swiper-slide">
+                <div class="container">
+                    <div class="col-lg-6 col-md-offset-3">
+                        <p class="rolling">{{tagline.quote}}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<div class="features">
+    <div class="container">
+        <div class="col-lg-6 col-md-offset-3">
+            <div class="media">
+                <div class="media-left">
+                    <a><img class="media-object" src="/images/icon1.svg"></a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">We develop the best available technology</h4>
+                    <p class="media-body">that allows data enrichment for further analysis made by users in a transparent and easy way.</p>
+                </div>
+            </div>
+            <div class="media">
+                 <div class="media-left">
+                    <a><img class="media-object" src="/images/icon2.svg"></a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Ours is a very stable technology</h4>
+                    <p class="media-body">widely used by the international community doing crowdsourcing research</p>
+                </div>
+            </div>
+            <p class="features-text">So, if you have data to analyse and think the crowd can help, we will make your idea happen ensuring that you achieve your goal!</p>
+            <a class="btn btn-default btn-sm" href="/crowdsourcing/">I TOLD YOU THAT’S EXACTLY WHAT I WANT</a>
+        </div>
+    </div>
+</div>
+
+
+
+
 <div id="caseStudies" class="case-studies">
     <div class="container" id="how-we-do-it">
         <div class="container col-md-offset-1 col-md-10 text-center">
-            <p class="lead">Whether you're a professional or amateur researcher, SciFabric can provide you with</br> customised tools to help tell your story, analyse your data and achieve your goals.</p>
+            <p class="lead">Projects that make us proud</p>
         </div>
 
         <div class="row">
@@ -65,7 +97,7 @@ css:
                     <div style="height: 222.5px; background: #333 url(/images/micropasts-pic.png) no-repeat center top/ cover;"></div>
                     <div class="caption">
                         <h3 class="small-space">Micropasts</h3>
-                        <p class="card-fix-p">A PyBossa project that explores the use of crowdsourcing to facilitate participatory archeological research.</p>
+                        <p class="card-fix-p">A PYBOSSA project that explores the use of crowdsourcing to facilitate participatory archeological research.</p>
 
                     <p class="readmore"><a href="/success-stories/micropasts/">Read More</a></p>
                     </div>
@@ -136,7 +168,11 @@ css:
 </div>
 
 <div class="quotes"> 
-    <div class="swiper-container">
+
+            <h3 class="text-center">NICE THINGS THEY SAY</h3>
+       
+  
+    <div id="quotes-container" class="swiper-container">
         <div class="swiper-wrapper">
                 {% for quote in site.data.quotes %}
                 <div class="swiper-slide">

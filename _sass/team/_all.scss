@@ -1,10 +1,40 @@
 @import "modules/colors";
 
 .jumbotron-team {
-    background: $quotes-bg url("/assets/img/science-icons-bg.png") repeat fixed center top;
+    background: $quotes-bg url("/images/pattern.png") repeat fixed center top;
     h1, h2 {
         color: $white;
     }
+}
+
+section.about h3,
+div.team-avatars > h3,
+section.valueproposition h3{
+    display: block;
+    text-align: center;
+    color: $dark-grey;
+    text-transform: uppercase;
+}
+
+section.about a {
+    color: $sciblue;
+    text-decoration: underline;
+}
+
+section.about h4 {
+    font-size: 22px;
+    margin-top: 22px;
+}
+
+section.about .lead {
+    font-size: 24px;
+    color:  $grey;
+}
+
+section.about p,
+section.general p {
+        font-size: 19px;
+        line-height: 1.5;
 }
 
 .team-bg{

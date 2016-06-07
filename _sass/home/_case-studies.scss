@@ -1,13 +1,17 @@
 .case-studies {
-    background-color: $grey-bg;
-    padding-top: 60px;
+    background-color: $very-bright-grey;
+    padding-top: 80px;
     padding-bottom:120px;
     overflow: hidden;
     height: auto;
-    border-top: 52px solid transparent;
+    color: $dark-grey;
 }
 
 .case-studies .lead {
 	margin-bottom: 40px;
+	color: $dark-grey;
+	text-transform: uppercase;
+
 }
+
 @import "partials/card";

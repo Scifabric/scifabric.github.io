@@ -7,6 +7,36 @@
     }
 }
 
+.about h3,
+.team-avatars > h3,
+.valueproposition h3{
+    display: block;
+    text-align: center;
+    color: $dark-grey;
+    text-transform: uppercase;
+}
+
+.about a {
+    color: $sciblue;
+    text-decoration: underline;
+}
+
+.about h4 {
+    font-size: 22px;
+    margin-top: 22px;
+}
+
+.about .lead {
+    font-size: 24px;
+    color:  $grey;
+}
+
+.about p,
+.general p {
+        font-size: 19px;
+        line-height: 1.5;
+}
+
 .team-bg{
 	padding-top: 50px;
 	padding-bottom: 50px;

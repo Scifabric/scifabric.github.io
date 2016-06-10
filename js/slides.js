@@ -5,5 +5,5 @@
 
     var rolling = new Swiper('#rolling-container', {
         loop: true,
-        autoplay: 2000
+        autoplay: 2500
     });

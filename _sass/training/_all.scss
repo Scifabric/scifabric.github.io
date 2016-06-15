@@ -1,4 +1,5 @@
 @import "modules/colors";
+@import "partials/toggle_btn";
 .training-cover {
     background-color: $white;
 }
@@ -35,4 +36,6 @@
     width: 100%;
 }
 
-
+.visibility-hidden {
+    visibility:hidden;
+}

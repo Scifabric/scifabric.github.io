@@ -40,6 +40,12 @@
     visibility:hidden;
 }
 
+@media (max-width:360px) {
+    .visibility-hidden {
+        display: none;
+    }
+}
+
 .save {
     color: $blue-link;
 }

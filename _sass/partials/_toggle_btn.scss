@@ -3,6 +3,7 @@
   display: inline-block;
   width: 30px;
   height: 17px;
+  margin-bottom: -3px;
 }
 
 .switch input {display:none;}
@@ -56,6 +57,5 @@ input:checked + .slider:before {
 
 .slider-text {
     margin-top: -30px;
-    display: block;
-    padding-left: 40px;
+    display: inline-block;
 }

@@ -1,4 +1,5 @@
 @import "modules/colors";
+@import "partials/toggle_btn";
 .training-cover {
     background-color: $white;
 }
@@ -35,4 +36,20 @@
     width: 100%;
 }
 
+.visibility-hidden {
+    visibility:hidden;
+}
 
+@media (max-width:360px) {
+    .visibility-hidden {
+        display: none;
+    }
+}
+
+.save {
+    color: $blue-link;
+}
+
+.special-price {
+    margin-top: 10px;
+}

@@ -40,14 +40,18 @@
     visibility:hidden;
 }
 
+.save {
+    color: $blue-link;
+}
+
 @media (max-width:360px) {
     .visibility-hidden {
         display: none;
     }
-}
 
-.save {
-    color: $blue-link;
+    .save {
+        height: 18px;
+    }
 }
 
 .special-price {

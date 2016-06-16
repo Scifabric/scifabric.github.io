@@ -3,7 +3,7 @@ $(".money").each(function(index){
     $(this).text(price_list[index].toLocaleString());
 });
 
-$("#toogleyear").change(function() {
+$(".toogleyear").change(function() {
     if(this.checked) {
         $(".money").each(function(index){
             var total = price_list[index]*12;
@@ -18,6 +18,8 @@ $("#toogleyear").change(function() {
         $(".save").each(function(index){
             $(this).html("<strong>You save " + price_list[index].toLocaleString() + "€</strong>");
         });
+
+        $(".toogleyear").prop("checked", true);
 
     }
     else {
@@ -35,5 +37,6 @@ $("#toogleyear").change(function() {
             $(this).text("month");
         });
 
+        $(".toogleyear").prop("checked", false);
     }
 });

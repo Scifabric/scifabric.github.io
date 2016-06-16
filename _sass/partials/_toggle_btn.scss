@@ -8,6 +8,15 @@
 
 .switch input {display:none;}
 
+@media (min-width:361px) {
+    .switch-phone,
+    .slider-phone,
+    span.slider-text.slider-text-phone {
+        display: none;
+    }
+
+}
+
 .slider {
   position: absolute;
   cursor: pointer;
@@ -58,4 +67,10 @@ input:checked + .slider:before {
 .slider-text {
     margin-top: -30px;
     display: inline-block;
+}
+
+@media (max-width: 360px) {
+    .slider-text {
+        margin-left: 40px;
+    }
 }

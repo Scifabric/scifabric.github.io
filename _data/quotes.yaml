@@ -1,7 +1,17 @@
+- name: Nora McGregor
+  portrait: nora.png
+  company: British Library
+  quote: "We chose to build our crowdsourcing project with PYBOSSA because it provided the flexibility to create and easily integrate our own custom plugins."
+
 - name: Jesse von Doom
   portrait: jesse-pic.png
   company: CASH Music
   quote: "We're social animals — we understand the power of a crowd. Scifabric makes that accessible to everyone, every project, everywhere."
+
+- name: Chiara Bonacchi
+  portrait: chiara.jpg
+  company: UCL
+  quote: "Thanks to PYBOSSA we've been able to change the process of conducting research in archaeology thanks to the crowd and an innovative blending of computational archaeology and public archaeology practice."
 
 - name: Esra'a Al Shafei
   portrait: esra-pic.png

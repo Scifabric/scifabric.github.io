@@ -37,3 +37,8 @@
   portrait: andrew-pic.png
   company: University College of London
   quote: "PYBOSSA makes the creation of crowdsourcing projects so much easier and more enjoyable than it would otherwise be starting from scratch."
+
+- name: Jennifer Wexler
+  portrait: jennifer-pic.jpeg
+  company: British Museum
+  quote: "Crowdsourcing using the PYBOSSA platform has allowed us to recover essential data from the Bronze Age collections at the British Museum. This would have never been possible without the help of SciFabric, enabling us to open up these important collections to the widest public!"

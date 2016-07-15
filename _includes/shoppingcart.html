@@ -3,14 +3,29 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">Shopping cart</h4>
+                <h4 class="modal-title">Shopping cart: <span id="notes"></span></h4>
             </div>
             <div class="modal-body">
                 <form id="formNewClient" class="form-inline" method="post" action="http://localhost:5000">
                     <input id="csrf_token" type="hidden" name="csrf_token" value=""/>
+                    <div class="explanation">Organization details</div>
                     <div class="form-group">
                         <label class="sr-only" for="Name">Name</label>
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Your name">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="The organization name if applicable">
+                    </div>
+                     <div class="form-group">
+                        <label class="sr-only" for="vat">VAT</label>
+                        <input type="text" class="form-control" id="vat" name="vat" placeholder="VAT if applicable">
+                    </div>
+
+                    <div class="explanation">Contact details</div>
+                    <div class="form-group">
+                        <label class="sr-only" for="firstName">First Name</label>
+                        <input type="text" class="form-control" id="first_name" name="first_name" placeholder="First Name">
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" for="lastName">Last Name</label>
+                        <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Last Name">
                     </div>
                      <div class="form-group">
                         <label class="sr-only" for="address1">Address 1</label>
@@ -34,12 +49,8 @@
                         <input type="text" class="form-control" id="postal_code" name="postal_code" placeholder="Postal Code">
                     </div>
 
-                     <div class="form-group">
-                        <label class="sr-only" for="vat">VAT</label>
-                        <input type="text" class="form-control" id="vat" name="vat" placeholder="VAT">
-                    </div>
 
-                    <div class="form-group">
+                    <!--<div class="form-group">
                         <label class="sr-only" for="country">Country</label>
                         <select class="form-control" name="country">
                             <option value="4">Afghanistan</option>
@@ -143,7 +154,7 @@
                             <option value="340">Honduras</option>
                             <option value="344">Hong Kong</option>
                             </select>
-                    </div>
+                    </div>-->
                     <div class="form-group">
                         <label class="sr-only" for="email">Email address</label>
                         <input type="email" class="form-control" id="email" name="email" placeholder="Email">
@@ -157,8 +168,7 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" id="checkout" class="btn btn-primary">Save changes</button>
+                <button type="button" id="checkout" class="btn btn-default"><span id="product"></span></button>
             </div>
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->

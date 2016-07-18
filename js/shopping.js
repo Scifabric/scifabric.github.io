@@ -22,7 +22,7 @@ $("#checkout").off('click').on('click', function(evt){
 
 function createClient() {
     $.ajax({
-        url: "http://api.scifabric.com/newclient",
+        url: "https://api.scifabric.com/newclient",
         crossDomain: true,
         xhrFields: { withCredentials: true }
     }).done(function(data) {
@@ -34,7 +34,7 @@ function createClient() {
         
         var xhr = $.ajax({
           type: "POST",
-          url: "http://api.scifabric.com/newclient",
+          url: "https://api.scifabric.com/newclient",
           data: form,
           dataType: "json",
           crossDomain: true,
@@ -48,7 +48,7 @@ function createInvoice(client) {
 
     if (client['data'] != undefined) {
         $.ajax({
-            url: "http://api.scifabric.com/newinvoice",
+            url: "https://api.scifabric.com/newinvoice",
             crossDomain: true,
             xhrFields: { withCredentials: true }
         }).done(function(data) {
@@ -60,7 +60,7 @@ function createInvoice(client) {
 
             var xhr = $.ajax({
               type: "POST",
-              url: "http://api.scifabric.com/newinvoice",
+              url: "https://api.scifabric.com/newinvoice",
               data: invoice,
               dataType: "json",
               crossDomain: true,
@@ -111,7 +111,7 @@ function createInvoice(client) {
 
 // Fetch countries and its IDs to populate the modal
 $.ajax({
-    url: "http://api.scifabric.com/countries",
+    url: "https://api.scifabric.com/countries",
     crossDomain: true,
     xhrFields: { withCredentials: true }
 }).done(function(countries) {

@@ -12,8 +12,10 @@ $(".btn-shoppingcart").off('click').on('click', function(evt){
 
 
 $("#checkout").off('click').on('click', function(evt){
+    $(".rolling").show();
+    $("#product").text("Checking out...");
     evt.preventDefault();
-    createClient();
+    //createClient();
 });
 
 
@@ -62,7 +64,12 @@ function createInvoice(client) {
               dataType: "json",
               crossDomain: true,
               xhrFields: { withCredentials: true }
-            }).done(function(datapost){ console.log("Invoice created!"); console.log(datapost);});
+            }).done(function(datapost){ 
+                console.log("Invoice created!"); 
+                console.log(datapost);
+                var invitation = datapost['data']['invitations'][0];
+                window.location.replace(invitation.link);
+            });
         });
     }
     else {

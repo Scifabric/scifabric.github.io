@@ -21,3 +21,21 @@
 #newclient .modal-footer {
     text-align: center;
 }
+
+#newclient .rolling {
+    padding-right: 10px;
+    margin-top: -3px;
+    display: none;
+}
+
+#checkout:active,
+#checkout:focus {
+    color: #fff;
+    border-color: #087da1;
+    background-color: #087da1;
+    border-width: 2px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    outline: 0;
+    box-shadow: 0;
+}

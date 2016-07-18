@@ -70,15 +70,18 @@ function createInvoice(client) {
                 console.log(datapost);
                 console.log(invoice);
                 if ('recurring' in invoice) {
-                    $(".product").text(text);
                     $("#formNewClient").hide();
                     $("#checkout").hide();
+
+                    var text = invoice['notes'] + " for " + invoice['cost'] + "€ " + invoice['recurring'];
+                    $(".product").text(text);
+                    $(".product").css("font-weight", "bold");
                     $("#subscription").show();
                     $("#subscriptionBtn").show();
                 }
                 else {
                     var invitation = datapost['data']['invitations'][0];
-                    //window.location.replace(invitation.link);
+                    window.location.replace(invitation.link);
                 }
             });
         });

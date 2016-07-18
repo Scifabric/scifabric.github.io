@@ -29,7 +29,9 @@
 }
 
 #checkout:active,
-#checkout:focus {
+#checkout:focus,
+.btn-default.disabled, .btn-default[disabled]
+{
     color: #fff;
     border-color: #087da1;
     background-color: #087da1;
@@ -38,4 +40,13 @@
     text-transform: uppercase;
     outline: 0;
     box-shadow: 0;
+}
+
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn {
+    opacity: 1;
+}
+
+#subscription,
+#subscriptionBtn {
+    display: none;
 }

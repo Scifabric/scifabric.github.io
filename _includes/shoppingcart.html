@@ -50,112 +50,10 @@
                         <input type="text" class="form-control" id="postal_code" name="postal_code" placeholder="Postal Code">
                     </div>
 
-
-                    <!--<div class="form-group">
+                    <div class="form-group">
                         <label class="sr-only" for="country">Country</label>
-                        <select class="form-control" name="country">
-                            <option value="4">Afghanistan</option>
-                            <option value="248">Åland Islands</option>
-                            <option value="8">Albania</option>
-                            <option value="12">Algeria</option>
-                            <option value="16">American Samoa</option>
-                            <option value="20">Andorra</option>
-                            <option value="24">Angola</option>
-                            <option value="660">Anguilla</option>
-                            <option value="10">Antarctica</option>
-                            <option value="28">Antigua and Barbuda</option>
-                            <option value="32">Argentina</option>
-                            <option value="51">Armenia</option>
-                            <option value="533">Aruba</option>
-                            <option value="36">Australia</option>
-                            <option value="40">Austria</option>
-                            <option value="31">Azerbaijan</option>
-                            <option value="44">Bahamas</option>
-                            <option value="48">Bahrain</option>
-                            <option value="50">Bangladesh</option>
-                            <option value="52">Barbados</option>
-                            <option value="112">Belarus</option>
-                            <option value="56">Belgium</option>
-                            <option value="84">Belize</option>
-                            <option value="204">Benin</option>
-                            <option value="60">Bermuda</option>
-                            <option value="64">Bhutan</option>
-                            <option value="68">Bolivia, Plurinational State of</option>
-                            <option value="535">Bonaire, Sint Eustatius and Saba</option>
-                            <option value="70">Bosnia and Herzegovina</option>
-                            <option value="72">Botswana</option>
-                            <option value="74">Bouvet Island</option>
-                            <option value="76">Brazil</option>
-                            <option value="86">British Indian Ocean Territory</option>
-                            <option value="96">Brunei Darussalam</option>
-                            <option value="100">Bulgaria</option>
-                            <option value="854">Burkina Faso</option>
-                            <option value="108">Burundi</option>
-                            <option value="116">Cambodia</option>
-                            <option value="120">Cameroon</option>
-                            <option value="124">Canada</option>
-                            <option value="132">Cape Verde</option>
-                            <option value="136">Cayman Islands</option>
-                            <option value="140">Central African Republic</option>
-                            <option value="148">Chad</option>
-                            <option value="152">Chile</option>
-                            <option value="156">China</option>
-                            <option value="162">Christmas Island</option>
-                            <option value="166">Cocos (Keeling) Islands</option>
-                            <option value="170">Colombia</option>
-                            <option value="174">Comoros</option>
-                            <option value="178">Congo</option>
-                            <option value="180">Congo, the Democratic Republic of the</option>
-                            <option value="184">Cook Islands</option>
-                            <option value="188">Costa Rica</option>
-                            <option value="384">Côte d'Ivoire</option>
-                            <option value="191">Croatia</option>
-                            <option value="192">Cuba</option>
-                            <option value="531">Curaçao</option>
-                            <option value="196">Cyprus</option>
-                            <option value="203">Czech Republic</option>
-                            <option value="208">Denmark</option>
-                            <option value="262">Djibouti</option>
-                            <option value="212">Dominica</option>
-                            <option value="214">Dominican Republic</option>
-                            <option value="218">Ecuador</option>
-                            <option value="818">Egypt</option>
-                            <option value="222">El Salvador</option>
-                            <option value="226">Equatorial Guinea</option>
-                            <option value="232">Eritrea</option>
-                            <option value="233">Estonia</option>
-                            <option value="231">Ethiopia</option>
-                            <option value="238">Falkland Islands (Malvinas)</option>
-                            <option value="234">Faroe Islands</option>
-                            <option value="242">Fiji</option>
-                            <option value="246">Finland</option>
-                            <option value="250">France</option>
-                            <option value="254">French Guiana</option>
-                            <option value="258">French Polynesia</option>
-                            <option value="260">French Southern Territories</option>
-                            <option value="266">Gabon</option>
-                            <option value="270">Gambia</option>
-                            <option value="268">Georgia</option>
-                            <option value="276">Germany</option>
-                            <option value="288">Ghana</option>
-                            <option value="292">Gibraltar</option>
-                            <option value="300">Greece</option>
-                            <option value="304">Greenland</option>
-                            <option value="308">Grenada</option>
-                            <option value="312">Guadeloupe</option>
-                            <option value="316">Guam</option>
-                            <option value="320">Guatemala</option>
-                            <option value="831">Guernsey</option>
-                            <option value="324">Guinea</option>
-                            <option value="624">Guinea-Bissau</option>
-                            <option value="328">Guyana</option>
-                            <option value="332">Haiti</option>
-                            <option value="334">Heard Island and McDonald Islands</option>
-                            <option value="336">Holy See (Vatican City State)</option>
-                            <option value="340">Honduras</option>
-                            <option value="344">Hong Kong</option>
-                            </select>
-                    </div>-->
+                        <select class="form-control" name="country" id="country"></select>
+                    </div>
                     <div class="form-group">
                         <label class="sr-only" for="email">Email address</label>
                         <input type="email" class="form-control" id="email" name="email" placeholder="Email">
@@ -167,9 +65,14 @@
                     </div>
                     <button type="submit" class="btn btn-default">Submit</button>-->
                 </form>
+                <div id="subscription">
+                    <p>You have been successfully subscribed to this plan: <span class="product"></span>. You'll receive an email with instructions for paying the invoice and activating the plan.</p>
+                </div>
             </div>
             <div class="modal-footer">
-                <button type="button" id="checkout" class="btn btn-default"><img class="rolling" src="/assets/img/rolling.svg"/><span id="product"></span></button>
+                <button type="button" id="checkout" class="btn btn-default"><img class="rolling" src="/assets/img/rolling.svg"/><span class="product"></span></button>
+
+                <button type="button" id="subscriptionBtn" class="btn btn-default" data-dismiss="modal" aria-label="Close">Perfect!</button>
             </div>
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->

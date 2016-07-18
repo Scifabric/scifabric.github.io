@@ -5,7 +5,7 @@ $(".btn-shoppingcart").off('click').on('click', function(evt){
     invoice = $(this).data();
     $("#newclient").modal("show");
     var text = "Buy " + invoice['notes'] + " for " + invoice['cost'] + "€";
-    $("#product").text(text);
+    $(".product").text(text);
     $("#notes").text(invoice['notes']);
 });
 
@@ -13,9 +13,10 @@ $(".btn-shoppingcart").off('click').on('click', function(evt){
 
 $("#checkout").off('click').on('click', function(evt){
     $(".rolling").show();
-    $("#product").text("Checking out...");
+    $(this).prop("disabled", true);
+    $(".product").text("Checking out...");
     evt.preventDefault();
-    //createClient();
+    createClient();
 });
 
 
@@ -67,8 +68,18 @@ function createInvoice(client) {
             }).done(function(datapost){ 
                 console.log("Invoice created!"); 
                 console.log(datapost);
-                var invitation = datapost['data']['invitations'][0];
-                window.location.replace(invitation.link);
+                console.log(invoice);
+                if ('recurring' in invoice) {
+                    $(".product").text(text);
+                    $("#formNewClient").hide();
+                    $("#checkout").hide();
+                    $("#subscription").show();
+                    $("#subscriptionBtn").show();
+                }
+                else {
+                    var invitation = datapost['data']['invitations'][0];
+                    //window.location.replace(invitation.link);
+                }
             });
         });
     }
@@ -93,3 +104,19 @@ function createInvoice(client) {
 
     }
 }
+
+
+// Fetch countries and its IDs to populate the modal
+$.ajax({
+    url: "http://localhost:5000/countries",
+    crossDomain: true,
+    xhrFields: { withCredentials: true }
+}).done(function(countries) {
+    for (i=0; i<countries.length; i++) {
+        var option = $("<option/>");
+        option.attr("value", countries[i]['id']);
+        option.text(countries[i]['name']);
+        $("#country").append(option);
+    }
+});
+

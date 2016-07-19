@@ -1,4 +1,6 @@
 var invoice;
+//var domain = 'https://api.scifabric.com/';
+var domain = 'http://localhost:5000';
 
 $(".btn-shoppingcart").off('click').on('click', function(evt){
     evt.preventDefault();
@@ -22,7 +24,7 @@ $("#checkout").off('click').on('click', function(evt){
 
 function createClient() {
     $.ajax({
-        url: "https://api.scifabric.com/newclient",
+        url: domain + "/newclient",
         crossDomain: true,
         xhrFields: { withCredentials: true }
     }).done(function(data) {
@@ -34,7 +36,7 @@ function createClient() {
         
         var xhr = $.ajax({
           type: "POST",
-          url: "https://api.scifabric.com/newclient",
+          url: domain + "/newclient",
           data: form,
           dataType: "json",
           crossDomain: true,
@@ -48,7 +50,7 @@ function createInvoice(client) {
 
     if (client['data'] != undefined) {
         $.ajax({
-            url: "https://api.scifabric.com/newinvoice",
+            url: domain + "/newinvoice",
             crossDomain: true,
             xhrFields: { withCredentials: true }
         }).done(function(data) {
@@ -60,7 +62,7 @@ function createInvoice(client) {
 
             var xhr = $.ajax({
               type: "POST",
-              url: "https://api.scifabric.com/newinvoice",
+              url: domain + "/newinvoice",
               data: invoice,
               dataType: "json",
               crossDomain: true,
@@ -81,7 +83,21 @@ function createInvoice(client) {
                 }
                 else {
                     var invitation = datapost['data']['invitations'][0];
-                    window.location.replace(invitation.link);
+                    var paymentSameCreditCardURL = "https://app.invoiceninja.com/payment/" + invitation['key'] + "/token";
+                    var paymentNewCreditCardURL = "https://app.invoiceninja.com/payment/" + invitation['key'] + "/credit_card";
+                    var text = invoice['notes']; + " for " + invoice['cost'] + "€";
+                    $(".product").text(text);
+                    $(".cost").text(invoice['cost'] + "€");
+                    $(".qty").text(invoice['qty']);
+                    $(".total").text(invoice['cost'] + "€");
+                    $("#paySameCreditCard").attr("href", paymentSameCreditCardURL);
+                    $("#payNewCreditCard").attr("href", paymentNewCreditCardURL);
+                    $("#formNewClient").hide();
+                    $("#checkout").hide();
+                    $("#summaryCheckout").show();
+                    $("#paySameCreditCard").show();
+                    $("#payNewCreditCard").show();
+                    //window.location.replace(invitation.link);
                 }
             });
         });
@@ -111,7 +127,7 @@ function createInvoice(client) {
 
 // Fetch countries and its IDs to populate the modal
 $.ajax({
-    url: "https://api.scifabric.com/countries",
+    url: domain + "/countries",
     crossDomain: true,
     xhrFields: { withCredentials: true }
 }).done(function(countries) {

@@ -68,11 +68,39 @@
                 <div id="subscription">
                     <p>You have been successfully subscribed to this plan: <span class="product"></span>. You'll receive an email with instructions for paying the invoice and activating the plan.</p>
                 </div>
+                <div id="summaryCheckout">
+                    <div class="explanation">Checkout summary</div>
+                    <table class="table"> 
+                        <thead> 
+                            <tr> 
+                                <th>Description</th> 
+                                <th>Cost</th> 
+                                <th>Quantity</th> 
+                                <th>Tax</th> 
+                                <th>Total</th> 
+                            </tr> 
+                        </thead> 
+                        <tbody> 
+                            <tr> 
+                                <th scope="row" class="product"></th> 
+                                <td class="cost"></td> 
+                                <td class="qty"></td> 
+                                <td>0</td> 
+                                <td class="total"></td> 
+                            </tr> 
+                        </tbody> 
+                    </table>
+                </div>
             </div>
             <div class="modal-footer">
                 <button type="button" id="checkout" class="btn btn-default"><img class="rolling" src="/assets/img/rolling.svg"/><span class="product"></span></button>
 
                 <button type="button" id="subscriptionBtn" class="btn btn-default" data-dismiss="modal" aria-label="Close">Perfect!</button>
+
+                <a href="#" class="btn btn-default" id="paySameCreditCard">Pay using your registered card </a>
+                <p>
+                <a href="#" id="payNewCreditCard">Pay using a new credit card</a>
+                </p>
             </div>
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->

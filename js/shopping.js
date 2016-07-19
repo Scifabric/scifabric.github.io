@@ -1,6 +1,5 @@
 var invoice;
-//var domain = 'https://api.scifabric.com/';
-var domain = 'http://localhost:5000';
+var domain = 'https://api.scifabric.com/';
 
 $(".btn-shoppingcart").off('click').on('click', function(evt){
     evt.preventDefault();

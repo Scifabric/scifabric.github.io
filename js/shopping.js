@@ -1,6 +1,6 @@
 var invoice;
-//var domain = 'https://api.scifabric.com/';
-var domain = 'http://localhost:5000';
+var domain = 'https://api.scifabric.com/';
+//var domain = 'http://localhost:5000';
 
 var returningClient = false;
 

@@ -1,5 +1,16 @@
 var invoice;
 var domain = 'https://api.scifabric.com/';
+//var domain = 'http://localhost:5000';
+
+var returningClient = false;
+
+if (getCookie('client') !== '') {
+    returningClient = true;
+}
+
+$("#payNewCreditCard").off('click').on('click', function(evt){
+    setCookie("client", true, 365);
+});
 
 $(".btn-shoppingcart").off('click').on('click', function(evt){
     evt.preventDefault();
@@ -82,8 +93,8 @@ function createInvoice(client) {
                 }
                 else {
                     var invitation = datapost['data']['invitations'][0];
-                    var paymentSameCreditCardURL = "https://app.invoiceninja.com/payment/" + invitation['key'] + "/token";
-                    var paymentNewCreditCardURL = "https://app.invoiceninja.com/payment/" + invitation['key'] + "/credit_card";
+                    var paymentSameCreditCardURL = "https://scifabric.invoiceninja.com/payment/" + invitation['key'] + "/token";
+                    var paymentNewCreditCardURL = "https://scifabric.invoiceninja.com/payment/" + invitation['key'] + "/credit_card";
                     var text = invoice['notes']; + " for " + invoice['cost'] + "€";
                     $(".product").text(text);
                     $(".cost").text(invoice['cost'] + "€");
@@ -94,8 +105,18 @@ function createInvoice(client) {
                     $("#formNewClient").hide();
                     $("#checkout").hide();
                     $("#summaryCheckout").show();
-                    $("#paySameCreditCard").show();
-                    $("#payNewCreditCard").show();
+
+                    if (returningClient) {
+                        $("#paySameCreditCard").show();
+                        $("#payNewCreditCard").show();
+                    }
+
+                    else {
+                        $("#payNewCreditCard").text("Pay");
+                        $("#payNewCreditCard").addClass("btn btn-default");
+                        $("#payNewCreditCard").parent().removeClass("top20");
+                        $("#payNewCreditCard").show();
+                    }
                     //window.location.replace(invitation.link);
                 }
             });

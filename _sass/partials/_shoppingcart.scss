@@ -47,6 +47,13 @@
 }
 
 #subscription,
-#subscriptionBtn {
+#subscriptionBtn,
+#summaryCheckout,
+#paySameCreditCard,
+#payNewCreditCard {
     display: none;
+}
+
+.modal-footer {
+    border-top: 0px;
 }

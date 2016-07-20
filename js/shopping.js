@@ -1,6 +1,6 @@
 var invoice;
-var domain = 'https://api.scifabric.com/';
-//var domain = 'http://localhost:5000';
+//var domain = 'https://api.scifabric.com/';
+var domain = 'http://localhost:5000';
 
 var returningClient = false;
 
@@ -24,9 +24,6 @@ $(".btn-shoppingcart").off('click').on('click', function(evt){
 
 
 $("#checkout").off('click').on('click', function(evt){
-    $(".rolling").show();
-    $(this).prop("disabled", true);
-    $(".product").text("Checking out...");
     evt.preventDefault();
     createClient();
 });
@@ -59,6 +56,10 @@ function createClient() {
 function createInvoice(client) {
 
     if (client['data'] != undefined) {
+        $(".rolling").show();
+        $("#checkout").prop("disabled", true);
+        $(".product").text("Checking out...");
+
         $.ajax({
             url: domain + "/newinvoice",
             crossDomain: true,

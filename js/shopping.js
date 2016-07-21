@@ -1,6 +1,6 @@
-var invoice;
-var domain = 'https://api.scifabric.com/';
-//var domain = 'http://localhost:5000';
+var invoice = {'invoice_items':[]};
+//var domain = 'https://api.scifabric.com/';
+var domain = 'http://localhost:5000';
 
 var returningClient = false;
 
@@ -14,9 +14,13 @@ $("#payNewCreditCard").off('click').on('click', function(evt){
 
 $(".btn-shoppingcart").off('click').on('click', function(evt){
     evt.preventDefault();
-    invoice = $(this).data();
+    var tmp = $(this).data();
+    invoice['invoice_items'].push(tmp);
+    // Add the admin fee
+    invoice['invoice_items'].push({'qty': 1, 'cost': Math.round(1.5/100*tmp['cost']), 'notes': 'Transaction fee'});
+    console.log(invoice);
     $("#newclient").modal("show");
-    var text = "Buy " + invoice['notes'] + " for " + invoice['cost'] + "€";
+    var text = "Buy " + tmp['notes'] + " for " + tmp['cost'] + "€";
     $(".product").text(text);
     $("#notes").text(invoice['notes']);
 });
@@ -47,6 +51,7 @@ function createClient() {
           data: form,
           dataType: "json",
           crossDomain: true,
+          headers: {'X-CSRFToken': data['csrf_token']},
           xhrFields: { withCredentials: true }
         }).done(createInvoice);
 
@@ -63,20 +68,26 @@ function createInvoice(client) {
         $.ajax({
             url: domain + "/newinvoice",
             crossDomain: true,
+            contentType:"application/json; charset=utf-8",
             xhrFields: { withCredentials: true }
         }).done(function(data) {
 
             console.log(client);
             invoice['csrf_token'] = data['csrf_token'];
             invoice['client_id'] = client.data['id'];
+            invoice['email_invoice'] = true;
+            invoice['cost']  = invoice['invoice_items'][0]['cost'];
+            invoice['qty']  = invoice['invoice_items'][0]['qty'];
             console.log(invoice);
 
             var xhr = $.ajax({
               type: "POST",
               url: domain + "/newinvoice",
-              data: invoice,
+              data: JSON.stringify(invoice),
+              contentType: "application/json",
               dataType: "json",
               crossDomain: true,
+              headers: {'X-CSRFToken': data['csrf_token']},
               xhrFields: { withCredentials: true }
             }).done(function(datapost){ 
                 console.log("Invoice created!"); 
@@ -93,6 +104,7 @@ function createInvoice(client) {
                     $("#subscriptionBtn").show();
                 }
                 else {
+                    console.log(datapost);
                     var invitation = datapost['data']['invitations'][0];
                     var paymentSameCreditCardURL = "https://scifabric.invoiceninja.com/payment/" + invitation['key'] + "/token";
                     var paymentNewCreditCardURL = "https://scifabric.invoiceninja.com/payment/" + invitation['key'] + "/credit_card";

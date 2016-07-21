@@ -73,21 +73,13 @@
                     <table class="table"> 
                         <thead> 
                             <tr> 
-                                <th>Description</th> 
-                                <th>Cost</th> 
-                                <th>Quantity</th> 
-                                <th>Tax</th> 
-                                <th>Total</th> 
+                                <th class="text-left">Description</th> 
+                                <th class="text-right">Quantity</th> 
+                                <th class="text-right">Tax</th> 
+                                <th class="text-right">Cost</th> 
                             </tr> 
                         </thead> 
-                        <tbody> 
-                            <tr> 
-                                <th scope="row" class="product"></th> 
-                                <td class="cost"></td> 
-                                <td class="qty"></td> 
-                                <td>0</td> 
-                                <td class="total"></td> 
-                            </tr> 
+                        <tbody class="invoice_items"> 
                         </tbody> 
                     </table>
                 </div>
@@ -97,7 +89,7 @@
 
                 <button type="button" id="subscriptionBtn" class="btn btn-default" data-dismiss="modal" aria-label="Close">Perfect!</button>
 
-                <a href="#" class="btn btn-default" id="paySameCreditCard">Pay using your registered card </a>
+                <a href="#" class="btn btn-default" id="paySameCreditCard"><img class="rolling" src="/assets/img/rolling.svg"/>Pay using your registered card </a>
                 <p class="top20">
                     <a href="#" id="payNewCreditCard">Pay using a new credit card</a>
                 </p>

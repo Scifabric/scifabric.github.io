@@ -30,6 +30,8 @@
 
 #checkout:active,
 #checkout:focus,
+#paySameCreditCard:active,
+#paySameCreditCard:focus,
 .btn-default.disabled, .btn-default[disabled]
 {
     color: #fff;
@@ -40,6 +42,7 @@
     text-transform: uppercase;
     outline: 0;
     box-shadow: 0;
+    text-decoration: none;
 }
 
 .btn.disabled, .btn[disabled], fieldset[disabled] .btn {
@@ -57,3 +60,4 @@
 .modal-footer {
     border-top: 0px;
 }
+

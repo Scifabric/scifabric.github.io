@@ -1,6 +1,6 @@
 var invoice = {'invoice_items':[]};
-//var domain = 'https://api.scifabric.com/';
-var domain = 'http://localhost:5000';
+var domain = 'https://api.scifabric.com/';
+//var domain = 'http://localhost:5000';
 
 var returningClient = false;
 
@@ -18,11 +18,10 @@ $(".btn-shoppingcart").off('click').on('click', function(evt){
     invoice['invoice_items'].push(tmp);
     // Add the admin fee
     invoice['invoice_items'].push({'qty': 1, 'cost': Math.round(1.5/100*tmp['cost']), 'notes': 'Transaction fee'});
-    console.log(invoice);
     $("#newclient").modal("show");
     var text = "Buy " + tmp['notes'] + " for " + tmp['cost'] + "€";
     $(".product").text(text);
-    $("#notes").text(invoice['notes']);
+    $("#notes").text(tmp['notes']);
 });
 
 
@@ -30,6 +29,11 @@ $(".btn-shoppingcart").off('click').on('click', function(evt){
 $("#checkout").off('click').on('click', function(evt){
     evt.preventDefault();
     createClient();
+});
+
+$("#paySameCreditCard").off('click').on('click', function(evt){
+    $(".rolling").show();
+    $("#paySameCreditCard").prop("disabled", true);
 });
 
 
@@ -61,9 +65,9 @@ function createClient() {
 function createInvoice(client) {
 
     if (client['data'] != undefined) {
-        $(".rolling").show();
         $("#checkout").prop("disabled", true);
         $(".product").text("Checking out...");
+        $(".rolling").show();
 
         $.ajax({
             url: domain + "/newinvoice",
@@ -72,13 +76,11 @@ function createInvoice(client) {
             xhrFields: { withCredentials: true }
         }).done(function(data) {
 
-            console.log(client);
             invoice['csrf_token'] = data['csrf_token'];
             invoice['client_id'] = client.data['id'];
             invoice['email_invoice'] = true;
             invoice['cost']  = invoice['invoice_items'][0]['cost'];
             invoice['qty']  = invoice['invoice_items'][0]['qty'];
-            console.log(invoice);
 
             var xhr = $.ajax({
               type: "POST",
@@ -90,9 +92,6 @@ function createInvoice(client) {
               headers: {'X-CSRFToken': data['csrf_token']},
               xhrFields: { withCredentials: true }
             }).done(function(datapost){ 
-                console.log("Invoice created!"); 
-                console.log(datapost);
-                console.log(invoice);
                 if ('recurring' in invoice) {
                     $("#formNewClient").hide();
                     $("#checkout").hide();
@@ -104,19 +103,59 @@ function createInvoice(client) {
                     $("#subscriptionBtn").show();
                 }
                 else {
-                    console.log(datapost);
                     var invitation = datapost['data']['invitations'][0];
                     var paymentSameCreditCardURL = "https://scifabric.invoiceninja.com/payment/" + invitation['key'] + "/token";
                     var paymentNewCreditCardURL = "https://scifabric.invoiceninja.com/payment/" + invitation['key'] + "/credit_card";
-                    var text = invoice['notes']; + " for " + invoice['cost'] + "€";
-                    $(".product").text(text);
-                    $(".cost").text(invoice['cost'] + "€");
-                    $(".qty").text(invoice['qty']);
-                    $(".total").text(invoice['cost'] + "€");
+                    console.log("daniel");
+                    console.log(invoice);
+                    var total = 0;
+                    for(i=0;i<invoice['invoice_items'].length;i++){
+                        var tr = $("<tr/>");
+                        var text = invoice['invoice_items'][i]['notes']; + " for " + invoice['invoice_items'][i]['cost'] + "€";
+                        var product = $("<th/>");
+                        product.text(text);
+                        product.addClass("text-left");
+                        var qty = $("<td/>");
+                        qty.text(invoice['invoice_items'][i]['qty']);
+                        qty.addClass("text-right");
+                        var tax = $("<td/>");
+                        tax.text("0");
+                        tax.addClass("text-right");
+                        var cost = $("<td/>");
+                        cost.text(invoice['invoice_items'][i]['cost'] + "€");
+                        cost.addClass("text-right");
+                        total += invoice['invoice_items'][i]['cost'];
+                        tr.append(product);
+                        tr.append(qty);
+                        tr.append(tax);
+                        tr.append(cost);
+                        $(".invoice_items").append(tr);
+                    }
+
+                    var tr = $("<tr/>");
+                    var product = $("<th/>");
+                    product.text("Total");
+                    product.addClass("text-left");
+                    var qty = $("<td/>");
+                    qty.text();
+                    qty.addClass("text-right");
+                    var tax = $("<td/>");
+                    tax.text("0");
+                    tax.addClass("text-right");
+                    var cost = $("<td/>");
+                    cost.text(total + "€");
+                    cost.addClass("text-right");
+                    tr.append(product);
+                    tr.append(qty);
+                    tr.append(tax);
+                    tr.append(cost);
+                    $(".invoice_items").append(tr);
+
                     $("#paySameCreditCard").attr("href", paymentSameCreditCardURL);
                     $("#payNewCreditCard").attr("href", paymentNewCreditCardURL);
                     $("#formNewClient").hide();
                     $("#checkout").hide();
+                    $(".rolling").hide();
                     $("#summaryCheckout").show();
 
                     if (returningClient) {
@@ -138,16 +177,12 @@ function createInvoice(client) {
     else {
         $("div").removeClass("has-error");
         $(".help-block").remove(".help-block");
-        console.log("Error");
-        console.log(client);
         $.each(client, function(key, value){
             var help = $("<span/>");
             help.addClass("help-block");
             help.text(value[0]);
             $("#" + key).parent().addClass("has-error");
             $("#" + key).parent().append(help);
-            console.log(key);
-            console.log(value);
         });
         var help = $("<span/>");
         help.addClass("help-block");

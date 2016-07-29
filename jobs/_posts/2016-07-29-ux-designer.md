@@ -36,7 +36,7 @@ We develop projects for a wide range of industries and  institutions all over th
  * UX/UI designer.
  * HTML/CSS skills (desirable).
  * Some JavaScript (desirable).
- * English. Yes, you've to speak in English.
+ * English. Yes, you have to speak in English.
  * Easygoing person.
  * Love to work with teams.
 

@@ -10,12 +10,18 @@ description: "SciFabric is looking for a python web developer."
 author: teleyinex
 keywords: python, developer, backend
 css: assets-photos
+type: job
 ---
-
-## We're hiring!
 
 We're are looking for a Python developer that will like to work with people, easy going
 and with lots of energy and enthusiasm to learn.
+
+### Who we are
+
+Scifabric is a Spanish based company (registered in the UK) that develops easy-to-use technologies to collect, analyse and enrich data with the crowd. 
+
+We develop projects for a wide range of industries and  institutions all over the world. 
+
 
 ### What we offer
 

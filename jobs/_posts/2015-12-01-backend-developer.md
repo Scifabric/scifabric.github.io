@@ -12,8 +12,6 @@ keywords: python, developer, backend
 css: assets-photos
 ---
 
-## We're hiring!
-
 We're are looking for a Python developer that will like to work with people, easy going
 and with lots of energy and enthusiasm to learn.
 

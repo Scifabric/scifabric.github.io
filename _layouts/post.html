@@ -34,7 +34,7 @@ navbar: default
                 {% endfor %}
                 <p class="post-details">Cover photo by <a href="{{page.photo_url}}">{{page.photo_author}}</a></p>
                 <p class="post-details">Reading time ~ <span title="{{ content | number_of_words}} words"> {% include readingtime.html %}</span></p>
-                <p class="post-details">GIFs & memes ~ <span id="n_memes"></span></p>
+                <p id="memes" class="post-details memes">GIFs & memes ~ <span id="n_memes">0</span></p>
             </div>
             <div class="top30 col-md-8 col-md-offset-2">
                 {{content}}
@@ -78,21 +78,21 @@ navbar: default
                 <div class="thumbnail card">
                     <div class="post-pic cover-{{site.categories.blog[prev_post].photo}}"></div>
                     <div class="caption">
-                        <h3>{{site.categories.blog[prev_post].title}}</h3>
-                        <p class="card-fix-p">{{site.categories.blog[prev_post].content | markdownify | strip_html | truncate: 77 }}.</p>
-                        <p class="readmore"><a href="{{site.prefix}}{{site.categories.blog[prev_post].url}}">Read More</a></p>
+                        <h3>{{site.categories.blog[prev_post].title | truncate: 50 }}</h3>
+                        <p style="font-size:16px;">{{site.categories.blog[prev_post].content | markdownify | strip_html | truncate: 77 }}.</p>
+                        <p class="readmore" style="font-size:16px;"><a href="{{site.prefix}}{{site.categories.blog[prev_post].url}}">Read More</a></p>
                     </div>
                 </div>
             </div>
             {% endif %}
             {% if site.categories.blog[next_post].title %}
-            <div class="col-md-4">
+            <div class="col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-4">
                 <div class="thumbnail card">
                     <div class="post-pic cover-{{site.categories.blog[next_post].photo}}"></div>
                     <div class="caption">
-                        <h3>{{site.categories.blog[next_post].title}}</h3>
-                        <p class="card-fix-p">{{site.categories.blog[next_post].content | markdownify | strip_html | truncate: 77 }}.</p>
-                        <p class="readmore"><a href="{{site.prefix}}{{site.categories.blog[next_post].url}}">Read More</a></p>
+                        <h3>{{site.categories.blog[next_post].title | truncate: 50}}</h3>
+                        <p style="font-size:16px;">{{site.categories.blog[next_post].content | markdownify | strip_html | truncate: 77 }}.</p>
+                        <p class="readmore" style="font-size:16px;"><a href="{{site.prefix}}{{site.categories.blog[next_post].url}}">Read More</a></p>
                     </div>
                 </div>
             </div>
@@ -108,4 +108,7 @@ navbar: default
 <script>
    var n_memes =  document.getElementsByTagName("iframe").length;
    document.getElementById("n_memes").innerHTML = n_memes;
+   if (n_memes > 0) {
+       document.getElementById("memes").style.visibility = 'visible';
+   }
 </script>

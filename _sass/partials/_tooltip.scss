@@ -1,0 +1,14 @@
+.tooltip.right .tooltip-arrow {
+    border-right-color: $sciblue;
+}
+
+.tooltip-inner {
+    background-color: $sciblue;
+    color: white;
+}
+
+.tooltip-inner a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}

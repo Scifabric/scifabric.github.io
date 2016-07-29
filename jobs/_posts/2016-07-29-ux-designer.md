@@ -6,7 +6,7 @@ quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
 photo: ux
 photo_author: Markus Spiske
 photo_url: https://unsplash.com/search/design?photo=jjtdL443L4w
-description: "Scifabric is looking for a UX/UI designer."
+description: "Scifabric is looking for a talented UI/UX designer to join our fun team. Do you know someone?"
 author: teleyinex
 keywords: UX, designer
 css: assets-photos

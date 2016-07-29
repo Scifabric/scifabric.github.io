@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "UX/UI designer"
-date:   2015-12-01 
+date:   2016-07-29 
 quote: Lorem ipsum dolor sit amet, consectetur adipisicing elit
 photo: ux
 photo_author: Markus Spiske

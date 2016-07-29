@@ -10,7 +10,7 @@ description: "Meet Mar Ramis – Scifabric’s new business guru"
 author: jimmyd
 ---
 
-James Doherty interviews Mar Ramis, Scifabric’s new business development manager...
+James Doherty interviews Mar Ramis, Scifabric’s new business development manager.
 
 ## Mar, where are you from?
  

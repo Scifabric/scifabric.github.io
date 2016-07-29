@@ -25,7 +25,7 @@ We develop projects for a wide range of industries and  institutions all over th
 ### What we offer
 
  * No schedules or timing. We're grown ups, you handle your own time. 
- * No office requirement. You can work from home if you want.
+ * No office requirement. You can work from home if you want. Your office is where you live. 
  * Work time to learn. You can and you should. Then, explain to the rest of the team.
  * You'll have your voice. We're not right all the time, so your point of view will help us to improve. 
  * Full access to deployments since day zero. Yes, you can break the company the first day, and it's fine. But don't do it twice!

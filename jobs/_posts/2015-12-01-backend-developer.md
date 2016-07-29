@@ -11,6 +11,7 @@ author: teleyinex
 keywords: python, developer, backend
 css: assets-photos
 type: job
+active: job
 ---
 
 We're are looking for a Python developer that will like to work with people, easy going

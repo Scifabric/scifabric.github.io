@@ -40,10 +40,12 @@ navbar: default
                 {{content}}
             </div>
             <div class="col-md-8 col-md-offset-2">
-                {% if page.type != 'press' %}
-                <p class="lead dark"><strong>Share this blog post:</strong>
-                {% else %}
+                {% if page.type == 'press' %}
                 <p class="lead dark"><strong>Share this press release:</strong>
+                {% elsif page.type == 'job' %}
+                <p class="lead dark"><strong>Share this job position:</strong>
+                {% else %}
+                <p class="lead dark"><strong>Share this blog post:</strong>
                 {% endif %}
                 <a
                     href='javascript:window.open("https://twitter.com/intent/tweet?text={{page.description|escape}}&url=http://scifabric.com{{page.url}}&via=Scifabric","_blank","width=500,height=450");void(0);' class="twitter">

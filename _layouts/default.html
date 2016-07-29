@@ -51,6 +51,8 @@
         <meta name="twitter:description" content="{{page.description}}" />
         {% if page.active == "home" %}
         <meta name="twitter:image" content="http://scifabric.com/images/cards/twitter.png?x={{site.time | date: '%s'}}" />
+        {% elsif page.type == 'job' %}
+        <meta name="twitter:image" content="http://scifabric.com/assets/img/jobs/{{page.photo}}.jpg?x={{site.time | date: '%s'}}" />
         {% else %}
         <meta name="twitter:image" content="http://scifabric.com/assets/img/blog/{{page.photo}}.jpg?x={{site.time | date: '%s'}}" />
         {% endif %}
@@ -61,6 +63,8 @@
         <meta property="og:description" content="{{page.description}}"/>
         {% if page.active == "home" %}
         <meta property="og:image" content="http://scifabric.com/images/cards/opengraph.png?x={{site.time | date: '%s'}}" />
+        {% elsif page.type == 'job' %}
+        <meta property="og:image" content="http://scifabric.com/assets/img/jobs/{{page.photo}}.jpg?x={{site.time | date: '%s'}}" />
         {% else %}
         <meta property="og:image" content="http://scifabric.com/assets/img/blog/{{page.photo}}.jpg?x={{site.time | date: '%s'}}" />
         {% endif %}

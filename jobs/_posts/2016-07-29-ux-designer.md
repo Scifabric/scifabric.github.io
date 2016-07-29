@@ -11,6 +11,7 @@ author: teleyinex
 keywords: UX, designer
 css: assets-photos
 type: job
+active: job
 ---
 
 We are now looking for a talented UI/UX designer to join our fun team. You will turn interfaces into rich user experiences, work within our team modelling user behavior, create wireframes, design interface concepts and graphic layouts and any other ad hoc projects and tasks that may come up. Starting around September time.

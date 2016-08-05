@@ -4,13 +4,18 @@ import Vuex from 'vuex'
 Vue.use(Vuex);
 
 const state = {
-  count: 0
+  step: 0
 }
 
 const mutations = {
   INCREMENT (state, amount) {
-    state.count = state.count + amount
+    state.step = state.step + amount
+  },
+
+  DECREMENT (state, amount) {
+      state.step = state.step - amount
   }
+
 }
 
 export default new Vuex.Store({

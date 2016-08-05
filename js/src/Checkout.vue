@@ -1,9 +1,10 @@
 <template>
-<button type="button" id="checkout" class="btn btn-default" v-on:click="increment"><img class="rolling" src="/assets/img/rolling.svg"/><span class="product">Review cart</span></button>
+<button type="button" id="checkout" class="btn btn-default" v-on:click="increment"><img class="rolling" src="/assets/img/rolling.svg"/><span class="product">Next</span></button>
+<button type="button" id="checkout" class="btn btn-default" v-on:click="decrement"><img class="rolling" src="/assets/img/rolling.svg"/><span class="product">Previous</span></button>
 </template>
 
 <script>
-import { incrementCounter } from './vuex/actions'
+import { incrementCounter, decrementCounter } from './vuex/actions'
 
 export default {
     methods: {
@@ -13,7 +14,8 @@ export default {
     },
     vuex: {
         actions: {
-            increment: incrementCounter
+            increment: incrementCounter,
+            decrement: decrementCounter,
         }
     }
 

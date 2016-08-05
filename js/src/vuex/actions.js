@@ -5,3 +5,8 @@ export const incrementCounter = function ({ dispatch, state }) {
   console.log("HOLA increment");
   dispatch('INCREMENT', 1)
 }
+
+export const decrementCounter = function ({ dispatch, state }) {
+  console.log("HOLA decrement");
+  dispatch('DECREMENT', 1)
+}

@@ -61,9 +61,10 @@
 
 <script>
 export default {
-    data(){
+    data: function(){
         return {csrftoken: '',
                 vat:'',
+                name: '',
                 first_name: '',
                 last_name: '',
                 address1: '',
@@ -75,6 +76,6 @@ export default {
                 countries: '',
                 email: ''
                 }
-    }
+    },
 }
 </script>

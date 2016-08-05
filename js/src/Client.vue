@@ -57,9 +57,11 @@
         <input type="email" class="form-control" id="email" name="email" placeholder="Email" v-model="email">
     </div>
 </form>
+<h3>{{ counterValue }}</h3>
 </template>
 
 <script>
+import { getCount } from './vuex/getters';
 export default {
     data: function(){
         return {csrftoken: '',
@@ -77,5 +79,10 @@ export default {
                 email: ''
                 }
     },
+    vuex: {
+        getters: {
+            counterValue: getCount
+        }
+    }
 }
 </script>

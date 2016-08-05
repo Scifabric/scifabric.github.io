@@ -4,7 +4,7 @@
 </template>
 
 <script>
-import { incrementCounter, decrementCounter } from './vuex/actions'
+import { incrementStep, decrementStep } from './vuex/actions'
 
 export default {
     methods: {
@@ -14,8 +14,8 @@ export default {
     },
     vuex: {
         actions: {
-            increment: incrementCounter,
-            decrement: decrementCounter,
+            increment: incrementStep,
+            decrement: decrementStep,
         }
     }
 

@@ -57,7 +57,7 @@
         <input type="email" class="form-control" id="email" name="email" placeholder="Email" v-model="email">
     </div>
 </form>
-<h3>{{ counterValue }}</h3>
+<h3>{{ stepValue }}</h3>
 </template>
 
 <script>
@@ -81,7 +81,7 @@ export default {
     },
     vuex: {
         getters: {
-            counterValue: getCount
+            stepValue: getCount
         }
     }
 }

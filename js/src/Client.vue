@@ -62,6 +62,7 @@
 
 <script>
 import { getCount } from './vuex/getters';
+
 export default {
     data: function(){
         return {csrftoken: '',
@@ -78,6 +79,23 @@ export default {
                 countries: '',
                 email: ''
                 }
+    },
+    created: function(){
+        this.getCountries();
+    },
+    methods: {
+        getCountries: function(){
+            var self = this;
+            var domain = 'http://localhost:5000';
+            $.ajax({
+                url: domain + "/countries",
+                crossDomain: true,
+                xhrFields: { withCredentials: true }
+            }).done(function(countries) {
+                console.log("I have the countries!");
+                self.countries = countries;
+            })
+        }
     },
     vuex: {
         getters: {

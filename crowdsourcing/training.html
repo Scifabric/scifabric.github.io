@@ -7,15 +7,14 @@ navbar: default
 css: training
 permalink: /crowdsourcing/training/
 ---
-
 <div class="jumbotron jumbotron-team">
     <div class="container text-center firstfold">
         <h1>Training</h1>
         <h2>Available online courses</h2>
     </div>
 </div>
-
-
+{% raw %}
+{% endraw %}
 <section class="general">
     <div class="container regular-section">
         <div class="row">
@@ -35,7 +34,7 @@ permalink: /crowdsourcing/training/
                     <p>Project statistics</p>
                     <p class="lead price">Price</p>
                     <p class="price">3000€</p>
-                    <p><a class="btn btn-info-2 btn-sm top20 btn-shoppingcart" href="#" data-productkey="training-basic" data-qty="1" data-notes="PYBOSSA Basic Training course" data-cost="3000">Count me in!</a>
+                    <p><a id="basic" class="btn btn-info-2 btn-sm top20 btn-shoppingcart" href="#" data-productkey="training-basic" data-qty="1" data-notes="PYBOSSA Basic Training course" data-cost="3000">Count me in!</a>
                 </div>
             </div>
             <div class="col-sm-4">
@@ -86,4 +85,17 @@ permalink: /crowdsourcing/training/
         </div>-->
     </div>
 </section>
+<script>
+    var traingProductsData = [
+      {% for p in site.data.product-training %}
+        {
+              "productkey": "{{ p.productkey }}",
+              "qty": "{{ p.qty}}",
+              "notes": "{{ p.notes }}",
+              "cost": "{{ p.cost }}"
+            }
+        {% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ];
+</script>
 {% include shoppingcart.html %}

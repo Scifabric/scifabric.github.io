@@ -1,0 +1,14 @@
+- productkey: training-basic
+  qty: 1
+  notes: "PYBOSSA Basic Training Course"
+  cost: 3000
+
+- productkey: training-intermediate
+  qty: 1
+  notes: "PYBOSSA Intermediate Training Course"
+  cost: 7000
+
+- productkey: training-advance
+  qty: 1
+  notes: "PYBOSSA Advance Training Course"
+  cost: 10000

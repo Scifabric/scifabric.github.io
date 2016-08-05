@@ -2,3 +2,4 @@ _site
 .sass-cache
 *.swp
 *.un~
+js/node_modules/

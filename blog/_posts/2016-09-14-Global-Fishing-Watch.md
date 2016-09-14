@@ -11,7 +11,7 @@ author: jimmyd
 ---
 
 [Global Fishing Watch](http://globalfishingwatch.org/) is a technology initiative that aims to highlight global fishing activity. 
-It is a [PyBossa](http://pybossa.com/)-powered interactive platform that uses satellite data to inform the public about 
+It is a [PYBOSSA](http://pybossa.com/)-powered interactive platform that uses satellite data to inform the public about 
 overfishing and make global fishing activity more transparent.
 
 ## The Team
@@ -60,12 +60,12 @@ recognition problem and so input from citizens is really useful.”
 ![Speakers](/assets/img/blog/skytruth-gfw-russian_trawler-1138x640.gif)
 <p class="post-caption">Is this Russion trawler off the cost of Namibia displaying 'fishing-like behaviour'? Image by <a href="http://globalfishingwatch.org/">SkyTruth</a>.</p>
 
-## Why PyBossa?
+## Why PYBOSSA?
 
-Developers at project partner SkyTruth had experience of using PyBossa to build FrackFinder, 
+Developers at project partner SkyTruth had experience of using PYBOSSA to build FrackFinder, 
 so they were familiar and comfortable with the technology. “Most importantly however is the 
-fact PyBossa is open source” notes Kroodsma. “We strongly believe that more transparency of data 
-leads to better outcomes; so philosophically PyBossa was a good fit.”
+fact PYBOSSA is open source” notes Kroodsma. “We strongly believe that more transparency of data 
+leads to better outcomes; so philosophically PYBOSSA was a good fit.”
 
 ## The Results (so far)
 

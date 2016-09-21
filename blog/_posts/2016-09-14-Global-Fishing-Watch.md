@@ -82,4 +82,4 @@ are staying out. The video below shows how fishing vessels cleared the marine ar
 “To manage effectively, we require good data. GFW provides a tool that we can use to better manage the world’s oceans.
  Ensuring the long-term sustainability of our oceans is a critical global priority.”
 
-Interested? What to help? Check out [Global Fishing Watch](http://globalfishingwatch.org/).
+Interested? Want to help? Check out [Global Fishing Watch's brand new interactive website](http://globalfishingwatch.org/).

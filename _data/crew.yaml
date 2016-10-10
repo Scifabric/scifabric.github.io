@@ -64,20 +64,6 @@
   longbio: "Clara is our copywriter. She holds degrees in advertising and media, and a masters in User Experience and Digital Products Design. Most importantly, she sings and plays guitar in a kick-ass rock band and - well - you don't!"
   homepage: http://roqueandodurisimo.com/
 
-- name: Álvaro
-  surname: Suarez Pérez
-  author: alvaroner
-  position: "UX/UI Designer"
-  email: "alvaro@scifabric.com"
-  github: alvaroner
-  twitter: superalvaroner
-  linkedin: alvarosuarezperez
-  email: alvaro@scifabric.com
-  avatar: alvaro.jpg
-  bio: "is a UX/UI designer who really loves technology."
-  longbio: "Álvaro is our ‘user experience’ guy. He holds a Bachelor of Fine Arts, tries to make things look pretty, likes fighting with HTML and CSS code, and loves to learn new things. He is also a tech-lover who likes design, photography, science and dogs."
-  homepage: http://www.alvarosuarez.com/
-
 - name: Mar
   surname: Ramis
   author: mar

@@ -50,6 +50,10 @@ También hemos establecido tres niveles de confianza para que los usuarios lo te
 
 Y os ofreceremos un dato porcentual de la cantidad de personas que han identificado el producto como libre o no de gluten (por ejemplo, revisado por 80 personas. El 25% han clasificado este producto como libre de gluten).
 
+
+![Ejemplo de resultado](/assets/img/blog/sralergenoresults.png)
+<p class="post-caption">Ejemplo de resultado de un producto clasificado por 5 personas.</p>
+
 ## El reto
 Nuestro reto, como siempre, es involucrar a la ciudadanía: cuanta más gente participe, mayor es la confianza en el resultado. Si cuatro ojos ven más que dos, imagináos doscientos. 
 Por nuestra manera de entender el mundo, implicar a la gente en cualquier proyecto es vital para nosotros. Estamos convencidos de que interesarnos y participar en ellos nos convierte en una sociedad más generosa y a la vez más crítica, que cuestiona lo que le rodea para mejorarlo y que, sobre todo, busca el bien común. 

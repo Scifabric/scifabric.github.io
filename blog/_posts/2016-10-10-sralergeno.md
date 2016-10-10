@@ -52,6 +52,7 @@ Y os ofreceremos un dato porcentual de la cantidad de personas que han identific
 
 
 ![Ejemplo de resultado](/assets/img/blog/sralergenoresults.png)
+<p class="post-caption">Ejemplo de resultado de un producto clasificado por 5 personas.</p>
 
 ## El reto
 Nuestro reto, como siempre, es involucrar a la ciudadanía: cuanta más gente participe, mayor es la confianza en el resultado. Si cuatro ojos ven más que dos, imagináos doscientos. 

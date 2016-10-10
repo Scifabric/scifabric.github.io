@@ -11,23 +11,10 @@
   longbio: "is our boss. A computer engineer with a PhD in parallel genetic programming on volunteer desktop grids. He is also a senior researcher at the Citizen Cyberlab and an alumni of the Shuttleworth Foundation. He does pilates on Tuesdays so has ABS OF STEEL."
   homepage: http://daniellombrana.es
 
-- name: Marvin
-  surname: Reimer
-  author: therealmarv
-  position: "Senior Developer"
-  github: therealmarv
-  email: marvin@sciabric.com
-  twitter: therealmarv
-  linkedin: marvinreimer
-  avatar: marvin.jpg
-  bio: "software engineer with passion for everything related to smart, open, secure, standardized, mobile, cloud technology."
-  longbio: "is a computer engineer and system administrator for GNU/Linux systems. He is our senior developer, so that means he develops PYBOSSA software and manages the infrastructure of Crowdcrafting. In other words, this wouldn't be up without him."
-  homepage: http://therealmarv.com/
-
 - name: Jorge
   surname: Correa
   author: jcorrea
-  position: "UX/UI Designer"
+  position: "Head of UX/UI"
   github: jcorreaes
   twitter: jorgecorrea
   linkedin: jorgecorrea
@@ -50,24 +37,10 @@
   longbio: "is Scifabric's communications aficionado. He holds degrees in law and physics, and has completed a research project on the Large Hadron Collider at CERN. Impressive, huh?"
   homepage: http://www.quantumdiaries.org/author/james-doherty/
 
-- name: Clara
-  surname: Sánchez-Puga
-  author: clarilla
-  position: "PR & Community"
-  email: "clara@scifabric.com"
-  github: clarilla
-  twitter: clarilla
-  linkedin: clarasanchezpuga
-  avatar: clara.jpg
-  email: clara@scifabric.com
-  bio: "is a creative copywriter who loves music and her family."
-  longbio: "Clara is our copywriter. She holds degrees in advertising and media, and a masters in User Experience and Digital Products Design. Most importantly, she sings and plays guitar in a kick-ass rock band and - well - you don't!"
-  homepage: http://roqueandodurisimo.com/
-
 - name: Mar
   surname: Ramis
   author: mar
-  position: "Business Development"
+  position: "Business Development Manager"
   email: "mar@scifabric.com"
   github: 
   twitter: 
@@ -77,6 +50,33 @@
   longbio: "leads the business development side of our company. Graduated in Media Comms, she has worked for companies on both sides of the Atlantic in TV Production, Research, Marketing, Events and International & Distribution Projects. After 11 years in London she recently left the UK to enjoy the mallorcan lifestyle, and can be seen taking video conferences while sunbathing from her balcony!"
   homepage: 
 
+- name: Marvin
+  surname: Reimer
+  author: therealmarv
+  position: "Senior Developer"
+  github: therealmarv
+  email: marvin@sciabric.com
+  twitter: therealmarv
+  linkedin: marvinreimer
+  avatar: marvin.jpg
+  bio: "software engineer with passion for everything related to smart, open, secure, standardized, mobile, cloud technology."
+  longbio: "is a computer engineer and system administrator for GNU/Linux systems. He is our senior developer, so that means he develops PYBOSSA software and manages the infrastructure of Crowdcrafting. In other words, this wouldn't be up without him."
+  homepage: http://therealmarv.com/
+
+
+- name: Clara
+  surname: Sánchez-Puga
+  author: clarilla
+  position: "Head of Content"
+  email: "clara@scifabric.com"
+  github: clarilla
+  twitter: clarilla
+  linkedin: clarasanchezpuga
+  avatar: clara.jpg
+  email: clara@scifabric.com
+  bio: "is a creative copywriter who loves music and her family."
+  longbio: "Clara is our copywriter. She holds degrees in advertising and media, and a masters in User Experience and Digital Products Design. Most importantly, she sings and plays guitar in a kick-ass rock band and - well - you don't!"
+  homepage: http://roqueandodurisimo.com/
 
 
 - name: Nick
@@ -91,5 +91,3 @@
   bio: 
   longbio: "is our lovely leopard seal mascot. You might have heard that leopard seals are solitary, aggressive animals that like to eat emperor penguins. WHAT?! Our Nick is all kindness and joy. He likes helping out and loves science! He does eat penguins though..."
   homepage: 
-
-

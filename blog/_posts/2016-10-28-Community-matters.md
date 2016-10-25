@@ -72,7 +72,7 @@ individuals to [complete activities that require more advanced interpretation](h
 Cancer Research UK provided a dedicated group of volunteers with 25 minutes of training 
 that allowed them to [detect cancer cells with 95% accuracy](https://scifabric.com/blog/2016/04/20/Cancer-Research-UK-Trailblazer.html).
 
- ![Speakers](/assets/img/blog/Speakers.JPG)
+ ![Speakers](/assets/img/blog/Speakers_small.JPG)
 <p class="post-caption">Project owners Nora McGregor (British Library), Chiara Bonacchi (UCL) and Jennifer Wexler (British Museum) share tips on building a strong community. Photo by <a href="http://scifabric.com/">Scifabric</a>.</p>
 
 ### Communication strategy

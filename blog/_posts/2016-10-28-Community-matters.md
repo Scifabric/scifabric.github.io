@@ -38,7 +38,7 @@ to individuals who become valuable contributors to a larger research effort. Thi
 provide volunteers with a deeper interest in the research topic.
 
  ![Lions](/assets/img/blog/lions.jpeg)
-<p class="post-caption">Like lions, citizen scientists make strong communities. Photo by <a https://unsplash.com/collections/364350/community?photo=2Nvfrm2wLQY">Joel Herzog</a>.</p>
+<p class="post-caption">Like lions, citizen scientists make strong communities. Photo by <a href="https://unsplash.com/collections/364350/community?photo=2Nvfrm2wLQY">Joel Herzog</a>.</p>
 
 ## How to build a community
 

@@ -4,7 +4,7 @@ title: Data at its best
 description: Scifabric develops easy-to-use technologies to collect, analyse and enrich (your) data with the crowd.
 active: home
 navbar: default
-css: 
+css:
   - home
   - blog-photos
 ---
@@ -167,11 +167,10 @@ css:
 
 </div>
 
-<div class="quotes"> 
+<div class="quotes">
 
             <h3 class="text-center">NICE THINGS THEY SAY</h3>
-       
-  
+
     <div id="quotes-container" class="swiper-container">
         <div class="swiper-wrapper">
                 {% for quote in site.data.quotes %}
@@ -212,11 +211,12 @@ css:
                     <div class="caption">
                         <h3>{{site.categories.blog[0].title}}</h3>
                         <p>{{site.categories.blog[0].content | strip_html | truncate: 150 }}.</p>
-                    
+
                         <p class="readmore"><a href="{{site.prefix}}{{site.categories.blog[0].url}}">Read More</a></p>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- test comment, remove me -->
 </div>
 

@@ -17,3 +17,11 @@ Preview page:
 jekyll serve
 ```
 
+---
+
+In case of problems:
+Clear all your ruby gems and start from beginning
+
+```
+gem uninstall -aIx
+```

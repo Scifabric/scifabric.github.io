@@ -1,4 +1,7 @@
 @import "case-studies/cruk/colors";
+@import "case-studies/cruk/jumbotron";
+@import "case-studies/cruk/navbar";
+@import "case-studies/cruk/startingpoint";
 
 body {
     font-family: 'Source Sans Pro', HelveticaNeue, Helvetica, sans-serif;
@@ -8,94 +11,5 @@ body {
     line-height: 1.42857143;
 }
 
-.jumbotron-cruk {
-    padding: 30px 15px;
-    margin-bottom: 0px;
-    color: inherit;
-    right:0;left:0;top:0;bottom:0;
-    overflow:hidden;
-    background: url('../images/pieces.jpg') no-repeat top center #231507;
-    -webkit-background-size: cover; 
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-
-    .logos {
-        //margin-top: 148px;
-        height: 90px;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-
-        .scifabric-logo {
-            width: 210px;
-        }
-
-        .plus-icon {
-            margin-left: 13px;
-            margin-right: 23px;
-            width: 30px;
-            opacity: 0.7;
-        }
-
-        .cruk-logo {
-            width: 249px;
-        }
-    }
-
-    .title,
-    .subtitle,
-    .scrolldown {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        p {
-            margin: 0;
-            font-size: 48px;
-            font-weight: 400;
-            color: white;
-            padding-left: 15px;
-            padding-right: 15px;
-        }
-
-        p.pink {
-            background: $pink;
-        }
-
-        p.purple {
-            margin-top: 5px;
-            background: $purple;
-        }
-
-    }
-
-    .subtitle {
-        color: white;
-
-        p {
-            margin: 0;
-            font-size: 24px;
-            color: white;
-        }
-    }
-
-    .scrolldown {
-        .uppercase {
-            text-transform: uppercase;
-            font-size: 14px;
-            font-weight: 400;
-            color: white;
-        }
-        .arrow {
-            margin-top: 15px;
-        }
-
-    }
-}
 
 

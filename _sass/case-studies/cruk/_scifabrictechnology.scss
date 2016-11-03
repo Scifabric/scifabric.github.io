@@ -1,0 +1,43 @@
+.scifabric-technology {
+    opacity: 0.84;
+    background-image: linear-gradient(to bottom, #ffffff, #f5f6fd);
+
+    .title {
+        display: flex;
+        h2  {
+            font-size: 40px;
+            color: $black;
+            margin-right: 5px;
+        }
+    }
+
+    .subtitle {
+        margin-top: 6px;
+        p {
+            font-size: 30px;
+            color: $gray;
+            font-weight: 300;
+        }
+    }
+
+    .getintouch {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-bottom: 85px;
+        width: 33%;
+
+        .btn-primary {
+            background: $pink;
+            color: white;
+            font-size: 24px;
+            font-weight: 600;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 5px;
+            border-color: $pink;
+        }
+    }
+}

@@ -3,6 +3,8 @@
 @import "case-studies/cruk/navbar";
 @import "case-studies/cruk/startingpoint";
 @import "case-studies/cruk/scifabrictechnology";
+@import "case-studies/cruk/theproject";
+@import "case-studies/cruk/results";
 
 body {
     font-family: 'Source Sans Pro', HelveticaNeue, Helvetica, sans-serif;
@@ -10,6 +12,72 @@ body {
     text-rendering:optimizeLegibility;
     font-size: 16px;
     line-height: 1.42857143;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 102px;
+
+    h2 {
+        font-size: 40px;
+        color: $black;
+    }
+
+    a {
+        color: $blue;
+        text-decoration: underline;
+    }
+
+    .subtitle {
+        margin-top: 11px;
+        p {
+            font-size: 28px;
+            font-weight: 300;
+            font-style: normal;
+            font-stretch: normal;
+            text-align: center;
+            color: $gray;
+        }
+    }
+}
+
+
+.columns {
+    display: flex;
+    align-content: space-around;
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        width: 33%;
+        padding: 50px;
+
+        h3 {
+            font-size: 26px;
+            font-weight: 400;
+            color: $black;
+        }
+
+        .icon {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            height: 153px;
+        }
+
+        .text {
+            margin-top: 12px;
+            font-size: 18px;
+            color: $gray;
+            line-height: 1.63;
+            text-align: center;
+        }
+    }
 }
 
 

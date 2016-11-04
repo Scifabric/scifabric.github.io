@@ -1,5 +1,5 @@
 ---
-layout: case-study
+layout: cruk
 title: How Crowdsourcing is helping to beat the cancer
 description: "Trailblazer is Cancer Research UK's PYBOSSA-powered tool. IT has allowed thousands of people worldwide to help scientists spot cancer cells and accelerate research with 90% accuracy, after only 25 minutes of training."
 css: cruk
@@ -197,11 +197,33 @@ css: cruk
     </div>
     <div class="bio">
         <div class="avatar">
-            <img src="http://placehold.it/122x122">
+            <img src="/assets/img/success-stories/cruk/andy-paterson.jpg">
         </div>
         <div class="data">
             <h4>Andy Paterson</h4>
             Digital Solutions Architect at Cancer Research UK and the technical lead on the Trailblazer project. <a href="https://scifabric.com/blog/2016/04/20/Cancer-Research-UK-Trailblazer.html">Read the whole interview here</a>
+        </div>
+    </div>
+</div>
+
+<div class="team section">
+    <h2>We are</h2>
+    <img src="/assets/img/success-stories/cruk/scifabric-blue.svg">
+    <div class="avatars">
+        {% for member in site.data.crew %}
+        <img src="/images/{{member.avatar}}">
+        {% endfor %}
+    </div>
+    <div class="calltoaction">
+        <p>We want to change the world for the better</p> 
+        <p>Will you join us?</p>
+    </div>
+    <div class="values">
+We like making people and technology closer. If you need to collect, analyse or enrich data, we can help you discover how crowdsourcing will accelerate your investigation and save you money.
+    </div>
+    <div class="getintouch">
+        <div class="btn btn-primary blue">
+            Get in touch 
         </div>
     </div>
 </div>

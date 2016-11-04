@@ -6,6 +6,7 @@
 @import "case-studies/cruk/theproject";
 @import "case-studies/cruk/results";
 @import "case-studies/cruk/quote";
+@import "case-studies/cruk/team";
 
 body {
     font-family: 'Source Sans Pro', HelveticaNeue, Helvetica, sans-serif;
@@ -82,4 +83,45 @@ body {
 }
 
 
+.getintouch {
+         display: flex;
+         justify-content: center;
+         align-content: center;
+         margin-bottom: 85px;
+         width: 33%;
+ 
+         .btn-primary {
+             background: $pink;
+             color: white;
+             font-size: 24px;
+             font-weight: 600;
+             padding-top: 10px;
+             padding-bottom: 10px;
+             padding-left: 20px;
+             padding-right: 20px;
+             border-radius: 5px;
+             border-color: $pink;
+         }
 
+         .btn-primary.blue {
+                background: $darkblue2;
+                border-color: $darkblue2;
+         }
+     }
+
+footer {
+    background: url('/assets/img/success-stories/cruk/bg-footer.jpg') no-repeat top center transparent ;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    p, a {
+        color: $black;
+        strong {
+            color: $black;
+        }
+    }
+    a:hover {
+        color: $gray;
+    }
+}

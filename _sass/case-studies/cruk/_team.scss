@@ -1,0 +1,41 @@
+.team {
+    .avatars {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 44px;
+        img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            margin-right: 17px;
+        }
+    }
+    .calltoaction {
+        margin-top: 37px;
+        margin-bottom: 14px;
+        height: 82px;
+        p {
+            margin: 0;
+            font-size: 30px;
+            font-weight: 300;
+            font-style: normal;
+            font-stretch: normal;
+            text-align: center;
+            color: $darkblue2;
+        }
+    }
+
+    .values {
+        width: 586px;
+        height: 78px;
+        font-size: 18px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.63;
+        color: $gray;
+        margin-bottom: 36px;
+        text-align: center;
+    }
+}

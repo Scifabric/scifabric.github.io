@@ -6,7 +6,7 @@ css: cruk
 ---
 
 <div class="jumbotron jumbotron-cruk">
-    <video playsinline autoplay muted loop>
+    <video id="intro" playsinline autoplay muted loop>
         <source src="/assets/img/success-stories/cruk/intro.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
@@ -32,16 +32,18 @@ css: cruk
         </div>
     </div>
 </div>
-<div class="fixed-navbar">
-    <div class="logos">
-        <img src="/assets/img/success-stories/cruk/s.svg">
-        <img src="/assets/img/success-stories/cruk/plus-dark.svg">
-        <img src="/assets/img/success-stories/cruk/c.svg">
-    </div>
-    <div class="ssnn">
-        <img src="/assets/img/success-stories/cruk/facebook.svg">
-        <img src="/assets/img/success-stories/cruk/twitter.svg">
-        <img src="/assets/img/success-stories/cruk/linkedin.svg">
+<div class="scinavbar">
+    <div class="items">
+        <div class="logos">
+            <img src="/assets/img/success-stories/cruk/s.svg">
+            <img src="/assets/img/success-stories/cruk/plus-dark.svg">
+            <img src="/assets/img/success-stories/cruk/c.svg">
+        </div>
+        <div class="ssnn">
+            <img src="/assets/img/success-stories/cruk/facebook.svg">
+            <img src="/assets/img/success-stories/cruk/twitter.svg">
+            <img src="/assets/img/success-stories/cruk/linkedin.svg">
+        </div>
     </div>
 </div>
 <div class="startingpoint section">
@@ -203,3 +205,40 @@ css: cruk
         </div>
     </div>
 </div>
+
+{% include defaultjs.html %}
+<script>
+function isElementInViewport (el) {
+
+    //special bonus for those using jQuery
+    if (typeof jQuery === "function" && el instanceof jQuery) {
+        el = el[0];
+    }
+
+    var rect = el.getBoundingClientRect();
+
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && /*or $(window).height() */
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth) /*or $(window).width() */
+    );
+}
+$(document).ready(function() {
+  
+  $(window).scroll(function () {
+      //if you hard code, then use console
+      //.log to determine when you want the 
+      //nav bar to stick.  
+      var navbar = $(".scinavbar");
+      var offset = $("#intro").height();
+      console.log(offset);
+      if ($(window).scrollTop() > offset ) {
+            navbar.addClass('navbar-fixed');
+          }
+      if ($(window).scrollTop() < offset + 1) {
+           navbar.removeClass('navbar-fixed');
+       }
+});
+  });
+</script>

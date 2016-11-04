@@ -4,7 +4,23 @@ title: How Crowdsourcing is helping to beat the cancer
 description: "Trailblazer is Cancer Research UK's PYBOSSA-powered tool. IT has allowed thousands of people worldwide to help scientists spot cancer cells and accelerate research with 90% accuracy, after only 25 minutes of training."
 css: cruk
 ---
-
+<div class="person">
+    <div class="messages">
+        <div class="first animated fadeInLeft">
+            <img id="close" src="/images/close.svg">
+            <p>¡Hola! I'm Nick</p>
+        </div>
+        <div class="second">
+            <p>Want to know how Scifabric can help you with your crowdsourcing project?</p>
+        </div>
+        <div class="third">
+            <p>Get in touch</p>
+        </div>
+    </div>
+    <div class="avatar">
+        <img src="/assets/img/success-stories/cruk/nick.svg">
+    </div>
+</div>
 <div class="jumbotron jumbotron-cruk">
     <video id="intro" playsinline autoplay muted loop>
         <source src="/assets/img/success-stories/cruk/intro.mp4" type="video/mp4">
@@ -247,6 +263,10 @@ function isElementInViewport (el) {
     );
 }
 $(document).ready(function() {
+
+    $("#close").off('click').on('click', function(){
+        $(".person").css("visibility", "hidden");
+    });
   
   $(window).scroll(function () {
       //if you hard code, then use console
@@ -257,6 +277,7 @@ $(document).ready(function() {
       console.log(offset);
       if ($(window).scrollTop() > offset ) {
             navbar.addClass('navbar-fixed');
+            $(".person").css("visibility", "visible");
           }
       if ($(window).scrollTop() < offset + 1) {
            navbar.removeClass('navbar-fixed');

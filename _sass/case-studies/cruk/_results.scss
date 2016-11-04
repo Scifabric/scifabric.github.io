@@ -1,0 +1,46 @@
+.results {
+    background: $darkblue;
+    padding-bottom: 167px;
+    .graphic {
+        width: 494px;
+        .bubble {
+            background: $pink;
+            color: white;
+            border-radius: 50%;
+            width: 180px;
+            height: 180px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            margin-top: -283px;
+            margin-left: 430px;
+
+            .big {
+                font-size: 56px;
+                font-weight: bold;
+            }
+            .normal {
+                font-size: 23px;
+                font-weight: bold;
+            }
+        }
+        .text, .asterisq {
+            margin-top: 36px;
+            margin-left: 65px;
+            font-size: 18px;
+            line-height: 1.63;
+            color: $gray;
+
+            strong {
+                color: $black;
+            }
+        }
+
+        .asterisq {
+            font-style: italic;
+            margin-top: 39px;
+        }
+    }
+}

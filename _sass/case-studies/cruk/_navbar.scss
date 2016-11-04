@@ -1,0 +1,37 @@
+.scinavbar {
+    height: 61px;
+    color: white;
+    box-shadow: inset -0px -2px 0 0 #bdbbbc;
+
+    .items {
+        height: 61px;
+        display: flex;
+        justify-content: space-between;
+
+        .logos {
+            display: flex;
+            margin-left: 25px;
+            align-content: center;
+        }
+        .ssnn {
+            margin-right: 25px;
+            display:flex;
+            align-content: center;
+
+            img {
+                margin-right: 24px;
+            }
+        }
+    }
+}
+
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    background: white;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}

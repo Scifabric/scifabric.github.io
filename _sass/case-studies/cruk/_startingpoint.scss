@@ -1,0 +1,57 @@
+.startingpoint {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    text-align: center;
+    color: $black;
+    display: flex;
+    flex-direction: column;
+
+    h1, p {
+        margin: 0;
+    }
+
+    h1 {
+        margin-top: 51px;
+        color: $black;
+    }
+
+    .cells {
+        margin-top: 21px;
+        height: 828px;
+
+        .side-text {
+            width: 355px;
+            margin-left: 570px;
+            position: relative;
+            top: -800px;
+            .point {
+                display: flex;
+                align-items: stretch;
+                .bullet {
+                    width: 12px;
+                    display: flex;
+                    align-items: flex-start;
+                    padding-top: 5px;
+                }
+
+                .text {
+                    font-size: 18px;
+                    color: $gray;
+                    line-height: 26px;
+                    font-weight: 300;
+                    text-align: left;
+                    margin-left: 20px;
+                    margin-bottom: 20px;
+
+                    strong {
+                        color: $black;
+                    }
+                }
+            }
+        }
+    }
+
+}
+

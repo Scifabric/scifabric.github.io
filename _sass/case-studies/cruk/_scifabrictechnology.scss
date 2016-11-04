@@ -1,0 +1,23 @@
+.scifabric-technology {
+    opacity: 0.84;
+    background-image: linear-gradient(to bottom, #ffffff, #f5f6fd);
+
+    .title {
+        display: flex;
+        h2  {
+            font-size: 40px;
+            color: $black;
+            margin-right: 5px;
+        }
+    }
+
+    .subtitle {
+        margin-top: 6px;
+        p {
+            font-size: 30px;
+            color: $gray;
+            font-weight: 300;
+        }
+    }
+
+}

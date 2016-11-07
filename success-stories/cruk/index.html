@@ -62,7 +62,7 @@ css: cruk
         </div>
     </div>
 </div>
-<div class="startingpoint section">
+<div id="startingpoint-waypoint" class="startingpoint section">
     <h2>Starting point</h2> 
     <div class="subtitle">
         <p>Trailblazer aimed to find wheter citizen science could be a</p>
@@ -70,7 +70,9 @@ css: cruk
     </div>
 
     <div class="cells">
-        <img src="/assets/img/success-stories/cruk/cells-ani.svg">
+        <div class="cells-frame">
+            <!--<img class="responsive" src="/assets/img/success-stories/cruk/cells-ani.svg">-->
+        </div>
         <div class="side-text">
             <div class="point">
                 <div class="bullet">
@@ -154,7 +156,7 @@ css: cruk
 <div class="theproject section">
     <h2>The project</h2>
     <div class="contributors">
-        <img src="/assets/img/success-stories/cruk/process.svg">
+        <img class="responsive" src="/assets/img/success-stories/cruk/process.svg">
         <video width="392" height="279" autoplay loop>
             <source src="/assets/img/success-stories/cruk/process.mp4" type="video/mp4">
             Your browser does not support the video tag.
@@ -245,6 +247,9 @@ We like making people and technology closer. If you need to collect, analyse or 
 </div>
 
 {% include defaultjs.html %}
+<script src="/assets/js/snap.svg.js" type="text/javascript" charset="utf-8"></script>
+<script src="/assets/js/jquery.waypoints.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/assets/js/success-stories/cruk/animcells.js" type="text/javascript" charset="utf-8"></script>
 <script>
 function isElementInViewport (el) {
 
@@ -273,8 +278,8 @@ $(document).ready(function() {
       //.log to determine when you want the 
       //nav bar to stick.  
       var navbar = $(".scinavbar");
-      var offset = $("#intro").height();
-      console.log(offset);
+      var offset = $(".jumbotron-cruk").height();
+      //console.log(offset);
       if ($(window).scrollTop() > offset ) {
             navbar.addClass('navbar-fixed');
             $(".person").css("visibility", "visible");
@@ -283,5 +288,13 @@ $(document).ready(function() {
            navbar.removeClass('navbar-fixed');
        }
 });
+
+
+
+animCells();
+
   });
+
+
 </script>
+

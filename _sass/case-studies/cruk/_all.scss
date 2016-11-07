@@ -60,10 +60,17 @@ body {
         width: 33%;
         padding: 50px;
 
+        @media(max-width: 768px) {
+            .column {
+                padding: 25px;
+            }
+        }
+
         h3 {
             font-size: 26px;
             font-weight: 400;
             color: $black;
+            text-align: center;
         }
 
         .icon {

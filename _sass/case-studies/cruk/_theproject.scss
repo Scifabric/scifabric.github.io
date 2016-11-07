@@ -8,13 +8,27 @@
     .contributors {
         margin-top: 75px;
         margin-bottom: 173px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     video {
     position: absolute;
-    margin-top: 38px;
-    margin-left: -722px;
-    width: 370px;
+    margin-top: 20px;
+    width: 373px;
+    }
+
+    @media(max-width: 768px) {
+        .contributors {
+            margin-bottom: 0px;
+        }
+        video {
+            margin-top: 15px;
+            margin-left: 0;
+            width: 251px;
+        }
     }
 
 }

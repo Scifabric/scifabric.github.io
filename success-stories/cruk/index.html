@@ -273,7 +273,7 @@ $(document).ready(function() {
       //.log to determine when you want the 
       //nav bar to stick.  
       var navbar = $(".scinavbar");
-      var offset = $("#intro").height();
+      var offset = $(".jumbotron-cruk").height();
       console.log(offset);
       if ($(window).scrollTop() > offset ) {
             navbar.addClass('navbar-fixed');

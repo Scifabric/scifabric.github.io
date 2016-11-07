@@ -92,7 +92,7 @@ function animCells(){
                                 bubble6.animate({r: 76}, getRandomInt(200, 800), mina.easin, function(){
                                     bubble7.animate({r: 115}, getRandomInt(200, 800), mina.easin, function(){
                                         bubble8.animate({r: 123}, getRandomInt(200, 800), mina.easin, function(){
-                                            bubble9.animate({r: 441}, getRandomInt(200, 800), mina.easin, function(){
+                                            bubble9.animate({r: 41}, getRandomInt(200, 800), mina.easin, function(){
                                                  })
                                               })
                                           })

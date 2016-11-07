@@ -24,7 +24,7 @@ function getRandomInt(min, max) {
 function animCells(){
     window.animVideo = false;
     var s = Snap(".cells-frame");
-    Snap.load("/assets/img/success-stories/cruk/cells-ani.svg/", function(f) {
+    Snap.load("/assets/img/success-stories/cruk/cells-ani.svg", function(f) {
         var cell1 = f.select("#cell1");
         var cell2 = f.select("#cell2");
         var cell3 = f.select("#cell3");

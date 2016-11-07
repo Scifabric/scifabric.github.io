@@ -1,12 +1,12 @@
 $(document).ready(function(){
 
-    var url = "http://crowdsourced.micropasts.org/api/globalstats";
-    
-    $.ajax({
-      dataType: "json",
-      url: url,
-      success: success
-    });
+    //var url = "http://crowdsourced.micropasts.org/api/globalstats";
+    //
+    //$.ajax({
+    //  dataType: "json",
+    //  url: url,
+    //  success: success
+    //});
     
     function success(data){
         var n_users = Math.floor(data['n_users']/100)*100;

@@ -1,3 +1,26 @@
+/**
+ * Get a random floating point number between `min` and `max`.
+ * 
+ * @param {number} min - min number
+ * @param {number} max - max number
+ * @return {float} a random floating point number
+ */
+function getRandom(min, max) {
+  return Math.random() * (max - min) + min;
+}
+
+/**
+ * Get a random integer between `min` and `max`.
+ * 
+ * @param {number} min - min number
+ * @param {number} max - max number
+ * @return {int} a random integer
+ */
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+
 function animCells(){
     window.animVideo = false;
     var s = Snap(".cells-frame");
@@ -38,6 +61,7 @@ function animCells(){
         bubble6.attr({r: '0'});
         bubble7.attr({r: '0'});
         bubble8.attr({r: '0'});
+        bubble9.attr({r: '0'});
         
         face1.attr({opacity: '0'});
         face2.attr({opacity: '0'});
@@ -46,29 +70,29 @@ function animCells(){
         var time = 200;
 
         function animateCells() {
-            cell4.animate({r: 30}, time - 50, mina.easin)
-            cell2.animate({r: 24}, time, mina.easin)
-            cell3.animate({r: 17}, time, mina.easin, animateBubbles)
+            cell4.animate({r: 30}, getRandomInt(200, 800) - 50, mina.easin)
+            cell2.animate({r: 24}, getRandomInt(200, 800), mina.easin)
+            cell3.animate({r: 17}, getRandomInt(200, 800), mina.easin, animateBubbles)
 
-            face1.animate({opacity: 1}, time, mina.easin, function(){
-                face2.animate({opacity: 1}, time, mina.easin, function(){
-                    face3.animate({opacity: 1}, time, mina.easin, function(){
-                        fill153.animate({opacity:1}, time, mina.easin)
+            face1.animate({opacity: 1}, getRandomInt(200, 800), mina.easin, function(){
+                face2.animate({opacity: 1}, getRandomInt(200, 800), mina.easin, function(){
+                    face3.animate({opacity: 1}, getRandomInt(200, 800), mina.easin, function(){
+                        fill153.animate({opacity:1}, getRandomInt(200, 800), mina.easin)
                     })
                 })
             })
         }
 
         function animateBubbles() {
-            bubble1.animate({r: 74}, time, mina.easin, function(){
-                bubble2.animate({r: 143}, time, mina.easin, function(){
-                    bubble3.animate({r: 72}, time, mina.easin, function(){
-                        bubble4.animate({r: 36}, time, mina.easin, function(){
-                            bubble5.animate({r: 78}, time, mina.easin, function(){
-                                bubble6.animate({r: 76}, time, mina.easin, function(){
-                                    bubble7.animate({r: 115}, time, mina.easin, function(){
-                                        bubble8.animate({r: 123}, time, mina.easin, function(){
-                                            bubble9.animate({r: 41}, time, mina.easin, function(){
+            bubble1.animate({r: 74}, getRandomInt(200, 800), mina.easin, function(){
+                bubble2.animate({r: 143}, getRandomInt(200, 800), mina.easin, function(){
+                    bubble3.animate({r: 72}, getRandomInt(200, 800), mina.easin, function(){
+                        bubble4.animate({r: 36}, getRandomInt(200, 800), mina.easin, function(){
+                            bubble5.animate({r: 78}, getRandomInt(200, 800), mina.easin, function(){
+                                bubble6.animate({r: 76}, getRandomInt(200, 800), mina.easin, function(){
+                                    bubble7.animate({r: 115}, getRandomInt(200, 800), mina.easin, function(){
+                                        bubble8.animate({r: 123}, getRandomInt(200, 800), mina.easin, function(){
+                                            bubble9.animate({r: 441}, getRandomInt(200, 800), mina.easin, function(){
                                                  })
                                               })
                                           })
@@ -82,7 +106,7 @@ function animCells(){
 
         function startAnim() {
             if (window.animVideo == false) {
-                cell1.animate({r: 27}, time + 100, mina.easin, animateCells)
+                cell1.animate({r: 27}, getRandomInt(200, 800) + 100, mina.easin, animateCells)
              
             }
             window.animVideo = true;

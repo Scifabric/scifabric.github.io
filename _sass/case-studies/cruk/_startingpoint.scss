@@ -21,11 +21,16 @@
         margin-top: 21px;
         height: 828px;
 
+        .responsive {
+            overflow: hidden;
+            width: 95%;
+        }
+
         .side-text {
             width: 355px;
-            margin-left: 570px;
+            margin-left: 55%;
             position: relative;
-            top: -800px;
+            top: -90%;
             .point {
                 display: flex;
                 align-items: stretch;

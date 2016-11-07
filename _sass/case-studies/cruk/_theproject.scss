@@ -1,6 +1,10 @@
 .theproject {
     background: white;
 
+    .responsive {
+        width: 95%;
+    }
+
     .contributors {
         margin-top: 75px;
         margin-bottom: 173px;
@@ -8,8 +12,9 @@
 
     video {
     position: absolute;
-    margin-top: -283px;
-    margin-left: 375px;
+    margin-top: 38px;
+    margin-left: -722px;
+    width: 370px;
     }
 
 }

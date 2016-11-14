@@ -151,7 +151,7 @@ css: cruk
     </div>
 </div>
 
-<div class="theproject section">
+<div id="process-waypoint" class="theproject section">
     <h2>The project</h2>
     <div class="contributors">
         <object id="my-svg" class="responsive" type="image/svg+xml" data="/assets/img/success-stories/cruk/process.svg"></object>
@@ -249,6 +249,7 @@ We like making people and technology closer. If you need to collect, analyse or 
 <script src="/assets/js/snap.svg.js" type="text/javascript" charset="utf-8"></script>
 <script src="/assets/js/jquery.waypoints.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="/assets/js/success-stories/cruk/animcells.js" type="text/javascript" charset="utf-8"></script>
+<script src="/assets/js/success-stories/cruk/animprocess.js" type="text/javascript" charset="utf-8"></script>
 <script>
 function isElementInViewport (el) {
 
@@ -272,9 +273,6 @@ $(document).ready(function() {
         $(".person").css("visibility", "hidden");
     });
 
-
-    new Vivus('my-svg', {duration: 200});
-  
   $(window).scroll(function () {
       //if you hard code, then use console
       //.log to determine when you want the 

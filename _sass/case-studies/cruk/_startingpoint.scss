@@ -22,7 +22,8 @@
         height: 828px;
 
 
-        .responsive {
+        .responsive,
+        .cells-frame > svg {
             overflow: hidden;
             width: 95%;
         }
@@ -44,7 +45,7 @@
 
             @media(max-width: 768px) {
                 margin-left: 50%;
-                top: -72%;
+                top: -90%;
             }
             .point {
                 display: flex;

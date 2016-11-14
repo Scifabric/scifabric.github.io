@@ -39,18 +39,28 @@
      inkscape:window-height="1056"
      id="namedview343"
      showgrid="false"
-     inkscape:zoom="1.8293755"
-     inkscape:cx="908.89204"
-     inkscape:cy="113.13078"
+     inkscape:zoom="1.2935638"
+     inkscape:cx="727.1888"
+     inkscape:cy="208.42544"
      inkscape:window-x="1985"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2" />
+     inkscape:current-layer="svg2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4442" />
+  </sodipodi:namedview>
   <!-- Generator: sketchtool 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
   <title
      id="title4">24A0E6F6-CF96-4EB6-9811-3E2882D128FF</title>
   <desc
      id="desc6">Created with sketchtool.</desc>
+  <path
+     inkscape:connector-curvature="0"
+     id="stroke-dark-blue-1"
+     data-ignore="true"
+     d="m 771.47859,47.477522 256.91821,0 0,39.904329 104.4072,0 0,139.391829 -77.6221,0 0,-9.29279"
+     style="fill:none;fill-rule:evenodd;stroke:#99e9f6;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <defs
      id="defs8">
     <polygon
@@ -1364,43 +1374,39 @@
   <path
      style="fill:none;fill-rule:evenodd;stroke:#a6a8ab;stroke-width:2"
      inkscape:connector-curvature="0"
-     id="Stroke-228"  data-ignore="true"
+     id="Stroke-228"
+     data-ignore="true"
      d="m 761.8929,331 -387.659,0 c -4.677,0 -8.504,-3.827 -8.504,-8.504 l 0,-312.992 c 0,-4.677 3.827,-8.504 8.504,-8.504 l 387.659,0 c 4.677,0 8.504,3.827 8.504,8.504 l 0,312.992 c 0,4.677 -3.827,8.504 -8.504,8.504 l 0,0 z" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#a6a8ab;stroke-width:2"
      inkscape:connector-curvature="0"
-     id="Stroke-230"  data-ignore="true"
+     id="Stroke-230"
+     data-ignore="true"
      d="m 759.5623,35.6667 -306.331,0 c -1.559,0 -2.834,-1.276 -2.834,-2.835 l 0,-20.997 c 0,-1.559 1.275,-2.835 2.834,-2.835 l 306.331,0 c 1.559,0 2.835,1.276 2.835,2.835 l 0,20.997 c 0,1.559 -1.276,2.835 -2.835,2.835 l 0,0 z" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#a6a8ab;stroke-width:2"
      inkscape:connector-curvature="0"
-     id="Stroke-232"  data-ignore="true"
+     id="Stroke-232"
+     data-ignore="true"
      d="m 365.0636,42.3333 405.333,0" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#a6a8ab;stroke-width:2"
      inkscape:connector-curvature="0"
-     id="Stroke-234"  data-ignore="true"
+     id="Stroke-234"
+     data-ignore="true"
      d="m 393.6391,21.8789 c 0,3.381 -2.741,6.121 -6.121,6.121 -3.381,0 -6.121,-2.74 -6.121,-6.121 0,-3.381 2.74,-6.121 6.121,-6.121 3.38,0 6.121,2.74 6.121,6.121 l 0,0 z" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#a6a8ab;stroke-width:2"
      inkscape:connector-curvature="0"
-     id="Stroke-236"  data-ignore="true"
+     id="Stroke-236"
+     data-ignore="true"
      d="m 413.6391,21.8789 c 0,3.381 -2.741,6.121 -6.121,6.121 -3.381,0 -6.121,-2.74 -6.121,-6.121 0,-3.381 2.74,-6.121 6.121,-6.121 3.38,0 6.121,2.74 6.121,6.121 l 0,0 z" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#a6a8ab;stroke-width:2"
      inkscape:connector-curvature="0"
-     id="Stroke-238" data-ignore="true"
+     id="Stroke-238"
+     data-ignore="true"
      d="m 433.6391,21.8789 c 0,3.381 -2.741,6.121 -6.121,6.121 -3.381,0 -6.121,-2.74 -6.121,-6.121 0,-3.381 2.74,-6.121 6.121,-6.121 3.38,0 6.121,2.74 6.121,6.121 l 0,0 z" />
-  <polyline
-     style="fill:none;fill-rule:evenodd;stroke:#c4e9f6;stroke-width:6"
-     points="689.3622 222.9138 689.3622 232.5438 768.3392 232.5438 768.3392 94.6478 663.3842 94.6478 663.3842 54.2608 404.3972 54.2608"
-     id="Stroke-darkblue-1"
-     transform="translate(365,1)"  data-ignore="true"/>
-  <polyline
-     style="fill:none;fill-rule:evenodd;stroke:#c4e9f6;stroke-width:6"
-     points="584.7488 191.9428 584.7488 322.7468 507.8948 322.7468 507.8948 185.7158 470.3968 185.7158 470.3968 240.8808 404.3968 240.8808"
-     id="Stroke-dark-blue-2"
-     transform="translate(365,1)"  data-ignore="true"/>
   <polyline
      style="fill:none;fill-rule:evenodd;stroke:#077da1;stroke-width:6"
      points="726.5677 94.6476 663.3837 94.6476 663.3837 54.2606 404.3967 54.2606"
@@ -1415,7 +1421,8 @@
      style="fill:none;fill-rule:evenodd;stroke:#ffb5e0;stroke-width:6"
      points="0.5668 0.1423 0.5668 125.7463 124.5938 125.7463 124.5938 59.7233 217.0638 59.7233"
      id="Stroke-Pink"
-     transform="translate(148,198)"  data-ignore="true"/>
+     transform="translate(148,198)"
+     data-ignore="true" />
   <polyline
      style="fill:none;fill-rule:evenodd;stroke:#eb078b;stroke-width:6"
      points="0.5668 0.1423 0.5668 125.7463 89.5938 125.7463"
@@ -1424,7 +1431,8 @@
   <polyline
      id="Stroke-purple"
      points="224.9306 192.386 224.9306 209.819 301.0636 209.819 301.0636 153.474 365.7306 153.474"
-     style="fill:none;fill-rule:evenodd;stroke:#bfc5ff;stroke-width:6" data-ignore="true"/>
+     style="fill:none;fill-rule:evenodd;stroke:#bfc5ff;stroke-width:6"
+     data-ignore="true" />
   <polyline
      id="Stroke-255"
      points="224.9306 192.386 224.9306 209.819 288.0636 209.819"
@@ -1434,7 +1442,8 @@
      transform="translate(3,55)"
      style="fill:none;fill-rule:evenodd;stroke:#b5ebff;stroke-width:6"
      d="m 66.0485,123.9971 0,23.019 -66.048,0 0,-146.756 361.063,0"
-     id="Stroke-blue"  data-ignore="true"/>
+     id="Stroke-blue"
+     data-ignore="true" />
   <polyline
      style="fill:none;fill-rule:evenodd;stroke:#46c0ef;stroke-width:6"
      points="66.0485 123.9971 66.0485 147.0161 0.0005 147.0161 0.0005 60.3181"
@@ -1455,13 +1464,29 @@
      style="fill:none;fill-rule:evenodd;stroke:#46c0ef;stroke-width:6"
      transform="translate(3,55)" />
   <polyline
-     transform="translate(365,1)"
+     transform="translate(2177.0938,44.184136)"
      id="polyline5590"
      points="689.3622 222.9138 689.3622 232.5438 768.3392 232.5438 768.3392 94.6478 663.3842 94.6478 663.3842 54.2608 404.3972 54.2608"
      style="fill:none;fill-rule:evenodd;stroke:#077da1;stroke-width:6" />
   <polyline
-     transform="translate(365,1)"
+     transform="translate(864.39554,-38.425963)"
      id="polyline5592"
      points="584.7488 191.9428 584.7488 322.7468 507.8948 322.7468 507.8948 185.7158 470.3968 185.7158 470.3968 240.8808 404.3968 240.8808"
      style="fill:none;fill-rule:evenodd;stroke:#077da1;stroke-width:6" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#99e9f6;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 769.89806,239.31625 63.39077,0 0,-54.88712 37.87985,0 0,137.60434 78.07886,0 0,-129.10071"
+     id="Stroke-dark-blue-2"
+     data-ignore="true"
+     inkscape:connector-curvature="0" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path4446"
+     d="m 769.89806,239.31625 63.39077,0 0,-54.88712 37.87985,0 0,137.60434 78.07886,0 0,-129.10071"
+     style="fill:none;fill-rule:evenodd;stroke:#077da1;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#077da1;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 771.47859,47.477521 256.91821,0 0,39.90433 104.4072,0 0,139.391829 -77.6221,0 0,-9.29279"
+     id="path4436" data-delay="200"
+     inkscape:connector-curvature="0" />
 </svg>

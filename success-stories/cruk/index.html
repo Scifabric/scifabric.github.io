@@ -70,9 +70,7 @@ css: cruk
     </div>
 
     <div class="cells">
-        <div class="cells-frame">
-            <!--<img class="responsive" src="/assets/img/success-stories/cruk/cells-ani.svg">-->
-        </div>
+        <div class="cells-frame"></div>
         <div class="side-text">
             <div class="point">
                 <div class="bullet">
@@ -156,7 +154,7 @@ css: cruk
 <div class="theproject section">
     <h2>The project</h2>
     <div class="contributors">
-        <img class="responsive" src="/assets/img/success-stories/cruk/process.svg">
+        <object id="my-svg" class="responsive" type="image/svg+xml" data="/assets/img/success-stories/cruk/process.svg"></object>
         <video width="392" height="279" autoplay loop>
             <source src="/assets/img/success-stories/cruk/process.mp4" type="video/mp4">
             Your browser does not support the video tag.
@@ -247,6 +245,7 @@ We like making people and technology closer. If you need to collect, analyse or 
 </div>
 
 {% include defaultjs.html %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.0/vivus.min.js"></script>
 <script src="/assets/js/snap.svg.js" type="text/javascript" charset="utf-8"></script>
 <script src="/assets/js/jquery.waypoints.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="/assets/js/success-stories/cruk/animcells.js" type="text/javascript" charset="utf-8"></script>
@@ -272,6 +271,9 @@ $(document).ready(function() {
     $("#close").off('click').on('click', function(){
         $(".person").css("visibility", "hidden");
     });
+
+
+    new Vivus('my-svg', {duration: 200});
   
   $(window).scroll(function () {
       //if you hard code, then use console

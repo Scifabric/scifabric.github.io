@@ -6,18 +6,18 @@ css: cruk
 ---
 <div class="person">
     <div class="messages">
-        <div class="first animated fadeInLeft">
+        <div class="first animated fadeInRight">
             <img id="close" src="/images/close.svg">
             <p>¡Hola! I'm Nick</p>
         </div>
-        <div class="second">
+        <div class="second animated fadeInRight">
             <p>Want to know how Scifabric can help you with your crowdsourcing project?</p>
         </div>
-        <div class="third">
+        <div class="third animated fadeInRight">
             <p>Get in touch</p>
         </div>
     </div>
-    <div class="avatar">
+    <div class="avatar animated fadeInRight">
         <img src="/assets/img/success-stories/cruk/nick.svg">
     </div>
 </div>
@@ -245,6 +245,7 @@ We like making people and technology closer. If you need to collect, analyse or 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.0/vivus.min.js"></script>
 <script src="/assets/js/snap.svg.js" type="text/javascript" charset="utf-8"></script>
 <script src="/assets/js/jquery.waypoints.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/assets/js/success-stories/cruk/animperson.js" type="text/javascript" charset="utf-8"></script>
 <script src="/assets/js/success-stories/cruk/animcells.js" type="text/javascript" charset="utf-8"></script>
 <script src="/assets/js/success-stories/cruk/animprocess.js" type="text/javascript" charset="utf-8"></script>
 <script src="/assets/js/success-stories/cruk/animaccuracy.js" type="text/javascript" charset="utf-8"></script>
@@ -266,32 +267,6 @@ function isElementInViewport (el) {
     );
 }
 $(document).ready(function() {
-
-    $("#close").off('click').on('click', function(){
-        $(".person").css("visibility", "hidden");
-    });
-
-    function showNick() {
-        $(".person").css("visibility", "visible");
-        $(".person").fadeIn();
-    }
-
-    function hideNick() {
-        $(".person").fadeOut();
-        $("#nick").css("visibility", "visible");
-    }
-
-    var showpersonWaypoint = new Waypoint({
-        element: document.getElementById('startingpoint-waypoint'),
-        offset: 0,
-        handler: showNick
-    });
-
-    var hidepersonWaypoint = new Waypoint({
-        element: document.getElementById('team-waypoint'),
-        offset: 500,
-        handler: hideNick
-    });
 
   $(window).scroll(function () {
       //if you hard code, then use console

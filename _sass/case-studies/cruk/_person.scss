@@ -1,5 +1,5 @@
 .person {
-    visibility: hidden;
+    opacity: 0;
     position: fixed;
     z-index: 99;
     display: flex;
@@ -30,6 +30,7 @@
     }
 
     .first, .second, .third {
+        display: none;
         padding-bottom: 10px;
     }
 
@@ -42,6 +43,10 @@
         font-size: 13px;
         line-height: 1.15;
         color: rgb(51, 51, 51);
+    }
+
+    .avatar {
+        display: none;
     }
 
     .avatar > img {

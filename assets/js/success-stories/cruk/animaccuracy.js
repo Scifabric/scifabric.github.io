@@ -24,7 +24,6 @@ function animAccuracy(){
         }
 
         function startAnim() {
-                console.log("Anim");
                 vivusChart.play();
                 cell1.animate({r: 90}, time, mina.easin, showText);
         }

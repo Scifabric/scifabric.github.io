@@ -13,3 +13,132 @@
         text-align: center;
     }
 }
+
+.contactform {
+    width: 100%;
+    height: 100%;
+    z-index: 999999999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .step1, .step2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .closeform {
+        align-self: flex-end;
+        margin-right: 40px;
+        img {
+            min-width: 40px;
+            cursor: pointer;
+        }
+    }
+
+    h2 {
+        height: 30px;
+        font-size: 22px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        text-align: center;
+        color: rgb(51, 51, 51);
+    }
+
+    label {
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        color: rgb(51, 51, 51);
+    }
+
+    input {
+        height: 42px;
+        border-radius: 5px;
+        background-color: rgb(255, 255, 255);
+        border: solid 2px rgb(189, 187, 188);
+    }
+
+    input[type=textarea] {
+        resize: none;
+    }
+
+    input[type=checkbox]
+    {
+        height: auto;
+      /* Double-sized Checkboxes */
+      -ms-transform: scale(2); /* IE */
+      -moz-transform: scale(2); /* FF */
+      -webkit-transform: scale(2); /* Safari and Chrome */
+      -o-transform: scale(2); /* Opera */
+      padding: 10px;
+    }
+
+    .checkbox {
+        margin-left: 6px;
+    }
+
+    input:active,
+    input:focus,
+    textarea:active,
+    textarea:focus {
+        background-color: rgb(255, 255, 255);
+        border: solid 2px rgb(243, 70, 0);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(189, 187, 188, 0.6);
+    }
+
+    .btn-contactform {
+        width: 144px;
+        height: 53px;
+        border-radius: 5px;
+        background-color: rgb(8, 125, 161);
+        margin-top: 31px;
+        font-size: 24px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+    }
+
+    .step2 {
+        display: none;
+        h2 {
+            height: 30px;
+            font-size: 28px;
+            font-weight: bold;
+            font-style: normal;
+            font-stretch: normal;
+            text-align: center;
+            color: rgb(0, 179, 92);
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            text-align: center;
+            color: rgb(51, 51, 51);
+        }
+        p:nth-child(2) {
+            margin-top: 13px;
+        }
+
+        img {
+            max-width: 260px;
+            margin-top: 30px;
+        }
+
+        .btn-contactform {
+            margin-top: 40px;
+        }
+    }
+}

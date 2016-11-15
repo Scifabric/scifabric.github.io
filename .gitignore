@@ -3,3 +3,4 @@ _site
 *.swp
 *.un~
 *.DS_Store
+js/node_modules/*

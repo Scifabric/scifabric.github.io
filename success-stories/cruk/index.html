@@ -182,7 +182,7 @@ css: cruk
     </div>
 </div>
 
-<div class="results section">
+<div id="results-waypoint" class="results section">
     <h2>And the result?</h2>
     <div class="subtitle">
         <p>Trailblazer scored the highest accuracy reading of all Cancer</p>
@@ -190,11 +190,8 @@ css: cruk
         <p>citizen scientists could be truly valuable to researchers.</p>
     </div>
     <div class="graphic">
-        <img src="/assets/img/success-stories/cruk/graphic.svg">
-        <div class="bubble">
-            <span class="big">90%</span>
-            <span class="normal">accuracy</span>
-        </div>
+        <object id="chart" class="responsive" type="image/svg+xml" data="/assets/img/success-stories/cruk/graphic.svg"></object>
+        <div class="accuracybubble"></div>
         <div class="text">
             <strong>Citizen scientists had learned to detect clinically significant features of cancer cells.</strong> Their score was compared against consensus expert analysis to evaluate the accuracy. Volunteers’ findings matched those of professional pathologists up to 90% of the time.
         </div>
@@ -250,6 +247,7 @@ We like making people and technology closer. If you need to collect, analyse or 
 <script src="/assets/js/jquery.waypoints.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="/assets/js/success-stories/cruk/animcells.js" type="text/javascript" charset="utf-8"></script>
 <script src="/assets/js/success-stories/cruk/animprocess.js" type="text/javascript" charset="utf-8"></script>
+<script src="/assets/js/success-stories/cruk/animaccuracy.js" type="text/javascript" charset="utf-8"></script>
 <script>
 function isElementInViewport (el) {
 
@@ -292,6 +290,7 @@ $(document).ready(function() {
 
 
 animCells();
+animAccuracy();
 
   });
 

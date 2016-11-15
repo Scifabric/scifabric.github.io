@@ -7,7 +7,7 @@ function startVivus() {
 }
 var waypointProcess = new Waypoint({
     element: document.getElementById('process-waypoint'),
-    offset: 200,
+    offset: 100,
     handler: startVivus
 });
 

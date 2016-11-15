@@ -6,18 +6,18 @@ css: cruk
 ---
 <div class="person">
     <div class="messages">
-        <div class="first animated fadeInLeft">
+        <div class="first animated fadeInRight">
             <img id="close" src="/images/close.svg">
             <p>¡Hola! I'm Nick</p>
         </div>
-        <div class="second">
+        <div class="second animated fadeInRight">
             <p>Want to know how Scifabric can help you with your crowdsourcing project?</p>
         </div>
-        <div class="third">
+        <div class="third animated fadeInRight">
             <p>Get in touch</p>
         </div>
     </div>
-    <div class="avatar">
+    <div class="avatar animated fadeInRight">
         <img src="/assets/img/success-stories/cruk/nick.svg">
     </div>
 </div>
@@ -182,7 +182,7 @@ css: cruk
     </div>
 </div>
 
-<div class="results section">
+<div id="results-waypoint" class="results section">
     <h2>And the result?</h2>
     <div class="subtitle">
         <p>Trailblazer scored the highest accuracy reading of all Cancer</p>
@@ -190,11 +190,8 @@ css: cruk
         <p>citizen scientists could be truly valuable to researchers.</p>
     </div>
     <div class="graphic">
-        <img src="/assets/img/success-stories/cruk/graphic.svg">
-        <div class="bubble">
-            <span class="big">90%</span>
-            <span class="normal">accuracy</span>
-        </div>
+        <object id="chart" class="responsive" type="image/svg+xml" data="/assets/img/success-stories/cruk/graphic.svg"></object>
+        <div class="accuracybubble"></div>
         <div class="text">
             <strong>Citizen scientists had learned to detect clinically significant features of cancer cells.</strong> Their score was compared against consensus expert analysis to evaluate the accuracy. Volunteers’ findings matched those of professional pathologists up to 90% of the time.
         </div>
@@ -222,12 +219,12 @@ css: cruk
     </div>
 </div>
 
-<div class="team section">
+<div id="team-waypoint" class="team section">
     <h2>We are</h2>
     <img src="/assets/img/success-stories/cruk/scifabric-blue.svg">
     <div class="avatars">
         {% for member in site.data.crew %}
-        <img src="/images/{{member.avatar}}">
+        <img id="{{member.name | downcase }}" src="/images/{{member.avatar}}">
         {% endfor %}
     </div>
     <div class="calltoaction">
@@ -248,8 +245,10 @@ We like making people and technology closer. If you need to collect, analyse or 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.0/vivus.min.js"></script>
 <script src="/assets/js/snap.svg.js" type="text/javascript" charset="utf-8"></script>
 <script src="/assets/js/jquery.waypoints.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/assets/js/success-stories/cruk/animperson.js" type="text/javascript" charset="utf-8"></script>
 <script src="/assets/js/success-stories/cruk/animcells.js" type="text/javascript" charset="utf-8"></script>
 <script src="/assets/js/success-stories/cruk/animprocess.js" type="text/javascript" charset="utf-8"></script>
+<script src="/assets/js/success-stories/cruk/animaccuracy.js" type="text/javascript" charset="utf-8"></script>
 <script>
 function isElementInViewport (el) {
 
@@ -269,10 +268,6 @@ function isElementInViewport (el) {
 }
 $(document).ready(function() {
 
-    $("#close").off('click').on('click', function(){
-        $(".person").css("visibility", "hidden");
-    });
-
   $(window).scroll(function () {
       //if you hard code, then use console
       //.log to determine when you want the 
@@ -282,7 +277,6 @@ $(document).ready(function() {
       //console.log(offset);
       if ($(window).scrollTop() > offset ) {
             navbar.addClass('navbar-fixed');
-            $(".person").css("visibility", "visible");
           }
       if ($(window).scrollTop() < offset + 1) {
            navbar.removeClass('navbar-fixed');
@@ -292,6 +286,7 @@ $(document).ready(function() {
 
 
 animCells();
+animAccuracy();
 
   });
 

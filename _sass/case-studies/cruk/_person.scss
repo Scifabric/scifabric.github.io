@@ -13,6 +13,11 @@
         cursor: pointer;
     }
 
+    .getintouch {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
     .messages {
         width: 140px;
         padding-right: 10px;
@@ -32,6 +37,12 @@
     .first, .second, .third {
         display: none;
         padding-bottom: 10px;
+    }
+
+    .third {
+        p {
+            cursor: pointer;
+        }
     }
 
     p {

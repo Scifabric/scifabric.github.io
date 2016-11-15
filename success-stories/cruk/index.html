@@ -55,7 +55,7 @@ css: cruk
             <p>Want to know how Scifabric can help you with your crowdsourcing project?</p>
         </div>
         <div class="third animated fadeInRight">
-            <p>Get in touch</p>
+            <p class="getintouch">Get in touch</p>
         </div>
     </div>
     <div class="avatar animated fadeInRight">
@@ -328,6 +328,15 @@ $(document).ready(function() {
 
 animCells();
 animAccuracy();
+
+$(".getintouch").off('click').on('click', function(){
+    $(".contactform").css("display", "flex");
+    $(".contactform").fadeIn();
+});
+
+$(".closeform").off('click').on('click', function(){
+    $(".contactform").fadeOut();
+});
 
   });
 

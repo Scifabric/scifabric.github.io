@@ -18,6 +18,13 @@
             display:flex;
             align-content: center;
 
+            a {
+                display:flex;
+                align-content: center;
+                margin: 0;
+                padding: 0;
+            }
+
             img {
                 margin-right: 24px;
             }

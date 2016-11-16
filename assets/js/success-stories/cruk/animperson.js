@@ -32,8 +32,8 @@ function hideNick() {
 }
 
 var showpersonWaypoint = new Waypoint({
-    element: document.getElementById('startingpoint-waypoint'),
-    offset: 0,
+    element: document.body,
+    offset: '-20%',
     handler: showNick
 });
 

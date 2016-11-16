@@ -11,24 +11,28 @@ css: cruk
     <div class="step1">
         <div>
             <h2>Hola! Nice to hear from your</h2>
-            <form>
+            <form id="contactform">
                 <div class="form-group">
-                    <label for="name">What it is your name?</label>
-                    <input type="name" class="form-control" id="name" placeholder="First name, Last name">
+                    <label for="name">What it is first name?</label>
+                    <input type="name" class="form-control" id="first_name" placeholder="First name, Last name" name="first_name">
+                </div>
+                <div class="form-group">
+                    <label for="name">Your last name?</label>
+                    <input type="lastname" class="form-control" id="last_name" placeholder="First name, Last name" name="last_name">
                 </div>
 
                 <div class="form-group">
                     <label for="email">And your email?</label>
-                    <input type="email" class="form-control" id="email" placeholder="Email">
+                    <input type="email" class="form-control" id="email" placeholder="Email" name="email">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Drop us a line</label>
-                    <textarea class="form-control" rows="4" id="textarea" placeholder=""></textarea>
+                    <textarea class="form-control" rows="4" id="message" name="message" placeholder=""></textarea>
                 </div>
 
                 <div class="checkbox">
                     <label>
-                        <input type="checkbox"> Keep me informed of scifabric’s news (no spam. We promise!)
+                        <input type="checkbox" name="subscribe"> Keep me informed of scifabric’s news (no spam. We promise!)
                     </label>
                 </div>
             </form>
@@ -85,7 +89,7 @@ css: cruk
         </div>
         <div class="scrolldown">
             <span class="uppercase">scroll down</span>
-            <img class="arrow" src="/assets/img/success-stories/cruk/arrow.svg">
+            <img class="arrow animated slideInDown infinite" src="/assets/img/success-stories/cruk/arrow.svg">
         </div>
     </div>
 </div>
@@ -97,9 +101,9 @@ css: cruk
             <img src="/assets/img/success-stories/cruk/c.svg">
         </div>
         <div class="ssnn">
-            <img src="/assets/img/success-stories/cruk/facebook.svg">
-            <img src="/assets/img/success-stories/cruk/twitter.svg">
-            <img src="/assets/img/success-stories/cruk/linkedin.svg">
+            <a href="javascript:window.open('http://www.facebook.com/sharer/sharer.php?u=http://scifabric.com{{ page.url }}', '_blank', 'width=500,height=450');void(0);"><img src="/assets/img/success-stories/cruk/facebook.svg"></a>
+            <a href='javascript:window.open("https://twitter.com/intent/tweet?text={{page.description|escape}}&url=http://scifabric.com{{page.url}}&via=Scifabric","_blank","width=500,height=450");void(0);'><img src="/assets/img/success-stories/cruk/twitter.svg"></a>
+            <a href="javascript:window.open('https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fscifabric.com{{ page.url }}', '_blank', 'width=500,height=450');void(0);"><img src="/assets/img/success-stories/cruk/linkedin.svg"></a>
         </div>
     </div>
 </div>
@@ -186,7 +190,7 @@ css: cruk
         </div>
     </div>
     <div class="getintouch">
-        <div class="btn btn-primary">
+        <div class="btn btn-primary btn-getintouch">
             Get in touch to know more
         </div>
     </div>
@@ -276,7 +280,7 @@ css: cruk
 We like making people and technology closer. If you need to collect, analyse or enrich data, we can help you discover how crowdsourcing will accelerate your investigation and save you money.
     </div>
     <div class="getintouch">
-        <div class="btn btn-primary blue">
+        <div class="btn btn-primary blue btn-getintouch">
             Get in touch 
         </div>
     </div>
@@ -290,7 +294,16 @@ We like making people and technology closer. If you need to collect, analyse or 
 <script src="/assets/js/success-stories/cruk/animcells.js" type="text/javascript" charset="utf-8"></script>
 <script src="/assets/js/success-stories/cruk/animprocess.js" type="text/javascript" charset="utf-8"></script>
 <script src="/assets/js/success-stories/cruk/animaccuracy.js" type="text/javascript" charset="utf-8"></script>
+<script src="/assets/js/contactform.js" type="text/javascript" charset="utf-8"></script>
 <script>
+window._waiting = function() {
+    var video = $("#intro");
+    video.on('canplaythrough', function(){
+        console.log("Video full");
+        $("body").addClass('loaded');
+    });
+}
+
 function isElementInViewport (el) {
 
     //special bonus for those using jQuery
@@ -329,24 +342,15 @@ $(document).ready(function() {
 animCells();
 animAccuracy();
 
-$(".btn-getintouch").off('click').on('click', function(){
-    $(".contactform").css("display", "flex");
-    $(".contactform").fadeIn();
-});
+$(".btn-getintouch").off('click').on('click', showContactForm);
 
-$(".closeform").off('click').on('click', function(){
-    $(".contactform").fadeOut();
-});
-
-$(".btn-contactform-close").off('click').on('click', function(){
-    $(".contactform").fadeOut();
-});
 
 
 $("#contactform-submit").on('click', function(e){
     e.preventDefault();
-    $(".step1").addClass("animated flipOutY");
-    $(".step1").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){ $(".step1").hide(); $(".step2").css("display", "flex").addClass("animated flipInY")});
+    contactForm();
+    //$(".step1").addClass("animated flipOutY");
+    //$(".step1").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){ $(".step1").hide(); $(".step2").css("display", "flex").addClass("animated flipInY")});
 });
 
   });

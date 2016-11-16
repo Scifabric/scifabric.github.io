@@ -11,24 +11,28 @@ css: cruk
     <div class="step1">
         <div>
             <h2>Hola! Nice to hear from your</h2>
-            <form>
+            <form id="contactform">
                 <div class="form-group">
-                    <label for="name">What it is your name?</label>
-                    <input type="name" class="form-control" id="name" placeholder="First name, Last name">
+                    <label for="name">What it is first name?</label>
+                    <input type="name" class="form-control" id="first_name" placeholder="First name, Last name" name="first_name">
+                </div>
+                <div class="form-group">
+                    <label for="name">Your last name?</label>
+                    <input type="lastname" class="form-control" id="last_name" placeholder="First name, Last name" name="last_name">
                 </div>
 
                 <div class="form-group">
                     <label for="email">And your email?</label>
-                    <input type="email" class="form-control" id="email" placeholder="Email">
+                    <input type="email" class="form-control" id="email" placeholder="Email" name="email">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Drop us a line</label>
-                    <textarea class="form-control" rows="4" id="textarea" placeholder=""></textarea>
+                    <textarea class="form-control" rows="4" id="message" name="message" placeholder=""></textarea>
                 </div>
 
                 <div class="checkbox">
                     <label>
-                        <input type="checkbox"> Keep me informed of scifabric’s news (no spam. We promise!)
+                        <input type="checkbox" name="subscribe"> Keep me informed of scifabric’s news (no spam. We promise!)
                     </label>
                 </div>
             </form>
@@ -290,6 +294,7 @@ We like making people and technology closer. If you need to collect, analyse or 
 <script src="/assets/js/success-stories/cruk/animcells.js" type="text/javascript" charset="utf-8"></script>
 <script src="/assets/js/success-stories/cruk/animprocess.js" type="text/javascript" charset="utf-8"></script>
 <script src="/assets/js/success-stories/cruk/animaccuracy.js" type="text/javascript" charset="utf-8"></script>
+<script src="/assets/js/contactform.js" type="text/javascript" charset="utf-8"></script>
 <script>
 function isElementInViewport (el) {
 
@@ -345,8 +350,9 @@ $(".btn-contactform-close").off('click').on('click', function(){
 
 $("#contactform-submit").on('click', function(e){
     e.preventDefault();
-    $(".step1").addClass("animated flipOutY");
-    $(".step1").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){ $(".step1").hide(); $(".step2").css("display", "flex").addClass("animated flipInY")});
+    contactForm();
+    //$(".step1").addClass("animated flipOutY");
+    //$(".step1").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){ $(".step1").hide(); $(".step2").css("display", "flex").addClass("animated flipInY")});
 });
 
   });

@@ -296,6 +296,14 @@ We like making people and technology closer. If you need to collect, analyse or 
 <script src="/assets/js/success-stories/cruk/animaccuracy.js" type="text/javascript" charset="utf-8"></script>
 <script src="/assets/js/contactform.js" type="text/javascript" charset="utf-8"></script>
 <script>
+window._waiting = function() {
+    var video = $("#intro");
+    video.on('canplaythrough', function(){
+        console.log("Video full");
+        $("body").addClass('loaded');
+    });
+}
+
 function isElementInViewport (el) {
 
     //special bonus for those using jQuery

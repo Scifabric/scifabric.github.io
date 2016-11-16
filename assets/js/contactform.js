@@ -1,3 +1,23 @@
+$(".closeform").off('click').on('click', function(){
+    $(".contactform").fadeOut();
+});
+
+$(".btn-contactform-close").off('click').on('click', function(){
+    $(".contactform").fadeOut("fast", function(){
+        $(".step1").removeClass("animated flipOutY");
+        $(".step2").removeClass("animated flipOutY");
+        $(".step1").removeClass("animated flipInY");
+        $(".step2").removeClass("animated flipInY");
+        $(".step2").hide();
+        $(".step1").css("display", "flex");
+    });
+});
+
+function showContactForm() {
+    $(".contactform").css("display", "flex");
+    $(".contactform").fadeIn();
+}
+
 function contactForm() {
     console.log("Testing form");
     $.ajax({

@@ -334,18 +334,8 @@ $(document).ready(function() {
 animCells();
 animAccuracy();
 
-$(".btn-getintouch").off('click').on('click', function(){
-    $(".contactform").css("display", "flex");
-    $(".contactform").fadeIn();
-});
+$(".btn-getintouch").off('click').on('click', showContactForm);
 
-$(".closeform").off('click').on('click', function(){
-    $(".contactform").fadeOut();
-});
-
-$(".btn-contactform-close").off('click').on('click', function(){
-    $(".contactform").fadeOut();
-});
 
 
 $("#contactform-submit").on('click', function(e){

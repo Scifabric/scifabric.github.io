@@ -51,6 +51,23 @@
                 width: 249px;
             }
         }
+
+        @media(max-width:412px) {
+            .logos {
+                .scifabric-logo {
+                    width: 97px;
+                }
+
+                .plus-icon {
+                    width: 22px;
+                }
+
+                .cruk-logo {
+                    width: 114px;
+                }
+
+            }
+        }
     
         .title,
         .subtitle,
@@ -77,6 +94,7 @@
             }
     
         }
+
     
         .subtitle {
             color: white;
@@ -87,6 +105,24 @@
                 color: white;
             }
         }
+
+        @media(max-width:412px) {
+            .title,
+            .subtitle,
+            .scrolldown {
+                p {
+                    font-size: 25px;
+                }
+            }
+            .subtitle {
+                padding: 10px;
+                p {
+                    text-align: center;
+                    font-size: 16px;
+                }
+            }
+        }
+
     
         .scrolldown {
             .uppercase {

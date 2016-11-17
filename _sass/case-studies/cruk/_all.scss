@@ -95,6 +95,9 @@ body {
             justify-content: center;
             align-content: center;
             height: 153px;
+            @media(max-width:420px) {
+                height: auto;
+            }
         }
 
         .text {

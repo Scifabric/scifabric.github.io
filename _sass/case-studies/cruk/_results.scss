@@ -5,11 +5,25 @@
     padding-top: 50px;
     .graphic {
         width: 494px;
+        @media(max-width:420px) {
+            width: auto;
+        }
+
         .bubble,
         .accuracybubble {
             position: absolute;
             margin-top: -283px;
             margin-left: 430px;
+
+            @media(max-width:420px) {
+                margin-left: 200px;
+                margin-top: -225px;
+
+                svg {
+                    width: 100px;
+                }
+            }
+
 
             .big {
                 font-size: 56px;
@@ -26,6 +40,11 @@
             font-size: 18px;
             line-height: 1.63;
             color: $gray;
+
+            @media(max-width:420px) {
+                margin-left: 0;
+                padding: 30px;
+            }
 
             strong {
                 color: $black;

@@ -154,9 +154,7 @@ css: cruk
 </div>
 <div class="scifabric-technology section">
     <div class="title">
-        <h2>Why</h2>
-        <img src="/assets/img/success-stories/cruk/scifabric-blue.svg">
-        <h2>'s Technology?</h2>
+        <h2>Why <img src="/assets/img/success-stories/cruk/scifabric-blue.svg">'s Technology?</h2>
     </div>
     <div class="subtitle">
         <p>PYBOSSA, our open source code</p>
@@ -197,30 +195,39 @@ css: cruk
         </div>
     </div>
 </div>
-
 <div id="process-waypoint" class="theproject section">
     <h2>The project</h2>
     <div class="contributors">
-        <object id="my-svg" class="responsive" type="image/svg+xml" data="/assets/img/success-stories/cruk/process.svg"></object>
-        <video width="392" height="279" autoplay loop>
+        <object id="my-svg" class="responsive hidden-xs" type="image/svg+xml" data="/assets/img/success-stories/cruk/process.svg"></object>
+        <video class="process-video" width="392" height="279" autoplay loop>
             <source src="/assets/img/success-stories/cruk/process.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
     <div class="columns">
         <div class="column">
+            <div class="icon hidden-sm hidden-md hidden-lg">
+                <object id="process-volunteers" class="responsive" type="image/svg+xml" data="/assets/img/success-stories/cruk/process-volunteers.svg"></object>
+            </div>
             <h3>1000 volunteers</h3>
             <div class="text">
                 Over 1000 volunteers without previous biomedical knowledge accessed Trailblazer, a web platform easy to use and with no special software required.
             </div>
         </div>
         <div class="column">
+            <div class="icon hidden-sm hidden-md hidden-lg">
+                <object id="process-video" class="responsive" type="image/svg+xml" data="/assets/img/success-stories/cruk/process-video.svg"></object>
+            </div>
+
             <h3>25 minutes of training</h3>
             <div class="text">
                 After a 25 minutes training, volunteers had to analyse 10 sample images. Their scores showed they could distinguish between cancer cells and healthy cells in tissue samples. <a href="http://cancer.pybossa.com">Try the Trailblazer demo here.</a>
             </div>
         </div>
         <div class="column">
+            <div class="icon hidden-sm hidden-md hidden-lg">
+                <object id="process-experts" class="responsive" type="image/svg+xml" data="/assets/img/success-stories/cruk/process-experts.svg"></object>
+            </div>
             <h3>Evaluated by specialists</h3>
             <div class="text">
                 When it came to analysing real tumor samples, citizen scientists’ scores were compared against consensus expert analysis to evaluate the accuracy.
@@ -228,7 +235,6 @@ css: cruk
         </div>
     </div>
 </div>
-
 <div id="results-waypoint" class="results section">
     <h2>And the result?</h2>
     <div class="subtitle">
@@ -289,6 +295,8 @@ We like making people and technology closer. If you need to collect, analyse or 
         </div>
     </div>
 </div>
+
+
 
 {% include defaultjs.html %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.0/vivus.min.js"></script>

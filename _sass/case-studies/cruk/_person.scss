@@ -9,6 +9,10 @@
     top: 70vh;
     transform: translateZ(0);
 
+    @media(max-width:420px) {
+        padding-right: 25px;
+    }
+
     #close {
         cursor: pointer;
     }

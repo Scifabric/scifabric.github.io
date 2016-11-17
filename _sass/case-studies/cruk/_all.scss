@@ -44,6 +44,12 @@ body {
             text-align: center;
             color: $gray;
         }
+        @media(max-width: 420px) {
+            padding: 10px;
+            p {
+                font-size: 20px;
+            }
+        }
     }
 }
 

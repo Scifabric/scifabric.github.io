@@ -34,6 +34,10 @@
                width: 90%;
            } 
 
+           .cells-frame > svg {
+               height: 280px;
+           }
+
         }
 
         .side-text {
@@ -47,6 +51,14 @@
                 margin-left: 50%;
                 top: -90%;
             }
+
+            @media(max-width:420px) {
+                margin: 0;
+                top: 0;
+                width: auto;
+                padding:10px;
+            }
+
             .point {
                 display: flex;
                 align-items: stretch;
@@ -66,8 +78,14 @@
                     margin-left: 20px;
                     margin-bottom: 20px;
 
+
                     strong {
                         color: $black;
+                    }
+
+                    @media(max-width:420px) {
+                        font-size: 16px;
+                        line-height: 1.63;
                     }
                 }
             }

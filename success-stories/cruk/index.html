@@ -265,8 +265,10 @@ css: cruk
 </div>
 
 <div id="team-waypoint" class="team section">
-    <h2>We are</h2>
-    <img src="/assets/img/success-stories/cruk/scifabric-blue.svg">
+    <div class="team-title">
+        <h2>We are</h2>
+        <img src="/assets/img/success-stories/cruk/scifabric-blue.svg">
+    </div>
     <div class="avatars">
         {% for member in site.data.crew %}
         <img id="{{member.name | downcase }}" src="/images/{{member.avatar}}">

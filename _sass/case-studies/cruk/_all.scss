@@ -8,6 +8,7 @@
 @import "case-studies/cruk/quote";
 @import "case-studies/cruk/team";
 @import "case-studies/cruk/person";
+@import "case-studies/cruk/footer";
 
 body {
     font-family: 'Source Sans Pro', HelveticaNeue, Helvetica, sans-serif;
@@ -22,7 +23,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 102px;
+    margin-top: 50px;
 
     h2 {
         font-size: 40px;
@@ -44,6 +45,12 @@ body {
             text-align: center;
             color: $gray;
         }
+        @media(max-width: 420px) {
+            padding: 10px;
+            p {
+                font-size: 20px;
+            }
+        }
     }
 }
 
@@ -51,6 +58,10 @@ body {
 .columns {
     display: flex;
     align-content: space-around;
+
+    @media(max-width:420px) {
+        flex-direction: column;
+    }
 
     .column {
         display: flex;
@@ -60,11 +71,18 @@ body {
         width: 33%;
         padding: 50px;
 
+
         @media(max-width: 768px) {
             .column {
                 padding: 25px;
             }
         }
+
+        @media(max-width:420px) {
+            width: 100%;
+            padding: 10px;
+        }
+
 
         h3 {
             font-size: 26px;
@@ -78,6 +96,9 @@ body {
             justify-content: center;
             align-content: center;
             height: 153px;
+            @media(max-width:420px) {
+                height: auto;
+            }
         }
 
         .text {
@@ -86,6 +107,11 @@ body {
             color: $gray;
             line-height: 1.63;
             text-align: center;
+
+            @media(max-width:420px) {
+                font-size: 16px;
+                line-height: 1.63;
+            }
         }
     }
 }
@@ -97,6 +123,14 @@ body {
          align-content: center;
          margin-bottom: 85px;
          width: 33%;
+
+         @media(max-width:768px) {
+             .btn {
+                 font-size: inherit;
+             }
+
+             margin-top: 85px;
+         }
  
          .btn-primary {
              background: $pink;
@@ -109,6 +143,10 @@ body {
              padding-right: 20px;
              border-radius: 5px;
              border-color: $pink;
+
+             @media(max-width:420px) {
+                 font-size: 18px !important;
+             }
          }
 
          .btn-primary.blue {

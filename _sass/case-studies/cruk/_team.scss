@@ -1,14 +1,46 @@
 .team {
+    .team-title {
+        width: 330px;
+        display: flex;
+        justify-content: center;
+        img {
+            height: 40px;
+            margin-bottom: 10px;
+        }
+
+        @media(max-width:420px) {
+            width: auto;
+            h2 {
+                font-size: 30px;
+            }
+            img {
+                width: 137px;
+                margin-top:0;
+                height: 30px;
+            }
+        }
+    }
     .avatars {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-content: center;
         margin-top: 44px;
+        @media(max-width:420px) {
+            padding-left:8px;
+            padding-right:8px;
+        }
         img {
             width: 70px;
             height: 70px;
             border-radius: 50%;
             margin-right: 17px;
+            @media(max-width:420px) {
+                width: 54px;
+                height: 54px;
+                margin-bottom: 8px;
+                margin-right: 8px;
+            }
         }
         #nick {
             visibility: hidden;
@@ -26,6 +58,9 @@
             font-stretch: normal;
             text-align: center;
             color: $darkblue2;
+            @media(max-width:420px) {
+                font-size: 25px;
+            }
         }
     }
 
@@ -40,5 +75,17 @@
         color: $gray;
         margin-bottom: 36px;
         text-align: center;
+        @media(max-width:420px) {
+            font-size: 16px;
+            width: auto;
+            padding: 10px;
+            margin-top:14px;
+        }
+    }
+
+    .getintouch {
+        @media(max-width: 420px) {
+            margin-bottom: 0;
+        }
     }
 }

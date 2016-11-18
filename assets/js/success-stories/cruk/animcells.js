@@ -24,7 +24,14 @@ function getRandomInt(min, max) {
 function animCells(){
     window.animVideo = false;
     var s = Snap(".cells-frame");
-    Snap.load("/assets/img/success-stories/cruk/cells-ani.svg", function(f) {
+    var svgurl = "/assets/img/success-stories/cruk/cells-ani.svg";
+    var lg = true;
+    if (window.matchMedia("(max-width: 420px)").matches) {
+        svgurl = "/assets/img/success-stories/cruk/cells-sm.svg";
+        lg = false;
+    }
+    console.log(svgurl);
+    Snap.load(svgurl, function(f) {
         var cell1 = f.select("#cell1");
         var cell2 = f.select("#cell2");
         var cell3 = f.select("#cell3");
@@ -33,12 +40,14 @@ function animCells(){
         var bubble1= f.select("#bubble1");
         var bubble2= f.select("#bubble2");
         var bubble3= f.select("#bubble3");
-        var bubble4= f.select("#bubble4");
-        var bubble5= f.select("#bubble5");
-        var bubble6= f.select("#bubble6");
-        var bubble7= f.select("#bubble7");
-        var bubble8= f.select("#bubble8");
-        var bubble9= f.select("#bubble9");
+        if (lg) {
+            var bubble4= f.select("#bubble4");
+            var bubble5= f.select("#bubble5");
+            var bubble6= f.select("#bubble6");
+            var bubble7= f.select("#bubble7");
+            var bubble8= f.select("#bubble8");
+            var bubble9= f.select("#bubble9");
+        }
         
         var face1= f.select("#face1");
         var face2= f.select("#face2");
@@ -56,12 +65,14 @@ function animCells(){
         bubble1.attr({r: '0'});
         bubble2.attr({r: '0'});
         bubble3.attr({r: '0'});
-        bubble4.attr({r: '0'});
-        bubble5.attr({r: '0'});
-        bubble6.attr({r: '0'});
-        bubble7.attr({r: '0'});
-        bubble8.attr({r: '0'});
-        bubble9.attr({r: '0'});
+        if (lg) {
+            bubble4.attr({r: '0'});
+            bubble5.attr({r: '0'});
+            bubble6.attr({r: '0'});
+            bubble7.attr({r: '0'});
+            bubble8.attr({r: '0'});
+            bubble9.attr({r: '0'});
+        }
         
         face1.attr({opacity: '0'});
         face2.attr({opacity: '0'});
@@ -70,9 +81,21 @@ function animCells(){
         var time = 200;
 
         function animateCells() {
-            cell4.animate({r: 30}, getRandomInt(200, 800) - 50, mina.easin)
-            cell2.animate({r: 24}, getRandomInt(200, 800), mina.easin)
-            cell3.animate({r: 17}, getRandomInt(200, 800), mina.easin, animateBubbles)
+            var r = 39/2;
+            if (lg) {
+                r = 30;
+            }
+            cell4.animate({r: r}, getRandomInt(200, 800) - 50, mina.easin)
+            var r = 45/2;
+            if (lg) {
+                r = 24;
+            }
+            cell2.animate({r: r}, getRandomInt(200, 800), mina.easin)
+            var r = 39/2;
+            if (lg) {
+                r = 17;
+            }
+            cell3.animate({r: r}, getRandomInt(200, 800), mina.easin, animateBubbles)
 
             face1.animate({opacity: 1}, getRandomInt(200, 800), mina.easin, function(){
                 face2.animate({opacity: 1}, getRandomInt(200, 800), mina.easin, function(){
@@ -84,29 +107,40 @@ function animCells(){
         }
 
         function animateBubbles() {
-            bubble1.animate({r: 74}, getRandomInt(200, 800), mina.easin, function(){
-                bubble2.animate({r: 143}, getRandomInt(200, 800), mina.easin, function(){
-                    bubble3.animate({r: 72}, getRandomInt(200, 800), mina.easin, function(){
-                        bubble4.animate({r: 36}, getRandomInt(200, 800), mina.easin, function(){
-                            bubble5.animate({r: 78}, getRandomInt(200, 800), mina.easin, function(){
-                                bubble6.animate({r: 76}, getRandomInt(200, 800), mina.easin, function(){
-                                    bubble7.animate({r: 115}, getRandomInt(200, 800), mina.easin, function(){
-                                        bubble8.animate({r: 123}, getRandomInt(200, 800), mina.easin, function(){
-                                            bubble9.animate({r: 41}, getRandomInt(200, 800), mina.easin, function(){
-                                                 })
+            var r = 29/2;
+            if (lg) { r = 74;}
+            bubble1.animate({r: r}, getRandomInt(200, 800), mina.easin, function(){
+                var r = 34/2;
+                if (lg) { r = 143;}
+                bubble2.animate({r: r}, getRandomInt(200, 800), mina.easin, function(){
+                    var r = 34/2;
+                    if (lg) { r = 72;}
+                    bubble3.animate({r: r}, getRandomInt(200, 800), mina.easin, function(){
+                        if (lg) {
+                            bubble4.animate({r: 36}, getRandomInt(200, 800), mina.easin, function(){
+                                bubble5.animate({r: 78}, getRandomInt(200, 800), mina.easin, function(){
+                                    bubble6.animate({r: 76}, getRandomInt(200, 800), mina.easin, function(){
+                                        bubble7.animate({r: 115}, getRandomInt(200, 800), mina.easin, function(){
+                                            bubble8.animate({r: 123}, getRandomInt(200, 800), mina.easin, function(){
+                                                bubble9.animate({r: 41}, getRandomInt(200, 800), mina.easin, function(){
+                                                     })
+                                                  })
                                               })
                                           })
                                       })
                                   })
-                              })
+                        }
                           })
                         })
                     })
         }
 
         function startAnim() {
+            console.log("animation empieza")
             if (window.animVideo == false) {
-                cell1.animate({r: 27}, getRandomInt(200, 800) + 100, mina.easin, animateCells)
+                var r = 36/2;
+                if (lg) { r = 27}
+                cell1.animate({r: r}, getRandomInt(200, 800) + 100, mina.easin, animateCells)
              
             }
             window.animVideo = true;
@@ -117,7 +151,7 @@ function animCells(){
 
         var waypoint = new Waypoint({
             element: document.getElementById('startingpoint-waypoint'),
-            offset: 200,
+            offset: 61,
             handler: startAnim
         });
 

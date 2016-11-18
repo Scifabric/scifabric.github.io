@@ -6,8 +6,8 @@
     }
 
     .contributors {
-        margin-top: 75px;
-        margin-bottom: 173px;
+        margin-top: 50px;
+        margin-bottom: 50px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -27,6 +27,21 @@
         video {
             margin-top: 15px;
             margin-left: 0;
+            width: 251px;
+        }
+    }
+
+    @media(max-width: 420px) {
+        video {
+            margin-top: 690px;
+            width: 275px;
+
+        }
+    }
+
+    @media(max-width: 320px) {
+        video {
+            margin-top: 715px;
             width: 251px;
         }
     }

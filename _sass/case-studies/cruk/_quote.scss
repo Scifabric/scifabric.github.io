@@ -9,12 +9,24 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    @media(max-width:420px) {
+        background-position-x: -1230px;
+    }
 
     .quote-icon {
         margin-left: 17.4%;
         width: 69px;
         height: 51px;
         margin-top: 108px;
+
+        @media(max-width:420px) {
+            width: 53px;
+            margin-top: 88px;
+            margin-left: 0px;
+            img {
+                width: 53px;
+            }
+        }
     }
 
     .text {
@@ -27,6 +39,14 @@
         font-style: normal;
         font-stretch: normal;
         color: rgba(255, 255, 255, 0.73);
+
+        @media(max-width:420px) {
+            margin-left: 12px;
+            width: auto;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 18px;
+        }
 
         strong {
             color: white;
@@ -44,16 +64,29 @@
         color: white;
         padding-bottom: 95px;
         display: flex;
+        @media(max-width:420px) {
+            flex-direction: column;
+            margin-left: 24px;
+        }
+
         .avatar {
             width: 122px;
             img {
                 border-radius: 50%;
                 width: 122px;
+                @media(max-width:420px) {
+                    width: 80px;
+                }
             }
         }
         .data {
             margin-left: 23px;
             width: 283px;
+            @media(max-width:420px) {
+                margin-left: 0;
+                font-size: 15px;
+                padding-right: 10px;
+            }
         }
         h4 {
             font-size: 24px;

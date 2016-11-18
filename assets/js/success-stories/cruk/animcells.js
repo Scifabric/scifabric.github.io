@@ -151,7 +151,7 @@ function animCells(){
 
         var waypoint = new Waypoint({
             element: document.getElementById('startingpoint-waypoint'),
-            offset: 200,
+            offset: 61,
             handler: startAnim
         });
 

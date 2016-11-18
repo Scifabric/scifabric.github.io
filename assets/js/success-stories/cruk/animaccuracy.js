@@ -33,7 +33,7 @@ function animAccuracy(){
 
         var waypoint = new Waypoint({
             element: document.getElementById('results-waypoint'),
-            offset: 200,
+            offset: 61,
             handler: startAnim
         });
 

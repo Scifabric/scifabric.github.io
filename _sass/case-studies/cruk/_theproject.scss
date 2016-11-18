@@ -33,6 +33,14 @@
 
     @media(max-width: 420px) {
         video {
+            margin-top: 690px;
+            width: 275px;
+
+        }
+    }
+
+    @media(max-width: 320px) {
+        video {
             margin-top: 715px;
         }
     }

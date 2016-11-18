@@ -15,13 +15,20 @@
     width: 100%;
     height: 100vh;
     z-index: 99999999;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
 }
 
 
 
 #logo_traced {
-    margin-top: 150px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
     margin-left:auto;
     margin-right:auto;
 }

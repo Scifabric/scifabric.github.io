@@ -26,7 +26,7 @@ function animCells(){
     var s = Snap(".cells-frame");
     var svgurl = "/assets/img/success-stories/cruk/cells-ani.svg";
     var lg = true;
-    if (window.matchMedia("(max-width: 420px)").matches) {
+    if (window.matchMedia("(max-width: 768px)").matches) {
         svgurl = "/assets/img/success-stories/cruk/cells-sm.svg";
         lg = false;
     }

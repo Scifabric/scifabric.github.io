@@ -202,10 +202,6 @@ css: cruk
     <h2>The project</h2>
     <div class="contributors">
         <object id="my-svg" class="responsive hidden-xs" type="image/svg+xml" data="/assets/img/success-stories/cruk/process.svg"></object>
-        <video class="process-video hidden-xs" playsinline autoplay muted loop>
-            <source src="/assets/img/success-stories/cruk/process.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
     </div>
     <div class="columns">
         <div class="column">
@@ -220,11 +216,6 @@ css: cruk
         <div class="column">
             <div class="icon hidden-sm hidden-md hidden-lg">
                 <object id="process-video" class="responsive" type="image/svg+xml" data="/assets/img/success-stories/cruk/process-video.svg"></object>
-                <video class="process-video" playsinline autoplay muted loop>
-                    <source src="/assets/img/success-stories/cruk/process.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-
             </div>
 
             <h3>25 minutes of training</h3>
@@ -317,7 +308,7 @@ We like making people and technology closer. If you need to collect, analyse or 
 <script>
 window._waiting = function() {
     var video = $("#intro");
-    video.on('canplaythrough', function(){
+    video.on('canplay', function(){
         $("body").addClass('loaded');
     });
 }
@@ -338,6 +329,8 @@ function isElementInViewport (el) {
         rect.right <= (window.innerWidth || document.documentElement.clientWidth) /*or $(window).width() */
     );
 }
+
+
 $(document).ready(function() {
 
   var jumbotronHeight = $(".jumbotron-cruk").innerHeight();

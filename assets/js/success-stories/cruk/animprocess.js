@@ -1,4 +1,14 @@
 var lg = true;
+var pvideo = $("<video/>");
+pvideo.attr("playsinline", "1");
+pvideo.attr("autoplay", "1");
+pvideo.attr("muted", "1");
+pvideo.attr("loop", "1");
+var source = $("<source/>");
+source.attr("src", "/assets/img/success-stories/cruk/process.mp4");
+source.attr("type", "video/mp4");
+pvideo.append(source);
+
 if (window.matchMedia("(max-width: 420px)").matches) {
     lg = false;
 }
@@ -9,6 +19,7 @@ if (lg) {
     var tmp = new Vivus('my-svg', {duration: 200});
     vivusProcess.push(tmp)
     vivusProcess[0].stop();
+    $(".contributors").append(pvideo);
 }
 else {
     var tmp = new Vivus('process-volunteers', {duration: 50});
@@ -18,6 +29,7 @@ else {
     vivusProcess[0].stop();
     vivusProcess[1].stop();
     var reset = false;
+    $("#process-video").parent().append(pvideo);
 }
 
 

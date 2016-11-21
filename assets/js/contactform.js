@@ -21,7 +21,7 @@ function showContactForm() {
 function contactForm() {
     console.log("Testing form");
     $.ajax({
-        url: "http://localhost:5000/register",
+        url: "https://formchimp.scifabric.com/register",
         crossDomain: true,
         xhrFields: { withCredentials: true }
     }).done(function(data) {
@@ -32,7 +32,7 @@ function contactForm() {
 
         var xhr = $.ajax({
           type: "POST",
-          url: "http://localhost:5000/register",
+          url: "https://formchimp.scifabric.com/register",
           data: form,
           dataType: "json",
           crossDomain: true,

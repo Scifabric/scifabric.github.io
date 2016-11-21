@@ -11,9 +11,9 @@ if (lg) {
     vivusProcess[0].stop();
 }
 else {
-    var tmp = new Vivus('process-volunteers', {duration: 200});
+    var tmp = new Vivus('process-volunteers', {duration: 50});
     vivusProcess.push(tmp)
-    var tmp = new Vivus('process-experts', {duration: 200});
+    var tmp = new Vivus('process-experts', {duration: 50});
     vivusProcess.push(tmp)
     vivusProcess[0].stop();
     vivusProcess[1].stop();
@@ -52,7 +52,7 @@ if (lg) {
 else {
     var waypointProcess = new Waypoint({
         element: document.getElementById('process-volunteers'),
-        offset: 100,
+        offset: 50,
         handler: startVivusVolunteers
     });
     var waypointReset= new Waypoint({
@@ -63,7 +63,7 @@ else {
 
     var waypointProcess2 = new Waypoint({
         element: document.getElementById('process-experts'),
-        offset: 100,
+        offset: 50,
         handler: startVivusExperts
     });
 

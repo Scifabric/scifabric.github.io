@@ -66,12 +66,12 @@ css: cruk
         <img src="/assets/img/success-stories/cruk/nick.svg">
     </div>
 </div>
-<div class="jumbotron jumbotron-cruk">
+<div class="jumbotron jumbotron-cruk android-chrome">
     <video id="intro" playsinline autoplay muted loop>
-        <source src="/assets/img/success-stories/cruk/intro.mp4" type="video/mp4">
+        <source src="/assets/img/success-stories/cruk/mini-intro.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-    <div class="intro">
+    <div class="intro android-chrome">
         <div class="logos">
             <img class="scifabric-logo" src="/assets/img/success-stories/cruk/scifabric.svg">
             <img class="plus-icon" src="/assets/img/success-stories/cruk/plus.svg">
@@ -202,7 +202,7 @@ css: cruk
     <h2>The project</h2>
     <div class="contributors">
         <object id="my-svg" class="responsive hidden-xs" type="image/svg+xml" data="/assets/img/success-stories/cruk/process.svg"></object>
-        <video class="process-video" width="392" height="279" autoplay loop>
+        <video class="process-video hidden-xs" playsinline autoplay muted loop>
             <source src="/assets/img/success-stories/cruk/process.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -220,6 +220,11 @@ css: cruk
         <div class="column">
             <div class="icon hidden-sm hidden-md hidden-lg">
                 <object id="process-video" class="responsive" type="image/svg+xml" data="/assets/img/success-stories/cruk/process-video.svg"></object>
+                <video class="process-video" playsinline autoplay muted loop>
+                    <source src="/assets/img/success-stories/cruk/process.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
             </div>
 
             <h3>25 minutes of training</h3>
@@ -310,13 +315,12 @@ We like making people and technology closer. If you need to collect, analyse or 
 <script src="/assets/js/success-stories/cruk/animaccuracy.js" type="text/javascript" charset="utf-8"></script>
 <script src="/assets/js/contactform.js" type="text/javascript" charset="utf-8"></script>
 <script>
-window._waiting = function() {
-    var video = $("#intro");
-    video.on('canplaythrough', function(){
-        console.log("Video full");
-        $("body").addClass('loaded');
-    });
-}
+//window._waiting = function() {
+//    var video = $("#intro");
+//    video.on('canplaythrough', function(){
+//        $("body").addClass('loaded');
+//    });
+//}
 
 function isElementInViewport (el) {
 
@@ -335,6 +339,10 @@ function isElementInViewport (el) {
     );
 }
 $(document).ready(function() {
+
+  var jumbotronHeight = $(".jumbotron-cruk").innerHeight();
+  $(".android-chrome").css("height", jumbotronHeight);
+
 
   $(window).scroll(function () {
       //if you hard code, then use console

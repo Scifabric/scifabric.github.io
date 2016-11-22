@@ -125,6 +125,7 @@ body {
          width: 33%;
 
          @media(max-width:768px) {
+             width: auto;
              .btn {
                  font-size: inherit;
              }

@@ -6,7 +6,7 @@ function animAccuracy(){
 
     vivusChart.stop();
 
-    Snap.load("/assets/img/success-stories/cruk/accuracy.svg", function(f) {
+    Snap.load("//cdn.scifabric.com/assets/img/success-stories/cruk/accuracy.svg", function(f) {
         var cell1 = f.select("#accuracybubble");
         var ninety = f.select("#ninety");
         var accuracy = f.select("#accuracy");

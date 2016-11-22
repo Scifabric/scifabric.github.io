@@ -30,8 +30,6 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-    margin-left:auto;
-    margin-right:auto;
 }
 
 #loader-wrapper .loader-section {
@@ -52,11 +50,8 @@
 
 .loading-logo {
     display: block;
-    max-width:150px;
-    margin-top: 183px;
-    margin-left: auto;
-    margin-right: auto;
-}
+    width:150px;
+    }
 
 /* Loaded */
 .loaded #loader-wrapper .loader-section.section-left {

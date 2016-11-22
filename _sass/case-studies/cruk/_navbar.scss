@@ -12,6 +12,12 @@
             display: flex;
             margin-left: 25px;
             align-content: center;
+            a {
+                display: flex;
+                align-content: center;
+                margin: 0;
+                padding: 0;
+            }
             @media(max-width:420px) {
                 margin-left: 10px;
                 .s {

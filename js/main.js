@@ -42,7 +42,7 @@ $(function() {
     setRetinaPictures();
 
     var blueLogo = $("<img/>");
-    blueLogo.attr("src", "/images/nav-logo-blue.svg");
+    blueLogo.attr("src", "//cdn.scifabric.com/images/nav-logo-blue.svg");
 
 
     $(window).scroll(function() {
@@ -78,7 +78,7 @@ $(function() {
 
     $(window).load(function(){
         if ($(this).scrollTop() > 250) {
-            $('#scifabricLogo').attr('src', '/images/nav-logo-blue.svg');
+            $('#scifabricLogo').attr('src', '//cdn.scifabric.com/images/nav-logo-blue.svg');
             $('nav').addClass('show');
         }
 

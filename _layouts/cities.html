@@ -8,31 +8,31 @@
         <meta name="viewport" content="width=device-width">
 
         <!-- Custom CSS -->
-        <link href="/css/bootstrap.css" rel="stylesheet">
+        <link href="{{site.cdn}}/css/bootstrap.css" rel="stylesheet">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link href="/css/default.css?x={{site.time | date: '%s'}}" rel="stylesheet">
         <link href="/css/{{page.css}}.css?x={{site.time | date: '%s'}}" rel="stylesheet">
 
-        <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
-        <link rel="manifest" href="/images/favicon/manifest.json">
+        <link rel="apple-touch-icon" sizes="57x57" href="{{site.cdn}}/images/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="{{site.cdn}}/images/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="{{site.cdn}}/images/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="{{site.cdn}}/images/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="{{site.cdn}}/images/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="{{site.cdn}}/images/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="{{site.cdn}}/images/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="{{site.cdn}}/images/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="{{site.cdn}}/images/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="{{site.cdn}}/images/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{site.cdn}}/images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="{{site.cdn}}/images/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{site.cdn}}/images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="{{site.cdn}}/images/favicon/manifest.json">
         <meta name="msapplication-TileColor" content="#1879a0ff">
-        <meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+        <meta name="msapplication-TileImage" content="{{site.cdn}}/images/favicon/ms-icon-144x144.png">
         <meta name="theme-color" content="#1879a0ff">
 
 
-        <script src="/js/modernizr.custom.js" type="text/javascript" charset="utf-8"></script>
+        <script src="{{site.cdn}}/js/modernizr.custom.js" type="text/javascript" charset="utf-8"></script>
 
 
         <!-- Twitter -->
@@ -40,13 +40,13 @@
         <meta name="twitter:site" content="@Scifabric"/>
         <meta name="twitter:title" content="The story of a man fighting light pollution from space."/>
         <meta name="twitter:description" content="Cities at Night is a research that aims to raise awareness of light pollution and provide tools for monitoring it." />
-        <meta name="twitter:image" content="http://scifabric.com/images/citiesatnight-twittercard.png?x={{site.time | date: '%s'}}" />
+        <meta name="twitter:image" content="{{site.cdn}}/images/citiesatnight-twittercard.png?x={{site.time | date: '%s'}}" />
         <!-- Open Graph -->
         <meta property="og:title" content="The story of a man fighting light pollution from space." />
         <meta property="og:type" content="article" />
         <meta property="og:url" content="http://scifabric.com/citiesatnight/" />
         <meta property="og:description" content="Cities at Night is a research that aims to raise awareness of light pollution and provide tools for monitoring it." />
-        <meta property="og:image" content="http://scifabric.com/images/citiesatnight-facebookcard.png?x={{site.time | date: '%s'}}" />
+        <meta property="og:image" content="{{site.cdn}}/images/citiesatnight-facebookcard.png?x={{site.time | date: '%s'}}" />
         <meta property="og:tag" content="crowdsourcing, research, citizenscience" />
         <meta property="fb:page_id" content="907611755994273"/>
 
@@ -69,7 +69,7 @@
                                 <span class="icon-bar"></span>
                             </button>
                             <a class="navbar-brand" href="/">
-                                <img id="scifabricLogo" alt="logo Scifabric" src="/images/nav-logo.svg">
+                                <img id="scifabricLogo" alt="logo Scifabric" src="{{site.cdn}}/images/nav-logo.svg">
                             </a>
                             <p id="btn-mute-mbl"><a href="#" class="btn btn-header no-desktop"><i id="mute-mbl" class="fa fa-volume-up"></i></a></p>
                         </div>
@@ -166,15 +166,15 @@
         </footer>
         {% include defaultjs.html %}
 
-        <script src="/js/case-studies/cities-at-night/waiting.js" type="text/javascript" charset="utf-8"></script>
-        <script src="/js/case-studies/cities-at-night/modernizr.js" type="text/javascript" charset="utf-8"></script>
-        <script src="/js/case-studies/cities-at-night/theater.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="/js/case-studies/cities-at-night/jquery.waypoints.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="/js/case-studies/cities-at-night/webaudiox.js" type="text/javascript" charset="utf-8"></script>
-        <script src="/js/case-studies/cities-at-night/transcript.js" type="text/javascript" charset="utf-8"></script>
-        <script src="/js/case-studies/cities-at-night/sound.js" type="text/javascript" charset="utf-8"></script>
-        <script src="/js/case-studies/cities-at-night/footer.js" type="text/javascript" charset="utf-8"></script>
-        <script src="/js/ssnncounters.js" type="text/javascript" charset="utf-8"></script>
+        <script src="{{site.cdn}}/js/case-studies/cities-at-night/waiting.js" type="text/javascript" charset="utf-8"></script>
+        <script src="{{site.cdn}}/js/case-studies/cities-at-night/modernizr.js" type="text/javascript" charset="utf-8"></script>
+        <script src="{{site.cdn}}/js/case-studies/cities-at-night/theater.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="{{site.cdn}}/js/case-studies/cities-at-night/jquery.waypoints.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="{{site.cdn}}/js/case-studies/cities-at-night/webaudiox.js" type="text/javascript" charset="utf-8"></script>
+        <script src="{{site.cdn}}/js/case-studies/cities-at-night/transcript.js" type="text/javascript" charset="utf-8"></script>
+        <script src="{{site.cdn}}/js/case-studies/cities-at-night/sound.js" type="text/javascript" charset="utf-8"></script>
+        <script src="{{site.cdn}}/js/case-studies/cities-at-night/footer.js" type="text/javascript" charset="utf-8"></script>
+        <script src="{{site.cdn}}/js/ssnncounters.js" type="text/javascript" charset="utf-8"></script>
 
 
 

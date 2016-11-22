@@ -12,7 +12,7 @@ css: press
             {% for post in site.categories.press %}
             {% if post.featured %}
             <li class="featured col-md-4 col-sm-4 wow fadeInUp">
-            <a class="hidden-xs" href="{{post.link}}"><img src="{{site.URL}}/assets/img/press/{{post.featured_img}}" alt="{{post.author}}" width="100%"/></a>
+            <a class="hidden-xs" href="{{post.link}}"><img src="{{site.cdn}}/assets/img/press/{{post.featured_img}}" alt="{{post.author}}" width="100%"/></a>
             <h4 class="news-heading"><a href="{{post.link}}">{{post.source}}</a></h4>
             {{post.content}}
             </li>
@@ -36,7 +36,7 @@ css: press
             <h2>Awards</h2>
 
             <div class="bignews-banner">
-                <img src="../assets/img/press/prixarts.png" width="100" alt="Honorary Mention Prix Ars Electronica 2016">
+                <img src="{{site.cdn}}/assets/img/press/prixarts.png" width="100" alt="Honorary Mention Prix Ars Electronica 2016">
                 <p><em>Crowdcrafting by SciFabric</em><br>
                 wins <em>Honorary Mention</em> by <strong>Prix Ars Electronica</strong></em></p>
             <p><a href="http://prix2016.aec.at/prixwinner/18190/">Read more</a></p>
@@ -44,7 +44,7 @@ css: press
 
 
             <div class="bignews-banner">
-                <img src="../assets/img/press/zincshower.png" width="100" height="90" alt="Best Start-Up of Zinc Shower 2015 by Sonar+D">
+                <img src="{{site.cdn}}/assets/img/press/zincshower.png" width="100" height="90" alt="Best Start-Up of Zinc Shower 2015 by Sonar+D">
                 <p><em>Crowdcrafting by SciFabric</em><br>
                 wins <em>Best Start-Up of Zinc Shower 2015 award</em> by <strong>Sonar+D</strong></em></p>
             <p><a href="/blog/2015/06/19/Jamendo.html">Read more</a></p>
@@ -52,7 +52,7 @@ css: press
 
 
         <div class="bignews-banner">
-            <img src="../assets/img/press/nominet_trust_100_2014_winner.png" width="100" height="90" alt="Nominet Trust 100 2014 Winner">
+            <img src="{{site.cdn}}/assets/img/press/nominet_trust_100_2014_winner.png" width="100" height="90" alt="Nominet Trust 100 2014 Winner">
             <p><em>Crowdcrafting: our PYBOSSA hosted service</em><br>
             wins a <em>2014 Nominet Trust 100 Award</em></p>
             <p><a href="http://socialtech.org.uk/nominet-trust-100/">See all Nominet Trust 100 projects</a></p>
@@ -119,7 +119,7 @@ Logos and Badges <small class="hidden-xs">ZIP 48.6KB</small></a>-->
                 </a>
                 </li>
                 <li class="screenshot">
-                <a href="/assets/img/press/{{post.screenshot}}">
+                    <a href="{{site.cdn}}/assets/img/press/{{post.screenshot}}">
                     <i class="fa fa-picture-o fa-lg"></i>
                     <span>Screenshot</span>
                 </a>
@@ -149,47 +149,47 @@ Logos and Badges <small class="hidden-xs">ZIP 48.6KB</small></a>-->
     <h3>Full color versions</h3>
     <ul class="row">
         <li class="col-md-4 col-sm-4">
-        <span><img src="/assets/img/press/logos/scifabric.png" alt="Scifabric Logo"></span>
-        Download <a href="/assets/img/press/logos/scifabric.png">PNG</a> | <a href="/assets/img/press/logos/scifabric.svg">SVG</a>
+            <span><img src="{{site.cdn}}/assets/img/press/logos/scifabric.png" alt="Scifabric Logo"></span>
+            Download <a href="{{site.cdn}}/assets/img/press/logos/scifabric.png">PNG</a> | <a href="/assets/img/press/logos/scifabric.svg">SVG</a>
         </li>
         <li class="col-md-4 col-sm-4">
-        <span><img src="/assets/img/press/logos/pybossa.png" alt="PYBOSSA logo"></span>
-        Download <a href="/assets/img/press/logos/pybossa.png">PNG</a> | <a href="/assets/img/press/logos/pybossa.svg">SVG</a>
+            <span><img src="{{site.cdn}}/assets/img/press/logos/pybossa.png" alt="PYBOSSA logo"></span>
+            Download <a href="{{site.cdn}}/assets/img/press/logos/pybossa.png">PNG</a> | <a href="/assets/img/press/logos/pybossa.svg">SVG</a>
         </li>
         <li class="col-md-4 col-sm-4">
-        <span><img src="/assets/img/press/logos/crowdcrafting.png" alt="Crowdcrafting Logo"></span>
-        Download <a href="/assets/img/press/logos/crowdcrafting.png">PNG</a> | <a href="/assets/img/press/logos/crowdcrafting.svg">SVG</a>
+            <span><img src="{{site.cdn}}/assets/img/press/logos/crowdcrafting.png" alt="Crowdcrafting Logo"></span>
+            Download <a href="{{site.cdn}}/assets/img/press/logos/crowdcrafting.png">PNG</a> | <a href="/assets/img/press/logos/crowdcrafting.svg">SVG</a>
         </li>
     </ul>
     <h3>Black &amp; White versions</h3>
     <ul class="row alt">
         <li class="col-md-6 col-sm-6">
-        <span><img src="/assets/img/press/logos/scifabric_black.png" alt="Scifabric black logo"></span>
-        Download <a href="/assets/img/press/logos/scifabric_black.png">PNG</a> | <a href="/assets/img/press/logos/scifabric_black.svg">SVG</a>
+            <span><img src="{{site.cdn}}/assets/img/press/logos/scifabric_black.png" alt="Scifabric black logo"></span>
+            Download <a href="{{site.cdn}}/assets/img/press/logos/scifabric_black.png">PNG</a> | <a href="/assets/img/press/logos/scifabric_black.svg">SVG</a>
         </li>
         <li class="col-md-6 col-sm-6 dark">
-        <span><img src="/assets/img/press/logos/scifabric_white.png" alt="Scifabric white logo"></span>
-        Download <a href="/assets/img/press/logos/scifabric_white.png">PNG</a> | <a href="/assets/img/press/logos/scifabric_white.svg">SVG</a>
+            <span><img src="{{site.cdn}}/assets/img/press/logos/scifabric_white.png" alt="Scifabric white logo"></span>
+            Download <a href="{{site.cdn}}/assets/img/press/logos/scifabric_white.png">PNG</a> | <a href="/assets/img/press/logos/scifabric_white.svg">SVG</a>
         </li>
 
         <li class="col-md-6 col-sm-6">
-        <span><img src="/assets/img/press/logos/pybossa_black.png" alt="PYBOSSA black logo"></span>
-        Download <a href="/assets/img/press/logos/pybossa_black.png">PNG</a> | <a href="/assets/img/press/logos/pybossa_black.svg">SVG</a>
+            <span><img src="{{site.cdn}}/assets/img/press/logos/pybossa_black.png" alt="PYBOSSA black logo"></span>
+            Download <a href="{{site.cdn}}/assets/img/press/logos/pybossa_black.png">PNG</a> | <a href="/assets/img/press/logos/pybossa_black.svg">SVG</a>
         </li>
         <li class="col-md-6 col-sm-6 dark">
-        <span><img src="/assets/img/press/logos/pybossa_white.png" alt="PYBOSSA white logo"></span>
-        <p>Download <a href="/assets/img/press/logos/pybossa_white.png">PNG</a> | <a href="/assets/img/press/logos/pybossa_white.svg">SVG</a></p>
+            <span><img src="{{site.cdn}}/assets/img/press/logos/pybossa_white.png" alt="PYBOSSA white logo"></span>
+            <p>Download <a href="{{site.cdn}}/assets/img/press/logos/pybossa_white.png">PNG</a> | <a href="/assets/img/press/logos/pybossa_white.svg">SVG</a></p>
         </li>
 
 
 
         <li class="col-md-6 col-sm-6">
-        <span><img src="/assets/img/press/logos/crowdcrafting_black.png" alt="Crowdcrafting black logo"></span>
-        Download <a href="/assets/img/press/logos/crowdcrafting_black.png">PNG</a> | <a href="/assets/img/press/logos/crowdcrafting_black.svg">SVG</a>
+            <span><img src="{{site.cdn}}/assets/img/press/logos/crowdcrafting_black.png" alt="Crowdcrafting black logo"></span>
+            Download <a href="{{site.cdn}}/assets/img/press/logos/crowdcrafting_black.png">PNG</a> | <a href="/assets/img/press/logos/crowdcrafting_black.svg">SVG</a>
         </li>
         <li class="col-md-6 col-sm-6 dark">
-        <span><img src="/assets/img/press/logos/crowdcrafting_white.png" alt="Crowdcrafting white logo"></span>
-        Download <a href="/assets/img/press/logos/crowdcrafting_white.png">PNG</a> | <a href="/assets/img/press/logos/crowdcrafting_white.svg">SVG</a>
+            <span><img src="{{site.cdn}}/assets/img/press/logos/crowdcrafting_white.png" alt="Crowdcrafting white logo"></span>
+            Download <a href="{{site.cdn}}/assets/img/press/logos/crowdcrafting_white.png">PNG</a> | <a href="/assets/img/press/logos/crowdcrafting_white.svg">SVG</a>
         </li>
 
 
@@ -203,21 +203,21 @@ Logos and Badges <small class="hidden-xs">ZIP 48.6KB</small></a>-->
 <h3>PYBOSSA Badges</h3>
 <ul class="row alt">
     <li class="col-md-3 col-sm-6 col-xs-12">
-    <span><img src="/assets/img/press/logos/pybossa_badge_white.png" alt=""></span>
-    Download <a href="/assets/img/press/logos/pybossa_badge_white.png">PNG</a> 
+        <span><img src="{{site.cdn}}/assets/img/press/logos/pybossa_badge_white.png" alt=""></span>
+        Download <a href="{{site.cdn}}/assets/img/press/logos/pybossa_badge_white.png">PNG</a> 
     </li>
     <li class="col-md-3 col-sm-6 col-xs-12 dark">
-    <span><img src="/assets/img/press/logos/pybossa_badge_black.png" alt=""></span>
-    Download <a href="/assets/img/press/logos/pybossa_badge_black.png">PNG</a>
+        <span><img src="{{site.cdn}}/assets/img/press/logos/pybossa_badge_black.png" alt=""></span>
+        Download <a href="{{site.cdn}}/assets/img/press/logos/pybossa_badge_black.png">PNG</a>
     </li>
 
     <li class="col-md-3 col-sm-6 col-xs-12">
-    <span><img src="/assets/img/press/logos/pybossa_badge_black_transparent.png" alt=""></span>
-    Download <a href="/assets/img/press/logos/pybossa_badge_black_transparent.png">PNG</a> 
+        <span><img src="{{site.cdn}}/assets/img/press/logos/pybossa_badge_black_transparent.png" alt=""></span>
+        Download <a href="{{site.cdn}}/assets/img/press/logos/pybossa_badge_black_transparent.png">PNG</a> 
     </li>
     <li class="col-md-3 col-sm-6 col-xs-12 dark">
-    <span><img src="/assets/img/press/logos/pybossa_badge_white_transparent.png" alt=""></span>
-    Download <a href="/assets/img/press/logos/pybossa_badge_white_transparent.png">PNG</a>
+        <span><img src="{{site.cdn}}/assets/img/press/logos/pybossa_badge_white_transparent.png" alt=""></span>
+        Download <a href="{{site.cdn}}/assets/img/press/logos/pybossa_badge_white_transparent.png">PNG</a>
     </li>
 
 </ul>

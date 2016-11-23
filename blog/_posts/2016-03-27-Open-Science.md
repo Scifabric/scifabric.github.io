@@ -90,7 +90,7 @@ In his blog [Billion Brain Blog](http://www.billionbrainblog.com/), Francois Gre
  to define a new type of science that inverts the traditional intellectual pyramid [and]… connects 
  people directly to the scientific process”.
 
-![Hooke's microscope](/assets/img/blog/Pyramid.jpg)
+![Hooke's microscope]({{site.cdn}}/assets/img/blog/Pyramid.jpg)
 <p class="post-caption">An inverted pyramid. Photo by <a href="https://www.flickr.com/photos/friutbildning/4865755901/in/photolist-8pYgH8-5paZjJ-7J69xg-24Mg4g-5qqr97-4xabfC-4udTgo-8q2rrf-7QgBXa-4yBboC-7QjXxb-7QgBQR-4x8KGk-7QgBUe-7QgBMV-fMjX7y-36VsGZ-57FAjA-4x8GQg-4x5Ym2-7QjWG5-brTcBP-5cCVbM-mRFjx-4xcFJS-7QjWyo-nxQ9P7-8q2rCE-2Syyr-7Ja7KL-7QgByH-7QjX4u-53fjSF-4xcniS-VM2Rt-7QjWBQ-7QgBi4-8QQNGQ-7QgBBk-4x83K8-7QgBua-7QgBsg-5XTtgM-5XXNG1-7QjWSj-gm5FN-4Hfc88-4xcCLf-7QjX7y-sBzAG">Lars Larsson</a>.</p>
 
 The number of people in the world that are sufficiently educated and wealthy, and have access to 

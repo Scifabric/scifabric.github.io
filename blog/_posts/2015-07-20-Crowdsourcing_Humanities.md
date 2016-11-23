@@ -19,7 +19,7 @@ This blog post focuses on how some of the world's leading research institutions 
 
 [LibCrowds](http://www.libcrowds.com/) is a new crowdsourcing platform that aims to make the physical and digital collections of the [British Library](http://www.bl.uk/) more accessible. The platform is open source, so all datasets generated will be available for download.
 
-![alttext](/assets/img/blog/IndexCards.jpg "Courtesy of Asmund")
+![alttext]({{site.cdn}}/assets/img/blog/IndexCards.jpg "Courtesy of Asmund")
 <p class="post-caption">Photo by <a href="https://www.flickr.com/photos/aasmund/5993042392/in/photolist-7XcTiQ-aEDMSr-AZmBP-a8zUH7-hT9z3h-mVG2p-eKApQ-7c4zmn-2SsHds-e3v2p-62GZsv-dTWkg-69xbpZ-9tRn2x-6Y64Dj-7GjptE-8PQRst-6rp3Eb-2mP3PU-5VkjyT-hvCx9">Asmund</a> Indexed cards.</p>
 
 LibCrowds' maiden project – [Convert-a-Card](http://www.libcrowds.com/project/category/convert-a-card/) – asks volunteers to transcribe text from printed card catalogues into electronic records in order to make them available to a worldwide audience. The project is initially focused on the library's Asian and African collections, particularly the Chinese and Indian catalogues. Data identified, transcribed or translated as part of the project will be freely accessible from the British Library's [Explore](http://explore.bl.uk/primo_library/libweb/action/search.do?dscnt=1&dstmp=1437390432340&vid=BLVU1&fromLogin=true) catalogue.
@@ -30,7 +30,7 @@ Follow [LibCrowds](https://twitter.com/LibCrowds) and the [British Library](http
 
 The [National Library of Israel](http://www.nlics.org/) (NLI) has set up a new platform to improve their metadata where they ask contributors to tag, transcribe and answer questions relating to historical Israeli documents. 
 
-![alttext](/assets/img/blog/HebrewText.jpg "Courtesy of FirewallJC")
+![alttext]({{site.cdn}}/assets/img/blog/HebrewText.jpg "Courtesy of FirewallJC")
 <p class="post-caption">Photo by <a href="https://www.flickr.com/photos/firewalljc/3933346067/in/photolist-6ZzqKv-6ZDrBo-5uHZVL-d3XQJ-hzSk5F-5Zd2rK-75HWy7-8uyCrj-3rrEMd-5vKdF7-9QPUV7-5raBur-dX5NEj-4EpFVX-Phzxp-79U5nw-7gwjqu-9HUUkY-5Y9GoZ-6ci8Z2-kq8xXx-icEnss-ice7YB-8AMPRM-q6C1vd-6aucEF-5Zhepu-7gwuh5-5FmTqq-qmURat-d2naob-hGopDW-qEJSdT-qe4GsK-qr8rd4-qr8qZZ-pu96WL-qr8p2F-q5vXcD-7vp5SF-qobouk-4avqhB-ay3aut-eb9TCG-eb9TdU-eb9ST5-eb9StS-2Vrtjd-6kvQLh-5ZpKnK">FirewallJC</a> Could you help to translate a text such as this?</p>
 
 In order to create a customised platform, the NLI has upgraded to a PyBossa UX/UI interface, developed a back office management system for librarians, and integrated the platform into to the NLI digital library infrastructure.
@@ -41,7 +41,7 @@ Speak Hebrew? Then [give it a go](http://www.nlics.org/)!
 
 The [British Museum](http://www.britishmuseum.org/) and [University College London](http://www.ucl.ac.uk/) (UCL) have teamed-up to create [Micropasts](http://micropasts.org/), a platform that invites members of the public to become citizen archeologists. The project aims to create the world’s leading prehistoric metal database and change the way we research our collective past.
 
-![alttext](/assets/img/blog/axes.jpeg "Courtesy of Micropasts")
+![alttext]({{site.cdn}}/assets/img/blog/axes.jpeg "Courtesy of Micropasts")
 <p class="post-caption">Photo by <a href="http://micropasts.org/">Micropasts</a> Some axes from the British Museum's Bronze Age collection.</p>
 
 The British Museum’s Bronze Age collection contains over 30,000 tools and weapons discovered during the 19th and 20th centuries. Specific details of each artefact are recorded in a massive database of index cards which has been kept since 1913. The Micropasts project seeks contributions to help create 3D models of these artefacts using a process known as photomasking, to transcribe their associated paper records and to identify their sites of discovery.

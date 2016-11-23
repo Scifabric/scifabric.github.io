@@ -23,7 +23,7 @@ Este es un proyecto especial porque parte de la necesidad personal de Daniel y J
 ## Pero, a ver, ¿qué es Sr. Alérgeno?
 Es una plataforma colaborativa para clasificar productos que contienen alérgenos entre sus ingredientes con la ayuda de todos los usuarios y ciudadanos. Está pensada para móviles, como si fuera una app, pero sin necesidad de descarga. Así la información estará siempre a mano cuando más se necesite (es decir, en el súper) ya que esta es abierta y todo el mundo puede acceder a ella libremente.
 
-![Sr. Alérgeno mockup](/assets/img/blog/sralergenomockup.jpg)
+![Sr. Alérgeno mockup]({{site.cdn}}/assets/img/blog/sralergenomockup.jpg)
 
 En esta primera fase del proyecto hemos arrancado clasificando productos de alimentación infantil que pueden contener trigo (o trazas de trigo), para que los celíacos puedan tenerlo en cuenta a la hora de hacer la compra. Pronto añadiremos nuevas categorías de alimentos y en fases posteriores incluiremos también lactosa, frutos secos, pescados y mariscos... 
 Creemos que así Sr. Alérgeno ofrecerá una información muy valiosa a los consumidores, proporcionada, además, por los propios usuarios. 
@@ -33,7 +33,7 @@ Pues muy fácil: al acceder a la aplicación los usuarios pueden hacerlo de form
 
 A cada usuario se le mostrarán una serie de fotografías de producto. En ellas deben revisar si es visible el sello sin gluten, si contienen trigo o no en sus ingredientes y si la información es suficientemente clara. 
 
-![Clasificando productos sin gluten](/assets/img/blog/sralergenoscreenshot.jpg)
+![Clasificando productos sin gluten]({{site.cdn}}/assets/img/blog/sralergenoscreenshot.jpg)
 <p class="post-caption">Pantalla de móvil analizando los ingredientes de un producto.</p>
 
 Y no, una vez revisado un producto, el usuario no puede volver a clasificarlo. Esto lo conseguimos gracias a la IP en el caso de usuarios anónimos o evitando que vuelva a aparecer el mismo producto en el caso de usuarios registrados.
@@ -51,7 +51,7 @@ También hemos establecido tres niveles de confianza para que los usuarios lo te
 Y os ofreceremos un dato porcentual de la cantidad de personas que han identificado el producto como libre o no de gluten (por ejemplo, revisado por 80 personas. El 25% han clasificado este producto como libre de gluten).
 
 
-![Ejemplo de resultado](/assets/img/blog/sralergenoresults.png)
+![Ejemplo de resultado]({{site.cdn}}/assets/img/blog/sralergenoresults.png)
 <p class="post-caption">Ejemplo de resultado de un producto clasificado por 5 personas.</p>
 
 ## El reto

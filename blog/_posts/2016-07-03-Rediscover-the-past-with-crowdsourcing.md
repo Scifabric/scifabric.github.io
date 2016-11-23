@@ -40,7 +40,7 @@ cards that record all bronze age findings in the UK from the 1800s to the 1990s.
 space represented a lost world – the visitor book shows that in the past 30 years only six people 
 have visited the collection. We wanted to reclaim this world.”*
 
- ![Speakers](/assets/img/blog/Speakers.JPG)
+ ![Speakers]({{site.cdn}}/assets/img/blog/Speakers.JPG)
 <p class="post-caption">Nora McGregor (British Library), Chiara Bonacchi (UCL) and Jennifer Wexler (British Museum) warming up for the main event. Photo by <a href="http://scifabric.com/">Scifabric</a>.</p>
 
 The MicroPasts team has built the MicroPasts crowdsourcing website using the [PYBOSSA](http://pybossa.com/) 
@@ -79,7 +79,7 @@ collections, particularly the Chinese, Indian and Indonesian catalogues.
 Data identified, transcribed or translated as part of the project is made freely accessible
  from the British Library’s Explore catalogue.
 
- ![Artefact](/assets/img/blog/Artefact.JPG)
+ ![Artefact]({{site.cdn}}/assets/img/blog/Artefact.JPG)
 <p class="post-caption">A replica Bronze Age artefact held by the British Museum. Photo by <a href="http://scifabric.com/">Scifabric</a>.</p>
 
 ## Lessons learned
@@ -124,7 +124,7 @@ Having a sound and sustained social media strategy is vital to a project’s suc
 attract new contributors and to keep projects fresh in the mind of existing volunteers. 
 Dr Wexler confessed she found this to be the most fun part of the project.
 
- ![Open Source](/assets/img/blog/OpenSource.JPG)
+ ![Open Source]({{site.cdn}}/assets/img/blog/OpenSource.JPG)
 <p class="post-caption">Scifabric CEO Daniel Lombraña González with the British Library's Nora McGregor. Photo by <a href="http://scifabric.com/">Scifabric</a>.</p>
 
 ### Sustaining participation
@@ -160,5 +160,5 @@ their experiences, and helping us to grow the crowdsourcing community.
 
 The event was also the first time the whole Scifabric team got together in one geographical location. Aren't we gorgeous... ? 
 
- ![Scifabric Crew](/assets/img/blog/TeamMadrid.JPG)
+ ![Scifabric Crew]({{site.cdn}}/assets/img/blog/TeamMadrid.JPG)
 <p class="post-caption">The Scifabric Crew. Photo by <a href="http://scifabric.com/">Scifabric</a>.</p>

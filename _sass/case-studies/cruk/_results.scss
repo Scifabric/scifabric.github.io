@@ -16,12 +16,18 @@
             margin-left: 430px;
 
             @media(max-width:420px) {
-                margin-left: 200px;
-                margin-top: -225px;
+                margin-left: 270px;
+                margin-top: -270px;
 
                 svg {
                     width: 100px;
                 }
+            }
+
+            @media(max-width:360px) {
+                margin-left: 200px;
+                margin-top: -225px;
+
             }
 
 

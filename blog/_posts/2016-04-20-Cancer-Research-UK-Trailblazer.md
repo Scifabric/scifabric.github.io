@@ -57,7 +57,7 @@ We developed the initial release in about eight weeks. However, we have had 15 r
 over a six-month development period.  We were pleasantly surprised how much we managed to achieve by ourselves. 
 The few questions and minor problems we encountered were quickly resolved by SciFabric.
 
-![Trailblazer Tutorial]({{sites.cdn}}/assets/img/blog/CancerTutorial.png)
+![Trailblazer Tutorial]({{site.cdn}}/assets/img/blog/CancerTutorial.png)
 <p class="post-caption">A page from the Trailblazer turorial. Photo by <a href="http://www.cancerresearchuk.org/">Cancer Research UK</a>.</p>
 
 ### How many volunteers contributed to the research?
@@ -73,7 +73,7 @@ The team will be working hard to publish more scientific papers and to make the 
 by our citizen scientists available for anyone to study. Citizen science has enabled the world’s largest 
 predictive study in invasive bladder cancer.
 
- ![Trailblazer Results Poster]({{sites.cdn}}/assets/img/blog/CancerResults3.jpeg)
+ ![Trailblazer Results Poster]({{site.cdn}}/assets/img/blog/CancerResults3.jpeg)
 <p class="post-caption">Trailblazer produced bona fide academic results, as reported in this poster. Photo by <a href="https://www.cancerresearchuk.org/sites/default/files/trailblazer_results_poster_ncri_2015.pdf">Cancer Research UK</a>.</p>
 
 ### Has Trailblazer changed the landscape in this field?

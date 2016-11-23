@@ -56,21 +56,21 @@ a book that inspired the use of microscopes for scientific exploration. The deta
 made drawings of insects and plant cells (engraved in copper plates) popularized 
 his work. Check out the following images!
 
-![Hooke's microscope]({{sites.cdn}}/assets/img/blog/Hooke-microscope.png)
+![Hooke's microscope]({{site.cdn}}/assets/img/blog/Hooke-microscope.png)
 <p class="post-caption">Hooke's microscope, from an engraving in Micrographia. Photo by <a href="https://en.wikipedia.org/wiki/Robert_Hooke#/media/File:Hooke-microscope.png">Wikipedia</a>.</p>
 
 The engravings were very detailed, but *the most awesome feature was that you could 
 unfold them, making them larger than the book itself, reinforcing the tremendous 
 power of the microscope*. For example, see this flea:
 
-![Cork cells]({{sites.cdn}}/assets/img/blog/HookeFlea01.jpg)
+![Cork cells]({{site.cdn}}/assets/img/blog/HookeFlea01.jpg)
 <p class="post-caption">Hooke's drawing of a flea. Photo by <a href="https://en.wikipedia.org/wiki/Robert_Hooke#/media/File:HookeFlea01.jpg">Wikipedia</a>.</p>
 
 While these achievements are amazing, you might better know Hooke as the 
 person who coined the term *cell*, as the small structures he observed in a cork sample reminded
 him of honeycomb cells.
 
-![Cork cells]({{sites.cdn}}/assets/img/blog/cork.jpg)
+![Cork cells]({{site.cdn}}/assets/img/blog/cork.jpg)
 <p class="post-caption">Cell structure of Cork by Hooke. Photo by <a href="https://en.wikipedia.org/wiki/Robert_Hooke#/media/File:RobertHookeMicrographia1665.jpg">Wikipedia</a>.</p>
 
 ## The microscope becomes a scientific tool
@@ -112,7 +112,7 @@ scientists to use electrons instead of light, and electromagnets in the
 place of glass lenses, creating the first electron microscope: the 
 [transmission electron microscope](https://en.wikipedia.org/wiki/Transmission_electron_microscopy). This was 1931.
 
-![Polio virus image]({{sites.cdn}}/assets/img/blog/polio.png)
+![Polio virus image]({{site.cdn}}/assets/img/blog/polio.png)
 <p class="post-caption">A TEM image of the polio virus. The polio virus is 30 nm in size. Photo by <a href="https://en.wikipedia.org/wiki/Transmission_electron_microscopy#/media/File:Polio_EM_PHIL_1875_lores.PNG">Wikipedia</a>.</p>
 
 Other researchers tried different techniques. For example, in the 1980s some scientists started the development of the first [scanning probe microscopes](https://en.wikipedia.org/wiki/Scanning_probe_microscopy).  

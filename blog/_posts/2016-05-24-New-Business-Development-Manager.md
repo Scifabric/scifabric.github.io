@@ -28,7 +28,7 @@ marketing and market research before moving into the TV industry, where I have w
 Green, and red, and blue, and orange, and yellow! It depends on my mood really. I love all colours, 
 they all bring something different to the table.
 
-![Trailblazer Tutorial]({{sites.cdn}}/assets/img/blog/Mar.jpg)
+![Trailblazer Tutorial]({{site.cdn}}/assets/img/blog/Mar.jpg)
 <p class="post-caption">The lovely Mar loving all the colours on the table.</p>
 
 
@@ -52,7 +52,7 @@ I can't pick just one. There are way too many great artists past and present. I 
 variety of music from the cheesiest bands to the trendiest, independent labels and totally unknown artists. 
 I enjoy listening to the radio. Right now, I'm digging The Cure.
 
- ![Trailblazer Results Poster]({{sites.cdn}}/assets/img/blog/LoveMusic.jpeg)
+ ![Trailblazer Results Poster]({{site.cdn}}/assets/img/blog/LoveMusic.jpeg)
 <p class="post-caption">Love music. Photo by <a href="https://unsplash.com/photos/hzgs56Ze49s">Anthony Delanoix</a>.</p>
 
 
@@ -95,5 +95,5 @@ The idea of Scifabric, PyBossa and [Crowdcrafting](https://crowdcrafting.org/) h
  
 The sky's the limit, right?
 
- ![Trailblazer Results Poster]({{sites.cdn}}/assets/img/blog/Sky.jpeg)
+ ![Trailblazer Results Poster]({{site.cdn}}/assets/img/blog/Sky.jpeg)
 <p class="post-caption">The limit. Photo by <a href="https://unsplash.com/photos/wgLPy2YBXuc">Paul Csogi</a>.</p>

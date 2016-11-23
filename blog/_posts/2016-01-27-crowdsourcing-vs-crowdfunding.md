@@ -38,7 +38,7 @@ This involves breaking a project up into lots of small, well-defined tasks that 
 
 **[Open Oil](http://crowdcrafting.org/project/openoil/)** – the crowd reviews and extracts key information from thousands of publicly available contracts between oil companies in order to provide a better understanding of how the industry operates (see our [blog post](http://scifabric.com/blog/2015/09/08/Open-Oil.html)).
 
-![alttext]({{sites.cdn}}/assets/img/blog/city.jpg "A City at Night")
+![alttext]({{site.cdn}}/assets/img/blog/city.jpg "A City at Night")
 <p class="post-caption">Photo by <a href="https://www.nasa.gov/centers/johnson/home/">NASA</a> A city at night... but which one?</p>
 
 

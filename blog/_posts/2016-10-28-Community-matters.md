@@ -37,7 +37,7 @@ about what they are observing and their community. This can offer a sense of sel
 to individuals who become valuable contributors to a larger research effort. This may also 
 provide volunteers with a deeper interest in the research topic.
 
- ![Lions]({{sites.cdn}}/assets/img/blog/lions.jpeg)
+ ![Lions]({{site.cdn}}/assets/img/blog/lions.jpeg)
 <p class="post-caption">Like lions, citizen scientists make strong communities. Photo by <a href="https://unsplash.com/collections/364350/community?photo=2Nvfrm2wLQY">Joel Herzog</a>.</p>
 
 ## How to build a community
@@ -72,7 +72,7 @@ individuals to [complete activities that require more advanced interpretation](h
 Cancer Research UK provided a dedicated group of volunteers with 25 minutes of training 
 that allowed them to [detect cancer cells with 95% accuracy](https://scifabric.com/blog/2016/04/20/Cancer-Research-UK-Trailblazer.html).
 
- ![Speakers]({{sites.cdn}}/assets/img/blog/Speakers_small.JPG)
+ ![Speakers]({{site.cdn}}/assets/img/blog/Speakers_small.JPG)
 <p class="post-caption">Project owners Nora McGregor (British Library), Chiara Bonacchi (UCL) and Jennifer Wexler (British Museum) share tips on building a strong community. Photo by <a href="http://scifabric.com/">Scifabric</a>.</p>
 
 ### Communication strategy
@@ -101,7 +101,7 @@ issues underpinning project goals.
 
 Participants expect to be acknowledged for their contribution.
 
- ![Woof - thanks]({{sites.cdn}}/assets/img/blog/Dog.jpg)
+ ![Woof - thanks]({{site.cdn}}/assets/img/blog/Dog.jpg)
 <p class="post-caption">A bit of recognition goes a long way. Photo by <a href="https://unsplash.com/collections/366034/prizes?photo=BXs8SjVelKs">Delaney Dawson</a>.</p>
 
 

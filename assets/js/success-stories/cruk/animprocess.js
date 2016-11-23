@@ -22,7 +22,7 @@ if (lg) {
     $(".contributors").append(pvideo);
 }
 else {
-    var tmp = new Vivus('process-volunteers', {duration: 50, file:'//cdn.scifabric.com/assets/img/success-stories/cruk/process-volunteers.svg'});
+    var tmp = new Vivus('process-volunteers', {duration: 50});
     vivusProcess.push(tmp)
     var tmp = new Vivus('process-experts', {duration: 50});
     vivusProcess.push(tmp)

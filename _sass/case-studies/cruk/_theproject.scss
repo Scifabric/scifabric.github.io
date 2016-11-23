@@ -51,8 +51,15 @@
             /* margin-left: -200px; */
             position: absolute;
             left:0;
+            margin-left: 74px;
+        }
+    }
+
+    @media(max-width:360px) {
+        video {
             margin-left: 47px;
         }
+
     }
 
     @media(max-width: 320px) {

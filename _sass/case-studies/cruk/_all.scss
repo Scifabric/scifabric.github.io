@@ -44,11 +44,13 @@ body {
             font-stretch: normal;
             text-align: center;
             color: $gray;
+            width: 680px;
         }
         @media(max-width: 420px) {
             padding: 10px;
             p {
                 font-size: 20px;
+                width: auto;
             }
         }
     }

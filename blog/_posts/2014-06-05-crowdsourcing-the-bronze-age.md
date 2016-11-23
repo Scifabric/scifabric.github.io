@@ -18,7 +18,7 @@ The British Museum and University College London (UCL) have launched *Micropasts
 
 The Bronze Age collection at the British Museum contains over 30,000 tools and weapons discovered during the 19th and 20th centuries. Specific details of each artefact are recorded in a massive database of index cards which has been kept since 1913. The *Micropasts* project, led by Daniel Pett (British Musuem) and Andrew Bevan (UCL), seeks contributions to help create 3D models of these artefacts and to transcribe their associated paper records.  
 
-![alttext](/assets/img/blog/axes.jpeg) 
+![alttext]({{site.cdn}}/assets/img/blog/axes.jpeg) 
 <p class="post-caption">Photo by <a href="http://micropasts.org">Micropasts</a> – Bronze Age artefacts from the British Museum's collection.</p>
 
 ## Photo-masking
@@ -44,7 +44,7 @@ Andrew Bevan (UCL) thinks that *Micropasts* is:
 
 All the project’s data will be made publicly available so that anyone can use it, whether for academic and research purposes, or even to be incorporated into the on-line environment or for gaming.
 
-![alttext](/assets/img/blog/micropasts.jpeg)
+![alttext]({{site.cdn}}/assets/img/blog/micropasts.jpeg)
 <p class="post-caption">Photo by <a href="http://micropasts.org">Micropasts</a> – 3D print of Bronze Age palstave modelled by Micropasts.</p>
 
 ## SciFabric’s Role

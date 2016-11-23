@@ -21,7 +21,7 @@ The observable universe (including you) is composed almost entirely of matter bu
 
 The [AEgIS experiment](http://aegis.web.cern.ch/aegis/) will shoot antimatter atoms horizontally – whereupon they will fly and fall – at a wall made of matter. On hitting the wall, the antimatter will annihilate with a matter nucleus, producing a burst of light particles (known as pions) and some heavier particles. These particles will travel through a special gel (known as an emulsion) behind the wall which makes their tracks visible. Pions leave thin tracks and heavier particles leave fat tracks.
 
-![alttext](/assets/img/blog/AEGIS4.jpg "Courtesy of AEgIS, CERN")
+![alttext]({{site.cdn}}/assets/img/blog/AEGIS4.jpg "Courtesy of AEgIS, CERN")
 <p class="post-caption">Photo by <a href="http://aegis.web.cern.ch/aegis/">AEgIS, CERN</a> Part of the AEgIS experiment at CERN.</p>
 
 Tracing these tracks to their point of origin will tell the AEgIS team exactly where the annihilation occurred which, in turn, will allow them to calculate how far each antiparticle travels. They will then be able to work out – from the distance each particle flies and falls – how antimatter interacts with gravity. Simple!?
@@ -35,6 +35,6 @@ The team is currently calibrating the experiment so, if you want to get involved
 
 It’s not every day that you have the opportunity to help design an experiment at CERN then analyse its data.  So don’t delay, contribute today at [Antimatter Alpha Project](http://crowdcrafting.org/app/antimatteralpha/)!
 
-![alttext](/assets/img/blog/AEGIS3.gif "Courtesy of AEgIS, CERN")
+![alttext]({{site.cdn}}/assets/img/blog/AEGIS3.gif "Courtesy of AEgIS, CERN")
 <p class="post-caption">Photo by <a href="http://aegis.web.cern.ch/aegis/">AEgIS, CERN</a> Particle tracks through an emulsion gel following a matter-antimatter annihilation.</p>
 

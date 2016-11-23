@@ -30,7 +30,7 @@ $(document).ready(function(){
         vivusProcess[0].stop();
         vivusProcess[1].stop();
         var reset = false;
-        $("#process-video").parent().append(pvideo);
+        $("#video-sm").append(pvideo);
     }
     
     

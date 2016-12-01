@@ -10,10 +10,6 @@
     -o-background-size: cover;
     background-size: cover;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
     width: 100%;
 
     @media(max-width:768px) {
@@ -21,8 +17,8 @@
     }
 
     video {
-        width: auto;
-        height: auto;
+        width: 1280px;
+        height: 720px;
     }
 
     .intro {

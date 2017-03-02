@@ -50,11 +50,11 @@
         <meta name="twitter:title" content="{{page.title}}" />
         <meta name="twitter:description" content="{{page.description}}" />
         {% if page.active == "home" %}
-        <meta name="twitter:image" content="https://{{site.cdn}}/images/cards/twitter.png?x={{site.time | date: '%s'}}" />
+        <meta name="twitter:image" content="https:{{site.cdn}}/images/cards/twitter.png?x={{site.time | date: '%s'}}" />
         {% elsif page.type == 'job' %}
-        <meta name="twitter:image" content="https://{{site.cdn}}/assets/img/jobs/{{page.photo}}.jpg?x={{site.time | date: '%s'}}" />
+        <meta name="twitter:image" content="https:{{site.cdn}}/assets/img/jobs/{{page.photo}}.jpg?x={{site.time | date: '%s'}}" />
         {% else %}
-        <meta name="twitter:image" content="https://{{site.cdn}}/assets/img/blog/{{page.photo}}.jpg?x={{site.time | date: '%s'}}" />
+        <meta name="twitter:image" content="https:{{site.cdn}}/assets/img/blog/{{page.photo}}.jpg?x={{site.time | date: '%s'}}" />
         {% endif %}
         <!-- Open Graph -->
         <meta property="og:title" content="{{page.title}}" />
@@ -62,11 +62,11 @@
         <meta property="og:url" content="http://scifabric.com{{page.url}}" />
         <meta property="og:description" content="{{page.description}}"/>
         {% if page.active == "home" %}
-        <meta property="og:image" content="https://{{site.cdn}}/images/cards/opengraph.png?x={{site.time | date: '%s'}}" />
+        <meta property="og:image" content="https:{{site.cdn}}/images/cards/opengraph.png?x={{site.time | date: '%s'}}" />
         {% elsif page.type == 'job' %}
-        <meta property="og:image" content="https://{{site.cdn}}/assets/img/jobs/{{page.photo}}.jpg?x={{site.time | date: '%s'}}" />
+        <meta property="og:image" content="https:{{site.cdn}}/assets/img/jobs/{{page.photo}}.jpg?x={{site.time | date: '%s'}}" />
         {% else %}
-        <meta property="og:image" content="https://{{site.cdn}}/assets/img/blog/{{page.photo}}.jpg?x={{site.time | date: '%s'}}" />
+        <meta property="og:image" content="https:{{site.cdn}}/assets/img/blog/{{page.photo}}.jpg?x={{site.time | date: '%s'}}" />
         {% endif %}
         <meta property="og:tag" content="crowdsourcing, research, citizenscience" />
         <meta property="fb:page_id" content="907611755994273"/>

@@ -58,6 +58,13 @@ navbar: default
                     <i class="fa fa-linkedin-square"></i></a>
 
                 </p>
+                {% if page.type != 'press' and page.type != 'job' %}
+                <div class="request-a-demo">
+                    <img src="{{site.cdn}}/assets/img/success-stories/cruk/nick.svg">
+                    <p>MAKE. IT. HAPPEN.</p>
+                    <a class="btn btn-default" href="/request-a-demo/">Request a live demo</a>
+                </div>
+                {% endif %}
             </div>
         </div>
     </div>

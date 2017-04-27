@@ -10,7 +10,7 @@ description: "PYBOSSA now supports full text search, web push notifications, dis
 author: teleyinex
 ---
 
-Our last blog post is from last year. And you might be wondering: what have you miss?
+Our last blog post is from last year. And you might be wondering: what have I miss?
 
 A lot! We've been adding new features like: full text search API, web push 
 notifications, Disqus integration, Favorites API for tasks, headless server...

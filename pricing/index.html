@@ -1,0 +1,149 @@
+---
+layout: default
+title: Pricing
+description: We'll taylor a plan to suit your needs
+active: pricing
+navbar: default
+css: pricing
+permalink: /pricing/
+---
+<div class="contactform">
+    <div class="closeform">
+        <img src="{{site.cdn}}/images/close.svg">
+    </div>
+    <div class="step1">
+        <div>
+            <h2>Hola! Nice to hear from your</h2>
+            <form id="contactform">
+                <div class="form-group">
+                    <label for="name">What it is first name?</label>
+                    <input type="name" class="form-control" id="first_name" placeholder="First name, Last name" name="first_name">
+                </div>
+                <div class="form-group">
+                    <label for="name">Your last name?</label>
+                    <input type="lastname" class="form-control" id="last_name" placeholder="First name, Last name" name="last_name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">And your email?</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Drop us a line</label>
+                    <textarea class="form-control" rows="4" id="message" name="message" placeholder=""></textarea>
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="subscribe"> Keep me informed of scifabric’s news (no spam. We promise!)
+                    </label>
+                </div>
+            </form>
+        </div>
+        <div>
+            <button id="contactform-submit" type="submit" class="btn btn-default btn-contactform">Send</button>
+        </div>
+    </div>
+    <div class="step2">
+        <h2>Your message is on its way!</h2>
+        <p>We’ll email back to you very soon. </p>
+        <p>Thanks for contact us :)</p>
+        <img class="responsive" src="{{site.cdn}}/assets/img/nick-happy.svg">
+        <button class="btn btn-default btn-contactform btn-contactform-close">Got it!</button>
+    </div>
+</div>
+
+<div class="background">
+</div>
+<div class="jumbotron jumbotron-pricing">
+</div>
+<div class="pricing">
+    <div class="title">
+        <h1>Pricing Plans</h1>
+        <h2>We'll taylor a plan to suite your needs</h2>
+    </div>
+    <div class="list-prices">
+        <div class="column">
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="half-space"></div>
+            <div class="">
+                <div class="header"></div>
+                <div class="items">
+                    <span class="item left23">Support</span>
+                    <span class="item left23">Project customization</span>
+                    <span class="item left23">Real time data analysis</span>
+                    <span class="item left23">Text search</span>
+                    <span class="item left23">project wizard</span>
+                    <span class="item left23">Resources</span>
+                    <span class="item left23">Support</span>
+                </div>
+            </div>
+        </div>
+        <div class="column" style="margin-right: 13px;">
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="half-space"></div>
+            <div class="inner-column">
+                <div class="header starter-border">
+                    <h2>Starter</h2>
+                    <span class="tagline">Get basic support and fly solo!</span>
+                    <span class="price">250€/month</span>
+                    <span class="btn btn-default btn-getintouch" data-plan="starter">Contact us</span>
+                </div>
+                <div class="items">
+                    <span class="item starter">Support</span>
+                    <span class="item starter">Support</span>
+                    <span class="item starter">Support</span>
+                    <span class="item starter">Support</span>
+                    <span class="item starter">Support</span>
+                    <span class="item starter">Support</span>
+                    <span class="item starter">Support</span>
+                </div>
+            </div>
+        </div>
+        <div class="column pro-border inner-column">
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="half-space"></div>
+                <div class="header">
+                    <h2 class="pro">Pro</h2>
+                    <span class="tagline">Your project is unique. You know it, we'll build it.</span>
+                    <span class="price">Custom price</span>
+                    <span class="btn btn-default-orange btn-getintouch" data-plan="pro">Contact us</span>
+                </div>
+                <div class="items">
+                    <span class="item pro">Support</span>
+                    <span class="item pro">Support</span>
+                    <span class="item pro">Support</span>
+                    <span class="item pro">Support</span>
+                    <span class="item pro">Support</span>
+                    <span class="item pro">Support</span>
+                    <span class="item pro">Support</span>
+                </div>
+        </div>
+    </div>
+</div>
+<div class="faq">
+    <h2>FAQs</h2>
+</div>
+
+{% include defaultjs.html %}
+<script src="{{site.cdn}}/assets/js/contactform.js" type="text/javascript" charset="utf-8"></script>
+<script>
+
+$(document).ready(function() {
+    $(".btn-getintouch").off('click').on('click', function() {
+        $("#message").text("I want to subscribe to " + $(this).data('plan') + " plan.")
+        showContactForm()
+    });
+    
+    $("#contactform-submit").on('click', function(e){
+        e.preventDefault();
+        contactForm();
+    });
+});
+
+
+</script>

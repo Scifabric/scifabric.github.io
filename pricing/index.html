@@ -155,8 +155,72 @@ permalink: /pricing/
         </div>
     </div>
 </div>
+<div class="support">
+    <h2>Support Solutions</h2>
+    <p class="claim">If you are using PYBOSSA on your own we offer extra support just in case something breaks.</p>
+    <div class="ul-container">
+        <div class="li-container">
+            <div class="li-number">
+                <span>1</span>
+            </div>
+            <div class="li-desc-container">
+                <p class="li-title">Create a Support ticket</p>
+                <p class="li-price">100€/Ticket</p>
+                <p class="li-desc">In order to give you a solution we'll spend a minimum of 2h work. Our aim is to come with a solution as soon and economical as possible.</p>
+            </div>
+        </div>
+        <div class="li-container">
+            <div class="li-number">
+                <span>2</span>
+            </div>
+            <div class="li-desc-container">
+                <p class="li-title">Implementation</p>
+                <p class="li-price">SLA</p>
+                <p class="li-desc">If you need development help for the implementation we also offer the resources you need. If you have the team fly solo.</p>
+            </div>
+        </div>
+    </div>
+    <span class="btn btn-default btn-getintouch" data-plan="ticket">Contact us to create a Ticket</span>
+</div>
 <div class="faq">
     <h2>FAQs</h2>
+    <div class="question">
+        <div class="question-container">
+            <div class="question-title">Is PYBOSSA free?</div>
+            <div class="answer">
+                <p>It is, indeed, open-source. That means you can use it freely. BUT if you’re looking to create a project that is unique and has the best features in town, Scifabric will add a great value to it, allowing you to achieve things that you cannot get with PYBOSSA only. That is our secret weapon. In any case, be our guest.</p>
+            </div>
+        </div>
+    </div>
+    <div class="question">
+        <div class="question-container">
+            <div class="question-title">Can I have In-House Training</div>
+            <div class="answer">
+                <p>We do offer In-House Training! We bring expert instruction to use PYBOSSA technology and to full manage your Crowdsourcing projects like a pro starting at 3000E / course.</p>
+            </div>
+        </div>
+    </div>
+    <div class="question">
+        <div class="question-container">
+            <div class="question-title">Is the whole UX/UI Design Included?</div>
+            <div class="answer">
+                <p>Not by default, but we offer UX/UI Design services. That can be included on your SLA. OPTIONAL.</p>
+                <p>
+For our PRO clients, we also offer UX/UI Design (including text and copy) and full development of templates, APIs and other requirements your project may have. Because we want your project to kick-ass!</p>
+                <p>
+                    <strong class="btn-getintouch">Please, get in touch</strong> so we can discuss your needs and get to fully understand your project. Besides, we’d love to hear from you!</p>
+            </div>
+        </div>
+    </div>
+    <div class="question">
+        <div class="question-container">
+            <div class="question-title">What are the integrations</div>
+            <div class="answer">
+                <p>Your project can have AMAZON S3, FLICKER, Dropbox, Twitter, Mailchimp, Youtube, Google Spreadsheets, and more, integrated. You can choose one if you’re going BASIC or you will get them all if you’re going PRO. 
+</p>
+            </div>
+        </div>
+    </div>
 </div>
 
 {% include defaultjs.html %}
@@ -194,6 +258,10 @@ $(document).ready(function() {
 
     $(".cross").off('click').on('click', hideFull);
 
+    $(".question").off('off').on('click', function(){
+        $(this).toggleClass("expanded");
+        $(this).find(".answer").toggleClass("show");
+    });
 });
 
 

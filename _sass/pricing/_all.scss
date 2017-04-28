@@ -299,3 +299,45 @@ $item-height: 55px;
     }
 }
 
+@media(max-width: 412px) {
+    .pricing {
+        padding-top:60px;
+    }
+    .pricing .list-prices .column .items {
+        max-height: none;
+    }
+    .jumbotron-pricing {
+        height: 250px;
+
+    }
+    .pricing .list-prices {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .pricing .list-prices .column {
+        width: 100%;
+    }
+
+    .pricing .list-prices .column .items .item {
+        min-height: 70px;
+    }
+
+    .support .claim, .faq .claim {
+        width: 95%;
+    }
+
+    .support .ul-container, .faq .ul-container {
+        width: 80%;
+    }
+
+    .faq .question .question-container {
+        width: 80%;
+    }
+
+    .pricing .list-prices .pro-border {
+        margin-top: 30px;
+    }
+}
+
+

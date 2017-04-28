@@ -53,15 +53,16 @@ permalink: /pricing/
     </div>
 </div>
 
-<div class="background"></div>
-<div class="full-white"></div>
-<div class="jumbotron jumbotron-pricing">
-</div>
 <div class="pricing">
-    <img class="cross" src="/images/cross.svg">
-    <div class="title">
-        <h1>Pricing Plans</h1>
-        <h2>We'll taylor a plan to suite your needs</h2>
+    <div class="background"></div>
+    <div class="full-white">
+        <img class="cross" src="/images/cross.svg">
+    </div>
+    <div class="jumbotron jumbotron-pricing">
+        <div class="title">
+            <h1>Pricing Plans</h1>
+            <h2>We'll taylor a plan to suite your needs</h2>
+        </div>
     </div>
     <div class="list-prices">
         <div class="column">
@@ -177,6 +178,7 @@ $(document).ready(function() {
         $(".items").addClass("full");
         $(".full-white").addClass("visible");
         $(".cross").addClass("visible");
+        $(".cross").show();
         $(".seemore").hide();
     }
 
@@ -184,6 +186,7 @@ $(document).ready(function() {
        $(".items").removeClass("full");
        $(".full-white").removeClass("visible");
        $(".cross").removeClass("visible");
+        $(".cross").hide();
        $(".seemore").show();
     }
 

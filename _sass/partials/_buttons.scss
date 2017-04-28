@@ -28,6 +28,24 @@
     }
 
 
+.btn-default-orange{
+    color: #fff;
+    border-color: $orange;
+    background-color: $orange;
+    border-width: 2px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    }
+
+.btn-default-orange:hover {
+    color: #fff;
+    border-color: $orange;
+    background-color: $orange;
+    text-decoration: none;
+    }
+
+
+
 .btn-info {
     color: #fff;
     border-color: rgba(255,255,255,.4);

@@ -53,11 +53,12 @@ permalink: /pricing/
     </div>
 </div>
 
-<div class="background">
-</div>
+<div class="background"></div>
+<div class="full-white"></div>
 <div class="jumbotron jumbotron-pricing">
 </div>
 <div class="pricing">
+    <img class="cross" src="/images/cross.svg">
     <div class="title">
         <h1>Pricing Plans</h1>
         <h2>We'll taylor a plan to suite your needs</h2>
@@ -76,6 +77,14 @@ permalink: /pricing/
                     <span class="item left23">Real time data analysis</span>
                     <span class="item left23">Text search</span>
                     <span class="item left23">project wizard</span>
+                    <span class="item left23">Resources</span>
+                    <span class="item left23">Resources</span>
+                    <span class="item left23">Resources</span>
+                    <span class="item left23">Resources</span>
+                    <span class="item left23">Resources</span>
+                    <span class="item left23">Resources</span>
+                    <span class="item left23">Resources</span>
+                    <span class="item left23">Resources</span>
                     <span class="item left23">Resources</span>
                 </div>
             </div>
@@ -98,6 +107,14 @@ permalink: /pricing/
                     <span class="item starter">Not included</span>
                     <span class="item starter">Not included</span>
                     <span class="item starter">1 integration</span>
+                    <span class="item starter">1 integration</span>
+                    <span class="item starter">1 integration</span>
+                    <span class="item starter">1 integration</span>
+                    <span class="item starter">1 integration</span>
+                    <span class="item starter">1 integration</span>
+                    <span class="item starter">1 integration</span>
+                    <span class="item starter">1 integration</span>
+                    <span class="item starter">1 integration</span>
                 </div>
                 <div class="seemore">
                     <span>+ See more</span>
@@ -118,6 +135,14 @@ permalink: /pricing/
                     <span class="item pro">Email within 24h</span>
                     <span class="item pro">Full</span>
                     <span class="item pro"><img src="/images/check.svg"></span>
+                    <span class="item pro"></span>
+                    <span class="item pro"></span>
+                    <span class="item pro"></span>
+                    <span class="item pro"></span>
+                    <span class="item pro"></span>
+                    <span class="item pro"></span>
+                    <span class="item pro"></span>
+                    <span class="item pro"></span>
                     <span class="item pro"></span>
                     <span class="item pro"></span>
                     <span class="item pro"></span>
@@ -147,6 +172,25 @@ $(document).ready(function() {
         e.preventDefault();
         contactForm();
     });
+
+    function showFull() {
+        $(".items").addClass("full");
+        $(".full-white").addClass("visible");
+        $(".cross").addClass("visible");
+        $(".seemore").hide();
+    }
+
+    function hideFull() {
+       $(".items").removeClass("full");
+       $(".full-white").removeClass("visible");
+       $(".cross").removeClass("visible");
+       $(".seemore").show();
+    }
+
+    $(".seemore").off('click').on('click', showFull);
+
+    $(".cross").off('click').on('click', hideFull);
+
 });
 
 

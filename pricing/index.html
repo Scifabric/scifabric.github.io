@@ -75,18 +75,25 @@ permalink: /pricing/
                 <div class="items">
                     <span class="item left23">Support</span>
                     <span class="item left23">Project customization</span>
-                    <span class="item left23">Real time data analysis</span>
-                    <span class="item left23">Text search</span>
+                    <span class="item left23">Stats</span>
+                    <span class="item left23">Real time Data analysis & Text search</span>
                     <span class="item left23">project wizard</span>
                     <span class="item left23">Resources</span>
-                    <span class="item left23">Resources</span>
-                    <span class="item left23">Resources</span>
-                    <span class="item left23">Resources</span>
-                    <span class="item left23">Resources</span>
-                    <span class="item left23">Resources</span>
-                    <span class="item left23">Resources</span>
-                    <span class="item left23">Resources</span>
-                    <span class="item left23">Resources</span>
+                    <span class="item left23">Data Privacy</span>
+                    <span class="item left23">Third-party integrations</span>
+                    <span class="item left23">Number of projects</span>
+                    <span class="item left23">Theme Customization</span>
+                    <span class="item left23">Weekly Email Stats</span>
+                    <span class="item left23">Workflows</span>
+                    <span class="item left23">Customized Export data integrations (aside JSON and CSV files)</span>
+                    <span class="item left23">Social Login</span>
+                    <span class="item left23">Plugin support</span>
+                    <span class="item left23">HTTPS</span>
+                    <span class="item left23">Auto Importers</span>
+                    <span class="item left23">Web Push Notifications</span>
+                    <span class="item left23">Revision History</span>
+                    <span class="item left23">Hosting on your own servers</span>
+                    <span class="item left23">UX/UI</span>
                 </div>
             </div>
         </div>
@@ -104,18 +111,25 @@ permalink: /pricing/
                 <div class="items">
                     <span class="item starter">Email within 72h</span>
                     <span class="item starter">Basic (colors & logo)</span>
+                    <span class="item starter">15-day stats retention</span>
                     <span class="item starter">-</span>
-                    <span class="item starter">Not included</span>
-                    <span class="item starter">Not included</span>
-                    <span class="item starter">1 integration</span>
-                    <span class="item starter">1 integration</span>
-                    <span class="item starter">1 integration</span>
-                    <span class="item starter">1 integration</span>
-                    <span class="item starter">1 integration</span>
-                    <span class="item starter">1 integration</span>
-                    <span class="item starter">1 integration</span>
-                    <span class="item starter">1 integration</span>
-                    <span class="item starter">1 integration</span>
+                    <span class="item starter">Not Included</span>
+                    <span class="item starter">Shared</span>
+                    <span class="item starter">Public data. Basic security</span>
+                    <span class="item starter">Yes (1, your choice)</span>
+                    <span class="item starter">1</span>
+                    <span class="item starter">basic</span>
+                    <span class="item starter">basic</span>
+                    <span class="item starter"><img src="/images/check.svg"></span>
+                    <span class="item starter">-</span>
+                    <span class="item starter">-</span>
+                    <span class="item starter">-</span>
+                    <span class="item starter">-</span>
+                    <span class="item starter">-</span>
+                    <span class="item starter">-</span>
+                    <span class="item starter">-</span>
+                    <span class="item starter">-</span>
+                    <span class="item starter">-</span>
                 </div>
                 <div class="seemore">
                     <span>+ See more</span>
@@ -133,20 +147,27 @@ permalink: /pricing/
                     <span class="btn btn-default-orange btn-getintouch" data-plan="pro">Contact us</span>
                 </div>
                 <div class="items">
-                    <span class="item pro">Email within 24h</span>
-                    <span class="item pro">Full</span>
+                    <span class="item pro">SLAs within 24h</span>
+                    <span class="item pro">Full (custom server and look & feel)</span>
+                    <span class="item pro">Full time stats</span>
                     <span class="item pro"><img src="/images/check.svg"></span>
-                    <span class="item pro"></span>
-                    <span class="item pro"></span>
-                    <span class="item pro"></span>
-                    <span class="item pro"></span>
-                    <span class="item pro"></span>
-                    <span class="item pro"></span>
-                    <span class="item pro"></span>
-                    <span class="item pro"></span>
-                    <span class="item pro"></span>
-                    <span class="item pro"></span>
-                    <span class="item pro"></span>
+                    <span class="item pro">User friendly backend (no code needed)</span>
+                    <span class="item pro">Dedicated / SLA </span>
+                    <span class="item pro">Private data. Only you can download the tasks.</span>
+                    <span class="item pro">Yes (all)</span>
+                    <span class="item pro">SLA / According to needs</span>
+                    <span class="item starter">Full</span>
+                    <span class="item starter">Pro</span>
+                    <span class="item pro"><img src="/images/check.svg"></span>
+                    <span class="item pro"><img src="/images/check.svg"></span>
+                    <span class="item pro"><img src="/images/check.svg"></span>
+                    <span class="item pro"><img src="/images/check.svg"></span>
+                    <span class="item pro"><img src="/images/check.svg"></span>
+                    <span class="item pro"><img src="/images/check.svg"></span>
+                    <span class="item pro"><img src="/images/check.svg"></span>
+                    <span class="item pro"><img src="/images/check.svg"></span>
+                    <span class="item pro"><img src="/images/check.svg"></span>
+                    <span class="item pro">Optional</span>
                 </div>
 
                 <div class="seemore">
@@ -229,7 +250,12 @@ For our PRO clients, we also offer UX/UI Design (including text and copy) and fu
 
 $(document).ready(function() {
     $(".btn-getintouch").off('click').on('click', function() {
-        $("#message").text("I want to subscribe to " + $(this).data('plan') + " plan.")
+        if ($(this).data('plan') === 'ticket') {
+            $("#message").text("I want to open a " + $(this).data('plan'))
+        }
+        else {
+            $("#message").text("I want to subscribe to " + $(this).data('plan') + " plan.")
+        }
         showContactForm()
     });
     

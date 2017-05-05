@@ -43,6 +43,9 @@ $item-height: 55px;
     opacity: 1;
 }
 
+.margin13 {
+    margin-right: 13px;
+}
 
 .pricing {
     padding-top: 70px;
@@ -299,6 +302,58 @@ $item-height: 55px;
     }
 }
 
+@media(max-width: 768px) {
+
+    .jumbotron-pricing {
+        height: 250px;
+
+    }
+
+    .pricing .list-prices {
+        flex-direction: column;
+        margin-top: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .margin13 {
+        margin-right: 0px;
+    }
+
+    .pricing .list-prices .column .items {
+        max-height: none;
+    }
+
+
+    .pricing .list-prices .column {
+        width: 60%;
+    }
+
+    .pricing .list-prices .column .items .item {
+        min-height: 70px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .support .claim, .faq .claim {
+        width: 80%;
+    }
+
+    .support .ul-container, .faq .ul-container {
+        width: 80%;
+    }
+
+    .faq .question .question-container {
+        width: 80%;
+    }
+
+    .pricing .list-prices .pro-border {
+        margin-top: 30px;
+    }
+
+
+}
+
 @media(max-width: 412px) {
     .pricing {
         padding-top:60px;
@@ -316,7 +371,11 @@ $item-height: 55px;
     }
 
     .pricing .list-prices .column {
-        width: 100%;
+        width: 95%;
+    }
+
+    .margin13 {
+        margin-right: 0px;
     }
 
     .pricing .list-prices .column .items .item {

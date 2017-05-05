@@ -198,6 +198,7 @@ $item-height: 55px;
     h2 {
         font-size: 42px;
         color: rgb(84, 110, 123);
+        margin-bottom: 50px;
     }
 
     .claim {
@@ -205,6 +206,7 @@ $item-height: 55px;
         width: 45%;
         font-size: 28px;
         font-weight: 300;
+        margin-bottom: 40px;
     }
 
     .ul-container {
@@ -300,6 +302,13 @@ $item-height: 55px;
         max-height: none;
         background: white;
     }
+}
+
+#ticket:before, #starter:before, #pro:before, #faq:before {
+    content: "";
+    height: 70px;
+    width: 100%;
+
 }
 
 @media(max-width: 768px) {

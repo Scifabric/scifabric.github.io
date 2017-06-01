@@ -55,9 +55,7 @@ permalink: /pricing/
 
 <div id="plans" class="pricing">
     <div class="background hidden-xs hidden-sm"></div>
-    <div class="full-white">
-        <img class="cross" src="/images/cross.svg">
-    </div>
+    <!--<div class="full-white"></div>-->
     <div class="jumbotron jumbotron-pricing">
         <div class="title">
             <h1>Pricing Plans</h1>
@@ -66,6 +64,13 @@ permalink: /pricing/
     </div>
     <div class="list-prices">
         <div class="column hidden-xs">
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
+            <div class="space"></div>
             <div class="space"></div>
             <div class="space"></div>
             <div class="space"></div>
@@ -266,17 +271,13 @@ $(document).ready(function() {
 
     function showFull() {
         $(".items").addClass("full");
-        $(".full-white").addClass("visible");
-        $(".cross").addClass("visible");
-        $(".cross").show();
+        //$(".full-white").addClass("visible");
         $(".seemore").hide();
     }
 
     function hideFull() {
        $(".items").removeClass("full");
-       $(".full-white").removeClass("visible");
-       $(".cross").removeClass("visible");
-        $(".cross").hide();
+       //$(".full-white").removeClass("visible");
        $(".seemore").show();
     }
 

@@ -7,7 +7,7 @@
         <meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{page.title}}{% endif %}">
         <meta name="viewport" content="width=device-width">
 
-        {% if layout.noindex %}
+        {% if layout.noindex or page.noindex %}
         <meta name="robots" content="noindex">
         <meta name="googlebot" content="noindex">
         {% endif %}
@@ -55,9 +55,9 @@
         <meta name="twitter:site" content="@Scifabric" />
         <meta name="twitter:title" content="{{page.title}}" />
         <meta name="twitter:description" content="{{page.description}}" />
-        {% if layout.active == "home" %}
+        {% if layout.active == "home" or page.active == "home" %}
         <meta name="twitter:image" content="https:{{site.cdn}}/images/cards/twitter.png?x={{site.time | date: '%s'}}" />
-        {% elsif layout.type == 'job' %}
+        {% elsif layout.type == 'job' or page.active == "job" %}
         <meta name="twitter:image" content="https:{{site.cdn}}/assets/img/jobs/{{page.photo}}.jpg?x={{site.time | date: '%s'}}" />
         {% else %}
         <meta name="twitter:image" content="https:{{site.cdn}}/assets/img/blog/{{page.photo}}.jpg?x={{site.time | date: '%s'}}" />
@@ -67,9 +67,9 @@
         <meta property="og:type" content="article" />
         <meta property="og:url" content="http://scifabric.com{{page.url}}" />
         <meta property="og:description" content="{{page.description}}"/>
-        {% if layout.active == "home" %}
+        {% if layout.active == "home" or page.active == "home" %}
         <meta property="og:image" content="https:{{site.cdn}}/images/cards/opengraph.png?x={{site.time | date: '%s'}}" />
-        {% elsif layout.type == 'job' %}
+        {% elsif layout.type == 'job' or page.active == "job" %}
         <meta property="og:image" content="https:{{site.cdn}}/assets/img/jobs/{{page.photo}}.jpg?x={{site.time | date: '%s'}}" />
         {% else %}
         <meta property="og:image" content="https:{{site.cdn}}/assets/img/blog/{{page.photo}}.jpg?x={{site.time | date: '%s'}}" />

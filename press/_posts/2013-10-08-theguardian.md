@@ -1,5 +1,5 @@
 ---
-layout: press
+layout: default
 title:  "Social media, crisis mapping and the new frontier in disaster response"
 source: the Guardian
 source_home: http://www.theguardian.com/ 

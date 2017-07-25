@@ -1,5 +1,5 @@
 ---
-layout: press
+layout: default
 title: "Complutense Astrophysicists create the first night images atlas of the earth taken by astronauts"
 source: "AstroMadrid, Astrofísica y Desarrollos tecnológicos en la Comunidad de Madrid"
 source_home: http://astromadrid.cab.inta-csic.es/

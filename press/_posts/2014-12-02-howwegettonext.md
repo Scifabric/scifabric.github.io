@@ -1,5 +1,5 @@
 ---
-layout: press
+layout: default
 title:  Space Photography is Helping to Fight Light Pollution
 source: How We Get To Next
 source_home: http://www.howwegettonext.com/

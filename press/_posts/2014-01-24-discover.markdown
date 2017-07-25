@@ -1,5 +1,5 @@
 ---
-layout: press
+layout: default
 title:  Science For the People, By the People
 source: Discover
 source_home: http://discovermagazine.com/ 

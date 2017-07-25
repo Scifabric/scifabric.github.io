@@ -1,5 +1,5 @@
 ---
-layout: press
+layout: default
 title:  "Sonar+D desembarca en Madrid con lo último en tecnología y creatividad"
 source: "La Vanguardia"
 source_home: http://www.lavanguardia.com

@@ -1,5 +1,5 @@
 ---
-layout: press
+layout: default
 title: "Volunteers help British Museum in crowdsourcing archeology project"
 source: "The Guardian"
 source_home: http://www.theguardian.com/

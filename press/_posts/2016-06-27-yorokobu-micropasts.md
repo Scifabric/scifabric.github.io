@@ -1,5 +1,5 @@
 ---
-layout: press
+layout: default
 title:  "La Edad de Bronce británica revive gracias a tecnología española"
 source: "Yorokobu"
 source_home: https://www.yorokobu.es/

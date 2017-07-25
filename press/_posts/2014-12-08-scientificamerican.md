@@ -1,5 +1,5 @@
 ---
-layout: press
+layout: default
 title:  Lost at Night
 source: Scientific American
 source_home: http://www.scientificamerican.com/

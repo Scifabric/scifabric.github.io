@@ -1,5 +1,5 @@
 ---
-layout: press
+layout: default
 title: "Help NASA Out by Looking at Beautiful Pictures of Space"
 source: "Smithsonian"
 source_home: http://www.smithsonianmag.com/

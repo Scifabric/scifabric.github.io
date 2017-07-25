@@ -8,7 +8,19 @@
         <meta name="viewport" content="width=device-width">
 
         <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/info.css">
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="/css/newdefault.css">
+        {% if layout.css %}
+            {% for css in layout.css %}
+            <link href="{{site.cdn}}/css/{{css}}.css" rel="stylesheet">
+            {% endfor %}
+        {% endif %}
+        {% if page.css %}
+            {% for css in page.css %}
+            <link href="{{site.cdn}}/css/{{css}}.css" rel="stylesheet">
+            {% endfor %}
+        {% endif %}
+
         <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
 
 
@@ -27,11 +39,6 @@
         <div class="bg_image">
         </div>
 
-        <section class="site">
-
             {{ content }}
-
-        </section>
-
     </body>
 </html>

@@ -1,0 +1,32 @@
+body {
+  color:#AABED0;
+  text-rendering:optimizeLegibility;
+  background-repeat: no-repeat;
+  background-color: #002D3C;
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #030E17),
+	color-stop(1, #002D3C)
+);
+	background-image: -o-linear-gradient(bottom, #030E17 0%, #002D3C 100%);
+	background-image: -moz-linear-gradient(bottom, #030E17 0%, #002D3C 100%);
+	background-image: -webkit-linear-gradient(bottom, #030E17 0%, #002D3C 100%);
+	background-image: -ms-linear-gradient(bottom, #030E17 0%, #002D3C 100%);
+	background-image: linear-gradient(to bottom, #030E17 0%, #002D3C 100%);
+
+}
+
+.title,
+.subtitle,
+.content h1, 
+.content h2, 
+.content h3 {
+  color:#AABED0;
+}
+
+section.section {
+    background-color: transparent;
+    background: transparent;
+}

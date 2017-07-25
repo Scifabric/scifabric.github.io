@@ -1,5 +1,5 @@
 ---
-layout: press
+layout: default
 title: "These Incredible Photos From Astronauts Show The Brightest Cities On Earth"
 source: "Co.EXIST"
 source_home: http://www.fastcoexist.com/ 

@@ -1,5 +1,5 @@
 ---
-layout: press
+layout: default
 title:  Crowdcrafting Nominet Trust 100 Award 2014
 source: SocialTech
 source_home: http://socialtech.org.uk/

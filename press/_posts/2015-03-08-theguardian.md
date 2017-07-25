@@ -1,5 +1,5 @@
 ---
-layout: press
+layout: default
 title:  "Why we're crowdsourcing the NSW pecuniary interests register: FAQ"
 source: The Guardian
 source_home: http://www.theguardian.com/

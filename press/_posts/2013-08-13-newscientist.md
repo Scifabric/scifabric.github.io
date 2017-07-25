@@ -1,5 +1,5 @@
 ---
-layout: press
+layout: default
 title:  "Play with antimatter from the comfort of your home"
 source: New Scientist
 source_home: http://www.newscientist.com/

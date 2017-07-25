@@ -1,5 +1,5 @@
 ---
-layout: press
+layout: default
 title:  "Un microscopio casero contra la contaminación del aire"
 source: El Economista
 source_home: http://www.eleconomista.es/

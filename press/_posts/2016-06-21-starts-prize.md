@@ -1,5 +1,5 @@
 ---
-layout: press
+layout: default
 title:  "Crowdcrafting Nomination for STARTS Prize 2016"
 source: "STARTS Prize - Ars Electronica"
 source_home: https://starts-prize.aec.at/

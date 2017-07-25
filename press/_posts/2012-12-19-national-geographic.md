@@ -1,5 +1,5 @@
 ---
-layout: press
+layout: default
 title: "Digital Disaster Response to Typhoon Pablo"
 source: "National Geographic"
 source_home: http://newswatch.nationalgeographic.com/

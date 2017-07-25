@@ -1,5 +1,5 @@
 ---
-layout: press
+layout: default
 title:  "Crowdcrafting, la revolución en la forma de hacer ciencia"
 source: No sólo tendencias
 source_home: http://nosolotendencias.es/

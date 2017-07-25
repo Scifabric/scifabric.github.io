@@ -1,5 +1,5 @@
 ---
-layout: press
+layout: default
 title:  "Join the dots to measure antimatter"
 source: Wired UK
 source_home: http://www.quantumdiaries.org/

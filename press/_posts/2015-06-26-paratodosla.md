@@ -1,5 +1,5 @@
 ---
-layout: press
+layout: default
 title:  "Innovación - Ciencia Colaborativa (Spanish Video)"
 source: Para todos La 2
 source_home: http://www.rtve.es/television/para-todos-la-2/programa/

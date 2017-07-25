@@ -1,5 +1,5 @@
 ---
-layout: press
+layout: default
 title: "Helping, One Click at a Time: MicroMappers and the Digital Humanitarian Responders"
 source: World Science Festival 
 source_home: http://worldsciencefestival.com/

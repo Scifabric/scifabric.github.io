@@ -1,5 +1,5 @@
 ---
-layout: press
+layout: default
 title: "Microtasks: An Unlikely Legacy of Benjamin Franklin"
 source: Huffington Post
 source_home: http://www.huffingtonpost.com/

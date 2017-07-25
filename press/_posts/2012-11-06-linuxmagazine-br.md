@@ -1,5 +1,5 @@
 ---
-layout: press
+layout: default
 title:  "Crowdsourcing aberto com o PyBossa"
 source: Linux Magazine Brazil
 source_home: http://www.linuxmagazine.com.br/

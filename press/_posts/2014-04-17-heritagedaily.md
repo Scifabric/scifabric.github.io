@@ -1,5 +1,5 @@
 ---
-layout: press
+layout: default
 title: "Crowd-sourcing Britain’s Bronze Age"
 source: Heritage Daily
 source_home: http://www.heritagedaily.com/

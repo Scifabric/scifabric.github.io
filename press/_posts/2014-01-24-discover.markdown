@@ -2,7 +2,7 @@
 layout: default
 title:  Science For the People, By the People
 source: Discover
-source_home: http://discovermagazine.com/ 
+source_home: http://discovermagazine.com/
 date:   2014-01-24
 link: http://discovermagazine.com/2014/jan-feb/76-science-for-the-people-by-the-people#.Uw8tj_RdWGk
 screenshot: discover.png

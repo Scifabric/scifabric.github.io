@@ -7,7 +7,7 @@
         <meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{page.title}}{% endif %}">
         <meta name="viewport" content="width=device-width">
 
-        {% if page.noindex %}
+        {% if layout.noindex or page.noindex %}
         <meta name="robots" content="noindex">
         <meta name="googlebot" content="noindex">
         {% endif %}
@@ -16,11 +16,17 @@
         <link href="{{site.cdn}}/css/bootstrap.css" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link href="{{site.cdn}}/css/default.css" rel="stylesheet">
+        {% if layout.css %}
+            {% for css in layout.css %}
+            <link href="{{site.cdn}}/css/{{css}}.css" rel="stylesheet">
+            {% endfor %}
+        {% endif %}
         {% if page.css %}
             {% for css in page.css %}
             <link href="{{site.cdn}}/css/{{css}}.css" rel="stylesheet">
             {% endfor %}
         {% endif %}
+
         <!-- Fonts -->
         <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.7/css/swiper.css">
@@ -49,9 +55,9 @@
         <meta name="twitter:site" content="@Scifabric" />
         <meta name="twitter:title" content="{{page.title}}" />
         <meta name="twitter:description" content="{{page.description}}" />
-        {% if page.active == "home" %}
+        {% if layout.active == "home" or page.active == "home" %}
         <meta name="twitter:image" content="https:{{site.cdn}}/images/cards/twitter.png?x={{site.time | date: '%s'}}" />
-        {% elsif page.type == 'job' %}
+        {% elsif layout.type == 'job' or page.active == "job" %}
         <meta name="twitter:image" content="https:{{site.cdn}}/assets/img/jobs/{{page.photo}}.jpg?x={{site.time | date: '%s'}}" />
         {% else %}
         <meta name="twitter:image" content="https:{{site.cdn}}/assets/img/blog/{{page.photo}}.jpg?x={{site.time | date: '%s'}}" />
@@ -61,9 +67,9 @@
         <meta property="og:type" content="article" />
         <meta property="og:url" content="http://scifabric.com{{page.url}}" />
         <meta property="og:description" content="{{page.description}}"/>
-        {% if page.active == "home" %}
+        {% if layout.active == "home" or page.active == "home" %}
         <meta property="og:image" content="https:{{site.cdn}}/images/cards/opengraph.png?x={{site.time | date: '%s'}}" />
-        {% elsif page.type == 'job' %}
+        {% elsif layout.type == 'job' or page.active == "job" %}
         <meta property="og:image" content="https:{{site.cdn}}/assets/img/jobs/{{page.photo}}.jpg?x={{site.time | date: '%s'}}" />
         {% else %}
         <meta property="og:image" content="https:{{site.cdn}}/assets/img/blog/{{page.photo}}.jpg?x={{site.time | date: '%s'}}" />

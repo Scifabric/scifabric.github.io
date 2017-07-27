@@ -36,6 +36,12 @@ $subtitle-weight:   $weight-light !default
     $i: index($sizes, $size)
     &.is-#{$i}
       font-size: $size
+  // Colors
+  @each $name, $pair in $colors
+    $color: nth($pair, 1)
+    $color-invert: nth($pair, 2)
+    &.is-#{$name}
+      color: $color
 
 .subtitle
   color: $subtitle
@@ -51,3 +57,9 @@ $subtitle-weight:   $weight-light !default
     $i: index($sizes, $size)
     &.is-#{$i}
       font-size: $size
+  // Colors
+  @each $name, $pair in $colors
+    $color: nth($pair, 1)
+    $color-invert: nth($pair, 2)
+    &.is-#{$name}
+      color: $color

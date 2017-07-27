@@ -13,6 +13,7 @@ $green: $green;
 $red: rgb(255, 62, 62);
 
 $success: rgb(0, 211, 167);
+$info: $green;
 $warning: $orange;
 $danger: $red;
 
@@ -33,9 +34,38 @@ $size-9: 0.6rem;
 
 $sizes: $size-1 $size-2 $size-3 $size-4 $size-5 $size-6 $size-8 $size-9; 
 
-$size-small: $size-7;
-$size-normal: $size-7;
-$size-medium: $size-6;
 $size-large: $size-5;
+$size-medium: $size-6;
+$size-normal: $size-7;
+$size-small: $size-8;
 
 @import "bulma";
+
+
+// First fold home page
+
+.graph {
+    overflow-x: hidden;
+    position: absolute;
+    top: 140px;
+    width: 100%;
+}
+
+.people-1 {
+    position: absolute;
+    top: 769px;
+    left: 1068px;
+}
+
+.people-2 {
+    position: absolute;
+    top: 172px;
+    left: 192px;
+}
+
+.people-3 {
+    overflow: hidden;
+    position: absolute;
+    top: 300px;
+    left: 250px;
+}

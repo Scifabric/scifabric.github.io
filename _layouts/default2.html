@@ -14,7 +14,7 @@
 
         <!-- Custom CSS -->
         <link href="{{site.cdn}}/css/bootstrap.css" rel="stylesheet">
-        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
         <link href="{{site.cdn}}/css/newdefault.css" rel="stylesheet">
         {% if layout.css %}
@@ -130,9 +130,7 @@
 
         {{ content }}
 
-        <footer>
-            {% include footer.html %}
-        </footer>
+        {% include footer2.html %}
         {% include defaultjs.html %}
     </body>
 </html>

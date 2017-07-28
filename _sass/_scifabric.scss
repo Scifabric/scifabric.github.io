@@ -92,3 +92,17 @@ $size-small: $size-8;
 @-moz-keyframes pulse {to {box-shadow: 0 0 0 45px $green-a;}}
 @-ms-keyframes pulse {to {box-shadow: 0 0 0 45px $green-a;}}
 @keyframes pulse {to {box-shadow: 0 0 0 45px $green-a;}}
+
+// Second fold
+
+.second-fold.is-first {
+    margin-top: 122px;
+}
+
+.orange-white {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fff432+0,fff432+45,000000+45,000000+100 */
+    background: $orange; /* Old browsers */
+    background: -moz-linear-gradient(top,  $orange 0%, $orange 50%, $white 50%, $white 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  $orange 0%, $orange 50%, $white 50%, $white 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  $orange 0%, $orange 50%, $white 50%, $white 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}

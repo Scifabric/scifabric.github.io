@@ -110,3 +110,27 @@ $size-small: $size-8;
     background: -webkit-linear-gradient(top,  $orange 0%, $orange 50%, $white 50%, $white 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom,  $orange 0%, $orange 50%, $white 50%, $white 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
+
+$third-fold-padding-top: 100px;
+
+.columns.third-fold {
+    padding-top: $third-fold-padding-top;
+}
+
+.third-fold.wall {
+    position: absolute;
+    right: 0;
+}
+
+.third-fold.couple {
+    position: absolute;
+    top: 500px - $third-fold-padding-top;
+    right: 257px;
+    z-index: 3;
+}
+
+.third-fold.man-blue {
+    position: absolute;
+    top: 600px - $third-fold-padding-top;
+    left: 48%;
+}

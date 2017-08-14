@@ -1,0 +1,113 @@
+.graph {
+    overflow-x: hidden;
+    position: absolute;
+    top: 140px;
+    width: 100%;
+
+    @media(max-width: $tablet) {
+        left: -33px;
+        top: 345px;
+        transform: scale(3);
+    }
+
+}
+
+.people-1 {
+    position: absolute;
+    top: 769px;
+    left: 1068px;
+
+
+}
+
+.people-2 {
+    position: absolute;
+    top: 172px;
+    left: 192px;
+}
+
+.people-3 {
+    overflow: hidden;
+    position: absolute;
+    top: 300px;
+    left: 250px;
+
+    @media(max-width: $tablet) {
+        left: -185px;
+        top: 380px;
+        transform: scale(2);
+    }
+}
+
+.is-pulsing {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: none;
+  box-shadow: 0 0 0 0 rgba(0, 168, 137, 0.7);
+  cursor: pointer;
+  -webkit-animation: pulse 1.5s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulse 1.5s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulse 1.5s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulse 1.5s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+.is-pulsing:hover 
+{
+  -webkit-animation: none;-moz-animation: none;-ms-animation: none;animation: none;
+}
+
+@-webkit-keyframes pulse {to {box-shadow: 0 0 0 45px $green-a;}}
+@-moz-keyframes pulse {to {box-shadow: 0 0 0 45px $green-a;}}
+@-ms-keyframes pulse {to {box-shadow: 0 0 0 45px $green-a;}}
+@keyframes pulse {to {box-shadow: 0 0 0 45px $green-a;}}
+
+// Second fold
+
+.second-fold.is-first {
+    margin-top: 122px;
+}
+
+.second-fold.is-second {
+    padding-top: 172px;
+}
+
+.orange-white {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fff432+0,fff432+45,000000+45,000000+100 */
+    background: $orange; /* Old browsers */
+    background: -moz-linear-gradient(top,  $orange 0%, $orange 50%, $white 50%, $white 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  $orange 0%, $orange 50%, $white 50%, $white 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  $orange 0%, $orange 50%, $white 50%, $white 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+$third-fold-padding-top: 100px;
+
+.columns.third-fold {
+    padding-top: $third-fold-padding-top;
+}
+
+.third-fold.wall {
+    position: absolute;
+    right: 0;
+}
+
+.third-fold.couple {
+    position: absolute;
+    top: 500px - $third-fold-padding-top;
+    right: 257px;
+    z-index: 3;
+}
+
+.third-fold.man-blue {
+    position: absolute;
+    top: 600px - $third-fold-padding-top;
+    left: 48%;
+}
+
+// Footer
+.footer-logo {
+    margin-top: -10px;
+}
+
+.ssnn {
+    margin-left: 12px;
+}

@@ -1,44 +1,20 @@
-.graph {
-    overflow-x: hidden;
-    position: absolute;
-    top: 140px;
-    width: 100%;
+.people-graph {
+    background:url('/assets/img/people-bigscreen-graph.svg');
+    background-repeat: no-repeat;
+    @media screen and (max-width: $tablet) {
+        background:url('/assets/img/people-medium-graph.svg');
+        background-repeat: no-repeat;
+    }
 
-    @media(max-width: $tablet) {
-        left: -33px;
-        top: 345px;
-        transform: scale(3);
+    @media screen and (max-width: $mobile) {
+        background:url('/assets/img/people-small-graph.svg');
+        min-height: 140vh;
+        height: 875px;
+        background-position-y: 180px;
+        background-repeat: no-repeat;
     }
 
 }
-
-.people-1 {
-    position: absolute;
-    top: 769px;
-    left: 1068px;
-
-
-}
-
-.people-2 {
-    position: absolute;
-    top: 172px;
-    left: 192px;
-}
-
-.people-3 {
-    overflow: hidden;
-    position: absolute;
-    top: 300px;
-    left: 250px;
-
-    @media(max-width: $tablet) {
-        left: -185px;
-        top: 380px;
-        transform: scale(2);
-    }
-}
-
 .is-pulsing {
   position: relative;
   width: 100px;

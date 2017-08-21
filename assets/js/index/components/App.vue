@@ -25,4 +25,25 @@ export default {
 <style lang="scss">
 @import "../../../../_sass/_scifabric.scss";
 @import "~buefy/src/scss/buefy";
+
+.is-pulsing {
+  position: relative;
+  border: none;
+  box-shadow: 0 0 0 0 rgba(0, 168, 137, 0.7);
+  cursor: pointer;
+  -webkit-animation: pulse 1.5s infinite cubic-bezier(0.66, 0, 0, 1);
+  -moz-animation: pulse 1.5s infinite cubic-bezier(0.66, 0, 0, 1);
+  -ms-animation: pulse 1.5s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulse 1.5s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+.is-pulsing:hover 
+{
+  -webkit-animation: none;-moz-animation: none;-ms-animation: none;animation: none;
+}
+
+@-webkit-keyframes pulse {to {box-shadow: 0 0 0 45px $green-a;}}
+@-moz-keyframes pulse {to {box-shadow: 0 0 0 45px $green-a;}}
+@-ms-keyframes pulse {to {box-shadow: 0 0 0 45px $green-a;}}
+@keyframes pulse {to {box-shadow: 0 0 0 45px $green-a;}}
+
 </style>

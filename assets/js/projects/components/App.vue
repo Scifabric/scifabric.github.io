@@ -28,9 +28,11 @@
                   </figure>
                   <p>{{project.title}}</p>
                   <div class="level">
-                    <div v-for="tag in project.tags" class="level-item">
-                        <span class="button is-primary is-small is-outlined">{{tag}}</span>
-                    </div>
+                      <div class="level-left">
+                        <div v-for="tag in project.tags" class="level-item">
+                            <span class="button is-white is-small is-outlined">{{tag}}</span>
+                        </div>
+                      </div>
                   </div>
             </div>
         </div>
@@ -45,7 +47,6 @@ export default {
             isImageModalActive: false,
             projects: window.projects,
             colors: ['primary', 'success', 'warning', 'info', 'danger' ],
-            lastColor: '',
         } 
     },
     methods:{

@@ -11,4 +11,7 @@ css:
 <section id="projects" class="container">
     <App></App>
 </section>
+<script>
+window.projects = {{ site.data.projects | jsonify }};
+</script>
 <script src="/assets/js/projects.min.js"></script>

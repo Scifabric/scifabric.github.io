@@ -1,60 +1,95 @@
 <template>
-        <div class="tile is-ancestor">
-            <div class="tile is-vertical is-8">
-                <div class="tile">
-                    <div class="tile is-parent is-vertical">
-                        <article class="tile is-child notification is-primary">
-                            <p class="title">Vertical...</p>
-                            <p class="subtitle">Top tile</p>
-                        </article>
-                        <article class="tile is-child notification is-warning">
-                            <p class="title">...tiles</p>
-                            <p class="subtitle">Bottom tile</p>
-                        </article>
-                    </div>
-                    <div class="tile is-parent">
-                        <article class="tile is-child notification is-info">
-                            <p class="title">Middle tile</p>
-                            <p class="subtitle">With an image</p>
-                            <figure class="image is-4by3">
-                                <img src="http://bulma.io/images/placeholders/640x480.png">
-                            </figure>
-                        </article>
-                    </div>
+    <div class="">
+        <div class="level">
+            <span class="level-item title is-1 is-primary">What if we have a technology that can</span>
+        </div>
+        <div class="level">
+            <span class="level-item title is-1 is-primary">help your
+                <div class="is-expanded">
+                    <span class="select is-fullwidth is-empty">
+                        <select class="options">
+                            <option v-for="category in categories">{{category}}</option>
+                        </select>
+                    </span>
                 </div>
-                <div class="tile is-parent">
-                    <article class="tile is-child notification is-danger">
-                        <p class="title">Wide tile</p>
-                        <p class="subtitle">Aligned with the right tile</p>
-                        <div class="content">
-                            <!-- Content -->
-                        </div>
-                    </article>
-                </div>
-            </div>
-            <div class="tile is-parent">
-                <article class="tile is-child notification is-success">
-                    <div class="content">
-                        <p class="title">Tall tile</p>
-                        <p class="subtitle">With even more content</p>
-                        <div class="content">
-                            <!-- Content -->
-                        </div>
-                    </div>
-                </article>
+                            projects?</span>
+        </div>
+        <div class="level">
+            <div v-for="tag in tags" class="level-item">
+                <span class="button is-primary is-small is-outlined">{{tag}}</span>
             </div>
         </div>
+        <div class="columns is-multiline">
+            <div v-for="(project, idx) of projects" class="column is-half notification" :class="[projectColor(idx)]">
+                 <figure class="media-left">
+                    <p class="image is-64x64">
+                      <img src="http://bulma.io/images/placeholders/128x128.png">
+                    </p>
+                  </figure>
+                  <p>{{project.title}}</p>
+                  <div class="level">
+                    <div v-for="tag in project.tags" class="level-item">
+                        <span class="button is-primary is-small is-outlined">{{tag}}</span>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
 </template>
 <script>
+import _ from 'lodash'
+
 export default {
     data(){
         return {
-            isImageModalActive: false
-        }
+            isImageModalActive: false,
+            projects: window.projects,
+            colors: ['primary', 'success', 'warning', 'info', 'danger' ],
+            lastColor: '',
+        } 
+    },
+    methods:{
+        projectColor(idx){
+            return "is-" + this.colors[idx % this.colors.length]
+        },
+
+    },
+    computed: {
+        tags() {
+            var t = []
+            for (var item of this.projects) {
+                for (var tag of item.tags) {
+                    t.push(tag)
+                }
+            }
+            t = _.uniq(t)
+            return t
+            },
+        categories(){
+            var t = []
+            for (var item of this.projects) {
+                t.push(item.category)
+            }
+            t = _.uniq(t)
+            return t
+            }
+
     }
 }
 </script>
 <style lang="scss">
 @import "../../../../_sass/_scifabric.scss";
 @import "~buefy/src/scss/buefy";
+
+.options {
+    border: 0px !important;
+    box-shadow: inset 0 -2px 0 0 $green !important;
+    border-radius: 5px !important;
+    color: $green !important;
+}
+
+.select:not(.is-multiple)::after {
+    border-color: $green !important;
+    border-width: 3px !important;
+}
 </style>

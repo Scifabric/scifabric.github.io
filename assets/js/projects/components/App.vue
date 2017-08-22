@@ -7,7 +7,8 @@
             <span class="level-item title is-1 is-primary">help your
                 <div class="is-expanded">
                     <span class="select is-fullwidth is-empty">
-                        <select class="options">
+                        <select v-model="filter" class="options">
+                            <option>all</option>
                             <option v-for="category in categories">{{category}}</option>
                         </select>
                     </span>
@@ -20,20 +21,22 @@
             </div>
         </div>
         <div class="columns is-multiline">
-            <div v-for="(project, idx) of projects" class="column is-half notification" :class="[projectColor(idx)]">
-                 <figure class="media-left">
-                    <p class="image is-64x64">
-                      <img src="http://bulma.io/images/placeholders/128x128.png">
-                    </p>
-                  </figure>
-                  <p>{{project.title}}</p>
-                  <div class="level">
-                      <div class="level-left">
-                        <div v-for="tag in project.tags" class="level-item">
-                            <span class="button is-white is-small is-outlined">{{tag}}</span>
-                        </div>
-                      </div>
-                  </div>
+            <div v-for="(project, idx) of filteredProjects" class="column is-half">
+                <div class="box notification" :class="projectColor(idx)">
+                    <figure class="media-left">
+                       <p class="image is-64x64">
+                         <img src="http://bulma.io/images/placeholders/128x128.png">
+                       </p>
+                     </figure>
+                     <p class="title is-3">{{project.title}}</p>
+                     <div class="level">
+                         <div class="level-left">
+                           <div v-for="tag in project.tags" class="level-item">
+                               <span class="button is-white is-small is-outlined">{{tag}}</span>
+                           </div>
+                         </div>
+                     </div>
+                </div>
             </div>
         </div>
     </div>
@@ -47,6 +50,8 @@ export default {
             isImageModalActive: false,
             projects: window.projects,
             colors: ['primary', 'success', 'warning', 'info', 'danger' ],
+            filters: {},
+            filter: 'all',
         } 
     },
     methods:{
@@ -56,6 +61,14 @@ export default {
 
     },
     computed: {
+        filteredProjects(){
+            if (this.filter === 'all') {
+                return this.projects
+            }
+            else {
+                return _.filter(this.projects, ['category', this.filter])
+            }
+        },
         tags() {
             var t = []
             for (var item of this.projects) {
@@ -69,7 +82,9 @@ export default {
         categories(){
             var t = []
             for (var item of this.projects) {
-                t.push(item.category)
+                if (item.category !== undefined) {
+                    t.push(item.category)
+                }
             }
             t = _.uniq(t)
             return t

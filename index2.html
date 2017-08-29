@@ -8,33 +8,33 @@ css:
 - home
 - blog-photos
 ---
-<section class="hero is-fullheight people-graph">
+<section class="hero people-graph">
     <div class="hero-head" style="margin-top:50px;">
         <div class="container">
             <h1 class="title is-primary highlight is-1">
                 Give your data a purpose
             </h1>
-    <h2 class="subtitle is-primary is-5">
-        Scifabric can help you enrich, analyze and mine your data!
-    </h2>
-    <div class="level is-mobile">
-        <div class="level-left">
-            <div id="playvideo" class="level-item">
-                <App></App>
-            </div>
-            <div class="level-item">
-                <span class="title is-5 is-info highlight" style="margin-left: 16px;">Watch video</span>
+            <h2 class="subtitle is-primary is-5">
+                Scifabric can help you enrich, analyze and mine your data!
+            </h2>
+            <div class="level is-mobile">
+                <div class="level-left">
+                    <div id="playvideo" class="level-item">
+                        <App></App>
+                    </div>
+                    <div class="level-item">
+                        <span class="title is-5 is-info highlight" style="margin-left: 16px;">Watch video</span>
+                    </div>
+                </div>
             </div>
         </div>
+        <img class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd" src="/assets/img/people-small-graph.svg" style="width:100%;"/>
     </div>
-        </div>
-</section>
-<section class="hero" >
-    <div class="hero-head">
+    <div class="hero-footer">
         <div class="container" style="padding-bottom:2.7%;">
             <div class="columns">
                 <div class="column is-6">
-                    <h1 class="title is-primary highlight is-1">
+                    <h1 class="scifabric-power-crowd-2 title is-primary highlight is-1">
                         Turn your data into accesible and useful information with the power of the crowd
                     </h1>
     <p class="title is-6">
@@ -43,31 +43,23 @@ css:
                 </div>
             </div>
         </div>
+
     </div>
 </section>
-
 <section class="hero is-fullheight orange-white" >
-    <div class="container">
-        <div class="hero-head">
-            <div class="tile is-ancestor clearfix">
-                <div class="tile is-parent is-7">
-                    <div class="tile is-child">
-                        <img style="margin-top:190px;" src="/assets/img/people-levels.svg">
-                        <img style="margin-top:-26px; margin-left:-439px;" src="/assets/img/leader.svg">
-                        <img style="margin-top:-7px; margin-left:-46px" src="/assets/img/man.svg">
-                    </div>
+    <div class="hero-head">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <img class="is-hidden-touch" src="/assets/img/level-bigscreen.svg" style="width:100%; margin-top:140px; left:-48px; position:relative;"/>
                 </div>
-                <div class="tile is-vertical is-parent">
-                    <div class="tile is-child ">
-                        <p class="title is-1 highlight is-primary second-fold is-first">Human data mining that
-                        will take your project 
-                        to the next level </p>
-                        <p class="title is-6">Because results can mean nothing without analysing them, right? All your new generated data can be analysed in real time and turned into fully indexable info. Yeah, don’t thank us just yet. </p>
-                    </div>
-                    <div class="tile is-child second-fold is-second">
-                        <p class="title is-1 is-primary highlight">Data Security is a priority.  You never lose control of your data. </p>
-                        <p class="title is-6">We can make it as flexible as you need your project to be. That includes privacy and security of the data, so you can keep it on your side or make it public. You choose.</p>
-                    </div>
+                <div class="column">
+                    <p class="title is-1 highlight is-primary second-fold is-first">Human data mining that
+                    will take your project 
+                    to the next level </p>
+                    <p class="title is-6">Because results can mean nothing without analysing them, right? All your new generated data can be analysed in real time and turned into fully indexable info. Yeah, don’t thank us just yet. </p>
+                    <p style="margin-top:40%;" class="title is-1 is-primary highlight">Data Security is a priority.  You never lose control of your data. </p>
+                    <p class="title is-6">We can make it as flexible as you need your project to be. That includes privacy and security of the data, so you can keep it on your side or make it public. You choose.</p>
                 </div>
             </div>
         </div>
@@ -82,22 +74,11 @@ css:
                     <h2 class="title is-6">200~Public or private, every project and company make us improve PYBOSSA. Wether you use the data for scientific research or marketing purposes, every client helps keep PYBOSSA alive and its code open source. It’s a WIN-WIN situation!</h2>
                 </div>
                 <div class="column">
-                    <img class="third-fold man-blue" src="/assets/img/man-blue.svg">
-                    <img class="third-fold couple" src="/assets/img/couple-team.svg">
-                    <img class="third-fold wall" src="/assets/img/wall.svg">
+                    <img class="is-hidden-touch" src="/assets/img/social-bigscreen.svg"/>
                 </div>
             </div>
         </div>
 </section>
 
-<section class="hero is-medium">
-    <div class="hero-body">
-        <div class="container has-text-centered">
-            <h1 class="title is-1 is-primary highlight">
-                Are you ready to ROCK?
-            </h1>
-            <button class="button is-info">Get in touch</button>
-        </div>
-    </div>
-</section>
+{% include readytorock.html %}
 <script src="/assets/js/playvideo.min.js"></script>

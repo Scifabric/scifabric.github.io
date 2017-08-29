@@ -1,17 +1,9 @@
 .people-graph {
     background:url('/assets/img/people-bigscreen-graph.svg');
     background-repeat: no-repeat;
-    @media screen and (max-width: $tablet) {
-        background:url('/assets/img/people-medium-graph.svg');
-        background-repeat: no-repeat;
-    }
 
     @media screen and (max-width: $mobile) {
-        background:url('/assets/img/people-small-graph.svg');
-        min-height: 140vh;
-        height: 875px;
-        background-position-y: 180px;
-        background-repeat: no-repeat;
+        background: none;
     }
 
 }
@@ -65,4 +57,8 @@ $third-fold-padding-top: 100px;
 
 .ssnn {
     margin-left: 12px;
+}
+
+.scifabric-power-crowd-2 {
+    margin-top: 485px;
 }

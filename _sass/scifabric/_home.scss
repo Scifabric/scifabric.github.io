@@ -12,6 +12,9 @@
 
 .second-fold.is-first {
     margin-top: 122px;
+    @media screen and (max-width: $mobile) {
+        margin-top: 0px;
+    }
 }
 
 .second-fold.is-second {
@@ -61,4 +64,8 @@ $third-fold-padding-top: 100px;
 
 .scifabric-power-crowd-2 {
     margin-top: 485px;
+    @media screen and (max-width: $mobile) {
+        margin-top: 5px;
+    }
+
 }

@@ -17,7 +17,7 @@
         </div>
         <div class="level">
             <div v-for="tag in tags" class="level-item">
-                <span class="button is-primary is-small is-outlined">{{tag}}</span>
+                <span class="button is-primary is-small is-outlined" :disabled="{disabled: isDisabledTag(tag)}">{{tag}}</span>
             </div>
         </div>
         <div class="columns is-multiline">
@@ -63,6 +63,10 @@ export default {
             console.log(t)
             return t
         },
+        isDisabledTag(tag){
+            if (this.filteredTags.indexOf(tag) == -1) return true
+            else return false
+        },
         projectColor(idx){
             return "is-" + this.colors[idx % this.colors.length]
         },
@@ -87,6 +91,17 @@ export default {
             t = _.uniq(t)
             return t
             },
+        filteredTags() {
+            var t = []
+            for (var item of this.filteredProjects) {
+                for (var tag of item.tags) {
+                    t.push(tag)
+                }
+            }
+            t = _.uniq(t)
+            return t
+            },
+
         categories(){
             var t = []
             for (var item of this.projects) {

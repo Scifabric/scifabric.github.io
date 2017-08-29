@@ -1,0 +1,71 @@
+.data-svg {
+    background:url('/assets/img/data-bigscreen.svg');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    @media screen and (max-width: $mobile) {
+        background:none;
+    }
+
+}
+
+.scifabric-rescue {
+    margin-top: 300px;
+
+    @media screen and (max-width: $mobile) {
+        margin-top: 0px !important;
+    }
+}
+
+.scifabric-crowd-turn {
+    margin-top: 150px;
+    @media screen and (max-width: $mobile) {
+        margin-top: 92px !important;
+    }
+
+}
+
+.scifabric-all-data{
+    margin-top: 600px;
+    @media screen and (max-width: $mobile) {
+        margin-top: 92px !important;
+    }
+
+}
+
+.crowd-svg {
+    background:url('/assets/img/crowd-bigscreen.svg');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+
+    @media screen and (max-width: $mobile) {
+        background:none;
+    }
+
+}
+
+.analysis-squares {
+    background:url('/assets/img/analysis-squares.svg');
+    min-height: 126px;
+    margin-top: 68px;
+    margin-bottom: 68px;
+}
+
+.analysis-svg {
+    background:url('/assets/img/analysis.svg');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    @media screen and (max-width: $tablet) {
+        background:url('/assets/img/people-medium-graph.svg');
+        background-repeat: no-repeat;
+    }
+
+    @media screen and (max-width: $mobile) {
+        background:url('/assets/img/people-small-graph.svg');
+        min-height: 140vh;
+        height: 875px;
+        background-position-y: 180px;
+        background-repeat: no-repeat;
+    }
+
+}

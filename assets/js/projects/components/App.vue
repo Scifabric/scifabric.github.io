@@ -32,7 +32,7 @@
                      <div class="level">
                          <div class="level-left">
                            <div v-for="tag in project.tags" class="level-item">
-                               <span class="button is-white is-small is-outlined">{{tag}}</span>
+                               <span class="button is-white is-small is-outlined" :disabled="isTag(tag)">{{tag}}</span>
                            </div>
                          </div>
                      </div>
@@ -55,6 +55,14 @@ export default {
         } 
     },
     methods:{
+        isTag(tag){
+            var t = _.find(this.filteredProjects, function(p){
+                return _.find(p.tags, function(t){ return t === tag})
+            })
+            console.log("tag")
+            console.log(t)
+            return t
+        },
         projectColor(idx){
             return "is-" + this.colors[idx % this.colors.length]
         },

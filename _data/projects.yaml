@@ -1,0 +1,78 @@
+- title: Title 1
+  cover: nora.png
+  color: is-primary
+  category: journalism
+  tags:
+      - transcription
+      - something
+
+- title: Title 2
+  cover: nora.png
+  color: is-success
+  category: glam
+  tags:
+      - classification
+      - something
+
+- title: Title 3
+  cover: nora.png
+  category: research
+  tags:
+      - geolocation
+      - something
+
+- title: Title 4
+  cover: nora.png
+  category: something
+  tags:
+      - description 
+      - something
+
+- title: Title 5
+  cover: nora.png
+  category: new
+  tags:
+      - image recognition
+      - something
+
+- title: Title 6
+  cover: nora.png
+  category: journalism
+  tags:
+      - image annotation
+      - something
+
+- title: Title 7
+  cover: nora.png
+  category: journalism
+  tags:
+      - 3D modeling
+      - something
+
+- title: Title 8
+  category: journalism
+  cover: nora.png
+  tags:
+      - photomasking
+      - something
+
+- title: Title 9
+  category: journalism
+  cover: nora.png
+  tags:
+      - transcription
+      - something
+
+- title: Title 10
+  category: journalism
+  cover: nora.png
+  tags:
+      - transcription
+      - something
+
+- title: Title 11
+  category: journalism
+  cover: nora.png
+  tags:
+      - transcription
+      - something

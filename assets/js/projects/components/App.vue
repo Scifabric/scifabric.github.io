@@ -1,51 +1,58 @@
 <template>
-    <div class="">
-        <div class="level">
-            <span class="level-item title is-1 is-primary">What if we have a technology that can</span>
+    <div>
+        <div v-if="selectedProject">
+            <Project :project.sync="selectedProject"></Project>
         </div>
-        <div class="level">
-            <span class="level-item title is-1 is-primary">help your
-                <div class="is-expanded">
-                    <span class="select is-fullwidth is-empty">
-                        <select v-model="filter" class="options">
-                            <option>all</option>
-                            <option v-for="category in categories">{{category}}</option>
-                        </select>
-                    </span>
-                </div>
-                            projects?</span>
-        </div>
-        <div class="level">
-            <div v-for="tag in tags" class="level-item">
-                <span v-if="tag.disabled" class="button is-primary is-small is-outlined" disabled>{{tag.tag}}</span>
-                <span v-else class="button is-primary is-small is-outlined">{{tag.tag}}</span>
+        <div v-else>
+            <div class="level">
+                <span class="level-item title is-1 is-primary">What if we have a technology that can</span>
             </div>
-        </div>
-        <div class="columns is-multiline">
-            <div v-for="(project, idx) of filteredProjects" class="column is-half">
-                <div class="box notification" :class="projectColor(idx)">
-                    <figure class="media-left">
-                       <p class="image is-64x64">
-                         <img src="http://bulma.io/images/placeholders/128x128.png">
-                       </p>
-                     </figure>
-                     <p class="title is-3">{{project.title}}</p>
-                     <div class="level">
-                         <div class="level-left">
-                           <div v-for="tag in project.tags" class="level-item">
-                               <span class="button is-white is-small is-outlined" :disabled="isTag(tag)">{{tag}}</span>
-                           </div>
+            <div class="level">
+                <span class="level-item title is-1 is-primary">help your
+                    <div class="is-expanded">
+                        <span class="select is-fullwidth is-empty">
+                            <select v-model="filter" class="options">
+                                <option>all</option>
+                                <option v-for="category in categories">{{category}}</option>
+                            </select>
+                        </span>
+                    </div>
+                                projects?</span>
+            </div>
+            <div class="level">
+                <div v-for="tag in tags" class="level-item">
+                    <span v-if="tag.disabled" class="button is-primary is-small is-outlined" disabled>{{tag.tag}}</span>
+                    <span v-else class="button is-primary is-small is-outlined">{{tag.tag}}</span>
+                </div>
+            </div>
+            <div class="columns is-multiline">
+                <div v-for="(project, idx) of filteredProjects" class="column is-half">
+                    <div class="box notification" :class="projectColor(idx)" @click="select(project)">
+                        <figure class="media-left">
+                           <p class="image is-64x64">
+                             <img src="http://bulma.io/images/placeholders/128x128.png">
+                           </p>
+                         </figure>
+                         <p class="title is-3">{{project.title}}</p>
+                         <div class="level">
+                             <div class="level-left">
+                               <div v-for="tag in project.tags" class="level-item">
+                                   <span class="button is-white is-small is-outlined" :disabled="isTag(tag)">{{tag}}</span>
+                               </div>
+                             </div>
                          </div>
-                     </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </template>
 <script>
+import Project from '../components/Project.vue'
 import _ from 'lodash'
 
 export default {
+    components: {Project},
     data(){
         return {
             isImageModalActive: false,
@@ -53,9 +60,13 @@ export default {
             colors: ['primary', 'success', 'warning', 'info', 'danger' ],
             filters: {},
             filter: 'all',
+            selectedProject: null,
         } 
     },
     methods:{
+        select(project){
+            this.selectedProject = project
+        },
         isTag(tag){
             var t = _.find(this.filteredProjects, function(p){
                 return _.find(p.tags, function(t){ return t === tag})

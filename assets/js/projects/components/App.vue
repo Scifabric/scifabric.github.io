@@ -25,7 +25,7 @@
                     <span v-else class="button is-primary is-small is-outlined">{{tag.tag}}</span>
                 </div>
             </div>
-            <div class="columns is-multiline">
+            <div class="columns is-multiline" style="margin-bottom:160px;">
                 <div v-for="(project, idx) of filteredProjects" class="column is-half">
                     <div class="box notification" :class="projectColor(idx)" @click="select(project)">
                         <figure class="media-left">

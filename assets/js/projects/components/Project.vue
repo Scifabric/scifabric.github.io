@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container" style="margin-bottom:160px;">
         <div class="columns">
             <div class="column is-offset-2 is-2">
                 <a @click="reset"><i style="font-size:10px;" class="material-icons">arrow_back</i> All projects</a>
@@ -66,7 +66,7 @@
                 <a @click="reset"><i style="font-size:10px;" class="material-icons">arrow_back</i> All projects</a>
             </div>
         </div>
-    </div>
+        </div>
     </div>
 </template>
 <script>

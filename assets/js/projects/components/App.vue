@@ -17,7 +17,8 @@
         </div>
         <div class="level">
             <div v-for="tag in tags" class="level-item">
-                <span class="button is-primary is-small is-outlined" :disabled="{disabled: isDisabledTag(tag)}">{{tag}}</span>
+                <span v-if="tag.disabled" class="button is-primary is-small is-outlined" disabled>{{tag.tag}}</span>
+                <span v-else class="button is-primary is-small is-outlined">{{tag.tag}}</span>
             </div>
         </div>
         <div class="columns is-multiline">
@@ -63,14 +64,25 @@ export default {
             console.log(t)
             return t
         },
-        isDisabledTag(tag){
-            if (this.filteredTags.indexOf(tag) == -1) return true
-            else return false
-        },
         projectColor(idx){
             return "is-" + this.colors[idx % this.colors.length]
         },
 
+    },
+    watch: {
+        filteredProjects: function(newVal) {
+            for(let tag of this.tags) {
+                let name = tag.tag
+                let found = _.find(this.filteredTags, {tag:name})
+                console.log("We found " + found)
+                if ( found === undefined) {
+                    tag.disabled = true
+                }
+                else {
+                    tag.disabled = false
+                }
+            }
+        }
     },
     computed: {
         filteredProjects(){
@@ -89,7 +101,11 @@ export default {
                 }
             }
             t = _.uniq(t)
-            return t
+            var tgs = []
+            for (let tmp of t) {
+                tgs.push({tag: tmp, disabled: false})
+            }
+            return tgs
             },
         filteredTags() {
             var t = []
@@ -99,7 +115,11 @@ export default {
                 }
             }
             t = _.uniq(t)
-            return t
+            var tgs = []
+            for (let tmp of t) {
+                tgs.push({tag: tmp, disabled: false})
+            }
+            return tgs
             },
 
         categories(){

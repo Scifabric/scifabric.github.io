@@ -4,11 +4,12 @@
             <Project :project.sync="selectedProject"></Project>
         </div>
         <div v-else class="columns is-multiline is-centered">
-            <div class="column is-8">
-                <span class="level-item title is-1 is-primary highlight first-title">What if we have a technology that can</span>
+            <div class="column is-9">
+                <span class="level-item title is-1 has-text-primary highlight first-title is-hidden-touch">What if we have a technology that can</span>
+                <span class="title is-1 has-text-primary highlight first-title is-hidden-tablet is-hidden-desktop is-hidden-fullhd">What if we have a technology that can help your</span>
             </div>
-            <div class="column is-8">
-                <span class="level-item title is-1 is-primary" style="font-weight: 400;">help your
+            <div class="column is-9">
+                <span class="level-item title is-1 has-text-primary is-hidden-touch" style="font-weight: 400;">help your
                     <div class="wrapper-dropdown level" tabindex="1" :class="{active: showOptions}" @click="toggleOptions">
                         {{filter}} <i class="material-icons">keyboard_arrow_down</i>
                         <ul class="dropdown-special">
@@ -19,13 +20,23 @@
                         </ul>
                     </div>
                 projects?</span>
+                <span class="title is-1 has-text-primary is-hidden-tablet is-hidden-desktop is-hidden-fullhd" style="font-weight: 400;">
+                <div class="wrapper-dropdown level" tabindex="1" :class="{active: showOptions}" @click="toggleOptions">
+                    {{filter}} <i class="material-icons">keyboard_arrow_down</i>
+                    <ul class="dropdown-special">
+                        <li v-for="category in categories" class="is-capitalized" @click="selectOption(category)">
+                            {{category}}
+                            <p v-if="category === 'glam'" style="font-size:14px; margin-top:10px;">Galeries, Libraries, Archives and Museums</p>
+                        </li>
+                    </ul>
+                </div>
+
+                projects?</span>
             </div>
-            <div class="column is-offset-2 is-8">
-                <div class="columns">
-                    <div v-for="tag in tags" class="column">
-                        <span v-if="tag.disabled" class="button is-primary is-small is-outlined" disabled>{{tag.tag}}</span>
-                        <span v-else class="button is-primary is-small is-outlined">{{tag.tag}}</span>
-                    </div>
+            <div class="column is-8">
+                <div class="tags">
+                        <span v-for="tag in tags" v-if="tag.disabled" class="tag is-light" disabled>{{tag.tag}}</span>
+                        <span v-else class="tag is-primary">{{tag.tag}}</span>
                 </div>
             </div>
         </div>

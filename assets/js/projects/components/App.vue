@@ -1,47 +1,50 @@
 <template>
-    <div>
+    <div class="container">
         <div v-if="selectedProject">
             <Project :project.sync="selectedProject"></Project>
         </div>
-        <div v-else>
-            <div class="level">
-                <span class="level-item title is-1 is-primary">What if we have a technology that can</span>
+        <div v-else class="columns is-multiline is-centered">
+            <div class="column is-8">
+                <span class="level-item title is-1 is-primary highlight first-title">What if we have a technology that can</span>
             </div>
-            <div class="level">
-                <span class="level-item title is-1 is-primary">help your
-                    <div class="is-expanded">
-                        <span class="select is-fullwidth is-empty">
-                            <select v-model="filter" class="options">
-                                <option>all</option>
-                                <option v-for="category in categories">{{category}}</option>
-                            </select>
-                        </span>
+            <div class="column is-8">
+                <span class="level-item title is-1 is-primary" style="font-weight: 400;">help your
+                    <div class="wrapper-dropdown level" tabindex="1" :class="{active: showOptions}" @click="toggleOptions">
+                        {{filter}} <i class="material-icons">keyboard_arrow_down</i>
+                        <ul class="dropdown-special">
+                            <li v-for="category in categories" class="is-capitalized" @click="selectOption(category)">
+                                {{category}}
+                                <p v-if="category === 'glam'" style="font-size:14px; margin-top:10px;">Galeries, Libraries, Archives and Museums</p>
+                            </li>
+                        </ul>
                     </div>
-                                projects?</span>
+                projects?</span>
             </div>
-            <div class="level">
-                <div v-for="tag in tags" class="level-item">
-                    <span v-if="tag.disabled" class="button is-primary is-small is-outlined" disabled>{{tag.tag}}</span>
-                    <span v-else class="button is-primary is-small is-outlined">{{tag.tag}}</span>
+            <div class="column is-offset-2 is-8">
+                <div class="columns">
+                    <div v-for="tag in tags" class="column">
+                        <span v-if="tag.disabled" class="button is-primary is-small is-outlined" disabled>{{tag.tag}}</span>
+                        <span v-else class="button is-primary is-small is-outlined">{{tag.tag}}</span>
+                    </div>
                 </div>
             </div>
-            <div class="columns is-multiline" style="margin-bottom:160px;">
-                <div v-for="(project, idx) of filteredProjects" class="column is-half">
-                    <div class="box notification" :class="projectColor(idx)" @click="select(project)">
-                        <figure class="media-left">
-                           <p class="image is-64x64">
-                             <img src="http://bulma.io/images/placeholders/128x128.png">
-                           </p>
-                         </figure>
-                         <p class="title is-3">{{project.title}}</p>
-                         <div class="level">
-                             <div class="level-left">
-                               <div v-for="tag in project.tags" class="level-item">
-                                   <span class="button is-white is-small is-outlined" :disabled="isTag(tag)">{{tag}}</span>
-                               </div>
-                             </div>
+        </div>
+        <div class="columns is-multiline" style="margin-bottom:160px;">
+            <div v-for="(project, idx) of filteredProjects" class="column is-half">
+                <div class="box notification" :class="projectColor(idx)" @click="select(project)">
+                    <figure class="media-left">
+                       <p class="image is-64x64">
+                         <img src="http://bulma.io/images/placeholders/128x128.png">
+                       </p>
+                     </figure>
+                     <p class="title is-3">{{project.title}}</p>
+                     <div class="level">
+                         <div class="level-left">
+                           <div v-for="tag in project.tags" class="level-item">
+                               <span class="button is-white is-small is-outlined" :disabled="isTag(tag)">{{tag}}</span>
+                           </div>
                          </div>
-                    </div>
+                     </div>
                 </div>
             </div>
         </div>
@@ -61,9 +64,16 @@ export default {
             filters: {},
             filter: 'all',
             selectedProject: null,
+            options: false,
         } 
     },
     methods:{
+        selectOption(option){
+            this.filter = option
+        },
+        toggleOptions(){
+            this.options = !this.options
+        },
         select(project){
             this.selectedProject = project
         },
@@ -71,8 +81,6 @@ export default {
             var t = _.find(this.filteredProjects, function(p){
                 return _.find(p.tags, function(t){ return t === tag})
             })
-            console.log("tag")
-            console.log(t)
             return t
         },
         projectColor(idx){
@@ -85,7 +93,6 @@ export default {
             for(let tag of this.tags) {
                 let name = tag.tag
                 let found = _.find(this.filteredTags, {tag:name})
-                console.log("We found " + found)
                 if ( found === undefined) {
                     tag.disabled = true
                 }
@@ -96,6 +103,9 @@ export default {
         }
     },
     computed: {
+        showOptions(){
+            return this.options
+        },
         filteredProjects(){
             if (this.filter === 'all') {
                 return this.projects
@@ -161,5 +171,87 @@ export default {
 .select:not(.is-multiple)::after {
     border-color: $green !important;
     border-width: 3px !important;
+}
+
+.first-title {
+    /* margin-bottom: -53px;
+    z-index: 1; */
+}
+
+.wrapper-dropdown {
+    position: relative;
+    width: 350px;
+    margin: 0 auto;
+    outline: none;
+    cursor: pointer;
+    border: 0px !important;
+    box-shadow: inset 0 -2px 0 0 $green !important;
+    border-radius: 5px !important;
+    color: $green !important;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.dropdown-special {
+    position: absolute;
+    top: 100%;
+    left: -5px;
+    right: 0px;
+    background: white;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    list-style: none;
+    opacity: 0;
+    pointer-events: none;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-bottom: 30px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+.wrapper-dropdown.active .dropdown-special {
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 2;
+}
+
+.wrapper-dropdown .dropdown-special {
+    position: absolute;
+    top: 100%;
+    left: -5px;
+    right: 0px;
+    background: white;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    list-style: none;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.wrapper-dropdown .dropdown-special li:nth-child(1) a {
+    border-left-color: #00ACED;
+}
+
+.wrapper-dropdown .dropdown-special li {
+    display: block;
+    text-decoration: none;
+    color: $primary;
+    border-left: 3px solid $primary;
+    padding: 10px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    margin-top: 20px;
 }
 </style>

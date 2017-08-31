@@ -35,12 +35,10 @@
             </div>
             <div class="column is-8">
                 <div class="tags">
-                        <span v-for="tag in tags" v-if="tag.disabled" class="tag is-light" disabled>{{tag.tag}}</span>
-                        <span v-else class="tag is-primary">{{tag.tag}}</span>
+                        <span v-for="tag in tags" v-if="tag.disabled" class="button is-primary is-small is-outlined tag" disabled>{{tag.tag}}</span>
+                        <span v-else class="button is-primary is-small is-outlined tag">{{tag.tag}}</span>
                 </div>
             </div>
-        </div>
-        <div class="columns is-multiline" style="margin-bottom:160px;">
             <div v-for="(project, idx) of filteredProjects" class="column is-half">
                 <div class="box notification" :class="projectColor(idx)" @click="select(project)">
                     <figure class="media-left">
@@ -49,7 +47,7 @@
                        </p>
                      </figure>
                      <p class="title is-3">{{project.title}}</p>
-                     <div class="level">
+                     <div class="level is-mobile">
                          <div class="level-left">
                            <div v-for="tag in project.tags" class="level-item">
                                <span class="button is-white is-small is-outlined" :disabled="isTag(tag)">{{tag}}</span>
@@ -191,7 +189,8 @@ export default {
 
 .wrapper-dropdown {
     position: relative;
-    width: 350px;
+    min-width: 330px;
+    max-width: 350px;
     margin: 0 auto;
     outline: none;
     cursor: pointer;

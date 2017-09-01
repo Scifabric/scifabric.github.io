@@ -1,5 +1,6 @@
 <template>
     <div class="container has-text-centered">
+        <Contact :modalactive.sync="modalactive"></Contact>
         <h1 class="title is-1 has-text-primary highlight">Pricing Plans</h1>
         <h2 class="subtitle is-2 has-text-primary">We'll tailor a plan to suit your needs</h2>
         <div class="columns is-centered">
@@ -9,7 +10,7 @@
                     <h3 class="title is-3 has-text-primary">Starter</h3>
                     <h4 class="subtitle is-4 has-text-primary">Get basic support and fly solo!</h4>
                     <p class="highlight">250€/month</p>
-                    <a href="#" class="button is-primary">Contact us</a>
+                    <a @click="toggleContact" href="#" class="button is-primary">Contact us</a>
                 </div>
             </div>
             <div class="column">
@@ -17,7 +18,7 @@
                     <h3 class="title is-3 has-text-white">Pro</h3>
                     <h4 class="subtitle is-4 has-text-white">Get basic support and fly solo!</h4>
                     <p class="highlight">Custom price</p>
-                    <a href="#" class="button is-white">Contact us</a>
+                    <a @click="toggleContact" href="#" class="button is-white">Contact us</a>
                 </div>
             </div>
         </div>
@@ -148,13 +149,24 @@
     </div>
 </template>
 <script>
+import Contact from '../components/contact.vue'
+
 export default {
+    components: {
+        Contact
+    },
     data(){
         return {
+            modalactive: false,
             faq1: false,
             faq2: false,
             faq3: false,
             faq4: false,
+        }
+    },
+    methods: {
+        toggleContact() {
+            this.modalactive = !this.modalactive
         }
     },
     computed: {

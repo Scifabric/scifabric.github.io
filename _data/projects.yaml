@@ -80,3 +80,48 @@
   how_does_it_work:  "<p>Almost all large ocean-going vessels are required to carry an Automatic Identification System, which periodically broadcasts a vessel’s location and identity. Satellites can use these signals to track the movements of fishing vessels. Global Fishing Watch enlists the help of volunteers to identify vessel movement that is suggestive of fishing activity. This is a pattern recognition problem and so input from citizens is crucial.</p><h2 class='has-text-primary'>Results</h2><p>Since the Phoenix Islands Protected Area (PIPA) – a swathe of unspoilt ocean located in the central Pacific between Hawaii and Australia that is the world’s largest UNESCO World Heritage Site – was officially closed to industrial fishing, Global Fishing Watch monitors the park to ensure fishing vessels stay out.</p><p><iframe width='560' height='315' src='https://www.youtube.com/embed/I2jeOa0HmiU?rel=0&amp;controls=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe></p>"
   tags:
       - geolocation
+
+- title: Fighting Malaria
+  person: 
+  cover: https://cdn.scifabric.com/assets/img/blog/Mosquito3.jpg
+  person_name: Nicolas Maire
+  person_position: Group Leader of Public Health Computing
+  category: Medicine
+  project: Malaria Control
+  client: Swiss Tropical and Public Health Institute
+  client_logo: swiss-tropical-color.jpg
+  location: Switzerland
+  quote: "An unexpected bonus of using Crowdcrafting has been the outreach achieved - lots more people know about the research projects because we’ve crowdsourced the data."
+  links:
+       - link: https://scifabric.com/blog/2014/10/03/Rural_Geolocator.html
+         title: Blog
+       - link: https://crowdcrafting.org/project/RuralGeolocator/
+         title: Rural Geolocator
+       - link:  https://www.swisstph.ch/en/
+         title: Swiss TPH
+  starting_point: "<p>ield teams trying to stop the spread of Malaria need to deliver technologies and advice to indigenous populations to prevent them from contracting the disease. To deliver these tools, the teams need to know where people live. While they try their best to visit everyone, inevitably they miss some people out who, perhaps, live in remote areas which are difficult to access.</p>"
+  what_we_did: "<p>PYBOSSA software was used to create Rural Gelocator, a platform for identifying potentially habitable dwellings in satellite images. PYBOSSA plugins allow large volumes of satellite data to be easily uploaded to the platform. The ready-to-use image pattern recognition template allows citizens to identify patterns in images. Data can be analysed in real time, allowing researchers to save time, money and accelerate research.</p>"
+  how_does_it_work: "<p>The Rural Geolcator team acquired thousands of satellite images (imported from Bing) to help locate structures where people might live in specific areas. There is a diverse range of possibilities of what constitutes a ‘potentially habitable structure’ that only the human brain can interpret – computer algorithms cannot be used for these tasks. Volunteers identify and georeference potentially habitable dwellings so that field workers can visit these sites and distribute anti-Malaria technologies.</p><h2 class='has-text-primary'>Results</h2><p>Data sets collected for Rusinga Island, Kenya and Majete Wildlife Researcve, Malawi were used to create maps of potentially habitable structures to overlay maps of houses visited by field teams. These maps were used to identify households missed by field teams and deliver anti-Malaria technology. Using satellite imagery and crowdsourcing has improved data to guide both field research and the implementation of malaria control measures.</p><p><img src='https://cdn.scifabric.com/assets/img/blog/enumerators.JPG'></p>"
+  tags:
+      - geolocation
+
+- title: 
+  person: 
+  cover: 
+  person_name: 
+  person_position: 
+  category: 
+  project: 
+  client: 
+  client_logo: 
+  location: 
+  quote: 
+  links:
+      - link: 
+        title: Blog
+
+        starting_point: 
+  what_we_did: 
+  how_does_it_work:  
+  tags:
+      - transcription

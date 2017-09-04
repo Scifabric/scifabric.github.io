@@ -42,8 +42,8 @@
             <div v-for="(project, idx) of filteredProjects" class="column is-half">
                 <div class="box notification" :class="projectColor(idx)" @click="select(project)">
                     <figure class="media-left">
-                       <p class="image is-64x64">
-                         <img src="http://bulma.io/images/placeholders/128x128.png">
+                       <p class="image is-130x130">
+                         <img :src="project.cover" style="width:130px; height:130px;">
                        </p>
                      </figure>
                      <p class="title is-3">{{project.title}}</p>

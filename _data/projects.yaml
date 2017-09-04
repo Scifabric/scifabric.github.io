@@ -1,117 +1,57 @@
-- title: Title 1
+- title: Reclaiming lost worlds
+  person: jennifer-pic.jpeg
+  cover: https://cdn.scifabric.com/assets/img/blog/micropasts.jpeg
+  person_name: "Jennifer Wexler"
+  person_position: Bronze Age Index scanning manager
+  category: glam
+  project: Micropasts
+  client: "British Museum"
+  client_logo: british-museum-color.png
+  location: London
+  quote: "PYBOSSA has allowed us to recover essential data from Bronze Age collections at the British Museum, enabling us to open up these collections to the widest public."
+  links:
+      - link: https://scifabric.com/success-stories/micropasts/
+        title: Case Study
+      - link: https://scifabric.com/blog/2014/06/05/crowdsourcing-the-bronze-age.html
+        title: Blog
+      - link: http://micropasts.org/
+        title: Micropasts
+      - link: http://www.britishmuseum.org/
+        title: British Museum
+
+  starting_point: "<p>The British Museum is home to the National Bronze Age Index: a catalogue of over 30,000 index cards that record all bronze age findings in the UK from the 1800s to the 1990s. The storage space represents a lost world, with a visitor book showing that in the past 30 years only six people visited the collection. The British Museum, in collaboration with University College London, wants to reclaim this world.</p> <p><img src='https://cdn.scifabric.com/assets/img/blog/axes.jpeg'></p>"
+  what_we_did: "<p>PYBOSSA technology provided the flexibility and dynamism for The British Museum to quickly create Micropasts, a bespoke platform for hosting citizen archeology projects. Our plug-in infrastructure meant electronic scans of index cards could easily be imported, then our ready-to-use PDF data-mining template enabled volunteers to transcribe the cards with ease. Humans remain superior to machines in interpreting handwriting.</p>"
+  how_does_it_work: "<p>The British Museum’s index card database records details about object type, location and context of discovery, as well as line drawings of each object. Contributors to Micropasts are asked to transcribe details from the cards in pre-determined fields and to geo-reference the objects’ place of discovery. Volunteers are also asked to help create 3D models of some of the collection’s artefacts by a process known as ‘photomasking’, which involves accurately outlining the artefacts in pictures.</p>
+<h2 class='has-text-primary'>Results</h2><p>The MicroPasts crowdsourcing platform has allowed volunteers to transcribe the National Bronze Age Index catalogue, effectively turning the information contained in 30,000 index cards into one of the world’s largest electronic archaeological databases. Artefacts are also geographically referenced so that maps of their discovery sites can be generated. The creation of 3D models has allowed the British Museum to create ‘virtual tours’ of particular artefacts. By annotating models online, which creates a whole new way of presenting historical objects. Object models may also be transmitted around the world and 3D-printed for study by researchers.</p>
+<p>The Micropasts platform has been used to host a multitude of projects which has powered archaeological crowdsourcing internationally.</p><img src='https://cdn.scifabric.com/assets/img/blog/micropasts.jpeg'>"
+  tags:
+      - transcription
+      - geolocation
+      - photomasking
+
+- title: Crowdsourcing projects from the British Library
   person: nora.png
-  person_name: Nora Surname
-  person_position: position
-  color: is-primary
-  category: journalism
-  project: Libcrowds
-  client: British Library Museum
+  cover: https://cdn.scifabric.com/assets/img/blog/IndexCards.jpg
+  person_name: "Nora McGregor"
+  person_position: Digital Curator, Asian & African Collections
+  category: glam
+  project: LibCrowds
+  client: "British Museum"
   client_logo: british-library-color.png
   location: London
-  quote: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+  quote: "We chose to build our crowdsourcing project with PYBOSSA because it provided the flexibility to create and easily integrate our own custom plugins"
   links:
-      - link: http://url.com
-        title: title
-      - link: http://url2.com
-        title: title2
+      - link: https://scifabric.com/blog/2016/05/24/Rediscover-the-past-with-crowdsourcing.html
+        title: Blog
+      - link: https://scifabric.com/blog/2015/07/20/Crowdsourcing_Humanities.html
+        title: Blog
+      - link: https://www.libcrowds.com/
+        title: LibCrowds
+      - link: https://www.bl.uk/
+        title: British Library
 
-  starting_point: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id aliquam purus. Donec elementum velit eget libero iaculis, quis laoreet purus luctus. Vivamus dapibus, metus in gravida blandit, massa lorem pharetra urna, non congue ex leo vel urna. Ut nibh tellus, varius non mauris rutrum, imperdiet mollis diam. Quisque at odio sollicitudin, facilisis massa a, tempor risus. Quisque cursus at ex molestie ultrices. Curabitur volutpat quam arcu. Proin at accumsan lectus. Ut non rhoncus nisl, malesuada lacinia lacus. Quisque iaculis commodo diam, sit amet bibendum orci aliquet ut.
-
-Donec a blandit erat, eget imperdiet lectus. Nulla feugiat, leo a lacinia tempor, augue elit ultricies tellus, at sagittis augue tellus id magna. Phasellus ultrices at nibh quis bibendum. Sed eu lorem et libero fermentum pretium. Suspendisse potenti. Morbi mattis nisl at tincidunt hendrerit. Pellentesque eget magna posuere, tempus augue porta, sodales libero. Proin dignissim arcu at auctor pharetra. Fusce vel ex aliquet urna scelerisque cursus. Nam odio quam, fringilla id sodales vel, convallis nec eros. Curabitur dictum odio mauris, at fermentum neque euismod et. Ut iaculis auctor arcu, sit amet semper justo tristique nec.
-
-Integer hendrerit congue pellentesque. Nulla eu molestie tellus. Etiam nisi libero, auctor sed scelerisque id, porta ut neque. In auctor leo quis libero volutpat, sit amet dapibus arcu tincidunt. Curabitur porttitor efficitur libero eu dapibus. Sed vel mauris quis arcu posuere maximus. Suspendisse in est at odio dictum fringilla. Vivamus et semper purus. Curabitur id convallis velit. Praesent aliquam mattis orci sit amet rutrum. Pellentesque rhoncus, ligula eu porttitor ultricies, nibh risus faucibus purus, consectetur fringilla odio mauris vel diam. Quisque congue diam et cursus egestas. Sed et porttitor metus.
-
-Sed magna orci, volutpat at est et, mollis consectetur neque. Cras bibendum est non metus congue, eget ultricies libero mollis. Nunc lacinia tellus laoreet massa varius venenatis. Suspendisse pretium facilisis arcu, at molestie elit placerat vitae. In mi erat, tempus hendrerit neque eget, tincidunt tempor est. Aliquam aliquet nisi tincidunt ornare tincidunt. In a mollis sapien. Nam mollis felis eros, et tincidunt odio tincidunt sed. Ut dignissim, erat in aliquet laoreet, dui odio laoreet massa, ac pretium elit mi non sapien. Nam elit nibh, tempor sit amet sodales quis, vestibulum quis elit. Quisque congue porta quam id scelerisque. Curabitur egestas posuere rutrum. Nullam viverra eu est sed sollicitudin. Nam urna nisl, sodales eu augue ac, lacinia feugiat dolor.
-
-Maecenas porta velit elit, molestie semper ipsum tincidunt in. Nam a ligula quis mi condimentum accumsan at at purus. Duis gravida lorem pulvinar ante hendrerit, a viverra urna sagittis. Etiam eget enim eget ante volutpat blandit. Integer pellentesque lacus arcu, eget vehicula elit faucibus et. Donec nunc enim, elementum ut ultricies at, malesuada non tellus. Donec eleifend tempus arcu, in lobortis mi tempor in. Aenean imperdiet volutpat nisi vitae finibus. Nam vehicula dolor a eleifend gravida. Donec fermentum enim quam, sed accumsan arcu varius quis. Praesent quis metus at urna vestibulum malesuada. In finibus vel augue vel feugiat."
-  what_we_did: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id aliquam purus. Donec elementum velit eget libero iaculis, quis laoreet purus luctus. Vivamus dapibus, metus in gravida blandit, massa lorem pharetra urna, non congue ex leo vel urna. Ut nibh tellus, varius non mauris rutrum, imperdiet mollis diam. Quisque at odio sollicitudin, facilisis massa a, tempor risus. Quisque cursus at ex molestie ultrices. Curabitur volutpat quam arcu. Proin at accumsan lectus. Ut non rhoncus nisl, malesuada lacinia lacus. Quisque iaculis commodo diam, sit amet bibendum orci aliquet ut.
-Donec a blandit erat, eget imperdiet lectus. Nulla feugiat, leo a lacinia tempor, augue elit ultricies tellus, at sagittis augue tellus id magna. Phasellus ultrices at nibh quis bibendum. Sed eu lorem et libero fermentum pretium. Suspendisse potenti. Morbi mattis nisl at tincidunt hendrerit. Pellentesque eget magna posuere, tempus augue porta, sodales libero. Proin dignissim arcu at auctor pharetra. Fusce vel ex aliquet urna scelerisque cursus. Nam odio quam, fringilla id sodales vel, convallis nec eros. Curabitur dictum odio mauris, at fermentum neque euismod et. Ut iaculis auctor arcu, sit amet semper justo tristique nec.
-
-Integer hendrerit congue pellentesque. Nulla eu molestie tellus. Etiam nisi libero, auctor sed scelerisque id, porta ut neque. In auctor leo quis libero volutpat, sit amet dapibus arcu tincidunt. Curabitur porttitor efficitur libero eu dapibus. Sed vel mauris quis arcu posuere maximus. Suspendisse in est at odio dictum fringilla. Vivamus et semper purus. Curabitur id convallis velit. Praesent aliquam mattis orci sit amet rutrum. Pellentesque rhoncus, ligula eu porttitor ultricies, nibh risus faucibus purus, consectetur fringilla odio mauris vel diam. Quisque congue diam et cursus egestas. Sed et porttitor metus.
-
-Sed magna orci, volutpat at est et, mollis consectetur neque. Cras bibendum est non metus congue, eget ultricies libero mollis. Nunc lacinia tellus laoreet massa varius venenatis. Suspendisse pretium facilisis arcu, at molestie elit placerat vitae. In mi erat, tempus hendrerit neque eget, tincidunt tempor est. Aliquam aliquet nisi tincidunt ornare tincidunt. In a mollis sapien. Nam mollis felis eros, et tincidunt odio tincidunt sed. Ut dignissim, erat in aliquet laoreet, dui odio laoreet massa, ac pretium elit mi non sapien. Nam elit nibh, tempor sit amet sodales quis, vestibulum quis elit. Quisque congue porta quam id scelerisque. Curabitur egestas posuere rutrum. Nullam viverra eu est sed sollicitudin. Nam urna nisl, sodales eu augue ac, lacinia feugiat dolor.
-
-Maecenas porta velit elit, molestie semper ipsum tincidunt in. Nam a ligula quis mi condimentum accumsan at at purus. Duis gravida lorem pulvinar ante hendrerit, a viverra urna sagittis. Etiam eget enim eget ante volutpat blandit. Integer pellentesque lacus arcu, eget vehicula elit faucibus et. Donec nunc enim, elementum ut ultricies at, malesuada non tellus. Donec eleifend tempus arcu, in lobortis mi tempor in. Aenean imperdiet volutpat nisi vitae finibus. Nam vehicula dolor a eleifend gravida. Donec fermentum enim quam, sed accumsan arcu varius quis. Praesent quis metus at urna vestibulum malesuada. In finibus vel augue vel feugiat."
-  how_does_it_work: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id aliquam purus. Donec elementum velit eget libero iaculis, quis laoreet purus luctus. Vivamus dapibus, metus in gravida blandit, massa lorem pharetra urna, non congue ex leo vel urna. Ut nibh tellus, varius non mauris rutrum, imperdiet mollis diam. Quisque at odio sollicitudin, facilisis massa a, tempor risus. Quisque cursus at ex molestie ultrices. Curabitur volutpat quam arcu. Proin at accumsan lectus. Ut non rhoncus nisl, malesuada lacinia lacus. Quisque iaculis commodo diam, sit amet bibendum orci aliquet ut.
-Donec a blandit erat, eget imperdiet lectus. Nulla feugiat, leo a lacinia tempor, augue elit ultricies tellus, at sagittis augue tellus id magna. Phasellus ultrices at nibh quis bibendum. Sed eu lorem et libero fermentum pretium. Suspendisse potenti. Morbi mattis nisl at tincidunt hendrerit. Pellentesque eget magna posuere, tempus augue porta, sodales libero. Proin dignissim arcu at auctor pharetra. Fusce vel ex aliquet urna scelerisque cursus. Nam odio quam, fringilla id sodales vel, convallis nec eros. Curabitur dictum odio mauris, at fermentum neque euismod et. Ut iaculis auctor arcu, sit amet semper justo tristique nec.
-
-Integer hendrerit congue pellentesque. Nulla eu molestie tellus. Etiam nisi libero, auctor sed scelerisque id, porta ut neque. In auctor leo quis libero volutpat, sit amet dapibus arcu tincidunt. Curabitur porttitor efficitur libero eu dapibus. Sed vel mauris quis arcu posuere maximus. Suspendisse in est at odio dictum fringilla. Vivamus et semper purus. Curabitur id convallis velit. Praesent aliquam mattis orci sit amet rutrum. Pellentesque rhoncus, ligula eu porttitor ultricies, nibh risus faucibus purus, consectetur fringilla odio mauris vel diam. Quisque congue diam et cursus egestas. Sed et porttitor metus.
-
-Sed magna orci, volutpat at est et, mollis consectetur neque. Cras bibendum est non metus congue, eget ultricies libero mollis. Nunc lacinia tellus laoreet massa varius venenatis. Suspendisse pretium facilisis arcu, at molestie elit placerat vitae. In mi erat, tempus hendrerit neque eget, tincidunt tempor est. Aliquam aliquet nisi tincidunt ornare tincidunt. In a mollis sapien. Nam mollis felis eros, et tincidunt odio tincidunt sed. Ut dignissim, erat in aliquet laoreet, dui odio laoreet massa, ac pretium elit mi non sapien. Nam elit nibh, tempor sit amet sodales quis, vestibulum quis elit. Quisque congue porta quam id scelerisque. Curabitur egestas posuere rutrum. Nullam viverra eu est sed sollicitudin. Nam urna nisl, sodales eu augue ac, lacinia feugiat dolor.
-
-Maecenas porta velit elit, molestie semper ipsum tincidunt in. Nam a ligula quis mi condimentum accumsan at at purus. Duis gravida lorem pulvinar ante hendrerit, a viverra urna sagittis. Etiam eget enim eget ante volutpat blandit. Integer pellentesque lacus arcu, eget vehicula elit faucibus et. Donec nunc enim, elementum ut ultricies at, malesuada non tellus. Donec eleifend tempus arcu, in lobortis mi tempor in. Aenean imperdiet volutpat nisi vitae finibus. Nam vehicula dolor a eleifend gravida. Donec fermentum enim quam, sed accumsan arcu varius quis. Praesent quis metus at urna vestibulum malesuada. In finibus vel augue vel feugiat."
-
+        starting_point: "<p>The British Library is the national library of the UK and, by law, receives a copy of all publications in the UK. It is home to a vast amount of material which, for historical reasons, is only discoverable through old printed card catalogues onsite. The British Library wanted to make its collections more accessible online.</p><p><img src='https://cdn.scifabric.com/assets/img/blog/IndexCards.jpg'></p>"
+  what_we_did: "<p>The British Library required a bespoke approach to enrich its online collection. LibCrowds is a crowdsourcing platform that aims to make the physical collections of the library accessible online. PYBOSSA’s PDF data mining template provided a ready-made solution for transcribing its vast collection of index cards. Plugins meant data could be readily uploaded to the platform. The flexibility of PYBOSSA software allowed the British Library to customise the platform to meet its unique requirements.</p>"
+  how_does_it_work:  "<p>Libcrowds asks volunteers to transcribe text from printed card catalogues into electronic records in order to make them available to a worldwide audience. Volunteers locate a matching record in an existing external database of online catalogue records and transcribe the unique British Library shelfmark, thereby creating a new online catalogue record for the item. Data identified, transcribed or translated as part of the project is made freely accessible from the British Library’s Explore catalogue.<h2 class='has-text-primary'>Results</h3><p>Libcrowds has so far focused on the British Library’s Asian and African collections, particularly the Chinese, Indian and Indonesian catalogues, making these resources available online and openly accessible, revolutionizing how the library engages with readers and researchers.</p>"
   tags:
       - transcription
-      - something
-
-- title: Title 2
-  cover: nora.png
-  color: is-success
-  category: glam
-  tags:
-      - classification
-      - something
-
-- title: Title 3
-  cover: nora.png
-  category: research
-  tags:
-      - geolocation
-      - something
-
-- title: Title 4
-  cover: nora.png
-  category: something
-  tags:
-      - description 
-      - something
-
-- title: Title 5
-  cover: nora.png
-  category: new
-  tags:
-      - image recognition
-      - something
-
-- title: Title 6
-  cover: nora.png
-  category: journalism
-  tags:
-      - image annotation
-      - something
-
-- title: Title 7
-  cover: nora.png
-  category: journalism
-  tags:
-      - 3D modeling
-      - something
-
-- title: Title 8
-  category: journalism
-  cover: nora.png
-  tags:
-      - photomasking
-      - something
-
-- title: Title 9
-  category: journalism
-  cover: nora.png
-  tags:
-      - transcription
-      - something
-
-- title: Title 10
-  category: journalism
-  cover: nora.png
-  tags:
-      - transcription
-      - something
-
-- title: Title 11
-  category: journalism
-  cover: nora.png
-  tags:
-      - transcription
-      - something

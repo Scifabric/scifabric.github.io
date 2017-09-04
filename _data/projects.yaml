@@ -105,23 +105,25 @@
   tags:
       - geolocation
 
-- title: 
-  person: 
-  cover: 
-  person_name: 
-  person_position: 
-  category: 
-  project: 
-  client: 
-  client_logo: 
-  location: 
-  quote: 
+- title: Contract analysis
+  person: Open Oil
+  cover: https://cdn.scifabric.com/assets/img/blog/drilling.jpg
+  person_name: Open Oil
+  person_position: Open Oil
+  category: journalism
+  project: Open Oil
+  client: Open Oil
+  client_logo: open-oil-color.jpg
+  location: Germany
+  quote: Open source and open content approaches have a role to play in the creation of a more open atmosphere around the oil industry.
   links:
-      - link: 
+      - link: https://scifabric.com/blog/2015/09/08/Open-Oil.html
         title: Blog
+      - link: http://openoil.net/
+        title: Open Oil
 
-        starting_point: 
-  what_we_did: 
-  how_does_it_work:  
+  starting_point: "<p>The oil industry is run by massive multinational conglomerates, each composed of a dense network of companies, subsidiaries and partners. To understand the industry, it is necessary to untangle the complex contractual web that links these entities. Governments require oil companies to disclose information, including contracts, in public filings. There are huge volumes of data made publicly available in jurisdictions across the world each day. The problem is that there is too much data for any individual or investor to understand.</p><p><iframe width='560' height='315' src='https://www.youtube.com/embed/29RQWlalFfs' frameborder='0' allowfullscreen></iframe></p>"
+  what_we_did: "<p>Open Oil uses PYBOSSA technology to help analyse oil industry contracts. Using PYBOSSA’s PDF data-mining template, it is easy to set up projects where volunteers extract key details from documents. Plugins help upload large volumes of data efficiently. Real time analysis produces results as quickly as possible, saving time, money and accelerating research.</p>"
+  how_does_it_work: "<p>Open Oil asks contributors to identify the full legal name, abbreviation, jurisdiction and OpenCorporates ID in each contract.  The ultimate objective is not just to make information available but to make it useable – to present it in a clear and accessible way that is meaningfully transparent. It may then be used to understand beneficial ownership, crack down on tax avoidance, protect public funds, hold politicians to account, monitor lobbyists and fight pollution. Open Oil has created Aleph, a search engine to easily navigate oil contract information.</p><p></p><h2 class='has-text-primary'>Results</h2><p>Open Oil believes open data can change extractive industries. With the help of the Crowd, data presented in a jumbled, haphazard mess of PDFs has been pulled together into a coherent, useable format that presents a holistic picture of an organisation or industry. For example, Open Oil found the multinational organisation British Petroleum to be constituted of 1,180 affiliations across 84 jurisdictions, with 12 layers of corporate ownership. The structure is so vast that BP executives got in touch with Open Oil to help them understand the company themselves! This profound new method of open corporate governance empowers people to hold organisations to account and insist on fair play.</p>"
   tags:
       - transcription

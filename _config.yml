@@ -2,7 +2,7 @@ name: SciFabric
 markdown: kramdown
 url: http://scifabric.com
 cdn: //cdn.scifabric.com
-gems:
+plugins:
     - jekyll-sitemap
 sass:
     style: compressed

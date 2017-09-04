@@ -127,3 +127,30 @@
   how_does_it_work: "<p>Open Oil asks contributors to identify the full legal name, abbreviation, jurisdiction and OpenCorporates ID in each contract.  The ultimate objective is not just to make information available but to make it useable – to present it in a clear and accessible way that is meaningfully transparent. It may then be used to understand beneficial ownership, crack down on tax avoidance, protect public funds, hold politicians to account, monitor lobbyists and fight pollution. Open Oil has created Aleph, a search engine to easily navigate oil contract information.</p><p></p><h2 class='has-text-primary'>Results</h2><p>Open Oil believes open data can change extractive industries. With the help of the Crowd, data presented in a jumbled, haphazard mess of PDFs has been pulled together into a coherent, useable format that presents a holistic picture of an organisation or industry. For example, Open Oil found the multinational organisation British Petroleum to be constituted of 1,180 affiliations across 84 jurisdictions, with 12 layers of corporate ownership. The structure is so vast that BP executives got in touch with Open Oil to help them understand the company themselves! This profound new method of open corporate governance empowers people to hold organisations to account and insist on fair play.</p>"
   tags:
       - transcription
+
+- title: Does antimatter fall down or up?
+  person: michael-doser.png
+  cover: https://cdn.scifabric.com/assets/img/blog/Antimatter3.jpg
+  person_name: Michael Doser
+  person_position: Senior Research Physicists
+  category: Science
+  project: Antimatter Alpha
+  client: CERN
+  client_logo: cern-color.jpg
+  location: Switerzerland
+  quote: "Algorithms are not curious. If we had something unexpected, a computer may not see it but humans are open to new ways of looking at things."
+  links:
+      - link: https://scifabric.com/blog/2015/03/01/Antimatter.html
+        title: Blog
+      - link: http://www.quantumdiaries.org/2013/08/08/join-the-dots-to-measure-antimatter/
+        title: Blog
+      - link: https://aegis.web.cern.ch/aegis/ 
+        title: AEgIS experiment
+      - link: https://home.cern/about
+        title: CERN
+
+  starting_point: "<p>The observable universe is composed almost entirely of matter but stuff called antimatter can be made in the laboratory. Antimatter is material composed of antiparticles that have the same mass as normal matter particles but the opposite electric charge. When an antiparticle collides with a normal matter particle they both annihilate – producing a burst of other particles and radiation. Scientists don’t know how antimatter interacts with gravity.</p>"
+  what_we_did: "<p>Figuring out how antimatter interacts with gravity is an image pattern recognition problem. PYBOSSA’s image pattern recognition template allowed scientists at CERN – the world’s leading particle physics laboratory in Geneva, Switzerland – to create tasks whereby volunteers track the path of antiparticles as they fly through an emulsion. Plugins facilitated the easy upload of data.</p>"
+  how_does_it_work:  "<p>The AEgIS experiment at CERN shoots antimatter atoms horizontally – whereupon they fly and fall – at a wall made of matter. On hitting the wall, the antimatter will annihilate with a matter nucleus, producing a burst of light particles (known as pions) and some heavier particles. These particles will travel through a special gel (known as an emulsion) behind the wall which makes their tracks visible. Tracing these tracks to their point of origin reveals exactly where the annihilation occurred which, in turn, allows for the calculation of how far each antiparticle travels. From this, you can work out – from the distance each particle flies and falls – how antimatter interacts with gravity. Simples!</p><h2 class='has-text-primary'>Results</h2><p>The Antimatter project was the first time CERN released previously unanalysed data publicly. The data was analysed rapidly and has helped scientists to better calibrate the experiment. Further data and results are awaited to discover if antimatter actually falls up...</p><p><img src='https://cdn.scifabric.com/assets/img/blog/AEGIS4.jpg'></p>"
+  tags:
+      - classification

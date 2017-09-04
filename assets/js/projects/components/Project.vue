@@ -1,7 +1,7 @@
 <template>
     <div class="container" style="margin-bottom:160px;">
         <div class="columns">
-            <div class="column is-offset-2 is-2">
+            <div class="column is-2">
                 <a @click="reset" class="has-text-success"><i style="font-size:10px;" class="material-icons">arrow_back</i> All projects</a>
             </div>
         </div>
@@ -9,7 +9,7 @@
         </div>
 
         <div class="columns">
-            <div class="column is-offset-2 is-6 ">
+            <div class="column is-8 ">
                 <h1 class="title is-1 has-text-primary highlight is-capitalized">{{project.title}}</h1>
                 <div class="level">
                     <div class="level-left">

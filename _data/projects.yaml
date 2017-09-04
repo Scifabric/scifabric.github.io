@@ -55,3 +55,28 @@
   how_does_it_work:  "<p>Libcrowds asks volunteers to transcribe text from printed card catalogues into electronic records in order to make them available to a worldwide audience. Volunteers locate a matching record in an existing external database of online catalogue records and transcribe the unique British Library shelfmark, thereby creating a new online catalogue record for the item. Data identified, transcribed or translated as part of the project is made freely accessible from the British Library’s Explore catalogue.<h2 class='has-text-primary'>Results</h3><p>Libcrowds has so far focused on the British Library’s Asian and African collections, particularly the Chinese, Indian and Indonesian catalogues, making these resources available online and openly accessible, revolutionizing how the library engages with readers and researchers.</p>"
   tags:
       - transcription
+
+- title: Protecting our oceans with citizens and satellites
+  person: david-kroodsma.jpg
+  cover: https://cdn.scifabric.com/assets/img/blog/fish.jpg
+  person_name: David Kroodsma
+  person_position: Research Program Manager
+  category: social
+  project: Global Fishing Watch
+  client: Global Fishing Watch 
+  client_logo: global-fishing-watch-color.png
+  location: USA
+  quote: We strongly believe that more transparency of data leads to better outcomes, so philosophically PYBOSSA is a good fit.
+  links:
+      - link: https://scifabric.com/blog/2016/09/14/Global-Fishing-Watch.html
+        title: Blog
+      - link : http://globalfishingwatch.org/
+        title: Global Fishing Watch
+      - link: http://globalfishingwatch.org/news
+        title: News about the project
+
+  starting_point: "<p>Global overfishing is destroying ocean ecosystems. Nearly one third of marine fish stocks worldwide have been overfished and over 90% of the world’s fisheries are fully exploited or overfished according to a 2014 UN report. Global fishing fleets operate far out at sea and their activities are extremely difficult to monitor. </p><p><img src='https://cdn.scifabric.com/assets/img/blog/fish.jpg'></p>"
+  what_we_did: "<p>PYBOSSA’s image pattern recognition template made it the ideal tool to create Global Fishing Watch, a platform which aims to track the movements of fishing vessels. The Global Fishing Watch team has utilised PYBOSSA before, so knew how straightforward and intuitive it is to use. PYBOSSA is open source software, which made it a good cultural fit for the project.</p>"
+  how_does_it_work:  "<p>Almost all large ocean-going vessels are required to carry an Automatic Identification System, which periodically broadcasts a vessel’s location and identity. Satellites can use these signals to track the movements of fishing vessels. Global Fishing Watch enlists the help of volunteers to identify vessel movement that is suggestive of fishing activity. This is a pattern recognition problem and so input from citizens is crucial.</p><h2 class='has-text-primary'>Results</h2><p>Since the Phoenix Islands Protected Area (PIPA) – a swathe of unspoilt ocean located in the central Pacific between Hawaii and Australia that is the world’s largest UNESCO World Heritage Site – was officially closed to industrial fishing, Global Fishing Watch monitors the park to ensure fishing vessels stay out.</p><p><iframe width='560' height='315' src='https://www.youtube.com/embed/I2jeOa0HmiU?rel=0&amp;controls=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe></p>"
+  tags:
+      - geolocation

@@ -10,7 +10,7 @@
                     <h3 class="title is-3 has-text-primary">Starter</h3>
                     <h4 class="subtitle is-4 has-text-primary">Get basic support and fly solo!</h4>
                     <p class="highlight">250€/month</p>
-                    <a @click="toggleContact" href="#" class="button is-primary">Contact us</a>
+                    <a @click.stop="toggleContact" href="#" class="button is-primary">Contact us</a>
                 </div>
             </div>
             <div class="column">
@@ -18,7 +18,7 @@
                     <h3 class="title is-3 has-text-white">Pro</h3>
                     <h4 class="subtitle is-4 has-text-white">Get basic support and fly solo!</h4>
                     <p class="highlight">Custom price</p>
-                    <a @click="toggleContact" href="#" class="button is-white">Contact us</a>
+                    <a @click.stop="toggleContact" href="#" class="button is-white">Contact us</a>
                 </div>
             </div>
         </div>
@@ -169,11 +169,6 @@ export default {
             this.modalactive = !this.modalactive
         }
     },
-    computed: {
-        open() {
-            return this.open
-        }
-    }
 }
 </script>
 <style lang="scss">

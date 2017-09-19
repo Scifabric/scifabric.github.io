@@ -1,5 +1,5 @@
 <template>
-    <b-modal :active.sync="modalactive">
+    <b-modal :active.sync="showModal">
         <div v-if="step === 1" class="step1">
                     <h2 class="title is-3 highlight has-text-primary">Hola! Nice to hear from you</h2>
                     <h2 class="subtitle is-6">Drop us a line at <a href="mailto:info@scifabric.com">info@scifabric.com</a> or fill in this form</h2>
@@ -60,7 +60,8 @@ export default {
             	subscribe: false,
 				subject: 'HOLA',
 			},
-            step: 1 
+            step: 1,
+            showModal: this.modalactive
         }
               
     },
@@ -85,7 +86,17 @@ export default {
 				})
 			    .catch(error => {console.log(error)})	
 			}
-	}
+	},
+    watch: {
+        modalactive: function(newVal) {
+            this.showModal = newVal
+            this.$emit('update:modalactive', newVal)
+        },
+        showModal: function(newVal) {
+            this.showModal = newVal
+            this.$emit('update:modalactive', newVal)
+        }
+    }
 }
 </script>
 <style>

@@ -1,4 +1,4 @@
-name: SciFabric
+name: Scifabric
 markdown: kramdown
 url: http://scifabric.com
 cdn: //localhost:4000
@@ -6,3 +6,5 @@ gems:
     - jekyll-sitemap
 sass:
     style: compressed
+exclude:
+    - node_modules

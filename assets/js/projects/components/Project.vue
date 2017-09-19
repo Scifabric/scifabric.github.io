@@ -85,7 +85,7 @@
             </div>
         </div>
         <div class="columns">
-            <div class="column is-2 is-offset-2">
+            <div class="column is-2">
                 <a @click="reset" class="has-text-success"><i style="font-size:10px;" class="material-icons">arrow_back</i> All projects</a>
             </div>
         </div>

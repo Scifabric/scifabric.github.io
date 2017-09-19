@@ -1,6 +1,40 @@
+- title: How crowdsourcing can help beat cancer
+  person: andy-patterson.jpg
+  cover: CRUK-white.png
+  person_name: Andy Patterson
+  person_position: Digital Solutions Architect
+  category: Medicine
+  project: Trailblazer
+  client: Cancer Research UK
+  client_logo: CRUK-color.png
+  location: London
+  quote: "The levels of accuracy achieved by Trailblazer have shown that citizen science can be a reliable, accurate and efficient method for biomedical research."
+  links:
+      - link: https://scifabric.com/success-stories/cruk/
+        title: Case Study
+      - link: https://scifabric.com/blog/2016/04/20/Cancer-Research-UK-Trailblazer.html
+        title: Blog
+      - link: http://cancer.pybossa.com/
+        title: Trailblazer demo
+      - link: http://www.cancerresearchuk.org/support-us/citizen-science/the-projects
+        title: CRUK Citizen Science
+      - link: http://www.nature.com/bjc/journal/v116/n2/full/bjc2016404a.html
+        title: Academic paper
+
+  starting_point: "<p>Cancer is one of mankind’s most prolific killers. Lung, trachea and bronchus cancers caused 1.7 million deaths worldwide in 2015. It is estimated that there will be 23.6 million new cases of cancer each year by 2030. Cancer Research UK (CRUK) has been investigating how crowdsourcing might help in the fight against cancer, particularly in the accurate identification of cancer cells in tissue samples. CRUK found that citizen scientists struggled with distinguishing between different types of cells in images. They wanted to find out if it would be possible to boost accuracy, and enable people to analyse more complicated samples, with enhanced training and by providing more feedback to citizens.
+</p><img src='https://cdn.scifabric.com/assets/img/blog/CancerTutorial.png'>"
+  what_we_did: "<p>Scifabric technology allowed Cancer Research UK to create Trailblazer, a customised project for identifying cancer cells. PYBOSSA software allows CRUK to retain its brand, make data private or public as required, add as many features as needed with plugin infrastructure, and automatically import data. The software provides ready-to-use templates and facilitates agile development with the release of frequent new versions. PYBOSSA also allows real-time analysis, which helps analyse results as quickly as possible, saving time, money and accelerating research.
+</p>"
+  how_does_it_work: "<p>Volunteers receive 25 minutes online training on how to identify and distinguish between cancer cells in images of tissue under a microscope. They are then provided with unclassified images and asked to identify and classify cancer cells. Citizen scientist scores are compared to consensus expert analysis in order to evaluate accuracy.</p><img src='https://cdn.scifabric.com/assets/img/blog/CancerResults3.jpeg'><h2 class='has-text-primary'>Results</h2><p>Over 1000 volunteers with no previous biomedical knowledge accessed Trailblazer. Scores showed that they could distinguish between cancer cells and healthy cells in tissue samples with 95% accuracy, as well as detect clinically significant features of cancer cells. Scores were compared against consensus expert analysis to evaluate accuracy, with volunteers' findings matching those of professional pathologists up to 90% of the time. Findings were published in the British Journal of Cancer.
+</p>"
+  tags:
+      - image recognition
+      - image annotation
+
+
 - title: Reclaiming lost worlds
   person: jennifer-pic.jpeg
-  cover: https://cdn.scifabric.com/assets/img/blog/micropasts.jpeg
+  cover: british-museum-white.png
   person_name: "Jennifer Wexler"
   person_position: Bronze Age Index scanning manager
   category: glam
@@ -29,9 +63,36 @@
       - geolocation
       - data visualization
 
+- title: Cracking down on political corruption with data journalism
+  person: nick-evershed.jpg
+  cover: theguardian-white.png
+  person_name: Nick Evershed
+  person_position: Data and Interactives Editor 
+  category: Journalism
+  project: Pecuniary Interest Register
+  client: The Guardian
+  client_logo: theguardian-color.png
+  location: Australia
+  quote: "Prior to this project, the transparency of New South Wales politics was sorely lacking but we made an open, searchable database to reveal where politicians had failed to comply with transparency rules."
+  links:
+      - link: https://scifabric.com/blog/2016/02/26/data-journalism-crowdsourcing.html
+        title: Blog
+      - link: https://www.theguardian.com/australia-news/2015/mar/27/exclusive-nsw-liberal-mps-failed-to-declare-financial-interests-on-register
+        title: The Guardian Article
+
+  starting_point: "<p>New South Wales (NSW) politicians are required to declare interests that may influence their decisions in Parliament in a ‘pecuniary interests register’. These may include business interests, gifts, investments, shares and directorships. Guardian Australia journalists were concerned about the transparency of the NSW pecuniary interests register as it was not easy to scrutinise, with half of the register never made available online. The other half was a jumbled mess of (often handwritten) PDFs. To view politician’s interests in their entirety, it was necessary to go to Parliament and view the register in hard copy.
+</p><img src='https://cdn.scifabric.com/assets/img/blog/journalism.jpg'>"
+  what_we_did: "<p>PYBOSSA software provided a plugin so that PDF scans could be automatically imported to a single platform. With PYBOSSA’s PDF data mining template, tasks could be easily set-up for Guardian readers to extract key information. PYBOSSA allows real-time analysis, which helps analyse results as quickly as possible, saving time, money and accelerating an investigation.
+
+</p>"
+  how_does_it_work: "<p>To improve transparency, journalists wanted to create an open, machine-readable database of the interests register for the 2013-14 financial year. PDF scans were uploaded to a platform, from which Guardian readers transcribed key details into a database. This was the first project of its kind in Australia at a state level.<h2 class='has-primary-text'>Results</h2><p>Guardian readers transcribed the entire pecuniary interest register in less than three weeks. Around 50 contributors completed more that 1,700 tasks and flagged entries that warranted further investigation. The resulting database may be viewed here. Data analysis techniques were employed to compare the database with other datasets, such as records of contracts, donations and travel expenses. Analysis of the register revealed that two politicians had failed to comply with transparency rules. They promptly updated the register.
+</p>"
+  tags:
+      - transcription
+
 - title: Crowdsourcing projects from the British Library
   person: nora.png
-  cover: https://cdn.scifabric.com/assets/img/blog/IndexCards.jpg
+  cover: british-library-white.png
   person_name: "Nora McGregor"
   person_position: Digital Curator, Asian & African Collections
   category: glam
@@ -58,7 +119,7 @@
 
 - title: Protecting our oceans with citizens and satellites
   person: david-kroodsma.jpg
-  cover: https://cdn.scifabric.com/assets/img/blog/fish.jpg
+  cover: global-fishing-watch-white.png
   person_name: David Kroodsma
   person_position: Research Program Manager
   category: social
@@ -82,8 +143,8 @@
       - geolocation
 
 - title: Fighting Malaria
-  person: 
-  cover: https://cdn.scifabric.com/assets/img/blog/Mosquito3.jpg
+  person: user.svg
+  cover: swiss-tph-white.png
   person_name: Nicolas Maire
   person_position: Group Leader of Public Health Computing
   category: Medicine
@@ -107,13 +168,13 @@
 
 - title: Contract analysis
   person: Open Oil
-  cover: https://cdn.scifabric.com/assets/img/blog/drilling.jpg
+  cover: openoil-white.png
   person_name: Open Oil
   person_position: Open Oil
-  category: journalism
+  category: Journalism
   project: Open Oil
   client: Open Oil
-  client_logo: open-oil-color.png
+  client_logo: openoil.png
   location: Germany
   quote: Open source and open content approaches have a role to play in the creation of a more open atmosphere around the oil industry.
   links:
@@ -132,7 +193,7 @@
 
 - title: Does antimatter fall down or up?
   person: michael-doser.jpg
-  cover: https://cdn.scifabric.com/assets/img/blog/Antimatter3.jpg
+  cover: CERN-white.png
   person_name: Michael Doser
   person_position: Senior Research Physicists
   category: Science
@@ -158,3 +219,37 @@
       - classification
       - image recognition
       - image classification
+
+- title: Fighting light pollution from space
+  person: alejandro-sanchez.png
+  cover: university-complutense-white.png
+  person_name: Alejandro Sánchez
+  person_position: PhD doctor
+  category: Science
+  project: Cities at Night
+  client: University Complutense of Madrid
+  client_logo: university-complutense-color.png
+  location: Madrid
+  quote: "Scifabric has helped us launch several citizen science projects with few resources and little effort. The solution allowed us to worry only about science and not technical issues."
+  links:
+      - link: https://scifabric.com/success-stories/citiesatnight/
+        title: Case Study
+      - link: https://scifabric.com/blog/2014/07/23/Cities_at_Night.html
+        title: Blog
+      - link: http://citiesatnight.org/
+        title: Cities at Night
+      - link: http://citiesatnight.org/index.php/on-the-news/
+        title: Cities at Night press (Fox News, NASA, ESA, etc.)
+
+  starting_point: "<p>The NASA Johnson Space Centre database holds more than 1.2 million photographs taken by astronauts from the International Space Station. The photographs represented an information-rich but largely untapped resource.  However, a PhD candidate in Madrid realised the database may provide valuable insight into artificial light levels across the Earth’s surface.</p><img src='https://cdn.scifabric.com/assets/img/blog/city.jpg'>"
+  what_we_did: "<p>Scifabric helped Alejandro Sánchez de Miguel build Cities at Night, a series of projects where images from the International Space Station could be uploaded, classified, and georeferenced. Scifabrc software offered templates to quickly set-up the projects; indeed the prototype of the Dark Skies project was built in under an hour! PYBOSSA software also provided the flexibility to customise the projects to Alejandro’s needs.</p>"
+  how_does_it_work: "<p>Cities at Night consists of three inter-related projects: in Dark Skies contributors identify what is observed in each image, whether stars, a city, an astronaut or simply darkness. This is a classic image pattern recognition problem, where volunteers identify objects that algorithms cannot. Images with cities are put into a separate database.  In Lost at Night, volunteers identify particular cities in the photographs by shape, notable features or using local knowledge.  Cities are geolocated on a world map. Finally, in Night Cities ISS volunteers help to match city features in the photograph with the same features shown on a web-based map. Advanced web-mapping techniques accurately georeference each image and associate it with real world coordinates.<img src='https://cdn.scifabric.com/assets/img/blog/Shanghai.jpg'><h2 class='has-text-primary'>Results</h2><p>Cities at Night has attracted more than 30,000 unique contributors. Thanks to users, more than
+145,000 images have been classified, geolocated and georeferenced. Georeferenced images are used to measure, monitor, compare and contrast light emitted by cities. This information is fed to governments to encourage reductions in light pollution. (Oh and Alejandro was awarded a distinction for his doctoral thesis!)
+
+</p>"
+  tags:
+      - geolocation
+      - image recognition
+      - image clasification
+
+

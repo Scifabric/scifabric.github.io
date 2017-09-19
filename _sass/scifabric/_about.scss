@@ -21,7 +21,7 @@
     content: " ";
     border-left: 2px solid $primary;
     width: 2px;
-    min-height: 100px;
+    min-height: 130px;
     margin-left: 7px;
     @each $name, $pair in $colors {
         $color: nth($pair, 1);
@@ -29,6 +29,10 @@
         &.is-#{$name} {
             border-color: $color;
         }
+    }
+
+    @media screen and (max-width: $mobile) {
+        min-height: 250px;
     }
 
 }

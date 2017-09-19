@@ -40,17 +40,17 @@
                 </div>
             </div>
             <div v-for="(project, idx) of filteredProjects" class="column is-half">
-                <div class="box notification projectbox" :class="projectColor(idx)" @click="select(project)">
+                <div class="box notification projectbox" :class="projectColor(idx)" @click="select(project)" style="display:flex; flex-direction: column; justify-content: space-between;">
                     <figure class="media-left">
                        <p class="image is-130x130">
-                         <img :src="project.cover" style="width:130px; height:130px;">
+                         <img :src="cover(project.cover)" style="width:130px; height:130px;">
                        </p>
                      </figure>
-                     <p class="title is-3 has-text-white">{{project.title}}</p>
+                     <p class="title is-3 has-text-white is-marginless">{{project.title}}</p>
                      <div class="level is-mobile">
                          <div class="level-left">
                            <div v-for="tag in project.tags" class="level-item">
-                               <span class="button is-white is-small is-outlined" :disabled="isTag(tag)">{{tag}}</span>
+                               <span class="button is-white is-small is-outlined">{{tag}}</span>
                            </div>
                          </div>
                      </div>
@@ -77,6 +77,9 @@ export default {
         } 
     },
     methods:{
+        cover(logo){
+            return "/assets/img/" + logo
+        },
         selectOption(option){
             this.filter = option
         },
@@ -108,6 +111,11 @@ export default {
                 else {
                     tag.disabled = false
                 }
+            }
+        },
+        selectedProject: function(newVal) {
+            if (newVal !== null) {
+                window.scrollTo(0,0)
             }
         }
     },
@@ -266,6 +274,6 @@ export default {
 }
 
 .projectbox {
-	min-height: 315px;
+	min-height: 355px;
 }
 </style>

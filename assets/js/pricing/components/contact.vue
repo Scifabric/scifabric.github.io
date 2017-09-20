@@ -42,8 +42,8 @@
                     <h2>Your message is on its way!</h2>
                     <p>We’ll email back to you very soon. </p>
                     <p>Thanks for contact us :)</p>
-                    <img class="responsive" src="/assets/img/nick-happy.svg">
-                    <button class="button is-primary">Got it!</button>
+                    <p><img class="responsive" src="/assets/img/nick-happy.svg"></p>
+                    <p><button @click="closeModal" class="button is-primary">Got it!</button></p>
                 </div>
             </div>
         </div>
@@ -70,21 +70,38 @@ export default {
               
     },
 	methods: {
+        closeModal(){
+            this.showModal = false
+            this.step = 1
+        },
+        formDataObj(){
+            var tmp = new FormData()
+            tmp.append('first_name', this.formData.first_name)
+            tmp.append('last_name', this.formData.last_name)
+            tmp.append('email', this.formData.email)
+            tmp.append('message', this.formData.message)
+            tmp.append('subscribe', this.formData.subscribe)
+            tmp.append('subject', this.formData.subject)
+            return tmp
+        },
 		sendMail(){
 			axios.defaults.withCredentials = true
 			axios.defaults.crossDomain = true
         	//var url = "https://formchimp.scifabric.com/register"
         	var url = "http://localhost:5000/register"
             var self = this
+            var myData = this.formDataObj()
 			axios.get(url)
 				.then(response => {
 					console.log(response.data)	
 					var csrftoken = response.data['csrf_token']
-					axios.post(url, self.formData, 
-							   {headers: {'X-CSRFToken': csrftoken, 'Content-Type': 'application/x-www-form-urlencoded'}})
+					//axios.post(url, self.formData, 
+					axios.post(url, myData, 
+							   {headers: {'X-CSRFToken': csrftoken,
+                                          'Content-Type': 'application/x-www-form-urlencoded'}})
 						.then(response => {
 								console.log("Done!")
-								//self.step = 2
+								self.step = 2
 						})
 					    .catch(error => {console.log(error)})
 				})

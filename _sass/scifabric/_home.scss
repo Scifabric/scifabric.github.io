@@ -1,6 +1,7 @@
 .people-graph {
     background:url('/assets/img/people-bigscreen-graph.svg');
     background-repeat: no-repeat;
+    background-position: center;
 
     @media screen and (max-width: $mobile) {
         background: none;

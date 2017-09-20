@@ -5,7 +5,7 @@
         <h2 class="subtitle is-2 has-text-primary">We'll tailor a plan to suit your needs</h2>
         <div class="columns is-centered">
             <div class="column"></div>
-            <div class="column ">
+            <div class="column is-hidden-touch">
                 <div class="notification is-info-subtle has-text-centered">
                     <h3 class="title is-3 has-text-primary">Starter</h3>
                     <h4 class="subtitle is-4 has-text-primary">Get basic support and fly solo!</h4>
@@ -13,17 +13,17 @@
                     <a @click.stop="toggleContact" href="#" class="button is-primary">Contact us</a>
                 </div>
             </div>
-            <div class="column">
+            <div class="column is-hidden-touch">
                 <div class="notification is-info has-text-centered">
                     <h3 class="title is-3 has-text-white">Pro</h3>
-                    <h4 class="subtitle is-4 has-text-white">Get basic support and fly solo!</h4>
+                    <h4 class="subtitle is-4 has-text-white">Get the best solution!</h4>
                     <p class="highlight">Custom price</p>
                     <a @click.stop="toggleContact" href="#" class="button is-white">Contact us</a>
                 </div>
             </div>
         </div>
         <div class="columns is-centered" style="margin-top:3px;">
-            <div class="column">
+            <div class="column is-hidden-touch">
                 <div class="notification has-text-left features">
                     <p>Support</p>
                     <p>Project customization</p>
@@ -51,32 +51,67 @@
             </div>
             <div class="column">
                 <div class="notification is-info-subtle has-text-centered features">
-                    <p>Email within 72h</p>
-                    <p>Basic (color & logo)</p>
-                    <p>15-day stats retention</p>
+                    <div class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd">
+                    <h3 class="title is-3 has-text-primary">Starter</h3>
+                    <h4 class="subtitle is-4 has-text-primary">Get basic support and fly solo!</h4>
+                    <p class="highlight">250€/month</p>
+                    <a @click.stop="toggleContact" href="#" class="button is-primary">Contact us</a>
+                    </div>
+
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Support</p>
+                    <p> Email within 72h</p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Project Customization</p>
+                    <p> Basic (color & logo)</p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Stats</p>
+                    <p> 15-day stats retention</p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Real time data analysis</p>
                     <p><i class="material-icons">clear</i></p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Text search</p>
                     <p><i class="material-icons">clear</i></p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Project Wizard</p>
                     <p><i class="material-icons">clear</i></p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Resources</p>
                     <p>Shared</p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Data Privacy</p>
                     <p>Public</p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Third-party integrations</p>
                     <p>Yes (1, your choice)</p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Number of projects</p>
                     <p>1</p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Theme customization</p>
                     <p>Basic</p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Weekly email stats</p>
                     <p>Basic</p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Workflows</p>
                     <p><i class="material-icons">done</i></p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Export data integrations</p>
                     <p><i class="material-icons">clear</i></p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Social Login</p>
                     <p><i class="material-icons">clear</i></p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Plugin support</p>
                     <p><i class="material-icons">clear</i></p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">HTTPS</p>
                     <p><i class="material-icons">clear</i></p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Auto Importers</p>
                     <p><i class="material-icons">clear</i></p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Web push Notifications</p>
                     <p><i class="material-icons">clear</i></p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Revision history</p>
                     <p><i class="material-icons">clear</i></p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Hosting on your own servers</p>
                     <p><i class="material-icons">clear</i></p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">UX/UI</p>
                     <p>Optional</p>
                 </div>
             </div>
             <div class="column ">
                 <div class="notification is-info has-text-centered features">
+                    <div class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd">
+                        <h3 class="title is-3 has-text-white">Pro</h3>
+                        <h4 class="subtitle is-4 has-text-white">Get the best solution!</h4>
+                        <p class="highlight">Custom price</p>
+                        <a @click.stop="toggleContact" href="#" class="button is-white">Contact us</a>
+                    </div>
                     <p>SLAs within 24h</p>
                     <p>Full (custom server and look & feel)</p>
                     <p>Full time stats</p>
@@ -239,6 +274,10 @@ export default {
 .expanded {
     max-height: none;
     background: white
+}
+
+.is-hidden-tablet.is-hidden-desktop.is-hidden-fullhd.title.is-6.is-marginless {
+    padding-top: 10px;
 }
 
 </style>

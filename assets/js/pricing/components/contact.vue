@@ -3,18 +3,22 @@
         <div v-if="step === 1" class="step1">
                     <h2 class="title is-3 highlight has-text-primary">Hola! Nice to hear from you</h2>
                     <h2 class="subtitle is-6">Drop us a line at <a href="mailto:info@scifabric.com">info@scifabric.com</a> or fill in this form</h2>
-                    <div class="has-text-left">
+                    <section class="has-text-left">
+                        <b-field>
+                            <b-input type="hidden"></b-input>
+                        </b-field>
                         <b-field label="What it is first name?">
-                            <b-input v-model="formData.first_name"></b-input>
+                            <b-input v-model="formData.first_name" expanded></b-input>
                         </b-field>
                         <b-field label="Your last name?">
-                            <b-input v-model="formData.last_name"></b-input>
+                            <b-input v-model="formData.last_name" expanded></b-input>
                         </b-field>
                         <b-field label="And your email?">
                             <b-input type="email"
                                      value="john@"
                                      maxlength="30"
-                                     v-model="formData.email">
+                                     v-model="formData.email"
+                                     :has-counter="false">
                             </b-input>
                         </b-field>
                         <b-field label="Drop us a line">
@@ -24,11 +28,11 @@
                                                        placeholder="">
                             </b-input>
                         </b-field>
-                        <div class="field">
+                        <b-field>
                             <b-checkbox v-model="formData.subscribe">Keep me informed of scifabric’s news (no spam. We promise!)
                             </b-checkbox>
-                        </div>
-                    </div>
+                        </b-field>
+                    </section>
                     <p @click="sendMail" class="button is-medium is-primary">Send</p>
                     <!--<p class="title is-6 has-text-primary">Scifabric is Madrid and London based</p>-->
         </div>
@@ -100,6 +104,9 @@ export default {
 }
 </script>
 <style>
+.step1, .step2 {
+    overflow: hidden;
+}
 .modal-background {
     background-color: white;
 }

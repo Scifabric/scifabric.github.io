@@ -119,13 +119,7 @@ export default {
                                           'Content-Type': 'application/x-www-form-urlencoded'}})
 						.then(response => {
 								console.log("Done!")
-                                console.log(response.data)
-                            if (response.data.first_name !== undefined)  {
-                                console.log("first name wrong")
-                                self.formData.first_name_valid = false
-
-                            }
-								self.step = 1
+								self.step = 2
 						})
 					    .catch(error => {console.log(error)})
 				})

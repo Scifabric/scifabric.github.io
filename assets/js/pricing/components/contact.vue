@@ -8,24 +8,23 @@
                             <b-input type="hidden"></b-input>
                         </b-field>
                         <b-field label="What it is first name?">
-                            <b-input v-model="formData.first_name" expanded></b-input>
+                            <b-input v-model="formData.first_name" ref="firstName" minlength=2></b-input>
                         </b-field>
                         <b-field label="Your last name?">
-                            <b-input v-model="formData.last_name" expanded></b-input>
+                            <b-input v-model="formData.last_name" ref="lastName" minlength=2></b-input>
                         </b-field>
                         <b-field label="And your email?">
                             <b-input type="email"
-                                     value="john@"
-                                     maxlength="30"
                                      v-model="formData.email"
-                                     :has-counter="false">
+                                     has-counter="false" ref="email">
                             </b-input>
                         </b-field>
                         <b-field label="Drop us a line">
                             <b-input v-model="formData.message" type="textarea"
                                                        minlength="10"
                                                        maxlength="100"
-                                                       placeholder="">
+                                                       placeholder=""
+                                                       ref="message">
                             </b-input>
                         </b-field>
                         <b-field>
@@ -33,7 +32,8 @@
                             </b-checkbox>
                         </b-field>
                     </section>
-                    <p @click="sendMail" class="button is-medium is-primary">Send</p>
+                    <p v-if="formValid" @click="sendMail" class="button is-medium is-primary">Send</p>
+                    <p v-else class="button is-medium is-primary" disabled>Send</p>
                     <!--<p class="title is-6 has-text-primary">Scifabric is Madrid and London based</p>-->
         </div>
         <div v-else class="step2">
@@ -69,6 +69,23 @@ export default {
         }
               
     },
+    computed:{
+        formValid(){
+            if ((this.formData.first_name !== '' && 
+                 this.formData.last_name !== '' &&
+                 this.formData.email !== '' &&
+                 this.formData.message !== '') &&
+                (this.$refs.firstName.checkHtml5Validity() &&
+                this.$refs.lastName.checkHtml5Validity() &&
+                this.$refs.email.checkHtml5Validity() &&
+                this.$refs.message.checkHtml5Validity())){
+                return true
+            }
+            else {
+                return false
+            }
+        }
+    },
 	methods: {
         closeModal(){
             this.showModal = false
@@ -85,6 +102,7 @@ export default {
             return tmp
         },
 		sendMail(){
+            console.log(this.formValid)
 			axios.defaults.withCredentials = true
 			axios.defaults.crossDomain = true
         	//var url = "https://formchimp.scifabric.com/register"
@@ -101,7 +119,13 @@ export default {
                                           'Content-Type': 'application/x-www-form-urlencoded'}})
 						.then(response => {
 								console.log("Done!")
-								self.step = 2
+                                console.log(response.data)
+                            if (response.data.first_name !== undefined)  {
+                                console.log("first name wrong")
+                                self.formData.first_name_valid = false
+
+                            }
+								self.step = 1
 						})
 					    .catch(error => {console.log(error)})
 				})

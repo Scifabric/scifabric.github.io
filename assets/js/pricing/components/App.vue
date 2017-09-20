@@ -16,7 +16,7 @@
             <div class="column is-hidden-touch">
                 <div class="notification is-info has-text-centered">
                     <h3 class="title is-3 has-text-white">Pro</h3>
-                    <h4 class="subtitle is-4 has-text-white">Your project is unique.<br>You know it, we'll build it</h4>
+                    <h4 class="subtitle is-4 has-text-white">Your project is unique.<br>We'll build it</h4>
                     <p class="highlight">Custom price</p>
                     <a @click.stop="toggleContact('[PRICING]')" href="#" class="button is-white">Contact us</a>
                 </div>
@@ -108,7 +108,7 @@
                 <div class="notification is-info has-text-centered features">
                     <div class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd">
                         <h3 class="title is-3 has-text-white">Pro</h3>
-                        <h4 class="subtitle is-4 has-text-white">Your project is unique.<br>You know it, we'll build it.</h4>
+                        <h4 class="subtitle is-4 has-text-white">Your project is unique.<br>We'll build it.</h4>
                         <p class="highlight">Custom price</p>
                         <a @click.stop="toggleContact('[PRICING]')" href="#" class="button is-white">Contact us</a>
                     </div>

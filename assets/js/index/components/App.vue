@@ -23,22 +23,26 @@ export default {
 }
 </script>
 <style lang="scss">
-@import "../../../../_sass/_scifabric.scss";
+@import "../../../_sass/_scifabric.scss";
 @import "~buefy/src/scss/buefy";
 
+.is-circle-player {
+    border-radius: 50% !important;
+}
+
 .is-pulsing {
-  position: relative;
-  border: none;
-  box-shadow: 0 0 0 0 rgba(0, 168, 137, 0.7);
-  cursor: pointer;
-  -webkit-animation: pulse 1.5s infinite cubic-bezier(0.66, 0, 0, 1);
-  -moz-animation: pulse 1.5s infinite cubic-bezier(0.66, 0, 0, 1);
-  -ms-animation: pulse 1.5s infinite cubic-bezier(0.66, 0, 0, 1);
-  animation: pulse 1.5s infinite cubic-bezier(0.66, 0, 0, 1);
+  position: relative !important;
+  border: none !important;
+  box-shadow: 0 0 0 0 rgba(0, 168, 137, 0.7) !important;
+  cursor: pointer !important;
+  -webkit-animation: pulse 1.5s infinite cubic-bezier(0.66, 0, 0, 1) !important;
+  -moz-animation: pulse 1.5s infinite cubic-bezier(0.66, 0, 0, 1 !important);
+  -ms-animation: pulse 1.5s infinite cubic-bezier(0.66, 0, 0, 1 !important);
+  animation: pulse 1.5s infinite cubic-bezier(0.66, 0, 0, 1 !important);
 }
 .is-pulsing:hover 
 {
-  -webkit-animation: none;-moz-animation: none;-ms-animation: none;animation: none;
+  -webkit-animation: none !important;-moz-animation: none !important;-ms-animation: none !important;animation: none !important;
 }
 
 @-webkit-keyframes pulse {to {box-shadow: 0 0 0 45px $green-a;}}

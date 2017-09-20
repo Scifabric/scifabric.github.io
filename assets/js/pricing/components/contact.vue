@@ -53,7 +53,7 @@
 import axios from 'axios';
 import $ from 'jquery';
 export default {
-    props: ['modalactive'],
+    props: ['modalactive', 'subject'],
     data() {
         return {
 			formData: {
@@ -62,7 +62,7 @@ export default {
             	email: '',
             	message: '', 
             	subscribe: false,
-				subject: 'HOLA',
+				subject: this.subject,
 			},
             step: 1,
             showModal: this.modalactive

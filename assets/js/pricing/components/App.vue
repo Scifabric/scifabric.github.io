@@ -1,6 +1,6 @@
 <template>
     <div class="container has-text-centered">
-        <Contact :modalactive.sync="modalactive"></Contact>
+        <Contact :modalactive.sync="modalactive" :subject="subject"></Contact>
         <h1 class="title is-1 has-text-primary highlight">Pricing Plans</h1>
         <h2 class="subtitle is-2 has-text-primary">We'll tailor a plan to suit your needs</h2>
         <div class="columns is-centered">
@@ -10,15 +10,15 @@
                     <h3 class="title is-3 has-text-primary">Starter</h3>
                     <h4 class="subtitle is-4 has-text-primary">Get basic support and fly solo!</h4>
                     <p class="highlight">250€/month</p>
-                    <a @click.stop="toggleContact" href="#" class="button is-primary">Contact us</a>
+                    <a @click.stop="toggleContact('[PRICING]')" href="#" class="button is-primary">Contact us</a>
                 </div>
             </div>
             <div class="column is-hidden-touch">
                 <div class="notification is-info has-text-centered">
                     <h3 class="title is-3 has-text-white">Pro</h3>
-                    <h4 class="subtitle is-4 has-text-white">Get the best solution!</h4>
+                    <h4 class="subtitle is-4 has-text-white">Your project is unique.<br>You know it, we'll build it</h4>
                     <p class="highlight">Custom price</p>
-                    <a @click.stop="toggleContact" href="#" class="button is-white">Contact us</a>
+                    <a @click.stop="toggleContact('[PRICING]')" href="#" class="button is-white">Contact us</a>
                 </div>
             </div>
         </div>
@@ -55,7 +55,7 @@
                     <h3 class="title is-3 has-text-primary">Starter</h3>
                     <h4 class="subtitle is-4 has-text-primary">Get basic support and fly solo!</h4>
                     <p class="highlight">250€/month</p>
-                    <a @click.stop="toggleContact" href="#" class="button is-primary">Contact us</a>
+                    <a @click.stop="toggleContact('[PRICING]')" href="#" class="button is-primary">Contact us</a>
                     </div>
 
                     <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Support</p>
@@ -108,31 +108,53 @@
                 <div class="notification is-info has-text-centered features">
                     <div class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd">
                         <h3 class="title is-3 has-text-white">Pro</h3>
-                        <h4 class="subtitle is-4 has-text-white">Get the best solution!</h4>
+                        <h4 class="subtitle is-4 has-text-white">Your project is unique.<br>You know it, we'll build it.</h4>
                         <p class="highlight">Custom price</p>
-                        <a @click.stop="toggleContact" href="#" class="button is-white">Contact us</a>
+                        <a @click.stop="toggleContact('[PRICING]')" href="#" class="button is-white">Contact us</a>
                     </div>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Support</p>
                     <p>SLAs within 24h</p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Project Customization</p>
                     <p>Full (custom server and look & feel)</p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Stats</p>
                     <p>Full time stats</p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Real time data analysis</p>
                     <p><i class="material-icons">done</i></p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Text search</p>
                     <p><i class="material-icons">done</i></p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Project Wizard</p>
                     <p>No coding</p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Resources</p>
                     <p>Dedicated / SLA </p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Data Privacy</p>
                     <p>Private</p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Third-party integrations</p>
                     <p>Yes (all)</p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Number of projects</p>
                     <p>SLA / According to needs</p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Theme customization</p>
                     <p>Full</p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Weekly email stats</p>
                     <p>Pro</p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Workflows</p>
                     <p><i class="material-icons">done</i></p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Export data integrations</p>
                     <p><i class="material-icons">done</i></p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Social Login</p>
                     <p><i class="material-icons">done</i></p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Plugin support</p>
                     <p><i class="material-icons">done</i></p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">HTTPS</p>
                     <p><i class="material-icons">done</i></p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Auto Importers</p>
                     <p><i class="material-icons">done</i></p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Web push Notifications</p>
                     <p><i class="material-icons">done</i></p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Revision history</p>
                     <p><i class="material-icons">done</i></p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">Hosting on your own servers</p>
                     <p><i class="material-icons">done</i></p>
+                    <p class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd title is-6 is-marginless">UX/UI</p>
                     <p>Optional</p>
                 </div>
             </div>
@@ -144,7 +166,7 @@
                 <p class="content">Not sure what’s happening and why something is not working properly? Rise a Support ticket in order to give you a solution. We’ll spend a minimum of 2h work. We will get back to you within 72h via mail with a solution and instructions so you can fix it yourself.  If you need development help for the implementation of a given solution, we also offer the resources you need. We’ll give you a a timing and price quote acording to your problem.</p>
                 <p class="title is-5 has-text-primary highlight">100€ / Support Ticket for non customers</p>
                 <p class="title is-5 has-text-primary highlight">SLA for customers</p>
-                <span class="button is-info" data-plan="ticket">Raise a support Ticket</span>
+                <span class="button is-info" data-plan="ticket" @click.stop="toggleContact('[SUPPORT TICKET]')">Raise a support Ticket</span>
             </div>
         </div>
         <div class="columns is-centered">
@@ -200,8 +222,9 @@ export default {
         }
     },
     methods: {
-        toggleContact() {
+        toggleContact(subject) {
             this.modalactive = !this.modalactive
+            this.subject = subject
         }
     },
 }

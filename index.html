@@ -1,232 +1,99 @@
 ---
-layout: default
-title: Data at its best
-description: Scifabric develops easy-to-use technologies to collect, analyse and enrich (your) data with the crowd.
+layout: default2
+title: Give your data a purpose
+description: Scifabric can help you enrich, analyse and mine your data!
 active: home
 navbar: default
-css:
-  - home
-  - blog-photos
 ---
-<a name="top"></a>
-
-<div id="go-to-top">
-    <a href="#top">
-        <span class="sf-up-open-big"></span>
-    </a>
-</div>
-
-
-<div class="jumbotron jumbotron-main">
-    <div class="container firstfold" style="z-index:10; position:relative;">
-        <div class="row">
-            <div class="text-center col-md-8 col-md-offset-2">
-                <h1>Data at its best</h1>
-                <h2>Scifabric develops easy-to-use technologies to collect, analyse and enrich (your) data with the crowd.</h2>
-                <a class="btn btn-default btn-sm" href="/crowdsourcing/"> THAT’S EXACTLY WHAT I WAS LOOKING FOR!</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="rolling-text">
-    <div id="rolling-container" class="swiper-container">
-        <div class="swiper-wrapper">
-            {% for tagline in site.data.taglines %}
-            <div class="swiper-slide">
-                <div class="container">
-                    <div class="col-md-6 col-md-offset-3">
-                        <p class="rolling">{{tagline.quote}}</p>
-                    </div>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-</div>
-
-<div class="features">
-    <div class="container">
-        <div class="col-lg-6 col-md-offset-3">
-            <div class="media">
-                <div class="media-left">
-                    <a><img class="media-object" src="{{site.cdn}}/images/icon1.svg"></a>
-                </div>
-                <div class="media-body">
-                    <h4 class="media-heading">We develop the best available technology</h4>
-                    <p class="media-body">that allows users to enrich and analyse their data in a transparent and easy way.</p>
-                </div>
-            </div>
-            <div class="media">
-                 <div class="media-left">
-                     <a><img class="media-object" src="{{site.cdn}}/images/icon2.svg"></a>
-                </div>
-                <div class="media-body">
-                    <h4 class="media-heading">Ours technology is stable</h4>
-                    <p class="media-body">widely used by the international community for crowdsourcing research.</p>
-                </div>
-            </div>
-            <p class="features-text">So, if you have data to analyse and think the crowd can help, we will make your idea happen ensuring you achieve your goal!</p>
-            <a class="btn btn-default btn-sm" href="/crowdsourcing/">I TOLD YOU THAT’S EXACTLY WHAT I WANT</a>
-        </div>
-    </div>
-</div>
-
-
-
-
-<div id="caseStudies" class="case-studies">
-    <div class="container" id="how-we-do-it">
-        <div class="container col-md-offset-1 col-md-10 text-center">
-            <p class="lead">Projects that make us proud</p>
-        </div>
-
-        <div class="row">
-            <div class="col-sm-6 col-md-5 col-lg-4">
-                <div class="thumbnail card">
-                    <div style="height: 222.5px; background: #333 url({{site.cdn}}/images/cities-at-night-pic.png) no-repeat center top/ cover;"></div>
-                    <div class="caption">
-                        <h3 class="small-space">Cities at Night</h3>
-                        <p>A research project on the Crowdcrafting platform that aims to monitor light emitted by major cities around the world and raise awareness of light pollution.</p>
-                        <p class="readmore"><a href="/success-stories/citiesatnight/">Read More</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-5 col-lg-4">
-                <div class="thumbnail card">
-                    <div style="height: 222.5px; background: #333 url({{site.cdn}}/images/micropasts-pic.png) no-repeat center top/ cover;"></div>
-                    <div class="caption">
-                        <h3 class="small-space">Micropasts</h3>
-                        <p>A PYBOSSA project that explores the use of crowdsourcing in archaeological research and has produced the world's largest public database of the Bronze Age artefacts.</p>
-
-                    <p class="readmore"><a href="/success-stories/micropasts/">Read More</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-5 col-lg-4">
-                <div class="thumbnail card">
-                    <div style="height: 222.5px; background: #333 url({{site.cdn}}/images/cruk-pic.png) no-repeat center top/ cover;"></div>
-                    <div class="caption">
-                        <h3 class="small-space">Trailblazer</h3>
-                        <p>Cancer Research UK's PYBOSSA-powered tool has allowed thousands of people worldwide to help scientists spot cancer cells and accelerate research with 90%
-                            accuracy.</p>
-                    <p class="readmore"><a href="/success-stories/cruk/">Read More</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> 
-</div>
-
-<div class="jumbotron jumbotron-fans">
-    <div class="row fans text-center">
-        <div class="col-md-12">
-            <h3>Scifabric's collaborators & fans</h3>
-        </div>
-    </div>
-    <div class="col-md-offset-2 col-md-2 col-sm-3 col-xs-6">
-        <img class="img-responsive" alt="The British Museum" src="{{site.cdn}}/assets/img/fans/british-museum-pic.png">
-    </div>
-    <div class="col-md-2 col-sm-3 col-xs-6">
-        <img class="img-responsive" alt="The Guardian" src="{{site.cdn}}/assets/img/fans/guardian-pic.png">
-    </div>
-    <div class="col-md-2 col-sm-3 col-xs-6">
-        <img class="img-responsive" alt="NASA" src="{{site.cdn}}/assets/img/fans/nasa-pic.png">
-    </div>
-    <div class="col-md-2 col-sm-3 col-xs-6">
-        <img class="img-responsive" alt="University Complutense of Madrid" src="{{site.cdn}}/assets/img/fans/ucm-pic.png">
-    </div>
-
-    <div class="col-md-offset-2 col-md-2 col-sm-3 col-xs-6">
-        <img class="img-responsive" alt="CSA" src="{{site.cdn}}/assets/img/fans/csa-pic.png">
-    </div>
-    <div class="col-md-2 col-sm-3 col-xs-6">
-        <img class="img-responsive" alt="University College of London" src="{{site.cdn}}/assets/img/fans/ucl-pic.png">
-    </div>
-    <div class="col-md-2 col-sm-3 col-xs-6">
-        <img class="img-responsive" alt="Open Knowledge" src="{{site.cdn}}/assets/img/fans/open-knowledge-pic.png">
-    </div>
-    <div class="col-md-2 col-sm-3 col-xs-6">
-        <img class="img-responsive" alt="Alfred P. Sloan" src="{{site.cdn}}/assets/img/fans/sloan-pic.png">
-    </div>
-
-    <div class="col-md-offset-2 col-md-2 col-sm-3 col-xs-6">
-        <img class="img-responsive" alt="Unitated Nations UNOSAT" src="{{site.cdn}}/assets/img/fans/unosat-pic.png">
-    </div>
-    <div class="col-md-2 col-sm-3 col-xs-6">
-        <img class="img-responsive" alt="ESA" src="{{site.cdn}}/assets/img/fans/esa-pic.png">
-    </div>
-    <div class="col-md-2 col-sm-3 col-xs-6">
-        <img class="img-responsive" alt="British Library" src="{{site.cdn}}/assets/img/fans/british-library-pic.png">
-    </div>
-    <div class="col-md-2 col-sm-3 col-xs-6">
-        <img class="img-responsive" alt="Nominet Trust" src="{{site.cdn}}/assets/img/fans/nominet-trust-pic.png">
-    </div>
-
-    <div class="col-md-offset-2 col-md-2 col-sm-3 col-xs-6">
-        <img class="img-responsive" alt="Citizen Cyberscience Centre" src="{{site.cdn}}/assets/img/fans/cyberscience-centre-pic.png">
-    </div>
-    <div class="col-md-2 col-sm-3 col-xs-6">
-        <img class="img-responsive" alt="One Foundation" src="{{site.cdn}}/assets/img/fans/one-foundation-pic.png">
-    </div>
-    <div class="col-md-2 col-sm-3 col-xs-6">
-        <img class="img-responsive" alt="National Library of Israel" src="{{site.cdn}}/assets/img/fans/library-israel-pic.png">
-    </div>
-    <div class="col-md-2 col-sm-3 col-xs-6">
-        <img class="img-responsive" alt="CERN" src="{{site.cdn}}/assets/img/fans/cern-pic.png">
-    </div>
-
-</div>
-
-<div class="quotes">
-
-            <h3 class="text-center">NICE THINGS THEY SAY</h3>
-
-    <div id="quotes-container" class="swiper-container">
-        <div class="swiper-wrapper">
-                {% for quote in site.data.quotes %}
-                <div class="swiper-slide">
-                    <div class="container">
-                        <div class="quote-caption">
-                            <div class="row">
-                                <div class="col-md-offset-3 col-md-6">
-                                    <img class="first-slide quote-pic" src="{{site.cdn}}/assets/img/portrait-quotes/{{quote.portrait}}" alt="{{quote.name}} Portrait">
-                                    <p class="lead"><strong>{{quote.name}}</strong></p>
-                                    <p class="lead"><strong>{{quote.company}}</strong></p>
-                                </div>
-                                <div class="col-md-offset-3 col-md-6">
-                                    <p class="add-quotes lead">"{{quote.quote}}"</p>
-                                </div>
+<section class="hero people-graph">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <h1 class="title has-text-primary highlight is-1">
+                        Give your data a purpose
+                    </h1>
+                    <h2 class="subtitle has-text-primary is-5">
+                        Scifabric can help you enrich, analyze and mine your data!
+                    </h2>
+                    <div class="level is-mobile">
+                        <div class="level-left">
+                            <div id="playvideo" class="level-item">
+                                <App></App>
+                            </div>
+                            <div class="level-item">
+                                <span class="title is-5 is-info highlight" style="margin-left: 16px;">Watch video</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                {% endfor %}
-        </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
-    </div>
-</div>
-
-<div class="home-blog container">
-    <div class="row text-center">
-        <div class="col-md-12">
-            <h3 class="uppercase">Coffee break</h3>
-            <p class="lead dark">Enjoy a cuppa while reading cool stuff about science, technology, <br>data-mining and more. Here's our latest blog post!</p>
+            </div>
         </div>
     </div>
-        <div class="row">
-            <div class="col-sm-offset-3 col-sm-6 col-md-offset-3 col-md-6 col-lg-offset-4 col-lg-4">
-                <div class="thumbnail card">
-                    <div class="post-pic cover-{{site.categories.blog[0].photo}}"></div>
-                    <div class="caption">
-                        <h3>{{site.categories.blog[0].title}}</h3>
-                        <p>{{site.categories.blog[0].content | strip_html | truncate: 150 }}.</p>
-
-                        <p class="readmore"><a href="{{site.prefix}}{{site.categories.blog[0].url}}">Read More</a></p>
-                    </div>
+    <img class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd" src="/assets/img/people-small-graph.svg" style="width:100%;"/>
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-6">
+                    <h1 class="scifabric-power-crowd-2 title has-text-primary highlight is-1">
+                        Turn your data into accesible and useful information with the power of the crowd
+                    </h1>
+    <p class="is-size-6">
+    And save time and money, AND get accurate results thanks to our easy-to-use crowdsourcing technology PYBOSSA. Ask your collaborators to enrich your files by geolocation, transcription, classification or description.
+    </p>
                 </div>
             </div>
         </div>
-</div>
 
+    </div>
+</section>
+<section class="hero orange-white" >
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <img class="is-hidden-touch" src="/assets/img/level-bigscreen.svg" style="width:100%; margin-top:140px; left:-48px; position:relative;"/>
+                </div>
+                <div class="column">
+                    <p class="title is-1 highlight has-text-primary second-fold is-first">Human data mining that
+                    will take your project 
+                    to the next level </p>
+                    <p class="is-size-6">Because results can mean nothing without analysing them, right? All your new generated data can be analysed in real time and turned into fully indexable info. Yeah, don’t thank us just yet. </p>
+                    <p style="margin-top:40%;" class="is-hidden-touch title is-1 has-text-primary highlight">Data Security is a priority.  You never lose control of your data. </p>
+                    <p class="is-size-6">We can make it as flexible as you need your project to be. That includes privacy and security of the data, so you can keep it on your side or make it public.  Wether you use the data for scientific research or marketing purposes, every client helps keep PYBOSSA alive and its code open source. It’s a WIN-WIN situation!</h2>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <img class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd" src="/assets/img/level-small.svg" style="width:100%;"/>
+    <div class="hero-body is-hidden-tablet is-hidden-desktop is-hidden-fullhd">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <p class="title is-1 has-text-primary highlight">Data Security is a priority.  You never lose control of your data. </p>
+                    <p class="is-size-6">We can make it as flexible as you need your project to be. That includes privacy and security of the data, so you can keep it on your side or make it public.  Wether you use the data for scientific research or marketing purposes, every client helps keep PYBOSSA alive and its code open source. It’s a WIN-WIN situation!</h2>
+
+                </div>
+            </div>
+        </div>
+</section>
+
+<section class="hero">
+    <img class="is-hidden-tablet is-hidden-desktop is-hidden-fullhd" src="/assets/img/social-small.svg" style="width:100%;"/>
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns third-fold">
+                <div class="column">
+                    <h1 class="title is-1 has-text-primary highlight">We aim a Positive Social Impact, don’t you?</h1>
+                    <h2 class="is-size-6">Public or private, every project and company make us improve PYBOSSA. Wether you use the data for scientific research or marketing purposes, every client helps keep PYBOSSA alive and its code open source. It’s a WIN-WIN situation!</h2>
+                </div>
+                <div class="column">
+                    <img class="is-hidden-touch" src="/assets/img/social-bigscreen.svg"/>
+                </div>
+            </div>
+        </div>
+</section>
+
+{% include readytorock.html %}
+<script src="/assets/js/playvideo.min.js"></script>

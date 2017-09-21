@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default2
 body_class: blog
 active: blog
 css:
@@ -8,38 +8,45 @@ css:
   - assets-photos
 navbar: default
 ---
-<div class="jumbotron jumbotron-blog cover-{{page.photo}}">
-</div>
-
-<section class="blogpost">
+<section class="hero is-large cover-{{page.photo}}">
+  <div class="hero-body">
     <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
+      <h1 class="title is-1 has-text-white">
+          {{page.title}}
+      </h1>
+      <h2 class="subtitle is-2 has-text-white">
+          {{page.description}}
+      </h2>
+        <p class="has-text-white is-size-7">{{ page.date | date: "%-d %B %Y" }}</p>
+        {% for member in site.data.crew %}
+        {% if member.author == page.author %}
+        <!-- modulo {{loopindex}} -->
+        <p class="has-text-white is-size-7">Post by {{member.name}} {{member.surname}}</p>
+        {% endif %}
+        {% endfor %}
+        <p class="has-text-white is-size-7">Cover photo by <a class="has-text-white" href="{{page.photo_url}}">{{page.photo_author}}</a></p>
+        <p class="has-text-white is-size-7">Reading time ~ <span title="{{ content | number_of_words}} words"> {% include readingtime.html %}</span></p>
+        <p id="memes" class="has-text-white is-size-7 memes">GIFs & memes ~ <span id="n_memes">0</span></p>
+
+    </div>
+  </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="columns is-centered">
+            <div class="column is-8">
                 {% if page.type == 'press' %}
-                <p class="post-back"><a href="/press/">Back to press</a></p>
+                <p><a href="/press/" class="has-text-success"><i style="font-size:10px;" class="material-icons">arrow_back</i> Back to press</a></p>
                 {% elsif page.type == 'job' %}
-                <p class="post-back"><a href="/jobs/">Back to jobs</a></p>
+                <p><a href="/jobs/" class="has-text-success"><i style="font-size:10px;" class="material-icons">arrow_back</i> Back to jobs</a></p>
                 {% else %}
-                <p class="post-back"><a href="/blog/">Back to entries</a></p>
+                <p><a href="/blog/" class="has-text-success"><i style="font-size:10px;" class="material-icons">arrow_back</i> Back to entries</a></p>
                 {% endif %}
 
-                <h1>{{page.title}}</h1>
-                <h2>{{page.description}}</h2>
-                <p class="post-details">{{ page.date | date: "%-d %B %Y" }}</p>
-                {% for member in site.data.crew %}
-                {% if member.author == page.author %}
-        <!-- modulo {{loopindex}} -->
-                <p class="post-details">Post by <a href="/team/#{{member.author}}">{{member.name}} {{member.surname}}</a></p>
-                {% endif %}
-                {% endfor %}
-                <p class="post-details">Cover photo by <a href="{{page.photo_url}}">{{page.photo_author}}</a></p>
-                <p class="post-details">Reading time ~ <span title="{{ content | number_of_words}} words"> {% include readingtime.html %}</span></p>
-                <p id="memes" class="post-details memes">GIFs & memes ~ <span id="n_memes">0</span></p>
-            </div>
-            <div class="top30 col-md-8 col-md-offset-2">
+          
                 {{content}}
-            </div>
-            <div class="col-md-8 col-md-offset-2">
+
                 {% if page.type == 'press' %}
                 <p class="lead dark"><strong>Share this press release:</strong>
                 {% elsif page.type == 'job' %}
@@ -58,17 +65,18 @@ navbar: default
                     <i class="fa fa-linkedin-square"></i></a>
 
                 </p>
-                {% if page.type != 'press' and page.type != 'job' %}
+                <!--{% if page.type != 'press' and page.type != 'job' %}
                 <div class="request-a-demo">
                     <img src="{{site.cdn}}/assets/img/success-stories/cruk/nick.svg">
                     <p>MAKE. IT. HAPPEN.</p>
                     <a class="btn btn-default" href="/request-a-demo/">Request a live demo</a>
                 </div>
-                {% endif %}
+                {% endif %}-->
             </div>
         </div>
     </div>
-<div class="container blog-entries first-container">
+</section>
+<!--<div class="container blog-entries first-container">
         {% for post in site.categories.blog %}
         {% if post.date == page.date %}
             {% if forloop.index0 == 0 %}
@@ -111,7 +119,7 @@ navbar: default
 
 </div>
 
-</section>
+</section>-->
 <script>
    var n_memes =  document.getElementsByTagName("iframe").length;
    document.getElementById("n_memes").innerHTML = n_memes;

@@ -4,3 +4,5 @@ _site
 *.un~
 *.DS_Store
 js/node_modules/*
+*node_modules*
+.jekyl-metadata

@@ -1,0 +1,72 @@
+.people-graph {
+    background:url('/assets/img/people-bigscreen-graph.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+    @media screen and (max-width: $mobile) {
+        background: none;
+    }
+
+}
+
+// Second fold
+
+.second-fold.is-first {
+    margin-top: 122px;
+    @media screen and (max-width: $mobile) {
+        margin-top: 0px;
+    }
+}
+
+.second-fold.is-second {
+    padding-top: 172px;
+}
+
+.orange-white {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fff432+0,fff432+45,000000+45,000000+100 */
+    background: $orange; /* Old browsers */
+    background: -moz-linear-gradient(top,  $orange 0%, $orange 50%, $white 50%, $white 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  $orange 0%, $orange 50%, $white 50%, $white 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  $orange 0%, $orange 50%, $white 50%, $white 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+$third-fold-padding-top: 100px;
+
+.columns.third-fold {
+    padding-top: $third-fold-padding-top;
+}
+
+.third-fold.wall {
+    position: absolute;
+    right: 0;
+}
+
+.third-fold.couple {
+    position: absolute;
+    top: 500px - $third-fold-padding-top;
+    right: 257px;
+    z-index: 3;
+}
+
+.third-fold.man-blue {
+    position: absolute;
+    top: 600px - $third-fold-padding-top;
+    left: 48%;
+}
+
+// Footer
+.footer-logo {
+    margin-top: -10px;
+}
+
+.ssnn {
+    margin-left: 12px;
+}
+
+.scifabric-power-crowd-2 {
+    margin-top: 485px;
+    @media screen and (max-width: $mobile) {
+        margin-top: 5px;
+    }
+
+}

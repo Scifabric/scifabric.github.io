@@ -1,0 +1,43 @@
+// Primary, secondary, black
+$blue: rgb(8, 125, 161);
+$green: rgb(0, 168, 137);
+$green-a: rgba(0, 168, 137, 0);
+$black: rgb(2, 31, 39);
+$primary: $blue;
+$secondary: $green;
+
+// Accent colors
+$orange: rgb(252, 189, 13);
+$green: $green;
+$red: rgb(255, 62, 62);
+
+$success: rgb(0, 211, 167);
+$info: $green;
+$warning: $orange;
+$danger: $red;
+
+$family-sans-serif: 'Source Sans Pro', sans-serif;
+$family-primary: $family-sans-serif;
+
+$body-size: 18px;
+
+$size-1: 2.8rem;
+$size-2: 2.6rem;
+$size-3: 2rem;
+$size-4: 1.72rem;
+$size-5: 1.38rem;
+$size-6: 1.12rem;
+$size-7: 1rem;
+$size-8: 0.7rem;
+$size-9: 0.6rem;
+
+$sizes: $size-1 $size-2 $size-3 $size-4 $size-5 $size-6 $size-8 $size-9; 
+
+$size-large: $size-5;
+$size-medium: $size-6;
+$size-normal: $size-7;
+$size-small: $size-8;
+
+$mobile: 400px;
+
+$footer-background-color: $primary

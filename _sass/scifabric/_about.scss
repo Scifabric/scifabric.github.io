@@ -1,0 +1,44 @@
+.circle {
+    width: 15px;
+    height: 15px;
+    content: " ";
+    border: 3px solid black;
+    border-radius: 50%;
+    @each $name, $pair in $colors {
+        $color: nth($pair, 1);
+        $color-invert: nth($pair, 2);
+        &.is-#{$name} {
+            border-color: $color;
+        }
+    }
+}
+.line-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+    content: " ";
+    border-left: 2px solid $primary;
+    width: 2px;
+    min-height: 130px;
+    margin-left: 7px;
+    @each $name, $pair in $colors {
+        $color: nth($pair, 1);
+        $color-invert: nth($pair, 2);
+        &.is-#{$name} {
+            border-color: $color;
+        }
+    }
+
+    @media screen and (max-width: $mobile) {
+        min-height: 250px;
+    }
+
+}
+
+.portrait {
+    width: 148px;
+    height: 148px;
+    border-radius: 50%;
+}

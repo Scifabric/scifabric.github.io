@@ -1,0 +1,255 @@
+- title: How crowdsourcing can help beat cancer
+  person: andy-patterson.jpg
+  cover: CRUK-white.png
+  person_name: Andy Patterson
+  person_position: Digital Solutions Architect
+  category: Medicine
+  project: Trailblazer
+  client: Cancer Research UK
+  client_logo: CRUK-color.png
+  location: London
+  quote: "The levels of accuracy achieved by Trailblazer have shown that citizen science can be a reliable, accurate and efficient method for biomedical research."
+  links:
+      - link: https://scifabric.com/success-stories/cruk/
+        title: Case Study
+      - link: https://scifabric.com/blog/2016/04/20/Cancer-Research-UK-Trailblazer.html
+        title: Blog
+      - link: http://cancer.pybossa.com/
+        title: Trailblazer demo
+      - link: http://www.cancerresearchuk.org/support-us/citizen-science/the-projects
+        title: CRUK Citizen Science
+      - link: http://www.nature.com/bjc/journal/v116/n2/full/bjc2016404a.html
+        title: Academic paper
+
+  starting_point: "<p>Cancer is one of mankind’s most prolific killers. Lung, trachea and bronchus cancers caused 1.7 million deaths worldwide in 2015. It is estimated that there will be 23.6 million new cases of cancer each year by 2030. Cancer Research UK (CRUK) has been investigating how crowdsourcing might help in the fight against cancer, particularly in the accurate identification of cancer cells in tissue samples. CRUK found that citizen scientists struggled with distinguishing between different types of cells in images. They wanted to find out if it would be possible to boost accuracy, and enable people to analyse more complicated samples, with enhanced training and by providing more feedback to citizens.
+</p><img src='https://cdn.scifabric.com/assets/img/blog/CancerTutorial.png'>"
+  what_we_did: "<p>Scifabric technology allowed Cancer Research UK to create Trailblazer, a customised project for identifying cancer cells. PYBOSSA software allows CRUK to retain its brand, make data private or public as required, add as many features as needed with plugin infrastructure, and automatically import data. The software provides ready-to-use templates and facilitates agile development with the release of frequent new versions. PYBOSSA also allows real-time analysis, which helps analyse results as quickly as possible, saving time, money and accelerating research.
+</p>"
+  how_does_it_work: "<p>Volunteers receive 25 minutes online training on how to identify and distinguish between cancer cells in images of tissue under a microscope. They are then provided with unclassified images and asked to identify and classify cancer cells. Citizen scientist scores are compared to consensus expert analysis in order to evaluate accuracy.</p><img src='https://cdn.scifabric.com/assets/img/blog/CancerResults3.jpeg'><h2 class='has-text-primary'>Results</h2><p>Over 1000 volunteers with no previous biomedical knowledge accessed Trailblazer. Scores showed that they could distinguish between cancer cells and healthy cells in tissue samples with 95% accuracy, as well as detect clinically significant features of cancer cells. Scores were compared against consensus expert analysis to evaluate accuracy, with volunteers' findings matching those of professional pathologists up to 90% of the time. Findings were published in the British Journal of Cancer.
+</p>"
+  tags:
+      - image recognition
+      - image annotation
+
+
+- title: Reclaiming lost worlds
+  person: jennifer-pic.jpeg
+  cover: british-museum-white.png
+  person_name: "Jennifer Wexler"
+  person_position: Bronze Age Index scanning manager
+  category: glam
+  project: Micropasts
+  client: "British Museum"
+  client_logo: british-museum-color.png
+  location: London
+  quote: "PYBOSSA has allowed us to recover essential data from Bronze Age collections at the British Museum, enabling us to open up these collections to the widest public."
+  links:
+      - link: https://scifabric.com/success-stories/micropasts/
+        title: Case Study
+      - link: https://scifabric.com/blog/2014/06/05/crowdsourcing-the-bronze-age.html
+        title: Blog
+      - link: http://micropasts.org/
+        title: Micropasts
+      - link: http://www.britishmuseum.org/
+        title: British Museum
+
+  starting_point: "<p>The British Museum is home to the National Bronze Age Index: a catalogue of over 30,000 index cards that record all bronze age findings in the UK from the 1800s to the 1990s. The storage space represents a lost world, with a visitor book showing that in the past 30 years only six people visited the collection. The British Museum, in collaboration with University College London, wants to reclaim this world.</p> <p><img src='https://cdn.scifabric.com/assets/img/blog/axes.jpeg'></p>"
+  what_we_did: "<p>PYBOSSA technology provided the flexibility and dynamism for The British Museum to quickly create Micropasts, a bespoke platform for hosting citizen archeology projects. Our plug-in infrastructure meant electronic scans of index cards could easily be imported, then our ready-to-use PDF data-mining template enabled volunteers to transcribe the cards with ease. Humans remain superior to machines in interpreting handwriting.</p>"
+  how_does_it_work: "<p>The British Museum’s index card database records details about object type, location and context of discovery, as well as line drawings of each object. Contributors to Micropasts are asked to transcribe details from the cards in pre-determined fields and to geo-reference the objects’ place of discovery. Volunteers are also asked to help create 3D models of some of the collection’s artefacts by a process known as ‘photomasking’, which involves accurately outlining the artefacts in pictures.</p>
+<h2 class='has-text-primary'>Results</h2><p>The MicroPasts crowdsourcing platform has allowed volunteers to transcribe the National Bronze Age Index catalogue, effectively turning the information contained in 30,000 index cards into one of the world’s largest electronic archaeological databases. Artefacts are also geographically referenced so that maps of their discovery sites can be generated. The creation of 3D models has allowed the British Museum to create ‘virtual tours’ of particular artefacts. By annotating models online, which creates a whole new way of presenting historical objects. Object models may also be transmitted around the world and 3D-printed for study by researchers.</p>
+<p>The Micropasts platform has been used to host a multitude of projects which has powered archaeological crowdsourcing internationally.</p><img src='https://cdn.scifabric.com/assets/img/blog/micropasts.jpeg'>"
+  tags:
+      - transcription
+      - geolocation
+      - data visualization
+
+- title: Cracking down on political corruption with data journalism
+  person: nick-evershed.jpg
+  cover: theguardian-white.png
+  person_name: Nick Evershed
+  person_position: Data and Interactives Editor 
+  category: Journalism
+  project: Pecuniary Interest Register
+  client: The Guardian
+  client_logo: theguardian-color.png
+  location: Australia
+  quote: "Prior to this project, the transparency of New South Wales politics was sorely lacking but we made an open, searchable database to reveal where politicians had failed to comply with transparency rules."
+  links:
+      - link: https://scifabric.com/blog/2016/02/26/data-journalism-crowdsourcing.html
+        title: Blog
+      - link: https://www.theguardian.com/australia-news/2015/mar/27/exclusive-nsw-liberal-mps-failed-to-declare-financial-interests-on-register
+        title: The Guardian Article
+
+  starting_point: "<p>New South Wales (NSW) politicians are required to declare interests that may influence their decisions in Parliament in a ‘pecuniary interests register’. These may include business interests, gifts, investments, shares and directorships. Guardian Australia journalists were concerned about the transparency of the NSW pecuniary interests register as it was not easy to scrutinise, with half of the register never made available online. The other half was a jumbled mess of (often handwritten) PDFs. To view politician’s interests in their entirety, it was necessary to go to Parliament and view the register in hard copy.
+</p><img src='https://cdn.scifabric.com/assets/img/blog/journalism.jpg'>"
+  what_we_did: "<p>PYBOSSA software provided a plugin so that PDF scans could be automatically imported to a single platform. With PYBOSSA’s PDF data mining template, tasks could be easily set-up for Guardian readers to extract key information. PYBOSSA allows real-time analysis, which helps analyse results as quickly as possible, saving time, money and accelerating an investigation.
+
+</p>"
+  how_does_it_work: "<p>To improve transparency, journalists wanted to create an open, machine-readable database of the interests register for the 2013-14 financial year. PDF scans were uploaded to a platform, from which Guardian readers transcribed key details into a database. This was the first project of its kind in Australia at a state level.<h2 class='has-primary-text'>Results</h2><p>Guardian readers transcribed the entire pecuniary interest register in less than three weeks. Around 50 contributors completed more that 1,700 tasks and flagged entries that warranted further investigation. The resulting database may be viewed here. Data analysis techniques were employed to compare the database with other datasets, such as records of contracts, donations and travel expenses. Analysis of the register revealed that two politicians had failed to comply with transparency rules. They promptly updated the register.
+</p>"
+  tags:
+      - transcription
+
+- title: Crowdsourcing projects from the British Library
+  person: nora.png
+  cover: british-library-white.png
+  person_name: "Nora McGregor"
+  person_position: Digital Curator, Asian & African Collections
+  category: glam
+  project: LibCrowds
+  client: "British Museum"
+  client_logo: british-library-color.png
+  location: London
+  quote: "We chose to build our crowdsourcing project with PYBOSSA because it provided the flexibility to create and easily integrate our own custom plugins"
+  links:
+      - link: https://scifabric.com/blog/2016/05/24/Rediscover-the-past-with-crowdsourcing.html
+        title: Blog
+      - link: https://scifabric.com/blog/2015/07/20/Crowdsourcing_Humanities.html
+        title: Blog
+      - link: https://www.libcrowds.com/
+        title: LibCrowds
+      - link: https://www.bl.uk/
+        title: British Library
+
+        starting_point: "<p>The British Library is the national library of the UK and, by law, receives a copy of all publications in the UK. It is home to a vast amount of material which, for historical reasons, is only discoverable through old printed card catalogues onsite. The British Library wanted to make its collections more accessible online.</p><p><img src='https://cdn.scifabric.com/assets/img/blog/IndexCards.jpg'></p>"
+  what_we_did: "<p>The British Library required a bespoke approach to enrich its online collection. LibCrowds is a crowdsourcing platform that aims to make the physical collections of the library accessible online. PYBOSSA’s PDF data mining template provided a ready-made solution for transcribing its vast collection of index cards. Plugins meant data could be readily uploaded to the platform. The flexibility of PYBOSSA software allowed the British Library to customise the platform to meet its unique requirements.</p>"
+  how_does_it_work:  "<p>Libcrowds asks volunteers to transcribe text from printed card catalogues into electronic records in order to make them available to a worldwide audience. Volunteers locate a matching record in an existing external database of online catalogue records and transcribe the unique British Library shelfmark, thereby creating a new online catalogue record for the item. Data identified, transcribed or translated as part of the project is made freely accessible from the British Library’s Explore catalogue.<h2 class='has-text-primary'>Results</h3><p>Libcrowds has so far focused on the British Library’s Asian and African collections, particularly the Chinese, Indian and Indonesian catalogues, making these resources available online and openly accessible, revolutionizing how the library engages with readers and researchers.</p>"
+  tags:
+      - transcription
+
+- title: Protecting our oceans with citizens and satellites
+  person: david-kroodsma.jpg
+  cover: global-fishing-watch-white.png
+  person_name: David Kroodsma
+  person_position: Research Program Manager
+  category: social
+  project: Global Fishing Watch
+  client: Global Fishing Watch 
+  client_logo: global-fishing-watch-color.png
+  location: USA
+  quote: We strongly believe that more transparency of data leads to better outcomes, so philosophically PYBOSSA is a good fit.
+  links:
+      - link: https://scifabric.com/blog/2016/09/14/Global-Fishing-Watch.html
+        title: Blog
+      - link : http://globalfishingwatch.org/
+        title: Global Fishing Watch
+      - link: http://globalfishingwatch.org/news
+        title: News about the project
+
+  starting_point: "<p>Global overfishing is destroying ocean ecosystems. Nearly one third of marine fish stocks worldwide have been overfished and over 90% of the world’s fisheries are fully exploited or overfished according to a 2014 UN report. Global fishing fleets operate far out at sea and their activities are extremely difficult to monitor. </p><p><img src='https://cdn.scifabric.com/assets/img/blog/fish.jpg'></p>"
+  what_we_did: "<p>PYBOSSA’s image pattern recognition template made it the ideal tool to create Global Fishing Watch, a platform which aims to track the movements of fishing vessels. The Global Fishing Watch team has utilised PYBOSSA before, so knew how straightforward and intuitive it is to use. PYBOSSA is open source software, which made it a good cultural fit for the project.</p>"
+  how_does_it_work:  "<p>Almost all large ocean-going vessels are required to carry an Automatic Identification System, which periodically broadcasts a vessel’s location and identity. Satellites can use these signals to track the movements of fishing vessels. Global Fishing Watch enlists the help of volunteers to identify vessel movement that is suggestive of fishing activity. This is a pattern recognition problem and so input from citizens is crucial.</p><h2 class='has-text-primary'>Results</h2><p>Since the Phoenix Islands Protected Area (PIPA) – a swathe of unspoilt ocean located in the central Pacific between Hawaii and Australia that is the world’s largest UNESCO World Heritage Site – was officially closed to industrial fishing, Global Fishing Watch monitors the park to ensure fishing vessels stay out.</p><p><iframe width='560' height='315' src='https://www.youtube.com/embed/I2jeOa0HmiU?rel=0&amp;controls=0&amp;showinfo=0' frameborder='0' allowfullscreen></iframe></p>"
+  tags:
+      - geolocation
+
+- title: Fighting Malaria
+  person: user.svg
+  cover: swiss-tph-white.png
+  person_name: Nicolas Maire
+  person_position: Group Leader of Public Health Computing
+  category: Medicine
+  project: Malaria Control
+  client: Swiss Tropical and Public Health Institute
+  client_logo: swiss-tph-color.png
+  location: Switzerland
+  quote: "An unexpected bonus of using Crowdcrafting has been the outreach achieved - lots more people know about the research projects because we’ve crowdsourced the data."
+  links:
+       - link: https://scifabric.com/blog/2014/10/03/Rural_Geolocator.html
+         title: Blog
+       - link: https://crowdcrafting.org/project/RuralGeolocator/
+         title: Rural Geolocator
+       - link:  https://www.swisstph.ch/en/
+         title: Swiss TPH
+  starting_point: "<p>ield teams trying to stop the spread of Malaria need to deliver technologies and advice to indigenous populations to prevent them from contracting the disease. To deliver these tools, the teams need to know where people live. While they try their best to visit everyone, inevitably they miss some people out who, perhaps, live in remote areas which are difficult to access.</p>"
+  what_we_did: "<p>PYBOSSA software was used to create Rural Gelocator, a platform for identifying potentially habitable dwellings in satellite images. PYBOSSA plugins allow large volumes of satellite data to be easily uploaded to the platform. The ready-to-use image pattern recognition template allows citizens to identify patterns in images. Data can be analysed in real time, allowing researchers to save time, money and accelerate research.</p>"
+  how_does_it_work: "<p>The Rural Geolcator team acquired thousands of satellite images (imported from Bing) to help locate structures where people might live in specific areas. There is a diverse range of possibilities of what constitutes a ‘potentially habitable structure’ that only the human brain can interpret – computer algorithms cannot be used for these tasks. Volunteers identify and georeference potentially habitable dwellings so that field workers can visit these sites and distribute anti-Malaria technologies.</p><h2 class='has-text-primary'>Results</h2><p>Data sets collected for Rusinga Island, Kenya and Majete Wildlife Researcve, Malawi were used to create maps of potentially habitable structures to overlay maps of houses visited by field teams. These maps were used to identify households missed by field teams and deliver anti-Malaria technology. Using satellite imagery and crowdsourcing has improved data to guide both field research and the implementation of malaria control measures.</p><p><img src='https://cdn.scifabric.com/assets/img/blog/enumerators.JPG'></p>"
+  tags:
+      - geolocation
+
+- title: Contract analysis
+  person: Open Oil
+  cover: openoil-white.png
+  person_name: Open Oil
+  person_position: Open Oil
+  category: Journalism
+  project: Open Oil
+  client: Open Oil
+  client_logo: openoil.png
+  location: Germany
+  quote: Open source and open content approaches have a role to play in the creation of a more open atmosphere around the oil industry.
+  links:
+      - link: https://scifabric.com/blog/2015/09/08/Open-Oil.html
+        title: Blog
+      - link: http://openoil.net/
+        title: Open Oil
+
+  starting_point: "<p>The oil industry is run by massive multinational conglomerates, each composed of a dense network of companies, subsidiaries and partners. To understand the industry, it is necessary to untangle the complex contractual web that links these entities. Governments require oil companies to disclose information, including contracts, in public filings. There are huge volumes of data made publicly available in jurisdictions across the world each day. The problem is that there is too much data for any individual or investor to understand.</p><p><iframe width='560' height='315' src='https://www.youtube.com/embed/29RQWlalFfs' frameborder='0' allowfullscreen></iframe></p>"
+  what_we_did: "<p>Open Oil uses PYBOSSA technology to help analyse oil industry contracts. Using PYBOSSA’s PDF data-mining template, it is easy to set up projects where volunteers extract key details from documents. Plugins help upload large volumes of data efficiently. Real time analysis produces results as quickly as possible, saving time, money and accelerating research.</p>"
+  how_does_it_work: "<p>Open Oil asks contributors to identify the full legal name, abbreviation, jurisdiction and OpenCorporates ID in each contract.  The ultimate objective is not just to make information available but to make it useable – to present it in a clear and accessible way that is meaningfully transparent. It may then be used to understand beneficial ownership, crack down on tax avoidance, protect public funds, hold politicians to account, monitor lobbyists and fight pollution. Open Oil has created Aleph, a search engine to easily navigate oil contract information.</p><p></p><h2 class='has-text-primary'>Results</h2><p>Open Oil believes open data can change extractive industries. With the help of the Crowd, data presented in a jumbled, haphazard mess of PDFs has been pulled together into a coherent, useable format that presents a holistic picture of an organisation or industry. For example, Open Oil found the multinational organisation British Petroleum to be constituted of 1,180 affiliations across 84 jurisdictions, with 12 layers of corporate ownership. The structure is so vast that BP executives got in touch with Open Oil to help them understand the company themselves! This profound new method of open corporate governance empowers people to hold organisations to account and insist on fair play.</p>"
+  tags:
+      - transcription
+      - data collection
+      - data cleaning
+
+- title: Does antimatter fall down or up?
+  person: michael-doser.jpg
+  cover: CERN-white.png
+  person_name: Michael Doser
+  person_position: Senior Research Physicists
+  category: Science
+  project: Antimatter Alpha
+  client: CERN
+  client_logo: CERN-color.png
+  location: Switerzerland
+  quote: "Algorithms are not curious. If we had something unexpected, a computer may not see it but humans are open to new ways of looking at things."
+  links:
+      - link: https://scifabric.com/blog/2015/03/01/Antimatter.html
+        title: Blog
+      - link: http://www.quantumdiaries.org/2013/08/08/join-the-dots-to-measure-antimatter/
+        title: Blog
+      - link: https://aegis.web.cern.ch/aegis/ 
+        title: AEgIS experiment
+      - link: https://home.cern/about
+        title: CERN
+
+  starting_point: "<p>The observable universe is composed almost entirely of matter but stuff called antimatter can be made in the laboratory. Antimatter is material composed of antiparticles that have the same mass as normal matter particles but the opposite electric charge. When an antiparticle collides with a normal matter particle they both annihilate – producing a burst of other particles and radiation. Scientists don’t know how antimatter interacts with gravity.</p>"
+  what_we_did: "<p>Figuring out how antimatter interacts with gravity is an image pattern recognition problem. PYBOSSA’s image pattern recognition template allowed scientists at CERN – the world’s leading particle physics laboratory in Geneva, Switzerland – to create tasks whereby volunteers track the path of antiparticles as they fly through an emulsion. Plugins facilitated the easy upload of data.</p>"
+  how_does_it_work:  "<p>The AEgIS experiment at CERN shoots antimatter atoms horizontally – whereupon they fly and fall – at a wall made of matter. On hitting the wall, the antimatter will annihilate with a matter nucleus, producing a burst of light particles (known as pions) and some heavier particles. These particles will travel through a special gel (known as an emulsion) behind the wall which makes their tracks visible. Tracing these tracks to their point of origin reveals exactly where the annihilation occurred which, in turn, allows for the calculation of how far each antiparticle travels. From this, you can work out – from the distance each particle flies and falls – how antimatter interacts with gravity. Simples!</p><h2 class='has-text-primary'>Results</h2><p>The Antimatter project was the first time CERN released previously unanalysed data publicly. The data was analysed rapidly and has helped scientists to better calibrate the experiment. Further data and results are awaited to discover if antimatter actually falls up...</p><p><img src='https://cdn.scifabric.com/assets/img/blog/AEGIS4.jpg'></p>"
+  tags:
+      - classification
+      - image recognition
+      - image classification
+
+- title: Fighting light pollution from space
+  person: alejandro-sanchez.png
+  cover: university-complutense-white.png
+  person_name: Alejandro Sánchez
+  person_position: PhD doctor
+  category: Science
+  project: Cities at Night
+  client: University Complutense of Madrid
+  client_logo: university-complutense-color.png
+  location: Madrid
+  quote: "Scifabric has helped us launch several citizen science projects with few resources and little effort. The solution allowed us to worry only about science and not technical issues."
+  links:
+      - link: https://scifabric.com/success-stories/citiesatnight/
+        title: Case Study
+      - link: https://scifabric.com/blog/2014/07/23/Cities_at_Night.html
+        title: Blog
+      - link: http://citiesatnight.org/
+        title: Cities at Night
+      - link: http://citiesatnight.org/index.php/on-the-news/
+        title: Cities at Night press (Fox News, NASA, ESA, etc.)
+
+  starting_point: "<p>The NASA Johnson Space Centre database holds more than 1.2 million photographs taken by astronauts from the International Space Station. The photographs represented an information-rich but largely untapped resource.  However, a PhD candidate in Madrid realised the database may provide valuable insight into artificial light levels across the Earth’s surface.</p><img src='https://cdn.scifabric.com/assets/img/blog/city.jpg'>"
+  what_we_did: "<p>Scifabric helped Alejandro Sánchez de Miguel build Cities at Night, a series of projects where images from the International Space Station could be uploaded, classified, and georeferenced. Scifabrc software offered templates to quickly set-up the projects; indeed the prototype of the Dark Skies project was built in under an hour! PYBOSSA software also provided the flexibility to customise the projects to Alejandro’s needs.</p>"
+  how_does_it_work: "<p>Cities at Night consists of three inter-related projects: in Dark Skies contributors identify what is observed in each image, whether stars, a city, an astronaut or simply darkness. This is a classic image pattern recognition problem, where volunteers identify objects that algorithms cannot. Images with cities are put into a separate database.  In Lost at Night, volunteers identify particular cities in the photographs by shape, notable features or using local knowledge.  Cities are geolocated on a world map. Finally, in Night Cities ISS volunteers help to match city features in the photograph with the same features shown on a web-based map. Advanced web-mapping techniques accurately georeference each image and associate it with real world coordinates.<img src='https://cdn.scifabric.com/assets/img/blog/Shanghai.jpg'><h2 class='has-text-primary'>Results</h2><p>Cities at Night has attracted more than 30,000 unique contributors. Thanks to users, more than
+145,000 images have been classified, geolocated and georeferenced. Georeferenced images are used to measure, monitor, compare and contrast light emitted by cities. This information is fed to governments to encourage reductions in light pollution. (Oh and Alejandro was awarded a distinction for his doctoral thesis!)
+
+</p>"
+  tags:
+      - geolocation
+      - image recognition
+      - image clasification
+
+

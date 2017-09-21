@@ -11,22 +11,22 @@ navbar: default
 <section class="hero is-large cover-{{page.photo}}">
   <div class="hero-body">
     <div class="container">
-      <h1 class="title is-1 has-text-white">
+      <h1 class="title is-1 has-text-white has-text-shadow">
           {{page.title}}
       </h1>
-      <h2 class="subtitle is-2 has-text-white">
+      <h2 class="subtitle is-2 has-text-white has-text-shadow">
           {{page.description}}
       </h2>
-        <p class="has-text-white is-size-7">{{ page.date | date: "%-d %B %Y" }}</p>
+        <p class="has-text-white is-size-7 has-text-shadow ">{{ page.date | date: "%-d %B %Y" }}</p>
         {% for member in site.data.crew %}
         {% if member.author == page.author %}
         <!-- modulo {{loopindex}} -->
-        <p class="has-text-white is-size-7">Post by {{member.name}} {{member.surname}}</p>
+        <p class="has-text-white is-size-7 has-text-shadow">Post by {{member.name}} {{member.surname}}</p>
         {% endif %}
         {% endfor %}
-        <p class="has-text-white is-size-7">Cover photo by <a class="has-text-white" href="{{page.photo_url}}">{{page.photo_author}}</a></p>
-        <p class="has-text-white is-size-7">Reading time ~ <span title="{{ content | number_of_words}} words"> {% include readingtime.html %}</span></p>
-        <p id="memes" class="has-text-white is-size-7 memes">GIFs & memes ~ <span id="n_memes">0</span></p>
+        <p class="has-text-white is-size-7 has-text-shadow">Cover photo by <a class="has-text-white" href="{{page.photo_url}}">{{page.photo_author}}</a></p>
+        <p class="has-text-white is-size-7 has-text-shadow">Reading time ~ <span title="{{ content | number_of_words}} words"> {% include readingtime.html %}</span></p>
+        <p id="memes" class="has-text-white is-size-7 memes has-text-shadow">GIFs & memes ~ <span id="n_memes">0</span></p>
 
     </div>
   </div>

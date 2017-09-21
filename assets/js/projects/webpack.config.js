@@ -50,8 +50,8 @@ vue: {
     //  filename: '../../templates/home/index.html',
     //  template: '../../templates/home/_results.webpack'
     //}),
-    //new webpack.optimize.DedupePlugin(),
-    //new webpack.optimize.UglifyJsPlugin({minimize: true})
+    new webpack.optimize.DedupePlugin(),
+    new webpack.optimize.UglifyJsPlugin({minimize: true})
   ]
 
 }

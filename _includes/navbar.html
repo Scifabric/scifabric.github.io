@@ -13,19 +13,19 @@
 
             <div id="navMenuExample" class="navbar-menu">
                 <div class="navbar-end has-text-centered">
-                    <a class="navbar-item" href="/howitworks/">
+                    <a class="navbar-item {% if page.active== 'howitworks' %} has-text-info has-text-underlined {% else %}has-text-primary{%endif%}" href="/howitworks/">
                         How it works
                     </a>
-                    <a class="navbar-item" href="/projects/">
+                    <a class="navbar-item {% if page.active== 'projects' %} has-text-info has-text-underlined {% else %}has-text-primary{%endif%}" href="/projects/">
                         Projects
                     </a>
-                    <a class="navbar-item" href="/pricing/">
+                    <a class="navbar-item {% if page.active== 'pricing' %} has-text-info has-text-underlined {% else %}has-text-primary{%endif%}" href="/pricing/">
                         Pricing
                     </a>
-                    <a class="navbar-item" href="/about/">
+                    <a class="navbar-item {% if page.active== 'about' %} has-text-info has-text-underlined {% else %}has-text-primary{%endif%}" href="/about/">
                         About
                     </a>
-                    <a class="navbar-item" href="/blog/">
+                    <a class="navbar-item {% if page.active== 'blog' %} has-text-info has-text-underlined {% else %}has-text-primary{%endif%}" href="/blog/">
                         Blog
                     </a>
 
@@ -38,5 +38,3 @@
                     </div>
                 </div>
         </nav>
-
-

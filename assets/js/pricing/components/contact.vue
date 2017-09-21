@@ -105,13 +105,13 @@ export default {
             console.log(this.formValid)
 			axios.defaults.withCredentials = true
 			axios.defaults.crossDomain = true
-        	//var url = "https://formchimp.scifabric.com/register"
-        	var url = "http://localhost:5000/register"
+        	var url = "https://formchimp.scifabric.com/register"
+        	//var url = "http://localhost:5000/register"
             var self = this
             var myData = this.formDataObj()
 			axios.get(url)
 				.then(response => {
-					console.log(response.data)	
+					//console.log(response.data)	
 					var csrftoken = response.data['csrf_token']
 					//axios.post(url, self.formData, 
 					axios.post(url, myData, 

@@ -2,7 +2,7 @@
     <div class="container" style="margin-bottom:160px;">
         <div class="columns">
             <div class="column is-2">
-                <a @click="reset" class="has-text-success"><i style="font-size:10px;" class="material-icons">arrow_back</i> All projects</a>
+                <a @click="reset" class="has-text-info"><i style="font-size:10px;" class="material-icons">arrow_back</i> All projects</a>
             </div>
         </div>
         <div class="columns is-hidden-tablet is-hidden-desktop is-hidden-fullhd">
@@ -86,7 +86,7 @@
         </div>
         <div class="columns">
             <div class="column is-2">
-                <a @click="reset" class="has-text-success"><i style="font-size:10px;" class="material-icons">arrow_back</i> All projects</a>
+                <a @click="reset" class="has-text-info"><i style="font-size:10px;" class="material-icons">arrow_back</i> All projects</a>
             </div>
         </div>
         </div>

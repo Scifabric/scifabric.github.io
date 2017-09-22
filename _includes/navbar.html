@@ -25,7 +25,7 @@
                     <a class="navbar-item {% if page.active== 'about' %} has-text-info has-text-underlined {% else %}has-text-primary{%endif%}" href="/about/">
                         About
                     </a>
-                    <a class="navbar-item {% if page.active== 'blog' %} has-text-info has-text-underlined {% else %}has-text-primary{%endif%}" href="/blog/">
+                    <a class="navbar-item {% if page.active== 'blog' or post.active == 'blog' %} has-text-info has-text-underlined {% else %}has-text-primary{%endif%}" href="/blog/">
                         Blog
                     </a>
 

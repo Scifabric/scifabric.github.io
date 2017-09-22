@@ -69,7 +69,7 @@ export default {
         return {
             isImageModalActive: false,
             projects: window.projects,
-            colors: ['primary', 'success', 'warning', 'danger' ],
+            colors: ['primary', 'info', 'warning', 'danger' ],
             filters: {},
             filter: 'all',
             selectedProject: null,
@@ -275,5 +275,6 @@ export default {
 
 .projectbox {
 	min-height: 355px;
+    cursor: pointer;
 }
 </style>

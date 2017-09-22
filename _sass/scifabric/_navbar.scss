@@ -1,0 +1,6 @@
+.scifabric-nav-logo {
+    padding: 0 !important;
+    @media screen and (max-width: $mobile) {
+        padding: 0.5rem 1rem !important;
+    }
+}

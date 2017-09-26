@@ -11,7 +11,7 @@
             <div class="column is-9">
                 <span class="level-item title is-1 has-text-primary is-hidden-touch" style="font-weight: 400;">help your
                     <div class="wrapper-dropdown level" tabindex="1" :class="{active: showOptions}" @click="toggleOptions">
-                        {{filter}} <i class="material-icons">keyboard_arrow_down</i>
+                        {{filter}} <i class="material-icons has-size-1">keyboard_arrow_down</i>
                         <ul class="dropdown-special">
                             <li v-for="category in categories" class="is-capitalized" @click="selectOption(category)">
                                 {{category}}
@@ -21,7 +21,7 @@
                     </div>
                 projects?</span>
                 <span class="title is-1 has-text-primary is-hidden-tablet is-hidden-desktop is-hidden-fullhd" style="font-weight: 400;">
-                <div class="wrapper-dropdown level" tabindex="1" :class="{active: showOptions}" @click="toggleOptions">
+                <div class="wrapper-dropdown is-marginless level" tabindex="1" :class="{active: showOptions}" @click="toggleOptions">
                     {{filter}} <i class="material-icons">keyboard_arrow_down</i>
                     <ul class="dropdown-special">
                         <li v-for="category in categories" class="is-capitalized" @click="selectOption(category)">
@@ -47,12 +47,8 @@
                        </p>
                      </figure>
                      <p class="title is-3 has-text-white is-marginless">{{project.title}}</p>
-                     <div class="level is-mobile">
-                         <div class="level-left">
-                           <div v-for="tag in project.tags" class="level-item">
-                               <span class="button is-white is-small is-outlined">{{tag}}</span>
-                           </div>
-                         </div>
+                     <div class="tags" style="margin-top:15px;">
+                         <span v-for="tag in project.tags" class="button is-white is-small is-outlined tag">{{tag}}</span>
                      </div>
                 </div>
             </div>
@@ -199,7 +195,7 @@ export default {
     position: relative;
     min-width: 330px;
     max-width: 350px;
-    margin: 0 auto;
+    margin: 0 10px;
     outline: none;
     cursor: pointer;
     border: 0px !important;

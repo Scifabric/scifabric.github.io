@@ -44,9 +44,9 @@
                     </div>
                 </div>
 
-                <h2 class="title is-2 has-text-primary highlight">What we did!</h2>
-                <div class="content" v-html="project.what_we_did"></div>
                 <h2 class="title is-2 has-text-primary highlight">Choosing Scifabric technology</h2>
+                <div class="content" v-html="project.what_we_did"></div>
+                <h2 class="title is-2 has-text-primary highlight">How does it work?</h2>
                 <div class="content" v-html="project.how_does_it_work"></div>
             </div>
             <div class="column is-4">

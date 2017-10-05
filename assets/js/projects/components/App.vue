@@ -42,8 +42,8 @@
             <div v-for="(project, idx) of filteredProjects" class="column is-half">
                 <div class="box notification projectbox" :class="projectColor(idx)" @click="select(project)" style="display:flex; flex-direction: column; justify-content: space-between;">
                     <figure class="media-left">
-                       <p class="image is-130x130">
-                         <img :src="cover(project.cover)" style="width:130px; height:130px;">
+                       <p class="image">
+                         <img :src="cover(project.cover)" style="max-width:210px; max-height:130px; width:auto;">
                        </p>
                      </figure>
                      <p class="title is-3 has-text-white is-marginless">{{project.title}}</p>

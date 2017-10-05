@@ -158,6 +158,8 @@
          title: Blog
        - link: https://crowdcrafting.org/project/RuralGeolocator/
          title: Rural Geolocator
+       - link: https://doi.org/10.1371/journal.pone.0183661
+         title: Academic paper
        - link:  https://www.swisstph.ch/en/
          title: Swiss TPH
   starting_point: "<p>Field teams trying to stop the spread of Malaria need to deliver technologies and advice to indigenous populations to prevent them from contracting the disease. To deliver these tools, the teams need to know where people live. While they try their best to visit everyone, inevitably they miss some people out who, perhaps, live in remote areas which are difficult to access.</p>"

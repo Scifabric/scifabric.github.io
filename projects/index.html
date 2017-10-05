@@ -6,7 +6,7 @@ active: projects
 name: projects
 ---
 <section id="projects" class="section">
-    <App></App>
+    <App v-bind:visibility="visibility"></App>
 </section>
 <script>
 window.projects = {{ site.data.projects | jsonify }};

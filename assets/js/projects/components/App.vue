@@ -61,6 +61,7 @@ import _ from 'lodash'
 
 export default {
     components: {Project},
+    props: ['visibility'],
     data(){
         return {
             isImageModalActive: false,
@@ -84,6 +85,7 @@ export default {
         },
         select(project){
             this.selectedProject = project
+            window.location.hash = encodeURI(project.project.toLowerCase())
         },
         isTag(tag){
             var t = _.find(this.filteredProjects, function(p){
@@ -97,6 +99,12 @@ export default {
 
     },
     watch: {
+        visibility: function(newVal){
+            this.selectedProject = _.find(this.projects, function(p){
+                return p.project.toLowerCase() === newVal
+            })
+            //_.find(this.projects, function(p) {})
+        },
         filteredProjects: function(newVal) {
             for(let tag of this.tags) {
                 let name = tag.tag
@@ -112,6 +120,9 @@ export default {
         selectedProject: function(newVal) {
             if (newVal !== null) {
                 window.scrollTo(0,0)
+            }
+            else {
+                window.location.hash = ''
             }
         }
     },

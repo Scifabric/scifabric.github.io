@@ -187,12 +187,11 @@
                     </div>
                 </b-panel>
                 <b-panel :collapsible="true" :open.sync="faq3" class="has-text-left" :class="{'custom-panel-open': faq3, 'custom-panel': !faq3}">
-                    <span sclass="title is-6 highligh thas-text-left"  :class="{'has-text-primary': faq3, 'has-text-success': !faq3}" slot="header">Is the whole UX/UI Design Included?</span>
+                    <span class="title is-6 highligh thas-text-left" :class="{'has-text-primary': faq3, 'has-text-success': !faq3}" slot="header">Is the whole UX/UI Design Included?</span>
                     <div class="content">
                         <p class="has-text-left">Not by default, but we offer UX/UI Design services. That can be included on your SLA. OPTIONAL.
                         For our PRO clients, we also offer UX/UI Design (including text and copy) and full development of templates, APIs and other requirements your project may have. Because we want your project to kick-ass!
-                        <strong class="btn-getintouch">Please, get in touch</strong> so we can discuss your needs and get to fully understand your project. Besides, we’d love to hear from you!</p>
-
+                        Please, get in touch so we can discuss your needs and get to fully understand your project. Besides, we’d love to hear from you!</p>
                     </div>
                 </b-panel>
                 <b-panel :collapsible="true" :open.sync="faq4" class="has-text-left" :class="{'custom-panel-open': faq4, 'custom-panel': !faq4}">

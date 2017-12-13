@@ -1,29 +1,30 @@
 <template>
     <b-modal :active.sync="showModal">
         <div v-if="step === 1" class="step1">
-                    <h2 class="title is-3 highlight has-text-primary">Hola! Nice to hear from you</h2>
+                    <h2 class="title is-3 highlight has-text-primary">Hola! Nice to hear from you!</h2>
                     <h2 class="subtitle is-6">Drop us a line at <a href="mailto:info@scifabric.com">info@scifabric.com</a> or fill in this form</h2>
                     <section class="has-text-left">
                         <b-field>
                             <b-input type="hidden"></b-input>
                         </b-field>
-                        <b-field label="What it is first name?">
-                            <b-input v-model="formData.first_name" ref="firstName" minlength=2></b-input>
+                        <b-field label="What is your name?">
+                            <b-input :placeholder="John" v-model="formData.first_name" ref="firstName" minlength=2></b-input>
                         </b-field>
-                        <b-field label="Your last name?">
-                            <b-input v-model="formData.last_name" ref="lastName" minlength=2></b-input>
+                        <b-field label="And your last name?">
+                            <b-input :placeholder="Doe" v-model="formData.last_name" ref="lastName" minlength=2></b-input>
                         </b-field>
-                        <b-field label="And your email?">
+                        <b-field label="At what email should we contact you?">
                             <b-input type="email"
                                      v-model="formData.email"
+                                     placeholder="myawesome@email.com"
                                      has-counter="false" ref="email">
                             </b-input>
                         </b-field>
-                        <b-field label="Drop us a line">
+                        <b-field label="So, how can we help you?">
                             <b-input v-model="formData.message" type="textarea"
                                                        minlength="10"
                                                        maxlength="100"
-                                                       placeholder=""
+                                                       placeholder="Tell us"
                                                        ref="message">
                             </b-input>
                         </b-field>
@@ -39,11 +40,12 @@
         <div v-else class="step2">
             <div class="columns is-centered">
                 <div class="column is-8">
-                    <h2>Your message is on its way!</h2>
-                    <p>We’ll email back to you very soon. </p>
-                    <p>Thanks for contact us :)</p>
-                    <p><img class="responsive" src="/assets/img/nick-happy.svg"></p>
-                    <p><button @click="closeModal" class="button is-primary">Got it!</button></p>
+                    <h2 class="title">Message received</h2>
+                    <p>Thanks for writing to us. We promise to get back to you within 24/48 hours, but please allow a little more time if it’s not working days. 
+</p>
+                    <p>We’re looking forward to speaking with you!</p>
+                    <p><img src="/assets/img/nick-happy.svg" style="max-height:none;"></p>
+                    <p><button @click="closeModal" class="button is-primary">Done</button></p>
                 </div>
             </div>
         </div>

@@ -49,7 +49,7 @@
                 <h2 class="title is-2 has-text-primary highlight">How does it work?</h2>
                 <div class="content" v-html="project.how_does_it_work"></div>
             </div>
-            <div class="column is-4">
+            <div class="column is-3 is-offset-1">
                 <div class="columns is-hidden-touch">
                     <div class="column" style="max-width:70px;">
                         <img :src="logo(project.client_logo)"/>

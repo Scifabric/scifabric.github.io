@@ -13,7 +13,7 @@
                     <div class="wrapper-dropdown level" tabindex="1" :class="{active: showOptions}" @click="toggleOptions">
                         {{filter}} <i class="material-icons has-size-1">keyboard_arrow_down</i>
                         <ul class="dropdown-special">
-                            <li v-for="category in categories" class="is-capitalized" @click="selectOption(category)">
+                            <li v-for="category in categories" :class="{'is-capitalized': category !== 'glam', 'is-uppercase': category === 'glam'}" @click="selectOption(category)">
                                 {{category}}
                                 <p v-if="category === 'glam'" style="font-size:14px; margin-top:10px;">Galeries, Libraries, Archives and Museums</p>
                             </li>
@@ -24,7 +24,7 @@
                 <div class="wrapper-dropdown is-marginless level" tabindex="1" :class="{active: showOptions}" @click="toggleOptions">
                     {{filter}} <i class="material-icons">keyboard_arrow_down</i>
                     <ul class="dropdown-special">
-                        <li v-for="category in categories" class="is-capitalized" @click="selectOption(category)">
+                      <li v-for="category in categories" :class="{'is-capitalized': category !== 'glam', 'is-uppercase': category === 'glam'}" @click="selectOption(category)">
                             {{category}}
                             <p v-if="category === 'glam'" style="font-size:14px; margin-top:10px;">Galeries, Libraries, Archives and Museums</p>
                         </li>
@@ -283,5 +283,8 @@ export default {
 .projectbox {
 	min-height: 355px;
     cursor: pointer;
+}
+.tags > span {
+  cursor: default;
 }
 </style>

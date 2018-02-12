@@ -24,10 +24,10 @@ function getRandomInt(min, max) {
 function animCells(){
     window.animVideo = false;
     var s = Snap(".cells-frame");
-    var svgurl = "//cdn.scifabric.com/assets/img/success-stories/cruk/cells-ani.svg";
+    var svgurl = "/assets/img/success-stories/cruk/cells-ani.svg";
     var lg = true;
     if (window.matchMedia("(max-width: 768px)").matches) {
-        svgurl = "//cdn.scifabric.com/assets/img/success-stories/cruk/cells-sm.svg";
+        svgurl = "/assets/img/success-stories/cruk/cells-sm.svg";
         lg = false;
     }
     console.log(svgurl);

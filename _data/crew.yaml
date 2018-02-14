@@ -7,40 +7,14 @@
   linkedin: teleyinex
   avatar: daniel.jpg
   email: daniel@scifabric.com
-  bio: "is a computer engineer and a researcher with a passion for citizen science."
-  longbio: "is our boss. A computer engineer with a PhD in parallel genetic programming on volunteer desktop grids. He is also a senior researcher at the Citizen Cyberlab and an alumni of the Shuttleworth Foundation. He does pilates on Tuesdays so has ABS OF STEEL."
+  bio: "is a computer engineer and a researcher with a passion for crowdsourcing."
+  longbio: "is our boss. A computer engineer with a PhD in parallel genetic programming on volunteer desktop grids. He is also a senior researcher at the Citizen Cyberlab and an alumni of the Shuttleworth Foundation."
   homepage: http://daniellombrana.es
-
-- name: Jorge
-  surname: Correa
-  author: jcorrea
-  position: "Head of UX/UI"
-  github: jcorreaes
-  twitter: jorgecorrea
-  linkedin: jorgecorrea
-  email: jorge@scifabric.com
-  avatar: jorge.jpg
-  bio: "loves helping people making meaningful products and services."
-  longbio: "is our lead designer. He's a pragmatic and handicraft front-end coder with over 15 years of experience.* He helps people make beautiful and meaningful products and services. (* Jaw dropping here, thanks!)"
-  homepage: http://jcorrea.es
-
-- name: James
-  surname: Doherty 
-  author: jimmyd
-  position: "Communications"
-  github: jimmyd83
-  twitter: JimmyDocco
-  linkedin: jamespjdoherty
-  avatar: james.jpg
-  email: james@scifabric.com
-  bio: "is a physicist, citizen science enthusiast and communicator who turns science into stories."
-  longbio: "is Scifabric's communications aficionado. He holds degrees in law and physics, and has completed a research project on the Large Hadron Collider at CERN. Impressive, huh?"
-  homepage: http://www.quantumdiaries.org/author/james-doherty/
 
 - name: Mar
   surname: Ramis
   author: mar
-  position: "Chief Business Development Officer"
+  position: "Chief Operating Officer"
   email: "mar@scifabric.com"
   github: 
   twitter: 
@@ -63,21 +37,17 @@
   longbio: "is a computer engineer and system administrator for GNU/Linux systems. He is our senior developer, so that means he develops PYBOSSA software and manages the infrastructure of Crowdcrafting. In other words, this wouldn't be up without him."
   homepage: http://therealmarv.com/
 
-
-- name: Clara
-  surname: Sánchez-Puga
-  author: clarilla
-  position: "Head of Content"
-  email: "clara@scifabric.com"
-  github: clarilla
-  twitter: clarilla
-  linkedin: clarasanchezpuga
-  avatar: clara.jpg
-  email: clara@scifabric.com
-  bio: "is a creative copywriter who loves music and her family."
-  longbio: "Clara is our copywriter. She holds degrees in advertising and media, and a masters in User Experience and Digital Products Design. Most importantly, she sings and plays guitar in a kick-ass rock band and - well - you don't!"
-  homepage: http://roqueandodurisimo.com/
-
+- name: Virginia 
+  surname: Tejada
+  author: virgi 
+  position: "Head of UX/UI"
+  github: Virllin
+  linkedin: vtejada
+  email: virginia@scifabric.com
+  avatar: virginia.jpg
+  bio: "is passionate about identifying problems and turning them into intuitive interfaces."
+  longbio: "is our lead designer. She has over 12 years experience in digital products. She is passionate about identifying problems and turning them into intuitive interfaces. Non stop learning is what keep her alive and motivated... combined with good music, good food, family, friends, traveling, art, photography… and avocado on toast."
+  homepage: http://virginiatejada.com
 
 - name: Nick
   surname: Nicklen

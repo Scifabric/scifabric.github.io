@@ -6,7 +6,7 @@ $(document).ready(function(){
     pvideo.attr("muted", "1");
     pvideo.attr("loop", "1");
     var source = $("<source/>");
-    source.attr("src", "//cdn.scifabric.com/assets/img/success-stories/cruk/process.mp4");
+    source.attr("src", "/assets/img/success-stories/cruk/process.mp4");
     source.attr("type", "video/mp4");
     pvideo.append(source);
     

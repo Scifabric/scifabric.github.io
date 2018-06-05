@@ -163,7 +163,7 @@
             <div class="column is-8">
                 <h2 class="title is-2 has-text-primary highlight">Support Solutions</h2>
                 <p class="subtitle is-3 has-text-primary">If you are using PYBOSSA on your own we offer extra support just in case something breaks.</p>
-                <p class="content">Not sure what’s happening and why something is not working properly? Rise a Support ticket in order to give you a solution. We’ll spend a minimum of 2h work. We will get back to you within 72h via mail with a solution and instructions so you can fix it yourself.  If you need development help for the implementation of a given solution, we also offer the resources you need. We’ll give you a a timing and price quote acording to your problem.</p>
+                <p class="content">Not sure what is happening and why something is not working properly? Raise a Support Ticket in order to give you a solution. We’ll spend a minimum of 2h work, and we will get back to you within 72h via email with a solution and instructions so that YOU can fix it.  If you need development help for the implementation of a given solution, we also offer the resources that you may need. We will give you a quote as well as timings according to your issue.</p>
                 <p class="title is-5 has-text-primary highlight">100€ / Support Ticket for non customers</p>
                 <p class="title is-5 has-text-primary highlight">SLA for customers</p>
                 <span class="button is-info" data-plan="ticket" @click.stop="toggleContact('[SUPPORT TICKET]')">Raise a support Ticket</span>
@@ -176,28 +176,29 @@
                     <span class="title is-6 highlight has-text-left" :class="{'has-text-primary': faq1, 'has-text-success': !faq1}" slot="header">Is PYBOSSA free?</span>
                     <div class="content">
                         <p class="has-text-left">
-                            It is, indeed, open-source. That means you can use it freely. BUT if you’re looking to create a project that is unique and has the best features in town, Scifabric will add a great value to it, allowing you to achieve things that you cannot get with PYBOSSA only. That is our secret weapon. In any case, be our guest.
+                        It is indeed as its an open-source technology. That means that you can use it freely. However, if you’re looking to create a unique project that has the best features in town, look no further from Scifabric we will add greater value to your project helping you achieve what you cannot obtain with PYBOSSA only. That´s our secret weapon.
                         </p>
                     </div>
                 </b-panel>
                 <b-panel :collapsible="true" :open.sync="faq2" class="has-text-left" :class="{'custom-panel-open': faq2, 'custom-panel': !faq2}">
                     <span class="title is-6 highlight has-text-left" :class="{'has-text-primary': faq2, 'has-text-success': !faq2}" slot="header">Can I have In-House Training?</span>
                     <div class="content">
-                        <p class="has-text-left">We do offer In-House Training! We bring expert instruction to use PYBOSSA technology and to full manage your Crowdsourcing projects like a pro starting at 3000E / course.</p>
+                        <p class="has-text-left">Yes, we do offer In-House Training! You will be instructed by an expert in the use of our PYBOSSA technology so that you can fully manage your own crodwsourcing project like a pro for as little as 3000€/course.</p>
                     </div>
                 </b-panel>
                 <b-panel :collapsible="true" :open.sync="faq3" class="has-text-left" :class="{'custom-panel-open': faq3, 'custom-panel': !faq3}">
                     <span class="title is-6 highligh thas-text-left" :class="{'has-text-primary': faq3, 'has-text-success': !faq3}" slot="header">Is the whole UX/UI Design Included?</span>
                     <div class="content">
-                        <p class="has-text-left">Not by default, but we offer UX/UI Design services. That can be included on your SLA. OPTIONAL.
-                        For our PRO clients, we also offer UX/UI Design (including text and copy) and full development of templates, APIs and other requirements your project may have. Because we want your project to kick-ass!
-                        Please, get in touch so we can discuss your needs and get to fully understand your project. Besides, we’d love to hear from you!</p>
+                        <p class="has-text-left">Not by default, but we do offer UX/UI Design services for all our clients that can be included in the project contract.
+                        For our PRO clients we also offer UX/UI Design and full development of templates, APIs and other requirements that the project may have.
+                        So do get in touch to discuss your project and needs. We would love to hear from you!
+                        </p>
                     </div>
                 </b-panel>
                 <b-panel :collapsible="true" :open.sync="faq4" class="has-text-left" :class="{'custom-panel-open': faq4, 'custom-panel': !faq4}">
                     <span class="title is-6 highlight has-text-left"  :class="{'has-text-primary': faq4, 'has-text-success': !faq4}" slot="header">What are the integrations?</span>
                     <div class="content">
-                        <p class="has-text-left">Your project can have AMAZON S3, FLICKER, Dropbox, Twitter, Mailchimp, Youtube, Google Spreadsheets, and more, integrated. You can choose one if you’re going BASIC or you will get them all if you’re going PRO. </p>
+                        <p class="has-text-left">Your project can integrate AMAZON S3, FLICKER, Dropbox, Twitter, Mailchimp, Youtube, Google Spreadsheets, and many more. You can choose one if you are going BASIC or you will get them all if you opt for PRO. </p>
                     </div>
                 </b-panel>
             </div>

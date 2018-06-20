@@ -1,3 +1,44 @@
+- title: Fighting climate change
+  person: jon-garciandia.jpg
+  cover: greenpeace-white.png
+  person_name: Jon Garciandia
+  person_position: Head of Digital Unit
+  category: Social
+  project: Solar Maps
+  client: Greenpeace Spain
+  client_logo: greenpeace-color.png
+  location: Madrid
+  quote: "Scifabric...."
+  links:
+      - link: https://solarmaps.greenpeace.es/
+        title: Solar Maps
+
+  starting_point: "<p>Greenpeace is an independent global campaigning organization that acts to change attitudes and behaviour, to protect and conserve the environment and to promote peace by: Catalysing an energy revolution to address the number one threat facing our planet: climate change.</p><p>Many of Greenpeace's efforts are focused on the electric sector, trying to achieve a model based on clean energies -greenhouse gas-free derived from the use of fossil fuels. Willingness and planning from the Central Government and companies is all it takes to achieve it.
+</p><img src='/assets/img/blog/solarmaps1.jpg'><p> With Solar Maps, Greenpeace Spain seeks social action demanding that the Spanish Government sets an example by increasing the consumption of clean energy and facilitating its use to all citizens. The project asks people to help discover whether the Government is actually setting an example in the fight against climate change by using renewable energies in its buildings and therefore reducing greenhouse gas emissions whilst generating a vast amount of monetary savings for all.</p>"
+  what_we_did: "<p>Our PYBOSSA technology provided the flexibility and dynamism needed for Greenpeace to be able to link Google Maps with the Spanish Government Transparency Portal – which provides a list of all of Spain´s public buildings.</p><p>Because PYBOSSA works easily with web maps it does allow for thousands of volunteers to participate in different tasks such as measuring the roof area of buildings. PYBOSSA can be integrated with technologies like Google Maps, Open Layers, or other 3rd party web maps solutions to do geographical analysis by the crowd. Greenpeace wanted a web application - or more specifically, a progressive web application, and PYBOSSA allowed them to build it in a very straight forward manner thanks to its pure and flexible API.
+</p><p>For this project we also implemented PYBOSSA´s real-time analysis, which helped analyse results as quickly as possible, saving time, money and accelerating research.
+
+</p><p>The fact that PYBOSSA is fully GDPR compliant since the new EU Data Protection law entered in to force May 2018, was of vital importance to Greenpeace and an added bonus of our technology. </p>"
+  how_does_it_work: "<p>The ´Solar Maps´ project asks volunteers to select a building off the above mentioned list – either by location or random search. Once a building has been selected and located on the map, volunteers are asked to mark the outline of the building's rooftop. The participant is then asked if there are solar panels and if so he/she is requested to mark its outline, otherwise the analysis is complete.</p><p>PYBOSSA allowed for each building to be analysed by several people at one time to then later statistically analyse all of the participants´ contributions to generate valid results for every building.
+</p><p>With the postal address of each building, we went to Google Maps and searched their coordinates (latitude and longitude) to place every building on a map. Of the 9959 buildings displayed in the transparency portal, Google only has results for 5253 of these. This is mainly due to the fact that the provided addresses are badly formatted or simply wrong. This is why in only 5253 public buildings can be analysed in this first phase.</p><p>By default each building is studied by 3 people. When the third person submits his/her analysis, the system statistically analyses the contributions and provides a result.
+</p>
+<p><video controls width='320'><source src='/assets/img/blog/solarmaps.mp4' type='video/mp4'></source></video></p>
+<p>Once the extension for each of the Central Government´s rooftops has been measured, the potential of photovoltaic electricity that could be generated in each one of those rooftops is calculated, as well as the CO2 emissions that could be avoided alongside with the financial savings that would mean for the Central Government and, therefore, for the citizens.</p><p>PYBOSSA allowed for each building to be analysed by several people at one time to then later statistically analyse all of the participants´ contributions to generate valid results for every building.
+</p><h2 class='has-text-primary'>Results</h2><p>Results
+Since the platform was launched in May 2018, and in just a month more than 3,000 contributions have taken place out of the just over 5,000 buildings available on the Spanish Government Transparency Portal.</p<
+<p>Meaning that:</p>
+<ol>
+<li>631,822m2 are actually available to have sun panels built on,</li>
+<li>costing just 76,497,849€ to install</li>
+<li>saving 244,866,327€</li>
+<li>producing 73,330 GWh/year</li>
+<li>saving 25,980 t CO2/year</li>
+</p>"
+  tags:
+      - geolocation
+      - data visualization
+
+
 - title: How crowdsourcing can help beat cancer
   person: andy-patterson.jpg
   cover: CRUK-white.png

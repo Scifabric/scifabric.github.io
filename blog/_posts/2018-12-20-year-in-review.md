@@ -15,7 +15,7 @@ author: teleyinex
 <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/3ofT5EtPNBpIjC8jTy" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/filmeditor-will-ferrell-elf-3ofT5EtPNBpIjC8jTy">via GIPHY</a></p>
 
 ## Projects
-This year we have launched several projects, but two of them are Solar maps, La memoria del Circo and a European Space Agency project.
+This year we have launched several projects, but we wan to talk about these: Solar maps, La memoria del Circo and the European Space Agency project.
 
 ### Solar maps
 We worked with Greenpeace Spain to launch a crowdsourcing project where we ask people to measure the area of the Spanish public buildings. The goal? Put solar panels on those roofs and learn how much energy and CO2 we can save. 

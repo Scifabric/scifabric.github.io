@@ -19,14 +19,14 @@ Astronauts – like tourists – enjoy capturing the beautiful scenes they encou
 
 ## Three projects
 
-[*Cities at Night*](http://www.citiesatnight.org/) have created three projects on PyBossa-powered crowdsourcing platform [*Crowdcrafting.org*](http://crowdcrafting.org/) (read about it [here](/blog/2014/07/04/crowdcrafting.html)) to enlist the help of volunteers to classify and analyse photographs in the JSC database. The first task is to identify what can be seen in each photograph – stars, a city, an astronaut, darkness or a little green man perhaps? This task is carried out in the [*Dark Skies ISS project*](http://crowdcrafting.org/app/darkskies/).
+[*Cities at Night*](http://www.citiesatnight.org/) have created three projects on PyBossa-powered crowdsourcing platform [*Crowdcrafting.org*](/crowdcrafting) (read about it [here](/blog/2014/07/04/crowdcrafting.html)) to enlist the help of volunteers to classify and analyse photographs in the JSC database. The first task is to identify what can be seen in each photograph – stars, a city, an astronaut, darkness or a little green man perhaps? This task is carried out in the [*Dark Skies ISS project*](/crowdcrafting).
 
-The next step is to identify the city in a photograph. In the [*Lost at Night project*](http://crowdcrafting.org/app/LostAtNight/), volunteers peruse photographs of cities then, on recognising a particular city (perhaps by its shape, notable features or through local knowledge), its location is noted on a world map.
+The next step is to identify the city in a photograph. In the [*Lost at Night project*](/crowdcrafting), volunteers peruse photographs of cities then, on recognising a particular city (perhaps by its shape, notable features or through local knowledge), its location is noted on a world map.
 
 ![alttext]({{site.cdn}}/assets/img/blog/ScreenShot5.png "Courtesy of The Gateway to Astronaut Photography of Earth – Johnson Space Center database")
 <p class="post-caption">Photo by <a href="http://eol.jsc.nasa.gov/">The Gateway to Astronaut Photography of Earth (NASA)</a> Would you recognise this city as Calgary?.</p>
 
-The final task, carried out in the [*Night Cities ISS project*](http://crowdcrafting.org/app/nightcitiesiss/), is to georeference every photograph. This involves matching city features in the photograph with the same features on a map. The longitude and latitude of each feature is recorded, which helps the [*Cities at Night*](http://www.citiesatnight.org/) team very accurately georeference each photograph.
+The final task, carried out in the [*Night Cities ISS project*](/crowdcrafting), is to georeference every photograph. This involves matching city features in the photograph with the same features on a map. The longitude and latitude of each feature is recorded, which helps the [*Cities at Night*](http://www.citiesatnight.org/) team very accurately georeference each photograph.
 
 ## Informing decision-makers
 
@@ -39,4 +39,4 @@ After NASA, ESA and CSA promoted the [*Cities at Night*](http://www.citiesatnigh
 ![alttext]({{site.cdn}}/assets/img/blog/Shanghai.jpg "Georeferenced Cities at Night image of Shanghai.")
 <p class="post-caption">Photo by <a href="http://eol.jsc.nasa.gov/">The Gateway to Astronaut Photography of Earth (NASA)</a> Georeferenced Cities at Night image of Shanghai.</p>
 
-So if you would enjoy viewing stunning photographs from space while helping to fight light pollution – give [*Cities at Night*](http://www.citiesatnight.org/) and [*Crowdcrafting.org*](http://crowdcrafting.org/) a visit. 
+So if you would enjoy viewing stunning photographs from space while helping to fight light pollution – give [*Cities at Night*](http://www.citiesatnight.org/) and [*Crowdcrafting.org*](/crowdcrafting) a visit. 

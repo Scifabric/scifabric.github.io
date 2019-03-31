@@ -185,13 +185,13 @@ electronic music, as well as hang out with some of amazing start-ups.
 
 ### New jazzy projects
 
-Crowdcrafting has also seen some amazing projects this year. Like [Landfill Hunter](http://crowdcrafting.org/project/landfill/), where the researcher
+Crowdcrafting has also seen some amazing projects this year. Like [Landfill Hunter](/crowdcrafting), where the researcher
 wants to increase awareness of landfill sites, as well as contribute data to help better understand landfills and bring that information into the public domain.
 
-The [European Illegal Parking](http://crowdcrafting.org/project/Illegal_Parking/) project wants to rank European cities in order of the level of illegal parking observed on their streets.
+The [European Illegal Parking](/crowdcrafting) project wants to rank European cities in order of the level of illegal parking observed on their streets.
 Hopefully, this ranking will raise awareness of the problem in Europe and put pressure on national and local institutions to pursue more effective measures to tackle the problem. Awesome, right?
 
-Finally, [Localizing Pune's Budget](http://crowdcrafting.org/project/localpunebudget/). 
+Finally, [Localizing Pune's Budget](/crowdcrafting). 
 This project is trying to analyze and evaluate the ward-level infrastructure and public spending for Pune. 
 Out of 9,614 budget items listed in the annual budget book for 2015-16, 
 about 1,997 do not have any ward number or whole-city marking alloted. 

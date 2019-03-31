@@ -61,7 +61,7 @@ University College London which invites the public to become citizen archeologis
 
 [http://forestwatchers.net/](http://forestwatchers.net/) – a citizen project for monitoring deforestation.
 
-[http://crowdcrafting.org/](http://crowdcrafting.org/) – Crowdcrafting hosts a range of crowdsourcing projects on topics
+[http://crowdcrafting.org/](/crowdcrafting) – Crowdcrafting hosts a range of crowdsourcing projects on topics
 as diverse as: particle collisions at CERN; mapping light pollution from the International
 Space Station; and monitoring fracking activities in the US.
 

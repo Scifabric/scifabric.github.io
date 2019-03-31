@@ -10,11 +10,11 @@ author: jimmyd
 keywords: crowdsourcing, crowdcrafting, PyBossa, open, source, science, citizen, opensource 
 ---
 
-The *PyBossa* team is extremely excited to launch a brand new version of the *PyBossa*-powered crowdsourcing platform, [*Crowdcrafting*](http://crowdcrafting.org/). The new platform is faster, more reliable, really user friendly, more secure and – most importantly – very pretty.
+The *PyBossa* team is extremely excited to launch a brand new version of the *PyBossa*-powered crowdsourcing platform, [*Crowdcrafting*](/crowdcrafting). The new platform is faster, more reliable, really user friendly, more secure and – most importantly – very pretty.
 
 ## What is Crowcrafting?
 
-[*Crowdcrafting.org*](http://crowdcrafting.org/) is an opensource platform that provides a highly convenient framework around which crowdsourced projects can be constructed, allowing you to connect with people from all around the world to solve problems quickly and efficiently. Volunteers can help with image classification, transcription, geocoding and much more.
+[*Crowdcrafting.org*](/crowdcrafting) is an opensource platform that provides a highly convenient framework around which crowdsourced projects can be constructed, allowing you to connect with people from all around the world to solve problems quickly and efficiently. Volunteers can help with image classification, transcription, geocoding and much more.
 
 ## What’s new?
 
@@ -34,7 +34,7 @@ Indeed, *Crowdcrafting* has enjoyed a huge performance upgrade with the average 
 
 ### Usability
 
-Creating a new project could not be easier – just fill in three fields and you’re done.  *Crowdcrafting* can also provide templates for a different types of project, such volunteer sensing projects (for example, [observing lichen to monitor air quality](http://crowdcrafting.org/app/airquality/)) or [geo-referencing projects](http://crowdcrafting.org/app/RuralGeolocator/). We’ve also added a new CSV/JSON download feature allowing users to download tasks and answers easily.
+Creating a new project could not be easier – just fill in three fields and you’re done.  *Crowdcrafting* can also provide templates for a different types of project, such volunteer sensing projects (for example, [observing lichen to monitor air quality](/crowdcrafting)) or [geo-referencing projects](/crowdcrafting). We’ve also added a new CSV/JSON download feature allowing users to download tasks and answers easily.
 
 ### Community
 
@@ -52,6 +52,6 @@ A strong community is at the heart of every successful crowdsourced project. The
 
 ## Get involved!
 
-*Crowdcrafting* has loads of awesome projects running to which you can contribute. If you ever fancied [tracking antimatter particles at CERN](http://crowdcrafting.org/app/antimatter/), [monitoring light pollution from the International Space Station](http://crowdcrafting.org/app/darkskies/), [fighting the spread of malaria in Africa](http://crowdcrafting.org/app/RuralGeolocator/), [classifying arthropod interactions](http://crowdcrafting.org/app/arthropods/) or [helping in the aftermath of a natural disaster](http://crowdcrafting.org/app/philippinestyphoon/) – give [*Crowdcrafting*](http://crowdcrafting.org/) a visit.
+*Crowdcrafting* has loads of awesome projects running to which you can contribute. If you ever fancied [tracking antimatter particles at CERN](/crowdcrafting), [monitoring light pollution from the International Space Station](/crowdcrafting), [fighting the spread of malaria in Africa](/crowdcrafting), [classifying arthropod interactions](/crowdcrafting) or [helping in the aftermath of a natural disaster](/crowdcrafting) – give [*Crowdcrafting*](/crowdcrafting) a visit.
 
 ![alttext]({{site.cdn}}/assets/img/blog/DarkSkies.jpg "A view of Earth from the International Space Station.")

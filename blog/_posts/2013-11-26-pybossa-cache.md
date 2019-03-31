@@ -15,7 +15,7 @@ In the last days I have been working really hard to add a new cache system to Py
 Up to now, [PyBossa](http://daniellombrana.es/pybossa.html) has been using [Flask-Cache](http://pythonhosted.org/Flask-Cache/), an extension for the [Flask](http://flask.pocoo.org/) micro-framework
 that allows you to use several types of caching backends (i.e. [memcached](http://memcached.org/) or [Redis](http://redis.io)).
 
-[Crowdcrafting](http://crowdcrafting.org/) was using memcached, as it is a robust solution and it is really well documented.
+[Crowdcrafting](/crowdcrafting) was using memcached, as it is a robust solution and it is really well documented.
 However in the last days due to high loads in the server, I've been thinking how I can
 improve the situation, and have a cache system that meets the following criteria:
 
@@ -48,7 +48,7 @@ and Sentinel will handle them for you. If the master node dies, then it will loo
 another master to configure it (this needs another Sentinel node), and voile: system 
 up and running without having to do any special.
 
-Today I've deployed this new version (bumping PyBossa version to v0.2.0) in [Crowdcrafting](http://crowdcrafting.org) 
+Today I've deployed this new version (bumping PyBossa version to v0.2.0) in [Crowdcrafting](/crowdcrafting) 
 and the speed of the site is really awesome!
 
 The only "issue" with Redis, is that Ubuntu LTS does not have the most recent version 

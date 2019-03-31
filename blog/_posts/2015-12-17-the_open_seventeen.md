@@ -30,7 +30,7 @@ Projects can be set up in three easy steps. First, identify a set of open public
 
 ## Then what?
 
-Three pitches will be chosen and offered support & guidance to set up their proposed projects. The [Govlab Academy](http://govlabacademy.org/) will help participants develop the project from idea to implementation. [SciFabric](http://scifabric.com/) will help build the project on the [Crowdcrafting](https://crowdcrafting.org/) platform. And the [One Campaign](http://www.one.org/international/) will profile the winning project at international events.
+Three pitches will be chosen and offered support & guidance to set up their proposed projects. The [Govlab Academy](http://govlabacademy.org/) will help participants develop the project from idea to implementation. [SciFabric](http://scifabric.com/) will help build the project on the [Crowdcrafting](/crowdcrafting) platform. And the [One Campaign](http://www.one.org/international/) will profile the winning project at international events.
 
 ![Mozilla Festival]({{site.cdn}}/assets/img/blog/OpenMoz.JPG "James Doherty")
 <p class="post-caption">Photo by <a href="http://scifabric.com/team/">James Doherty</a> The Open Seventeen team brainstormed projects with participants at the "Tackling Sustainable Development with Citizen Science on the Web" session at Mozilla Festival in London (November 2015).</p>
@@ -42,13 +42,13 @@ The [Open Seventeen](http://openseventeen.org/) profiles a range of existing pro
 
 [FrackFinder](http://crowd.skytruth.org/) – mapping fracking activities across the US.
 
-[OpenOil](http://crowdcrafting.org/project/openoil/) – better understanding corporate frameworks in the oil industry.
+[OpenOil](/crowdcrafting) – better understanding corporate frameworks in the oil industry.
 
 [Somali Drought](http://geotagx.org/project/category/somalidrought/) – assessing information about droughts using photos taken during field assessments.
 
 [Pecuniary Interests](http://www.theguardian.com/australia-news/datablog/ng-interactive/2015/mar/09/help-us-investigate-the-register-of-interests-political-gifts-and-investments-in-nsw) – investigating political gifts in New South Wales.
 
-[District Court](http://crowdcrafting.org/project/heradsdomar/) – investigating correlations between how judges vote and how often they incarcerate. 
+[District Court](/crowdcrafting) – investigating correlations between how judges vote and how often they incarcerate. 
 
 [Forest Watchers](http://www.globalforestwatch.org/) – assessing deforestation in Brazil using satellite images.
 

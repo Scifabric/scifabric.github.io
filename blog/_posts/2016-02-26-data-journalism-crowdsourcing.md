@@ -55,7 +55,7 @@ This project illustrates how data journalism and crowdsourcing can combine to ex
 
 [Nick Evershed](http://www.theguardian.com/profile/nick-evershed) notes that crowdsourcing is a useful tool in data journalism and that “prior to this project, the transparency of NSW politics was sorely lacking [but]... we made an open, searchable database... to reveal where politicians had failed to comply with transparency rules.”
 
-Both [PyBossa](http://pybossa.com/) software and the [Crowdcrafting](http://crowdcrafting.org/) platform have [easy-to-use PDF data mining templates](http://scifabric.com/blog/2015/09/07/Data-mining.html). So if you’re suspicious about your local MP’s Lamborghini, you know where to begin your detective work!
+Both [PyBossa](http://pybossa.com/) software and the [Crowdcrafting](/crowdcrafting) platform have [easy-to-use PDF data mining templates](http://scifabric.com/blog/2015/09/07/Data-mining.html). So if you’re suspicious about your local MP’s Lamborghini, you know where to begin your detective work!
 
 <div class="embed-responsive embed-responsive-4by3">
   <iframe class="embed-responsive-item" src="//giphy.com/embed/7r5ERglWWUXC" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="http://giphy.com/gifs/sourcefed-lamborghini-unveiled-7r5ERglWWUXC"></a></p>

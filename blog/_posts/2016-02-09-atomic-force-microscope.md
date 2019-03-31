@@ -204,13 +204,13 @@ you can learn, build the nanoscope, and analyze the samples with the crowd.
 ## SciFabric's chapters for Nanographia
 
 Our desire to contribute to this book became a reality when 
-Edwin and his team contacted us to use our citizen science [Crowdcrafting](http://crowdcrafting.org) 
+Edwin and his team contacted us to use our citizen science [Crowdcrafting](/crowdcrafting) 
 platform for analyzing the samples with the crowd. 
 
 This first chapter will be about citizen science, and it will describe what is 
 [crowdsourcing and citizen science](http://scifabric.com/blog/2016/01/27/crowdsourcing-vs-crowdfunding.html). 
 It will explain the project where anyone can analyze samples, including links to the 
-[prototype](http://crowdcrafting.org/project/lego2nano/). 
+[prototype](/crowdcrafting). 
 
 Also, there will be a sub-section where we will describe the [tools that we use for building the prototype](http://pybossa.com), so others
 can replicate it (like science does!).

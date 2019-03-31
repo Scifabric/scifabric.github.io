@@ -126,7 +126,7 @@ how active your community is. Do they need a little nudge to complete a particul
 **Open Science** – every aspect of PYBOSSA is accessible to everyone. People are more likely 
 to contribute to open, honest projects. Open science done properly!
 
-**Crowdcrafting** – projects can be built on our [Crowdcrafting](https://crowdcrafting.org/) platform, 
+**Crowdcrafting** – projects can be built on our [Crowdcrafting](/crowdcrafting) platform, 
 which boasts a substantial existing community.
 
 ## Community matters

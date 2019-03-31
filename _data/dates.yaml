@@ -39,6 +39,6 @@
 - date: Jun 2018
   body: "Factoría Cultural launches a crowdsourcing project to recover the history of Circus. The chosen technology is PYBOSSA."
 - date: Sep 2018
-  body: "European Space Agency launches a <a href='https://crowdcrafting.org/project/archaeology/'>crowsourcing project</a> to detect buried archaeological structures in our Crowdcrafting platform."
+  body: "European Space Agency launches a <a href='/crowdcrafting'>crowsourcing project</a> to detect buried archaeological structures in our Crowdcrafting platform."
 - date: Feb 2019
   body: "British Film Institute launches its <a href='https://contribute.bfi.org.uk/'>crowdsourcing platform</a> using PYBOSSA to geolocalize their films."

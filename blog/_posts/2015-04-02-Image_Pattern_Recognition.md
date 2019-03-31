@@ -27,23 +27,23 @@ Crowdcrafting has a tool specifically for importing images from [Flickr](https:/
 
 ## Projects in action
 
-Lots of researchers are already using Crowdcrafting to host their image pattern recognition projects. On the environmental front, researchers use Crowdcrafting for identifying and geo-referencing pictures of cities at night taken from the International Space Station ([Cities at Night](http://crowdcrafting.org/app/nightcitiesiss/)), to identify landfill sites ([Landfill Hunter](http://crowdcrafting.org/app/landfill/)) and to find fracking sites in satellite images ([SkyTruth Frackfinder](http://crowdcrafting.org/app/frackfinder_tadpole/)).
+Lots of researchers are already using Crowdcrafting to host their image pattern recognition projects. On the environmental front, researchers use Crowdcrafting for identifying and geo-referencing pictures of cities at night taken from the International Space Station ([Cities at Night](/crowdcrafting)), to identify landfill sites ([Landfill Hunter](/crowdcrafting)) and to find fracking sites in satellite images ([SkyTruth Frackfinder](/crowdcrafting)).
 
 ![alttext]({{site.cdn}}/assets/img/blog/Carrusel1.jpg "Courtesy of NASA")
 <p class="post-caption">Photo by <a href="http://eol.jsc.nasa.gov/">NASA</a> Can you spot your city?</p>
 
-Biologists use Crowdcrafting to help them document arthropod interactions ([Arthropod Interactions](http://crowdcrafting.org/app/arthropods/)), check if Zebra lungs are symmetrical ([Zebra Lungs](http://crowdcrafting.org/app/zebralungs/)) and to identify insects and give them scientific names ([Insect Catalog](http://crowdcrafting.org/app/IC/)). Crowdcrafting can also be used to train a group of volunteers to recognise cancerous melanomas ([Project Melanoma](http://crowdcrafting.org/app/melanoma/)). 
+Biologists use Crowdcrafting to help them document arthropod interactions ([Arthropod Interactions](/crowdcrafting)), check if Zebra lungs are symmetrical ([Zebra Lungs](/crowdcrafting)) and to identify insects and give them scientific names ([Insect Catalog](/crowdcrafting)). Crowdcrafting can also be used to train a group of volunteers to recognise cancerous melanomas ([Project Melanoma](/crowdcrafting)). 
 
 ![alttext]({{site.cdn}}/assets/img/blog/face.png "Courtesy of The Face We Make")
-<p class="post-caption">Photo by <a href="http://crowdcrafting.org/app/thefacewemake/">The Face We Make</a> How do you think she feels?</p>
+<p class="post-caption">Photo by <a href="/crowdcrafting">The Face We Make</a> How do you think she feels?</p>
 
-On the humanitarian front, we have projects that aim to pinpoint areas worst affected by natural disasters ([GeotagX](http://geotagx.org/)) and identify ‘potentially habitable structures’ to help in the fight against Malaria ([Rural Geolocator](http://crowdcrafting.org/app/RuralGeolocator/)). We also have projects that aim to classify human facial expressions ([the Face We Make](http://crowdcrafting.org/app/thefacewemake/)) and even help to identify Nicholas Cage’s face in photographs ([Nicholas Cage](http://crowdcrafting.org/app/nicolascage/)).
+On the humanitarian front, we have projects that aim to pinpoint areas worst affected by natural disasters ([GeotagX](http://geotagx.org/)) and identify ‘potentially habitable structures’ to help in the fight against Malaria ([Rural Geolocator](/crowdcrafting)). We also have projects that aim to classify human facial expressions ([the Face We Make](/crowdcrafting)) and even help to identify Nicholas Cage’s face in photographs ([Nicholas Cage](/crowdcrafting)).
 
 ## Give it a go
 
 Humans are better than computers at performing certain tasks. Crowdcrafting has an easy to use ‘Image Pattern Recognition’ template and Flickr importer tool, so you can exploit these cognitive and interpretative skills as part of your research. Researchers are already using Crowdcrafting in some amazing ways, and you could too.
 
-So, if you need to classify images of Nicholas Cage riding a zebra with asymmetrical lungs across a fracking site while wearing an expression of discontented enthusiasm, then you probably need our help: [Crowdcrafting](http://crowdcrafting.org/).
+So, if you need to classify images of Nicholas Cage riding a zebra with asymmetrical lungs across a fracking site while wearing an expression of discontented enthusiasm, then you probably need our help: [Crowdcrafting](/crowdcrafting).
 
 
 

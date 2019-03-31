@@ -1,0 +1,129 @@
+---
+layout: default2
+title: Crowdcrafting
+description: Science affects all of us, Science needs all of us
+active: crowdcrafting
+css: press
+---
+<section class="hero">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <h1 class="title is-1 has-text-primary hightlight">
+                Crowdcrafting
+            </h1>
+            <h2 class="subtitle is-2 has-text-primary">
+                Science affects all of us, Science needs all of us
+            </h2>
+        </div>
+    </div>
+</section>
+<section class="section">
+    <div class="container">
+        <div class="columns is-centered">
+            <div class="column is-8">
+                <div class='embed-container'>
+                    <iframe src='https://www.youtube.com/embed/EH6OBUEUV_I' frameborder='0' allowfullscreen></iframe>
+                </div>
+
+                <h1 class="title is-1 has-text-primary hightlight">What was Crowdcrafting?</h1>
+                <p>Crowdcrafting was a web-based service that invited volunteers
+                to contribute to scientific projects developed by citizens,
+                professionals or institutions that needed help to solve problems,
+                analyze data or complete challenging tasks that couldn't be done by
+                machines alone, but required human intelligence. The platform
+                was 100% open source built on top of PYBOSSA and 100%
+                open-science making scientific research accessible to everyone.</p>
+
+
+                <h2 class="title is-2 has-text-primary highlight"
+                style="margin-top:50px;" >Crowdcrafting
+                    origins</h2>
+                <p>Crowdcrafting was born at a hackathon in Cape Town, South
+                Africa in 2011. It was a free and open source alternative to
+                existing citizen science platforms. In partnership with key
+                collaborators, such as CERN, United Nations (UNITAR), the
+                University of Geneva, and Open Knowledge International we 
+                reached out to and inspired many people to get involved with
+                science.</p>
+
+                <p>Eight years later, we feel that we need to focus more on
+                PYBOSSA technology than on the free platform.</p>
+
+                <p>During these years we had really cool projects in the
+                platform. We had <strong>more than 54 thousand users, more than 1.5 
+                million tasks uploaded by the community and more than 2.5 million classifications or
+                analysis done by you, the people behind Crowdcrafting.</strong></p>
+
+                <p>Crowdcrafting has been the home for more than 3 thousand
+                projects created by citizens, researchers and institutions from
+                all over the world.</p>
+
+                <h2 class="title is-2 has-text-primary highlight" style="margin-top: 50px;">Crowdcrafting project wizard</h2>
+                <p>During these years, one of the features that allowed people
+                to easily create a research project, was our project wizard.</p>
+
+                <p>The wizard basically asked you a few questions, and without
+                writing a single line of code, the user would have a project up
+                and running within minutes. Here is an example about how you
+                could analyze a set of pictures with the crowd:</p>
+                <div class='embed-container'>
+                    <iframe src='https://www.youtube.com/embed/bjynbjfiCEc' frameborder='0' allowfullscreen></iframe>
+                </div>
+
+                <h2 class="title is-2 has-text-primary highlight">Crowdcrafting
+                    Awards</h2>
+
+                <div class="bignews-banner">
+                    <img src="{{site.cdn}}/assets/img/press/prixarts.png" width="100" alt="Honorary Mention Prix Ars Electronica 2016">
+                    <p><em>Crowdcrafting by SciFabric</em><br>
+                    wins <em>Honorary Mention</em> by <strong style="color: white;">Prix Ars Electronica</strong></em></p>
+                    <p><a href="http://prix2016.aec.at/prixwinner/18190/">Read more</a></p>
+                </div>
+
+
+                <div class="bignews-banner">
+                    <img src="{{site.cdn}}/assets/img/press/zincshower.png" width="100" height="90" alt="Best Start-Up of Zinc Shower 2015 by Sonar+D">
+                    <p><em>Crowdcrafting by SciFabric</em><br>
+                    wins <em>Best Start-Up of Zinc Shower 2015 award</em> by <strong>Sonar+D</strong></em></p>
+                    <p><a href="/blog/2015/06/19/Jamendo.html">Read more</a></p>
+                </div>
+
+
+                <div class="bignews-banner">
+                    <img src="{{site.cdn}}/assets/img/press/nominet_trust_100_2014_winner.png" width="100" height="90" alt="Nominet Trust 100 2014 Winner">
+                    <p><em>Crowdcrafting: our PYBOSSA hosted service</em><br>
+                    wins a <em>2014 Nominet Trust 100 Award</em> by
+                    <strong>SocialTech</strong></p>
+                    <p><a href="http://socialtech.org.uk/nominet-trust-100/">See all Nominet Trust 100 projects</a></p>
+                </div>
+
+
+                <h2 class="title is-2 has-text-primary highlight" style="margin-top: 50px;">Featured on Press</h2>
+                <p>During its eight years, Crowcrafting capture the attention of
+                international press. We were featured in the home page of NASA,
+                as well as on the Discovery Magazine, National Geographic, El
+                País, Nature, <a href="/press">etc.</a> Here you have a few
+                examples of those articles:</p>
+                <ul class="as-seen-on screens">
+                    {% for post in site.categories.press %}
+                    {% if post.featured and post.source != 'SocialTech'%}
+                    <li class="featured col-md-4 col-sm-4 wow fadeInUp" style="margin-bottom: 20px;">
+                        <a class="hidden-xs" href="{{post.link}}"><img src="{{site.cdn}}/assets/img/press/{{post.featured_img}}" alt="{{post.author}}" width="100%"/></a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<style>.embed-container { margin-bottom: 50px; margin-top: 50px; position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.bignews-banner p,
+.bignews-banner p > a {
+    font-weight: 400 !important;
+}
+.bignews-banner p > strong {
+    color: white !important;
+}
+
+</style>

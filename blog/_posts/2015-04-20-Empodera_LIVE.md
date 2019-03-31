@@ -21,7 +21,7 @@ In sunny Málaga in southern Spain. We were privileged to be hosted in one of th
 
 ## What were the key messages of your presentation?
 
-I talked about Citizen Science and how citizens are helping to shape the future of science, and argued that science affects all of us, and needs all of us. I presented several [PyBossa](http://pybossa.com/)-powered projects hosted in [Crowdcrafting](http://crowdcrafting.org/) to showcase how citizens can take action to make our world a better place. For example, at Crowdcrafting you can [fight the tiger mosquito](http://crowdcrafting.org/project/Tigafotos/) or [light pollution](http://crowdcrafting.org/project/LostAtNight/) from the comfort of your own sofa.
+I talked about Citizen Science and how citizens are helping to shape the future of science, and argued that science affects all of us, and needs all of us. I presented several [PyBossa](http://pybossa.com/)-powered projects hosted in [Crowdcrafting](/crowdcrafting) to showcase how citizens can take action to make our world a better place. For example, at Crowdcrafting you can [fight the tiger mosquito](/crowdcrafting) or [light pollution](/crowdcrafting) from the comfort of your own sofa.
 
 ## Did anyone ask any tricky questions?
 

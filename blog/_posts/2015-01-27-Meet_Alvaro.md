@@ -53,11 +53,11 @@ I feel very excited. I am really happy about being part of this team because I t
 
 **What will be your first task at PyBossa?**
 
-The first thing is to put myself on the team page so that everyone knows where I am working! After that I have lots to learn before I can start help to make PyBossa and [Crowdcrafting](http://crowdcrafting.org/) even better.
+The first thing is to put myself on the team page so that everyone knows where I am working! After that I have lots to learn before I can start help to make PyBossa and [Crowdcrafting](/crowdcrafting) even better.
 
 **What is your favourite Crowdcrafting project?**
 
-I love the [Open Oil Project](http://crowdcrafting.org/app/openoil/) which aims to make the oil industry more transparent. I am sure the findings of this project will have a big impact around the world.
+I love the [Open Oil Project](/crowdcrafting) which aims to make the oil industry more transparent. I am sure the findings of this project will have a big impact around the world.
 
 **What excites you most about the job?**
 

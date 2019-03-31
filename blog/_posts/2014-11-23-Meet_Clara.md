@@ -33,11 +33,11 @@ I have degrees in Advertising and Communications and I’m currently studying fo
 
 ## How did you find PyBossa?
 
-In fact, PyBossa found me! I confess I hadn’t heard of the platform earlier this year but a friend put Daniel ([PyBossa’s CEO](http://daniellombrana.es/)) and I in touch. As soon as I found out more about the PyBossa and [Crowdcrafting](http://crowdcrafting.org/), I fell for them and thought that the Community Manger role was a great chance to love what I do for a living again. I honestly feel very lucky to have become a part of the team :)
+In fact, PyBossa found me! I confess I hadn’t heard of the platform earlier this year but a friend put Daniel ([PyBossa’s CEO](http://daniellombrana.es/)) and I in touch. As soon as I found out more about the PyBossa and [Crowdcrafting](/crowdcrafting), I fell for them and thought that the Community Manger role was a great chance to love what I do for a living again. I honestly feel very lucky to have become a part of the team :)
 
 ## What is your favourite Crowdcrafting project?
 
-[Tigafotos](http://crowdcrafting.org/app/Tigafotos/) and the [Lichens](http://crowdcrafting.org/app/airquality/). From my non-scientific perspective, I see them as really fun games. I like the way you have to classify the pictures – it’s addictive. They’re my ‘*not-wasting-my-time*’ Candy Crush.
+[Tigafotos](/crowdcrafting) and the [Lichens](/crowdcrafting). From my non-scientific perspective, I see them as really fun games. I like the way you have to classify the pictures – it’s addictive. They’re my ‘*not-wasting-my-time*’ Candy Crush.
 
 ![alttext]({{site.cdn}}/assets/img/blog/Mosquito.jpg "Courtesy of Sanofu Pasteur")
 <p class="post-caption">Photo by <a href="https://www.flickr.com/photos/sanofi-pasteur/5284040324/in/photolist-aUew3i-7qZkej-p5XdjJ-5f7FGA-7uEr1b-6dh4k6-gTXJFu-7RY1TQ-inhtKE-93T2e4-9ZwSyJ-cveRHb-ajXVh1-dfFvP-8roaxA-eeVVsU-gakv7b-93W66w-dY2U27-e2AaMZ-4eVCHg-gyied3-9jHyK-AgXgc-6P7nnz-69Nd9y-7Cq7NA-gTv4nn-e8Cnfk-7HGzhQ-Vkpt-jEboS-5sWvqZ-gak5yJ-53GFdA-3hPu3c-dfFnM-2ynDf-adeXVQ-nYMSDk-eRJgjD-obpRb8-cTJ6P-Cv41T-4BuPcd-kETJWH-fWkWC-6rX2x9-6wAZYv-dPrmk4">Sanofi Pasteur</a> Yup, that's a tiger mosquito.</p>

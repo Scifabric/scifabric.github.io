@@ -13,7 +13,7 @@ keywords: crowdsourcing, crowdcrafting, PyBossa, open, source, science, citizen,
 
 Welcome to the fourth and final installation of our ‘Brain vs. Processor’ blog series.  We’ve been highlighting that, whilst computers are awesome and all, humans are still much better at performing certain cognitive tasks. 
 
-In the first three parts of the series we have considered how adept the brain is at [image pattern recognition](/blog/2015/04/02/Image_Pattern_Recognition.html), [sound pattern recognition](/blog/2015/05/10/Sound_Pattern_Recognition.html) and [extracting information from data sets](/blog/2015/09/07/Data-mining.html). This blog post is about how [Crowdcrafting](http://crowdcrafting.org/) can be used to tap into volunteers’ ability to spot patterns in moving images.
+In the first three parts of the series we have considered how adept the brain is at [image pattern recognition](/blog/2015/04/02/Image_Pattern_Recognition.html), [sound pattern recognition](/blog/2015/05/10/Sound_Pattern_Recognition.html) and [extracting information from data sets](/blog/2015/09/07/Data-mining.html). This blog post is about how [Crowdcrafting](/crowdcrafting) can be used to tap into volunteers’ ability to spot patterns in moving images.
 
 ## Moving image analysis
 
@@ -33,13 +33,13 @@ Video clips can be easily imported into a project using Crowdcrafting’s [Dropb
 
 We have some great projects employing this functionality. 
 
-[Project Video GeoClicker](http://crowdcrafting.org/project/MM_VideoGeoClicker/), developed by the [Citizen Cyberscience Centre](http://www.citizencyberscience.net/) and the [Digital Humanitarian Network](http://digitalhumanitarians.com/), acts in the aftermath of disasters. Critical information about disasters is often captured in videos, then shared on Twitter. The project asks volunteers to find out where videos were recorded. This may be mentioned in the corresponding tweet or, if not, may be deduced from clues in the video. This information helps response teams identify where need is highest.
+[Project Video GeoClicker](/crowdcrafting), developed by the [Citizen Cyberscience Centre](http://www.citizencyberscience.net/) and the [Digital Humanitarian Network](http://digitalhumanitarians.com/), acts in the aftermath of disasters. Critical information about disasters is often captured in videos, then shared on Twitter. The project asks volunteers to find out where videos were recorded. This may be mentioned in the corresponding tweet or, if not, may be deduced from clues in the video. This information helps response teams identify where need is highest.
 
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/be0fZsFacdc' frameborder='0' allowfullscreen></iframe></div>
 
 
-Similarly, the [Oklahoma City Tornado Damage](http://crowdcrafting.org/project/oklahomacityTornado/) project asked crafters to identify the location and scale of damage recorded in photographs and video clips in the aftermath of a severe tornado in Oklahoma in 2013. This helped local authorities plan their response.
+Similarly, the [Oklahoma City Tornado Damage](/crowdcrafting) project asked crafters to identify the location and scale of damage recorded in photographs and video clips in the aftermath of a severe tornado in Oklahoma in 2013. This helped local authorities plan their response.
 
 We think video pattern recognition could also be used to identify moving animals, observe trends on city streets or perhaps track the growth of cellular life forms observed in time-lapsed videos taken by a microscope. 
 
@@ -47,4 +47,4 @@ If you’re using the platform for video pattern recognition please let us know 
 
 ## Give it a go!
 
-If you think video pattern recognition crowdsourcing is a useful tool for you, then give it a go on [Crowdcrafting](http://crowdcrafting.org/). If you need some advice to set-up your project please contact us: info@scifabric.com.
+If you think video pattern recognition crowdsourcing is a useful tool for you, then give it a go on [Crowdcrafting](/crowdcrafting). If you need some advice to set-up your project please contact us: info@scifabric.com.

@@ -11,7 +11,7 @@ keywords: analysis, statistics, pybossa, ipython, open science
 ---
 
 Up to now if you have created your own application in your [PyBossa server](http://daniellombrana.es/pybossa.html) or
-in [Crowdcrafting](http://crowdcrafting.org) you have to create your own library or script to download the results
+in [Crowdcrafting](/crowdcrafting) you have to create your own library or script to download the results
 from the server and process them.
 
 PyBossa provides links for every application to download the tasks and task runs in a CSV file or in JSON (if you want
@@ -65,7 +65,7 @@ the [Ipython Notebook viewer](http://nbviewer.ipython.org).
 This integration is **amazing**. Now you can not only share your study, you can also get feedback and patches on your notebook,
 tweet about it, and improve it over time because you can save the notebook as a [Github Gist](https://gist.github.com/).
 
-In order to show how awesome is this feature, I have created a simple notebook to analyze the [Crowdcrafting Video Pattern Recognition application](http://crowdcrafting.org/app/vimeo/).
+In order to show how awesome is this feature, I have created a simple notebook to analyze the [Crowdcrafting Video Pattern Recognition application](/crowdcrafting).
 
 The Gist is available [here](https://gist.github.com/teleyinex/7991086), and you can directly view it [here](http://nbviewer.ipython.org/gist/teleyinex/7991086).
 

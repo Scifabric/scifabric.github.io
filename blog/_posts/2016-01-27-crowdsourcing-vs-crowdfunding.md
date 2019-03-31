@@ -32,11 +32,11 @@ We’ve established that ‘crowdsourcing’  is the transfer of work to the onl
 
 This involves breaking a project up into lots of small, well-defined tasks that many different people complete. This allows large data sets to be analysed by lots of people in a short period of time, which is both cost effective and efficient. This is the type of crowdsourcing that most closely aligns with what we do here at SciFabric. Examples include:
 
-**[Cities at Night](https://crowdcrafting.org/project/nightcitiesiss/)** – volunteers identify and geolocate cities in photographs taken by astronauts on the International Space Station (see our [case study](http://scifabric.com/success-stories/citiesatnight/)).
+**[Cities at Night](/crowdcrafting)** – volunteers identify and geolocate cities in photographs taken by astronauts on the International Space Station (see our [case study](http://scifabric.com/success-stories/citiesatnight/)).
 
 **[Micropasts](http://micropasts.org/)** – volunteers draw outlines around bronze age artefacts as the first step in producing accurate 3D models (see our [case study](http://scifabric.com/success-stories/micropasts/)).
 
-**[Open Oil](http://crowdcrafting.org/project/openoil/)** – the crowd reviews and extracts key information from thousands of publicly available contracts between oil companies in order to provide a better understanding of how the industry operates (see our [blog post](http://scifabric.com/blog/2015/09/08/Open-Oil.html)).
+**[Open Oil](/crowdcrafting)** – the crowd reviews and extracts key information from thousands of publicly available contracts between oil companies in order to provide a better understanding of how the industry operates (see our [blog post](http://scifabric.com/blog/2015/09/08/Open-Oil.html)).
 
 ![alttext]({{site.cdn}}/assets/img/blog/city.jpg "A City at Night")
 <p class="post-caption">Photo by <a href="https://www.nasa.gov/centers/johnson/home/">NASA</a> A city at night... but which one?</p>
@@ -102,7 +102,7 @@ This is the charitable model, in which people make contributions without any exp
 
 So what exactly do we do at [SciFabric](http://scifabric.com/)? 
 
-Well we prefer to call it, not crowdsourcing, but crowdcrafting (hence the name of our [easy-to-use platform](http://crowdcrafting.org/)). Traditional microtasking usually involves large institutes or organisations asking lots of people to complete tasks. But our [PyBossa](http://pybossa.com/) software and [Crowdcrafting](http://crowdcrafting.org/) platform provide open source tools that ANYONE can use to set up research projects, define (micro)tasks and collect/analyse lots of data. This is a ‘bottom-up’ (as opposed to ‘top-down’) approach that connects people directly to the research process. It allows everyone to [be their own research platform](http://scifabric.com/).
+Well we prefer to call it, not crowdsourcing, but crowdcrafting (hence the name of our [easy-to-use platform](/crowdcrafting)). Traditional microtasking usually involves large institutes or organisations asking lots of people to complete tasks. But our [PyBossa](http://pybossa.com/) software and [Crowdcrafting](/crowdcrafting) platform provide open source tools that ANYONE can use to set up research projects, define (micro)tasks and collect/analyse lots of data. This is a ‘bottom-up’ (as opposed to ‘top-down’) approach that connects people directly to the research process. It allows everyone to [be their own research platform](http://scifabric.com/).
 
 ## Get it?
 

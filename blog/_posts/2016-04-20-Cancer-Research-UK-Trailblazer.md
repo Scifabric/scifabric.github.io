@@ -102,6 +102,6 @@ Find out more about Cancer Research UK's citizen science activities in its
   [Tech Radar](http://www.techradar.com/news/phone-and-communications/mobile-phones/gaming-for-the-cure-players-complete-6-months-of-cancer-analysis-in-a-month-1233862)
    and [Oxford Mail](http://www.oxfordmail.co.uk/news/13407600.Smartphone_game_leads_to_a_top_award_for_cancer_scientist/).
 
-Please note the Trailblazer project will soon be hosted on [Crowdcrafting](http://crowdcrafting.org/). Watch out on [Twitter](https://twitter.com/scifabric) for when it goes live!
+Please note the Trailblazer project will soon be hosted on [Crowdcrafting](/crowdcrafting). Watch out on [Twitter](https://twitter.com/scifabric) for when it goes live!
 
 **UPDATE**: The demo is live! Go and check it: [Trailblazer demo project](http://cancer.pybossa.com).

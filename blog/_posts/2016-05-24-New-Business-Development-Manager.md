@@ -89,7 +89,7 @@ Probably an intensive course in coding – eeeek!
 
 ## What are you most excited about?
  
-The idea of Scifabric, PyBossa and [Crowdcrafting](https://crowdcrafting.org/) helping people – directly or indirectly.
+The idea of Scifabric, PyBossa and [Crowdcrafting](/crowdcrafting) helping people – directly or indirectly.
 
 ## What do you think Scifabric can achieve as a company?
  

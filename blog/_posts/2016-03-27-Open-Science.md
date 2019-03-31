@@ -79,7 +79,7 @@ This greater level of scrutiny encourages scientists to focus on quality
 ## SciFabric’s view
 
 We are staunch advocates of Open Science at SciFabric, and its philosophy underlies what we do. 
-We provide open source solutions ([PyBossa](http://pybossa.com/) and [Crowdcrafting](http://crowdcrafting.org/)) that allow anyone to build their own research projects. 
+We provide open source solutions ([PyBossa](http://pybossa.com/) and [Crowdcrafting](/crowdcrafting)) that allow anyone to build their own research projects. 
 We strongly encourage our users to make their data open and provide tools to widely disseminate findings to the community.
 
 ## Why does it matter?

@@ -11,15 +11,15 @@ author: jimmyd
 keywords: crowdsourcing, crowdcrafting, PyBossa, open, source, science, citizen, opensource, Malaraia, Kenya, Malawi, HDSS, Field Study 
 ---
 
-[Nicolas Maire](http://www.swisstph.ch/about-us/staff/detailview.html?tx_x4epersdb_pi1%5BshowUid%5D=2065&cHash=d980399c892948e5cc6b3be4e43272a6) of the [Swiss Tropical and Public Health Institute](http://www.swisstph.ch/) tells James Doherty how his team is using *[Crowdcrafting.org](http://crowdcrafting.org/)* to help fight Malaria in Africa.
+[Nicolas Maire](http://www.swisstph.ch/about-us/staff/detailview.html?tx_x4epersdb_pi1%5BshowUid%5D=2065&cHash=d980399c892948e5cc6b3be4e43272a6) of the [Swiss Tropical and Public Health Institute](http://www.swisstph.ch/) tells James Doherty how his team is using *[Crowdcrafting.org](/crowdcrafting)* to help fight Malaria in Africa.
 
 ## So what is Rural Geolocator?
 
-[Rural Geolocator](http://crowdcrafting.org/app/RuralGeolocator/) is a project hosted by [Crowdcrafting](http://crowdcrafting.org/) which asks the public to identify houses in satellite images, currently of two locations in Africa: Rusinga Island in Lake Victoria, Kenya and Majete Wildlife Reserve in Malawi.
+[Rural Geolocator](/crowdcrafting) is a project hosted by [Crowdcrafting](/crowdcrafting) which asks the public to identify houses in satellite images, currently of two locations in Africa: Rusinga Island in Lake Victoria, Kenya and Majete Wildlife Reserve in Malawi.
 
 ## Why is that useful?
 
-Field teams trying to stop the spread of [Malaria](http://en.wikipedia.org/wiki/Malaria) need to deliver technologies and advice to indigenous populations to prevent them from contracting the disease. To deliver these tools, the teams need to know where people live. While they try their best to visit everyone, inevitably they miss some people out who, perhaps, live in remote areas which are difficult to access. [Rural Geolocator](http://crowdcrafting.org/app/RuralGeolocator/) helps to ensure that the field teams can visit everyone in a particular district.
+Field teams trying to stop the spread of [Malaria](http://en.wikipedia.org/wiki/Malaria) need to deliver technologies and advice to indigenous populations to prevent them from contracting the disease. To deliver these tools, the teams need to know where people live. While they try their best to visit everyone, inevitably they miss some people out who, perhaps, live in remote areas which are difficult to access. [Rural Geolocator](/crowdcrafting) helps to ensure that the field teams can visit everyone in a particular district.
 
 ## How did a Swiss scientist get involved with fighting Malaria in far-flung Africa?
 
@@ -49,4 +49,4 @@ An unexpected bonus of using Crowdcrafting has been the outreach achieved – lo
 
 Our volunteers have already invested a lot of time and effort collecting data sets for the Rusinga and Majete projects so the first thing to do is analyse them. We will create maps of potentially inhabitable structures to overlay maps of houses visited by the field teams which will help to identify missed households. Ultimately we hope that using satellite imagery and crowdsourcing will greatly improve our data to guide both field research and the implementation of malaria control measures.
 
-*Want to help field workers in Africa fight  Malaria? Here's your chance: [Rural Geolocator](http://crowdcrafting.org/app/RuralGeolocator/)*
+*Want to help field workers in Africa fight  Malaria? Here's your chance: [Rural Geolocator](/crowdcrafting)*

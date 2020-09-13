@@ -34,7 +34,7 @@ To improve transparency, journalists wanted to create an open, machine-readable 
 
 Guardian readers transcribed the entire pecuniary interest register in less than three weeks. Around 50 contributors completed more that 1,700 tasks and flagged entries that warranted further investigation. The resulting database may be [viewed here](http://www.theguardian.com/global/datablog/ng-interactive/2015/mar/27/search-the-nsw-register-of-pecuniary-interests-to-see-what-politicians-have-declared#results/Casuscelli/Charles).
 
-![alttext]({{site.cdn}}/assets/img/blog/Guardian.png "NSW pecuniary interests scorboard")
+![alttext](/assets/img/blog/Guardian.png "NSW pecuniary interests scorboard")
 <p class="post-caption">Photo by <a href="http://www.theguardian.com/profile/nick-evershed">Nick Evershed</a> A ?</p>
 
 ## Analysis

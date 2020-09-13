@@ -40,7 +40,7 @@ In the 11th century, when Madrid was under Arabic rule, the city was under siege
 
 Well, I have studied photography, communications and web design, and worked as a photographer, graphic designer and web designer. Last year I finished a course on digital product design at La Nave Nodriza. And now I have started working as a UX designer.
 
-![alttext]({{site.cdn}}/assets/img/blog/alvaro.jpg "Courtesy of Álvaro Suárez Pérez")
+![alttext](/assets/img/blog/alvaro.jpg "Courtesy of Álvaro Suárez Pérez")
 <p class="post-caption">Photo by <a href="http://www.alvarosuarez.com/">Álvaro Suárez Pérez</a> A very tasteful selfie.</p>
 
 **What does a UX designer do exactly?**
@@ -79,5 +79,5 @@ I think it’s time to terminate the interview.
 
 **Agreed.**
 
-![alttext]({{site.cdn}}/assets/img/blog/Asia2.jpeg "Courtesy of Álvaro Suárez Pérez")
+![alttext](/assets/img/blog/Asia2.jpeg "Courtesy of Álvaro Suárez Pérez")
 <p class="post-caption">Photo by <a href="http://www.alvarosuarez.com/">Álvaro Suárez Pérez</a> Nǐ hǎo.</p>

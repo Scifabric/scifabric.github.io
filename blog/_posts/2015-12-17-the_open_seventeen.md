@@ -13,7 +13,7 @@ keywords: crowdsourcing, crowdcrafting, PyBossa, open, source, science, citizen,
 
 In September 2015, world leaders committed to 17 global goals that aim to end extreme poverty, fight inequality & injustice, and fix climate change by 2030. These goals address a range of challenges for sustainable development including hunger, education, inequality, energy, climate change and justice.
 
-![alttext]({{site.cdn}}/assets/img/blog/Open17.jpg "The Open Seventeen")
+![alttext](/assets/img/blog/Open17.jpg "The Open Seventeen")
 <p class="post-caption">Photo by <a href="http://openseventeen.org/">The Open Seventeen</a> Seventeen challenges.</p>
 
 ## How you can help
@@ -32,7 +32,7 @@ Projects can be set up in three easy steps. First, identify a set of open public
 
 Three pitches will be chosen and offered support & guidance to set up their proposed projects. The [Govlab Academy](http://govlabacademy.org/) will help participants develop the project from idea to implementation. [SciFabric](http://scifabric.com/) will help build the project on the [Crowdcrafting](/crowdcrafting) platform. And the [One Campaign](http://www.one.org/international/) will profile the winning project at international events.
 
-![Mozilla Festival]({{site.cdn}}/assets/img/blog/OpenMoz.JPG "James Doherty")
+![Mozilla Festival](/assets/img/blog/OpenMoz.JPG "James Doherty")
 <p class="post-caption">Photo by <a href="http://scifabric.com/team/">James Doherty</a> The Open Seventeen team brainstormed projects with participants at the "Tackling Sustainable Development with Citizen Science on the Web" session at Mozilla Festival in London (November 2015).</p>
 
 

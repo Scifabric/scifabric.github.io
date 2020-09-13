@@ -12,12 +12,12 @@
         <link rel="stylesheet" href="/css/newdefault.css">
         {% if layout.css %}
             {% for css in layout.css %}
-            <link href="{{site.cdn}}/css/{{css}}.css" rel="stylesheet">
+            <link href="/css/{{css}}.css" rel="stylesheet">
             {% endfor %}
         {% endif %}
         {% if page.css %}
             {% for css in page.css %}
-            <link href="{{site.cdn}}/css/{{css}}.css" rel="stylesheet">
+            <link href="/css/{{css}}.css" rel="stylesheet">
             {% endfor %}
         {% endif %}
 

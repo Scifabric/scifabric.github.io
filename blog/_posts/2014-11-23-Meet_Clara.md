@@ -39,7 +39,7 @@ In fact, PyBossa found me! I confess I hadn’t heard of the platform earlier th
 
 [Tigafotos](/crowdcrafting) and the [Lichens](/crowdcrafting). From my non-scientific perspective, I see them as really fun games. I like the way you have to classify the pictures – it’s addictive. They’re my ‘*not-wasting-my-time*’ Candy Crush.
 
-![alttext]({{site.cdn}}/assets/img/blog/Mosquito.jpg "Courtesy of Sanofu Pasteur")
+![alttext](/assets/img/blog/Mosquito.jpg "Courtesy of Sanofu Pasteur")
 <p class="post-caption">Photo by <a href="https://www.flickr.com/photos/sanofi-pasteur/5284040324/in/photolist-aUew3i-7qZkej-p5XdjJ-5f7FGA-7uEr1b-6dh4k6-gTXJFu-7RY1TQ-inhtKE-93T2e4-9ZwSyJ-cveRHb-ajXVh1-dfFvP-8roaxA-eeVVsU-gakv7b-93W66w-dY2U27-e2AaMZ-4eVCHg-gyied3-9jHyK-AgXgc-6P7nnz-69Nd9y-7Cq7NA-gTv4nn-e8Cnfk-7HGzhQ-Vkpt-jEboS-5sWvqZ-gak5yJ-53GFdA-3hPu3c-dfFnM-2ynDf-adeXVQ-nYMSDk-eRJgjD-obpRb8-cTJ6P-Cv41T-4BuPcd-kETJWH-fWkWC-6rX2x9-6wAZYv-dPrmk4">Sanofi Pasteur</a> Yup, that's a tiger mosquito.</p>
 
 ## What will your role involve?
@@ -58,7 +58,7 @@ Well, I’m trying to sneak PyBossa/Crowdcrafting into a prime time TV show here
 
 I think Crowdcrafting has the potential to become something BIG. My purpose is to get people like me, who are not part of the science community, to discover Crowdcrafting and become collaborators.  It’s like Dr Frankenstein giving life to his creature, MWAHAHA! (thunder).
 
-![alttext]({{site.cdn}}/assets/img/blog/Clara.jpg "Courtesy of Clara Sánchez-Puga")
+![alttext](/assets/img/blog/Clara.jpg "Courtesy of Clara Sánchez-Puga")
 <p class="post-caption">Photo by <a href="https://plus.google.com/102588411036148947811/posts">Clara Sánchez-Puga</a> PyBossa's very own Dr Frankenstein.</p>
 
 Thanks for interviewing me James!

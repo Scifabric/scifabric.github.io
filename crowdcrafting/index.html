@@ -74,7 +74,7 @@ css: press
                     Awards</h2>
 
                 <div class="bignews-banner">
-                    <img src="{{site.cdn}}/assets/img/press/prixarts.png" width="100" alt="Honorary Mention Prix Ars Electronica 2016">
+                    <img src="/assets/img/press/prixarts.png" width="100" alt="Honorary Mention Prix Ars Electronica 2016">
                     <p><em>Crowdcrafting by SciFabric</em><br>
                     wins <em>Honorary Mention</em> by <strong style="color: white;">Prix Ars Electronica</strong></em></p>
                     <p><a href="http://prix2016.aec.at/prixwinner/18190/">Read more</a></p>
@@ -82,7 +82,7 @@ css: press
 
 
                 <div class="bignews-banner">
-                    <img src="{{site.cdn}}/assets/img/press/zincshower.png" width="100" height="90" alt="Best Start-Up of Zinc Shower 2015 by Sonar+D">
+                    <img src="/assets/img/press/zincshower.png" width="100" height="90" alt="Best Start-Up of Zinc Shower 2015 by Sonar+D">
                     <p><em>Crowdcrafting by SciFabric</em><br>
                     wins <em>Best Start-Up of Zinc Shower 2015 award</em> by <strong>Sonar+D</strong></em></p>
                     <p><a href="/blog/2015/06/19/Jamendo.html">Read more</a></p>
@@ -90,7 +90,7 @@ css: press
 
 
                 <div class="bignews-banner">
-                    <img src="{{site.cdn}}/assets/img/press/nominet_trust_100_2014_winner.png" width="100" height="90" alt="Nominet Trust 100 2014 Winner">
+                    <img src="/assets/img/press/nominet_trust_100_2014_winner.png" width="100" height="90" alt="Nominet Trust 100 2014 Winner">
                     <p><em>Crowdcrafting: our PYBOSSA hosted service</em><br>
                     wins a <em>2014 Nominet Trust 100 Award</em> by
                     <strong>SocialTech</strong></p>
@@ -108,7 +108,7 @@ css: press
                     {% for post in site.categories.press %}
                     {% if post.featured and post.source != 'SocialTech'%}
                     <li class="featured col-md-4 col-sm-4 wow fadeInUp" style="margin-bottom: 20px;">
-                        <a class="hidden-xs" href="{{post.link}}"><img src="{{site.cdn}}/assets/img/press/{{post.featured_img}}" alt="{{post.author}}" width="100%"/></a>
+                        <a class="hidden-xs" href="{{post.link}}"><img src="/assets/img/press/{{post.featured_img}}" alt="{{post.author}}" width="100%"/></a>
                     </li>
                     {% endif %}
                     {% endfor %}

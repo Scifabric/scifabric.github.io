@@ -28,7 +28,7 @@ worldwide have been overfished and over 90% of the world’s fisheries are fully
 over-fished according to a 2014 UN report. Global fishing fleets operate far out at sea and 
 their activities are extremely difficult to monitor.
 
-![Speakers]({{site.cdn}}/assets/img/blog/fishboat.jpeg)
+![Speakers](/assets/img/blog/fishboat.jpeg)
 <p class="post-caption">Operating in remote locations, vessels are difficult to track. Photo by <a href="https://hd.unsplash.com/photo-1414664185034-a2cbe0e1605f/">Marius Fiskum</a>.</p>
 
 
@@ -39,7 +39,7 @@ which periodically broadcasts a vessel’s location and identity. The system was
 however, satellites can use these signals to track the movements of large fishing vessels. 
 “If you can see it, you can change it” states David Kroodsma, GFW’s Research Program Manager.
 
-![Speakers]({{site.cdn}}/assets/img/blog/skytruth-gfw-world_atlantic-1138x640.gif)
+![Speakers](/assets/img/blog/skytruth-gfw-world_atlantic-1138x640.gif)
 <p class="post-caption">A global view of fishing vessels in 2012. Image by <a href="http://globalfishingwatch.org/">SkyTruth</a>.</p>
 
 GFW provides an interactive web tool that will allow anyone with an internet connection to 
@@ -57,7 +57,7 @@ challenges of any Big Data exercise: wrangling and cleaning the data to extract 
 Thirdly, we need to determine from the movement of a vessel whether or not it is fishing. This is a pattern 
 recognition problem and so input from citizens is really useful.”
 
-![Speakers]({{site.cdn}}/assets/img/blog/skytruth-gfw-russian_trawler-1138x640.gif)
+![Speakers](/assets/img/blog/skytruth-gfw-russian_trawler-1138x640.gif)
 <p class="post-caption">Is this Russion trawler off the cost of Namibia displaying 'fishing-like behaviour'? Image by <a href="http://globalfishingwatch.org/">SkyTruth</a>.</p>
 
 ## Why PYBOSSA?

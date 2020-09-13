@@ -33,7 +33,7 @@ We have some awesome projects making the most of these capabilities.
  
 The [Open Oil](http://openoil.net/) project wants to make the oil industry more transparent. Oil conglomerates can be made up of hundreds of companies related by a complex web of contracts. Regulation often requires that the contracts be made publicly available but nevertheless understanding the industry as a whole is a massive challenge. [Open Oil](http://openoil.net/) uploads contracts into their own [Crowdcrafting project](/crowdcrafting) and asks volunteers to extract key pieces of information. This will help the team gain a better understanding of how the industry works.
 
-![alttext]({{site.cdn}}/assets/img/blog/OilSunset.jpg "Pete Markham")
+![alttext](/assets/img/blog/OilSunset.jpg "Pete Markham")
 <p class="post-caption">Photo by <a href="https://www.flickr.com/photos/pmarkham/15239838875/in/photolist-pdGa9F-fAvxEi-71K9Q8-wHSCbR-5zmEbT-weBXfX-cj2RnA-aQaLwt-aF3BRB-9VhRZP-9V6tx4-pqarNg-ggofYY-qDTCi-qDTyp-67eXv4-wiwiW-6FkGU5-6tvHay-bXhiYh-8Eiz5y-pFTsmT-b1kzEx-ggofKb-9kfA6B-71Pb5L-9Z7pN3-71Karr-9UuMh3-6ZQvDd-6tK5TM-72zFcj-wHSxMR-pFTs98-6trCak-7deMVi-5TEhqr-7Dv9R5-oWcmq7-aAJWSh-aAJWGb-aAGd7g-7ZxVc-roBiy-tQ7d8r-4YkeaK-6EG8oP-wY3zGA-wY3A5u-wHSARX">Pete Markham</a> Has the sun set on secrecy in the oil industry?</p>
 
 Follow Open Oil on [Twitter](https://twitter.com/Open_Oil).
@@ -46,7 +46,7 @@ In the [Héraðsdómar - sýknað eða sakfellt](/crowdcrafting) project, Icelan
 
 [LibCrowds](http://www.libcrowds.com/) is a new crowdsourcing platform that aims to make the physical and digital collections of the [British Library](http://www.bl.uk/) more accessible. Its maiden project – [Convert-a-Card](http://www.libcrowds.com/project/category/convert-a-card/) – asks volunteers to transcribe text from printed card catalogues into electronic records in order to make them available to a worldwide audience. The project is initially focused on the library's Asian and African collections, particularly the Chinese and Indian catalogues. Data identified, transcribed or translated as part of the project will be freely accessible from the British Library's [Explore](http://explore.bl.uk/primo_library/libweb/action/search.do?dscnt=1&dstmp=1437390432340&vid=BLVU1&fromLogin=true) catalogue.
 
-![alttext]({{site.cdn}}/assets/img/blog/IndexCards.jpg "Courtesy of Asmund")
+![alttext](/assets/img/blog/IndexCards.jpg "Courtesy of Asmund")
 <p class="post-caption">Photo by <a href="https://www.flickr.com/photos/aasmund/5993042392/in/photolist-7XcTiQ-aEDMSr-AZmBP-a8zUH7-hT9z3h-mVG2p-eKApQ-7c4zmn-2SsHds-e3v2p-62GZsv-dTWkg-69xbpZ-9tRn2x-6Y64Dj-7GjptE-8PQRst-6rp3Eb-2mP3PU-5VkjyT-hvCx9">Asmund</a> Indexed cards.</p>
 
 Follow [LibCrowds](https://twitter.com/LibCrowds) and the [British Library](https://twitter.com/britishlibrary) on Twitter.

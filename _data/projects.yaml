@@ -59,8 +59,10 @@ Since the platform was launched in May 2018, and in just a month more than 3,000
         title: Trailblazer demo video
       - link: http://www.cancerresearchuk.org/support-us/citizen-science/the-projects
         title: CRUK Citizen Science
-      - link: http://www.nature.com/bjc/journal/v116/n2/full/bjc2016404a.html
+      - link: https://www.nature.com/articles/bjc2016404
         title: Academic paper
+      - link: https://www.nature.com/articles/bjc2016404.pdf
+        title: PDF Academic paper
 
   starting_point: "<p>Cancer is one of mankind’s most prolific killers. Lung, trachea and bronchus cancers caused 1.7 million deaths worldwide in 2015. It is estimated that there will be 23.6 million new cases of cancer each year by 2030. Cancer Research UK (CRUK) has been investigating how crowdsourcing might help in the fight against cancer, particularly in the accurate identification of cancer cells in tissue samples. CRUK found that citizen scientists struggled with distinguishing between different types of cells in images. They wanted to find out if it would be possible to boost accuracy, and enable people to analyse more complicated samples, with enhanced training and by providing more feedback to citizens.
 </p><p><img src='https://scifabric.com/assets/img/blog/CancerTutorial.png'></p>"
@@ -108,7 +110,7 @@ Since the platform was launched in May 2018, and in just a month more than 3,000
   person: nick-evershed.jpg
   cover: theguardian-white.png
   person_name: Nick Evershed
-  person_position: Data and Interactives Editor 
+  person_position: Data and Interactives Editor
   category: Journalism
   project: Pecuniary Interest Register
   client: The Guardian
@@ -165,7 +167,7 @@ Since the platform was launched in May 2018, and in just a month more than 3,000
   person_position: Research Program Manager
   category: social
   project: Global Fishing Watch
-  client: Global Fishing Watch 
+  client: Global Fishing Watch
   client_logo: global-fishing-watch-color.png
   location: USA
   quote: We strongly believe that more transparency of data leads to better outcomes, so philosophically PYBOSSA is a good fit.
@@ -250,7 +252,7 @@ Since the platform was launched in May 2018, and in just a month more than 3,000
         title: Blog
       - link: http://www.quantumdiaries.org/2013/08/08/join-the-dots-to-measure-antimatter/
         title: Blog
-      - link: https://aegis.web.cern.ch/aegis/ 
+      - link: https://aegis.web.cern.ch/aegis/
         title: AEgIS experiment
       - link: https://home.cern/about
         title: CERN

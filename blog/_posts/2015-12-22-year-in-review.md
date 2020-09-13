@@ -169,7 +169,7 @@ This year we have participated in several conferences, workshops and symposiums.
 [EmpoderaLIVE](http://live.empodera.org/) and we helped present the results of Micropasts: a PyBossa
 powered project by the British Museum and University College of London. 
 
-![Spear head 3D printed thanks to PyBossa]({{site.cdn}}/assets/img/blog/spear.jpg)
+![Spear head 3D printed thanks to PyBossa](/assets/img/blog/spear.jpg)
 <p class="post-caption">Spear head 3D printed built thanks to PyBossa powered photomasking projects at Micropasts.</p>
 
 

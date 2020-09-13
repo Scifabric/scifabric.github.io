@@ -29,12 +29,12 @@ Crowdcrafting has a tool specifically for importing images from [Flickr](https:/
 
 Lots of researchers are already using Crowdcrafting to host their image pattern recognition projects. On the environmental front, researchers use Crowdcrafting for identifying and geo-referencing pictures of cities at night taken from the International Space Station ([Cities at Night](/crowdcrafting)), to identify landfill sites ([Landfill Hunter](/crowdcrafting)) and to find fracking sites in satellite images ([SkyTruth Frackfinder](/crowdcrafting)).
 
-![alttext]({{site.cdn}}/assets/img/blog/Carrusel1.jpg "Courtesy of NASA")
+![alttext](/assets/img/blog/Carrusel1.jpg "Courtesy of NASA")
 <p class="post-caption">Photo by <a href="http://eol.jsc.nasa.gov/">NASA</a> Can you spot your city?</p>
 
 Biologists use Crowdcrafting to help them document arthropod interactions ([Arthropod Interactions](/crowdcrafting)), check if Zebra lungs are symmetrical ([Zebra Lungs](/crowdcrafting)) and to identify insects and give them scientific names ([Insect Catalog](/crowdcrafting)). Crowdcrafting can also be used to train a group of volunteers to recognise cancerous melanomas ([Project Melanoma](/crowdcrafting)). 
 
-![alttext]({{site.cdn}}/assets/img/blog/face.png "Courtesy of The Face We Make")
+![alttext](/assets/img/blog/face.png "Courtesy of The Face We Make")
 <p class="post-caption">Photo by <a href="/crowdcrafting">The Face We Make</a> How do you think she feels?</p>
 
 On the humanitarian front, we have projects that aim to pinpoint areas worst affected by natural disasters ([GeotagX](http://geotagx.org/)) and identify ‘potentially habitable structures’ to help in the fight against Malaria ([Rural Geolocator](/crowdcrafting)). We also have projects that aim to classify human facial expressions ([the Face We Make](/crowdcrafting)) and even help to identify Nicholas Cage’s face in photographs ([Nicholas Cage](/crowdcrafting)).

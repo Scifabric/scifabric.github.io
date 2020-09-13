@@ -22,7 +22,7 @@ The *PyBossa* team is extremely excited to launch a brand new version of the *Py
 
 Thanks to developer Jorge Correa, the new *Crowdcrafting* site looks amazing, with a sleek, clean and modern design – so any projects you create will look fabulous.
 
-![alttext]({{site.cdn}}/assets/img/blog/ScreenShot1.png "Our new look.")
+![alttext](/assets/img/blog/ScreenShot1.png "Our new look.")
 
 ### Speed and efficiency
 
@@ -40,7 +40,7 @@ Creating a new project could not be easier – just fill in three fields and you
 
 A strong community is at the heart of every successful crowdsourced project. The new *Crowdcrafting* site provides a community space where users and volunteers can interact and share ideas. This incorporates a new ‘activity feed’ which reports live community action, such as new project creation and blog releases, as they happen. Users can also upload avatars for their projects and profiles for a greater sense of identity.
 
-![alttext]({{site.cdn}}/assets/img/blog/ScreenShot2.png "Crowdcrafting community page.")
+![alttext](/assets/img/blog/ScreenShot2.png "Crowdcrafting community page.")
 
 ### The cloud
 
@@ -54,4 +54,4 @@ A strong community is at the heart of every successful crowdsourced project. The
 
 *Crowdcrafting* has loads of awesome projects running to which you can contribute. If you ever fancied [tracking antimatter particles at CERN](/crowdcrafting), [monitoring light pollution from the International Space Station](/crowdcrafting), [fighting the spread of malaria in Africa](/crowdcrafting), [classifying arthropod interactions](/crowdcrafting) or [helping in the aftermath of a natural disaster](/crowdcrafting) – give [*Crowdcrafting*](/crowdcrafting) a visit.
 
-![alttext]({{site.cdn}}/assets/img/blog/DarkSkies.jpg "A view of Earth from the International Space Station.")
+![alttext](/assets/img/blog/DarkSkies.jpg "A view of Earth from the International Space Station.")

@@ -15,15 +15,15 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
-        <link href="{{site.cdn}}/css/newdefault.css" rel="stylesheet">
+        <link href="/css/newdefault.css" rel="stylesheet">
         {% if layout.css %}
         {% for css in layout.css %}
-        <link href="{{site.cdn}}/css/{{css}}.css" rel="stylesheet">
+        <link href="/css/{{css}}.css" rel="stylesheet">
         {% endfor %}
         {% endif %}
         {% if page.css %}
         {% for css in page.css %}
-        <link href="{{site.cdn}}/css/{{css}}.css" rel="stylesheet">
+        <link href="/css/{{css}}.css" rel="stylesheet">
         {% endfor %}
         {% endif %}
 
@@ -32,22 +32,22 @@
         <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.7/css/swiper.css">-->
         <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.7/css/swiper.min.css">-->
 
-        <link rel="apple-touch-icon" sizes="57x57" href="{{site.cdn}}/images/favicon/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="{{site.cdn}}/images/favicon/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="{{site.cdn}}/images/favicon/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="{{site.cdn}}/images/favicon/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="{{site.cdn}}/images/favicon/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="{{site.cdn}}/images/favicon/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="{{site.cdn}}/images/favicon/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="{{site.cdn}}/images/favicon/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="{{site.cdn}}/images/favicon/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="{{site.cdn}}/images/favicon/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="{{site.cdn}}/images/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="{{site.cdn}}/images/favicon/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="{{site.cdn}}/images/favicon/favicon-16x16.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
         <link rel="manifest" href="/images/favicon/manifest.json">
         <meta name="msapplication-TileColor" content="#1879a0ff">
-        <meta name="msapplication-TileImage" content="{{site.cdn}}/images/favicon/ms-icon-144x144.png">
+        <meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
         <meta name="theme-color" content="#1879a0ff">
 
         <!-- Twitter -->
@@ -56,11 +56,11 @@
         <meta name="twitter:title" content="{{page.title}}" />
         <meta name="twitter:description" content="{{page.description}}" />
         {% if layout.active == "home" or page.active == "home" %}
-        <meta name="twitter:image" content="https:{{site.cdn}}/images/cards/twitter.png?x={{site.time | date: '%s'}}" />
+        <meta name="twitter:image" content="/images/cards/twitter.png?x={{site.time | date: '%s'}}" />
         {% elsif layout.type == 'job' or page.active == "job" %}
-        <meta name="twitter:image" content="https:{{site.cdn}}/assets/img/jobs/{{page.photo}}.jpg?x={{site.time | date: '%s'}}" />
+        <meta name="twitter:image" content="https:/assets/img/jobs/{{page.photo}}.jpg?x={{site.time | date: '%s'}}" />
         {% else %}
-        <meta name="twitter:image" content="https:{{site.cdn}}/assets/img/blog/{{page.photo}}.jpg?x={{site.time | date: '%s'}}" />
+        <meta name="twitter:image" content="https:/assets/img/blog/{{page.photo}}.jpg?x={{site.time | date: '%s'}}" />
         {% endif %}
         <!-- Open Graph -->
         <meta property="og:title" content="{{page.title}}" />
@@ -68,16 +68,16 @@
         <meta property="og:url" content="https://scifabric.com{{page.url}}" />
         <meta property="og:description" content="{{page.description}}"/>
         {% if layout.active == "home" or page.active == "home" %}
-        <meta property="og:image" content="https:{{site.cdn}}/images/cards/opengraph.png?x={{site.time | date: '%s'}}" />
+        <meta property="og:image" content="/images/cards/opengraph.png?x={{site.time | date: '%s'}}" />
         {% elsif layout.type == 'job' or page.active == "job" %}
-        <meta property="og:image" content="https:{{site.cdn}}/assets/img/jobs/{{page.photo}}.jpg?x={{site.time | date: '%s'}}" />
+        <meta property="og:image" content="https:/assets/img/jobs/{{page.photo}}.jpg?x={{site.time | date: '%s'}}" />
         {% else %}
-        <meta property="og:image" content="https:{{site.cdn}}/assets/img/blog/{{page.photo}}.jpg?x={{site.time | date: '%s'}}" />
+        <meta property="og:image" content="https:/assets/img/blog/{{page.photo}}.jpg?x={{site.time | date: '%s'}}" />
         {% endif %}
         <meta property="og:tag" content="crowdsourcing, research, citizenscience" />
         <meta property="fb:page_id" content="907611755994273"/>
 
-        <script src="{{site.cdn}}/js/modernizr.custom.js" type="text/javascript" charset="utf-8"></script>
+        <script src="/js/modernizr.custom.js" type="text/javascript" charset="utf-8"></script>
         {% include hotjar.html %}
         {% include ga.html %}
     </head>

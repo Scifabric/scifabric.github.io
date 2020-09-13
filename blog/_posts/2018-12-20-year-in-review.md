@@ -24,7 +24,7 @@ The project was launched in May, and as of today, more than 900 buildings have b
 
 
 <video controls style="max-width: 300px;" autoplay>
-	<source src="{{site.cdn}}/assets/video/greenpeace.mp4" type="video/mp4">
+	<source src="/assets/video/greenpeace.mp4" type="video/mp4">
 </video>
 
 ## La memoria del Circo

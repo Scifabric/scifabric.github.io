@@ -17,7 +17,7 @@
 - date: Jun 2015
   body: Scifabric is voted <a href="https://scifabric.com/blog/2015/06/19/Jamendo.html">Best Start-up</a> at the Zinc Shower Festival by Sonar+D.
 - date: Jul 2015
-  body: The British Library uses PYBOSSA to gain greater access to both their physical and digital collections. 
+  body: The British Library uses PYBOSSA to gain greater access to both their physical and digital collections.
 - date: Sep 2015
   body: Open Oil uses PYBOSSA to increase transparency in the oil industry.
 - date: Feb 2016
@@ -44,3 +44,5 @@
   body: "British Film Institute launches its <a href='https://contribute.bfi.org.uk/'>crowdsourcing platform</a> using PYBOSSA to geolocalize their films."
 - date: May 2019
   body: "The Spanish Ministry of Culture and Sports recognizes the project <a href='http://www.culturaydeporte.gob.es/cultura-mecd/gl/areas-cultura/industriasculturales/mejores-proyectos-2018/modernizacion/conservacion-arte-digital.html'>Digital Art Drive</a> as one of the best of 2018."
+- date: Aug 2020
+  body: "European Space Agency publishes a <a href='https://www.mdpi.com/2072-4292/12/17/2795'>technical note on Remote Sensing and Citizen Science for Archaeological Prospection using PYBOSSA technology</a>."

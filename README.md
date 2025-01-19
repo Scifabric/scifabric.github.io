@@ -25,3 +25,5 @@ Clear all your ruby gems and start from beginning
 ```
 gem uninstall -aIx
 ```
+
+And that's all.
